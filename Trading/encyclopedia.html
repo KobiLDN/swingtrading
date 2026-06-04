@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="GBP/USD swing trading pattern recognition guide — exact detection rules for candlestick patterns, chart patterns, RSI, MACD, EMA, and signal scoring">
+<title>Encyclopedia — GBP/USD Swing Trading</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script>
+  (function(){
+    var t = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+
+<style>
+  :root {
+    --bg:       #0d0f14;
+    --surface:  #161b22;
+    --surface2: #1e2530;
+    --border:   #2d3748;
+    --text:     #e2e8f0;
+    --muted:    #8892a4;
+    --accent:   #00d4ff;
+    --green:    #22c55e;
+    --red:      #ef4444;
+    --yellow:   #f59e0b;
+    --orange:   #fb923c;
+    --purple:   #a78bfa;
+    --font:     'Inter', sans-serif;
+    --mono:     'JetBrains Mono', monospace;
+    --radius:   8px;
+    --max-w:    960px;
+  }
+  html[data-theme="light"] {
+    --bg:       #f0f4f8;
+    --surface:  #ffffff;
+    --surface2: #e8edf4;
+    --border:   #cbd5e1;
+    --text:     #1a202c;
+    --muted:    #64748b;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: var(--bg); }
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header-inner {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+    gap: 16px;
+  }
+  .header-left { display: flex; flex-direction: column; gap: 1px; }
+  .header-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--accent);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  h1 { font-size: 18px; font-weight: 700; }
+  .header-right { display: flex; align-items: center; gap: 12px; }
+  .back-link {
+    font-size: 12px;
+    color: var(--muted);
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: border-color .15s, color .15s;
+  }
+  .back-link:hover { border-color: var(--accent); color: var(--accent); }
+  .theme-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 5px 10px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 12px;
+    transition: border-color .15s;
+  }
+  .theme-btn:hover { border-color: var(--accent); }
+
+  /* ── Quick nav ── */
+  .quick-nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .quick-nav-inner {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    display: flex;
+    gap: 4px;
+    padding: 8px 0;
+  }
+  .nav-pill {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: var(--muted);
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    text-decoration: none;
+    transition: color .15s, border-color .15s, background .15s;
+    white-space: nowrap;
+  }
+  .nav-pill:hover { color: var(--accent); border-color: var(--accent); background: rgba(0,212,255,.06); }
+
+  /* ── Main ── */
+  .container {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* ── Section cards ── */
+  .section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface2);
+  }
+  .section-num {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    background: rgba(0,212,255,.1);
+    border: 1px solid rgba(0,212,255,.2);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .section-title { font-size: 15px; font-weight: 600; }
+  .section-sub { font-size: 12px; color: var(--muted); margin-top: 1px; }
+  .section-body { padding: 20px; }
+
+  /* ── Tables ── */
+  .table-wrap { overflow-x: auto; margin-bottom: 16px; }
+  .table-wrap:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface2);
+    white-space: nowrap;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--surface2); }
+
+  /* ── Badges ── */
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 4px;
+    letter-spacing: .5px;
+    white-space: nowrap;
+  }
+  .bull  { background: rgba(34,197,94,.15);  color: var(--green);  }
+  .bear  { background: rgba(239,68,68,.15);  color: var(--red);    }
+  .neut  { background: rgba(148,163,184,.1); color: var(--muted);  }
+  .dir   { background: rgba(167,139,250,.15);color: var(--purple); }
+
+  /* ── Strength stars ── */
+  .stars { color: var(--yellow); letter-spacing: -1px; font-size: 12px; }
+  .str-2 .stars { color: var(--muted); }
+  .str-3 .stars { color: var(--yellow); }
+  .str-4 .stars { color: var(--orange); }
+  .str-5 .stars { color: var(--green); }
+
+  /* ── Score matrix ── */
+  .score-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  .score-cell {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px;
+    text-align: center;
+  }
+  .score-decision { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+  .score-range    { font-family: var(--mono); font-size: 20px; font-weight: 700; margin-bottom: 6px; }
+  .score-desc     { font-size: 11px; color: var(--muted); }
+
+  /* ── Dividers ── */
+  .sub-heading {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 12px 0 8px;
+    border-top: 1px solid var(--border);
+    margin-top: 16px;
+  }
+  .sub-heading:first-child { border-top: none; margin-top: 0; padding-top: 0; }
+
+  /* ── Divergence list ── */
+  .div-list { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-direction: column; gap: 8px; }
+  .div-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 14px;
+    background: var(--surface2);
+    border-radius: var(--radius);
+    border-left: 3px solid var(--border);
+    font-size: 13px;
+  }
+  .div-item.bull-div { border-left-color: var(--green); }
+  .div-item.bear-div { border-left-color: var(--red); }
+  .div-label { font-weight: 600; white-space: nowrap; }
+
+  /* ── Code block ── */
+  pre {
+    background: #0a0c10;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    overflow-x: auto;
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.7;
+    color: #cdd9e5;
+  }
+  html[data-theme="light"] pre { background: #1e2530; }
+  .kw  { color: #79c0ff; }  /* keyword */
+  .fn  { color: #d2a8ff; }  /* function */
+  .cm  { color: #8b949e; font-style: italic; }  /* comment */
+  .st  { color: #a5d6ff; }  /* string */
+  .nb  { color: #f0883e; }  /* number/builtin */
+
+  /* ── References ── */
+  .ref-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .ref-list li {
+    font-size: 13px;
+    color: var(--muted);
+    padding-left: 16px;
+    position: relative;
+  }
+  .ref-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--border);
+  }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center;
+    padding: 20px 24px;
+    font-size: 10px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 640px) {
+    .score-grid { grid-template-columns: 1fr; }
+    .container { padding: 16px 12px; }
+    .section-body { padding: 14px; }
+    h1 { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-left">
+      <span class="header-label">// GBP/USD Swing Trading</span>
+      <h1>Pattern Recognition Encyclopedia</h1>
+    </div>
+    <div class="header-right">
+      <a class="back-link" href="../index.html">&#8592; Dashboard</a>
+      <button class="theme-btn" onclick="toggleTheme()">&#9790; / &#9728;</button>
+    </div>
+  </div>
+</header>
+
+<nav class="quick-nav">
+  <div class="quick-nav-inner">
+    <a class="nav-pill" href="#candlestick">1 · Candlestick</a>
+    <a class="nav-pill" href="#chart-patterns">2 · Chart Patterns</a>
+    <a class="nav-pill" href="#support-resistance">3 · S &amp; R</a>
+    <a class="nav-pill" href="#momentum">4 · Momentum</a>
+    <a class="nav-pill" href="#volume">5 · Volume</a>
+    <a class="nav-pill" href="#gbpusd">6 · GBP/USD</a>
+    <a class="nav-pill" href="#scoring">7 · Scoring</a>
+    <a class="nav-pill" href="#pseudocode">8 · Code</a>
+  </div>
+</nav>
+
+<main class="container">
+
+  <!-- 1. Candlestick Patterns -->
+  <div class="section" id="candlestick">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <div>
+        <div class="section-title">Candlestick Patterns — Single Candle</div>
+        <div class="section-sub">Body size = |Close − Open| &nbsp;·&nbsp; Total range = High − Low</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Pattern</th>
+              <th>Signal</th>
+              <th>Detection Rule</th>
+              <th>Strength</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Hammer</strong></td>
+              <td><span class="badge bull">Bullish Reversal</span></td>
+              <td>Body ≤ 30% of range, lower wick ≥ 2.2× body, small body at top — after downtrend</td>
+              <td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td>
+            </tr>
+            <tr>
+              <td><strong>Inverted Hammer</strong></td>
+              <td><span class="badge bull">Bullish Reversal</span></td>
+              <td>Body ≤ 30% of range, upper wick ≥ 2.2× body, small body at bottom — after downtrend</td>
+              <td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td>
+            </tr>
+            <tr>
+              <td><strong>Shooting Star</strong></td>
+              <td><span class="badge bear">Bearish Reversal</span></td>
+              <td>Body ≤ 30% of range, upper wick ≥ 2.2× body, small body at bottom — after uptrend</td>
+              <td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td>
+            </tr>
+            <tr>
+              <td><strong>Hanging Man</strong></td>
+              <td><span class="badge bear">Bearish Reversal</span></td>
+              <td>Body ≤ 30% of range, lower wick ≥ 2.2× body, small body at top — after uptrend</td>
+              <td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td>
+            </tr>
+            <tr>
+              <td><strong>Bullish Engulfing</strong></td>
+              <td><span class="badge bull">Strong Bullish</span></td>
+              <td>Current bullish candle (Close &gt; Open) completely engulfs previous bearish candle body (Open &gt; Close)</td>
+              <td class="str-4"><span class="stars">★★★★</span><span style="color:var(--border)">★</span></td>
+            </tr>
+            <tr>
+              <td><strong>Bearish Engulfing</strong></td>
+              <td><span class="badge bear">Strong Bearish</span></td>
+              <td>Current bearish candle (Open &gt; Close) completely engulfs previous bullish candle body (Close &gt; Open)</td>
+              <td class="str-4"><span class="stars">★★★★</span><span style="color:var(--border)">★</span></td>
+            </tr>
+            <tr>
+              <td><strong>Morning Star</strong></td>
+              <td><span class="badge bull">Strong Bullish Reversal</span></td>
+              <td>Bearish candle → Doji → Bullish candle (third closes ≥ midpoint of first)</td>
+              <td class="str-5"><span class="stars">★★★★★</span></td>
+            </tr>
+            <tr>
+              <td><strong>Evening Star</strong></td>
+              <td><span class="badge bear">Strong Bearish Reversal</span></td>
+              <td>Bullish candle → Doji → Bearish candle (third closes ≤ midpoint of first)</td>
+              <td class="str-5"><span class="stars">★★★★★</span></td>
+            </tr>
+            <tr>
+              <td><strong>Doji</strong></td>
+              <td><span class="badge neut">Indecision</span></td>
+              <td>Body ≤ 5% of total range</td>
+              <td class="str-2"><span class="stars">★★</span><span style="color:var(--border)">★★★</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Chart Patterns -->
+  <div class="section" id="chart-patterns">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <div>
+        <div class="section-title">Chart Patterns — Multi-Candle</div>
+        <div class="section-sub">Requires multiple candles to confirm — check target calculation before entry</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="sub-heading">Reversal Patterns</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Pattern</th><th>Bias</th><th>Detection Rule</th><th>Target Calculation</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Head &amp; Shoulders</strong></td>
+              <td><span class="badge bear">Bearish</span></td>
+              <td>Three peaks: centre (head) highest, left/right shoulders similar (±2%), neckline connects troughs</td>
+              <td>Head height subtracted from neckline break</td>
+            </tr>
+            <tr>
+              <td><strong>Inverse H&amp;S</strong></td>
+              <td><span class="badge bull">Bullish</span></td>
+              <td>Three troughs: centre deepest, shoulders similar (±2%), neckline connects peaks</td>
+              <td>Head height added to neckline break</td>
+            </tr>
+            <tr>
+              <td><strong>Double Top</strong></td>
+              <td><span class="badge bear">Bearish</span></td>
+              <td>Two highs within 2% of each other, valley between ≥3% below highs</td>
+              <td>Height = highs − valley, subtracted from breakdown</td>
+            </tr>
+            <tr>
+              <td><strong>Double Bottom</strong></td>
+              <td><span class="badge bull">Bullish</span></td>
+              <td>Two lows within 2% of each other, peak between ≥3% above lows</td>
+              <td>Height = peak − lows, added to breakout</td>
+            </tr>
+            <tr>
+              <td><strong>Triple Top</strong></td>
+              <td><span class="badge bear">Bearish</span></td>
+              <td>Three touches at same resistance (±1%), fails each time</td>
+              <td>Resistance − support, subtracted from breakdown</td>
+            </tr>
+            <tr>
+              <td><strong>Triple Bottom</strong></td>
+              <td><span class="badge bull">Bullish</span></td>
+              <td>Three touches at same support (±1%), holds each time</td>
+              <td>Resistance − support, added to breakout</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading">Continuation Patterns</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Pattern</th><th>Bias</th><th>Detection Rule</th><th>Breakout Direction</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Ascending Triangle</strong></td>
+              <td><span class="badge bull">Bullish</span></td>
+              <td>Flat top resistance, rising bottom trendline (higher lows)</td>
+              <td>Above flat top (≥1× ATR)</td>
+            </tr>
+            <tr>
+              <td><strong>Descending Triangle</strong></td>
+              <td><span class="badge bear">Bearish</span></td>
+              <td>Flat bottom support, falling top trendline (lower highs)</td>
+              <td>Below flat bottom (≥1× ATR)</td>
+            </tr>
+            <tr>
+              <td><strong>Symmetrical Triangle</strong></td>
+              <td><span class="badge dir">Directional</span></td>
+              <td>Converging trendlines (rising lows, falling highs)</td>
+              <td>First breakout direction (≥1.5× ATR)</td>
+            </tr>
+            <tr>
+              <td><strong>Bull Flag</strong></td>
+              <td><span class="badge bull">Bullish</span></td>
+              <td>Sharp vertical rise → parallel or downward-sloping consolidation (10–40 candles)</td>
+              <td>Above flag top</td>
+            </tr>
+            <tr>
+              <td><strong>Bear Flag</strong></td>
+              <td><span class="badge bear">Bearish</span></td>
+              <td>Sharp vertical drop → parallel or upward-sloping consolidation (10–40 candles)</td>
+              <td>Below flag bottom</td>
+            </tr>
+            <tr>
+              <td><strong>Rising Wedge</strong></td>
+              <td><span class="badge bear">Bearish</span></td>
+              <td>Both trendlines rising, upper line steeper → converging</td>
+              <td>Below lower trendline</td>
+            </tr>
+            <tr>
+              <td><strong>Falling Wedge</strong></td>
+              <td><span class="badge bull">Bullish</span></td>
+              <td>Both trendlines falling, lower line steeper → converging</td>
+              <td>Above upper trendline</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Support & Resistance -->
+  <div class="section" id="support-resistance">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <div>
+        <div class="section-title">Support &amp; Resistance</div>
+        <div class="section-sub">Detection rules and breakout confirmation criteria</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Concept</th><th>Detection Rule</th><th>Confirmation</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Support</strong></td>
+              <td>Price bounces from same level ≥2 times within 3% range</td>
+              <td>Volume increases on bounce</td>
+            </tr>
+            <tr>
+              <td><strong>Resistance</strong></td>
+              <td>Price rejects from same level ≥2 times within 3% range</td>
+              <td>Volume increases on rejection</td>
+            </tr>
+            <tr>
+              <td><strong>Breakout</strong></td>
+              <td>Close ≥1× ATR above resistance or below support</td>
+              <td>Volume ≥1.5× 20-day average</td>
+            </tr>
+            <tr>
+              <td><strong>Role Reversal</strong></td>
+              <td>Broken support becomes new resistance (or vice versa)</td>
+              <td>Price retests and reverses</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Momentum Indicators -->
+  <div class="section" id="momentum">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <div>
+        <div class="section-title">Momentum Indicators</div>
+        <div class="section-sub">RSI (14) · MACD (12, 26, 9) · EMA (50 &amp; 200)</div>
+      </div>
+    </div>
+    <div class="section-body">
+
+      <div class="sub-heading">RSI — Relative Strength Index (14-period)</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Value</th><th>Interpretation</th><th>Action</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span style="font-family:var(--mono);color:var(--red)">&gt; 70</span></td>
+              <td>Overbought</td>
+              <td>Look for bearish reversal patterns</td>
+            </tr>
+            <tr>
+              <td><span style="font-family:var(--mono);color:var(--green)">&lt; 30</span></td>
+              <td>Oversold</td>
+              <td>Look for bullish reversal patterns</td>
+            </tr>
+            <tr>
+              <td><span style="font-family:var(--mono);color:var(--muted)">30–70</span></td>
+              <td>Neutral</td>
+              <td>Follow trend direction</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <ul class="div-list">
+        <li class="div-item bear-div">
+          <span class="div-label badge bear" style="flex-shrink:0">Bearish Div</span>
+          <span>Price makes <strong>higher high</strong>, RSI makes <strong>lower high</strong> → SELL signal</span>
+        </li>
+        <li class="div-item bull-div">
+          <span class="div-label badge bull" style="flex-shrink:0">Bullish Div</span>
+          <span>Price makes <strong>lower low</strong>, RSI makes <strong>higher low</strong> → BUY signal</span>
+        </li>
+      </ul>
+
+      <div class="sub-heading">MACD — (12, 26, 9)</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Condition</th><th>Signal</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>MACD line crosses <strong>above</strong> Signal line</td><td><span class="badge bull">Bullish momentum</span></td></tr>
+            <tr><td>MACD line crosses <strong>below</strong> Signal line</td><td><span class="badge bear">Bearish momentum</span></td></tr>
+            <tr><td>Histogram turns from negative to positive</td><td><span class="badge bull">Acceleration up</span></td></tr>
+            <tr><td>Histogram turns from positive to negative</td><td><span class="badge bear">Acceleration down</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading">Moving Averages — EMA 50 &amp; EMA 200</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Condition</th><th>Bias</th><th>Implication</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>50 EMA &gt; 200 EMA</td>
+              <td><span class="badge bull">Bullish</span></td>
+              <td>Golden Cross alignment — trend is up</td>
+            </tr>
+            <tr>
+              <td>50 EMA &lt; 200 EMA</td>
+              <td><span class="badge bear">Bearish</span></td>
+              <td>Death Cross alignment — trend is down</td>
+            </tr>
+            <tr>
+              <td>50 EMA crosses <strong>above</strong> 200 EMA</td>
+              <td><span class="badge bull">Golden Cross ⚡</span></td>
+              <td>Major bullish — confirm with volume</td>
+            </tr>
+            <tr>
+              <td>50 EMA crosses <strong>below</strong> 200 EMA</td>
+              <td><span class="badge bear">Death Cross ⚡</span></td>
+              <td>Major bearish — confirm with volume</td>
+            </tr>
+            <tr>
+              <td>Price &gt; 50 EMA &gt; 200 EMA</td>
+              <td><span class="badge bull">Strong Uptrend</span></td>
+              <td>Buy on pullbacks to 50 EMA</td>
+            </tr>
+            <tr>
+              <td>Price &lt; 50 EMA &lt; 200 EMA</td>
+              <td><span class="badge bear">Strong Downtrend</span></td>
+              <td>Sell on rallies to 50 EMA</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Volume -->
+  <div class="section" id="volume">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <div>
+        <div class="section-title">Volume Confirmation Rules</div>
+        <div class="section-sub">Volume validates or invalidates every signal</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Scenario</th><th>Valid Signal</th><th>Weak / False Signal</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Breakout above resistance</td>
+              <td><span style="color:var(--green)">Volume ≥ 1.5× 20-day avg</span></td>
+              <td><span style="color:var(--red)">Volume below average</span></td>
+            </tr>
+            <tr>
+              <td>Breakout below support</td>
+              <td><span style="color:var(--green)">Volume ≥ 1.5× 20-day avg</span></td>
+              <td><span style="color:var(--red)">Volume below average</span></td>
+            </tr>
+            <tr>
+              <td>Bullish Engulfing</td>
+              <td><span style="color:var(--green)">Volume ≥ 1.2× previous candle</span></td>
+              <td><span style="color:var(--red)">Volume shrinking</span></td>
+            </tr>
+            <tr>
+              <td>Bearish Engulfing</td>
+              <td><span style="color:var(--green)">Volume ≥ 1.2× previous candle</span></td>
+              <td><span style="color:var(--red)">Volume shrinking</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. GBP/USD Characteristics -->
+  <div class="section" id="gbpusd">
+    <div class="section-header">
+      <span class="section-num">06</span>
+      <div>
+        <div class="section-title">GBP/USD Specific Characteristics</div>
+        <div class="section-sub">Cable-specific behaviour to factor into every analysis</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Factor</th><th>Typical Behaviour</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>London–NY overlap</strong></td>
+              <td>12–16 GMT · Highest volatility, best entries — most daily range formed here</td>
+            </tr>
+            <tr>
+              <td><strong>Asian session</strong></td>
+              <td>00–09 GMT · Range-bound, false breakouts common — avoid new entries</td>
+            </tr>
+            <tr>
+              <td><strong>Average daily range</strong></td>
+              <td>70–120 pips (varies by volatility regime)</td>
+            </tr>
+            <tr>
+              <td><strong>Key economic drivers</strong></td>
+              <td>BOE rate decisions, US NFP, UK &amp; US CPI prints, Fed FOMC</td>
+            </tr>
+            <tr>
+              <td><strong>Typical swing duration</strong></td>
+              <td>3–10 days (daily chart) · 1–3 days (4H chart)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Scoring System -->
+  <div class="section" id="scoring">
+    <div class="section-header">
+      <span class="section-num">07</span>
+      <div>
+        <div class="section-title">Combined Signal Scoring System</div>
+        <div class="section-sub">Score each setup 0–10 before entering any trade</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="table-wrap" style="margin-bottom:20px">
+        <table>
+          <thead>
+            <tr><th>Factor</th><th>Points</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pattern reliability — chart pattern</td>
+              <td><span style="font-family:var(--mono);color:var(--accent)">+4</span></td>
+            </tr>
+            <tr>
+              <td>Pattern reliability — candlestick pattern</td>
+              <td><span style="font-family:var(--mono);color:var(--accent)">+2</span></td>
+            </tr>
+            <tr>
+              <td>RSI confirms — overbought or oversold</td>
+              <td><span style="font-family:var(--mono);color:var(--accent)">+2</span></td>
+            </tr>
+            <tr>
+              <td>RSI confirms — divergence detected</td>
+              <td><span style="font-family:var(--mono);color:var(--accent)">+3</span></td>
+            </tr>
+            <tr>
+              <td>Volume confirms (≥1.5× 20-day avg)</td>
+              <td><span style="font-family:var(--mono);color:var(--accent)">+2</span></td>
+            </tr>
+            <tr>
+              <td>S/R alignment (at key level)</td>
+              <td><span style="font-family:var(--mono);color:var(--accent)">+1</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="score-grid">
+        <div class="score-cell">
+          <div class="score-range" style="color:var(--green)">8–10</div>
+          <div class="score-decision" style="color:var(--green)">BUY / SELL</div>
+          <div class="score-desc">High confluence — enter the trade</div>
+        </div>
+        <div class="score-cell">
+          <div class="score-range" style="color:var(--yellow)">5–7</div>
+          <div class="score-decision" style="color:var(--yellow)">WATCH</div>
+          <div class="score-desc">Partial signal — wait for confirmation candle</div>
+        </div>
+        <div class="score-cell">
+          <div class="score-range" style="color:var(--muted)">0–4</div>
+          <div class="score-decision" style="color:var(--muted)">NO TRADE</div>
+          <div class="score-desc">Insufficient signals — stay out</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Pseudocode -->
+  <div class="section" id="pseudocode">
+    <div class="section-header">
+      <span class="section-num">08</span>
+      <div>
+        <div class="section-title">Quick Detection Pseudocode</div>
+        <div class="section-sub">Python reference — mirrors the logic in ohlc_calculator.py</div>
+      </div>
+    </div>
+    <div class="section-body">
+<pre><span class="cm"># Hammer detection</span>
+<span class="kw">def</span> <span class="fn">is_hammer</span>(candle):
+    body       = abs(candle[<span class="st">'close'</span>] - candle[<span class="st">'open'</span>])
+    range_total = candle[<span class="st">'high'</span>] - candle[<span class="st">'low'</span>]
+    lower_wick  = min(candle[<span class="st">'open'</span>], candle[<span class="st">'close'</span>]) - candle[<span class="st">'low'</span>]
+
+    <span class="kw">return</span> (body / range_total &lt;= <span class="nb">0.3</span> <span class="kw">and</span>
+            lower_wick &gt;= <span class="nb">2.2</span> * body <span class="kw">and</span>
+            candle[<span class="st">'close'</span>] &gt; candle[<span class="st">'open'</span>])  <span class="cm"># bullish body</span>
+
+
+<span class="cm"># Support detection (requires historical data)</span>
+<span class="kw">def</span> <span class="fn">is_at_support</span>(price, swing_lows, tolerance=<span class="nb">0.02</span>):
+    <span class="kw">return</span> any(abs(price - low) / low &lt;= tolerance <span class="kw">for</span> low <span class="kw">in</span> swing_lows)
+
+
+<span class="cm"># RSI — Wilder's smoothing (14-period)</span>
+<span class="kw">def</span> <span class="fn">calculate_rsi</span>(prices, period=<span class="nb">14</span>):
+    gains  = [max(prices[i] - prices[i-<span class="nb">1</span>], <span class="nb">0</span>) <span class="kw">for</span> i <span class="kw">in</span> range(<span class="nb">1</span>, len(prices))]
+    losses = [max(prices[i-<span class="nb">1</span>] - prices[i], <span class="nb">0</span>) <span class="kw">for</span> i <span class="kw">in</span> range(<span class="nb">1</span>, len(prices))]
+    alpha  = <span class="nb">1</span> / period
+    avg_gain = gains[<span class="nb">0</span>]
+    avg_loss = losses[<span class="nb">0</span>]
+    <span class="kw">for</span> g, l <span class="kw">in</span> zip(gains[<span class="nb">1</span>:], losses[<span class="nb">1</span>:]):
+        avg_gain = g * alpha + avg_gain * (<span class="nb">1</span> - alpha)
+        avg_loss = l * alpha + avg_loss * (<span class="nb">1</span> - alpha)
+    rs  = avg_gain / avg_loss <span class="kw">if</span> avg_loss &gt; <span class="nb">0</span> <span class="kw">else</span> <span class="nb">100</span>
+    <span class="kw">return</span> <span class="nb">100</span> - (<span class="nb">100</span> / (<span class="nb">1</span> + rs))
+
+
+<span class="cm"># Signal scoring</span>
+<span class="kw">def</span> <span class="fn">score_setup</span>(pattern_strength, rsi, divergence, volume_ok, at_sr):
+    score  = <span class="nb">4</span> <span class="kw">if</span> pattern_strength &gt;= <span class="nb">4</span> <span class="kw">else</span> (<span class="nb">2</span> <span class="kw">if</span> pattern_strength &gt; <span class="nb">0</span> <span class="kw">else</span> <span class="nb">0</span>)
+    score += <span class="nb">3</span> <span class="kw">if</span> divergence <span class="kw">else</span> (<span class="nb">2</span> <span class="kw">if</span> rsi &lt; <span class="nb">30</span> <span class="kw">or</span> rsi &gt; <span class="nb">70</span> <span class="kw">else</span> <span class="nb">0</span>)
+    score += <span class="nb">2</span> <span class="kw">if</span> volume_ok <span class="kw">else</span> <span class="nb">0</span>
+    score += <span class="nb">1</span> <span class="kw">if</span> at_sr <span class="kw">else</span> <span class="nb">0</span>
+    <span class="kw">return</span> min(score, <span class="nb">10</span>)</pre>
+    </div>
+  </div>
+
+  <!-- References -->
+  <div class="section">
+    <div class="section-header">
+      <span class="section-num">REF</span>
+      <div><div class="section-title">References</div></div>
+    </div>
+    <div class="section-body">
+      <ul class="ref-list">
+        <li>Bulkowski's Encyclopedia of Chart Patterns — pattern reliability ratings</li>
+        <li>Steve Nison, Japanese Candlestick Charting Techniques — candlestick criteria</li>
+        <li>J. Welles Wilder, New Concepts in Technical Trading Systems — RSI &amp; momentum principles</li>
+        <li>Pattern Zoo volume confirmation rules</li>
+      </ul>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  For research and educational purposes only. Not financial advice.
+  &nbsp;·&nbsp; <a href="../index.html" style="color:var(--muted)">Dashboard</a>
+  &nbsp;·&nbsp; <a href="https://github.com/KobiLDN/swingtrading" style="color:var(--muted)">GitHub</a>
+</footer>
+
+<script>
+function toggleTheme() {
+  var t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+  localStorage.setItem('theme', t);
+}
+</script>
+</body>
+</html>
