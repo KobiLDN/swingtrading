@@ -1,0 +1,38 @@
+name: Generate AI Analysis
+
+on:
+  schedule:
+    # 06:10 UTC daily — 10 min after update-prices
+    - cron: '10 6 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Pull latest so we get the prices-data.js just committed by update-prices
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests python-dotenv
+
+      - name: Run analysis generator
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python generate_analysis.py
+
+      - name: Commit analysis output
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add analysis-data.js last_analysis.md
+          git diff --cached --quiet || git commit -m "Update AI analysis — $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin main

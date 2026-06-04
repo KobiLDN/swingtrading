@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="GBP/USD swing trading dashboard — live technical analysis powered by AI">
+<title>GBP/USD Swing Trading</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script>
+  // Prevent flash on load
+  (function(){
+    var t = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+
+<style>
+  :root {
+    --bg:        #0d0f14;
+    --surface:   #161b22;
+    --surface2:  #1e2530;
+    --border:    #2d3748;
+    --text:      #e2e8f0;
+    --muted:     #8892a4;
+    --accent:    #00d4ff;
+    --accent2:   #ff4d6d;
+    --green:     #22c55e;
+    --red:       #ef4444;
+    --yellow:    #f59e0b;
+    --orange:    #fb923c;
+    --font:      'Inter', sans-serif;
+    --mono:      'JetBrains Mono', monospace;
+    --radius:    8px;
+    --max-w:     1200px;
+  }
+  html[data-theme="light"] {
+    --bg:       #f0f4f8;
+    --surface:  #ffffff;
+    --surface2: #e8edf4;
+    --border:   #cbd5e1;
+    --text:     #1a202c;
+    --muted:    #64748b;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { background: var(--bg); }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ── Header ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+  }
+  .header-inner {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    height: 64px;
+  }
+  .header-left { display: flex; flex-direction: column; gap: 2px; }
+  .header-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+  .header-sub { font-size: 11px; color: var(--muted); }
+
+  .header-right { display: flex; align-items: center; gap: 12px; }
+
+  .theme-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 12px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 13px;
+    transition: border-color .15s;
+  }
+  .theme-btn:hover { border-color: var(--accent); }
+
+  /* ── Main layout ── */
+  .container {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 24px;
+    display: grid;
+    gap: 16px;
+  }
+
+  /* ── Cards ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+  }
+  .card-title {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  /* ── Grid layouts ── */
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+
+  /* ── Price hero ── */
+  .price-hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .price-val {
+    font-family: var(--mono);
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+  .price-sub { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+  /* ── Trend badge ── */
+  .trend-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid;
+  }
+  .trend-strong-up  { background: rgba(34,197,94,.12);  color: var(--green);  border-color: rgba(34,197,94,.3); }
+  .trend-strong-dn  { background: rgba(239,68,68,.12);  color: var(--red);    border-color: rgba(239,68,68,.3); }
+  .trend-bull       { background: rgba(34,197,94,.08);  color: var(--green);  border-color: rgba(34,197,94,.2); }
+  .trend-bear       { background: rgba(239,68,68,.08);  color: var(--red);    border-color: rgba(239,68,68,.2); }
+  .trend-neutral    { background: rgba(148,163,184,.1); color: var(--muted);  border-color: rgba(148,163,184,.2); }
+
+  /* ── Indicator rows ── */
+  .indicator-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .indicator-row:last-child { border-bottom: none; }
+  .ind-label { font-size: 12px; color: var(--muted); }
+  .ind-val   { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+  .ind-val.bull  { color: var(--green); }
+  .ind-val.bear  { color: var(--red); }
+  .ind-val.warn  { color: var(--yellow); }
+  .ind-val.neut  { color: var(--text); }
+
+  /* ── RSI bar ── */
+  .rsi-bar-wrap {
+    width: 100%;
+    background: var(--surface2);
+    border-radius: 4px;
+    height: 6px;
+    margin-top: 8px;
+    position: relative;
+  }
+  .rsi-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width .5s ease;
+  }
+  .rsi-marker {
+    position: absolute;
+    top: -3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid var(--bg);
+    transform: translateX(-50%);
+    transition: left .5s ease;
+  }
+  .rsi-zones {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+    color: var(--muted);
+    margin-top: 4px;
+    font-family: var(--mono);
+  }
+
+  /* ── Signal score ── */
+  .score-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .score-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--border);
+    flex-shrink: 0;
+  }
+  .score-num  { font-family: var(--mono); font-size: 26px; font-weight: 700; line-height: 1; }
+  .score-denom { font-size: 10px; color: var(--muted); }
+  .score-wrap.buy   .score-circle { border-color: var(--green); }
+  .score-wrap.sell  .score-circle { border-color: var(--red); }
+  .score-wrap.watch .score-circle { border-color: var(--yellow); }
+  .score-wrap.buy   .score-num { color: var(--green); }
+  .score-wrap.sell  .score-num { color: var(--red); }
+  .score-wrap.watch .score-num { color: var(--yellow); }
+
+  .verdict-badge {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .verdict-sub { font-size: 12px; color: var(--muted); margin-top: 4px; }
+
+  /* ── Patterns ── */
+  .pattern-list { display: flex; flex-direction: column; gap: 8px; }
+  .pattern-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background: var(--surface2);
+    border-radius: var(--radius);
+    border-left: 3px solid var(--border);
+  }
+  .pattern-item.bull { border-left-color: var(--green); }
+  .pattern-item.bear { border-left-color: var(--red); }
+  .pattern-item.neut { border-left-color: var(--muted); }
+  .pat-name   { font-size: 13px; font-weight: 600; }
+  .pat-signal { font-size: 11px; color: var(--muted); margin-top: 1px; }
+  .pat-date   { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+  .pat-strength { font-family: var(--mono); font-size: 11px; }
+  .pat-none   { font-size: 13px; color: var(--muted); font-style: italic; }
+
+  /* ── AI Analysis ── */
+  .decision-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .dec-cell {
+    background: var(--surface2);
+    border-radius: var(--radius);
+    padding: 12px;
+    text-align: center;
+  }
+  .dec-label { font-size: 10px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px; }
+  .dec-val   { font-family: var(--mono); font-size: 14px; font-weight: 600; }
+  .dec-val.buy  { color: var(--green); }
+  .dec-val.sell { color: var(--red); }
+  .dec-val.wait { color: var(--yellow); }
+
+  .analysis-text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text);
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .invalidation-text {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: var(--surface2);
+    border-radius: var(--radius);
+    border-left: 3px solid var(--orange);
+  }
+
+  /* ── Copy prompt ── */
+  .prompt-wrap { position: relative; }
+  .prompt-box {
+    width: 100%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 14px;
+    resize: vertical;
+    min-height: 180px;
+    line-height: 1.6;
+  }
+  .copy-btn {
+    display: block;
+    margin-top: 10px;
+    background: var(--accent);
+    color: #000;
+    border: none;
+    border-radius: var(--radius);
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity .15s;
+    letter-spacing: .5px;
+  }
+  .copy-btn:hover { opacity: .85; }
+  .copy-btn.copied { background: var(--green); }
+
+  /* ── EMA indicator ── */
+  .ema-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+  }
+  .ema-tag {
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+  }
+  .ema-arrow { font-size: 16px; }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 10px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    margin-top: 8px;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    .grid-3, .grid-2 { grid-template-columns: 1fr; }
+    .price-val { font-size: 32px; }
+    .decision-row { grid-template-columns: repeat(2, 1fr); }
+    h1 { font-size: 18px; }
+  }
+  @media (max-width: 480px) {
+    .container { padding: 12px; }
+    .card { padding: 14px; }
+    .decision-row { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-left">
+      <span class="header-label">// Swing Trading</span>
+      <h1>GBP<span style="color:var(--accent)">/</span>USD</h1>
+      <span class="header-sub" id="last-updated">Loading...</span>
+    </div>
+    <div class="header-right">
+      <a href="Trading/encyclopedia.md" style="font-size:12px;color:var(--muted)">Encyclopedia</a>
+      <button class="theme-btn" onclick="toggleTheme()">☾ / ☀</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- Price + Trend -->
+  <div class="card">
+    <div class="card-title">Price Overview</div>
+    <div class="price-hero">
+      <div>
+        <div class="price-val" id="price-val">—</div>
+        <div class="price-sub">
+          ATR(14): <span id="atr-val" style="font-family:var(--mono)">—</span> pips &nbsp;·&nbsp;
+          Daily range guide
+        </div>
+        <div class="ema-row" style="margin-top:12px">
+          <span class="ema-tag">EMA 50: <span id="ema50-val">—</span></span>
+          <span class="ema-arrow" id="ema-arrow">—</span>
+          <span class="ema-tag">EMA 200: <span id="ema200-val">—</span></span>
+        </div>
+      </div>
+      <div>
+        <span class="trend-badge trend-neutral" id="trend-badge">—</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Indicators row -->
+  <div class="grid-3">
+
+    <!-- RSI -->
+    <div class="card">
+      <div class="card-title">RSI (14)</div>
+      <div style="font-family:var(--mono);font-size:28px;font-weight:700" id="rsi-big">—</div>
+      <div class="rsi-bar-wrap" style="margin-top:14px">
+        <div class="rsi-bar-fill" id="rsi-bar" style="width:50%;background:var(--muted)"></div>
+        <div class="rsi-marker" id="rsi-marker" style="left:50%;background:var(--muted)"></div>
+      </div>
+      <div class="rsi-zones"><span>0</span><span>30</span><span>70</span><span>100</span></div>
+      <div style="margin-top:10px">
+        <div class="indicator-row">
+          <span class="ind-label">Status</span>
+          <span class="ind-val" id="rsi-status">—</span>
+        </div>
+        <div class="indicator-row">
+          <span class="ind-label">Divergence</span>
+          <span class="ind-val" id="rsi-div">—</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- MACD -->
+    <div class="card">
+      <div class="card-title">MACD (12, 26, 9)</div>
+      <div class="indicator-row">
+        <span class="ind-label">Direction</span>
+        <span class="ind-val" id="macd-dir">—</span>
+      </div>
+      <div class="indicator-row">
+        <span class="ind-label">MACD Line</span>
+        <span class="ind-val neut" id="macd-line">—</span>
+      </div>
+      <div class="indicator-row">
+        <span class="ind-label">Signal Line</span>
+        <span class="ind-val neut" id="macd-signal">—</span>
+      </div>
+      <div class="indicator-row">
+        <span class="ind-label">Histogram</span>
+        <span class="ind-val" id="macd-hist">—</span>
+      </div>
+    </div>
+
+    <!-- Signal Score -->
+    <div class="card">
+      <div class="card-title">Signal Score</div>
+      <div class="score-wrap" id="score-wrap">
+        <div class="score-circle">
+          <span class="score-num" id="score-num">—</span>
+          <span class="score-denom">/10</span>
+        </div>
+        <div>
+          <div class="verdict-badge" id="verdict-badge">—</div>
+          <div class="verdict-sub" id="verdict-sub">—</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Patterns -->
+  <div class="card">
+    <div class="card-title">Candlestick Patterns — Last 5 Candles</div>
+    <div class="pattern-list" id="pattern-list">
+      <span class="pat-none">Loading...</span>
+    </div>
+  </div>
+
+  <!-- AI Analysis -->
+  <div class="card">
+    <div class="card-title">AI Analysis — DeepSeek via OpenRouter</div>
+    <div class="decision-row" id="decision-row">
+      <div class="dec-cell"><div class="dec-label">Decision</div><div class="dec-val" id="dec-decision">—</div></div>
+      <div class="dec-cell"><div class="dec-label">Confidence</div><div class="dec-val" id="dec-confidence">—</div></div>
+      <div class="dec-cell"><div class="dec-label">Entry</div><div class="dec-val" id="dec-entry">—</div></div>
+      <div class="dec-cell"><div class="dec-label">Stop Loss</div><div class="dec-val" id="dec-sl">—</div></div>
+      <div class="dec-cell"><div class="dec-label">Target 1</div><div class="dec-val" id="dec-t1">—</div></div>
+      <div class="dec-cell"><div class="dec-label">Target 2</div><div class="dec-val" id="dec-t2">—</div></div>
+      <div class="dec-cell"><div class="dec-label">R / R</div><div class="dec-val" id="dec-rr">—</div></div>
+      <div class="dec-cell"><div class="dec-label">Score</div><div class="dec-val" id="dec-score">—</div></div>
+    </div>
+    <div class="analysis-text" id="analysis-text">Awaiting first AI analysis run.</div>
+    <div class="invalidation-text" id="invalidation-text" style="display:none"></div>
+    <div style="font-size:10px;color:var(--muted);margin-top:10px" id="analysis-meta"></div>
+  </div>
+
+  <!-- Copy Prompt -->
+  <div class="card">
+    <div class="card-title">Copy AI Prompt — Pre-filled with Today's Indicators</div>
+    <div class="prompt-wrap">
+      <textarea class="prompt-box" id="prompt-box" readonly>Loading indicators...</textarea>
+      <button class="copy-btn" onclick="copyPrompt()">Copy Prompt</button>
+    </div>
+    <div style="font-size:11px;color:var(--muted);margin-top:8px">
+      Paste into Claude or ChatGPT. Append your OHLC JSON after the last line for chart pattern analysis.
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  For research and educational purposes only. Not financial advice. Data auto-updated daily via GitHub Actions.
+  &nbsp;·&nbsp; <a href="https://github.com/KobiLDN/swingtrading">GitHub</a>
+  &nbsp;·&nbsp; <a href="Trading/encyclopedia.md">Encyclopedia</a>
+</footer>
+
+<script src="prices-data.js"></script>
+<script src="analysis-data.js"></script>
+<script>
+// ── Theme ────────────────────────────────────────────────────────────────────
+function toggleTheme() {
+  var t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+  localStorage.setItem('theme', t);
+}
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+function el(id) { return document.getElementById(id); }
+
+function fmt(val, dp) {
+  if (val === null || val === undefined || val === '—') return '—';
+  return typeof val === 'number' ? val.toFixed(dp) : val;
+}
+
+function fmtDate(iso) {
+  if (!iso || iso === '—') return '—';
+  try {
+    return new Date(iso).toLocaleString('en-GB', {
+      day: '2-digit', month: 'short', year: 'numeric',
+      hour: '2-digit', minute: '2-digit', timeZone: 'UTC'
+    }) + ' UTC';
+  } catch(e) { return iso; }
+}
+
+// ── Render prices ─────────────────────────────────────────────────────────────
+function renderPrices() {
+  var d = window.PRICES_DATA;
+  if (!d) return;
+
+  el('last-updated').textContent = d.price
+    ? 'Last updated: ' + d.date + ' · Generated ' + fmtDate(d.generated)
+    : 'Awaiting first data fetch — add TWELVE_DATA_API_KEY secret to GitHub';
+
+  // Price
+  el('price-val').textContent = d.price ? d.price.toFixed(5) : '—';
+  el('atr-val').textContent   = d.atr_pips || '—';
+  el('ema50-val').textContent  = d.ema50  ? d.ema50.toFixed(5)  : '—';
+  el('ema200-val').textContent = d.ema200 ? d.ema200.toFixed(5) : '—';
+
+  // EMA arrow
+  var arrow = el('ema-arrow');
+  if (d.ema50 && d.ema200) {
+    if (d.ema50 > d.ema200) { arrow.textContent = '▲'; arrow.style.color = 'var(--green)'; }
+    else                     { arrow.textContent = '▼'; arrow.style.color = 'var(--red)'; }
+  }
+
+  // Trend badge
+  var badge = el('trend-badge');
+  badge.textContent = d.trend || '—';
+  badge.className   = 'trend-badge ' + trendClass(d.trend);
+
+  // RSI
+  var rsi = d.rsi;
+  if (rsi !== null) {
+    el('rsi-big').textContent = rsi.toFixed(1);
+    el('rsi-big').style.color = rsiColor(rsi);
+    var pct = rsi + '%';
+    el('rsi-bar').style.width       = pct;
+    el('rsi-bar').style.background  = rsiColor(rsi);
+    el('rsi-marker').style.left     = pct;
+    el('rsi-marker').style.background = rsiColor(rsi);
+    el('rsi-status').textContent    = rsiLabel(rsi);
+    el('rsi-status').className      = 'ind-val ' + (rsi > 70 ? 'bear' : rsi < 30 ? 'bull' : 'neut');
+  }
+
+  // Divergence
+  var div = d.divergence || 'None';
+  el('rsi-div').textContent = div === 'None' ? 'None' : div;
+  el('rsi-div').className   = 'ind-val ' + (div === 'BULLISH' ? 'bull' : div === 'BEARISH' ? 'bear' : 'neut');
+
+  // MACD
+  var bull = d.macd_line > d.macd_signal;
+  el('macd-dir').textContent  = d.macd_line !== null ? (bull ? 'Bullish' : 'Bearish') : '—';
+  el('macd-dir').className    = 'ind-val ' + (d.macd_line !== null ? (bull ? 'bull' : 'bear') : 'neut');
+  el('macd-line').textContent   = d.macd_line   !== null ? d.macd_line.toFixed(5)   : '—';
+  el('macd-signal').textContent = d.macd_signal !== null ? d.macd_signal.toFixed(5) : '—';
+  var histEl = el('macd-hist');
+  histEl.textContent  = d.macd_hist !== null ? (d.macd_hist >= 0 ? '+' : '') + d.macd_hist.toFixed(5) : '—';
+  histEl.className    = 'ind-val ' + (d.macd_hist > 0 ? 'bull' : d.macd_hist < 0 ? 'bear' : 'neut');
+
+  // Score
+  var score   = d.score;
+  var verdict = d.verdict || '—';
+  el('score-num').textContent    = score !== null ? score : '—';
+  el('verdict-badge').textContent = verdict;
+  el('verdict-badge').style.color = verdictColor(verdict);
+
+  var wrap = el('score-wrap');
+  wrap.className = 'score-wrap ' + verdictClass(verdict);
+
+  el('verdict-sub').textContent = score !== null
+    ? (score >= 8 ? 'High confluence — enter' : score >= 5 ? 'Partial signal — wait' : 'Insufficient signals')
+    : '—';
+
+  // Patterns
+  var list = el('pattern-list');
+  list.innerHTML = '';
+  if (d.patterns && d.patterns.length > 0) {
+    d.patterns.forEach(function(p) {
+      var isBull = p.signal.includes('BULLISH');
+      var isBear = p.signal.includes('BEARISH');
+      var cls    = isBull ? 'bull' : isBear ? 'bear' : 'neut';
+      var item   = document.createElement('div');
+      item.className = 'pattern-item ' + cls;
+      item.innerHTML =
+        '<div>' +
+          '<div class="pat-name">' + p.name + '</div>' +
+          '<div class="pat-signal">' + p.signal + '</div>' +
+        '</div>' +
+        '<div style="text-align:right">' +
+          '<div class="pat-date">' + p.date + '</div>' +
+          '<div class="pat-strength" style="color:' + (isBull ? 'var(--green)' : isBear ? 'var(--red)' : 'var(--muted)') + '">' +
+            '&#9733;'.repeat(p.strength) +
+          '</div>' +
+        '</div>';
+      list.appendChild(item);
+    });
+  } else {
+    list.innerHTML = '<span class="pat-none">No patterns detected in the last 5 candles.</span>';
+  }
+
+  // Build copy prompt
+  buildPrompt(d);
+}
+
+// ── Render analysis ───────────────────────────────────────────────────────────
+function renderAnalysis() {
+  var a = window.ANALYSIS_DATA;
+  if (!a) return;
+
+  var dec = (a.decision || '').toUpperCase();
+  el('dec-decision').textContent  = dec || '—';
+  el('dec-confidence').textContent = a.confidence || '—';
+  el('dec-entry').textContent     = a.entry || '—';
+  el('dec-sl').textContent        = a.stop_loss || '—';
+  el('dec-t1').textContent        = a.target_1 || '—';
+  el('dec-t2').textContent        = a.target_2 || '—';
+  el('dec-rr').textContent        = a.risk_reward || '—';
+  el('dec-score').textContent     = a.score || '—';
+
+  var decEl = el('dec-decision');
+  decEl.className = 'dec-val ' + (dec === 'BUY' ? 'buy' : dec === 'SELL' ? 'sell' : dec === 'WAIT' ? 'wait' : '');
+
+  el('analysis-text').textContent = a.analysis || '—';
+
+  if (a.invalidation && a.invalidation !== '—') {
+    var inv = el('invalidation-text');
+    inv.textContent = 'Invalidation: ' + a.invalidation;
+    inv.style.display = 'block';
+  }
+
+  if (a.generated && a.generated !== '—') {
+    el('analysis-meta').textContent =
+      'Generated: ' + fmtDate(a.generated) + ' · Model: ' + (a.model || '');
+  }
+}
+
+// ── Build prompt ──────────────────────────────────────────────────────────────
+function buildPrompt(d) {
+  if (!d || !d.price) {
+    el('prompt-box').value = 'Indicators not yet available. Run update_prices.py to generate prices-data.js.';
+    return;
+  }
+  var rsi = d.rsi;
+  var rsiLabel = rsi > 70 ? 'OVERBOUGHT (' + rsi.toFixed(1) + ')' : rsi < 30 ? 'OVERSOLD (' + rsi.toFixed(1) + ')' : 'Neutral (' + rsi.toFixed(1) + ')';
+  var macdDir  = d.macd_line > d.macd_signal ? 'Bullish (line above signal)' : 'Bearish (line below signal)';
+  var patterns = d.patterns && d.patterns.length ? d.patterns.map(function(p){ return p.name; }).join(', ') : 'None detected';
+
+  var prompt =
+'Here is GBP/USD technical analysis for ' + d.date + '.\n' +
+'Pre-calculated indicators (use these as-is):\n\n' +
+'  Price:       ' + d.price.toFixed(5) + '\n' +
+'  ATR(14):     ' + d.atr.toFixed(5) + ' (' + d.atr_pips + ' pips)\n' +
+'  EMA 50:      ' + d.ema50.toFixed(5) + '\n' +
+'  EMA 200:     ' + d.ema200.toFixed(5) + '\n' +
+'  Trend:       ' + d.trend + '\n' +
+'  RSI(14):     ' + rsiLabel + '\n' +
+'  RSI div:     ' + (d.divergence || 'None') + '\n' +
+'  MACD:        ' + macdDir + '  |  Histogram: ' + (d.macd_hist >= 0 ? '+' : '') + d.macd_hist.toFixed(5) + '\n' +
+'  Patterns:    ' + patterns + '\n' +
+'  Score:       ' + d.score + '/10\n\n' +
+'Using the encyclopedia detection rules, please:\n' +
+'  1. Identify any chart patterns (triangles, flags, H&S, wedges)\n' +
+'  2. Mark key support and resistance levels\n' +
+'  3. Confirm or revise the signal score\n' +
+'  4. Provide: entry zone, stop loss, target 1, target 2\n' +
+'  5. Final verdict: BUY / SELL / WAIT\n\n' +
+'[PASTE YOUR OHLC JSON BELOW THIS LINE]';
+
+  el('prompt-box').value = prompt;
+}
+
+// ── Copy ──────────────────────────────────────────────────────────────────────
+function copyPrompt() {
+  var box = el('prompt-box');
+  navigator.clipboard.writeText(box.value).then(function() {
+    var btn = document.querySelector('.copy-btn');
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(function(){ btn.textContent = 'Copy Prompt'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+// ── Util ──────────────────────────────────────────────────────────────────────
+function trendClass(t) {
+  if (!t) return 'trend-neutral';
+  t = t.toUpperCase();
+  if (t.includes('STRONG UPTREND'))   return 'trend-strong-up';
+  if (t.includes('STRONG DOWNTREND')) return 'trend-strong-dn';
+  if (t.includes('BULLISH'))          return 'trend-bull';
+  if (t.includes('BEARISH'))          return 'trend-bear';
+  return 'trend-neutral';
+}
+function rsiColor(v) {
+  if (v > 70) return 'var(--red)';
+  if (v < 30) return 'var(--green)';
+  if (v > 60) return 'var(--orange)';
+  return 'var(--accent)';
+}
+function rsiLabel(v) {
+  if (v > 70) return 'OVERBOUGHT';
+  if (v < 30) return 'OVERSOLD';
+  if (v > 60) return 'Elevated';
+  if (v < 40) return 'Depressed';
+  return 'Neutral';
+}
+function verdictColor(v) {
+  if (!v) return 'var(--muted)';
+  v = v.toUpperCase();
+  if (v.includes('BUY'))   return 'var(--green)';
+  if (v.includes('SELL'))  return 'var(--red)';
+  if (v.includes('WATCH')) return 'var(--yellow)';
+  return 'var(--muted)';
+}
+function verdictClass(v) {
+  if (!v) return '';
+  v = v.toUpperCase();
+  if (v.includes('BUY'))   return 'buy';
+  if (v.includes('SELL'))  return 'sell';
+  if (v.includes('WATCH')) return 'watch';
+  return '';
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+renderPrices();
+renderAnalysis();
+</script>
+</body>
+</html>

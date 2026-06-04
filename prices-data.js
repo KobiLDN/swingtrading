@@ -1,0 +1,20 @@
+window.PRICES_DATA = {
+  "symbol": "GBP/USD",
+  "generated": "2026-06-04T00:00:00Z",
+  "date": "—",
+  "price": null,
+  "atr": null,
+  "atr_pips": null,
+  "ema50": null,
+  "ema200": null,
+  "rsi": null,
+  "macd_line": null,
+  "macd_signal": null,
+  "macd_hist": null,
+  "trend": "Awaiting first data fetch",
+  "divergence": "None",
+  "patterns": [],
+  "score": null,
+  "verdict": "—",
+  "candles": []
+};

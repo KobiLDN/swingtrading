@@ -1,5 +1,8 @@
-# Generated output — re-created by ohlc_calculator.py each run
+# Local calculator output — re-created on each run, not needed in repo
 Trading/analysis_output.txt
+
+# prices-data.js, analysis-data.js, prices.json, last_analysis.md are committed
+# (they are the live site's data files, auto-updated by GitHub Actions)
 
 # Claude Code local settings
 .claude/settings.local.json
