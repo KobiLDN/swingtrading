@@ -1,16 +1,16 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-06-04T00:00:00Z",
+  "generated": "2026-06-04T22:55:07Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
-  "date": "—",
-  "decision": "—",
-  "confidence": "—",
-  "entry": "—",
-  "stop_loss": "—",
-  "target_1": "—",
-  "target_2": "—",
-  "risk_reward": "—",
-  "score": "—",
-  "analysis": "Awaiting first AI analysis run.",
-  "invalidation": "—"
+  "date": "2026-06-05",
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "5/10",
+  "analysis": "The daily chart shows a conflicting technical picture. Price (1.34233) sits between the EMA 50 (1.34574) and EMA 200 (1.34118), with the EMA 50 above the EMA 200, confirming a longer-term bullish bias. However, price action has failed to hold above the EMA 50 and is now testing the EMA 200 as support. The recent candlestick sequence\u2014a Doji, a Bearish Engulfing, and two Inverted Hammers\u2014points to indecision and potential exhaustion of the prior move, but no clear reversal pattern has been confirmed. The overall trend bias remains bullish, but short-term momentum is bearish.\n\nRSI at 45.36 is neutral, offering no overbought/oversold signal, while MACD is bearish (line below signal) with a nearly flat histogram (-0.000007). This lack of strong momentum in either direction, combined with the absence of RSI divergence, suggests the market is in a consolidation phase. The signal score of 5/10 accurately reflects the mixed signals: the bullish EMA structure is offset by bearish price action and MACD. No clear chart patterns (triangles, flags, etc.) are evident from the given data, though the Inverted Hammers near the EMA 200 could hint at a potential bounce if confirmed by a bullish candle.\n\nKey support is the EMA 200 at 1.34118, with a break below opening the door to the next psychological level near 1.3350. Resistance is the EMA 50 at 1.34574, followed by the recent swing high around 1.3500. Given the conflicting signals and the lack of a decisive catalyst, the prudent approach is to wait for a clearer setup\u2014either a confirmed bounce off the EMA 200 with bullish momentum (e.g., a strong bullish engulfing candle) or a breakdown below support with increased volume. Entering now would expose the trade to whipsaw risk in a low-volatility, indecisive environment.",
+  "invalidation": "This wait-and-see stance is invalidated if price closes decisively above the EMA 50 (1.34574) with strong bullish momentum, or if it breaks and holds below the EMA 200 (1.34118) with increased bearish volume, providing a clear directional bias."
 };
