@@ -7,6 +7,7 @@
 <title>GBP/USD Swing Trading</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
 
 <script>
   // Prevent flash on load
@@ -418,6 +419,18 @@
     </div>
   </div>
 
+  <!-- Chart -->
+  <div class="card" style="padding:20px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:8px">
+      <span class="card-title" style="margin:0">Daily Chart — GBP/USD</span>
+      <div style="display:flex;gap:12px;font-size:11px;align-items:center">
+        <span><span style="display:inline-block;width:10px;height:2px;background:#00d4ff;vertical-align:middle;margin-right:4px"></span>EMA 50</span>
+        <span><span style="display:inline-block;width:10px;height:2px;background:#f59e0b;vertical-align:middle;margin-right:4px"></span>EMA 200</span>
+      </div>
+    </div>
+    <div id="chart-container" style="height:380px;width:100%;position:relative"></div>
+  </div>
+
   <!-- Indicators row -->
   <div class="grid-3">
 
@@ -534,6 +547,111 @@ function toggleTheme() {
   var t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', t);
   localStorage.setItem('theme', t);
+  initChart(); // re-render chart with new theme colours
+}
+
+// ── Chart ────────────────────────────────────────────────────────────────────
+var _chart = null;
+
+function chartColors() {
+  var dark = document.documentElement.getAttribute('data-theme') !== 'light';
+  return {
+    bg:     dark ? '#161b22' : '#ffffff',
+    text:   dark ? '#8892a4' : '#64748b',
+    border: dark ? '#2d3748' : '#cbd5e1',
+    grid:   dark ? '#1e253080' : '#e2e8f010',
+  };
+}
+
+function calcEma(candles, period) {
+  var k = 2 / (period + 1);
+  var ema = null;
+  return candles.map(function(c) {
+    ema = ema === null ? c.close : c.close * k + ema * (1 - k);
+    return { time: c.date, value: parseFloat(ema.toFixed(5)) };
+  });
+}
+
+function initChart() {
+  var d = window.PRICES_DATA;
+  var container = document.getElementById('chart-container');
+  if (!d || !d.candles || d.candles.length === 0 || !container) return;
+
+  // Destroy previous instance
+  if (_chart) { _chart.remove(); _chart = null; }
+
+  var col = chartColors();
+
+  _chart = LightweightCharts.createChart(container, {
+    width:  container.clientWidth,
+    height: 380,
+    layout: {
+      background: { type: 'solid', color: col.bg },
+      textColor:  col.text,
+      fontFamily: "'JetBrains Mono', monospace",
+      fontSize:   11,
+    },
+    grid: {
+      vertLines: { color: col.border },
+      horzLines: { color: col.border },
+    },
+    crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
+    rightPriceScale: {
+      borderColor: col.border,
+      scaleMargins: { top: 0.08, bottom: 0.08 },
+    },
+    timeScale: {
+      borderColor:     col.border,
+      timeVisible:     true,
+      fixLeftEdge:     true,
+      fixRightEdge:    true,
+    },
+    handleScroll:  true,
+    handleScale:   true,
+  });
+
+  // Candlesticks
+  var candles = _chart.addCandlestickSeries({
+    upColor:         '#22c55e',
+    downColor:       '#ef4444',
+    borderUpColor:   '#22c55e',
+    borderDownColor: '#ef4444',
+    wickUpColor:     '#22c55e',
+    wickDownColor:   '#ef4444',
+  });
+  candles.setData(d.candles.map(function(c) {
+    return { time: c.date, open: c.open, high: c.high, low: c.low, close: c.close };
+  }));
+
+  // EMA 50
+  var ema50 = _chart.addLineSeries({
+    color:            '#00d4ff',
+    lineWidth:        1,
+    priceLineVisible: false,
+    lastValueVisible: false,
+    title:            'EMA50',
+    crosshairMarkerVisible: false,
+  });
+  ema50.setData(calcEma(d.candles, 50));
+
+  // EMA 200
+  var ema200 = _chart.addLineSeries({
+    color:            '#f59e0b',
+    lineWidth:        1,
+    priceLineVisible: false,
+    lastValueVisible: false,
+    title:            'EMA200',
+    crosshairMarkerVisible: false,
+  });
+  ema200.setData(calcEma(d.candles, 200));
+
+  _chart.timeScale().fitContent();
+
+  // Responsive
+  var ro = new ResizeObserver(function() {
+    if (_chart) _chart.applyOptions({ width: container.clientWidth });
+  });
+  ro.observe(container);
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -776,6 +894,7 @@ function verdictClass(v) {
 // ── Init ──────────────────────────────────────────────────────────────────────
 renderPrices();
 renderAnalysis();
+initChart();
 </script>
 </body>
 </html>
