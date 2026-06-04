@@ -1,4 +1,4 @@
-window.PRICES_DATA = {
+{
   "symbol": "GBP/USD",
   "generated": "2026-06-04T22:52:49Z",
   "date": "2026-06-05",
@@ -743,4 +743,4 @@ window.PRICES_DATA = {
       "close": 1.34233
     }
   ]
-};
+}
