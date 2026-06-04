@@ -92,6 +92,8 @@ TARGET_1: [price or "N/A"]
 TARGET_2: [price or "N/A"]
 RISK_REWARD: [ratio or "N/A"]
 SCORE: [{d['score']}/10 confirmed or revised score/10]
+SUPPORT_LEVELS: [up to 3 prices nearest below current price, comma-separated, e.g. 1.3412, 1.3350]
+RESISTANCE_LEVELS: [up to 3 prices nearest above current price, comma-separated, e.g. 1.3458, 1.3500]
 
 ANALYSIS:
 [2-4 paragraphs of reasoning]
@@ -151,6 +153,20 @@ def parse_response(text):
     invalid_m  = re.search(r'INVALIDATION:\s*\n(.+)', text, re.DOTALL | re.IGNORECASE)
     invalidation = invalid_m.group(1).strip() if invalid_m else 'N/A'
 
+    def parse_levels(label):
+        m = re.search(rf'^{label}:\s*(.+)$', text, re.MULTILINE | re.IGNORECASE)
+        if not m:
+            return []
+        raw = m.group(1).strip().strip('[]')
+        parts = [p.strip() for p in raw.split(',')]
+        levels = []
+        for p in parts:
+            try:
+                levels.append(round(float(p), 5))
+            except ValueError:
+                pass
+        return levels
+
     return {
         'decision':     extract('DECISION'),
         'confidence':   extract('CONFIDENCE'),
@@ -160,9 +176,11 @@ def parse_response(text):
         'target_2':     extract('TARGET_2'),
         'risk_reward':  extract('RISK_REWARD'),
         'score':        extract('SCORE'),
-        'analysis':     analysis,
-        'invalidation': invalidation,
-        'raw':          text,
+        'analysis':          analysis,
+        'invalidation':      invalidation,
+        'support_levels':    parse_levels('SUPPORT_LEVELS'),
+        'resistance_levels': parse_levels('RESISTANCE_LEVELS'),
+        'raw':               text,
     }
 
 
@@ -182,8 +200,10 @@ def write_outputs(prices, parsed, generated_at):
         'target_2':     parsed['target_2'],
         'risk_reward':  parsed['risk_reward'],
         'score':        parsed['score'],
-        'analysis':     parsed['analysis'],
-        'invalidation': parsed['invalidation'],
+        'analysis':          parsed['analysis'],
+        'invalidation':      parsed['invalidation'],
+        'support_levels':    parsed['support_levels'],
+        'resistance_levels': parsed['resistance_levels'],
     }
 
     js = f"window.ANALYSIS_DATA = {json.dumps(payload, indent=2)};\n"
