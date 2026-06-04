@@ -33,7 +33,7 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf-8-s
 # ── Config ─────────────────────────────────────────────────────────────────────
 
 API_KEY        = os.environ.get("OPENROUTER_API_KEY", "")
-MODEL          = "deepseek/deepseek-chat-v3-0324:free"
+MODEL          = "deepseek/deepseek-v4-flash"
 PRICES_JSON    = "prices.json"
 OUTPUT_JS      = "analysis-data.js"
 OUTPUT_MD      = "last_analysis.md"
@@ -127,7 +127,9 @@ def call_openrouter(prompt):
 
     print(f"Calling OpenRouter ({MODEL}) ...")
     resp = requests.post(OPENROUTER_URL, headers=headers, json=body, timeout=120)
-    resp.raise_for_status()
+    if not resp.ok:
+        print(f"  HTTP {resp.status_code}: {resp.text[:500]}")
+        resp.raise_for_status()
     data = resp.json()
 
     if 'error' in data:

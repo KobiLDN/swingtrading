@@ -1,6 +1,6 @@
 window.ANALYSIS_DATA = {
   "generated": "2026-06-04T00:00:00Z",
-  "model": "deepseek/deepseek-chat-v3-0324:free",
+  "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "date": "—",
   "decision": "—",
