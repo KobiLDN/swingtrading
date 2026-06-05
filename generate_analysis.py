@@ -232,6 +232,8 @@ def write_outputs(prices, parsed, generated_at):
 | **Target 2** | {parsed['target_2']} |
 | **Risk/Reward** | {parsed['risk_reward']} |
 | **Score** | {parsed['score']} |
+| **Support** | {', '.join(str(x) for x in parsed['support_levels']) or 'N/A'} |
+| **Resistance** | {', '.join(str(x) for x in parsed['resistance_levels']) or 'N/A'} |
 
 ---
 
