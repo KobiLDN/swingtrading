@@ -170,6 +170,37 @@
   }
   .nav-pill.active .nav-num { color: var(--accent); }
 
+  /* ── Sub-nav items (nested under a section) ── */
+  .nav-sub {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--muted);
+    padding: 4px 10px 4px 30px;
+    border-radius: var(--radius);
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: color .15s, background .15s;
+    position: relative;
+  }
+  .nav-sub::before {
+    content: '–';
+    font-size: 10px;
+    color: var(--border);
+    position: absolute;
+    left: 18px;
+  }
+  .nav-sub:hover {
+    color: var(--text);
+    background: var(--surface2);
+    text-decoration: none;
+  }
+  .nav-sub:hover::before { color: var(--accent); }
+  .nav-sub.active { color: var(--accent); }
+  .nav-sub.active::before { color: var(--accent); }
+
   /* ── Main ── */
   .container {
     flex: 1;
@@ -384,6 +415,9 @@
     <a class="nav-pill" href="#scoring"><span class="nav-num">7</span> Scoring</a>
     <a class="nav-pill" href="#pseudocode"><span class="nav-num">8</span> Code</a>
     <a class="nav-pill" href="#reading"><span class="nav-num">9</span> Books</a>
+    <a class="nav-sub" href="#books-part1">Swing / Legends</a>
+    <a class="nav-sub" href="#books-part2">Buffett Collection</a>
+    <a class="nav-sub" href="#books-part3">Buffett Recommends</a>
     <a class="nav-pill" href="#regime"><span class="nav-num">10</span> Regime</a>
     <a class="nav-pill" href="#risk"><span class="nav-num">11</span> Risk Mgmt</a>
   </nav>
@@ -709,7 +743,7 @@
       </div>
 
       <!-- Part 1 -->
-      <div class="sub-heading">Part 1 — Swing Trading &amp; Legendary Trader Collection</div>
+      <div class="sub-heading" id="books-part1">Part 1 — Swing Trading &amp; Legendary Trader Collection</div>
       <div class="table-wrap">
         <table>
           <thead><tr><th>#</th><th>Author</th><th>Book</th><th>Category</th></tr></thead>
@@ -733,7 +767,7 @@
       </div>
 
       <!-- Part 2 -->
-      <div class="sub-heading" style="margin-top:28px">Part 2 — Warren Buffett Collection</div>
+      <div class="sub-heading" id="books-part2" style="margin-top:28px">Part 2 — Warren Buffett Collection</div>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Books by or about Buffett — covering his investment frameworks, biographies, and modern commentary.</p>
       <div class="table-wrap">
         <table>
@@ -755,7 +789,7 @@
       </div>
 
       <!-- Part 3 -->
-      <div class="sub-heading" style="margin-top:28px">Part 3 — Books Buffett Recommends</div>
+      <div class="sub-heading" id="books-part3" style="margin-top:28px">Part 3 — Books Buffett Recommends</div>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Books that shaped Buffett's philosophy — his verbatim praise included where available.</p>
       <div class="table-wrap">
         <table>
@@ -972,12 +1006,17 @@ function toggleTheme() {
 }
 
 (function(){
-  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading','regime','risk'];
-  var pills = document.querySelectorAll('#sidebarNav .nav-pill');
+  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading','books-part1','books-part2','books-part3','regime','risk'];
+  var links = document.querySelectorAll('#sidebarNav a');
+
+  // Sub-items → their parent section id
+  var parentMap = { 'books-part1': 'reading', 'books-part2': 'reading', 'books-part3': 'reading' };
 
   function setActive(id) {
-    pills.forEach(function(p) {
-      p.classList.toggle('active', p.getAttribute('href') === '#' + id);
+    links.forEach(function(a) {
+      var href = a.getAttribute('href').slice(1);
+      var isActive = href === id || (parentMap[id] && href === parentMap[id]);
+      a.classList.toggle('active', isActive);
     });
   }
 
@@ -992,7 +1031,7 @@ function toggleTheme() {
     if (el) observer.observe(el);
   });
 
-  document.querySelectorAll('#sidebarNav a').forEach(function(a) {
+  links.forEach(function(a) {
     a.addEventListener('click', function(e) {
       var target = document.querySelector(a.getAttribute('href'));
       if (!target) return;
