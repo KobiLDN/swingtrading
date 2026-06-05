@@ -24,6 +24,8 @@
 
 - **Automated pipeline** — `update_prices.py` fetches 200 daily OHLC candles from Twelve Data, calculates EMA/RSI/MACD/ATR/patterns/score, writes `prices-data.js` + `prices.json`; `generate_analysis.py` calls OpenRouter (DeepSeek v4 Flash), parses structured BUY/SELL/WAIT decision with S/R levels, writes `analysis-data.js` + `last_analysis.md`; GitHub Actions runs both scripts Mon–Fri at 06:00 and 06:10 UTC
 
-- **Live HTML dashboard** — `index.html` on GitHub Pages: Lightweight Charts candlestick chart with EMA 50/200 lines and AI S/R price lines; RSI bar; MACD panel; 0-10 signal score; 9-pattern checklist with ✓/✗; AI analysis panel (decision, confidence, entry, SL, targets, R/R, invalidation); in-browser OHLC paste calculator (full JS port of `update_prices.py` — no API key needed); copy-prompt builder
+- **Live HTML dashboard** — `index.html` on GitHub Pages: Lightweight Charts candlestick chart with EMA 50/200 lines and AI S/R price lines; RSI bar; MACD panel; 0-10 signal score with breakdown table; 9-pattern checklist with ✓/✗ and signal direction; AI analysis panel (decision, confidence, entry, SL, targets, risk/reward, invalidation); in-browser OHLC paste calculator (full JS port of `update_prices.py` — no API key needed); copy-prompt builder with step-by-step instructions; collapsible "How to use" guide; trend badge with EMA criteria; ATR explained as stop loss sizing guide
 
 - **In-browser OHLC calculator** — full JS port of `update_prices.py` indicator logic embedded in `index.html`; supports Twelve Data, Alpha Vantage, and plain array formats; recalculates all indicators and updates the chart instantly on paste
+
+- **Beginner context layer** — plain-English explanations throughout: RSI/MACD/EMA/ATR definitions in `encyclopedia.md`; score breakdown showing contributing factors; pattern signal direction; confidence sub-labels; R/R explanation; 4-step how-to guide on dashboard
