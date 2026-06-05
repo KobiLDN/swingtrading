@@ -355,6 +355,104 @@
   }
   .ema-arrow { font-size: 16px; }
 
+  /* ── Regime badge ── */
+  .regime-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid;
+  }
+  .regime-trending-up { background: rgba(34,197,94,.10);  color: var(--green);  border-color: rgba(34,197,94,.25); }
+  .regime-trending-dn { background: rgba(239,68,68,.10);  color: var(--red);    border-color: rgba(239,68,68,.25); }
+  .regime-consol      { background: rgba(245,158,11,.10); color: var(--yellow); border-color: rgba(245,158,11,.25); }
+  .regime-ranging     { background: rgba(148,163,184,.08);color: var(--muted);  border-color: rgba(148,163,184,.2); }
+
+  /* ── Position size calculator ── */
+  .calc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+  .calc-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+  .calc-field:last-child { margin-bottom: 0; }
+  .calc-field label {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: .5px;
+    text-transform: uppercase;
+  }
+  .calc-input-row { display: flex; align-items: stretch; }
+  .calc-select {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-right: none;
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: var(--radius) 0 0 var(--radius);
+    cursor: pointer;
+    transition: border-color .15s;
+  }
+  .calc-input {
+    flex: 1;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: var(--radius);
+    transition: border-color .15s;
+    width: 100%;
+  }
+  .calc-select + .calc-input { border-radius: 0 var(--radius) var(--radius) 0; }
+  .calc-input.has-right { border-radius: var(--radius) 0 0 var(--radius); border-right: none; }
+  .calc-select:focus, .calc-input:focus { outline: none; border-color: var(--accent); }
+  .calc-suffix {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-left: none;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: var(--muted);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .calc-results { display: flex; flex-direction: column; }
+  .calc-result-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .calc-result-row:first-child { padding-top: 4px; }
+  .calc-result-row:last-child  { border-bottom: none; padding-bottom: 0; }
+  .calc-result-label { font-size: 12px; color: var(--muted); }
+  .calc-result-val {
+    font-family: var(--mono);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .calc-result-val.empty { color: var(--muted); }
+  @media (max-width: 768px) { .calc-grid { grid-template-columns: 1fr; } }
+
   /* ── Footer ── */
   footer {
     text-align: center;
@@ -413,8 +511,9 @@
           <span class="ema-tag">EMA 200: <span id="ema200-val">—</span></span>
         </div>
       </div>
-      <div>
+      <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
         <span class="trend-badge trend-neutral" id="trend-badge">—</span>
+        <span class="regime-badge regime-ranging" id="regime-badge">— REGIME</span>
       </div>
     </div>
   </div>
@@ -517,6 +616,64 @@
     <div class="analysis-text" id="analysis-text">Awaiting first AI analysis run.</div>
     <div class="invalidation-text" id="invalidation-text" style="display:none"></div>
     <div style="font-size:10px;color:var(--muted);margin-top:10px" id="analysis-meta"></div>
+  </div>
+
+  <!-- Position Size Calculator -->
+  <div class="card">
+    <div class="card-title">Position Size Calculator</div>
+    <div class="calc-grid">
+      <div>
+        <div class="calc-field">
+          <label>Account Balance</label>
+          <div class="calc-input-row">
+            <select class="calc-select" id="calc-currency" onchange="calcPosition()">
+              <option value="usd">USD $</option>
+              <option value="gbp">GBP £</option>
+            </select>
+            <input class="calc-input" type="number" id="calc-balance" value="10000" min="100" step="100" oninput="calcPosition()">
+          </div>
+        </div>
+        <div class="calc-field">
+          <label>Risk per Trade</label>
+          <div class="calc-input-row">
+            <input class="calc-input has-right" type="number" id="calc-risk-pct" value="1" min="0.1" max="10" step="0.1" oninput="calcPosition()">
+            <span class="calc-suffix">%</span>
+          </div>
+        </div>
+        <div class="calc-field">
+          <label>Stop Distance &nbsp;<span id="calc-stop-hint" style="color:var(--accent);font-size:10px;font-weight:600"></span></label>
+          <div class="calc-input-row">
+            <input class="calc-input has-right" type="number" id="calc-stop-pips" min="1" step="1" placeholder="e.g. 50" oninput="calcPosition()">
+            <span class="calc-suffix">pips</span>
+          </div>
+        </div>
+      </div>
+      <div class="calc-results">
+        <div class="calc-result-row">
+          <span class="calc-result-label">Risk Amount</span>
+          <span class="calc-result-val empty" id="calc-out-risk">—</span>
+        </div>
+        <div class="calc-result-row">
+          <span class="calc-result-label">Position Size</span>
+          <span class="calc-result-val empty" id="calc-out-units">—</span>
+        </div>
+        <div class="calc-result-row">
+          <span class="calc-result-label">Micro Lots (1K units)</span>
+          <span class="calc-result-val empty" id="calc-out-micro">—</span>
+        </div>
+        <div class="calc-result-row">
+          <span class="calc-result-label">Mini Lots (10K units)</span>
+          <span class="calc-result-val empty" id="calc-out-mini">—</span>
+        </div>
+        <div class="calc-result-row">
+          <span class="calc-result-label">Standard Lots (100K units)</span>
+          <span class="calc-result-val empty" id="calc-out-lots">—</span>
+        </div>
+      </div>
+    </div>
+    <div style="font-size:11px;color:var(--muted);margin-top:14px">
+      GBP/USD pip value = $0.0001 per unit &nbsp;·&nbsp; Stop auto-filled from AI analysis when available
+    </div>
   </div>
 
   <!-- Copy Prompt -->
@@ -699,6 +856,14 @@ function renderPrices() {
   badge.textContent = d.trend || '—';
   badge.className   = 'trend-badge ' + trendClass(d.trend);
 
+  // Regime badge
+  var regime = calcRegime(d.price, d.ema50, d.ema200);
+  var regimeBadge = el('regime-badge');
+  if (regimeBadge && regime) {
+    regimeBadge.textContent = regime.label;
+    regimeBadge.className   = 'regime-badge ' + regime.cls;
+  }
+
   // RSI
   var rsi = d.rsi;
   if (rsi !== null) {
@@ -803,6 +968,22 @@ function renderAnalysis() {
     el('analysis-meta').textContent =
       'Generated: ' + fmtDate(a.generated) + ' · Model: ' + (a.model || '');
   }
+
+  // Auto-fill stop pips into position calculator from AI entry/SL
+  if (a.entry && a.stop_loss) {
+    var entryP = parseFloat(a.entry);
+    var slP    = parseFloat(a.stop_loss);
+    if (!isNaN(entryP) && !isNaN(slP) && entryP > 0 && slP > 0) {
+      var autoStop  = Math.round(Math.abs(entryP - slP) * 10000);
+      var stopInput = document.getElementById('calc-stop-pips');
+      var stopHint  = document.getElementById('calc-stop-hint');
+      if (stopInput && !stopInput.value) {
+        stopInput.value = autoStop;
+        if (stopHint) stopHint.textContent = '← AI: ' + autoStop + ' pips';
+        calcPosition();
+      }
+    }
+  }
 }
 
 // ── Build prompt ──────────────────────────────────────────────────────────────
@@ -851,6 +1032,52 @@ function copyPrompt() {
   });
 }
 
+// ── Regime ───────────────────────────────────────────────────────────────────
+function calcRegime(price, ema50, ema200) {
+  if (!price || !ema50 || !ema200) return null;
+  var sep     = Math.abs(ema50 - ema200) / price * 100; // EMA separation as % of price
+  var bullish = ema50 > ema200;
+  if (sep >= 0.3) return { label: 'TRENDING ' + (bullish ? '↑' : '↓'), cls: bullish ? 'regime-trending-up' : 'regime-trending-dn' };
+  if (sep <= 0.10) return { label: 'RANGING',        cls: 'regime-ranging' };
+  return             { label: 'CONSOLIDATING',        cls: 'regime-consol' };
+}
+
+// ── Position Size Calculator ──────────────────────────────────────────────────
+function calcPosition() {
+  var currency = document.getElementById('calc-currency').value;
+  var balance  = parseFloat(document.getElementById('calc-balance').value);
+  var riskPct  = parseFloat(document.getElementById('calc-risk-pct').value);
+  var stopPips = parseFloat(document.getElementById('calc-stop-pips').value);
+
+  function setOut(id, val) {
+    var e = document.getElementById(id);
+    if (!e) return;
+    e.textContent = val;
+    e.className = 'calc-result-val' + (val === '—' ? ' empty' : '');
+  }
+
+  if (!balance || !riskPct || !stopPips || stopPips <= 0 || balance <= 0) {
+    ['calc-out-risk','calc-out-units','calc-out-micro','calc-out-mini','calc-out-lots'].forEach(function(id){ setOut(id,'—'); });
+    return;
+  }
+
+  var price = (window.PRICES_DATA && window.PRICES_DATA.price) ? window.PRICES_DATA.price : 1.3;
+
+  // Risk in USD (GBP/USD quote currency = USD, pip value per unit = $0.0001)
+  var riskUSD = currency === 'gbp' ? balance * price * riskPct / 100 : balance * riskPct / 100;
+  var units   = riskUSD / (stopPips * 0.0001);
+
+  var riskDisp = currency === 'gbp'
+    ? '£' + (balance * riskPct / 100).toFixed(2) + '  ($' + riskUSD.toFixed(2) + ')'
+    : '$' + riskUSD.toFixed(2);
+
+  setOut('calc-out-risk',  riskDisp);
+  setOut('calc-out-units', Math.round(units).toLocaleString() + ' units');
+  setOut('calc-out-micro', (units / 1000).toFixed(2) + ' lots');
+  setOut('calc-out-mini',  (units / 10000).toFixed(2) + ' lots');
+  setOut('calc-out-lots',  (units / 100000).toFixed(3) + ' lots');
+}
+
 // ── Util ──────────────────────────────────────────────────────────────────────
 function trendClass(t) {
   if (!t) return 'trend-neutral';
@@ -895,6 +1122,7 @@ function verdictClass(v) {
 renderPrices();
 renderAnalysis();
 initChart();
+calcPosition();
 </script>
 </body>
 </html>
