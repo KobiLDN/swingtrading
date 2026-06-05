@@ -14,7 +14,9 @@ A GBP/USD swing trading knowledge base and AI-powered analysis dashboard. Daily 
 - Scores the setup 0–10 using confluence rules from the encyclopedia
 - Calls OpenRouter (DeepSeek) at 06:10 UTC for a structured AI analysis
 - Commits `prices-data.js` + `analysis-data.js` to the repo
-- GitHub Pages serves the live dashboard automatically
+- GitHub Pages serves the live dashboard automatically — candlestick chart with EMA lines and AI support/resistance levels, 9-pattern checklist, full AI decision panel
+
+**No setup required to use the calculator** — paste any OHLC JSON directly on the dashboard and all indicators recalculate in-browser instantly.
 
 ---
 
@@ -71,6 +73,10 @@ After both complete, your dashboard is live with real data.
 
 ## Local usage (no API key needed)
 
+### Option 1 — Browser (easiest)
+Go to the [live dashboard](https://KobiLDN.github.io/swingtrading), scroll to **Live Calculator**, paste your OHLC JSON, and hit **Calculate**. All indicators update instantly. Supports Twelve Data, Alpha Vantage, and plain `[{datetime, open, high, low, close}]` arrays.
+
+### Option 2 — Python CLI
 ```bash
 pip install pandas numpy
 cd Trading
@@ -78,8 +84,7 @@ python ohlc_calculator.py          # reads ohlc_data.json
 # or
 python ohlc_calculator.py mydata.json
 ```
-
-Replace `ohlc_data.json` with fresh data from [Twelve Data](https://twelvedata.com) or [Alpha Vantage](https://www.alphavantage.co/). The calculator outputs a pre-filled AI prompt you can paste directly into Claude or ChatGPT.
+Replace `ohlc_data.json` with fresh data from [Twelve Data](https://twelvedata.com) or [Alpha Vantage](https://www.alphavantage.co/). Outputs a pre-filled AI prompt you can paste directly into Claude or ChatGPT.
 
 ---
 

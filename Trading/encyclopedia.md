@@ -64,6 +64,8 @@
 
 ### RSI (Relative Strength Index) — 14-period default
 
+**What it is:** RSI measures the speed and size of recent price moves on a 0–100 scale. It answers the question: *has price moved too far too fast in one direction?* It compares the average size of up-moves to down-moves over the last 14 candles. A reading above 70 means buyers have been dominant and the move may be exhausted; below 30 means sellers have been dominant. RSI is most useful as a *confirmation* tool — a pattern at a key S/R level with RSI confirming is a stronger signal than either alone.
+
 | Value | Interpretation | Action |
 |-------|----------------|--------|
 | >70 | Overbought | Look for bearish reversal patterns |
@@ -71,10 +73,16 @@
 | 30-70 | Neutral | Follow trend direction |
 
 **Divergence Detection:**
-- **Bearish divergence:** Price makes higher high, RSI makes lower high → SELL signal
-- **Bullish divergence:** Price makes lower low, RSI makes higher low → BUY signal
+Divergence means price and RSI disagree — price makes a new extreme but RSI does not confirm it, signalling weakening momentum before price reverses.
+- **Bearish divergence:** Price makes higher high, RSI makes lower high → momentum fading, SELL signal
+- **Bullish divergence:** Price makes lower low, RSI makes higher low → momentum fading, BUY signal
 
-### MACD (12, 26, 9)
+### MACD (Moving Average Convergence Divergence) — 12, 26, 9
+
+**What it is:** MACD measures the relationship between two EMAs of closing price (fast 12-period and slow 26-period). When the fast EMA pulls away from the slow EMA, momentum is building. The three components are:
+- **MACD line** — the gap between EMA(12) and EMA(26). Positive = fast above slow = bullish momentum.
+- **Signal line** — 9-period EMA of the MACD line. Acts as a trigger.
+- **Histogram** — MACD line minus Signal line. Shows whether momentum is accelerating or decelerating. Bars growing = momentum building; bars shrinking = momentum fading.
 
 | Condition | Signal |
 |-----------|--------|
@@ -82,8 +90,11 @@
 | MACD line crosses below Signal line | Bearish momentum |
 | Histogram turns from negative to positive | Momentum acceleration up |
 | Histogram turns from positive to negative | Momentum acceleration down |
+| Histogram shrinking (towards zero) | Momentum fading — potential reversal |
 
 ### Moving Averages (50 EMA & 200 EMA)
+
+**What they are:** An EMA (Exponential Moving Average) is the average closing price over N candles, with recent candles weighted more heavily than older ones. The 50 EMA tracks the medium-term trend; the 200 EMA tracks the long-term trend. When price is above both EMAs, conditions favour longs. When both EMAs slope upward and price pulls back to the 50 EMA, that is a classic trend continuation entry.
 
 | Condition | Bias | Strength |
 |-----------|------|----------|
@@ -93,6 +104,10 @@
 | 50 EMA crosses below 200 EMA | Death Cross | Major bearish (confirm with volume) |
 | Price > 50 EMA > 200 EMA | Strong uptrend | Buy on pullbacks to 50 EMA |
 | Price < 50 EMA < 200 EMA | Strong downtrend | Sell on rallies to 50 EMA |
+
+### ATR (Average True Range) — 14-period
+
+**What it is:** ATR measures volatility — specifically, the average size of a daily candle (including gaps) over the last 14 days, expressed in price units. It tells you *how much the market typically moves in a day*, which is used to size stop losses and targets proportionally. On GBP/USD daily, ATR is typically 70–120 pips. A stop loss of 1× ATR means the trade has room to breathe through normal daily fluctuation without being stopped out by noise.
 
 ---
 
