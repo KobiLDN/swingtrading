@@ -104,44 +104,87 @@
   }
   .theme-btn:hover { border-color: var(--accent); }
 
-  /* ── Quick nav ── */
-  .quick-nav {
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 0 24px;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-  .quick-nav-inner {
-    max-width: var(--max-w);
-    margin: 0 auto;
+  /* ── Layout ── */
+  .page-body {
     display: flex;
-    gap: 4px;
-    padding: 8px 0;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    width: 188px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 58px;
+    height: calc(100vh - 58px);
+    overflow-y: auto;
+    padding: 24px 0 24px 20px;
+    border-right: 1px solid var(--border);
+  }
+  .sidebar-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 4px;
+  }
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
   }
   .nav-pill {
-    display: inline-block;
-    font-family: var(--mono);
-    font-size: 10px;
-    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 500;
     color: var(--muted);
-    padding: 4px 10px;
-    border-radius: 20px;
-    border: 1px solid var(--border);
+    padding: 7px 10px;
+    border-radius: var(--radius);
+    border: 1px solid transparent;
     text-decoration: none;
-    transition: color .15s, border-color .15s, background .15s;
+    transition: color .15s, background .15s, border-color .15s;
     white-space: nowrap;
   }
-  .nav-pill:hover { color: var(--accent); border-color: var(--accent); background: rgba(0,212,255,.06); }
+  .nav-pill .nav-num {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--border);
+    min-width: 14px;
+    transition: color .15s;
+  }
+  .nav-pill:hover {
+    color: var(--text);
+    background: var(--surface2);
+    border-color: var(--border);
+  }
+  .nav-pill:hover .nav-num { color: var(--accent); }
+  .nav-pill.active {
+    color: var(--accent);
+    background: rgba(0,212,255,.07);
+    border-color: rgba(0,212,255,.25);
+  }
+  .nav-pill.active .nav-num { color: var(--accent); }
 
   /* ── Main ── */
   .container {
-    max-width: var(--max-w);
-    margin: 0 auto;
-    padding: 28px 24px;
+    flex: 1;
+    min-width: 0;
+    padding: 28px 28px 28px 28px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  /* ── Mobile: hide sidebar, show top scroll nav ── */
+  @media (max-width: 780px) {
+    .sidebar { display: none; }
+    .page-body { display: block; }
+    .container { padding: 16px 12px; }
   }
 
   /* ── Section cards ── */
@@ -307,7 +350,6 @@
   /* ── Responsive ── */
   @media (max-width: 640px) {
     .score-grid { grid-template-columns: 1fr; }
-    .container { padding: 16px 12px; }
     .section-body { padding: 14px; }
     h1 { font-size: 16px; }
   }
@@ -328,19 +370,22 @@
   </div>
 </header>
 
-<nav class="quick-nav">
-  <div class="quick-nav-inner">
-    <a class="nav-pill" href="#candlestick">1 · Candlestick</a>
-    <a class="nav-pill" href="#chart-patterns">2 · Chart Patterns</a>
-    <a class="nav-pill" href="#support-resistance">3 · S &amp; R</a>
-    <a class="nav-pill" href="#momentum">4 · Momentum</a>
-    <a class="nav-pill" href="#volume">5 · Volume</a>
-    <a class="nav-pill" href="#gbpusd">6 · GBP/USD</a>
-    <a class="nav-pill" href="#scoring">7 · Scoring</a>
-    <a class="nav-pill" href="#pseudocode">8 · Code</a>
-    <a class="nav-pill" href="#reading">9 · Reading</a>
-  </div>
-</nav>
+<div class="page-body">
+
+<aside class="sidebar">
+  <div class="sidebar-label">Sections</div>
+  <nav class="sidebar-nav" id="sidebarNav">
+    <a class="nav-pill" href="#candlestick"><span class="nav-num">1</span> Candlestick</a>
+    <a class="nav-pill" href="#chart-patterns"><span class="nav-num">2</span> Chart Patterns</a>
+    <a class="nav-pill" href="#support-resistance"><span class="nav-num">3</span> S &amp; R</a>
+    <a class="nav-pill" href="#momentum"><span class="nav-num">4</span> Momentum</a>
+    <a class="nav-pill" href="#volume"><span class="nav-num">5</span> Volume</a>
+    <a class="nav-pill" href="#gbpusd"><span class="nav-num">6</span> GBP/USD</a>
+    <a class="nav-pill" href="#scoring"><span class="nav-num">7</span> Scoring</a>
+    <a class="nav-pill" href="#pseudocode"><span class="nav-num">8</span> Code</a>
+    <a class="nav-pill" href="#reading"><span class="nav-num">9</span> Books</a>
+  </nav>
+</aside>
 
 <main class="container">
 
@@ -978,6 +1023,8 @@
 
 </main>
 
+</div><!-- /page-body -->
+
 <footer>
   For research and educational purposes only. Not financial advice.
   &nbsp;·&nbsp; <a href="../index.html" style="color:var(--muted)">Dashboard</a>
@@ -990,6 +1037,39 @@ function toggleTheme() {
   document.documentElement.setAttribute('data-theme', t);
   localStorage.setItem('theme', t);
 }
+
+(function(){
+  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading'];
+  var pills = document.querySelectorAll('#sidebarNav .nav-pill');
+
+  function setActive(id) {
+    pills.forEach(function(p) {
+      p.classList.toggle('active', p.getAttribute('href') === '#' + id);
+    });
+  }
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) setActive(e.target.id);
+    });
+  }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+
+  ids.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) observer.observe(el);
+  });
+
+  // Smooth scroll offset for sticky header
+  document.querySelectorAll('#sidebarNav a').forEach(function(a) {
+    a.addEventListener('click', function(e) {
+      var target = document.querySelector(a.getAttribute('href'));
+      if (!target) return;
+      e.preventDefault();
+      var top = target.getBoundingClientRect().top + window.scrollY - 70;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+    });
+  });
+})();
 </script>
 </body>
 </html>
