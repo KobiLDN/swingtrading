@@ -165,7 +165,55 @@ def calculate_rsi(prices, period=14):
 
 ## References
 
-- Bulkowski's pattern reliability ratings
-- Nison's candlestick criteria
+### Core Detection Sources
+- Bulkowski's pattern reliability ratings (*Encyclopedia of Chart Patterns*, 3rd Edition) — win rates, failure rates, average hold times for all Section 2 patterns
+- Nison's candlestick criteria (*Japanese Candlestick Charting Techniques*) — source material for all 9 patterns in Section 1
 - Wilder's RSI and momentum principles
 - Pattern Zoo volume confirmation rules
+
+### Complete Trading Library (39 Books)
+
+**Part 1 — Swing Trading & Legends (14)**
+1. George Soros — *The Alchemy of Finance*
+2. Paul Tudor Jones — *Trader* documentary + *Market Wizards* content
+3. Stanley Druckenmiller — *Market Wizards* series interviews
+4. Jesse Livermore (Edwin Lefèvre) — *Reminiscences of a Stock Operator*
+5. Nicolas Darvas — *How I Made $2,000,000 in the Stock Market*
+6. William J. O'Neil — *How to Make Money in Stocks*
+7. Alan S. Farley — *The Master Swing Trader*
+8. John F. Carter — *Mastering the Trade* (3rd Edition)
+9. Mark Minervini — *Trade Like a Stock Market Wizard*
+10. Mark Minervini — *Think & Trade Like a Champion*
+11. Brian Pezim & Andrew Aziz — *How to Swing Trade*
+12. Omar Bassal, CFA — *Swing Trading For Dummies*
+13. Brett N. Steenbarger — *The Psychology of Trading*
+14. Jack D. Schwager — *Market Wizards* series (3 volumes)
+
+**Part 2 — Warren Buffett Collection (11)**
+15. Lawrence Cunningham — *The Essays of Warren Buffett* ★ Primary source
+16. Mary Buffett & David Clark — *The New Tao of Warren Buffett* (2024)
+17. Mary Buffett & David Clark — *The Tao of Warren Buffett*
+18. Mary Buffett & David Clark — *Buffettology*
+19. Mary Buffett & David Clark — *Warren Buffett and the Interpretation of Financial Statements*
+20. Mary Buffett & Sean Seah — *7 Secrets to Investing Like Warren Buffett*
+21. Roger Lowenstein — *Buffett: The Biography* ★ Definitive biography
+22. Daniel Pecaut — *University of Berkshire Hathaway*
+23. Danielle Town — *Invested*
+24. Charles R. Morris — *The Sages*
+25. Anthony McCarten — *Warren and Bill* (2024)
+
+**Part 3 — Books Buffett Recommends (14)**
+26. Benjamin Graham — *The Intelligent Investor* ★ "By far the best book about investing ever written"
+27. Benjamin Graham & David Dodd — *Security Analysis*
+28. Philip Fisher — *Common Stocks and Uncommon Profits*
+29. Charles T. Munger — *Poor Charlie's Almanack*
+30. John Brooks — *Business Adventures* (Buffett's favourite business book)
+31. John C. Bogle — *The Little Book of Common Sense Investing*
+32. John C. Bogle — *The Clash of Cultures*
+33. William N. Thorndike — *The Outsiders*
+34. Howard Marks — *The Most Important Thing*
+35. Fred Schwed Jr. — *Where Are the Customers' Yachts?*
+36. Phil Knight — *Shoe Dog*
+37. Walter Isaacson — *The Innovators*
+38. John Kenneth Galbraith — *The Great Crash of 1929*
+39. John Maynard Keynes — *Essays in Persuasion*
