@@ -384,6 +384,8 @@
     <a class="nav-pill" href="#scoring"><span class="nav-num">7</span> Scoring</a>
     <a class="nav-pill" href="#pseudocode"><span class="nav-num">8</span> Code</a>
     <a class="nav-pill" href="#reading"><span class="nav-num">9</span> Books</a>
+    <a class="nav-pill" href="#regime"><span class="nav-num">10</span> Regime</a>
+    <a class="nav-pill" href="#risk"><span class="nav-num">11</span> Risk Mgmt</a>
   </nav>
 </aside>
 
@@ -402,68 +404,18 @@
       <div class="table-wrap">
         <table>
           <thead>
-            <tr>
-              <th>Pattern</th>
-              <th>Signal</th>
-              <th>Detection Rule</th>
-              <th>Strength</th>
-            </tr>
+            <tr><th>Pattern</th><th>Signal</th><th>Detection Rule</th><th>Strength</th></tr>
           </thead>
           <tbody>
-            <tr>
-              <td><strong>Hammer</strong></td>
-              <td><span class="badge bull">Bullish Reversal</span></td>
-              <td>Body ≤ 30% of range, lower wick ≥ 2.2× body, small body at top — after downtrend</td>
-              <td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td>
-            </tr>
-            <tr>
-              <td><strong>Inverted Hammer</strong></td>
-              <td><span class="badge bull">Bullish Reversal</span></td>
-              <td>Body ≤ 30% of range, upper wick ≥ 2.2× body, small body at bottom — after downtrend</td>
-              <td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td>
-            </tr>
-            <tr>
-              <td><strong>Shooting Star</strong></td>
-              <td><span class="badge bear">Bearish Reversal</span></td>
-              <td>Body ≤ 30% of range, upper wick ≥ 2.2× body, small body at bottom — after uptrend</td>
-              <td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td>
-            </tr>
-            <tr>
-              <td><strong>Hanging Man</strong></td>
-              <td><span class="badge bear">Bearish Reversal</span></td>
-              <td>Body ≤ 30% of range, lower wick ≥ 2.2× body, small body at top — after uptrend</td>
-              <td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td>
-            </tr>
-            <tr>
-              <td><strong>Bullish Engulfing</strong></td>
-              <td><span class="badge bull">Strong Bullish</span></td>
-              <td>Current bullish candle (Close &gt; Open) completely engulfs previous bearish candle body (Open &gt; Close)</td>
-              <td class="str-4"><span class="stars">★★★★</span><span style="color:var(--border)">★</span></td>
-            </tr>
-            <tr>
-              <td><strong>Bearish Engulfing</strong></td>
-              <td><span class="badge bear">Strong Bearish</span></td>
-              <td>Current bearish candle (Open &gt; Close) completely engulfs previous bullish candle body (Close &gt; Open)</td>
-              <td class="str-4"><span class="stars">★★★★</span><span style="color:var(--border)">★</span></td>
-            </tr>
-            <tr>
-              <td><strong>Morning Star</strong></td>
-              <td><span class="badge bull">Strong Bullish Reversal</span></td>
-              <td>Bearish candle → Doji → Bullish candle (third closes ≥ midpoint of first)</td>
-              <td class="str-5"><span class="stars">★★★★★</span></td>
-            </tr>
-            <tr>
-              <td><strong>Evening Star</strong></td>
-              <td><span class="badge bear">Strong Bearish Reversal</span></td>
-              <td>Bullish candle → Doji → Bearish candle (third closes ≤ midpoint of first)</td>
-              <td class="str-5"><span class="stars">★★★★★</span></td>
-            </tr>
-            <tr>
-              <td><strong>Doji</strong></td>
-              <td><span class="badge neut">Indecision</span></td>
-              <td>Body ≤ 5% of total range</td>
-              <td class="str-2"><span class="stars">★★</span><span style="color:var(--border)">★★★</span></td>
-            </tr>
+            <tr><td><strong>Hammer</strong></td><td><span class="badge bull">Bullish Reversal</span></td><td>Body ≤ 30% of range, lower wick ≥ 2.2× body, small body at top — after downtrend</td><td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td></tr>
+            <tr><td><strong>Inverted Hammer</strong></td><td><span class="badge bull">Bullish Reversal</span></td><td>Body ≤ 30% of range, upper wick ≥ 2.2× body, small body at bottom — after downtrend</td><td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td></tr>
+            <tr><td><strong>Shooting Star</strong></td><td><span class="badge bear">Bearish Reversal</span></td><td>Body ≤ 30% of range, upper wick ≥ 2.2× body, small body at bottom — after uptrend</td><td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td></tr>
+            <tr><td><strong>Hanging Man</strong></td><td><span class="badge bear">Bearish Reversal</span></td><td>Body ≤ 30% of range, lower wick ≥ 2.2× body, small body at top — after uptrend</td><td class="str-3"><span class="stars">★★★</span><span style="color:var(--border)">★★</span></td></tr>
+            <tr><td><strong>Bullish Engulfing</strong></td><td><span class="badge bull">Strong Bullish</span></td><td>Current bullish candle (Close &gt; Open) completely engulfs previous bearish candle body</td><td class="str-4"><span class="stars">★★★★</span><span style="color:var(--border)">★</span></td></tr>
+            <tr><td><strong>Bearish Engulfing</strong></td><td><span class="badge bear">Strong Bearish</span></td><td>Current bearish candle (Open &gt; Close) completely engulfs previous bullish candle body</td><td class="str-4"><span class="stars">★★★★</span><span style="color:var(--border)">★</span></td></tr>
+            <tr><td><strong>Morning Star</strong></td><td><span class="badge bull">Strong Bullish Reversal</span></td><td>Bearish candle → Doji → Bullish candle (third closes ≥ midpoint of first)</td><td class="str-5"><span class="stars">★★★★★</span></td></tr>
+            <tr><td><strong>Evening Star</strong></td><td><span class="badge bear">Strong Bearish Reversal</span></td><td>Bullish candle → Doji → Bearish candle (third closes ≤ midpoint of first)</td><td class="str-5"><span class="stars">★★★★★</span></td></tr>
+            <tr><td><strong>Doji</strong></td><td><span class="badge neut">Indecision</span></td><td>Body ≤ 5% of total range</td><td class="str-2"><span class="stars">★★</span><span style="color:var(--border)">★★★</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -483,99 +435,29 @@
       <div class="sub-heading">Reversal Patterns</div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Pattern</th><th>Bias</th><th>Detection Rule</th><th>Target Calculation</th></tr>
-          </thead>
+          <thead><tr><th>Pattern</th><th>Bias</th><th>Detection Rule</th><th>Target Calculation</th></tr></thead>
           <tbody>
-            <tr>
-              <td><strong>Head &amp; Shoulders</strong></td>
-              <td><span class="badge bear">Bearish</span></td>
-              <td>Three peaks: centre (head) highest, left/right shoulders similar (±2%), neckline connects troughs</td>
-              <td>Head height subtracted from neckline break</td>
-            </tr>
-            <tr>
-              <td><strong>Inverse H&amp;S</strong></td>
-              <td><span class="badge bull">Bullish</span></td>
-              <td>Three troughs: centre deepest, shoulders similar (±2%), neckline connects peaks</td>
-              <td>Head height added to neckline break</td>
-            </tr>
-            <tr>
-              <td><strong>Double Top</strong></td>
-              <td><span class="badge bear">Bearish</span></td>
-              <td>Two highs within 2% of each other, valley between ≥3% below highs</td>
-              <td>Height = highs − valley, subtracted from breakdown</td>
-            </tr>
-            <tr>
-              <td><strong>Double Bottom</strong></td>
-              <td><span class="badge bull">Bullish</span></td>
-              <td>Two lows within 2% of each other, peak between ≥3% above lows</td>
-              <td>Height = peak − lows, added to breakout</td>
-            </tr>
-            <tr>
-              <td><strong>Triple Top</strong></td>
-              <td><span class="badge bear">Bearish</span></td>
-              <td>Three touches at same resistance (±1%), fails each time</td>
-              <td>Resistance − support, subtracted from breakdown</td>
-            </tr>
-            <tr>
-              <td><strong>Triple Bottom</strong></td>
-              <td><span class="badge bull">Bullish</span></td>
-              <td>Three touches at same support (±1%), holds each time</td>
-              <td>Resistance − support, added to breakout</td>
-            </tr>
+            <tr><td><strong>Head &amp; Shoulders</strong></td><td><span class="badge bear">Bearish</span></td><td>Three peaks: centre (head) highest, left/right shoulders similar (±2%), neckline connects troughs</td><td>Head height subtracted from neckline break</td></tr>
+            <tr><td><strong>Inverse H&amp;S</strong></td><td><span class="badge bull">Bullish</span></td><td>Three troughs: centre deepest, shoulders similar (±2%), neckline connects peaks</td><td>Head height added to neckline break</td></tr>
+            <tr><td><strong>Double Top</strong></td><td><span class="badge bear">Bearish</span></td><td>Two highs within 2% of each other, valley between ≥3% below highs</td><td>Height = highs − valley, subtracted from breakdown</td></tr>
+            <tr><td><strong>Double Bottom</strong></td><td><span class="badge bull">Bullish</span></td><td>Two lows within 2% of each other, peak between ≥3% above lows</td><td>Height = peak − lows, added to breakout</td></tr>
+            <tr><td><strong>Triple Top</strong></td><td><span class="badge bear">Bearish</span></td><td>Three touches at same resistance (±1%), fails each time</td><td>Resistance − support, subtracted from breakdown</td></tr>
+            <tr><td><strong>Triple Bottom</strong></td><td><span class="badge bull">Bullish</span></td><td>Three touches at same support (±1%), holds each time</td><td>Resistance − support, added to breakout</td></tr>
           </tbody>
         </table>
       </div>
-
       <div class="sub-heading">Continuation Patterns</div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Pattern</th><th>Bias</th><th>Detection Rule</th><th>Breakout Direction</th></tr>
-          </thead>
+          <thead><tr><th>Pattern</th><th>Bias</th><th>Detection Rule</th><th>Breakout Direction</th></tr></thead>
           <tbody>
-            <tr>
-              <td><strong>Ascending Triangle</strong></td>
-              <td><span class="badge bull">Bullish</span></td>
-              <td>Flat top resistance, rising bottom trendline (higher lows)</td>
-              <td>Above flat top (≥1× ATR)</td>
-            </tr>
-            <tr>
-              <td><strong>Descending Triangle</strong></td>
-              <td><span class="badge bear">Bearish</span></td>
-              <td>Flat bottom support, falling top trendline (lower highs)</td>
-              <td>Below flat bottom (≥1× ATR)</td>
-            </tr>
-            <tr>
-              <td><strong>Symmetrical Triangle</strong></td>
-              <td><span class="badge dir">Directional</span></td>
-              <td>Converging trendlines (rising lows, falling highs)</td>
-              <td>First breakout direction (≥1.5× ATR)</td>
-            </tr>
-            <tr>
-              <td><strong>Bull Flag</strong></td>
-              <td><span class="badge bull">Bullish</span></td>
-              <td>Sharp vertical rise → parallel or downward-sloping consolidation (10–40 candles)</td>
-              <td>Above flag top</td>
-            </tr>
-            <tr>
-              <td><strong>Bear Flag</strong></td>
-              <td><span class="badge bear">Bearish</span></td>
-              <td>Sharp vertical drop → parallel or upward-sloping consolidation (10–40 candles)</td>
-              <td>Below flag bottom</td>
-            </tr>
-            <tr>
-              <td><strong>Rising Wedge</strong></td>
-              <td><span class="badge bear">Bearish</span></td>
-              <td>Both trendlines rising, upper line steeper → converging</td>
-              <td>Below lower trendline</td>
-            </tr>
-            <tr>
-              <td><strong>Falling Wedge</strong></td>
-              <td><span class="badge bull">Bullish</span></td>
-              <td>Both trendlines falling, lower line steeper → converging</td>
-              <td>Above upper trendline</td>
-            </tr>
+            <tr><td><strong>Ascending Triangle</strong></td><td><span class="badge bull">Bullish</span></td><td>Flat top resistance, rising bottom trendline (higher lows)</td><td>Above flat top (≥1× ATR)</td></tr>
+            <tr><td><strong>Descending Triangle</strong></td><td><span class="badge bear">Bearish</span></td><td>Flat bottom support, falling top trendline (lower highs)</td><td>Below flat bottom (≥1× ATR)</td></tr>
+            <tr><td><strong>Symmetrical Triangle</strong></td><td><span class="badge dir">Directional</span></td><td>Converging trendlines (rising lows, falling highs)</td><td>First breakout direction (≥1.5× ATR)</td></tr>
+            <tr><td><strong>Bull Flag</strong></td><td><span class="badge bull">Bullish</span></td><td>Sharp vertical rise → parallel or downward-sloping consolidation (10–40 candles)</td><td>Above flag top</td></tr>
+            <tr><td><strong>Bear Flag</strong></td><td><span class="badge bear">Bearish</span></td><td>Sharp vertical drop → parallel or upward-sloping consolidation (10–40 candles)</td><td>Below flag bottom</td></tr>
+            <tr><td><strong>Rising Wedge</strong></td><td><span class="badge bear">Bearish</span></td><td>Both trendlines rising, upper line steeper → converging</td><td>Below lower trendline</td></tr>
+            <tr><td><strong>Falling Wedge</strong></td><td><span class="badge bull">Bullish</span></td><td>Both trendlines falling, lower line steeper → converging</td><td>Above upper trendline</td></tr>
           </tbody>
         </table>
       </div>
@@ -594,30 +476,12 @@
     <div class="section-body">
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Concept</th><th>Detection Rule</th><th>Confirmation</th></tr>
-          </thead>
+          <thead><tr><th>Concept</th><th>Detection Rule</th><th>Confirmation</th></tr></thead>
           <tbody>
-            <tr>
-              <td><strong>Support</strong></td>
-              <td>Price bounces from same level ≥2 times within 3% range</td>
-              <td>Volume increases on bounce</td>
-            </tr>
-            <tr>
-              <td><strong>Resistance</strong></td>
-              <td>Price rejects from same level ≥2 times within 3% range</td>
-              <td>Volume increases on rejection</td>
-            </tr>
-            <tr>
-              <td><strong>Breakout</strong></td>
-              <td>Close ≥1× ATR above resistance or below support</td>
-              <td>Volume ≥1.5× 20-day average</td>
-            </tr>
-            <tr>
-              <td><strong>Role Reversal</strong></td>
-              <td>Broken support becomes new resistance (or vice versa)</td>
-              <td>Price retests and reverses</td>
-            </tr>
+            <tr><td><strong>Support</strong></td><td>Price bounces from same level ≥2 times within 3% range</td><td>Volume increases on bounce</td></tr>
+            <tr><td><strong>Resistance</strong></td><td>Price rejects from same level ≥2 times within 3% range</td><td>Volume increases on rejection</td></tr>
+            <tr><td><strong>Breakout</strong></td><td>Close ≥1× ATR above resistance or below support</td><td>Volume ≥1.5× 20-day average</td></tr>
+            <tr><td><strong>Role Reversal</strong></td><td>Broken support becomes new resistance (or vice versa)</td><td>Price retests and reverses</td></tr>
           </tbody>
         </table>
       </div>
@@ -630,56 +494,35 @@
       <span class="section-num">04</span>
       <div>
         <div class="section-title">Momentum Indicators</div>
-        <div class="section-sub">RSI (14) · MACD (12, 26, 9) · EMA (50 &amp; 200) · ATR (14)</div>
+        <div class="section-sub">RSI (14) · MACD (12, 26, 9) · EMA (50 &amp; 200) · ATR (14) · AVWAP</div>
       </div>
     </div>
     <div class="section-body">
 
       <div class="sub-heading">RSI — Relative Strength Index (14-period)</div>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">RSI measures the speed and size of recent price moves on a 0–100 scale. It answers: <em>has price moved too far too fast in one direction?</em> It compares the average size of up-moves to down-moves over the last 14 candles. Most useful as a <strong style="color:var(--text)">confirmation tool</strong> — a candlestick pattern at a key S/R level with RSI confirming is significantly stronger than either signal alone.</p>
+      <p style="font-size:11px;color:var(--yellow);margin-bottom:10px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Confirms moves that have already started — best used as confirmation, not as the trigger</p>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">RSI measures the speed and size of recent price moves on a 0–100 scale. It answers: <em>has price moved too far too fast in one direction?</em> Most useful as a <strong style="color:var(--text)">confirmation tool</strong> — a pattern at a key S/R level with RSI confirming is significantly stronger than either alone.</p>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Value</th><th>Interpretation</th><th>Action</th></tr>
-          </thead>
+          <thead><tr><th>Value</th><th>Interpretation</th><th>Action</th></tr></thead>
           <tbody>
-            <tr>
-              <td><span style="font-family:var(--mono);color:var(--red)">&gt; 70</span></td>
-              <td>Overbought</td>
-              <td>Look for bearish reversal patterns</td>
-            </tr>
-            <tr>
-              <td><span style="font-family:var(--mono);color:var(--green)">&lt; 30</span></td>
-              <td>Oversold</td>
-              <td>Look for bullish reversal patterns</td>
-            </tr>
-            <tr>
-              <td><span style="font-family:var(--mono);color:var(--muted)">30–70</span></td>
-              <td>Neutral</td>
-              <td>Follow trend direction</td>
-            </tr>
+            <tr><td><span style="font-family:var(--mono);color:var(--red)">&gt; 70</span></td><td>Overbought</td><td>Look for bearish reversal patterns</td></tr>
+            <tr><td><span style="font-family:var(--mono);color:var(--green)">&lt; 30</span></td><td>Oversold</td><td>Look for bullish reversal patterns</td></tr>
+            <tr><td><span style="font-family:var(--mono);color:var(--muted)">30–70</span></td><td>Neutral</td><td>Follow trend direction</td></tr>
           </tbody>
         </table>
       </div>
-
       <ul class="div-list">
-        <li class="div-item bear-div">
-          <span class="div-label badge bear" style="flex-shrink:0">Bearish Div</span>
-          <span>Price makes <strong>higher high</strong>, RSI makes <strong>lower high</strong> → SELL signal</span>
-        </li>
-        <li class="div-item bull-div">
-          <span class="div-label badge bull" style="flex-shrink:0">Bullish Div</span>
-          <span>Price makes <strong>lower low</strong>, RSI makes <strong>higher low</strong> → BUY signal</span>
-        </li>
+        <li class="div-item bear-div"><span class="div-label badge bear" style="flex-shrink:0">Bearish Div</span><span>Price makes <strong>higher high</strong>, RSI makes <strong>lower high</strong> → SELL signal</span></li>
+        <li class="div-item bull-div"><span class="div-label badge bull" style="flex-shrink:0">Bullish Div</span><span>Price makes <strong>lower low</strong>, RSI makes <strong>higher low</strong> → BUY signal</span></li>
       </ul>
 
       <div class="sub-heading">MACD — (12, 26, 9)</div>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">MACD measures the relationship between two EMAs of closing price. The three components are: <strong style="color:var(--text)">MACD line</strong> — the gap between EMA(12) and EMA(26), positive = bullish momentum; <strong style="color:var(--text)">Signal line</strong> — 9-period EMA of the MACD line, acts as a trigger; <strong style="color:var(--text)">Histogram</strong> — MACD line minus Signal line. Bars growing = momentum building; bars shrinking = momentum fading.</p>
+      <p style="font-size:11px;color:var(--yellow);margin-bottom:10px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Double-lagged (EMA of EMA) — signal can come well after the optimal entry</p>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">MACD measures the relationship between two EMAs. <strong style="color:var(--text)">MACD line</strong> = EMA(12) − EMA(26); <strong style="color:var(--text)">Signal line</strong> = 9-period EMA of MACD line; <strong style="color:var(--text)">Histogram</strong> = MACD − Signal. Bars growing = momentum building; shrinking = fading.</p>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Condition</th><th>Signal</th></tr>
-          </thead>
+          <thead><tr><th>Condition</th><th>Signal</th></tr></thead>
           <tbody>
             <tr><td>MACD line crosses <strong>above</strong> Signal line</td><td><span class="badge bull">Bullish momentum</span></td></tr>
             <tr><td>MACD line crosses <strong>below</strong> Signal line</td><td><span class="badge bear">Bearish momentum</span></td></tr>
@@ -691,49 +534,38 @@
       </div>
 
       <div class="sub-heading">Moving Averages — EMA 50 &amp; EMA 200</div>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">An EMA (Exponential Moving Average) is the average closing price over N candles, with recent candles weighted more heavily than older ones. The <strong style="color:var(--text)">50 EMA</strong> tracks the medium-term trend; the <strong style="color:var(--text)">200 EMA</strong> tracks the long-term trend. When price is above both EMAs, conditions favour longs. A pullback to the 50 EMA in an uptrend is a classic continuation entry.</p>
+      <p style="font-size:11px;color:var(--yellow);margin-bottom:10px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Trend direction confirmed after price has already moved — use for bias, not timing</p>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">EMA weights recent candles more heavily. The <strong style="color:var(--text)">50 EMA</strong> tracks medium-term trend; the <strong style="color:var(--text)">200 EMA</strong> tracks long-term trend. Price above both = bullish bias; a pullback to 50 EMA in an uptrend is a classic continuation entry.</p>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Condition</th><th>Bias</th><th>Implication</th></tr>
-          </thead>
+          <thead><tr><th>Condition</th><th>Bias</th><th>Implication</th></tr></thead>
           <tbody>
-            <tr>
-              <td>50 EMA &gt; 200 EMA</td>
-              <td><span class="badge bull">Bullish</span></td>
-              <td>Golden Cross alignment — trend is up</td>
-            </tr>
-            <tr>
-              <td>50 EMA &lt; 200 EMA</td>
-              <td><span class="badge bear">Bearish</span></td>
-              <td>Death Cross alignment — trend is down</td>
-            </tr>
-            <tr>
-              <td>50 EMA crosses <strong>above</strong> 200 EMA</td>
-              <td><span class="badge bull">Golden Cross ⚡</span></td>
-              <td>Major bullish — confirm with volume</td>
-            </tr>
-            <tr>
-              <td>50 EMA crosses <strong>below</strong> 200 EMA</td>
-              <td><span class="badge bear">Death Cross ⚡</span></td>
-              <td>Major bearish — confirm with volume</td>
-            </tr>
-            <tr>
-              <td>Price &gt; 50 EMA &gt; 200 EMA</td>
-              <td><span class="badge bull">Strong Uptrend</span></td>
-              <td>Buy on pullbacks to 50 EMA</td>
-            </tr>
-            <tr>
-              <td>Price &lt; 50 EMA &lt; 200 EMA</td>
-              <td><span class="badge bear">Strong Downtrend</span></td>
-              <td>Sell on rallies to 50 EMA</td>
-            </tr>
+            <tr><td>50 EMA &gt; 200 EMA</td><td><span class="badge bull">Bullish</span></td><td>Golden Cross alignment — trend is up</td></tr>
+            <tr><td>50 EMA &lt; 200 EMA</td><td><span class="badge bear">Bearish</span></td><td>Death Cross alignment — trend is down</td></tr>
+            <tr><td>50 EMA crosses <strong>above</strong> 200 EMA</td><td><span class="badge bull">Golden Cross ⚡</span></td><td>Major bullish — confirm with volume</td></tr>
+            <tr><td>50 EMA crosses <strong>below</strong> 200 EMA</td><td><span class="badge bear">Death Cross ⚡</span></td><td>Major bearish — confirm with volume</td></tr>
+            <tr><td>Price &gt; 50 EMA &gt; 200 EMA</td><td><span class="badge bull">Strong Uptrend</span></td><td>Buy on pullbacks to 50 EMA</td></tr>
+            <tr><td>Price &lt; 50 EMA &lt; 200 EMA</td><td><span class="badge bear">Strong Downtrend</span></td><td>Sell on rallies to 50 EMA</td></tr>
           </tbody>
         </table>
       </div>
 
       <div class="sub-heading">ATR — Average True Range (14-period)</div>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:0;line-height:1.7">ATR measures volatility — specifically, the average size of a daily candle (including gaps) over the last 14 days, expressed in price units. It tells you <em>how much the market typically moves in a day</em>. On GBP/USD daily, ATR is typically 70–120 pips. Use it to size stops proportionally: a stop of 1× ATR gives the trade room to breathe through normal daily fluctuation without being stopped out by noise.</p>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">ATR measures volatility — the average size of a daily candle over the last 14 days. On GBP/USD daily, ATR is typically 70–120 pips. Use it to size stops: a stop of 1× ATR gives the trade room to breathe through normal daily fluctuation without being stopped out by noise.</p>
+
+      <div class="sub-heading">VWAP — Anchored (AVWAP)</div>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Standard VWAP resets each session — useless on daily swing charts. <strong style="color:var(--text)">Anchored VWAP (AVWAP)</strong> is anchored to a key swing high or low and shows the average price paid by participants since that event. It acts as a dynamic S/R level. <span style="color:var(--green);font-weight:600">Leading/Dynamic</span> — unlike EMAs, it responds to volume, not just price.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Condition</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr><td>Price above AVWAP</td><td>Participants since anchor in profit — <span class="badge bull">Bullish bias</span></td></tr>
+            <tr><td>Price below AVWAP</td><td>Participants since anchor underwater — <span class="badge bear">Bearish bias</span></td></tr>
+            <tr><td>Price tests AVWAP from above</td><td>Potential dynamic support — look for bullish pattern confirmation</td></tr>
+            <tr><td>Price tests AVWAP from below</td><td>Potential dynamic resistance — look for bearish pattern confirmation</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 
@@ -749,30 +581,12 @@
     <div class="section-body">
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Scenario</th><th>Valid Signal</th><th>Weak / False Signal</th></tr>
-          </thead>
+          <thead><tr><th>Scenario</th><th>Valid Signal</th><th>Weak / False Signal</th></tr></thead>
           <tbody>
-            <tr>
-              <td>Breakout above resistance</td>
-              <td><span style="color:var(--green)">Volume ≥ 1.5× 20-day avg</span></td>
-              <td><span style="color:var(--red)">Volume below average</span></td>
-            </tr>
-            <tr>
-              <td>Breakout below support</td>
-              <td><span style="color:var(--green)">Volume ≥ 1.5× 20-day avg</span></td>
-              <td><span style="color:var(--red)">Volume below average</span></td>
-            </tr>
-            <tr>
-              <td>Bullish Engulfing</td>
-              <td><span style="color:var(--green)">Volume ≥ 1.2× previous candle</span></td>
-              <td><span style="color:var(--red)">Volume shrinking</span></td>
-            </tr>
-            <tr>
-              <td>Bearish Engulfing</td>
-              <td><span style="color:var(--green)">Volume ≥ 1.2× previous candle</span></td>
-              <td><span style="color:var(--red)">Volume shrinking</span></td>
-            </tr>
+            <tr><td>Breakout above resistance</td><td><span style="color:var(--green)">Volume ≥ 1.5× 20-day avg</span></td><td><span style="color:var(--red)">Volume below average</span></td></tr>
+            <tr><td>Breakout below support</td><td><span style="color:var(--green)">Volume ≥ 1.5× 20-day avg</span></td><td><span style="color:var(--red)">Volume below average</span></td></tr>
+            <tr><td>Bullish Engulfing</td><td><span style="color:var(--green)">Volume ≥ 1.2× previous candle</span></td><td><span style="color:var(--red)">Volume shrinking</span></td></tr>
+            <tr><td>Bearish Engulfing</td><td><span style="color:var(--green)">Volume ≥ 1.2× previous candle</span></td><td><span style="color:var(--red)">Volume shrinking</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -791,34 +605,14 @@
     <div class="section-body">
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Factor</th><th>Typical Behaviour</th></tr>
-          </thead>
+          <thead><tr><th>Factor</th><th>Typical Behaviour</th></tr></thead>
           <tbody>
-            <tr>
-              <td><strong>London–NY overlap</strong></td>
-              <td>12–16 GMT · Highest volatility, best entries — most daily range formed here</td>
-            </tr>
-            <tr>
-              <td><strong>Asian session</strong></td>
-              <td>00–09 GMT · Range-bound, false breakouts common — avoid new entries</td>
-            </tr>
-            <tr>
-              <td><strong>Average daily range</strong></td>
-              <td>70–120 pips (varies by volatility regime)</td>
-            </tr>
-            <tr>
-              <td><strong>Key economic drivers</strong></td>
-              <td>BOE rate decisions, US NFP, UK &amp; US CPI prints, Fed FOMC</td>
-            </tr>
-            <tr>
-              <td><strong>Typical swing duration</strong></td>
-              <td>3–10 days (daily chart) · 1–3 days (4H chart)</td>
-            </tr>
-            <tr>
-              <td><strong>Weekend gap risk</strong></td>
-              <td>Market closes Friday ~22:00 GMT, reopens Sunday ~22:00 GMT. News over the weekend (political shocks, central bank remarks) can cause an instant gap at open — price jumps past your stop before it can trigger. Reduce position size on Friday or close before the weekend if holding through a high-risk news period. Always use guaranteed stop orders for swing trades held into the weekend.</td>
-            </tr>
+            <tr><td><strong>London–NY overlap</strong></td><td>12–16 GMT · Highest volatility, best entries — most daily range formed here</td></tr>
+            <tr><td><strong>Asian session</strong></td><td>00–09 GMT · Range-bound, false breakouts common — avoid new entries</td></tr>
+            <tr><td><strong>Average daily range</strong></td><td>70–120 pips (varies by volatility regime)</td></tr>
+            <tr><td><strong>Key economic drivers</strong></td><td>BOE rate decisions, US NFP, UK &amp; US CPI prints, Fed FOMC</td></tr>
+            <tr><td><strong>Typical swing duration</strong></td><td>3–10 days (daily chart) · 1–3 days (4H chart)</td></tr>
+            <tr><td><strong>Weekend gap risk</strong></td><td>Market closes Friday ~22:00 GMT, reopens Sunday ~22:00 GMT. News over the weekend can cause an instant gap at open — price jumps past your stop before it can trigger. Reduce size on Friday or close before the weekend if holding through a high-risk news period.</td></tr>
           </tbody>
         </table>
       </div>
@@ -837,54 +631,21 @@
     <div class="section-body">
       <div class="table-wrap" style="margin-bottom:20px">
         <table>
-          <thead>
-            <tr><th>Factor</th><th>Points</th></tr>
-          </thead>
+          <thead><tr><th>Factor</th><th>Points</th></tr></thead>
           <tbody>
-            <tr>
-              <td>Pattern reliability — chart pattern</td>
-              <td><span style="font-family:var(--mono);color:var(--accent)">+4</span></td>
-            </tr>
-            <tr>
-              <td>Pattern reliability — candlestick pattern</td>
-              <td><span style="font-family:var(--mono);color:var(--accent)">+2</span></td>
-            </tr>
-            <tr>
-              <td>RSI confirms — overbought or oversold</td>
-              <td><span style="font-family:var(--mono);color:var(--accent)">+2</span></td>
-            </tr>
-            <tr>
-              <td>RSI confirms — divergence detected</td>
-              <td><span style="font-family:var(--mono);color:var(--accent)">+3</span></td>
-            </tr>
-            <tr>
-              <td>Volume confirms (≥1.5× 20-day avg)</td>
-              <td><span style="font-family:var(--mono);color:var(--accent)">+2</span></td>
-            </tr>
-            <tr>
-              <td>S/R alignment (at key level)</td>
-              <td><span style="font-family:var(--mono);color:var(--accent)">+1</span></td>
-            </tr>
+            <tr><td>Pattern reliability — chart pattern</td><td><span style="font-family:var(--mono);color:var(--accent)">+4</span></td></tr>
+            <tr><td>Pattern reliability — candlestick pattern</td><td><span style="font-family:var(--mono);color:var(--accent)">+2</span></td></tr>
+            <tr><td>RSI confirms — overbought or oversold</td><td><span style="font-family:var(--mono);color:var(--accent)">+2</span></td></tr>
+            <tr><td>RSI confirms — divergence detected</td><td><span style="font-family:var(--mono);color:var(--accent)">+3</span></td></tr>
+            <tr><td>Volume confirms (≥1.5× 20-day avg)</td><td><span style="font-family:var(--mono);color:var(--accent)">+2</span></td></tr>
+            <tr><td>S/R alignment (at key level)</td><td><span style="font-family:var(--mono);color:var(--accent)">+1</span></td></tr>
           </tbody>
         </table>
       </div>
-
       <div class="score-grid">
-        <div class="score-cell">
-          <div class="score-range" style="color:var(--green)">8–10</div>
-          <div class="score-decision" style="color:var(--green)">BUY / SELL</div>
-          <div class="score-desc">High confluence — enter the trade</div>
-        </div>
-        <div class="score-cell">
-          <div class="score-range" style="color:var(--yellow)">5–7</div>
-          <div class="score-decision" style="color:var(--yellow)">WATCH</div>
-          <div class="score-desc">Partial signal — wait for confirmation candle</div>
-        </div>
-        <div class="score-cell">
-          <div class="score-range" style="color:var(--muted)">0–4</div>
-          <div class="score-decision" style="color:var(--muted)">NO TRADE</div>
-          <div class="score-desc">Insufficient signals — stay out</div>
-        </div>
+        <div class="score-cell"><div class="score-range" style="color:var(--green)">8–10</div><div class="score-decision" style="color:var(--green)">BUY / SELL</div><div class="score-desc">High confluence — enter the trade</div></div>
+        <div class="score-cell"><div class="score-range" style="color:var(--yellow)">5–7</div><div class="score-decision" style="color:var(--yellow)">WATCH</div><div class="score-desc">Partial signal — wait for confirmation candle</div></div>
+        <div class="score-cell"><div class="score-range" style="color:var(--muted)">0–4</div><div class="score-decision" style="color:var(--muted)">NO TRADE</div><div class="score-desc">Insufficient signals — stay out</div></div>
       </div>
     </div>
   </div>
@@ -904,30 +665,19 @@
     body       = abs(candle[<span class="st">'close'</span>] - candle[<span class="st">'open'</span>])
     range_total = candle[<span class="st">'high'</span>] - candle[<span class="st">'low'</span>]
     lower_wick  = min(candle[<span class="st">'open'</span>], candle[<span class="st">'close'</span>]) - candle[<span class="st">'low'</span>]
-
-    <span class="kw">return</span> (body / range_total &lt;= <span class="nb">0.3</span> <span class="kw">and</span>
-            lower_wick &gt;= <span class="nb">2.2</span> * body <span class="kw">and</span>
-            candle[<span class="st">'close'</span>] &gt; candle[<span class="st">'open'</span>])  <span class="cm"># bullish body</span>
-
-
-<span class="cm"># Support detection (requires historical data)</span>
-<span class="kw">def</span> <span class="fn">is_at_support</span>(price, swing_lows, tolerance=<span class="nb">0.02</span>):
-    <span class="kw">return</span> any(abs(price - low) / low &lt;= tolerance <span class="kw">for</span> low <span class="kw">in</span> swing_lows)
-
+    <span class="kw">return</span> (body / range_total &lt;= <span class="nb">0.3</span> <span class="kw">and</span> lower_wick &gt;= <span class="nb">2.2</span> * body <span class="kw">and</span> candle[<span class="st">'close'</span>] &gt; candle[<span class="st">'open'</span>])
 
 <span class="cm"># RSI — Wilder's smoothing (14-period)</span>
 <span class="kw">def</span> <span class="fn">calculate_rsi</span>(prices, period=<span class="nb">14</span>):
     gains  = [max(prices[i] - prices[i-<span class="nb">1</span>], <span class="nb">0</span>) <span class="kw">for</span> i <span class="kw">in</span> range(<span class="nb">1</span>, len(prices))]
     losses = [max(prices[i-<span class="nb">1</span>] - prices[i], <span class="nb">0</span>) <span class="kw">for</span> i <span class="kw">in</span> range(<span class="nb">1</span>, len(prices))]
     alpha  = <span class="nb">1</span> / period
-    avg_gain = gains[<span class="nb">0</span>]
-    avg_loss = losses[<span class="nb">0</span>]
+    avg_gain, avg_loss = gains[<span class="nb">0</span>], losses[<span class="nb">0</span>]
     <span class="kw">for</span> g, l <span class="kw">in</span> zip(gains[<span class="nb">1</span>:], losses[<span class="nb">1</span>:]):
         avg_gain = g * alpha + avg_gain * (<span class="nb">1</span> - alpha)
         avg_loss = l * alpha + avg_loss * (<span class="nb">1</span> - alpha)
-    rs  = avg_gain / avg_loss <span class="kw">if</span> avg_loss &gt; <span class="nb">0</span> <span class="kw">else</span> <span class="nb">100</span>
+    rs = avg_gain / avg_loss <span class="kw">if</span> avg_loss &gt; <span class="nb">0</span> <span class="kw">else</span> <span class="nb">100</span>
     <span class="kw">return</span> <span class="nb">100</span> - (<span class="nb">100</span> / (<span class="nb">1</span> + rs))
-
 
 <span class="cm"># Signal scoring</span>
 <span class="kw">def</span> <span class="fn">score_setup</span>(pattern_strength, rsi, divergence, volume_ok, at_sr):
@@ -949,20 +699,17 @@
       </div>
     </div>
     <div class="section-body">
-
       <div class="sub-heading">Top Swing Traders &amp; Their Books</div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>#</th><th>Trader / Author</th><th>Known For</th><th>Book(s)</th></tr>
-          </thead>
+          <thead><tr><th>#</th><th>Trader / Author</th><th>Known For</th><th>Book(s)</th></tr></thead>
           <tbody>
             <tr><td>1</td><td><strong>George Soros</strong></td><td>"Broke the Bank of England" — $1B+ shorting GBP in 1992</td><td><em>The Alchemy of Finance</em></td></tr>
-            <tr><td>2</td><td><strong>Paul Tudor Jones</strong></td><td>Anticipated 1987 Black Monday crash, made ~$100M</td><td>No single book — study via <em>Market Wizards</em> interviews and <em>Trader</em> documentary</td></tr>
-            <tr><td>3</td><td><strong>Stanley Druckenmiller</strong></td><td>Macro hedge fund legend; worked with Soros on the GBP trade</td><td>Appears in <em>The New Market Wizards</em> and interviews</td></tr>
-            <tr><td>4</td><td><strong>Jesse Livermore</strong></td><td>Early 1900s trader; shorted the 1929 crash</td><td><em>Reminiscences of a Stock Operator</em> (Edwin Lefèvre)</td></tr>
-            <tr><td>5</td><td><strong>Nicolas Darvas</strong></td><td>Turned $25,000 into $2M+ in 18 months with the Darvas Box system</td><td><em>How I Made $2,000,000 in the Stock Market</em></td></tr>
-            <tr><td>6</td><td><strong>William J. O'Neil</strong></td><td>Founded Investor's Business Daily; developed CAN SLIM</td><td><em>How to Make Money in Stocks</em></td></tr>
+            <tr><td>2</td><td><strong>Paul Tudor Jones</strong></td><td>Anticipated 1987 Black Monday crash, made ~$100M</td><td>No single book — study via <em>Market Wizards</em> + <em>Trader</em> documentary</td></tr>
+            <tr><td>3</td><td><strong>Stanley Druckenmiller</strong></td><td>Macro hedge fund legend; worked with Soros on the GBP trade</td><td><em>The New Market Wizards</em> + interviews</td></tr>
+            <tr><td>4</td><td><strong>Jesse Livermore</strong></td><td>Early 1900s trader; shorted the 1929 crash</td><td><em>Reminiscences of a Stock Operator</em></td></tr>
+            <tr><td>5</td><td><strong>Nicolas Darvas</strong></td><td>Turned $25,000 into $2M+ with the Darvas Box system</td><td><em>How I Made $2,000,000 in the Stock Market</em></td></tr>
+            <tr><td>6</td><td><strong>William J. O'Neil</strong></td><td>Founded IBD; developed CAN SLIM</td><td><em>How to Make Money in Stocks</em></td></tr>
             <tr><td>7</td><td><strong>Alan S. Farley</strong></td><td>Swing trading author; CNBC contributor</td><td><em>The Master Swing Trader</em></td></tr>
             <tr><td>8</td><td><strong>John F. Carter</strong></td><td>Systematic trader; founder of TradetheMarkets.com</td><td><em>Mastering the Trade</em> (3rd ed.)</td></tr>
             <tr><td>9</td><td><strong>Mark Minervini</strong></td><td>Consistent outsized returns; trend following advocate</td><td><em>Trade Like a Stock Market Wizard</em> · <em>Think &amp; Trade Like a Champion</em></td></tr>
@@ -972,14 +719,11 @@
           </tbody>
         </table>
       </div>
-
       <div class="sub-heading" style="margin-top:24px">Market Wizards Series (Jack D. Schwager)</div>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Interview-based books covering many of the traders above. Essential reading for understanding how professionals think.</p>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Book</th><th>Key Traders Featured</th></tr>
-          </thead>
+          <thead><tr><th>Book</th><th>Key Traders Featured</th></tr></thead>
           <tbody>
             <tr><td><em>Market Wizards</em></td><td>Paul Tudor Jones, Ed Seykota, Bruce Kovner</td></tr>
             <tr><td><em>The New Market Wizards</em></td><td>Stanley Druckenmiller, William O'Neil</td></tr>
@@ -987,19 +731,88 @@
           </tbody>
         </table>
       </div>
-
       <div class="sub-heading" style="margin-top:24px">Trader Archetypes</div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Archetype</th><th>Traders</th><th>Best for learning</th></tr>
-          </thead>
+          <thead><tr><th>Archetype</th><th>Traders</th><th>Best for learning</th></tr></thead>
           <tbody>
             <tr><td><strong>Macro swing</strong></td><td>Soros, Tudor Jones, Druckenmiller</td><td>Big-picture entries/exits, catalyst trading, GBP/USD drivers</td></tr>
             <tr><td><strong>Technical / mechanical</strong></td><td>Darvas, Farley, Carter</td><td>Box theory, pattern rules, systematic execution</td></tr>
             <tr><td><strong>Momentum / breakout</strong></td><td>Minervini, O'Neil</td><td>CAN SLIM, VCP setups, pivot points</td></tr>
             <tr><td><strong>Psychology / discipline</strong></td><td>Livermore, Steenbarger</td><td>Mindset, cutting losses, learning from mistakes</td></tr>
             <tr><td><strong>Beginner foundation</strong></td><td>Aziz, Bassal</td><td>Basic mechanics, position sizing, risk management</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. Market Regime -->
+  <div class="section" id="regime">
+    <div class="section-header">
+      <span class="section-num">10</span>
+      <div>
+        <div class="section-title">Market Regime — Trending vs Consolidation</div>
+        <div class="section-sub">Always identify the regime before acting on any signal</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <p style="font-size:13px;color:var(--muted);margin-bottom:16px;line-height:1.7">Pattern signals behave very differently depending on the regime. A Hammer at support in a strong uptrend is high-probability. The same Hammer in a sideways range may be noise. Always identify regime first — then filter signals.</p>
+      <div class="table-wrap" style="margin-bottom:20px">
+        <table>
+          <thead><tr><th>Regime</th><th>Criteria</th><th>Signal Reliability</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Strong Uptrend</strong></td><td>Price &gt; EMA 50 &gt; EMA 200, both sloping up</td><td><span class="badge bull">Bullish patterns highly reliable</span></td></tr>
+            <tr><td><strong>Strong Downtrend</strong></td><td>Price &lt; EMA 50 &lt; EMA 200, both sloping down</td><td><span class="badge bear">Bearish patterns highly reliable</span></td></tr>
+            <tr><td><strong>Weak Trend</strong></td><td>Price &gt; EMA 50 but EMA 50 &lt; EMA 200 (or vice versa)</td><td><span class="badge neut">Mixed — wait for clearer alignment</span></td></tr>
+            <tr><td><strong>Consolidation</strong></td><td>Price chopping between EMAs, both flat or converging</td><td><span class="badge neut">All patterns less reliable — reduce size</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="sub-heading">Regime Filter Rule</div>
+      <ul class="div-list">
+        <li class="div-item bull-div"><span class="div-label badge bull" style="flex-shrink:0">Uptrend</span><span>Only take <strong>bullish</strong> signals — Hammer, Bullish Engulfing, Morning Star, Inverse H&amp;S</span></li>
+        <li class="div-item bear-div"><span class="div-label badge bear" style="flex-shrink:0">Downtrend</span><span>Only take <strong>bearish</strong> signals — Shooting Star, Bearish Engulfing, Evening Star, H&amp;S</span></li>
+        <li class="div-item" style="border-left-color:var(--yellow)"><span class="div-label badge" style="flex-shrink:0;background:rgba(245,158,11,0.15);color:var(--yellow);border:1px solid rgba(245,158,11,0.3)">Consolidation</span><span>WATCH only — wait for a breakout that establishes regime before entering</span></li>
+      </ul>
+      <div class="sub-heading">Variable Isolation (Backtesting)</div>
+      <p style="font-size:13px;color:var(--muted);margin-top:8px;line-height:1.7">Always test performance separately by regime. A system that works in trending markets may fail completely in consolidation. Key variables to isolate: <strong style="color:var(--text)">regime</strong> (trending vs consolidating) · <strong style="color:var(--text)">volatility</strong> (ATR &gt; 100 vs &lt; 70 pips) · <strong style="color:var(--text)">news week</strong> (high-impact events present vs clear calendar)</p>
+    </div>
+  </div>
+
+  <!-- 11. Risk Management -->
+  <div class="section" id="risk">
+    <div class="section-header">
+      <span class="section-num">11</span>
+      <div>
+        <div class="section-title">Risk Management &amp; Position Sizing</div>
+        <div class="section-sub">The only thing you fully control — protect capital above all else</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="sub-heading">Position Size Formula</div>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Never risk more than <strong style="color:var(--text)">1–2% of your account</strong> on a single trade. This keeps you in the game through inevitable losing streaks.</p>
+      <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:16px;font-family:var(--mono);font-size:12px;line-height:2;margin-bottom:16px">
+        <div><span style="color:var(--muted)">Risk Amount</span> = Account Size × Risk %</div>
+        <div><span style="color:var(--muted)">Stop Distance</span> = |Entry Price − Stop Loss|</div>
+        <div style="margin-top:4px;padding-top:8px;border-top:1px solid var(--border)"><span style="color:var(--accent)">Position Size (units)</span> = Risk Amount ÷ Stop Distance</div>
+      </div>
+      <div class="div-item" style="border-left-color:var(--accent);margin-bottom:16px">
+        <span><strong style="color:var(--text)">Example (GBP/USD):</strong> Account £10,000 · Risk 1% = £100 · Entry 1.2700, Stop 1.2630 → 70 pip stop = £0.0070 · <strong style="color:var(--accent)">Position = £100 ÷ 0.0070 = 14,285 units (0.14 lots)</strong></span>
+      </div>
+      <div class="sub-heading">Risk Rules</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Rule</th><th>Guideline</th></tr></thead>
+          <tbody>
+            <tr><td>Max risk per trade</td><td><span style="color:var(--text);font-weight:600">1–2% of account</span></td></tr>
+            <tr><td>Minimum Risk/Reward</td><td>1:1.5 · prefer 1:2+ (at 1:2 you only need 34% win rate to break even)</td></tr>
+            <tr><td>Stop loss basis</td><td>1× ATR below entry (long) or above entry (short)</td></tr>
+            <tr><td>Max open trades</td><td>3 concurrent — limits correlated exposure</td></tr>
+            <tr><td>Consolidation regime</td><td>Halve normal position size — signals are less reliable</td></tr>
+            <tr><td>News event risk</td><td>Close or halve size before high-impact events</td></tr>
+            <tr><td>Weekend gap risk</td><td>Close or use guaranteed stops before Friday close</td></tr>
+            <tr><td>While learning</td><td>Trade 0.01 lots (micro) until 20+ documented trades</td></tr>
           </tbody>
         </table>
       </div>
@@ -1040,7 +853,7 @@ function toggleTheme() {
 }
 
 (function(){
-  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading'];
+  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading','regime','risk'];
   var pills = document.querySelectorAll('#sidebarNav .nav-pill');
 
   function setActive(id) {
