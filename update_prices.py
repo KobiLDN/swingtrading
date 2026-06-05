@@ -264,7 +264,14 @@ def main():
     else:
         trend = 'NEUTRAL'
 
-    score, verdict = score_setup(rsi_v, patterns, divergence, df['macd_hist'].tail(3))
+    hist_tail = df['macd_hist'].tail(3)
+    score, verdict = score_setup(rsi_v, patterns, divergence, hist_tail)
+    macd_hist_improving = False
+    if len(hist_tail) >= 2:
+        h_prev = float(hist_tail.iloc[-2])
+        h_last = float(hist_tail.iloc[-1])
+        if (h_prev < 0 and h_last > h_prev) or (h_prev > 0 and h_last < h_prev):
+            macd_hist_improving = True
 
     # Last 100 candles for sparkline
     candles = [
@@ -292,10 +299,11 @@ def main():
         'macd_signal':  round(float(last['macd_signal']), 6),
         'macd_hist':    round(float(last['macd_hist']), 6),
         'trend':        trend,
-        'divergence':   divergence,
-        'patterns':     patterns,
-        'score':        score,
-        'verdict':      verdict,
+        'divergence':          divergence,
+        'patterns':            patterns,
+        'score':               score,
+        'verdict':             verdict,
+        'macd_hist_improving': macd_hist_improving,
         'candles':      candles,
     }
 

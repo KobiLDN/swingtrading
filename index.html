@@ -426,6 +426,50 @@
   .copy-btn:hover { opacity: .85; }
   .copy-btn.copied { background: var(--green); }
 
+  /* ── How to use ── */
+  .how-to-card { padding: 0; }
+  .how-to-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    gap: 12px;
+  }
+  .how-to-summary::-webkit-details-marker { display: none; }
+  .how-to-summary .card-title { margin: 0; }
+  .how-to-toggle { font-size: 11px; color: var(--muted); flex-shrink: 0; transition: transform .2s; }
+  details[open] .how-to-toggle { transform: rotate(90deg); }
+  .how-to-body { padding: 0 20px 20px; }
+  .how-to-steps { display: flex; flex-direction: column; gap: 14px; }
+  .how-to-step { display: flex; gap: 14px; align-items: flex-start; }
+  .step-num {
+    width: 26px; height: 26px; border-radius: 50%;
+    background: var(--accent); color: #000;
+    font-weight: 700; font-size: 12px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; margin-top: 1px;
+  }
+  .step-title { font-size: 13px; font-weight: 600; margin-bottom: 3px; }
+  .step-desc { font-size: 12px; color: var(--muted); line-height: 1.6; }
+
+  /* ── Trend criteria ── */
+  .trend-criteria { font-size: 10px; color: var(--muted); margin-top: 6px; font-family: var(--mono); letter-spacing: .3px; }
+
+  /* ── Score breakdown ── */
+  .score-breakdown { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 12px; display: flex; flex-direction: column; gap: 5px; }
+  .breakdown-row { display: flex; justify-content: space-between; align-items: center; font-size: 11px; }
+  .breakdown-label { color: var(--muted); }
+  .breakdown-val { font-family: var(--mono); font-weight: 600; }
+  .breakdown-val.pos { color: var(--green); }
+  .breakdown-val.zero { color: var(--border); }
+  .breakdown-total { border-top: 1px solid var(--border); padding-top: 5px; margin-top: 2px; font-weight: 700; }
+
+  /* ── Dec sub ── */
+  .dec-sub { font-size: 9px; color: var(--muted); margin-top: 3px; letter-spacing: .3px; line-height: 1.3; }
+
   /* ── Footer ── */
   footer {
     text-align: center;
@@ -471,6 +515,46 @@
 
 <main class="container">
 
+  <!-- How to use -->
+  <details class="card how-to-card">
+    <summary class="how-to-summary">
+      <span class="card-title" style="margin:0">How to use this dashboard</span>
+      <span class="how-to-toggle">▸ expand</span>
+    </summary>
+    <div class="how-to-body">
+      <div class="how-to-steps">
+        <div class="how-to-step">
+          <div class="step-num">1</div>
+          <div>
+            <div class="step-title">Check the Signal Score</div>
+            <div class="step-desc">The 0–10 score grades how many independent signals agree. <strong style="color:var(--green)">8–10:</strong> high confluence, consider entering. <strong style="color:var(--yellow)">5–7:</strong> setup is forming, wait for one more confirming candle. <strong style="color:var(--muted)">0–4:</strong> not enough signals, skip the trade. The breakdown under the score circle shows exactly which factors contributed.</div>
+          </div>
+        </div>
+        <div class="how-to-step">
+          <div class="step-num">2</div>
+          <div>
+            <div class="step-title">Read the AI Analysis</div>
+            <div class="step-desc">The AI gives you a Decision (BUY / SELL / WAIT), a specific Entry price, Stop Loss, and two Targets. <strong>Risk/Reward</strong> (e.g. 1:2) means you risk 1 unit to potentially make 2 — only take trades where R/R ≥ 1:1.5. The <strong>Invalidation</strong> line tells you what price action cancels the setup — set a TradingView price alert there so you know immediately if the trade idea is off.</div>
+          </div>
+        </div>
+        <div class="how-to-step">
+          <div class="step-num">3</div>
+          <div>
+            <div class="step-title">Use your own data (optional)</div>
+            <div class="step-desc">The dashboard auto-updates every weekday morning. To run your own analysis with fresher candles, paste OHLC JSON into the <strong>Live Calculator</strong> below — all indicators recalculate instantly, no setup needed. Or copy the <strong>AI Prompt</strong> at the bottom, paste the <a href="Trading/encyclopedia.md">encyclopedia</a> into your chat first, then paste the prompt and your OHLC JSON for a full chart pattern analysis.</div>
+          </div>
+        </div>
+        <div class="how-to-step">
+          <div class="step-num">4</div>
+          <div>
+            <div class="step-title">Log your trades</div>
+            <div class="step-desc">Only log setups with Score ≥ 5. Record entry price, stop loss, target, the setup code (e.g. <code style="font-family:var(--mono);background:var(--surface2);padding:1px 4px;border-radius:3px">HMR</code> for Hammer, <code style="font-family:var(--mono);background:var(--surface2);padding:1px 4px;border-radius:3px">BE</code> for Bullish Engulfing), and the AI verdict in <a href="Trading/trade_log.md">trade_log.md</a>. Tracking outcomes is how you learn which setups actually work for you.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </details>
+
   <!-- Price + Trend -->
   <div class="card">
     <div class="card-title">Price Overview</div>
@@ -479,7 +563,7 @@
         <div class="price-val" id="price-val">—</div>
         <div class="price-sub">
           ATR(14): <span id="atr-val" style="font-family:var(--mono)">—</span> pips &nbsp;·&nbsp;
-          Daily range guide
+          typical daily candle size &nbsp;·&nbsp; use for stop loss sizing
         </div>
         <div class="ema-row" style="margin-top:12px">
           <span class="ema-tag">EMA 50: <span id="ema50-val">—</span></span>
@@ -487,8 +571,9 @@
           <span class="ema-tag">EMA 200: <span id="ema200-val">—</span></span>
         </div>
       </div>
-      <div>
+      <div style="text-align:right">
         <span class="trend-badge trend-neutral" id="trend-badge">—</span>
+        <div class="trend-criteria" id="trend-criteria"></div>
       </div>
     </div>
   </div>
@@ -575,6 +660,7 @@
           <div class="verdict-sub" id="verdict-sub">—</div>
         </div>
       </div>
+      <div class="score-breakdown" id="score-breakdown"></div>
     </div>
 
   </div>
@@ -592,12 +678,12 @@
     <div class="card-title">AI Analysis — DeepSeek via OpenRouter</div>
     <div class="decision-row" id="decision-row">
       <div class="dec-cell"><div class="dec-label">Decision</div><div class="dec-val" id="dec-decision">—</div></div>
-      <div class="dec-cell"><div class="dec-label">Confidence</div><div class="dec-val" id="dec-confidence">—</div></div>
+      <div class="dec-cell"><div class="dec-label">Confidence</div><div class="dec-val" id="dec-confidence">—</div><div class="dec-sub" id="dec-confidence-sub"></div></div>
       <div class="dec-cell"><div class="dec-label">Entry</div><div class="dec-val" id="dec-entry">—</div></div>
       <div class="dec-cell"><div class="dec-label">Stop Loss</div><div class="dec-val" id="dec-sl">—</div></div>
       <div class="dec-cell"><div class="dec-label">Target 1</div><div class="dec-val" id="dec-t1">—</div></div>
       <div class="dec-cell"><div class="dec-label">Target 2</div><div class="dec-val" id="dec-t2">—</div></div>
-      <div class="dec-cell"><div class="dec-label">R / R</div><div class="dec-val" id="dec-rr">—</div></div>
+      <div class="dec-cell"><div class="dec-label">Risk / Reward</div><div class="dec-val" id="dec-rr">—</div><div class="dec-sub">risk 1 to make X</div></div>
       <div class="dec-cell"><div class="dec-label">Score</div><div class="dec-val" id="dec-score">—</div></div>
     </div>
     <div class="analysis-text" id="analysis-text">Awaiting first AI analysis run.</div>
@@ -637,8 +723,11 @@
       <textarea class="prompt-box" id="prompt-box" readonly>Loading indicators...</textarea>
       <button class="copy-btn" onclick="copyPrompt()">Copy Prompt</button>
     </div>
-    <div style="font-size:11px;color:var(--muted);margin-top:8px">
-      Paste into Claude or ChatGPT. Append your OHLC JSON after the last line for chart pattern analysis.
+    <div style="font-size:11px;color:var(--muted);margin-top:8px;line-height:1.8">
+      <strong style="color:var(--text)">How to use:</strong>
+      Start a new chat → paste the full <a href="Trading/encyclopedia.md">encyclopedia</a> first (gives the AI the exact detection rules) →
+      paste this prompt → append your OHLC JSON after the last line →
+      if the result gives Score ≥ 5, log it in <a href="Trading/trade_log.md">trade_log.md</a>.
     </div>
   </div>
 
@@ -687,6 +776,67 @@ var ALL_PATTERNS = [
   { name: 'Doji',              bias: 'neut' },
 ];
 
+// ── Trend criteria ────────────────────────────────────────────────────────────
+function trendCriteriaText(trend) {
+  if (!trend) return '';
+  var t = trend.toUpperCase();
+  if (t === 'STRONG UPTREND')   return 'Price > EMA 50 > EMA 200';
+  if (t === 'STRONG DOWNTREND') return 'Price < EMA 50 < EMA 200';
+  if (t === 'BULLISH BIAS')     return 'EMA 50 > EMA 200, price mixed';
+  if (t === 'BEARISH BIAS')     return 'EMA 50 < EMA 200, price mixed';
+  return 'EMA 50 ≈ EMA 200';
+}
+
+// ── Score breakdown ───────────────────────────────────────────────────────────
+function renderScoreBreakdown(d) {
+  var container = el('score-breakdown');
+  if (!container || !d) return;
+
+  var patPts = 0, patLabel = 'No pattern';
+  if (d.patterns && d.patterns.length > 0) {
+    var best = d.patterns.reduce(function(a, b) { return a.strength > b.strength ? a : b; });
+    patPts   = best.strength >= 4 ? 4 : 2;
+    patLabel = best.name + (patPts === 4 ? ' (+4 strong)' : ' (+2)');
+  }
+
+  var rsiPts = 0, rsiLabel = 'RSI neutral';
+  if (d.rsi !== null && d.rsi !== undefined) {
+    if (d.rsi > 70)      { rsiPts = 2; rsiLabel = 'RSI overbought'; }
+    else if (d.rsi < 30) { rsiPts = 2; rsiLabel = 'RSI oversold'; }
+  }
+  var divPts = 0;
+  if (d.divergence && d.divergence !== 'None') {
+    divPts   = 3;
+    rsiLabel = 'RSI ' + d.divergence.toLowerCase() + ' divergence';
+    rsiPts   = divPts;
+  }
+
+  var macdPts = d.macd_hist_improving ? 1 : 0;
+
+  var rows = [
+    { label: patLabel,               pts: patPts  },
+    { label: rsiLabel,               pts: rsiPts  },
+    { label: 'MACD histogram turn',  pts: macdPts },
+  ];
+
+  var html = rows.map(function(r) {
+    var cls = r.pts > 0 ? 'pos' : 'zero';
+    var val = r.pts > 0 ? '+' + r.pts : '0';
+    return '<div class="breakdown-row">' +
+      '<span class="breakdown-label">' + r.label + '</span>' +
+      '<span class="breakdown-val ' + cls + '">' + val + '</span>' +
+    '</div>';
+  }).join('');
+
+  var total = patPts + rsiPts + macdPts;
+  html += '<div class="breakdown-row breakdown-total">' +
+    '<span class="breakdown-label" style="color:var(--text)">Total</span>' +
+    '<span class="breakdown-val ' + (total > 0 ? 'pos' : 'zero') + '">' + total + ' / 10</span>' +
+  '</div>';
+
+  container.innerHTML = html;
+}
+
 // ── Render prices ──────────────────────────────────────────────────────────────
 function renderPricesFromData(d) {
   if (!d) return;
@@ -705,6 +855,8 @@ function renderPricesFromData(d) {
   var badge = el('trend-badge');
   badge.textContent = d.trend || '—';
   badge.className   = 'trend-badge ' + trendClass(d.trend);
+  var tcEl = el('trend-criteria');
+  if (tcEl) tcEl.textContent = trendCriteriaText(d.trend);
 
   var rsi = d.rsi;
   if (rsi !== null && rsi !== undefined) {
@@ -743,6 +895,7 @@ function renderPricesFromData(d) {
     ? (score >= 8 ? 'High confluence — enter' : score >= 5 ? 'Partial signal — wait' : 'Insufficient signals') : '—';
 
   renderPatternChecklist(d.patterns || []);
+  renderScoreBreakdown(d);
   buildPrompt(d);
 }
 
@@ -761,7 +914,7 @@ function renderPatternChecklist(detectedPatterns) {
       : 'var(--border)';
     var nameColor = found ? 'var(--text)' : 'var(--muted)';
     var sub   = found
-      ? (det.date + (det.strength ? ' · ' + '★'.repeat(det.strength) : ''))
+      ? (det.signal + ' · ' + det.date + (det.strength ? ' · ' + '★'.repeat(det.strength) : ''))
       : 'Not detected';
     return '<div class="pat-check-item ' + cls + '">' +
       '<span class="pat-check-icon" style="color:' + iconColor + '">' + icon + '</span>' +
@@ -783,6 +936,11 @@ function renderAnalysis() {
   var dec = (a.decision || '').toUpperCase();
   el('dec-decision').textContent  = dec || '—';
   el('dec-confidence').textContent = a.confidence || '—';
+  var confSub = el('dec-confidence-sub');
+  if (confSub) {
+    var conf = (a.confidence || '').toUpperCase();
+    confSub.textContent = conf === 'LOW' ? 'wait for confirmation' : conf === 'MEDIUM' ? 'moderate conviction' : conf === 'HIGH' ? 'strong conviction' : '';
+  }
   el('dec-entry').textContent     = a.entry || '—';
   el('dec-sl').textContent        = a.stop_loss || '—';
   el('dec-t1').textContent        = a.target_1 || '—';
@@ -1221,6 +1379,12 @@ function calcAllIndicators(candles) {
   var histTail   = macdRes.histogram.slice(-3);
   var sv         = scoreSetupJS(rsi, patterns, divergence, histTail);
 
+  var macd_hist_improving = false;
+  if (histTail.length >= 2) {
+    var hp = histTail[histTail.length - 2], hl = histTail[histTail.length - 1];
+    if ((hp < 0 && hl > hp) || (hp > 0 && hl < hp)) macd_hist_improving = true;
+  }
+
   return {
     date:        candles[last].date,
     price:       Math.round(price * 100000) / 100000,
@@ -1235,9 +1399,10 @@ function calcAllIndicators(candles) {
     trend:       trend,
     divergence:  divergence,
     patterns:    patterns,
-    score:       sv.score,
-    verdict:     sv.verdict,
-    candles:     candles,
+    score:               sv.score,
+    verdict:             sv.verdict,
+    macd_hist_improving: macd_hist_improving,
+    candles:             candles,
   };
 }
 
