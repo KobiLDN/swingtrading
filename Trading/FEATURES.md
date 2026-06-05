@@ -2,11 +2,34 @@
 
 ## Backlog
 
-- **EUR/USD pair expansion** — duplicate `encyclopedia.md` for EUR/USD; adjust GBP/USD-specific characteristics section (session volatility, typical daily range, economic drivers: ECB vs Fed); add pair selector to `index.html`; separate data fetch and AI analysis per pair
+### Step 1 — Multi-asset data pipeline
+- Add Gold (XAU/USD) and SPX to `update_prices.py` and `generate_analysis.py`
+- Create folder structure: `data/forex/gbpusd/`, `data/comod/gold/`, `data/equity/spx/`
+- Each folder gets its own `prices-data.js` and `analysis-data.js`
+- Update GitHub Actions to run all 3 symbols (separate workflow steps or matrix)
 
-- **USD/JPY pair expansion** — same as EUR/USD; note JPY safe-haven behaviour and BOJ intervention risk as additional factors in the characteristics section
+### Step 2 — Dashboard asset selector
+- Add dropdown at top of `index.html` (GBP/USD default)
+- Dashboard dynamically loads the correct `prices-data.js` and `analysis-data.js` based on selection
+- Asset-specific characteristics block swaps in when symbol changes (GBP/USD session times vs Gold drivers vs SPX earnings)
 
-- **Backtesting results** — `backtesting.md` documenting how many times each pattern (Hammer, Engulfing, etc.) at key S/R produced a profitable swing on GBP/USD daily over the past 2 years
+### Step 3 — Dashboard widgets
+- **Regime tag** — Trending / Consolidating badge derived from EMA alignment, shown on signal score card
+- **Position size calculator** — account size + risk % + stop distance → position size in units/lots
+
+### Step 4 — Economic calendar + news
+- Twelve Data `/economic_calendar` endpoint (no new API key) → upcoming high-impact events panel on dashboard
+- Alpha Vantage news sentiment for FOREX:GBPUSD (needs `ALPHA_VANTAGE_API_KEY` secret) → headlines feed
+- Visual warning flag when high-impact event within 2 days (does not affect score)
+
+### Step 5 — Backtesting script
+- Python script replaying 2 years of GBP/USD daily data through all 9 pattern detectors
+- Results split by regime (trending vs consolidation) and volatility (ATR > 100 vs < 70 pips)
+- Output: `Trading/backtesting.md` with win-rate per pattern per regime
+
+### Parked
+- **EUR/USD pair expansion** — covered by Step 1/2 architecture; add after Gold + SPX proven
+- **USD/JPY pair expansion** — same; JPY safe-haven and BOJ intervention risk as additional characteristics
 
 ---
 
@@ -29,3 +52,7 @@
 - **In-browser OHLC calculator** — full JS port of `update_prices.py` indicator logic embedded in `index.html`; supports Twelve Data, Alpha Vantage, and plain array formats; recalculates all indicators and updates the chart instantly on paste
 
 - **Beginner context layer** — plain-English explanations throughout: RSI/MACD/EMA/ATR definitions in `encyclopedia.md`; score breakdown showing contributing factors; pattern signal direction; confidence sub-labels; R/R explanation; 4-step how-to guide on dashboard
+
+- **Encyclopedia HTML** — full styled HTML version of encyclopedia at `Trading/encyclopedia.html`; fixed left sidebar nav (11 sections, active link scroll spy, smooth scroll); sections 10 (Market Regime) and 11 (Risk Management) added; LAGGING badges on RSI/MACD/EMA; AVWAP sub-section; weekend gap risk in GBP/USD characteristics; recommended reading (12 traders, Market Wizards series, trader archetypes)
+
+- **Encyclopedia expanded (Ariyan's advice)** — VWAP/Anchored VWAP concept; lagging indicator warnings on all momentum indicators; Section 10 Market Regime (trending vs consolidation, regime filter rule, variable isolation for backtesting); Section 11 Risk Management (1–2% rule, position size formula with worked example, R/R minimums, full risk rules table)
