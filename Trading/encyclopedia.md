@@ -184,3 +184,48 @@ def calculate_rsi(prices, period=14):
 - Nison's candlestick criteria
 - Wilder's RSI and momentum principles
 - Pattern Zoo volume confirmation rules
+
+---
+
+## 9. Recommended Reading
+
+### Top Swing Traders & Their Books
+
+| # | Trader / Author | Known For | Book(s) |
+|---|-----------------|-----------|---------|
+| 1 | **George Soros** | "Broke the Bank of England" in 1992, $1B+ profit shorting GBP | *The Alchemy of Finance* |
+| 2 | **Paul Tudor Jones** | Anticipated 1987 Black Monday crash, made ~$100M | No single book — study via *Market Wizards* interviews and *Trader* documentary |
+| 3 | **Stanley Druckenmiller** | Macro hedge fund legend; worked with Soros on the GBP trade | No single book — appears in *The New Market Wizards* and interviews |
+| 4 | **Jesse Livermore** | Early 1900s trader; shorted the 1929 crash | *Reminiscences of a Stock Operator* (Edwin Lefèvre) |
+| 5 | **Nicolas Darvas** | Turned $25,000 into $2M+ in 18 months with the Darvas Box system | *How I Made $2,000,000 in the Stock Market* |
+| 6 | **William J. O'Neil** | Founded Investor's Business Daily; developed the CAN SLIM system | *How to Make Money in Stocks* |
+| 7 | **Alan S. Farley** | Swing trading author; CNBC contributor; TheStreet.com columnist | *The Master Swing Trader* |
+| 8 | **John F. Carter** | Systematic trader; founder of TradetheMarkets.com | *Mastering the Trade* (3rd ed.) |
+| 9 | **Mark Minervini** | Renowned for consistent outsized returns; trend following advocate | *Trade Like a Stock Market Wizard* · *Think & Trade Like a Champion* |
+| 10 | **Brian Pezim & Andrew Aziz** | Beginner-focused; Pezim trading since 1967; Aziz Forbes Council member | *How to Swing Trade* |
+| 11 | **Omar Bassal, CFA** | CIO with 30 years experience; MBA from Wharton | *Swing Trading For Dummies* |
+| 12 | **Brett N. Steenbarger** | Trading psychology specialist; active trader | *The Psychology of Trading* |
+
+---
+
+### Market Wizards Series (Jack D. Schwager)
+
+Interview-based books covering many of the traders above. Essential reading for understanding how professionals think.
+
+| Book | Key Traders Featured |
+|------|---------------------|
+| *Market Wizards* | Paul Tudor Jones, Ed Seykota, Bruce Kovner |
+| *The New Market Wizards* | Stanley Druckenmiller, William O'Neil |
+| *Stock Market Wizards* | Various short-term traders |
+
+---
+
+### Trader Archetypes
+
+| Archetype | Traders | Best for learning |
+|-----------|---------|-------------------|
+| **Macro swing** | Soros, Tudor Jones, Druckenmiller | Big-picture entries/exits, catalyst trading, GBP/USD drivers |
+| **Technical / mechanical** | Darvas, Farley, Carter | Box theory, pattern rules, systematic execution |
+| **Momentum / breakout** | Minervini, O'Neil | CAN SLIM, VCP setups, pivot points |
+| **Psychology / discipline** | Livermore, Steenbarger | Mindset, cutting losses, learning from mistakes |
+| **Beginner foundation** | Aziz, Bassal | Basic mechanics, position sizing, risk management |
