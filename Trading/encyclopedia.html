@@ -384,6 +384,8 @@
     <a class="nav-pill" href="#scoring"><span class="nav-num">7</span> Scoring</a>
     <a class="nav-pill" href="#pseudocode"><span class="nav-num">8</span> Code</a>
     <a class="nav-pill" href="#reading"><span class="nav-num">9</span> Books</a>
+    <a class="nav-pill" href="#regime"><span class="nav-num">10</span> Regime</a>
+    <a class="nav-pill" href="#risk"><span class="nav-num">11</span> Risk Mgmt</a>
   </nav>
 </aside>
 
@@ -636,6 +638,7 @@
     <div class="section-body">
 
       <div class="sub-heading">RSI — Relative Strength Index (14-period)</div>
+      <p style="font-size:11px;color:var(--yellow);margin-bottom:10px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Confirms moves that have already started — best used as confirmation, not as the trigger</p>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">RSI measures the speed and size of recent price moves on a 0–100 scale. It answers: <em>has price moved too far too fast in one direction?</em> It compares the average size of up-moves to down-moves over the last 14 candles. Most useful as a <strong style="color:var(--text)">confirmation tool</strong> — a candlestick pattern at a key S/R level with RSI confirming is significantly stronger than either signal alone.</p>
       <div class="table-wrap">
         <table>
@@ -674,6 +677,7 @@
       </ul>
 
       <div class="sub-heading">MACD — (12, 26, 9)</div>
+      <p style="font-size:11px;color:var(--yellow);margin-bottom:10px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Double-lagged (EMA of EMA) — signal can come well after the optimal entry</p>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">MACD measures the relationship between two EMAs of closing price. The three components are: <strong style="color:var(--text)">MACD line</strong> — the gap between EMA(12) and EMA(26), positive = bullish momentum; <strong style="color:var(--text)">Signal line</strong> — 9-period EMA of the MACD line, acts as a trigger; <strong style="color:var(--text)">Histogram</strong> — MACD line minus Signal line. Bars growing = momentum building; bars shrinking = momentum fading.</p>
       <div class="table-wrap">
         <table>
@@ -691,6 +695,7 @@
       </div>
 
       <div class="sub-heading">Moving Averages — EMA 50 &amp; EMA 200</div>
+      <p style="font-size:11px;color:var(--yellow);margin-bottom:10px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Trend direction confirmed after price has already moved — use for bias, not timing</p>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">An EMA (Exponential Moving Average) is the average closing price over N candles, with recent candles weighted more heavily than older ones. The <strong style="color:var(--text)">50 EMA</strong> tracks the medium-term trend; the <strong style="color:var(--text)">200 EMA</strong> tracks the long-term trend. When price is above both EMAs, conditions favour longs. A pullback to the 50 EMA in an uptrend is a classic continuation entry.</p>
       <div class="table-wrap">
         <table>
@@ -733,6 +738,20 @@
       </div>
       <div class="sub-heading">ATR — Average True Range (14-period)</div>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">ATR measures volatility — specifically, the average size of a daily candle (including gaps) over the last 14 days, expressed in price units. It tells you <em>how much the market typically moves in a day</em>. On GBP/USD daily, ATR is typically 70–120 pips. Use it to size stops proportionally: a stop of 1× ATR gives the trade room to breathe through normal daily fluctuation without being stopped out by noise.</p>
+
+      <div class="sub-heading">VWAP — Anchored (AVWAP)</div>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Standard VWAP resets each session — useless on daily swing charts. <strong style="color:var(--text)">Anchored VWAP (AVWAP)</strong> is anchored to a key swing high or low and shows the average price paid by participants since that event. It acts as a dynamic support/resistance level. <span style="color:var(--green);font-weight:600">Leading/Dynamic</span> — unlike EMAs, it responds to volume, not just price.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Condition</th><th>Interpretation</th></tr></thead>
+          <tbody>
+            <tr><td>Price above AVWAP</td><td>Participants since anchor in profit — <span class="badge bull">Bullish bias</span></td></tr>
+            <tr><td>Price below AVWAP</td><td>Participants since anchor underwater — <span class="badge bear">Bearish bias</span></td></tr>
+            <tr><td>Price tests AVWAP from above</td><td>Potential dynamic support — look for bullish pattern confirmation</td></tr>
+            <tr><td>Price tests AVWAP from below</td><td>Potential dynamic resistance — look for bearish pattern confirmation</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 
@@ -1005,6 +1024,82 @@
     </div>
   </div>
 
+  <!-- 10. Market Regime -->
+  <div class="section" id="regime">
+    <div class="section-header">
+      <span class="section-num">10</span>
+      <div>
+        <div class="section-title">Market Regime — Trending vs Consolidation</div>
+        <div class="section-sub">Always identify the regime before acting on any signal</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <p style="font-size:13px;color:var(--muted);margin-bottom:16px;line-height:1.7">Pattern signals behave very differently depending on the regime. A Hammer at support in a strong uptrend is high-probability. The same Hammer in a sideways range may be noise. Always identify regime first — then filter signals.</p>
+      <div class="table-wrap" style="margin-bottom:20px">
+        <table>
+          <thead><tr><th>Regime</th><th>Criteria</th><th>Signal Reliability</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Strong Uptrend</strong></td><td>Price &gt; EMA 50 &gt; EMA 200, both sloping up</td><td><span class="badge bull">Bullish patterns highly reliable</span></td></tr>
+            <tr><td><strong>Strong Downtrend</strong></td><td>Price &lt; EMA 50 &lt; EMA 200, both sloping down</td><td><span class="badge bear">Bearish patterns highly reliable</span></td></tr>
+            <tr><td><strong>Weak Trend</strong></td><td>Price &gt; EMA 50 but EMA 50 &lt; EMA 200 (or vice versa)</td><td><span class="badge neut">Mixed — wait for clearer alignment</span></td></tr>
+            <tr><td><strong>Consolidation</strong></td><td>Price chopping between EMAs, both flat or converging</td><td><span class="badge neut">All patterns less reliable — reduce size</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading">Regime Filter Rule</div>
+      <ul class="div-list">
+        <li class="div-item bull-div"><span class="div-label badge bull" style="flex-shrink:0">Uptrend</span><span>Only take <strong>bullish</strong> signals — Hammer, Bullish Engulfing, Morning Star, Inverse H&amp;S</span></li>
+        <li class="div-item bear-div"><span class="div-label badge bear" style="flex-shrink:0">Downtrend</span><span>Only take <strong>bearish</strong> signals — Shooting Star, Bearish Engulfing, Evening Star, H&amp;S</span></li>
+        <li class="div-item" style="border-left-color:var(--yellow)"><span class="div-label badge" style="flex-shrink:0;background:rgba(245,158,11,0.15);color:var(--yellow);border:1px solid rgba(245,158,11,0.3)">Consolidation</span><span>WATCH only — wait for a breakout that establishes regime before entering</span></li>
+      </ul>
+
+      <div class="sub-heading">Variable Isolation (Backtesting)</div>
+      <p style="font-size:13px;color:var(--muted);margin-top:8px;line-height:1.7">Always test performance separately by regime. A system that works in trending markets may fail completely in consolidation. Key variables to isolate: <strong style="color:var(--text)">regime</strong> (trending vs consolidating) · <strong style="color:var(--text)">volatility</strong> (ATR &gt; 100 vs &lt; 70 pips) · <strong style="color:var(--text)">news week</strong> (high-impact events present vs clear calendar)</p>
+    </div>
+  </div>
+
+  <!-- 11. Risk Management -->
+  <div class="section" id="risk">
+    <div class="section-header">
+      <span class="section-num">11</span>
+      <div>
+        <div class="section-title">Risk Management &amp; Position Sizing</div>
+        <div class="section-sub">The only thing you fully control — protect capital above all else</div>
+      </div>
+    </div>
+    <div class="section-body">
+
+      <div class="sub-heading">Position Size Formula</div>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Never risk more than <strong style="color:var(--text)">1–2% of your account</strong> on a single trade. This keeps you in the game through inevitable losing streaks.</p>
+      <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:16px;font-family:var(--mono);font-size:12px;line-height:2;margin-bottom:16px">
+        <div><span style="color:var(--muted)">Risk Amount</span> = Account Size × Risk %</div>
+        <div><span style="color:var(--muted)">Stop Distance</span> = |Entry Price − Stop Loss|</div>
+        <div style="margin-top:4px;padding-top:8px;border-top:1px solid var(--border)"><span style="color:var(--accent)">Position Size (units)</span> = Risk Amount ÷ Stop Distance</div>
+      </div>
+      <div class="div-item" style="border-left-color:var(--accent);margin-bottom:16px">
+        <span><strong style="color:var(--text)">Example (GBP/USD):</strong> Account £10,000 · Risk 1% = £100 · Entry 1.2700, Stop 1.2630 → 70 pip stop = £0.0070 · <strong style="color:var(--accent)">Position = £100 ÷ 0.0070 = 14,285 units (0.14 lots)</strong></span>
+      </div>
+
+      <div class="sub-heading">Risk Rules</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Rule</th><th>Guideline</th></tr></thead>
+          <tbody>
+            <tr><td>Max risk per trade</td><td><span style="color:var(--text);font-weight:600">1–2% of account</span></td></tr>
+            <tr><td>Minimum Risk/Reward</td><td>1:1.5 · prefer 1:2+ (at 1:2 you only need 34% win rate to break even)</td></tr>
+            <tr><td>Stop loss basis</td><td>1× ATR below entry (long) or above entry (short)</td></tr>
+            <tr><td>Max open trades</td><td>3 concurrent — limits correlated exposure</td></tr>
+            <tr><td>Consolidation regime</td><td>Halve normal position size — signals are less reliable</td></tr>
+            <tr><td>News event risk</td><td>Close or halve size before high-impact events</td></tr>
+            <tr><td>Weekend gap risk</td><td>Close or use guaranteed stops before Friday close</td></tr>
+            <tr><td>While learning</td><td>Trade 0.01 lots (micro) until 20+ documented trades</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
   <!-- References -->
   <div class="section">
     <div class="section-header">
@@ -1039,7 +1134,7 @@ function toggleTheme() {
 }
 
 (function(){
-  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading'];
+  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading','regime','risk'];
   var pills = document.querySelectorAll('#sidebarNav .nav-pill');
 
   function setActive(id) {
