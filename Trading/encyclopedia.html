@@ -420,6 +420,10 @@
     <a class="nav-sub" href="#books-part3">Buffett Recommends</a>
     <a class="nav-pill" href="#regime"><span class="nav-num">10</span> Regime</a>
     <a class="nav-pill" href="#risk"><span class="nav-num">11</span> Risk Mgmt</a>
+    <a class="nav-pill" href="#loss-recovery"><span class="nav-num">12</span> Loss Recovery</a>
+    <a class="nav-pill" href="#pos-sizing"><span class="nav-num">13</span> Pos. Sizing</a>
+    <a class="nav-pill" href="#efficiency"><span class="nav-num">14</span> Efficiency</a>
+    <a class="nav-pill" href="#quotes"><span class="nav-num">15</span> Quotes</a>
   </nav>
 </aside>
 
@@ -988,6 +992,355 @@
     </div>
   </div>
 
+
+  <!-- 12. Loss Recovery -->
+  <div class="section" id="loss-recovery">
+    <div class="section-header">
+      <span class="section-num">12</span>
+      <div>
+        <div class="section-title">Loss Recovery Protocol</div>
+        <div class="section-sub">What to do after consecutive losses — not just how to avoid them</div>
+      </div>
+    </div>
+    <div class="section-body">
+      <p style="font-size:13px;color:var(--muted);margin-bottom:16px;line-height:1.7">Every trader loses. What separates professionals from amateurs is a structured recovery — not revenge trading. Follow these rules in order when a drawdown hits.</p>
+
+      <div class="sub-heading">Drawdown Thresholds</div>
+      <div class="table-wrap" style="margin-bottom:20px">
+        <table>
+          <thead><tr><th>Drawdown</th><th>Immediate Action</th><th>When to Return</th></tr></thead>
+          <tbody>
+            <tr><td><span class="badge bear">−10%</span></td><td>Cut position size in half. Return to highest-probability setups only.</td><td>After 3 consecutive wins at reduced size</td></tr>
+            <tr><td><span class="badge bear">−15–20%</span></td><td>Switch to paper trading. Prove your system still works without risking capital.</td><td>After 20+ profitable paper trades</td></tr>
+            <tr><td><span class="badge bear">−25%</span></td><td>Close all positions. Full 1–2 week break from all market activity.</td><td>Fresh start — new capital allocation, stricter controls</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading">Rule #1 — Stop Digging</div>
+      <div class="div-item" style="border-left-color:var(--red);margin-bottom:16px">
+        <span>After 3+ consecutive losses: <strong style="color:var(--text)">stop immediately</strong>. Take a minimum 24–48 hour break. Do not attempt to "win it back" — this is revenge trading and leads to catastrophic losses. The market will still be there tomorrow.</span>
+      </div>
+
+      <div class="sub-heading">Comeback Trade Checklist</div>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Before placing your first trade after a losing streak, all 8 must be true:</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px;margin-bottom:16px">
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:12px;font-size:13px;display:flex;gap:10px;align-items:flex-start">
+          <span style="color:var(--green);font-size:16px;flex-shrink:0">✓</span><span>Have you taken a break? <strong style="color:var(--muted)">(minimum 24–48 hours)</strong></span>
+        </div>
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:12px;font-size:13px;display:flex;gap:10px;align-items:flex-start">
+          <span style="color:var(--green);font-size:16px;flex-shrink:0">✓</span><span>Is position size reduced by 50%?</span>
+        </div>
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:12px;font-size:13px;display:flex;gap:10px;align-items:flex-start">
+          <span style="color:var(--green);font-size:16px;flex-shrink:0">✓</span><span>Is this your highest-probability setup type?</span>
+        </div>
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:12px;font-size:13px;display:flex;gap:10px;align-items:flex-start">
+          <span style="color:var(--green);font-size:16px;flex-shrink:0">✓</span><span>Have you calculated and <em>accepted</em> the risk?</span>
+        </div>
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:12px;font-size:13px;display:flex;gap:10px;align-items:flex-start">
+          <span style="color:var(--green);font-size:16px;flex-shrink:0">✓</span><span>Is your stop loss placed <em>before</em> entry?</span>
+        </div>
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:12px;font-size:13px;display:flex;gap:10px;align-items:flex-start">
+          <span style="color:var(--green);font-size:16px;flex-shrink:0">✓</span><span>Are you emotionally calm and focused?</span>
+        </div>
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:12px;font-size:13px;display:flex;gap:10px;align-items:flex-start">
+          <span style="color:var(--green);font-size:16px;flex-shrink:0">✓</span><span>Have you reviewed the losing trades for a pattern?</span>
+        </div>
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:12px;font-size:13px;display:flex;gap:10px;align-items:flex-start">
+          <span style="color:var(--green);font-size:16px;flex-shrink:0">✓</span><span>Are you fixing ONE issue only — not everything at once?</span>
+        </div>
+      </div>
+
+      <div class="sub-heading">Scaling Recovery Method</div>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:8px;line-height:1.7">Never try to recover losses in one trade. The maths are against you:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Loss sustained</th><th>Gain required to break even</th><th>Implication</th></tr></thead>
+          <tbody>
+            <tr><td>−10%</td><td>+11.1%</td><td>Small loss, manageable recovery</td></tr>
+            <tr><td>−20%</td><td>+25.0%</td><td>One bad month can take a quarter to recover</td></tr>
+            <tr><td>−33%</td><td>+50.0%</td><td>Half a year of gains wiped to breakeven</td></tr>
+            <tr><td>−50%</td><td>+100.0%</td><td><span class="badge bear">Account effectively destroyed — start fresh</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:13px;color:var(--muted);margin-top:12px;line-height:1.7">Break recovery into 5% increments. Each small win rebuilds both capital and confidence.</p>
+    </div>
+  </div>
+
+  <!-- 13. Position Sizing Methods -->
+  <div class="section" id="pos-sizing">
+    <div class="section-header">
+      <span class="section-num">13</span>
+      <div>
+        <div class="section-title">Position Sizing Methods</div>
+        <div class="section-sub">Four professional methods — fixed fractional is the standard</div>
+      </div>
+    </div>
+    <div class="section-body">
+
+      <div class="sub-heading">The Four Methods</div>
+      <div class="table-wrap" style="margin-bottom:20px">
+        <table>
+          <thead><tr><th>Method</th><th>How It Works</th><th>Best For</th><th>Verdict</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Fixed Fractional</strong></td>
+              <td>Risk a fixed % of current account per trade (e.g. 1–2%). Position size adjusts automatically as account grows or shrinks.</td>
+              <td>All traders</td>
+              <td><span class="badge bull">Industry standard</span></td>
+            </tr>
+            <tr>
+              <td><strong>Equal Dollar</strong></td>
+              <td>Invest the same £/$ amount in each trade regardless of volatility or stop distance.</td>
+              <td>Beginners</td>
+              <td><span class="badge neut">Simple, ignores volatility</span></td>
+            </tr>
+            <tr>
+              <td><strong>Equal Volatility</strong></td>
+              <td>Adjust position size so each trade has equal expected volatility. More volatile instrument = smaller position.</td>
+              <td>Multi-asset portfolios</td>
+              <td><span class="badge bull">Professional approach</span></td>
+            </tr>
+            <tr>
+              <td><strong>Kelly Criterion</strong></td>
+              <td>Mathematically optimal sizing based on win rate and R:R. Often too aggressive for live trading.</td>
+              <td>Advanced / systematic only</td>
+              <td><span class="badge" style="background:rgba(245,158,11,.12);color:var(--yellow);border:1px solid rgba(245,158,11,.25)">Use half-Kelly</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading">Formulas</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px">
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:16px">
+          <div style="font-size:10px;color:var(--accent);letter-spacing:1.5px;text-transform:uppercase;font-weight:700;margin-bottom:10px">Fixed Fractional</div>
+          <div style="font-family:var(--mono);font-size:12px;line-height:2;color:var(--text)">
+            <div><span style="color:var(--muted)">Risk Amount</span>  = Account × Risk %</div>
+            <div><span style="color:var(--muted)">Stop Distance</span> = |Entry − Stop Loss|</div>
+            <div style="margin-top:6px;padding-top:8px;border-top:1px solid var(--border)"><span style="color:var(--accent)">Units</span> = Risk Amount ÷ Stop Distance</div>
+          </div>
+        </div>
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:16px">
+          <div style="font-size:10px;color:var(--yellow);letter-spacing:1.5px;text-transform:uppercase;font-weight:700;margin-bottom:10px">Kelly Criterion</div>
+          <div style="font-family:var(--mono);font-size:12px;line-height:2;color:var(--text)">
+            <div><span style="color:var(--muted)">Kelly %</span> = W − [(1−W) ÷ R]</div>
+            <div><span style="color:var(--muted)">W</span> = Win rate &nbsp;&nbsp; <span style="color:var(--muted)">R</span> = Avg win ÷ Avg loss</div>
+            <div style="margin-top:6px;padding-top:8px;border-top:1px solid var(--border)"><span style="color:var(--yellow)">Use 25–50% of result</span> (half-Kelly)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sub-heading">The 2% Rule — Why It Works</div>
+      <div class="div-item" style="border-left-color:var(--accent);margin-bottom:16px">
+        <span>Risking 2% per trade means you need <strong style="color:var(--text)">50 consecutive losses</strong> to wipe your account. Professional traders often risk 0.5–1% — requiring 100–200 consecutive losses for full drawdown. It is mathematically near-impossible to go bust with strict 1% risk management.</span>
+      </div>
+
+      <div class="sub-heading">Performance Metrics to Track</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Metric</th><th>Formula</th><th>Target</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Profit Factor</strong></td><td>Gross Profit ÷ Gross Loss</td><td><span class="badge bull">&gt; 2.0</span></td></tr>
+            <tr><td><strong>Sharpe Ratio</strong></td><td>Return ÷ Volatility of returns</td><td><span class="badge bull">&gt; 1.0</span></td></tr>
+            <tr><td><strong>Win Rate</strong></td><td>Winners ÷ Total trades</td><td>At 1:2 R:R, only 34% needed to break even</td></tr>
+            <tr><td><strong>Max Drawdown</strong></td><td>Peak-to-trough loss</td><td>Keep below 15–20%</td></tr>
+            <tr><td><strong>Average R:R</strong></td><td>Avg win ÷ Avg loss</td><td><span class="badge bull">&gt; 1.5 (target 2.0+)</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 14. Trading Efficiency -->
+  <div class="section" id="efficiency">
+    <div class="section-header">
+      <span class="section-num">14</span>
+      <div>
+        <div class="section-title">Trading Efficiency</div>
+        <div class="section-sub">Trade less, trade better — the 80/20 rule applied to setups</div>
+      </div>
+    </div>
+    <div class="section-body">
+
+      <div class="sub-heading">The 5-Trade Week</div>
+      <div class="div-item" style="border-left-color:var(--accent);margin-bottom:16px">
+        <span>Limit yourself to a maximum of <strong style="color:var(--text)">5 trades per week</strong>. This forces selectivity, eliminates overtrading and commission drag, and means every trade must meet a high bar. If you've placed 5 trades and the week isn't over — you're done for the week.</span>
+      </div>
+
+      <div class="sub-heading">Entry Checklist System</div>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Only enter a trade when <strong style="color:var(--text)">all</strong> criteria are met. Pre-defining this prevents impulsive entries.</p>
+      <div class="table-wrap" style="margin-bottom:16px">
+        <table>
+          <thead><tr><th>#</th><th>Criteria</th><th>Check</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>Trend confirmed on higher timeframe (Daily → 4H)</td><td><span style="color:var(--muted)">☐</span></td></tr>
+            <tr><td>2</td><td>Price at key support or resistance level</td><td><span style="color:var(--muted)">☐</span></td></tr>
+            <tr><td>3</td><td>Candlestick pattern confirmation (Section 1)</td><td><span style="color:var(--muted)">☐</span></td></tr>
+            <tr><td>4</td><td>RSI / MACD confirmation (Section 4)</td><td><span style="color:var(--muted)">☐</span></td></tr>
+            <tr><td>5</td><td>Minimum 1:2 risk-reward ratio</td><td><span style="color:var(--muted)">☐</span></td></tr>
+            <tr><td>6</td><td>Volume confirmation (Section 5)</td><td><span style="color:var(--muted)">☐</span></td></tr>
+            <tr><td>7</td><td>No high-impact news event in next 4 hours</td><td><span style="color:var(--muted)">☐</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading">Multi-Timeframe Analysis</div>
+      <div class="table-wrap" style="margin-bottom:16px">
+        <table>
+          <thead><tr><th>Timeframe</th><th>Role</th><th>GBP/USD Example</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Higher</strong></td><td>Establish trend direction — only trade in this direction</td><td>Weekly / Daily</td></tr>
+            <tr><td><strong>Middle</strong></td><td>Identify setup and key levels</td><td>4H</td></tr>
+            <tr><td><strong>Lower</strong></td><td>Precise entry timing</td><td>1H / 30m</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading">Scaling In and Out</div>
+      <div class="table-wrap" style="margin-bottom:16px">
+        <table>
+          <thead><tr><th>Technique</th><th>Rule</th><th>Purpose</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Scaling In (Pyramiding)</strong></td><td>Only add to winning positions. Each new unit must be smaller. Total risk stays within 2%.</td><td>Maximise winners in strong trends</td></tr>
+            <tr><td><strong>Partial Exit at T1</strong></td><td>Exit 50% at 1:2 R:R, move stop to breakeven on remainder</td><td>Lock in profit, let runner run free</td></tr>
+            <tr><td><strong>Trailing Stop</strong></td><td>Trail by 2× ATR once in profit</td><td>Protect gains without capping upside</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading">The 80/20 Rule</div>
+      <div class="div-item" style="border-left-color:var(--accent);margin-bottom:16px">
+        <span><strong style="color:var(--text)">80% of your profits come from 20% of your trades.</strong> Identify your 2–3 highest-win-rate setup types and trade them exclusively. Eliminate everything else. More setups does not mean more profit — it means more noise.</span>
+      </div>
+
+      <div class="sub-heading">Indicator Efficiency Rule</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Approach</th><th>Max indicators</th><th>Recommended combo</th></tr></thead>
+          <tbody>
+            <tr><td>This encyclopedia's system</td><td>3</td><td>EMA 50/200 (trend) + RSI (momentum) + Volume (confirmation)</td></tr>
+            <tr><td>Alternative A</td><td>3</td><td>Price action + S/R levels + MACD histogram</td></tr>
+            <tr><td>Alternative B</td><td>1</td><td>Ichimoku Cloud (all-in-one)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:12px;color:var(--muted);margin-top:8px;line-height:1.6">More than 3 indicators causes analysis paralysis. Master one system before adding anything else.</p>
+    </div>
+  </div>
+
+  <!-- 15. Quotes & Principles -->
+  <div class="section" id="quotes">
+    <div class="section-header">
+      <span class="section-num">15</span>
+      <div>
+        <div class="section-title">Trader Quotes &amp; Principles</div>
+        <div class="section-sub">The best one-liners from 100+ years of market wisdom</div>
+      </div>
+    </div>
+    <div class="section-body">
+
+      <div class="sub-heading">Essential Quotes</div>
+      <div class="table-wrap" style="margin-bottom:24px">
+        <table>
+          <thead><tr><th>Trader</th><th>Quote</th><th>Source</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Ed Seykota</strong></td>
+              <td><em>"The elements of good trading are: (1) cutting losses, (2) cutting losses, and (3) cutting losses."</em></td>
+              <td>Market Wizards</td>
+            </tr>
+            <tr>
+              <td><strong>Jesse Livermore</strong></td>
+              <td><em>"It never was my thinking that made the big money for me. It always was my sitting."</em></td>
+              <td>Reminiscences of a Stock Operator</td>
+            </tr>
+            <tr>
+              <td><strong>Jesse Livermore</strong></td>
+              <td><em>"Markets are never wrong — opinions often are."</em></td>
+              <td>Reminiscences of a Stock Operator</td>
+            </tr>
+            <tr>
+              <td><strong>Mark Douglas</strong></td>
+              <td><em>"The best traders have learned how to commit to taking every trade that meets their criteria, without reservation."</em></td>
+              <td>Trading in the Zone</td>
+            </tr>
+            <tr>
+              <td><strong>Mark Douglas</strong></td>
+              <td><em>"Anything can happen. You don't need to know what is going to happen next in order to make money."</em></td>
+              <td>Trading in the Zone</td>
+            </tr>
+            <tr>
+              <td><strong>Warren Buffett</strong></td>
+              <td><em>"Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1."</em></td>
+              <td>Shareholder letters</td>
+            </tr>
+            <tr>
+              <td><strong>Warren Buffett</strong></td>
+              <td><em>"Be fearful when others are greedy and greedy when others are fearful."</em></td>
+              <td>Shareholder letters</td>
+            </tr>
+            <tr>
+              <td><strong>Benjamin Graham</strong></td>
+              <td><em>"In the short run, the market is a voting machine but in the long run, it is a weighing machine."</em></td>
+              <td>The Intelligent Investor</td>
+            </tr>
+            <tr>
+              <td><strong>Paul Tudor Jones</strong></td>
+              <td><em>"Where you want to be is always in control, never wishing, always trading, and always protecting your position."</em></td>
+              <td>Market Wizards</td>
+            </tr>
+            <tr>
+              <td><strong>Alexander Elder</strong></td>
+              <td><em>"Amateurs think about how much money they can make. Professionals think about how much they could lose."</em></td>
+              <td>Trading for a Living</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading">5 Universal Trading Laws</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Law</th><th>Principle</th><th>Application</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Law of Large Numbers</strong></td>
+              <td>Your edge plays out over hundreds of trades. Individual trades are random events.</td>
+              <td>Focus on process and consistency — not the outcome of any single trade</td>
+            </tr>
+            <tr>
+              <td><strong>Law of Diminishing Returns</strong></td>
+              <td>More indicators, more screen time, and more trades do not improve results.</td>
+              <td>Use ≤3 indicators. Trade ≤5 times per week. Less is more.</td>
+            </tr>
+            <tr>
+              <td><strong>Law of Market Cycles</strong></td>
+              <td>Bull and bear markets alternate. No trend lasts forever.</td>
+              <td>Always identify the regime (Section 10) before acting on any signal</td>
+            </tr>
+            <tr>
+              <td><strong>Law of Survival</strong></td>
+              <td>Priority 1: Preserve capital. Priority 2: Consistent returns. Priority 3: Exceptional returns.</td>
+              <td>You cannot achieve #3 without #1 and #2. Capital preservation is the foundation.</td>
+            </tr>
+            <tr>
+              <td><strong>Law of Simplicity</strong></td>
+              <td>Simple systems are more robust. Complex systems fail in live trading.</td>
+              <td>If you can't explain your entry in one sentence, the setup is too complicated</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub-heading" style="margin-top:24px">The Ultimate Truth</div>
+      <div class="div-item" style="border-left-color:var(--accent)">
+        <span style="font-size:13px;line-height:1.8"><em>"Trading success is not about predicting the future — it's about managing uncertainty through disciplined risk control, rigorous self-analysis, and patient execution of proven strategies. <strong style="color:var(--text)">Master yourself, and the markets will take care of themselves.</strong>"</em><br><span style="font-size:11px;color:var(--muted);margin-top:4px;display:block">— Synthesised from 150+ investment books</span></span>
+      </div>
+    </div>
+  </div>
+
 </main>
 
 </div><!-- /page-body -->
@@ -1006,7 +1359,7 @@ function toggleTheme() {
 }
 
 (function(){
-  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading','books-part1','books-part2','books-part3','regime','risk'];
+  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading','books-part1','books-part2','books-part3','regime','risk','loss-recovery','pos-sizing','efficiency','quotes'];
   var links = document.querySelectorAll('#sidebarNav a');
 
   // Sub-items → their parent section id
