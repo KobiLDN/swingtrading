@@ -41,8 +41,8 @@ jobs:
       - name: Analyse SPX
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          ASSET: "SPX500USD"
-        run: python generate_analysis.py || echo "SPX analysis failed — skipping"
+          ASSET: "SPY"
+        run: python generate_analysis.py || echo "SPY analysis failed — skipping"
 
       - name: Commit analysis output
         run: |

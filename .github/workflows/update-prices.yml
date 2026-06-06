@@ -38,8 +38,8 @@ jobs:
       - name: Fetch SPX prices
         env:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
-          ASSET: "SPX500USD"
-        run: python update_prices.py || echo "SPX500USD fetch failed — skipping"
+          ASSET: "SPY"
+        run: python update_prices.py || echo "SPY fetch failed — skipping"
 
       - name: Fetch economic calendar
         env:

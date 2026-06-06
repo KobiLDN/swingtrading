@@ -40,6 +40,7 @@ ASSET_SLUGS = {
     'GBP/USD':   'gbpusd',
     'XAU/USD':   'xauusd',
     'SPX500USD': 'spx',
+    'SPY':       'spx',
 }
 
 API_KEY        = os.environ.get('OPENROUTER_API_KEY', '')

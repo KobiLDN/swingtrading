@@ -62,6 +62,13 @@ ASSET_CONFIG = {
         'pip_label': 'pts',
         'pip_value': 1.0,     # $1 per unit per point (micro CFD basis)
     },
+    'SPY': {
+        'slug':      'spx',
+        'decimals':  2,
+        'pip_mult':  1,       # ATR already in USD
+        'pip_label': 'pts',
+        'pip_value': 1.0,     # $1 per share per point
+    },
 }
 
 SYMBOL     = os.environ.get('ASSET', 'GBP/USD')
