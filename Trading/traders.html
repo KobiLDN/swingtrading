@@ -44,12 +44,15 @@
   a:hover { text-decoration: underline; }
 
   /* Header */
-  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 24px; }
-  .header-inner { max-width: var(--max-w); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 58px; gap: 16px; }
-  .header-left { display: flex; align-items: center; gap: 16px; }
-  .back-link { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 5px; }
-  .back-link:hover { color: var(--accent); text-decoration: none; }
-  .page-title { font-size: 16px; font-weight: 700; }
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 24px; position: sticky; top: 0; z-index: 100; }
+  .header-inner { max-width: var(--max-w); margin: 0 auto; display: flex; align-items: center; gap: 16px; height: 58px; }
+  .header-brand { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
+  .header-label { font-family: var(--mono); font-size: 9px; color: var(--accent); letter-spacing: 2px; text-transform: uppercase; white-space: nowrap; }
+  .site-nav { display: flex; align-items: center; gap: 2px; }
+  .site-nav-link { font-size: 12px; font-weight: 500; color: var(--muted); padding: 5px 10px; border-radius: var(--radius); border: 1px solid transparent; text-decoration: none; transition: color .15s, background .15s, border-color .15s; white-space: nowrap; }
+  .site-nav-link:hover { color: var(--text); background: var(--surface2); border-color: var(--border); text-decoration: none; }
+  .site-nav-link.active { color: var(--accent); background: rgba(0,212,255,.07); border-color: rgba(0,212,255,.25); }
+  .header-controls { display: flex; align-items: center; gap: 10px; }
   .theme-btn { background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 5px 12px; border-radius: var(--radius); cursor: pointer; font-size: 12px; }
   .theme-btn:hover { border-color: var(--accent); }
 
@@ -150,13 +153,15 @@
 
 <header>
   <div class="header-inner">
-    <div class="header-left">
-      <a class="back-link" href="encyclopedia.html#reading">← Encyclopedia</a>
-      <span style="color:var(--border)">|</span>
-      <span class="page-title">Legendary Traders</span>
+    <div class="header-brand">
+      <span class="header-label">// Swing Trading</span>
     </div>
-    <div style="display:flex;gap:10px;align-items:center">
-      <a href="../index.html" style="font-size:12px;color:var(--muted)">Dashboard</a>
+    <nav class="site-nav">
+      <a class="site-nav-link" href="../index.html">Dashboard</a>
+      <a class="site-nav-link" href="encyclopedia.html">Encyclopedia</a>
+      <a class="site-nav-link active" href="traders.html">Traders</a>
+    </nav>
+    <div class="header-controls">
       <button class="theme-btn" onclick="toggleTheme()">☾ / ☀</button>
     </div>
   </div>
