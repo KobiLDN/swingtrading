@@ -378,6 +378,29 @@
     border-top: 1px solid var(--border);
   }
 
+  /* ── Collapsible nav groups ── */
+  .nav-pill.has-sub { justify-content: space-between; }
+  .nav-chevron {
+    display: inline-block;
+    font-size: 11px;
+    color: var(--border);
+    margin-left: auto;
+    transition: transform .2s ease, color .15s;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .nav-pill.has-sub.open .nav-chevron { transform: rotate(90deg); color: var(--accent); }
+  .nav-sub-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height .25s ease, opacity .2s ease;
+  }
+  .nav-sub-group.open { max-height: 300px; opacity: 1; }
+
   /* ── Search bar ── */
   .search-bar {
     background: var(--surface);
@@ -527,21 +550,25 @@
     <a class="nav-pill" href="#candlestick"><span class="nav-num">1</span> Candlestick</a>
     <a class="nav-pill" href="#chart-patterns"><span class="nav-num">2</span> Chart Patterns</a>
     <a class="nav-pill" href="#support-resistance"><span class="nav-num">3</span> S &amp; R</a>
-    <a class="nav-pill" href="#momentum"><span class="nav-num">4</span> Momentum</a>
-    <a class="nav-sub" href="#ind-rsi">RSI (14)</a>
-    <a class="nav-sub" href="#ind-macd">MACD (12,26,9)</a>
-    <a class="nav-sub" href="#ind-ema">EMA 50 / 200</a>
-    <a class="nav-sub" href="#ind-atr">ATR (14)</a>
-    <a class="nav-sub" href="#ind-avwap">AVWAP</a>
+    <a class="nav-pill has-sub" href="#momentum" data-sub="sub-momentum"><span class="nav-num">4</span> Momentum <span class="nav-chevron">›</span></a>
+    <div class="nav-sub-group" id="sub-momentum">
+      <a class="nav-sub" href="#ind-rsi">RSI (14)</a>
+      <a class="nav-sub" href="#ind-macd">MACD (12,26,9)</a>
+      <a class="nav-sub" href="#ind-ema">EMA 50 / 200</a>
+      <a class="nav-sub" href="#ind-atr">ATR (14)</a>
+      <a class="nav-sub" href="#ind-avwap">AVWAP</a>
+    </div>
     <a class="nav-pill" href="#volume"><span class="nav-num">5</span> Volume</a>
     <a class="nav-pill" href="#gbpusd"><span class="nav-num">6</span> GBP/USD</a>
     <a class="nav-pill" href="#scoring"><span class="nav-num">7</span> Scoring</a>
     <a class="nav-pill" href="#pseudocode"><span class="nav-num">8</span> Code</a>
-    <a class="nav-pill" href="#reading"><span class="nav-num">9</span> Books</a>
-    <a class="nav-sub" href="#books-part1">Swing / Legends</a>
-    <a class="nav-sub" href="#books-part2">Buffett Collection</a>
-    <a class="nav-sub" href="#books-part3">Buffett Recommends</a>
-    <a class="nav-sub" href="#books-part4">Psychology &amp; Forex</a>
+    <a class="nav-pill has-sub" href="#reading" data-sub="sub-reading"><span class="nav-num">9</span> Books <span class="nav-chevron">›</span></a>
+    <div class="nav-sub-group" id="sub-reading">
+      <a class="nav-sub" href="#books-part1">Swing / Legends</a>
+      <a class="nav-sub" href="#books-part2">Buffett Collection</a>
+      <a class="nav-sub" href="#books-part3">Buffett Recommends</a>
+      <a class="nav-sub" href="#books-part4">Psychology &amp; Forex</a>
+    </div>
     <a class="nav-pill" href="#regime"><span class="nav-num">10</span> Regime</a>
     <a class="nav-pill" href="#risk"><span class="nav-num">11</span> Risk Mgmt</a>
     <a class="nav-pill" href="#loss-recovery"><span class="nav-num">12</span> Loss Recovery</a>
@@ -1626,6 +1653,24 @@ function toggleTheme() {
 
   links.forEach(function(a) {
     a.addEventListener('click', function(e) {
+      // Collapsible parent pills — toggle sub-group
+      if (a.dataset.sub) {
+        e.preventDefault();
+        var group = document.getElementById(a.dataset.sub);
+        var opening = !group.classList.contains('open');
+        group.classList.toggle('open', opening);
+        a.classList.toggle('open', opening);
+        // Navigate to the section only when expanding
+        if (opening) {
+          var dest = document.querySelector(a.getAttribute('href'));
+          if (dest) {
+            var t = dest.getBoundingClientRect().top + window.scrollY - 120;
+            window.scrollTo({ top: t, behavior: 'smooth' });
+          }
+        }
+        return;
+      }
+      // Normal smooth scroll for all other links
       var target = document.querySelector(a.getAttribute('href'));
       if (!target) return;
       e.preventDefault();
