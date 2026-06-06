@@ -65,7 +65,7 @@
   header {
     background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 0 24px;
+    padding: 10px 24px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -76,9 +76,9 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    height: 58px;
+    min-height: 48px;
   }
-  .header-brand { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
+  .header-brand { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; flex: 1; min-width: 0; }
   .header-label { font-family: var(--mono); font-size: 10px; color: var(--accent); letter-spacing: 2px; text-transform: uppercase; white-space: nowrap; }
   .header-sub { font-family: var(--mono); font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
@@ -562,8 +562,14 @@
   <div class="header-inner">
     <div class="header-brand">
       <span class="header-label">// Swing Trading</span>
-      <span style="color:var(--border)">·</span>
-      <span class="header-sub" id="last-updated">Loading...</span>
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+        <div class="asset-pills">
+          <button class="asset-pill active" data-asset="gbpusd" onclick="switchAsset('gbpusd')">GBP/USD</button>
+          <button class="asset-pill" data-asset="xauusd" onclick="switchAsset('xauusd')">XAU/USD</button>
+          <button class="asset-pill" data-asset="spx" onclick="switchAsset('spx')">SPX</button>
+        </div>
+        <span class="header-sub" id="last-updated"></span>
+      </div>
     </div>
     <nav class="site-nav">
       <a class="site-nav-link active" href="index.html">Dashboard</a>
@@ -571,11 +577,6 @@
       <a class="site-nav-link" href="Trading/traders.html">Traders</a>
     </nav>
     <div class="header-controls">
-      <div class="asset-pills">
-        <button class="asset-pill active" data-asset="gbpusd" onclick="switchAsset('gbpusd')">GBP/USD</button>
-        <button class="asset-pill" data-asset="xauusd" onclick="switchAsset('xauusd')">XAU/USD</button>
-        <button class="asset-pill" data-asset="spx" onclick="switchAsset('spx')">SPX</button>
-      </div>
       <button class="theme-btn" onclick="toggleTheme()">☾ / ☀</button>
     </div>
   </div>
