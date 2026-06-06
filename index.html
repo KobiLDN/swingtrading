@@ -850,10 +850,10 @@ function switchAsset(slug) {
     btn.classList.toggle('active', btn.dataset.asset === slug);
   });
 
-  // Swap globals so existing render functions work unchanged
+  // Always swap globals — null means "no data yet for this asset"
   var data = getAssetData(slug);
-  if (data.prices)   window.PRICES_DATA   = data.prices;
-  if (data.analysis) window.ANALYSIS_DATA = data.analysis;
+  window.PRICES_DATA   = data.prices;    // null clears stale data from previous asset
+  window.ANALYSIS_DATA = data.analysis;  // null clears stale analysis
 
   // Update calculator note
   var noteEl = el('calc-note');
@@ -896,7 +896,10 @@ function calcEma(candles, period) {
 function initChart() {
   var d = window.PRICES_DATA;
   var container = document.getElementById('chart-container');
-  if (!d || !d.candles || d.candles.length === 0 || !container) return;
+  if (!d || !d.candles || d.candles.length === 0 || !container) {
+    if (_chart) { _chart.remove(); _chart = null; } // clear stale chart from previous asset
+    return;
+  }
 
   // Destroy previous instance
   if (_chart) { _chart.remove(); _chart = null; }
@@ -996,7 +999,31 @@ function fmtDate(iso) {
 // ── Render prices ─────────────────────────────────────────────────────────────
 function renderPrices() {
   var d = window.PRICES_DATA;
-  if (!d) return;
+  if (!d) {
+    // No data yet for this asset — clear all display elements
+    var label = ASSET_LABELS[CURRENT_ASSET] || CURRENT_ASSET.toUpperCase();
+    el('last-updated').textContent = label + ' — no data yet · pipeline runs Mon–Fri 06:00 UTC';
+    el('price-val').textContent = '—';
+    el('atr-val').textContent = '—';
+    if (el('atr-label')) el('atr-label').textContent = '—';
+    el('ema50-val').textContent = '—';
+    el('ema200-val').textContent = '—';
+    el('ema-arrow').textContent = '—'; el('ema-arrow').style.color = '';
+    var tb = el('trend-badge');  tb.textContent = '—'; tb.className = 'trend-badge trend-neutral';
+    var rb = el('regime-badge'); if (rb) { rb.textContent = '— REGIME'; rb.className = 'regime-badge regime-ranging'; }
+    el('rsi-big').textContent = '—'; el('rsi-big').style.color = '';
+    el('rsi-status').textContent = '—'; el('rsi-status').className = 'ind-val neut';
+    el('rsi-div').textContent = '—';   el('rsi-div').className = 'ind-val neut';
+    el('macd-dir').textContent = '—';  el('macd-dir').className = 'ind-val neut';
+    el('macd-line').textContent = '—'; el('macd-signal').textContent = '—'; el('macd-hist').textContent = '—';
+    el('score-num').textContent = '—'; el('verdict-badge').textContent = '—'; el('verdict-badge').style.color = '';
+    el('verdict-sub').textContent = 'Trigger the pipeline to populate ' + label;
+    el('score-wrap').className = 'score-wrap';
+    el('pattern-list').innerHTML = '<span class="pat-none">No data yet — GitHub Actions populates this Mon–Fri at 06:00 UTC.</span>';
+    if (el('chart-title')) el('chart-title').textContent = 'Daily Chart — ' + label;
+    el('prompt-box').value = label + ' data not yet available.\nTrigger the GitHub Actions workflow manually to generate it.';
+    return;
+  }
 
   el('last-updated').textContent = d.price
     ? (ASSET_LABELS[CURRENT_ASSET] || d.symbol) + ' · ' + d.date + ' · Updated ' + fmtDate(d.generated)
@@ -1113,7 +1140,16 @@ function renderPrices() {
 // ── Render analysis ───────────────────────────────────────────────────────────
 function renderAnalysis() {
   var a = window.ANALYSIS_DATA;
-  if (!a) return;
+  if (!a) {
+    // Clear stale analysis from previous asset
+    ['dec-decision','dec-confidence','dec-entry','dec-sl','dec-t1','dec-t2','dec-rr','dec-score'].forEach(function(id){
+      var e = el(id); if (e) { e.textContent = '—'; e.className = 'dec-val'; }
+    });
+    el('analysis-text').textContent = 'No AI analysis yet for this asset.';
+    el('invalidation-text').style.display = 'none';
+    el('analysis-meta').textContent = '';
+    return;
+  }
 
   var dec = (a.decision || '').toUpperCase();
   el('dec-decision').textContent  = dec || '—';
