@@ -698,18 +698,67 @@
       </div>
 
       <div class="sub-heading">Moving Averages — EMA 50 &amp; EMA 200</div>
-      <p style="font-size:11px;color:var(--yellow);margin-bottom:10px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Trend direction confirmed after price has already moved — use for bias, not timing</p>
-      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">EMA weights recent candles more heavily. The <strong style="color:var(--text)">50 EMA</strong> tracks medium-term trend; the <strong style="color:var(--text)">200 EMA</strong> tracks long-term trend. Price above both = bullish bias; a pullback to 50 EMA in an uptrend is a classic continuation entry.</p>
+      <p style="font-size:11px;color:var(--yellow);margin-bottom:14px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Trend direction confirmed after price has already moved — use for bias and context, not for precise entry timing</p>
+
+      <p style="font-size:13px;color:var(--muted);margin-bottom:14px;line-height:1.7"><strong style="color:var(--text)">What is a moving average?</strong><br>
+      Price moves up and down every single day — a lot of that is just noise. A moving average smooths that noise by showing you the <em>average closing price</em> over the last N days as a single line on the chart. Instead of reacting to every individual candle, you see one clean line that reveals the actual direction price has been heading.</p>
+
+      <p style="font-size:13px;color:var(--muted);margin-bottom:14px;line-height:1.7"><strong style="color:var(--text)">Simple (SMA) vs Exponential (EMA) — what's the difference?</strong><br>
+      A <strong style="color:var(--text)">Simple Moving Average (SMA)</strong> treats every past day equally — a price from 6 weeks ago counts exactly the same as today's price. The problem: if GBP/USD rallied sharply last week, the SMA is still being dragged down by old stale data and lags badly.<br><br>
+      An <strong style="color:var(--accent)">Exponential Moving Average (EMA)</strong> fixes this by giving <em>more weight to recent candles</em> and less weight to older ones. The result: EMA reacts faster to new price moves, sits closer to current price, and is far more useful as a dynamic support/resistance line. This is why professional traders use EMA, not SMA.</p>
+
+      <!-- Formula box -->
+      <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin-bottom:16px">
+        <div style="font-family:var(--mono);font-size:10px;color:var(--accent);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:12px">How EMA is calculated</div>
+        <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.8">First calculate the <strong style="color:var(--text)">multiplier k</strong> — this controls how much weight today's price gets:<br>
+        <code style="background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:3px 10px;font-family:var(--mono);font-size:12px;color:var(--accent)">k = 2 ÷ (period + 1)</code><br><br>
+        Then each new day, apply:<br>
+        <code style="background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:3px 10px;font-family:var(--mono);font-size:12px;color:var(--accent)">EMA = (Today's Price × k) + (Yesterday's EMA × (1 − k))</code><br><br>
+        In plain English: today's EMA is mostly yesterday's EMA, nudged slightly toward today's price. The larger k is, the more it gets nudged — meaning it reacts faster.</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <div style="background:var(--surface);border:1px solid rgba(0,212,255,.25);border-radius:var(--radius);padding:12px">
+            <div style="font-family:var(--mono);font-size:10px;color:var(--accent);letter-spacing:1px;margin-bottom:8px">EMA 50 — FASTER</div>
+            <div style="font-size:13px;color:var(--text);margin-bottom:6px">k = 2 ÷ (50+1) = <strong style="color:var(--accent)">0.039</strong></div>
+            <div style="font-size:11px;color:var(--muted);line-height:1.7">3.9% weight to today's price<br>96.1% from yesterday's EMA<br>Responds to moves within days</div>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px">
+            <div style="font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:1px;margin-bottom:8px">EMA 200 — SLOWER</div>
+            <div style="font-size:13px;color:var(--text);margin-bottom:6px">k = 2 ÷ (200+1) = <strong style="color:var(--muted)">0.010</strong></div>
+            <div style="font-size:11px;color:var(--muted);line-height:1.7">1.0% weight to today's price<br>99.0% from yesterday's EMA<br>Takes weeks/months to shift</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- What 50 and 200 mean -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px">
+        <div style="background:var(--surface2);border:1px solid rgba(0,212,255,.2);border-radius:var(--radius);padding:14px">
+          <div style="font-family:var(--mono);font-size:26px;font-weight:700;color:var(--accent);margin-bottom:4px">50</div>
+          <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:6px">50 trading days ≈ 10 weeks</div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.7">Tracks the <strong style="color:var(--text)">medium-term trend</strong>. Institutional traders and swing traders watch this level closely. In a healthy uptrend, price repeatedly dips back to the 50 EMA and bounces — this pullback-to-EMA entry is one of the most common swing setups in forex.</div>
+        </div>
+        <div style="background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:14px">
+          <div style="font-family:var(--mono);font-size:26px;font-weight:700;color:var(--muted);margin-bottom:4px">200</div>
+          <div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:6px">200 trading days ≈ 1 full year</div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.7">Tracks the <strong style="color:var(--text)">long-term trend</strong>. The 200 EMA is the single most-watched line in all of forex and stocks — followed by every major fund, bank, and algorithm. Price consistently above it = long-term uptrend. Breaking below it = serious bearish shift in sentiment.</div>
+        </div>
+      </div>
+
+      <p style="font-size:13px;color:var(--muted);margin-bottom:14px;line-height:1.7"><strong style="color:var(--text)">Why 50 and 200 specifically — and not 47 or 193?</strong><br>
+      These are not magic numbers derived from maths. They work because <em>everyone watches them</em>. Millions of traders, hedge funds, central banks, and trading algorithms worldwide have the exact same 50 EMA and 200 EMA on their charts. When GBP/USD drops to the 200 EMA, buyers step in — not because the line has any special power, but because every other participant <em>expects</em> it to hold and acts accordingly. That collective action creates real support. This is called a self-fulfilling prophecy, and it is the actual mechanism behind why these specific levels work.</p>
+
+      <p style="font-size:13px;color:var(--muted);margin-bottom:16px;line-height:1.7"><strong style="color:var(--text)">EMA as dynamic support and resistance</strong><br>
+      A horizontal support line sits at a fixed price forever. The EMA moves every day as new candles are added — making it <em>dynamic</em>. The support level rises as the uptrend continues. The classic swing trade: confirm uptrend (price &gt; 50 EMA &gt; 200 EMA), wait for price to pull back and touch the 50 EMA, then enter long when a bullish candlestick pattern appears at that level. The EMA tells you <strong style="color:var(--text)">where</strong> to look; the candlestick pattern tells you <strong style="color:var(--text)">when</strong> to enter.</p>
+
+      <div style="font-family:var(--mono);font-size:10px;color:var(--accent);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:10px">Trading signals</div>
       <div class="table-wrap">
         <table>
           <thead><tr><th>Condition</th><th>Bias</th><th>Implication</th></tr></thead>
           <tbody>
-            <tr><td>50 EMA &gt; 200 EMA</td><td><span class="badge bull">Bullish</span></td><td>Golden Cross alignment — trend is up</td></tr>
-            <tr><td>50 EMA &lt; 200 EMA</td><td><span class="badge bear">Bearish</span></td><td>Death Cross alignment — trend is down</td></tr>
-            <tr><td>50 EMA crosses <strong>above</strong> 200 EMA</td><td><span class="badge bull">Golden Cross ⚡</span></td><td>Major bullish — confirm with volume</td></tr>
-            <tr><td>50 EMA crosses <strong>below</strong> 200 EMA</td><td><span class="badge bear">Death Cross ⚡</span></td><td>Major bearish — confirm with volume</td></tr>
-            <tr><td>Price &gt; 50 EMA &gt; 200 EMA</td><td><span class="badge bull">Strong Uptrend</span></td><td>Buy on pullbacks to 50 EMA</td></tr>
-            <tr><td>Price &lt; 50 EMA &lt; 200 EMA</td><td><span class="badge bear">Strong Downtrend</span></td><td>Sell on rallies to 50 EMA</td></tr>
+            <tr><td>Price &gt; 50 EMA &gt; 200 EMA</td><td><span class="badge bull">Strong Uptrend</span></td><td>All three stacked bullish — only look for buys; enter on pullbacks to 50 EMA</td></tr>
+            <tr><td>Price &lt; 50 EMA &lt; 200 EMA</td><td><span class="badge bear">Strong Downtrend</span></td><td>All three stacked bearish — only look for sells; enter on rallies to 50 EMA</td></tr>
+            <tr><td>50 EMA crosses <strong>above</strong> 200 EMA</td><td><span class="badge bull">Golden Cross ⚡</span></td><td>Medium-term momentum has flipped bullish vs the full year — major signal, confirm with volume</td></tr>
+            <tr><td>50 EMA crosses <strong>below</strong> 200 EMA</td><td><span class="badge bear">Death Cross ⚡</span></td><td>Medium-term momentum has flipped bearish vs the full year — major signal, confirm with volume</td></tr>
+            <tr><td>Price between 50 EMA and 200 EMA</td><td><span class="badge neut">Mixed</span></td><td>Conflicting signals — reduce position size, wait for a clear stack before entering</td></tr>
           </tbody>
         </table>
       </div>
