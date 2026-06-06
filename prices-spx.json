@@ -1,4 +1,4 @@
-window.PRICES_DATA_SPX = {
+{
   "symbol": "SPY",
   "slug": "spx",
   "generated": "2026-06-06T15:26:08Z",
@@ -723,4 +723,4 @@ window.PRICES_DATA_SPX = {
       "close": 737.55
     }
   ]
-};
+}

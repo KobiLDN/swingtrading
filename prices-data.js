@@ -1,9 +1,9 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-06-06T11:20:11Z",
+  "generated": "2026-06-06T15:26:07Z",
   "date": "2026-06-06",
-  "price": 1.33409,
+  "price": 1.33404,
   "atr": 0.00637,
   "atr_pips": 64,
   "pip_label": "pips",
@@ -12,10 +12,10 @@ window.PRICES_DATA = {
   "decimals": 5,
   "ema50": 1.34496,
   "ema200": 1.34083,
-  "rsi": 36.61,
-  "macd_line": -0.002359,
-  "macd_signal": -0.001479,
-  "macd_hist": -0.00088,
+  "rsi": 36.53,
+  "macd_line": -0.002363,
+  "macd_signal": -0.00148,
+  "macd_hist": -0.000883,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
@@ -36,6 +36,12 @@ window.PRICES_DATA = {
       "name": "Bearish Engulfing",
       "signal": "STRONG BEARISH",
       "strength": 4
+    },
+    {
+      "date": "2026-06-06",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
   "score": 4,
@@ -739,7 +745,7 @@ window.PRICES_DATA = {
       "open": 1.33388,
       "high": 1.33674,
       "low": 1.3331,
-      "close": 1.33409
+      "close": 1.33404
     }
   ]
 };
