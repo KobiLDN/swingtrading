@@ -186,13 +186,34 @@ Score breakdown (max 10):
 
 ---
 
+## Multi-Asset Configuration
+
+The pipeline now supports three instruments. Set `ASSET` env var before running either Python script:
+
+| ASSET env var | Slug | Output files | pip_mult | pip_value |
+|---------------|------|-------------|---------|-----------|
+| `GBP/USD` (default) | `gbpusd` | `prices-data-gbpusd.js`, `prices-data.js` (compat) | 10000 | $0.0001 |
+| `XAU/USD` | `xauusd` | `prices-data-xauusd.js` | 1 | $1.00 |
+| `SPX500USD` | `spx` | `prices-data-spx.js` | 1 | $1.00 |
+
+JS globals: `window.PRICES_DATA_GBPUSD`, `window.PRICES_DATA_XAUUSD`, `window.PRICES_DATA_SPX`
+
+## Economic Calendar
+
+`update_calendar.py` fetches the next 7 days of high-impact USD/GBP/EUR events from Twelve Data `/economic_calendar`. Runs in the `update-prices.yml` workflow after the price fetches. Writes `calendar-data.js` → `window.CALENDAR_DATA`. Dashboard shows a warning banner for same-day events and a collapsible events table.
+
+## Backtesting
+
+`Trading/backtest.py` fetches 730 daily candles (≈2yr) for GBP/USD, runs all 9 pattern detectors across the full history, and measures outcomes at 5/10/20 candle horizons. Results are written to `Trading/backtesting.md`. Run manually: `TWELVE_DATA_API_KEY=xxx python Trading/backtest.py`
+
 ## Pending Work
 
-See `Trading/FEATURES.md` for the full backlog. Planned next steps:
-- **Step 3**: Regime tag (Trending/Consolidating badge) + position size calculator widget
-- **Step 1+2**: Multi-asset pipeline (XAU/USD, SPX) with asset selector dropdown
-- **Step 4**: Economic calendar integration (Twelve Data `/economic_calendar` endpoint)
-- **Step 5**: Backtesting script — replay 2yr daily data through all 9 pattern detectors
+See `Trading/FEATURES.md` for the full backlog. The core 5-step roadmap is now complete:
+
+- ✅ **Step 1+2**: Multi-asset pipeline — XAU/USD + SPX500 added; asset selector pills in header
+- ✅ **Step 3**: Regime badge + position size calculator on dashboard
+- ✅ **Step 4**: Economic calendar — `update_calendar.py`, warning banner + events card on dashboard
+- ✅ **Step 5**: Backtesting script — `Trading/backtest.py` (2yr data, 9 patterns, 3 hold periods, regime matrix)
 
 ---
 

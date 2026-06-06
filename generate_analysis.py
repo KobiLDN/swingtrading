@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """
-GBP/USD AI Analysis Generator
-Reads prices-data.js, builds a prompt, calls OpenRouter (DeepSeek),
-writes analysis-data.js and last_analysis.md.
+Multi-Asset AI Analysis Generator
+Reads prices-{slug}.json, builds a prompt, calls OpenRouter (DeepSeek),
+writes analysis-data-{slug}.js and last_analysis-{slug}.md.
 
 Usage:
-    python generate_analysis.py
+    ASSET="GBP/USD"   python generate_analysis.py
+    ASSET="XAU/USD"   python generate_analysis.py
+    ASSET="SPX500USD" python generate_analysis.py
+    python generate_analysis.py   # defaults to GBP/USD
 
 Requires:
-    OPENROUTER_API_KEY environment variable (or in .env file)
-    prices.json must exist (run update_prices.py first)
+    OPENROUTER_API_KEY environment variable (or .env file)
+    ASSET environment variable (optional, default GBP/USD)
+    prices-{slug}.json must exist (run update_prices.py first)
     pip install requests python-dotenv
 """
 
@@ -32,12 +36,22 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf-8-s
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 
-API_KEY        = os.environ.get("OPENROUTER_API_KEY", "")
-MODEL          = "deepseek/deepseek-v4-flash"
-PRICES_JSON    = "prices.json"
-OUTPUT_JS      = "analysis-data.js"
-OUTPUT_MD      = "last_analysis.md"
-OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+ASSET_SLUGS = {
+    'GBP/USD':   'gbpusd',
+    'XAU/USD':   'xauusd',
+    'SPX500USD': 'spx',
+}
+
+API_KEY        = os.environ.get('OPENROUTER_API_KEY', '')
+MODEL          = 'deepseek/deepseek-v4-flash'
+OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
+
+SYMBOL = os.environ.get('ASSET', 'GBP/USD')
+SLUG   = ASSET_SLUGS.get(SYMBOL, SYMBOL.lower().replace('/', '').replace(' ', ''))
+
+PRICES_JSON = f'prices-{SLUG}.json'
+OUTPUT_JS   = f'analysis-data-{SLUG}.js'
+OUTPUT_MD   = f'last_analysis-{SLUG}.md'
 
 
 # ── Prompt builder ─────────────────────────────────────────────────────────────
@@ -57,13 +71,14 @@ def build_prompt(d):
         rsi_label = f"Neutral ({rsi_v})"
 
     macd_dir = "Bullish (line above signal)" if d['macd_line'] > d['macd_signal'] else "Bearish (line below signal)"
+    pip_label = d.get('pip_label', 'pips')
 
-    prompt = f"""You are a professional GBP/USD swing trader. Analyse the following pre-calculated technical indicators and provide a structured trading decision.
+    prompt = f"""You are a professional {d['symbol']} swing trader. Analyse the following pre-calculated technical indicators and provide a structured trading decision.
 
 ## Pre-calculated Indicators — {d['symbol']} Daily Chart ({d['date']})
 
 - Price: {d['price']}
-- ATR(14): {d['atr']} ({d['atr_pips']} pips)
+- ATR(14): {d['atr']} ({d['atr_pips']} {pip_label})
 - EMA 50: {d['ema50']}
 - EMA 200: {d['ema200']}
 - Trend: {d['trend']}
@@ -116,7 +131,7 @@ def call_openrouter(prompt):
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type":  "application/json",
         "HTTP-Referer":  "https://github.com/KobiLDN/swingtrading",
-        "X-Title":       "GBP/USD Swing Trading",
+        "X-Title":       "Swing Trading Dashboard",
     }
     body = {
         "model": MODEL,
@@ -125,7 +140,7 @@ def call_openrouter(prompt):
         "max_tokens":  1500,
     }
 
-    print(f"Calling OpenRouter ({MODEL}) ...")
+    print(f"Calling OpenRouter ({MODEL}) for {SYMBOL} ...")
     resp = requests.post(OPENROUTER_URL, headers=headers, json=body, timeout=120)
     if not resp.ok:
         print(f"  HTTP {resp.status_code}: {resp.text[:500]}")
@@ -145,10 +160,10 @@ def parse_response(text):
         m = re.search(rf'^{label}:\s*(.+)$', text, re.MULTILINE | re.IGNORECASE)
         return m.group(1).strip() if m else 'N/A'
 
-    analysis_m = re.search(r'ANALYSIS:\s*\n(.*?)(?=\nINVALIDATION:|\Z)', text, re.DOTALL | re.IGNORECASE)
-    analysis   = analysis_m.group(1).strip() if analysis_m else text
+    analysis_m   = re.search(r'ANALYSIS:\s*\n(.*?)(?=\nINVALIDATION:|\Z)', text, re.DOTALL | re.IGNORECASE)
+    analysis     = analysis_m.group(1).strip() if analysis_m else text
 
-    invalid_m  = re.search(r'INVALIDATION:\s*\n(.+)', text, re.DOTALL | re.IGNORECASE)
+    invalid_m    = re.search(r'INVALIDATION:\s*\n(.+)', text, re.DOTALL | re.IGNORECASE)
     invalidation = invalid_m.group(1).strip() if invalid_m else 'N/A'
 
     return {
@@ -173,6 +188,7 @@ def write_outputs(prices, parsed, generated_at):
         'generated':    generated_at,
         'model':        MODEL,
         'symbol':       prices['symbol'],
+        'slug':         SLUG,
         'date':         prices['date'],
         'decision':     parsed['decision'],
         'confidence':   parsed['confidence'],
@@ -186,10 +202,18 @@ def write_outputs(prices, parsed, generated_at):
         'invalidation': parsed['invalidation'],
     }
 
-    js = f"window.ANALYSIS_DATA = {json.dumps(payload, indent=2)};\n"
+    var_name = f'ANALYSIS_DATA_{SLUG.upper()}'
+    js = f"window.{var_name} = {json.dumps(payload, indent=2)};\n"
     with open(OUTPUT_JS, 'w', encoding='utf-8') as f:
         f.write(js)
-    print(f"  Written: {OUTPUT_JS}")
+    print(f"  Written: {OUTPUT_JS}  (window.{var_name})")
+
+    # Backward compat: GBP/USD also writes the legacy un-suffixed files
+    if SLUG == 'gbpusd':
+        compat_js = f"window.ANALYSIS_DATA = {json.dumps(payload, indent=2)};\n"
+        with open('analysis-data.js', 'w', encoding='utf-8') as f:
+            f.write(compat_js)
+        print("  Written: analysis-data.js  (backward compat)")
 
     # Markdown output
     md = f"""# Last AI Analysis — {prices['symbol']}
@@ -233,12 +257,18 @@ def write_outputs(prices, parsed, generated_at):
         f.write(md)
     print(f"  Written: {OUTPUT_MD}")
 
+    # Backward compat
+    if SLUG == 'gbpusd':
+        with open('last_analysis.md', 'w', encoding='utf-8') as f:
+            f.write(md)
+        print("  Written: last_analysis.md  (backward compat)")
+
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
     if not os.path.exists(PRICES_JSON):
-        print(f"ERROR: {PRICES_JSON} not found. Run update_prices.py first.")
+        print(f"ERROR: {PRICES_JSON} not found. Run: ASSET='{SYMBOL}' python update_prices.py")
         sys.exit(1)
 
     with open(PRICES_JSON, 'r', encoding='utf-8') as f:
@@ -251,12 +281,12 @@ def main():
 
     write_outputs(prices, parsed, generated)
 
-    print(f"\n  Decision:    {parsed['decision']}")
-    print(f"  Confidence:  {parsed['confidence']}")
-    print(f"  Entry:       {parsed['entry']}")
-    print(f"  Stop Loss:   {parsed['stop_loss']}")
-    print(f"  Target 1:    {parsed['target_1']}")
-    print(f"  R/R:         {parsed['risk_reward']}")
+    print(f"\n  {SYMBOL}  Decision:   {parsed['decision']}")
+    print(f"  Confidence: {parsed['confidence']}")
+    print(f"  Entry:      {parsed['entry']}")
+    print(f"  Stop Loss:  {parsed['stop_loss']}")
+    print(f"  Target 1:   {parsed['target_1']}")
+    print(f"  R/R:        {parsed['risk_reward']}")
     print("\nDone.")
 
 

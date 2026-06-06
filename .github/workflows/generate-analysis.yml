@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Pull latest so we get the prices-data.js just committed by update-prices
+          # Pull latest so we get the prices files just committed by update-prices
           ref: main
 
       - name: Set up Python
@@ -26,15 +26,28 @@ jobs:
       - name: Install dependencies
         run: pip install requests python-dotenv
 
-      - name: Run analysis generator
+      - name: Analyse GBP/USD
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ASSET: "GBP/USD"
         run: python generate_analysis.py
+
+      - name: Analyse XAU/USD
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ASSET: "XAU/USD"
+        run: python generate_analysis.py || echo "XAU/USD analysis failed — skipping"
+
+      - name: Analyse SPX
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ASSET: "SPX500USD"
+        run: python generate_analysis.py || echo "SPX analysis failed — skipping"
 
       - name: Commit analysis output
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add analysis-data.js last_analysis.md
+          git add analysis-data*.js last_analysis*.md
           git diff --cached --quiet || git commit -m "Update AI analysis — $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push origin main
