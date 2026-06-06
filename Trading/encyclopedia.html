@@ -528,6 +528,11 @@
     <a class="nav-pill" href="#chart-patterns"><span class="nav-num">2</span> Chart Patterns</a>
     <a class="nav-pill" href="#support-resistance"><span class="nav-num">3</span> S &amp; R</a>
     <a class="nav-pill" href="#momentum"><span class="nav-num">4</span> Momentum</a>
+    <a class="nav-sub" href="#ind-rsi">RSI (14)</a>
+    <a class="nav-sub" href="#ind-macd">MACD (12,26,9)</a>
+    <a class="nav-sub" href="#ind-ema">EMA 50 / 200</a>
+    <a class="nav-sub" href="#ind-atr">ATR (14)</a>
+    <a class="nav-sub" href="#ind-avwap">AVWAP</a>
     <a class="nav-pill" href="#volume"><span class="nav-num">5</span> Volume</a>
     <a class="nav-pill" href="#gbpusd"><span class="nav-num">6</span> GBP/USD</a>
     <a class="nav-pill" href="#scoring"><span class="nav-num">7</span> Scoring</a>
@@ -663,7 +668,7 @@
     </div>
     <div class="section-body">
 
-      <div class="sub-heading">RSI — Relative Strength Index (14-period)</div>
+      <div class="sub-heading" id="ind-rsi">RSI — Relative Strength Index (14-period)</div>
       <p style="font-size:11px;color:var(--yellow);margin-bottom:10px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Confirms moves that have already started — best used as confirmation, not as the trigger</p>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">RSI measures the speed and size of recent price moves on a 0–100 scale. It answers: <em>has price moved too far too fast in one direction?</em> Most useful as a <strong style="color:var(--text)">confirmation tool</strong> — a pattern at a key S/R level with RSI confirming is significantly stronger than either alone.</p>
       <div class="table-wrap">
@@ -681,7 +686,7 @@
         <li class="div-item bull-div"><span class="div-label badge bull" style="flex-shrink:0">Bullish Div</span><span>Price makes <strong>lower low</strong>, RSI makes <strong>higher low</strong> → BUY signal</span></li>
       </ul>
 
-      <div class="sub-heading">MACD — (12, 26, 9)</div>
+      <div class="sub-heading" id="ind-macd">MACD — (12, 26, 9)</div>
       <p style="font-size:11px;color:var(--yellow);margin-bottom:10px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Double-lagged (EMA of EMA) — signal can come well after the optimal entry</p>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">MACD measures the relationship between two EMAs. <strong style="color:var(--text)">MACD line</strong> = EMA(12) − EMA(26); <strong style="color:var(--text)">Signal line</strong> = 9-period EMA of MACD line; <strong style="color:var(--text)">Histogram</strong> = MACD − Signal. Bars growing = momentum building; shrinking = fading.</p>
       <div class="table-wrap">
@@ -697,7 +702,7 @@
         </table>
       </div>
 
-      <div class="sub-heading">Moving Averages — EMA 50 &amp; EMA 200</div>
+      <div class="sub-heading" id="ind-ema">Moving Averages — EMA 50 &amp; EMA 200</div>
       <p style="font-size:11px;color:var(--yellow);margin-bottom:14px;display:flex;align-items:center;gap:6px"><span style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.3);border-radius:4px;padding:2px 7px;font-weight:600;font-family:var(--mono);letter-spacing:.5px">LAGGING</span> Trend direction confirmed after price has already moved — use for bias and context, not for precise entry timing</p>
 
       <p style="font-size:13px;color:var(--muted);margin-bottom:14px;line-height:1.7"><strong style="color:var(--text)">What is a moving average?</strong><br>
@@ -763,10 +768,10 @@
         </table>
       </div>
 
-      <div class="sub-heading">ATR — Average True Range (14-period)</div>
+      <div class="sub-heading" id="ind-atr">ATR — Average True Range (14-period)</div>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">ATR measures volatility — the average size of a daily candle over the last 14 days. On GBP/USD daily, ATR is typically 70–120 pips. Use it to size stops: a stop of 1× ATR gives the trade room to breathe through normal daily fluctuation without being stopped out by noise.</p>
 
-      <div class="sub-heading">VWAP — Anchored (AVWAP)</div>
+      <div class="sub-heading" id="ind-avwap">VWAP — Anchored (AVWAP)</div>
       <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.7">Standard VWAP resets each session — useless on daily swing charts. <strong style="color:var(--text)">Anchored VWAP (AVWAP)</strong> is anchored to a key swing high or low and shows the average price paid by participants since that event. It acts as a dynamic S/R level. <span style="color:var(--green);font-weight:600">Leading/Dynamic</span> — unlike EMAs, it responds to volume, not just price.</p>
       <div class="table-wrap">
         <table>
@@ -1591,11 +1596,14 @@ function toggleTheme() {
 }
 
 (function(){
-  var ids = ['candlestick','chart-patterns','support-resistance','momentum','volume','gbpusd','scoring','pseudocode','reading','books-part1','books-part2','books-part3','books-part4','regime','risk','loss-recovery','pos-sizing','efficiency','quotes'];
+  var ids = ['candlestick','chart-patterns','support-resistance','momentum','ind-rsi','ind-macd','ind-ema','ind-atr','ind-avwap','volume','gbpusd','scoring','pseudocode','reading','books-part1','books-part2','books-part3','books-part4','regime','risk','loss-recovery','pos-sizing','efficiency','quotes'];
   var links = document.querySelectorAll('#sidebarNav a');
 
   // Sub-items → their parent section id
-  var parentMap = { 'books-part1': 'reading', 'books-part2': 'reading', 'books-part3': 'reading', 'books-part4': 'reading' };
+  var parentMap = {
+    'books-part1': 'reading', 'books-part2': 'reading', 'books-part3': 'reading', 'books-part4': 'reading',
+    'ind-rsi': 'momentum', 'ind-macd': 'momentum', 'ind-ema': 'momentum', 'ind-atr': 'momentum', 'ind-avwap': 'momentum'
+  };
 
   function setActive(id) {
     links.forEach(function(a) {
