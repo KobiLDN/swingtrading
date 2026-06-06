@@ -7,6 +7,7 @@
 <title>Encyclopedia — GBP/USD Swing Trading</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles/site.css">
 
 <script>
   (function(){
@@ -54,43 +55,7 @@
     line-height: 1.6;
   }
 
-  /* ── Header ── */
-  header {
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 0 24px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .header-inner {
-    max-width: 1160px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 58px;
-    gap: 16px;
-  }
-  .header-brand { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
-  .header-label { font-family: var(--mono); font-size: 9px; color: var(--accent); letter-spacing: 2px; text-transform: uppercase; white-space: nowrap; }
   h1 { font-size: 18px; font-weight: 700; }
-  .site-nav { display: flex; align-items: center; gap: 2px; }
-  .site-nav-link { font-size: 12px; font-weight: 500; color: var(--muted); padding: 5px 10px; border-radius: var(--radius); border: 1px solid transparent; text-decoration: none; transition: color .15s, background .15s, border-color .15s; white-space: nowrap; }
-  .site-nav-link:hover { color: var(--text); background: var(--surface2); border-color: var(--border); text-decoration: none; }
-  .site-nav-link.active { color: var(--accent); background: rgba(0,212,255,.07); border-color: rgba(0,212,255,.25); }
-  .header-controls { display: flex; align-items: center; gap: 10px; }
-  .theme-btn {
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 5px 10px;
-    border-radius: var(--radius);
-    cursor: pointer;
-    font-size: 12px;
-    transition: border-color .15s;
-  }
-  .theme-btn:hover { border-color: var(--accent); }
 
   /* ── Layout ── */
   .page-body {

@@ -1,0 +1,87 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   site.css — Shared header + navigation styles
+   Linked from every page. CSS custom properties (--var) are defined
+   per-page in each <style> block's :root since token values are the same.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Header shell ── */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 58px;
+}
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+.header-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--accent);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* ── Site navigation ── */
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.site-nav-link {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  padding: 5px 10px;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  text-decoration: none;
+  transition: color .15s, background .15s, border-color .15s;
+  white-space: nowrap;
+}
+.site-nav-link:hover {
+  color: var(--text);
+  background: var(--surface2);
+  border-color: var(--border);
+  text-decoration: none;
+}
+.site-nav-link.active {
+  color: var(--accent);
+  background: rgba(0,212,255,.07);
+  border-color: rgba(0,212,255,.25);
+}
+
+/* ── Header controls (right side) ── */
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.theme-btn {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 5px 12px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 12px;
+  transition: border-color .15s;
+}
+.theme-btn:hover {
+  border-color: var(--accent);
+}

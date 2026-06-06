@@ -6,6 +6,7 @@
 <title>Legendary Traders — GBP/USD Swing Trading</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles/site.css">
 <script>
   (function(){ var t=localStorage.getItem('theme')||'dark'; document.documentElement.setAttribute('data-theme',t); })();
 </script>
@@ -43,32 +44,94 @@
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
 
-  /* Header */
-  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 24px; position: sticky; top: 0; z-index: 100; }
-  .header-inner { max-width: var(--max-w); margin: 0 auto; display: flex; align-items: center; gap: 16px; height: 58px; }
-  .header-brand { display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0; }
-  .header-label { font-family: var(--mono); font-size: 9px; color: var(--accent); letter-spacing: 2px; text-transform: uppercase; white-space: nowrap; }
-  .site-nav { display: flex; align-items: center; gap: 2px; }
-  .site-nav-link { font-size: 12px; font-weight: 500; color: var(--muted); padding: 5px 10px; border-radius: var(--radius); border: 1px solid transparent; text-decoration: none; transition: color .15s, background .15s, border-color .15s; white-space: nowrap; }
-  .site-nav-link:hover { color: var(--text); background: var(--surface2); border-color: var(--border); text-decoration: none; }
-  .site-nav-link.active { color: var(--accent); background: rgba(0,212,255,.07); border-color: rgba(0,212,255,.25); }
-  .header-controls { display: flex; align-items: center; gap: 10px; }
-  .theme-btn { background: var(--surface2); border: 1px solid var(--border); color: var(--text); padding: 5px 12px; border-radius: var(--radius); cursor: pointer; font-size: 12px; }
-  .theme-btn:hover { border-color: var(--accent); }
 
-  /* Hero */
-  .hero { max-width: var(--max-w); margin: 0 auto; padding: 36px 24px 20px; }
+  /* ── Page layout ── */
+  .page-body { display: flex; max-width: 1160px; margin: 0 auto; }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    width: 188px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 58px;
+    height: calc(100vh - 58px);
+    overflow-y: auto;
+    padding: 20px 0 24px 16px;
+    border-right: 1px solid var(--border);
+  }
+  .sidebar-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    padding-left: 4px;
+  }
+  .sidebar-nav { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-category {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 10px 10px 3px;
+    opacity: 0.55;
+  }
+  .nav-pill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--muted);
+    padding: 6px 10px;
+    border-radius: var(--radius);
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: color .15s, background .15s, border-color .15s;
+    white-space: nowrap;
+  }
+  .nav-pill:hover { color: var(--text); background: var(--surface2); border-color: var(--border); text-decoration: none; }
+  .nav-pill.active { color: var(--accent); background: rgba(0,212,255,.07); border-color: rgba(0,212,255,.25); }
+  .nav-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .back-top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-family: var(--mono);
+    color: var(--muted);
+    padding: 5px 10px;
+    margin: 0 4px 10px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--surface2);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color .15s, border-color .15s;
+  }
+  .back-top:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+  .wiki-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    color: var(--muted);
+    text-decoration: none;
+    margin-top: 7px;
+    transition: color .15s;
+  }
+  .wiki-link:hover { color: var(--accent); text-decoration: none; }
+  .wiki-link::after { content: '↗'; font-size: 10px; }
+
+  /* ── Hero ── */
+  .hero { max-width: 1160px; margin: 0 auto; padding: 36px 24px 20px; }
   .hero h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 6px; }
   .hero p { font-size: 13px; color: var(--muted); line-height: 1.7; max-width: 600px; }
 
-  /* Quick jump */
-  .jump-grid { max-width: var(--max-w); margin: 0 auto; padding: 0 24px 28px; display: flex; flex-wrap: wrap; gap: 8px; }
-  .jump-chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; padding: 6px 14px; border-radius: 20px; background: var(--surface); border: 1px solid var(--border); color: var(--muted); text-decoration: none; transition: all .15s; }
-  .jump-chip:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; background: rgba(0,212,255,.06); }
-  .jump-chip .chip-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
-
-  /* Main */
-  .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px 48px; display: flex; flex-direction: column; gap: 24px; }
+  /* ── Main content ── */
+  .container { flex: 1; min-width: 0; padding: 24px 28px 48px; display: flex; flex-direction: column; gap: 24px; }
 
   /* Trader card */
   .trader-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
@@ -135,13 +198,16 @@
   .learn-note { font-size: 12px; color: var(--muted); line-height: 1.6; background: var(--surface2); border-radius: var(--radius); padding: 10px 12px; border-left: 3px solid var(--green); }
 
   /* Divider */
-  .archetype-head { max-width: var(--max-w); margin: 0 auto; padding: 8px 24px 4px; display: flex; align-items: center; gap: 12px; }
+  .archetype-head { padding: 8px 0 4px; display: flex; align-items: center; gap: 12px; }
   .archetype-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
   .archetype-line { flex: 1; height: 1px; background: var(--border); }
 
   footer { text-align: center; padding: 24px; font-size: 10px; color: var(--muted); border-top: 1px solid var(--border); margin-top: 24px; }
 
-  @media (max-width: 680px) {
+  @media (max-width: 780px) {
+    .sidebar { display: none; }
+    .page-body { display: block; }
+    .container { padding: 16px 12px 48px; }
     .card-body { grid-template-columns: 1fr; }
     .card-col + .card-col { border-left: none; border-top: 1px solid var(--border); }
     .return-stats { justify-content: flex-start; }
@@ -172,20 +238,31 @@
   <p>10 profiles — quant pioneers, macro legends, technical masters, and value investors. What each traded, how they performed, and what to take from them for swing trading GBP/USD.</p>
 </div>
 
-<div class="jump-grid">
-  <a class="jump-chip" href="#simons"><span class="chip-dot" style="background:var(--accent)"></span>Jim Simons</a>
-  <a class="jump-chip" href="#soros"><span class="chip-dot" style="background:var(--yellow)"></span>George Soros</a>
-  <a class="jump-chip" href="#tudor"><span class="chip-dot" style="background:var(--yellow)"></span>Paul Tudor Jones</a>
-  <a class="jump-chip" href="#druck"><span class="chip-dot" style="background:var(--yellow)"></span>Stanley Druckenmiller</a>
-  <a class="jump-chip" href="#livermore"><span class="chip-dot" style="background:var(--green)"></span>Jesse Livermore</a>
-  <a class="jump-chip" href="#darvas"><span class="chip-dot" style="background:var(--green)"></span>Nicolas Darvas</a>
-  <a class="jump-chip" href="#buffett"><span class="chip-dot" style="background:var(--orange)"></span>Warren Buffett</a>
-  <a class="jump-chip" href="#seykota"><span class="chip-dot" style="background:var(--purple)"></span>Ed Seykota</a>
-  <a class="jump-chip" href="#minervini"><span class="chip-dot" style="background:var(--green)"></span>Mark Minervini</a>
-  <a class="jump-chip" href="#oneil"><span class="chip-dot" style="background:var(--green)"></span>William O'Neil</a>
-</div>
+<div class="page-body">
 
-<div class="container">
+<aside class="sidebar">
+  <div class="sidebar-label">Traders</div>
+  <a class="back-top" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">↑ Back to top</a>
+  <nav class="sidebar-nav" id="sidebarNav">
+    <div class="sidebar-category">Quant</div>
+    <a class="nav-pill" href="#simons"><span class="nav-dot" style="background:var(--accent)"></span>Jim Simons</a>
+    <div class="sidebar-category">Macro</div>
+    <a class="nav-pill" href="#soros"><span class="nav-dot" style="background:var(--yellow)"></span>George Soros</a>
+    <a class="nav-pill" href="#tudor"><span class="nav-dot" style="background:var(--yellow)"></span>Paul Tudor Jones</a>
+    <a class="nav-pill" href="#druck"><span class="nav-dot" style="background:var(--yellow)"></span>S. Druckenmiller</a>
+    <div class="sidebar-category">Technical</div>
+    <a class="nav-pill" href="#livermore"><span class="nav-dot" style="background:var(--green)"></span>Jesse Livermore</a>
+    <a class="nav-pill" href="#darvas"><span class="nav-dot" style="background:var(--green)"></span>Nicolas Darvas</a>
+    <a class="nav-pill" href="#minervini"><span class="nav-dot" style="background:var(--green)"></span>Mark Minervini</a>
+    <a class="nav-pill" href="#oneil"><span class="nav-dot" style="background:var(--green)"></span>William O'Neil</a>
+    <div class="sidebar-category">Value</div>
+    <a class="nav-pill" href="#buffett"><span class="nav-dot" style="background:var(--orange)"></span>Warren Buffett</a>
+    <div class="sidebar-category">Trend</div>
+    <a class="nav-pill" href="#seykota"><span class="nav-dot" style="background:var(--purple)"></span>Ed Seykota</a>
+  </nav>
+</aside>
+
+<main class="container">
 
   <!-- ── QUANT ── -->
   <div class="archetype-head"><span class="archetype-label">Quant Pioneer</span><span class="archetype-line"></span></div>
@@ -200,6 +277,7 @@
           <span class="tag tag-quant">Quant Pioneer</span>
           <span class="tag tag-macro">Maths / Physics</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Jim_Simons" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--accent)">66%</div><div class="stat-label">Gross annual<br>since 1988</div></div>
@@ -272,6 +350,7 @@
           <span class="tag tag-macro">Macro Legend</span>
           <span class="tag tag-macro">GBP/USD Direct</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/George_Soros" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">20%</div><div class="stat-label">Avg annual<br>over 40 years</div></div>
@@ -326,6 +405,7 @@
           <span class="tag tag-macro">Macro Trader</span>
           <span class="tag tag-tech">Technical / Contrarian</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Paul_Tudor_Jones" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">~24%</div><div class="stat-label">Annual avg<br>since 1980</div></div>
@@ -375,6 +455,7 @@
         <div class="tag-row">
           <span class="tag tag-macro">Macro Legend</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Stanley_Druckenmiller" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">30%</div><div class="stat-label">Avg annual<br>Duquesne 30yr</div></div>
@@ -427,6 +508,7 @@
           <span class="tag tag-tech">Technical Legend</span>
           <span class="tag tag-psych">Psychology</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Jesse_Livermore" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--green)">$100M</div><div class="stat-label">1929 short<br>(~$1.5B today)</div></div>
@@ -475,6 +557,7 @@
           <span class="tag tag-tech">Technical / Momentum</span>
           <span class="tag tag-swing">Swing</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Nicolas_Darvas" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--green)">$2.25M</div><div class="stat-label">From $25K<br>in 18 months</div></div>
@@ -525,6 +608,7 @@
           <span class="tag tag-tech">Momentum / Swing</span>
           <span class="tag tag-swing">SEPA Method</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Mark_Minervini" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--green)">155%</div><div class="stat-label">US Investing<br>Championship 1997</div></div>
@@ -574,6 +658,7 @@
           <span class="tag tag-tech">Momentum / Growth</span>
           <span class="tag tag-swing">CAN SLIM</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/William_O%27Neil" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--green)">~40%</div><div class="stat-label">Avg annual<br>William O'Neil &amp; Co</div></div>
@@ -624,6 +709,7 @@
           <span class="tag tag-value">Value Investor</span>
           <span class="tag tag-value">Long-Term</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Warren_Buffett" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--orange)">~20%</div><div class="stat-label">Annual avg<br>since 1965</div></div>
@@ -677,6 +763,7 @@
           <span class="tag tag-trend">Trend Following</span>
           <span class="tag tag-trend">Systematic</span>
         </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Ed_Seykota" target="_blank" rel="noopener">Wikipedia</a>
       </div>
       <div class="return-stats">
         <div class="stat-box"><div class="stat-num" style="color:var(--purple)">250,000%</div><div class="stat-label">From $5K to<br>$15M+ over 12yr</div></div>
@@ -715,7 +802,9 @@
     </div>
   </div>
 
-</div><!-- /container -->
+</main>
+
+</div><!-- /page-body -->
 
 <footer>
   For educational purposes only. Not financial advice.
@@ -730,6 +819,34 @@ function toggleTheme() {
   document.documentElement.setAttribute('data-theme', t);
   localStorage.setItem('theme', t);
 }
+
+// ── Scroll spy — highlight active trader in sidebar ──
+(function() {
+  var ids = ['simons','soros','tudor','druck','livermore','darvas','minervini','oneil','buffett','seykota'];
+  var pills = {};
+  ids.forEach(function(id) {
+    var el = document.querySelector('a[href="#' + id + '"]');
+    if (el) pills[id] = el;
+  });
+
+  // Mark first one active on load
+  if (pills['simons']) pills['simons'].classList.add('active');
+
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        Object.values(pills).forEach(function(p) { p.classList.remove('active'); });
+        var p = pills[e.target.id];
+        if (p) p.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-10% 0px -75% 0px' });
+
+  ids.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) obs.observe(el);
+  });
+})();
 </script>
 </body>
 </html>
