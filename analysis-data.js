@@ -1,16 +1,17 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-06-05T10:10:25Z",
+  "generated": "2026-06-06T15:26:55Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
-  "date": "2026-06-05",
-  "decision": "BUY",
+  "slug": "gbpusd",
+  "date": "2026-06-06",
+  "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "1.34631",
-  "stop_loss": "1.34046",
-  "target_1": "1.35216",
-  "target_2": "1.35800",
-  "risk_reward": "1:1.37 (to T1)",
-  "score": "6/10",
-  "analysis": "The trend structure remains strongly bullish. Price is holding above both the EMA 50 (1.34589) and EMA 200 (1.34122), with the faster EMA well above the slower EMA\u2014confirming an intact uptrend. The proximity of current price (1.34631) to the EMA 50 suggests a short-term consolidation within the uptrend, not a reversal. The morning star candlestick pattern (the most recent of the five candles listed) indicates a bullish reversal after the prior bearish engulfing and doji, aligning with a potential resumption of buying pressure.\n\nNo obvious classic chart patterns (triangles, flags, double tops/bottoms) are present on the daily timeframe at this exact level. However, the price action near the EMA 50 and the recent candlestick sequence suggests a potential \"bull flag\" or continuation pattern forming, where price is coiling after a strong upward move. Key support is the EMA 50 at 1.34589, with stronger support at the EMA 200 (1.34122). Immediate resistance is the recent swing high near 1.3520\u20131.3530, followed by the psychological 1.3600 level.\n\nRSI at 51.06 is neutral, not overbought, leaving room for further upside. The MACD is bullish (line above signal) with a positive histogram, confirming upward momentum. There is no RSI divergence to warn of a trend reversal. The confluence of a bullish MACD, a bullish morning star, and price above the EMA 50 supports a buy bias, despite the relatively low signal score of 4/10 (which I revise upward to 6/10 based on the favorable structure and pattern set).\n\nThe risk assessment is moderate. The ATR of 58 pips suggests average daily volatility. The stop loss is placed 58.5 pips below entry (1.34631 - 0.00585 = 1.34046), just below the EMA 200 support, to allow for normal intraday noise while protecting against a trend break. The target is set at 1.35216 (1.34631 + 0.00585) for T1, capturing a 1:1 risk-reward based on ATR. T2 at 1.35800 targets the next resistance zone and provides an extended reward. The primary risk is a false breakout or a quick reversal below the EMA 50, which would invalidate the setup.",
-  "invalidation": "A daily close below the EMA 50 at 1.34589 and especially below the EMA 200 at 1.34122 would cancel this bullish setup and signal a trend change to neutral or bearish."
+  "entry": "1.33404",
+  "stop_loss": "1.34200",
+  "target_1": "1.32600",
+  "target_2": "1.32000",
+  "risk_reward": "1:1.16 (based on T1) / 1:1.75 (based on T2)",
+  "score": "4/10 confirmed",
+  "analysis": "The daily chart shows price at 1.33404, trading firmly below both the EMA50 (1.34496) and EMA200 (1.34083). Despite the stated \u201cBULLISH BIAS\u201d from the EMA alignment (EMA50 above EMA200), price action has broken below both moving averages, confirming a short-term bearish reversal. The recent candlestick patterns\u2014two Bearish Engulfing candles and an Inverted Hammer\u2014reinforce selling pressure, while the Doji suggests indecision that could precede further downside. The price is now testing the lower boundary of a potential descending channel or flag, with the EMA200 acting as immediate resistance.\n\nRSI at 36.53 is in neutral territory but trending lower, not yet oversold, leaving room for additional bearish momentum. The MACD is clearly bearish, with the line below the signal line and a negative histogram that is deepening. Both RSI and MACD concur with the bearish price action, providing confluence for a sell bias. No RSI divergence exists, so the move is trend-driven rather than a reversal setup.\n\nKey support levels are the psychological 1.3300 round number and the prior swing low near 1.3260 (likely a weekly support). Resistance is clustered at the EMA200 (1.3408) and EMA50 (1.3450), with additional supply from the Bearish Engulfing high around 1.3380. The ATR of 64 pips suggests a reasonable stop placement above this resistance zone, while targets align with the next demand area.\n\nThe single best trade is a short entry at current price, aiming to capture continued weakness toward 1.3260 and potentially 1.3200 if momentum accelerates. Risk management is critical, as the long-term EMA structure remains bullish, meaning this could be a pullback within an uptrend. The 4/10 score reflects the conflicting longer-term bias and neutral RSI, but the short-term technicals are decisively bearish.",
+  "invalidation": "A daily close above 1.34200 (above EMA200 and the recent bearish engulfing high) would cancel the bearish setup, suggesting the pullback is over and the bullish trend has resumed."
 };
