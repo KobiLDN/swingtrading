@@ -2,18 +2,18 @@
 
 **Live site → [KobiLDN.github.io/swingtrading](https://KobiLDN.github.io/swingtrading)**
 
-A GBP/USD swing trading knowledge base and AI-powered analysis dashboard. Daily OHLC data is fetched automatically, all technical indicators are calculated, and DeepSeek AI generates a structured BUY / SELL / WAIT decision — updated every weekday morning.
+A multi-asset swing trading knowledge base and AI-powered analysis dashboard covering GBP/USD, XAU/USD, and SPX (via SPY). Daily OHLC data is fetched automatically, all technical indicators are calculated, and DeepSeek AI generates a structured BUY / SELL / WAIT decision — updated every weekday morning.
 
 ---
 
 ## What it does
 
-- Fetches 200 daily candles from Twelve Data every weekday at 06:00 UTC
-- Calculates RSI(14), MACD(12,26,9), EMA(50/200), ATR(14)
+- Fetches 200 daily candles for GBP/USD, XAU/USD, and SPX (SPY) from Twelve Data every weekday at 06:00 UTC
+- Calculates RSI(14), MACD(12,26,9), EMA(50/200), ATR(14) per asset
 - Detects 9 candlestick patterns on the last 5 candles
 - Scores the setup 0–10 using confluence rules from the encyclopedia
-- Calls OpenRouter (DeepSeek) at 06:10 UTC for a structured AI analysis
-- Commits `prices-data.js` + `analysis-data.js` to the repo
+- Calls OpenRouter (DeepSeek) at 06:10 UTC for a structured AI analysis per asset
+- Commits `prices-data-{slug}.js` + `analysis-data-{slug}.js` to the repo
 - GitHub Pages serves the live dashboard automatically
 
 ---
@@ -22,28 +22,35 @@ A GBP/USD swing trading knowledge base and AI-powered analysis dashboard. Daily 
 
 ```
 swingtrading/
-├── index.html               ← live dashboard (GitHub Pages)
-├── prices-data.js           ← auto-generated daily by update_prices.py
-├── analysis-data.js         ← auto-generated daily by generate_analysis.py
-├── prices.json              ← raw data backup
-├── last_analysis.md         ← latest AI analysis in markdown
-├── update_prices.py         ← fetches OHLC + calculates indicators
-├── generate_analysis.py     ← calls OpenRouter, writes analysis output
-├── requirements.txt         ← pandas, numpy, requests, python-dotenv
+├── index.html                    ← live dashboard (GitHub Pages)
+├── styles/
+│   └── site.css                  ← shared header/nav CSS (all pages link here)
+├── prices-data-gbpusd.js         ← auto-generated daily
+├── prices-data-xauusd.js         ← auto-generated daily
+├── prices-data-spx.js            ← auto-generated daily (SPY as SPX proxy)
+├── analysis-data-gbpusd.js       ← auto-generated daily
+├── analysis-data-xauusd.js       ← auto-generated daily
+├── analysis-data-spx.js          ← auto-generated daily
+├── last_analysis.md              ← latest AI analysis in markdown
+├── update_prices.py              ← fetches OHLC + calculates indicators
+├── generate_analysis.py          ← calls OpenRouter, writes analysis output
+├── requirements.txt              ← pandas, numpy, requests, python-dotenv
 ├── .github/workflows/
-│   ├── update-prices.yml    ← runs daily Mon–Fri 06:00 UTC
-│   └── generate-analysis.yml← runs daily Mon–Fri 06:10 UTC
-└── Trading/                 ← knowledge base (markdown reference)
-    ├── AGENTS.md            ← full project guide (read first)
-    ├── CHANGELOG.md         ← all changes, newest first
-    ├── FEATURES.md          ← backlog + done
-    ├── index.md             ← manual dashboard + AI prompt template
-    ├── encyclopedia.md      ← pattern detection rules (AI's ground truth)
-    ├── prompt_template.md   ← 3 prompt variants (quick / full / entry-exit)
-    ├── trade_log.md         ← live trade tracking
-    ├── ohlc_calculator.py   ← local calculator (no API key needed)
-    ├── ohlc_data.json       ← sample OHLC data
-    └── run_calculator.bat   ← double-click runner (Windows)
+│   ├── update-prices.yml         ← runs daily Mon–Fri 06:00 UTC
+│   └── generate-analysis.yml     ← runs daily Mon–Fri 06:10 UTC
+└── Trading/                      ← knowledge base + HTML pages
+    ├── encyclopedia.html         ← pattern recognition guide (live HTML)
+    ├── traders.html              ← 10 legendary trader profiles (live HTML)
+    ├── AGENTS.md                 ← full project guide (read first)
+    ├── CHANGELOG.md              ← all changes, newest first
+    ├── FEATURES.md               ← backlog + done
+    ├── index.md                  ← manual dashboard + AI prompt template
+    ├── encyclopedia.md           ← pattern detection rules (source of truth)
+    ├── prompt_template.md        ← 3 prompt variants (quick / full / entry-exit)
+    ├── trade_log.md              ← live trade tracking
+    ├── ohlc_calculator.py        ← local calculator (no API key needed)
+    ├── ohlc_data.json            ← sample OHLC data
+    └── run_calculator.bat        ← double-click runner (Windows)
 ```
 
 ---
