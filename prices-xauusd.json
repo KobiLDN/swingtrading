@@ -1,4 +1,4 @@
-window.PRICES_DATA_XAUUSD = {
+{
   "symbol": "XAU/USD",
   "slug": "xauusd",
   "generated": "2026-06-06T11:20:12Z",
@@ -723,4 +723,4 @@ window.PRICES_DATA_XAUUSD = {
       "close": 4330.18
     }
   ]
-};
+}

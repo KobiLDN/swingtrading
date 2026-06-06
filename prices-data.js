@@ -1,25 +1,24 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
-  "generated": "2026-06-05T09:31:08Z",
-  "date": "2026-06-05",
-  "price": 1.34631,
-  "atr": 0.00585,
-  "atr_pips": 58,
-  "ema50": 1.34589,
-  "ema200": 1.34122,
-  "rsi": 51.06,
-  "macd_line": -0.000816,
-  "macd_signal": -0.001063,
-  "macd_hist": 0.000247,
-  "trend": "STRONG UPTREND",
+  "slug": "gbpusd",
+  "generated": "2026-06-06T11:20:11Z",
+  "date": "2026-06-06",
+  "price": 1.33409,
+  "atr": 0.00637,
+  "atr_pips": 64,
+  "pip_label": "pips",
+  "pip_mult": 10000,
+  "pip_value": 0.0001,
+  "decimals": 5,
+  "ema50": 1.34496,
+  "ema200": 1.34083,
+  "rsi": 36.61,
+  "macd_line": -0.002359,
+  "macd_signal": -0.001479,
+  "macd_hist": -0.00088,
+  "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-06-01",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-06-03",
       "name": "Bearish Engulfing",
@@ -34,21 +33,14 @@ window.PRICES_DATA = {
     },
     {
       "date": "2026-06-05",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
+      "name": "Bearish Engulfing",
+      "signal": "STRONG BEARISH",
+      "strength": 4
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-02-26",
-      "open": 1.35516,
-      "high": 1.35747,
-      "low": 1.3447,
-      "close": 1.34881
-    },
     {
       "date": "2026-02-27",
       "open": 1.34881,
@@ -738,9 +730,16 @@ window.PRICES_DATA = {
     {
       "date": "2026-06-05",
       "open": 1.34242,
-      "high": 1.34675,
-      "low": 1.34169,
-      "close": 1.34631
+      "high": 1.34838,
+      "low": 1.33313,
+      "close": 1.33401
+    },
+    {
+      "date": "2026-06-06",
+      "open": 1.33388,
+      "high": 1.33674,
+      "low": 1.3331,
+      "close": 1.33409
     }
   ]
 };
