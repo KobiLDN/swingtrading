@@ -290,14 +290,11 @@ def write_outputs(prices, parsed, generated_at):
 
     # ── Sims topic file ───────────────────────────────────────────────────────
     sims_topic = build_sims_topic(prices, parsed)
-    sims_file = f'sims_topic-{SLUG}.txt'
+    os.makedirs('sims', exist_ok=True)
+    sims_file = f'sims/topic-{SLUG}.txt'
     with open(sims_file, 'w', encoding='utf-8') as f:
         f.write(sims_topic)
     print(f"  Written: {sims_file}")
-    if SLUG == 'gbpusd':
-        with open('sims_topic.txt', 'w', encoding='utf-8') as f:
-            f.write(sims_topic)
-        print("  Written: sims_topic.txt  (backward compat)")
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
