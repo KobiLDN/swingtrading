@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-06-06
-**Generated:** 2026-06-06T15:26:55Z
+**Date:** 2026-06-07
+**Generated:** 2026-06-07T20:49:38Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,24 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.33404 |
+| **Entry** | 1.33315 |
 | **Stop Loss** | 1.34200 |
-| **Target 1** | 1.32600 |
-| **Target 2** | 1.32000 |
-| **Risk/Reward** | 1:1.16 (based on T1) / 1:1.75 (based on T2) |
-| **Score** | 4/10 confirmed |
+| **Target 1** | 1.32500 |
+| **Target 2** | 1.31800 |
+| **Risk/Reward** | 1:1.71 (based on T2) |
+| **Score** | 4/10 (confirmed) |
 
 ---
 
 ## Analysis
 
-The daily chart shows price at 1.33404, trading firmly below both the EMA50 (1.34496) and EMA200 (1.34083). Despite the stated “BULLISH BIAS” from the EMA alignment (EMA50 above EMA200), price action has broken below both moving averages, confirming a short-term bearish reversal. The recent candlestick patterns—two Bearish Engulfing candles and an Inverted Hammer—reinforce selling pressure, while the Doji suggests indecision that could precede further downside. The price is now testing the lower boundary of a potential descending channel or flag, with the EMA200 acting as immediate resistance.
-
-RSI at 36.53 is in neutral territory but trending lower, not yet oversold, leaving room for additional bearish momentum. The MACD is clearly bearish, with the line below the signal line and a negative histogram that is deepening. Both RSI and MACD concur with the bearish price action, providing confluence for a sell bias. No RSI divergence exists, so the move is trend-driven rather than a reversal setup.
-
-Key support levels are the psychological 1.3300 round number and the prior swing low near 1.3260 (likely a weekly support). Resistance is clustered at the EMA200 (1.3408) and EMA50 (1.3450), with additional supply from the Bearish Engulfing high around 1.3380. The ATR of 64 pips suggests a reasonable stop placement above this resistance zone, while targets align with the next demand area.
-
-The single best trade is a short entry at current price, aiming to capture continued weakness toward 1.3260 and potentially 1.3200 if momentum accelerates. Risk management is critical, as the long-term EMA structure remains bullish, meaning this could be a pullback within an uptrend. The 4/10 score reflects the conflicting longer-term bias and neutral RSI, but the short-term technicals are decisively bearish.
+The daily chart shows price at 1.33315, trading below both the EMA50 (1.3445) and EMA200 (1.34023). Despite the pre-calculated “BULLISH BIAS” label, the EMA alignment is bearish: price is under both moving averages, and the EMA50 is above the EMA200, which typically indicates a bearish crossover in the context of price action. The recent candlestick patterns reinforce this—two Bearish Engulfing candles within the last five bars signal strong selling
 
 ---
 
 ## Invalidation
 
-A daily close above 1.34200 (above EMA200 and the recent bearish engulfing high) would cancel the bearish setup, suggesting the pullback is over and the bullish trend has resumed.
+N/A
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-06-06
-**Generated:** 2026-06-06T15:27:11Z
+**Date:** 2026-06-07
+**Generated:** 2026-06-07T20:49:45Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,30 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 0/10 confirmed |
+| **Decision** | SELL |
+| **Confidence** | MEDIUM |
+| **Entry** | 4330.11 |
+| **Stop Loss** | 4400.00 |
+| **Target 1** | 4260.00 |
+| **Target 2** | 4190.00 |
+| **Risk/Reward** | 1:1.5 |
+| **Score** | 5/10 |
 
 ---
 
 ## Analysis
 
-The prevailing trend on the daily chart is a strong downtrend, with price trading well below both the EMA50 (4576.37) and EMA200 (4593.60). This gap confirms bearish momentum, and the price action aligns with the EMA alignment. However, current price at 4330.15 is already far from key moving averages, suggesting the move may be extended. No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the data, and no candlestick patterns have formed in the last five sessions, indicating a lack of immediate reversal signals.
+The trend is confirmed as a strong downtrend. Price at 4330.11 is well below both the EMA 50 (4566.72) and EMA 200 (4592.41), with a bearish alignment (short-term EMA below long-term EMA). The price action supports this: the recent Doji candle suggests indecision, but it appears after a sustained decline, which often acts as a continuation pattern rather than a reversal in a strong downtrend. No bullish reversal patterns (e.g., hammer, engulfing) are present, and the Doji does not invalidate the prevailing bearish momentum.
 
-The RSI(14) at 31.91 is in neutral territory but approaching oversold (below 30). This is not yet a definitive oversold condition, but it warns of potential selling exhaustion. The MACD remains bearish with the line below the signal line and a negative histogram, which confirms the trend. However, the absence of RSI divergence means there is no hidden bullish momentum building. The confluence between RSI and MACD is therefore aligned with the downtrend, but the RSI’s proximity to oversold introduces a cautionary note.
+No clear additional chart patterns (triangles, flags, double tops/bottoms) are immediately identifiable on the daily timeframe near current price. However, the proximity to the 4330 level could represent a minor psychological support zone, but given the strength of the downtrend, this is likely to break. Key resistance is at the EMA 50 (4566.72) and the prior swing high near 4400, which serves as a logical stop-loss level. Support below is sparse, with the next major zone around 4200-4190, derived from prior lows in late 2025.
 
-Given the signal score of 0/10, there are no strong technical triggers to enter a trade at this moment. Entering a sell now would be chasing the move with poor risk/reward, as the nearest support could be around the psychological 4300 level, while resistance is untested near 4400. A buy is not justified because the trend is still bearish. The best course is to wait for either a pullback to a resistance zone (e.g., near 4400 or the broken support from earlier) to sell with a better risk profile, or for a clear breakdown below 4300 with momentum to confirm further downside. Until then, the risk of a mean-reversion bounce is elevated.
+RSI at 31.91 is neutral but approaching oversold territory (below 30). This is not yet a buy signal; in a strong downtrend, RSI can remain low for extended periods. MACD is bearish with the line below the signal and a negative histogram, confirming downside momentum. There is no RSI divergence to suggest a reversal. The confluence of bearish EMA alignment, bearish MACD, and neutral RSI (not yet oversold) supports a continuation sell bias.
+
+The single best trade setup is a short entry at current price, targeting a break below the 4330 level toward the next support zone. The risk is defined by a stop above the recent minor resistance at 4400, which aligns with the Doji’s high. The reward-to-risk ratio is approximately 1:1.5, acceptable for a swing trade in a strong trend. The original score of 2/10 is revised to 5/10 because while the trend is clear, the RSI is near oversold and the Doji introduces some uncertainty, reducing conviction.
 
 ---
 
 ## Invalidation
 
-If price reverses strongly above 4400 and closes above the EMA50 (4576), the bearish setup would be invalidated, indicating a potential trend change or a larger correction.
+A daily close above 4400.00 would invalidate this sell setup, as it would break the immediate resistance and suggest a potential trend reversal or consolidation.
 
 ---
 
