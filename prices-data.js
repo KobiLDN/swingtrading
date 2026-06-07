@@ -1,21 +1,21 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-06-06T15:26:07Z",
-  "date": "2026-06-06",
-  "price": 1.33404,
-  "atr": 0.00637,
-  "atr_pips": 64,
+  "generated": "2026-06-07T20:48:51Z",
+  "date": "2026-06-07",
+  "price": 1.33315,
+  "atr": 0.00618,
+  "atr_pips": 62,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34496,
-  "ema200": 1.34083,
-  "rsi": 36.53,
-  "macd_line": -0.002363,
-  "macd_signal": -0.00148,
-  "macd_hist": -0.000883,
+  "ema50": 1.3445,
+  "ema200": 1.34023,
+  "rsi": 35.66,
+  "macd_line": -0.00285,
+  "macd_signal": -0.001754,
+  "macd_hist": -0.001096,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
@@ -42,18 +42,17 @@ window.PRICES_DATA = {
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
+    },
+    {
+      "date": "2026-06-07",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-02-27",
-      "open": 1.34881,
-      "high": 1.3512,
-      "low": 1.34403,
-      "close": 1.34802
-    },
     {
       "date": "2026-02-28",
       "open": 1.34804,
@@ -746,6 +745,13 @@ window.PRICES_DATA = {
       "high": 1.33674,
       "low": 1.3331,
       "close": 1.33404
+    },
+    {
+      "date": "2026-06-07",
+      "open": 1.33404,
+      "high": 1.33604,
+      "low": 1.33229,
+      "close": 1.33315
     }
   ]
 };

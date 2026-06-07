@@ -1,34 +1,34 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-06-06T15:26:07Z",
-  "date": "2026-06-06",
-  "price": 4330.15,
-  "atr": 74.64,
-  "atr_pips": 75,
+  "generated": "2026-06-07T20:48:52Z",
+  "date": "2026-06-07",
+  "price": 4330.11,
+  "atr": 69.51,
+  "atr_pips": 70,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4576.37,
-  "ema200": 4593.6,
+  "ema50": 4566.72,
+  "ema200": 4592.41,
   "rsi": 31.91,
-  "macd_line": -58.094843,
-  "macd_signal": -44.39288,
-  "macd_hist": -13.701963,
+  "macd_line": -63.602614,
+  "macd_signal": -48.234757,
+  "macd_hist": -15.367857,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [],
-  "score": 0,
+  "patterns": [
+    {
+      "date": "2026-06-07",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    }
+  ],
+  "score": 2,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-02-27",
-      "open": 5187.78,
-      "high": 5256.87,
-      "low": 5166.02,
-      "close": 5251.02
-    },
     {
       "date": "2026-02-28",
       "open": 5251.0,
@@ -721,6 +721,13 @@ window.PRICES_DATA_XAUUSD = {
       "high": 4330.47,
       "low": 4328.02,
       "close": 4330.15
+    },
+    {
+      "date": "2026-06-07",
+      "open": 4330.1,
+      "high": 4331.82,
+      "low": 4329.0,
+      "close": 4330.11
     }
   ]
 };
