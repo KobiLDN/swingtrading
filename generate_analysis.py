@@ -118,6 +118,30 @@ INVALIDATION:
     return prompt
 
 
+# ── Sims topic builder ──────────────────────────────────────────────────────────
+
+def build_sims_topic(prices, parsed):
+    """One-paragraph summary formatted as a Sims topic for multi-agent debate."""
+    patterns_str = (
+        ', '.join(p['name'] for p in prices['patterns'])
+        if prices['patterns'] else 'none'
+    )
+    pip_label = prices.get('pip_label', 'pips')
+    return (
+        f"{prices['symbol']} {prices['date']} — "
+        f"Signal score {prices['score']}/10. "
+        f"AI verdict: {parsed['decision']} (confidence: {parsed['confidence']}). "
+        f"Entry {parsed['entry']}, stop {parsed['stop_loss']}, "
+        f"targets {parsed['target_1']} / {parsed['target_2']} (R/R {parsed['risk_reward']}). "
+        f"Price {prices['price']} vs EMA50 {prices['ema50']} / EMA200 {prices['ema200']}. "
+        f"ATR {prices['atr']} ({prices['atr_pips']} {pip_label}). "
+        f"RSI {prices['rsi']}, MACD {'bullish' if prices['macd_line'] > prices['macd_signal'] else 'bearish'}. "
+        f"Patterns: {patterns_str}. "
+        f"Invalidation: {parsed['invalidation']}. "
+        f"Do you agree with this setup? Challenge the entry, stop, or confidence."
+    )
+
+
 # ── Call OpenRouter ─────────────────────────────────────────────────────────────
 
 def call_openrouter(prompt):
@@ -263,6 +287,17 @@ def write_outputs(prices, parsed, generated_at):
         with open('last_analysis.md', 'w', encoding='utf-8') as f:
             f.write(md)
         print("  Written: last_analysis.md  (backward compat)")
+
+    # ── Sims topic file ───────────────────────────────────────────────────────
+    sims_topic = build_sims_topic(prices, parsed)
+    sims_file = f'sims_topic-{SLUG}.txt'
+    with open(sims_file, 'w', encoding='utf-8') as f:
+        f.write(sims_topic)
+    print(f"  Written: {sims_file}")
+    if SLUG == 'gbpusd':
+        with open('sims_topic.txt', 'w', encoding='utf-8') as f:
+            f.write(sims_topic)
+        print("  Written: sims_topic.txt  (backward compat)")
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
