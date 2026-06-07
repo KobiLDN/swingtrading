@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
 **Date:** 2026-06-07
-**Generated:** 2026-06-07T20:49:38Z
+**Generated:** 2026-06-07T21:10:51Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -13,23 +13,29 @@
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
 | **Entry** | 1.33315 |
-| **Stop Loss** | 1.34200 |
-| **Target 1** | 1.32500 |
-| **Target 2** | 1.31800 |
-| **Risk/Reward** | 1:1.71 (based on T2) |
-| **Score** | 4/10 (confirmed) |
+| **Stop Loss** | 1.33950 |
+| **Target 1** | 1.32700 |
+| **Target 2** | 1.32100 |
+| **Risk/Reward** | 1:1.5 |
+| **Score** | 5/10 |
 
 ---
 
 ## Analysis
 
-The daily chart shows price at 1.33315, trading below both the EMA50 (1.3445) and EMA200 (1.34023). Despite the pre-calculated “BULLISH BIAS” label, the EMA alignment is bearish: price is under both moving averages, and the EMA50 is above the EMA200, which typically indicates a bearish crossover in the context of price action. The recent candlestick patterns reinforce this—two Bearish Engulfing candles within the last five bars signal strong selling
+The EMA structure shows a bearish alignment — price (1.33315) is trading well below both the 50 EMA (1.3445) and 200 EMA (1.34023), which typically indicates a downtrend. However, the pre-calculated trend label says “BULLISH BIAS,” which contradicts the price-EMA relationship. This suggests the bullish bias may be based on a longer-term perspective or a recent failed breakout attempt. For swing trading, the current price action confirms a bearish EMA trend: price has rejected the 200 EMA twice in the past week and is now making lower lows, with the 50 EMA acting as dynamic resistance above.
+
+The candlestick patterns are heavily bearish — two Bearish Engulfing candles and an Inverted Hammer within the last five sessions indicate persistent selling pressure and failed bullish reversals. The Doji suggests brief indecision, but the subsequent Inverted Hammer (often a reversal signal) failed to produce upside follow-through, reinforcing bearish momentum. No clear triangle, flag, or double top/bottom is visible, but the repeated rejection near the 1.3400–1.3450 zone (200 EMA and 50 EMA confluence) forms a de facto resistance cluster, resembling a descending channel or a failed retest of the moving averages.
+
+RSI at 35.66 is neutral but leaning bearish (below 50), and MACD is bearish with the line below the signal and a negative histogram. Both indicators agree with the bearish price action and EMA alignment — no bullish divergence exists to counter the sell signal. The ATR of 62 pips suggests moderate volatility, allowing for a reasonable stop placement above the 200 EMA (1.34023) and the recent swing high near 1.3395. The best trade is a short from current price, targeting the next support zone around 1.3270 (prior swing low) and then 1.3210 (psychological round number and prior demand area).
+
+Risk assessment: The primary risk is a sudden bullish catalyst (e.g., UK data beat or USD weakness) that pushes price back above the 200 EMA, invalidating the bearish structure. The stop loss at 1.33950 provides a 63-pip buffer (just above the 200 EMA), which is reasonable given the ATR. The reward-to-risk ratio of 1:1.5 is conservative but appropriate given the neutral RSI and the fact that the sell signal is not yet oversold. The score is revised to 5/10 because while the bearish confluence is strong, the lack of a clear breakdown below a major support level and the neutral RSI prevent higher confidence.
 
 ---
 
 ## Invalidation
 
-N/A
+A daily close above 1.3405 (200 EMA) would cancel the bearish setup and shift the bias back to neutral/bullish.
 
 ---
 

@@ -1,17 +1,17 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-06-07T20:49:45Z",
+  "generated": "2026-06-07T21:10:59Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
   "date": "2026-06-07",
-  "decision": "SELL",
-  "confidence": "MEDIUM",
-  "entry": "4330.11",
-  "stop_loss": "4400.00",
-  "target_1": "4260.00",
-  "target_2": "4190.00",
-  "risk_reward": "1:1.5",
-  "score": "5/10",
-  "analysis": "The trend is confirmed as a strong downtrend. Price at 4330.11 is well below both the EMA 50 (4566.72) and EMA 200 (4592.41), with a bearish alignment (short-term EMA below long-term EMA). The price action supports this: the recent Doji candle suggests indecision, but it appears after a sustained decline, which often acts as a continuation pattern rather than a reversal in a strong downtrend. No bullish reversal patterns (e.g., hammer, engulfing) are present, and the Doji does not invalidate the prevailing bearish momentum.\n\nNo clear additional chart patterns (triangles, flags, double tops/bottoms) are immediately identifiable on the daily timeframe near current price. However, the proximity to the 4330 level could represent a minor psychological support zone, but given the strength of the downtrend, this is likely to break. Key resistance is at the EMA 50 (4566.72) and the prior swing high near 4400, which serves as a logical stop-loss level. Support below is sparse, with the next major zone around 4200-4190, derived from prior lows in late 2025.\n\nRSI at 31.91 is neutral but approaching oversold territory (below 30). This is not yet a buy signal; in a strong downtrend, RSI can remain low for extended periods. MACD is bearish with the line below the signal and a negative histogram, confirming downside momentum. There is no RSI divergence to suggest a reversal. The confluence of bearish EMA alignment, bearish MACD, and neutral RSI (not yet oversold) supports a continuation sell bias.\n\nThe single best trade setup is a short entry at current price, targeting a break below the 4330 level toward the next support zone. The risk is defined by a stop above the recent minor resistance at 4400, which aligns with the Doji\u2019s high. The reward-to-risk ratio is approximately 1:1.5, acceptable for a swing trade in a strong trend. The original score of 2/10 is revised to 5/10 because while the trend is clear, the RSI is near oversold and the Doji introduces some uncertainty, reducing conviction.",
-  "invalidation": "A daily close above 4400.00 would invalidate this sell setup, as it would break the immediate resistance and suggest a potential trend reversal or consolidation."
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "2/10 confirmed",
+  "analysis": "The trend is firmly bearish, confirmed by price trading well below both the EMA 50 (4566.72) and EMA 200 (4592.41). With the EMA 200 also above the EMA 50, a death cross structure is in place. This aligns with the supplied \u201cSTRONG DOWNTREND\u201d label. However, price is currently consolidating around 4330, which is nearly 240 points below the EMA 50 \u2014 an extreme extension. This suggests the market is deeply oversold in relation to the moving averages, not just in momentum terms.\n\nThe MACD is bearish (line below signal, negative histogram), and the RSI at 31.91 is approaching oversold territory but not yet there (typically 30). The presence of a Doji candlestick pattern on the daily chart signals indecision after a prolonged selloff. No clear reversal patterns (double bottom, bullish engulfing) or RSI divergence have emerged yet. Combined with a very low signal score of 2/10, this indicates a high-risk environment for initiating a new trade in either direction.\n\nKey support is the psychological 4300 round number zone. Below that, the next major level is 4200. Resistance lies at the recent swing low turned resistance near 4450, and stronger resistance at the broken EMA 50 near 4567. Given the bearish momentum, shorting near support (4300) is risky due to potential bounce, while buying into a strong downtrend without confirmation is unwise. The best course is to wait for either a clear breakdown below 4300 with volume (continuation) or a confirmed reversal pattern (e.g., bullish engulfing, higher low) with RSI divergence before entering.\n\nRISK ASSESSMENT: The primary risk here is being caught in a violent short-covering bounce from deeply oversold levels, which is common in gold during extreme downtrends. Conversely, fading the trend by buying carries the risk of continued capitulation towards 4200. Current volatility (ATR 70 points) amplifies both risks. Any trade placed now would be a pure guess, not a high-probability setup.",
+  "invalidation": "The WAIT stance is invalidated only if price prints a clear bullish reversal pattern (e.g., daily bullish engulfing) with RSI breaking above 35, or if price breaks and closes below 4300 with expanding ATR, which would then create a viable short setup."
 };
