@@ -64,3 +64,5 @@
 - **Encyclopedia search + EMA expansion + collapsible sidebar** — full-width sticky search bar with `/` shortcut, ESC clear, amber highlights, match count; EMA 50/200 section fully expanded for beginners (formula, SMA vs EMA, weight cards, time-context cards, self-fulfilling prophecy); collapsible Books and Momentum sidebar sections with chevron animation; sub-nav items for RSI(14), MACD(12,26,9), EMA 50/200, ATR(14), AVWAP
 
 - **Traders sidebar + Wikipedia links** — sticky sidebar replaces jump-chip grid with 10 traders grouped by archetype (Quant / Macro / Technical / Value / Trend), colour dots, and scroll spy; Wikipedia link on every trader card; Back to top button in sidebar
+
+- **Sims multi-agent integration** — `generate_analysis.py` writes `sims/topic-{slug}.txt` after each daily analysis run; one-paragraph debate prompt covering signal score, AI verdict, entry/stop/targets, R/R, indicators, patterns, and invalidation with a challenge question; workflow commits all three files (`sims/topic-gbpusd.txt`, `sims/topic-xauusd.txt`, `sims/topic-spx.txt`) so raw GitHub URLs are always live and ready for the Sims Load button

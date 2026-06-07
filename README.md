@@ -13,8 +13,9 @@ A multi-asset swing trading knowledge base and AI-powered analysis dashboard cov
 - Detects 9 candlestick patterns on the last 5 candles
 - Scores the setup 0–10 using confluence rules from the encyclopedia
 - Calls OpenRouter (DeepSeek) at 06:10 UTC for a structured AI analysis per asset
-- Commits `prices-data-{slug}.js` + `analysis-data-{slug}.js` to the repo
+- Commits `prices-data-{slug}.js` + `analysis-data-{slug}.js` + `sims/topic-{slug}.txt` to the repo
 - GitHub Pages serves the live dashboard automatically
+- `sims/topic-{slug}.txt` provides a ready-made debate prompt for the Sims multi-agent model
 
 ---
 
@@ -32,8 +33,12 @@ swingtrading/
 ├── analysis-data-xauusd.js       ← auto-generated daily
 ├── analysis-data-spx.js          ← auto-generated daily
 ├── last_analysis.md              ← latest AI analysis in markdown
+├── sims/
+│   ├── topic-gbpusd.txt          ← auto-generated debate prompt (GBP/USD)
+│   ├── topic-xauusd.txt          ← auto-generated debate prompt (XAU/USD)
+│   └── topic-spx.txt             ← auto-generated debate prompt (SPX)
 ├── update_prices.py              ← fetches OHLC + calculates indicators
-├── generate_analysis.py          ← calls OpenRouter, writes analysis output
+├── generate_analysis.py          ← calls OpenRouter, writes analysis + sims topic
 ├── requirements.txt              ← pandas, numpy, requests, python-dotenv
 ├── .github/workflows/
 │   ├── update-prices.yml         ← runs daily Mon–Fri 06:00 UTC
