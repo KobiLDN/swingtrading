@@ -1,30 +1,24 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-06-07T20:48:51Z",
-  "date": "2026-06-07",
-  "price": 1.33315,
-  "atr": 0.00618,
-  "atr_pips": 62,
+  "generated": "2026-06-08T10:17:36Z",
+  "date": "2026-06-08",
+  "price": 1.33321,
+  "atr": 0.00606,
+  "atr_pips": 61,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.3445,
-  "ema200": 1.34023,
-  "rsi": 35.66,
-  "macd_line": -0.00285,
-  "macd_signal": -0.001754,
-  "macd_hist": -0.001096,
+  "ema50": 1.34408,
+  "ema200": 1.34102,
+  "rsi": 35.68,
+  "macd_line": -0.003155,
+  "macd_signal": -0.002026,
+  "macd_hist": -0.001129,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-06-03",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    },
     {
       "date": "2026-06-04",
       "name": "Inverted Hammer",
@@ -44,22 +38,15 @@ window.PRICES_DATA = {
       "strength": 2
     },
     {
-      "date": "2026-06-07",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
+      "date": "2026-06-08",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-02-28",
-      "open": 1.34804,
-      "high": 1.34909,
-      "low": 1.34717,
-      "close": 1.34796
-    },
     {
       "date": "2026-03-01",
       "open": 1.34797,
@@ -751,7 +738,14 @@ window.PRICES_DATA = {
       "open": 1.33404,
       "high": 1.33604,
       "low": 1.33229,
-      "close": 1.33315
+      "close": 1.3338
+    },
+    {
+      "date": "2026-06-08",
+      "open": 1.33358,
+      "high": 1.33508,
+      "low": 1.33056,
+      "close": 1.33321
     }
   ]
 };

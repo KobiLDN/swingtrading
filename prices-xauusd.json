@@ -1,21 +1,21 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-06-07T20:48:52Z",
-  "date": "2026-06-07",
-  "price": 4330.11,
-  "atr": 69.51,
-  "atr_pips": 70,
+  "generated": "2026-06-08T10:17:37Z",
+  "date": "2026-06-08",
+  "price": 4294.76,
+  "atr": 70.6,
+  "atr_pips": 71,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4566.72,
-  "ema200": 4592.41,
-  "rsi": 31.91,
-  "macd_line": -63.602614,
-  "macd_signal": -48.234757,
-  "macd_hist": -15.367857,
+  "ema50": 4556.06,
+  "ema200": 4589.83,
+  "rsi": 29.69,
+  "macd_line": -70.011533,
+  "macd_signal": -52.589657,
+  "macd_hist": -17.421877,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -24,18 +24,17 @@
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
+    },
+    {
+      "date": "2026-06-08",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 2,
-  "verdict": "NO TRADE",
+  "score": 6,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-02-28",
-      "open": 5251.0,
-      "high": 5280.23,
-      "low": 5249.91,
-      "close": 5277.88
-    },
     {
       "date": "2026-03-01",
       "open": 5277.89,
@@ -727,7 +726,14 @@
       "open": 4330.1,
       "high": 4331.82,
       "low": 4329.0,
-      "close": 4330.11
+      "close": 4330.15
+    },
+    {
+      "date": "2026-06-08",
+      "open": 4330.11,
+      "high": 4352.94,
+      "low": 4268.19,
+      "close": 4294.76
     }
   ]
 }

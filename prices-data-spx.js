@@ -1,7 +1,7 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-06-07T20:48:52Z",
+  "generated": "2026-06-08T10:17:37Z",
   "date": "2026-06-05",
   "price": 737.55,
   "atr": 7.62,
