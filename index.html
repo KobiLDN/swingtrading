@@ -726,8 +726,7 @@
   </div>
 
   <!-- Indicators row -->
-  <div class="card-row">
-  <div class="grid-3" style="flex:1;min-width:0">
+  <div class="grid-3">
 
     <!-- RSI -->
     <div class="card">
@@ -788,19 +787,28 @@
 
   </div><!-- end grid-3 -->
 
-  <div class="explainer">
-    <div class="exp-label">Indicator Guide</div>
-    <div class="exp-term">RSI (14)</div>
-    <div class="exp-def">0–100 momentum scale. Above 70 = overbought (may reverse down). Below 30 = oversold (may bounce). Between = neutral — no strong signal either way.</div>
-    <div class="exp-term">RSI Divergence</div>
-    <div class="exp-def">Price makes a new high but RSI doesn't = bearish divergence (momentum fading, reversal warning). Opposite = bullish. Strong early-warning signal.</div>
-    <div class="exp-term">MACD (12, 26, 9)</div>
-    <div class="exp-def">Measures trend momentum. MACD line above Signal line = bullish. Histogram bars show the gap — growing bars = trend strengthening, shrinking = trend losing steam.</div>
-    <div class="exp-term">Signal Score /10</div>
-    <div class="exp-def">Counts how many indicators agree: EMA trend, RSI zone, MACD direction, detected patterns. 7–10 = strong setup. 4–6 = mixed, wait. Below 4 = no trade.</div>
+  <!-- Indicator explainer — full-width grid below indicators -->
+  <div class="card" style="padding:16px 20px">
+    <div class="exp-label" style="margin-bottom:14px">Indicator Guide</div>
+    <div class="cal-exp-grid">
+      <div class="cal-exp-item">
+        <div class="exp-term">RSI (14)</div>
+        <div class="exp-def">0–100 momentum scale. Above 70 = overbought (may reverse down). Below 30 = oversold (may bounce). Between 30–70 = neutral, no strong signal.</div>
+      </div>
+      <div class="cal-exp-item">
+        <div class="exp-term">RSI Divergence</div>
+        <div class="exp-def">Price makes a new high but RSI doesn't = bearish divergence (momentum fading, reversal warning). Opposite = bullish. Strong early-warning signal.</div>
+      </div>
+      <div class="cal-exp-item">
+        <div class="exp-term">MACD (12, 26, 9)</div>
+        <div class="exp-def">Measures trend momentum. MACD line above Signal = bullish. Histogram shows the gap — growing bars = trend strengthening, shrinking = losing steam.</div>
+      </div>
+      <div class="cal-exp-item">
+        <div class="exp-term">Signal Score /10</div>
+        <div class="exp-def">Counts how many indicators agree: EMA trend, RSI zone, MACD direction, detected patterns. 7–10 = strong setup. 4–6 = mixed, wait. Below 4 = no trade.</div>
+      </div>
+    </div>
   </div>
-
-  </div><!-- end card-row indicators -->
 
   <!-- Patterns -->
   <div class="card">
