@@ -696,24 +696,24 @@
       <div id="calendar-table-wrap">
         <span class="cal-empty">Loading...</span>
       </div>
-      <div style="font-size:10px;color:var(--muted);margin-top:10px">
+      <div id="cal-footer" style="font-size:10px;color:var(--muted);margin-top:10px">
         USD · GBP · EUR events only &nbsp;·&nbsp; <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);vertical-align:middle;margin-right:3px"></span>High impact &nbsp;·&nbsp; Today's events highlighted in amber
       </div>
     </div>
-    <div class="explainer">
-      <div class="exp-label">Event Guide</div>
-      <div class="exp-term">CPI m/m</div>
-      <div class="exp-def">Consumer prices vs last month. Higher than forecast = inflation rising = USD strengthens (Fed keeps rates high longer).</div>
-      <div class="exp-term">CPI y/y</div>
-      <div class="exp-def">Annual inflation rate. Fed targets 2%. Well above 2% = hawkish Fed = fewer rate cuts = stronger USD.</div>
-      <div class="exp-term">Core CPI</div>
-      <div class="exp-def">CPI with food & energy stripped out — less volatile, more meaningful. The Fed watches Core more than headline. Sticky Core = no rate cuts.</div>
-      <div class="exp-term">PPI m/m</div>
-      <div class="exp-def">Factory-gate prices. Leads CPI — what manufacturers pay today, consumers pay in a few months.</div>
-      <div class="exp-term">ECB Rate / Press Conf</div>
-      <div class="exp-def">European Central Bank rate decision. Higher rate = stronger EUR. The press conference tone often moves EUR more than the number itself.</div>
-      <div class="exp-term">GDP m/m</div>
-      <div class="exp-def">UK economic output vs last month. Negative = contraction = GBP typically weakens on the release.</div>
+    <div class="explainer" id="cal-explainer">
+      <div class="exp-label">What moves <span id="cal-exp-asset">GBP/USD</span></div>
+      <div id="cal-exp-body">
+        <div class="exp-term">CPI m/m &amp; y/y</div>
+        <div class="exp-def">Consumer prices vs last month / last year. Higher than forecast = inflation rising = USD strengthens, GBP/USD typically drops.</div>
+        <div class="exp-term">Core CPI</div>
+        <div class="exp-def">CPI with food &amp; energy stripped out. The Fed watches this more than headline. Sticky Core = no rate cuts = stronger USD.</div>
+        <div class="exp-term">PPI m/m</div>
+        <div class="exp-def">Factory-gate prices — leads CPI by a few months. Falling PPI suggests inflation is cooling.</div>
+        <div class="exp-term">ECB Rate / Press Conf</div>
+        <div class="exp-def">European Central Bank decision. Higher rate = stronger EUR, which affects USD broadly. Press conference tone often moves EUR more than the number.</div>
+        <div class="exp-term">GBP GDP m/m</div>
+        <div class="exp-def">UK economic output vs last month. Negative = contraction = GBP weakens directly.</div>
+      </div>
     </div>
   </div>
 
@@ -948,6 +948,48 @@ function getAssetData(slug) {
   return { prices: p, analysis: a };
 }
 
+var CAL_EXPLAINERS = {
+  gbpusd: {
+    label: 'GBP/USD',
+    footer: 'USD · GBP · EUR events only',
+    body: '<div class="exp-term">CPI m/m &amp; y/y</div><div class="exp-def">Consumer prices vs last month / last year. Higher than forecast = inflation rising = USD strengthens, GBP/USD typically drops.</div>' +
+          '<div class="exp-term">Core CPI</div><div class="exp-def">CPI with food &amp; energy stripped out. The Fed watches this more than headline. Sticky Core = no rate cuts = stronger USD.</div>' +
+          '<div class="exp-term">PPI m/m</div><div class="exp-def">Factory-gate prices — leads CPI by a few months. Falling PPI suggests inflation is cooling.</div>' +
+          '<div class="exp-term">ECB Rate / Press Conf</div><div class="exp-def">European Central Bank decision. Higher rate = stronger EUR, which pressures USD broadly. Press conference tone often moves EUR more than the number.</div>' +
+          '<div class="exp-term">GBP GDP m/m</div><div class="exp-def">UK economic output vs last month. Negative = contraction = GBP weakens directly on release.</div>'
+  },
+  xauusd: {
+    label: 'XAU/USD',
+    footer: 'USD events only — gold is priced in dollars',
+    body: '<div class="exp-term">CPI / Core CPI</div><div class="exp-def">Gold is an inflation hedge — but high CPI also means higher Fed rates, which raises the opportunity cost of holding gold (gold pays no yield). Net effect depends on real yields.</div>' +
+          '<div class="exp-term">Fed Funds Rate / FOMC</div><div class="exp-def">The single biggest driver of gold. Higher rates = real yields rise = gold falls. Rate cut expectations = gold rallies. Watch Fed language closely.</div>' +
+          '<div class="exp-term">NFP (Non-Farm Payrolls)</div><div class="exp-def">Strong US jobs = hawkish Fed = gold falls. Weak jobs = dovish Fed = gold rises. Released first Friday of each month at 08:30 UTC.</div>' +
+          '<div class="exp-term">USD strength (DXY)</div><div class="exp-def">Gold is priced in USD — when the dollar rises, gold gets more expensive in other currencies and demand falls. USD up = gold down, and vice versa.</div>' +
+          '<div class="exp-term">Geopolitical risk</div><div class="exp-def">Not on any calendar, but gold spikes on conflict, banking stress, or safe-haven demand. Watch news headlines alongside the chart.</div>'
+  },
+  spx: {
+    label: 'SPX (via SPY)',
+    footer: 'USD events — US economy drives S&amp;P 500',
+    body: '<div class="exp-term">FOMC / Fed Funds Rate</div><div class="exp-def">The most important event for equities. Lower rates = cheaper borrowing + higher stock valuations. Rate hikes = sell-off. Dot plot and press conference drive moves.</div>' +
+          '<div class="exp-term">CPI / Core CPI</div><div class="exp-def">Lower inflation = Fed can cut rates = stocks rally. Hot CPI = hawkish Fed = stocks drop. Markets now react more to CPI than almost any other release.</div>' +
+          '<div class="exp-term">NFP (Non-Farm Payrolls)</div><div class="exp-def">Strong jobs = mixed signal — good economy but could delay rate cuts. Weak jobs = bad for growth but may bring rate cuts forward. Context matters.</div>' +
+          '<div class="exp-term">GDP (Quarterly)</div><div class="exp-def">Measures overall US economic growth. Positive surprises = stocks rise. Two consecutive negative quarters = recession = large sell-off risk.</div>' +
+          '<div class="exp-term">Earnings Season</div><div class="exp-def">Not on this calendar but moves SPX massively — Jan, Apr, Jul, Oct. Big-cap earnings (Apple, Nvidia, JPMorgan) can gap the index ±2% overnight.</div>'
+  }
+};
+
+function updateCalendarExplainer(slug) {
+  var cfg = CAL_EXPLAINERS[slug] || CAL_EXPLAINERS.gbpusd;
+  var assetEl  = el('cal-exp-asset');
+  var bodyEl   = el('cal-exp-body');
+  var footerEl = el('cal-footer');
+  if (assetEl)  assetEl.textContent = cfg.label;
+  if (bodyEl)   bodyEl.innerHTML    = cfg.body;
+  if (footerEl) {
+    footerEl.innerHTML = cfg.footer + ' &nbsp;·&nbsp; <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);vertical-align:middle;margin-right:3px"></span>High impact &nbsp;·&nbsp; Today\'s events highlighted in amber';
+  }
+}
+
 function switchAsset(slug) {
   CURRENT_ASSET = slug;
   localStorage.setItem('asset', slug);
@@ -956,6 +998,8 @@ function switchAsset(slug) {
   document.querySelectorAll('.asset-pill').forEach(function(btn) {
     btn.classList.toggle('active', btn.dataset.asset === slug);
   });
+
+  updateCalendarExplainer(slug);
 
   // Always swap globals — null means "no data yet for this asset"
   var data = getAssetData(slug);
