@@ -112,6 +112,36 @@
   .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
   .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 
+  /* ── Card + explainer rows ── */
+  .card-row { display: flex; gap: 16px; align-items: flex-start; }
+  .card-row > :first-child { flex: 1; min-width: 0; }
+  .explainer {
+    width: 230px;
+    flex-shrink: 0;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    font-size: 11px;
+    line-height: 1.65;
+  }
+  .exp-label {
+    font-size: 9px;
+    font-family: var(--mono);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+    opacity: 0.6;
+    margin-bottom: 12px;
+  }
+  .exp-term {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text);
+    margin: 10px 0 3px;
+  }
+  .exp-def { color: var(--muted); }
+
   /* ── Price hero ── */
   .price-hero {
     display: flex;
@@ -560,6 +590,8 @@
     .price-val { font-size: 32px; }
     .decision-row { grid-template-columns: repeat(2, 1fr); }
     h1 { font-size: 18px; }
+    .card-row { flex-direction: column; }
+    .explainer { width: 100%; }
   }
   @media (max-width: 480px) {
     .container { padding: 12px; }
@@ -633,25 +665,55 @@
   </div>
 
   <!-- Chart -->
-  <div class="card" style="padding:20px">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:8px">
-      <span class="card-title" style="margin:0" id="chart-title">Daily Chart — GBP/USD</span>
-      <div style="display:flex;gap:12px;font-size:11px;align-items:center">
-        <span><span style="display:inline-block;width:10px;height:2px;background:#00d4ff;vertical-align:middle;margin-right:4px"></span>EMA 50</span>
-        <span><span style="display:inline-block;width:10px;height:2px;background:#f59e0b;vertical-align:middle;margin-right:4px"></span>EMA 200</span>
+  <div class="card-row">
+    <div class="card" style="padding:20px">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:8px">
+        <span class="card-title" style="margin:0" id="chart-title">Daily Chart — GBP/USD</span>
+        <div style="display:flex;gap:12px;font-size:11px;align-items:center">
+          <span><span style="display:inline-block;width:10px;height:2px;background:#00d4ff;vertical-align:middle;margin-right:4px"></span>EMA 50</span>
+          <span><span style="display:inline-block;width:10px;height:2px;background:#f59e0b;vertical-align:middle;margin-right:4px"></span>EMA 200</span>
+        </div>
       </div>
+      <div id="chart-container" style="height:380px;width:100%;position:relative"></div>
     </div>
-    <div id="chart-container" style="height:380px;width:100%;position:relative"></div>
+    <div class="explainer">
+      <div class="exp-label">Chart Lines</div>
+      <div class="exp-term">EMA 50 — cyan</div>
+      <div class="exp-def">Average closing price of the last 50 days, weighted toward recent candles. Short-term trend guide. Price above it = mild bullish bias.</div>
+      <div class="exp-term">EMA 200 — amber</div>
+      <div class="exp-def">Average of the last 200 days. The most-watched line by institutional traders. Above it = long-term uptrend. Many funds won't buy below the 200.</div>
+      <div class="exp-term">Golden Cross</div>
+      <div class="exp-def">EMA 50 crosses <em>above</em> EMA 200 = strong buy signal. Takes weeks to form but carries significant weight. The opposite is called a Death Cross.</div>
+      <div class="exp-term">Support / Resistance</div>
+      <div class="exp-def">Dashed lines from the AI analysis. Price tends to pause or reverse near these levels — watch for candle reactions when price approaches them.</div>
+    </div>
   </div>
 
   <!-- Economic Calendar -->
-  <div class="card" id="calendar-card" style="display:none">
-    <div class="card-title">Economic Calendar — High-Impact Events (Next 7 Days)</div>
-    <div id="calendar-table-wrap">
-      <span class="cal-empty">Loading...</span>
+  <div class="card-row">
+    <div class="card" id="calendar-card" style="display:none">
+      <div class="card-title">Economic Calendar — High-Impact Events (Next 7 Days)</div>
+      <div id="calendar-table-wrap">
+        <span class="cal-empty">Loading...</span>
+      </div>
+      <div style="font-size:10px;color:var(--muted);margin-top:10px">
+        USD · GBP · EUR events only &nbsp;·&nbsp; <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);vertical-align:middle;margin-right:3px"></span>High impact &nbsp;·&nbsp; Today's events highlighted in amber
+      </div>
     </div>
-    <div style="font-size:10px;color:var(--muted);margin-top:10px">
-      USD · GBP · EUR events only &nbsp;·&nbsp; <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);vertical-align:middle;margin-right:3px"></span>High impact &nbsp;·&nbsp; Today's events highlighted in amber
+    <div class="explainer">
+      <div class="exp-label">Event Guide</div>
+      <div class="exp-term">CPI m/m</div>
+      <div class="exp-def">Consumer prices vs last month. Higher than forecast = inflation rising = USD strengthens (Fed keeps rates high longer).</div>
+      <div class="exp-term">CPI y/y</div>
+      <div class="exp-def">Annual inflation rate. Fed targets 2%. Well above 2% = hawkish Fed = fewer rate cuts = stronger USD.</div>
+      <div class="exp-term">Core CPI</div>
+      <div class="exp-def">CPI with food & energy stripped out — less volatile, more meaningful. The Fed watches Core more than headline. Sticky Core = no rate cuts.</div>
+      <div class="exp-term">PPI m/m</div>
+      <div class="exp-def">Factory-gate prices. Leads CPI — what manufacturers pay today, consumers pay in a few months.</div>
+      <div class="exp-term">ECB Rate / Press Conf</div>
+      <div class="exp-def">European Central Bank rate decision. Higher rate = stronger EUR. The press conference tone often moves EUR more than the number itself.</div>
+      <div class="exp-term">GDP m/m</div>
+      <div class="exp-def">UK economic output vs last month. Negative = contraction = GBP typically weakens on the release.</div>
     </div>
   </div>
 
@@ -665,7 +727,8 @@
   </div>
 
   <!-- Indicators row -->
-  <div class="grid-3">
+  <div class="card-row">
+  <div class="grid-3" style="flex:1;min-width:0">
 
     <!-- RSI -->
     <div class="card">
@@ -724,7 +787,21 @@
       </div>
     </div>
 
+  </div><!-- end grid-3 -->
+
+  <div class="explainer">
+    <div class="exp-label">Indicator Guide</div>
+    <div class="exp-term">RSI (14)</div>
+    <div class="exp-def">0–100 momentum scale. Above 70 = overbought (may reverse down). Below 30 = oversold (may bounce). Between = neutral — no strong signal either way.</div>
+    <div class="exp-term">RSI Divergence</div>
+    <div class="exp-def">Price makes a new high but RSI doesn't = bearish divergence (momentum fading, reversal warning). Opposite = bullish. Strong early-warning signal.</div>
+    <div class="exp-term">MACD (12, 26, 9)</div>
+    <div class="exp-def">Measures trend momentum. MACD line above Signal line = bullish. Histogram bars show the gap — growing bars = trend strengthening, shrinking = trend losing steam.</div>
+    <div class="exp-term">Signal Score /10</div>
+    <div class="exp-def">Counts how many indicators agree: EMA trend, RSI zone, MACD direction, detected patterns. 7–10 = strong setup. 4–6 = mixed, wait. Below 4 = no trade.</div>
   </div>
+
+  </div><!-- end card-row indicators -->
 
   <!-- Patterns -->
   <div class="card">
