@@ -1,17 +1,17 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-06-08T11:18:25Z",
+  "generated": "2026-06-09T10:00:56Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-06-08",
+  "date": "2026-06-09",
   "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "4294.76",
-  "stop_loss": "4365.36",
-  "target_1": "4224.00",
-  "target_2": "4153.00",
-  "risk_reward": "1:1.96",
-  "score": "6/10 confirmed",
-  "analysis": "The trend is unequivocally bearish. Price at 4294.76 is trading far below both the EMA 50 (4556.06) and EMA 200 (4589.83), confirming a strong downtrend. The ATR of 70.6 points indicates high volatility, which is typical in trending moves. The recent candlestick pattern of a Doji followed by an Evening Star suggests a bearish reversal after a brief pause, reinforcing the continuation of selling pressure. No bullish chart patterns (triangles, flags, double bottoms) are present near current price; instead, the structure appears to be a series of lower highs and lower lows, consistent with a persistent downtrend.\n\nKey support and resistance levels are derived from recent price action and the ATR. The nearest resistance is the prior swing high near 4365 (roughly the high of the Doji candle), which also aligns with the stop-loss level. Below, support is thin, but the next psychological and technical zone is around 4224 (a prior low from late May), with a secondary target near 4153 (a major support from early May). The RSI at 29.69 is oversold, which typically warns of a potential bounce, but in a strong downtrend, oversold conditions can persist and are not reliable reversal signals without divergence. The MACD remains bearish with the line below the signal and a negative histogram, confirming momentum is still to the downside. There is no RSI divergence to suggest an impending reversal.\n\nThe single best trade setup is a continuation sell at current price, given the confluence of the bearish EMA alignment, the Evening Star pattern, and bearish MACD. The oversold RSI introduces some risk of a short-term bounce, which is why confidence is MEDIUM rather than HIGH. The risk-to-reward ratio is favorable at nearly 1:2, with a stop-loss placed above the recent Doji high (4365.36) to allow for minor volatility. The score remains 6/10 because while the trend and patterns align, the oversold condition and lack of divergence reduce conviction for an immediate entry.\n\nRISK ASSESSMENT:\nThe primary risk is a sharp mean-reversion bounce from oversold RSI levels, which could trigger the stop-loss before the downtrend resumes. Additionally, high ATR means price may overshoot targets intraday. Position sizing should be conservative, and traders should monitor for any bullish divergence on lower timeframes that could invalidate the sell setup.",
-  "invalidation": "A daily close above 4365.36 (the recent swing high) would invalidate this sell setup, as it would break the immediate resistance and suggest a potential trend reversal or consolidation."
+  "entry": "4327.07",
+  "stop_loss": "4400.00",
+  "target_1": "4260.00",
+  "target_2": "4180.00",
+  "risk_reward": "1:1.48 (calculated as average of targets)",
+  "score": "5/10",
+  "analysis": "The daily chart confirms a strong downtrend with price well below both the EMA50 (4548.4) and EMA200 (4584.66), and the EMA structure is bearishly aligned. The recent candlestick sequence\u2014a Doji, another Doji, then an Evening Star\u2014suggests a brief pause followed by a bearish reversal. Although the last two Dojis indicate indecision, the Evening Star pattern often signals a continuation of the",
+  "invalidation": "N/A"
 };
