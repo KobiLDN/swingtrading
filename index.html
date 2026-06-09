@@ -483,6 +483,35 @@
   }
   .cal-event-row { font-size: 12px; color: var(--text); margin-bottom: 2px; }
   .cal-event-row .cal-time { font-family: var(--mono); color: var(--muted); }
+  .news-item {
+    border-bottom: 1px solid var(--border);
+    padding: 12px 0;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .news-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .news-badge {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .news-badge.bullish  { background: rgba(16,185,129,.15); color: var(--green); }
+  .news-badge.bearish  { background: rgba(239,68,68,.15);  color: var(--red);   }
+  .news-badge.neutral  { background: rgba(148,163,184,.12); color: var(--muted); }
+  .news-body { flex: 1; min-width: 0; }
+  .news-title { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+  .news-title a { color: inherit; text-decoration: none; }
+  .news-title a:hover { color: var(--accent); }
+  .news-meta  { font-size: 11px; color: var(--muted); }
+  .news-summary { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.5; }
+  .news-empty { font-size: 13px; color: var(--muted); padding: 16px 0; }
   .cal-event-row .cal-ccy  { font-weight: 700; margin: 0 4px; }
 
   /* ── Calendar events card ── */
@@ -623,6 +652,15 @@
     </div>
     <div style="font-size:10px;color:var(--muted);margin-top:10px">
       USD · GBP · EUR events only &nbsp;·&nbsp; <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--red);vertical-align:middle;margin-right:3px"></span>High impact &nbsp;·&nbsp; Today's events highlighted in amber
+    </div>
+  </div>
+
+  <!-- News sentiment -->
+  <div class="card" id="news-card" style="display:none">
+    <div class="card-title">News Sentiment — <span id="news-asset-label">GBP/USD</span></div>
+    <div id="news-list"></div>
+    <div style="font-size:10px;color:var(--muted);margin-top:10px">
+      Powered by Alpha Vantage &nbsp;·&nbsp; Updated daily at 06:10 UTC &nbsp;·&nbsp; Sentiment scored per article — not a trade signal
     </div>
   </div>
 
@@ -804,6 +842,8 @@
 <script src="analysis-data-spx.js"></script>
 <!-- Economic calendar -->
 <script src="calendar-data.js"></script>
+<!-- News sentiment -->
+<script src="news-data.js"></script>
 <script>
 // ── Theme ────────────────────────────────────────────────────────────────────
 function toggleTheme() {
@@ -859,6 +899,8 @@ function switchAsset(slug) {
   renderAnalysis();
   initChart();
   calcPosition();
+  var labels = { gbpusd: 'GBP/USD', xauusd: 'XAU/USD', spx: 'SPX' };
+  renderNews(slug, labels[slug] || slug.toUpperCase());
 }
 
 // ── Chart ────────────────────────────────────────────────────────────────────
@@ -1345,6 +1387,43 @@ function renderCalendar() {
   if (card) card.style.display = 'block';
 }
 
+// ── News Sentiment ────────────────────────────────────────────────────────────
+function renderNews(slug, label) {
+  var nd   = window.NEWS_DATA;
+  var card = el('news-card');
+  var list = el('news-list');
+  var lbl  = el('news-asset-label');
+  if (!card || !list) return;
+
+  if (lbl) lbl.textContent = label || 'GBP/USD';
+
+  if (!nd || !nd.assets) { card.style.display = 'none'; return; }
+
+  var articles = nd.assets[slug] || [];
+  if (!articles.length) { card.style.display = 'none'; return; }
+
+  var html = '';
+  articles.forEach(function(a) {
+    var score = parseFloat(a.sentiment_score) || 0;
+    var lbl_s = (a.sentiment_label || '').toLowerCase();
+    var cls   = lbl_s.includes('bullish') ? 'bullish' : lbl_s.includes('bearish') ? 'bearish' : 'neutral';
+    var badge = lbl_s.includes('bullish') ? 'Bullish' : lbl_s.includes('bearish') ? 'Bearish' : 'Neutral';
+    html +=
+      '<div class="news-item">' +
+        '<span class="news-badge ' + cls + '">' + badge + '</span>' +
+        '<div class="news-body">' +
+          '<div class="news-title"><a href="' + a.url + '" target="_blank" rel="noopener">' + a.title + '</a></div>' +
+          '<div class="news-meta">' + a.source + ' &nbsp;·&nbsp; ' + a.time_published + ' UTC' +
+            '&nbsp;·&nbsp; score: ' + score.toFixed(2) + '</div>' +
+          (a.summary ? '<div class="news-summary">' + a.summary + (a.summary.length >= 298 ? '…' : '') + '</div>' : '') +
+        '</div>' +
+      '</div>';
+  });
+
+  list.innerHTML = html;
+  card.style.display = 'block';
+}
+
 // ── Util ──────────────────────────────────────────────────────────────────────
 function trendClass(t) {
   if (!t) return 'trend-neutral';
@@ -1386,7 +1465,7 @@ function verdictClass(v) {
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
-switchAsset(CURRENT_ASSET);   // loads saved asset, swaps globals, renders everything
+switchAsset(CURRENT_ASSET);   // loads saved asset, swaps globals, renders everything (incl. news)
 renderCalendar();              // show economic calendar (asset-independent)
 </script>
 </body>
