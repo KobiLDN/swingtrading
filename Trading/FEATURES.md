@@ -51,6 +51,10 @@
 
 - **Traders sidebar + Wikipedia links** — `Trading/traders.html` sticky sidebar replaces jump-chip grid with 10 traders grouped by archetype (Quant / Macro / Technical / Value / Trend), colour dots matching card border colours, scroll spy highlights active trader; Wikipedia link on every trader card; Back to top button in sidebar
 
+- **Inline explainer panels** — full-width horizontal grid cards below chart (EMA 50/200, Golden Cross), calendar (per-asset: CPI/ECB/GBP GDP for GBP/USD; real yields/FOMC/NFP/DXY for XAU; FOMC/CPI/GDP/earnings for SPX), and indicators (RSI, divergence, MACD, signal score); layout switches with asset pill; 1440px max-width across all 3 pages for 1080p
+
+- **Enriched Copy AI Prompt** — 5 sections: technical indicators, existing AI verdict (DeepSeek decision/entry/stop/targets/invalidation/R/R), upcoming high-impact calendar events with forecast + previous, news sentiment score + top 3 headlines, task instructions referencing all context
+
 - **Dual-source economic calendar** — `update_calendar.py` fetches from Forex Factory JSON (primary, no API key, always populated) and Twelve Data (supplementary); events merged and deduplicated by date/currency/title; `nextweek.json` 404 handled gracefully; calendar card now reliably shows events every week
 
 - **Sims multi-agent integration** — `generate_analysis.py` writes `sims/topic-{slug}.txt` after each daily analysis run; one-paragraph debate prompt covering signal score, AI verdict, entry/stop/targets, R/R, indicators, patterns, and invalidation with a challenge question; workflow commits all three files (`sims/topic-gbpusd.txt`, `sims/topic-xauusd.txt`, `sims/topic-spx.txt`) so raw GitHub URLs are always live for the Sims Load button
