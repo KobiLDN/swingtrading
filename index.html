@@ -1355,31 +1355,85 @@ function buildPrompt(d) {
     el('prompt-box').value = 'Indicators not yet available. Run update_prices.py to generate prices-data.js.';
     return;
   }
-  var rsi = d.rsi;
+  var dec      = d.decimals || 5;
+  var rsi      = d.rsi;
   var rsiLabel = rsi > 70 ? 'OVERBOUGHT (' + rsi.toFixed(1) + ')' : rsi < 30 ? 'OVERSOLD (' + rsi.toFixed(1) + ')' : 'Neutral (' + rsi.toFixed(1) + ')';
   var macdDir  = d.macd_line > d.macd_signal ? 'Bullish (line above signal)' : 'Bearish (line below signal)';
   var patterns = d.patterns && d.patterns.length ? d.patterns.map(function(p){ return p.name; }).join(', ') : 'None detected';
 
+  // ── Section 1: Technical indicators ─────────────────────────────────────────
   var prompt =
-'Here is ' + (d.symbol || 'GBP/USD') + ' technical analysis for ' + d.date + '.\n' +
-'Pre-calculated indicators (use these as-is):\n\n' +
-'  Price:       ' + d.price.toFixed(d.decimals || 5) + '\n' +
-'  ATR(14):     ' + d.atr.toFixed(d.decimals || 5) + ' (' + d.atr_pips + ' ' + (d.pip_label || 'pips') + ')\n' +
-'  EMA 50:      ' + d.ema50.toFixed(5) + '\n' +
-'  EMA 200:     ' + d.ema200.toFixed(5) + '\n' +
+'═══════════════════════════════════════════════\n' +
+(d.symbol || 'GBP/USD') + ' SWING TRADE ANALYSIS — ' + d.date + '\n' +
+'═══════════════════════════════════════════════\n\n' +
+'── TECHNICAL INDICATORS (pre-calculated) ──\n' +
+'  Price:       ' + d.price.toFixed(dec) + '\n' +
+'  ATR(14):     ' + d.atr.toFixed(dec) + ' (' + d.atr_pips + ' ' + (d.pip_label || 'pips') + ') — typical daily range\n' +
+'  EMA 50:      ' + d.ema50.toFixed(dec) + '\n' +
+'  EMA 200:     ' + d.ema200.toFixed(dec) + '\n' +
 '  Trend:       ' + d.trend + '\n' +
 '  RSI(14):     ' + rsiLabel + '\n' +
-'  RSI div:     ' + (d.divergence || 'None') + '\n' +
+'  RSI Div:     ' + (d.divergence || 'None') + '\n' +
 '  MACD:        ' + macdDir + '  |  Histogram: ' + (d.macd_hist >= 0 ? '+' : '') + d.macd_hist.toFixed(5) + '\n' +
 '  Patterns:    ' + patterns + '\n' +
-'  Score:       ' + d.score + '/10\n\n' +
-'Using the encyclopedia detection rules, please:\n' +
+'  Score:       ' + d.score + '/10\n';
+
+  // ── Section 2: Existing AI verdict ───────────────────────────────────────────
+  var slug = CURRENT_ASSET || 'gbpusd';
+  var ai   = window['ANALYSIS_DATA_' + slug.toUpperCase()] || window.ANALYSIS_DATA;
+  if (ai && ai.decision && ai.decision !== 'N/A') {
+    prompt +=
+'\n── AI VERDICT (DeepSeek, generated ' + (ai.generated || '').slice(0,10) + ') ──\n' +
+'  Decision:    ' + ai.decision + '  (Confidence: ' + ai.confidence + ')\n' +
+'  Entry:       ' + ai.entry + '\n' +
+'  Stop Loss:   ' + ai.stop_loss + '\n' +
+'  Target 1:    ' + ai.target_1 + '\n' +
+'  Target 2:    ' + ai.target_2 + '\n' +
+'  Risk/Reward: ' + ai.risk_reward + '\n' +
+'  Score:       ' + ai.score + '\n' +
+'  Invalidation: ' + ai.invalidation + '\n';
+  }
+
+  // ── Section 3: Economic calendar ────────────────────────────────────────────
+  var cal   = window.CALENDAR_DATA;
+  var today = new Date().toISOString().slice(0, 10);
+  if (cal && cal.events && cal.events.length) {
+    prompt += '\n── UPCOMING HIGH-IMPACT EVENTS (next 7 days) ──\n';
+    cal.events.forEach(function(e) {
+      var todayMark = e.date === today ? ' ← TODAY' : '';
+      var fc = e.forecast ? '  Forecast: ' + e.forecast : '';
+      var pr = e.previous ? '  Previous: ' + e.previous : '';
+      prompt += '  ' + e.date + ' ' + e.time + ' UTC  [' + e.currency + ']  ' + e.event + fc + pr + todayMark + '\n';
+    });
+  }
+
+  // ── Section 4: News sentiment ────────────────────────────────────────────────
+  var news      = window.NEWS_DATA;
+  var slugUpper = slug.replace('spx','spy').toUpperCase();
+  if (news && news.assets) {
+    var assetNews = news.assets[slug] || news.assets[slugUpper];
+    if (assetNews && assetNews.articles && assetNews.articles.length) {
+      var score = assetNews.sentiment_score;
+      var label = score > 0.15 ? 'BULLISH' : score < -0.15 ? 'BEARISH' : 'NEUTRAL';
+      prompt += '\n── NEWS SENTIMENT (' + (d.symbol || slug.toUpperCase()) + ') ──\n';
+      prompt += '  Overall: ' + label + ' (score: ' + (score >= 0 ? '+' : '') + score.toFixed(3) + ')\n';
+      assetNews.articles.slice(0, 3).forEach(function(a) {
+        prompt += '  • [' + a.sentiment + '] ' + a.title + '\n';
+      });
+    }
+  }
+
+  // ── Section 5: Task ──────────────────────────────────────────────────────────
+  prompt +=
+'\n── YOUR TASK ──\n' +
+'Using all the above context:\n' +
 '  1. Identify any chart patterns (triangles, flags, H&S, wedges)\n' +
 '  2. Mark key support and resistance levels\n' +
-'  3. Confirm or revise the signal score\n' +
-'  4. Provide: entry zone, stop loss, target 1, target 2\n' +
-'  5. Final verdict: BUY / SELL / WAIT\n\n' +
-'[PASTE YOUR OHLC JSON BELOW THIS LINE]';
+'  3. Factor in the calendar events — are any in the next 24–48h?\n' +
+'  4. Consider news sentiment as a confluence factor\n' +
+'  5. Confirm or revise the AI verdict above\n' +
+'  6. Final output: entry, stop loss, target 1, target 2, verdict (BUY/SELL/WAIT)\n\n' +
+'[PASTE YOUR OHLC JSON BELOW THIS LINE IF AVAILABLE]';
 
   el('prompt-box').value = prompt;
 }
