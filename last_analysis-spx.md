@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-06-08
-**Generated:** 2026-06-09T10:01:03Z
+**Date:** 2026-06-09
+**Generated:** 2026-06-09T17:07:00Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,22 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 0/10 |
+| **Support** | 724.02, 718.0, 710.0 |
+| **Resistance** | 735.0, 740.0, 750.0 |
 
 ---
 
 ## Analysis
 
-The trend structure remains strongly bullish, with price at 739.22 well above both the EMA 50 (723.87) and EMA 200 (689.58). The EMA alignment confirms a clear uptrend, and price action continues to respect higher lows. However, the current price is extended relative to the EMA 50, and there is no immediate pullback or consolidation pattern to offer a favorable entry. The lack of any candlestick patterns in the last five sessions suggests indecision or a pause, not a clear continuation signal.
+The EMA trend is strongly bullish (price above both 50 and 200 EMAs), but price action does not confirm momentum. The current price of 727.78 is only marginally above the EMA 50 (724.02), and the MACD is bearish with the line below the signal line and a negative histogram (-4.10). This divergence between the trend direction and momentum indicators suggests a loss of upside conviction. The RSI at 42.58 is neutral but leaning bearish, which further undermines the strength of the uptrend.
 
-The RSI at 50.76 is neutral, showing no overbought or oversold condition, but also no momentum divergence. The MACD is bearish, with the line below the signal line and a negative histogram (-2.88). This creates a clear divergence between the strong price trend and weakening momentum. Without a bullish MACD crossover or a confirmed pullback to support, the risk of a mean-reversion move or a deeper correction is elevated. There are no visible chart patterns such as flags, triangles, or double tops/bottoms to provide a clear tactical edge.
+No candlestick patterns or chart structures (flags, triangles, double tops/bottoms) are detected in the last five candles, indicating a lack of clear short-term setup. The signal score of 0/10 reflects the absence of confluence between trend and oscillators. The ATR of 8.82 points suggests moderate volatility, but without a clear trigger or pattern, entering a position would be speculative.
 
-Key support levels are the EMA 50 at 723.87 and the prior swing low near 715. Resistance is psychological at 740 and the recent high near 745. Given the neutral RSI, bearish MACD, and absence of a pattern, the best trade setup is to wait for either a pullback to the EMA 50 (for a long entry) or a bearish breakdown below 723.87 (for a short). Neither condition is met now. The signal score of 0/10 is confirmed, as no actionable edge exists.
+Key support lies at the EMA 50 (724.02), followed by the psychological 718 area and the 710 level. Resistance is near 735 (recent swing high), then 740 and 750. The best trade setup currently is no trade — waiting for either a bullish re-confirmation (price holding above EMA 50 with MACD turning up) or a bearish breakdown below support to establish a short bias.
 
 ---
 
 ## Invalidation
 
-A decisive break and close above 745 with a bullish MACD crossover would invalidate the wait stance and turn the setup into a buy opportunity.
+This WAIT call is invalidated if price breaks and closes decisively above 735 with a bullish MACD crossover, or if it breaks below 724 with accelerating bearish momentum.
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
 **Date:** 2026-06-09
-**Generated:** 2026-06-09T10:00:39Z
+**Generated:** 2026-06-09T17:06:19Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 |
+| **Score** | 5/10 confirmed |
+| **Support** | 1.3311, 1.327, 1.32 |
+| **Resistance** | 1.3407, 1.3439, 1.35 |
 
 ---
 
 ## Analysis
 
-The EMA structure shows a bearish alignment relative to current price: price at 1.33806 is below both the EMA 50 (1.34387) and EMA 200 (1.34066), which typically indicates a bearish bias. However, the pre-calculated trend label says “BULLISH BIAS,” which contradicts the EMA positioning. This suggests the bullish bias may be based on longer-term structure or prior momentum, but the daily price action is currently trading below both key moving averages. Therefore, trend confirmation is weak — price does not confirm the bullish EMA trend; instead, it shows a short-term bearish tilt.
+Price at 1.33744 is trading below both the EMA50 (1.34385) and EMA200 (1.34065), which typically indicates a bearish short-term bias despite a possible longer-term bullish cross. The “BULLISH BIAS” label likely refers to the EMA50 being above the EMA200, but current price action does not confirm an uptrend—price is below key moving averages and failing to hold above them. The RSI at 42.82 is neutral but marginally bearish, and the MACD confirms bearish momentum with the line below the signal line and a negative histogram. These two oscillators agree that sellers are currently in control, contradicting any bullish trend claim.  
 
-No clear chart patterns such as triangles, flags, or double tops/bottoms are evident from the data provided. The candlestick sequence — Bearish Engulfing, two Dojis, then a Morning Star — indicates indecision followed by a potential bullish reversal attempt. However, the Morning Star is the most recent pattern and could signal a bounce, but it has not yet been confirmed by follow-through price action above the EMA 200 (1.34066). Key resistance is at 1.34066–1.34387 (EMA 200 and EMA 50 zone), while support lies near 1.33200 (prior swing low area) and 1.33000 (psychological level).
+The recent candlestick sequence shows a Bearish Engulfing, followed by two Doji candles, and then a Morning Star pattern. A Morning Star is a bullish reversal signal when it appears after a decline, suggesting a potential bounce. However, the preceding bearish engulfing and dojis indicate indecision and a possible false breakout. Without price closing above the EMA200 resistance (1.3407) or breaking the recent swing high, the reversal is not yet confirmed. No additional chart patterns like triangles, flags, or double tops/bottoms can be reliably inferred from the given data alone.  
 
-RSI at 43.8 is neutral but slightly bearish (below 50), and MACD is bearish with the line below the signal line and a negative histogram. Both indicators agree with the short-term bearish momentum, not the stated bullish bias. There is no RSI divergence to suggest an imminent reversal. The confluence of RSI and MACD points to continued downside pressure or sideways consolidation, not a strong buy signal. The Morning Star pattern offers a glimmer of bullish hope, but it lacks confirmation from momentum indicators.
-
-Given the mixed signals — bearish EMA alignment, bearish MACD/RSI, but a bullish candlestick pattern and a neutral-to-bullish trend label — the prudent action is to wait. No single trade setup offers a high-probability entry. A buy would require price reclaiming the EMA 200 (1.34066) with RSI above 50 and MACD crossing bullish. A sell would require a breakdown below 1.33200 with confirmation. Neither condition is met now.
+Key support levels are derived from the ATR (63 pips) and nearby round numbers: 1.3311 (current minus ATR), then 1.3270 and 1.3200 as deeper supports. Resistance is immediate at the EMA200 (1.3407), followed by EMA50 (1.3439) and psychological 1.3500. The mixed signals—bearish momentum (MACD, RSI) vs. a nascent bullish candlestick pattern—create a high-risk environment. A trade entry now would require a clear breakout above EMA200 with volume, or a retest of support with a bullish confirmation. The signal score of 5/10 reflects this neutral-to-bearish bias, and no adjustment is warranted at this time.
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if price breaks and closes above 1.34400 (above EMA 50) with RSI turning above 50, or if price breaks below 1.33200 with increasing bearish momentum.
+A close below 1.3311 (current price minus ATR) would reject the Morning Star and confirm continued bearish pressure, while a decisive close above 1.3439 (EMA50) would shift bias toward a bullish trade setup.
 
 ---
 

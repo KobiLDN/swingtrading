@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
 **Date:** 2026-06-09
-**Generated:** 2026-06-09T10:00:56Z
+**Generated:** 2026-06-09T17:06:51Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,20 +10,40 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 4327.07 |
-| **Stop Loss** | 4400.00 |
-| **Target 1** | 4260.00 |
-| **Target 2** | 4180.00 |
-| **Risk/Reward** | 1:1.48 (calculated as average of targets) |
-| **Score** | 5/10 |
+| **Decision** | N/A |
+| **Confidence** | N/A |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | N/A |
+| **Support** | N/A |
+| **Resistance** | N/A |
 
 ---
 
 ## Analysis
 
-The daily chart confirms a strong downtrend with price well below both the EMA50 (4548.4) and EMA200 (4584.66), and the EMA structure is bearishly aligned. The recent candlestick sequence—a Doji, another Doji, then an Evening Star—suggests a brief pause followed by a bearish reversal. Although the last two Dojis indicate indecision, the Evening Star pattern often signals a continuation of the
+Here is the structured trading decision based on the provided XAU/USD daily chart data.
+
+**DECISION:** WAIT  
+**CONFIDENCE:** LOW  
+**ENTRY:** N/A  
+**STOP_LOSS:** N/A  
+**TARGET_1:** N/A  
+**TARGET_2:** N/A  
+**RISK_REWARD:** N/A  
+**SCORE:** 4/10 (revised from 6/10 due to conflicting signals)  
+**SUPPORT_LEVELS:** 4183.25, 4100.00, 4000.00  
+**RESISTANCE_LEVELS:** 4331.00, 4450.00, 4545.68 (EMA 50)
+
+**ANALYSIS:**  
+The trend is undeniably bearish, with the price ($4257.62) trading far below both the 50-period EMA ($4545.68) and the 200-period EMA ($4583.97). The sequence of evening star, doji, and doji candles confirms ongoing selling pressure and indecision near the lows. However, the **RSI at 27.4 (oversold)** presents a critical conflict. In a strong downtrend, oversold readings do not automatically signal a reversal; they indicate extreme momentum that can persist. Selling into oversold RSI conditions with the price already at a daily low is a high-risk, low-reward trade because the market is exhausted to the downside in the short term.
+
+The MACD remains bearish (line below signal) with a negative histogram, confirming the trend. There is no bullish divergence. The primary conflict is that the downtrend is mature (price far from EMAs, RSI oversold), yet there is no confirmed reversal pattern like a bullish engulfing or a hammer. The signal score of 6/10 appears too optimistic; I would downgrade it because the confluence of a strong downtrend + oversold RSI is a warning sign for momentum traders but not a reliable continuation entry point without a bounce first. Waiting for a retest of resistance (near $4331 or the broken EMA area) before shorting, or for a bullish confirmation pattern to buy a bounce, is the lower-risk approach.
+
+**INVALIDATION:** This WAIT call is invalidated if price breaks and closes decisively below the $4183 support zone, which would trigger a new wave of selling and create a more favorable short entry after a potential retest.
 
 ---
 
