@@ -2,16 +2,6 @@
 
 ## Backlog
 
-### Step 4 — Economic calendar + news
-- Twelve Data `/economic_calendar` endpoint (no new API key) → upcoming high-impact events panel on dashboard
-- Alpha Vantage news sentiment for FOREX:GBPUSD (needs `ALPHA_VANTAGE_API_KEY` secret) → headlines feed
-- Visual warning flag when high-impact event within 2 days (does not affect score)
-
-### Step 5 — Backtesting script
-- Python script replaying 2 years of GBP/USD daily data through all 9 pattern detectors
-- Results split by regime (trending vs consolidation) and volatility (ATR > 100 vs < 70 pips)
-- Output: `Trading/backtesting.md` with win-rate per pattern per regime
-
 ### Parked
 - **EUR/USD pair expansion** — covered by Step 1/2 architecture; add after Gold + SPX proven
 - **USD/JPY pair expansion** — same; JPY safe-haven and BOJ intervention risk as additional characteristics
@@ -62,3 +52,5 @@
 - **Traders sidebar + Wikipedia links** — `Trading/traders.html` sticky sidebar replaces jump-chip grid with 10 traders grouped by archetype (Quant / Macro / Technical / Value / Trend), colour dots matching card border colours, scroll spy highlights active trader; Wikipedia link on every trader card; Back to top button in sidebar
 
 - **Sims multi-agent integration** — `generate_analysis.py` writes `sims/topic-{slug}.txt` after each daily analysis run; one-paragraph debate prompt covering signal score, AI verdict, entry/stop/targets, R/R, indicators, patterns, and invalidation with a challenge question; workflow commits all three files (`sims/topic-gbpusd.txt`, `sims/topic-xauusd.txt`, `sims/topic-spx.txt`) so raw GitHub URLs are always live for the Sims Load button
+
+- **News sentiment feed (Step 4 complete)** — `update_news.py` fetches Alpha Vantage `NEWS_SENTIMENT` for `FOREX:GBPUSD`, `FOREX:XAUUSD`, and `EQUITY:SPY`; 8 latest articles per asset with per-ticker sentiment score, source, timestamp, and summary; writes `news-data.js`; `generate-analysis.yml` runs it daily at 06:10 UTC using `ALPHA_VANTAGE_API_KEY` secret; dashboard shows news card below economic calendar — switches per asset pill, Bullish/Bearish/Neutral badge, clickable headline links; hidden when no data
