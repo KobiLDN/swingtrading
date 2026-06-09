@@ -51,6 +51,8 @@
 
 - **Traders sidebar + Wikipedia links** — `Trading/traders.html` sticky sidebar replaces jump-chip grid with 10 traders grouped by archetype (Quant / Macro / Technical / Value / Trend), colour dots matching card border colours, scroll spy highlights active trader; Wikipedia link on every trader card; Back to top button in sidebar
 
+- **Dual-source economic calendar** — `update_calendar.py` fetches from Forex Factory JSON (primary, no API key, always populated) and Twelve Data (supplementary); events merged and deduplicated by date/currency/title; `nextweek.json` 404 handled gracefully; calendar card now reliably shows events every week
+
 - **Sims multi-agent integration** — `generate_analysis.py` writes `sims/topic-{slug}.txt` after each daily analysis run; one-paragraph debate prompt covering signal score, AI verdict, entry/stop/targets, R/R, indicators, patterns, and invalidation with a challenge question; workflow commits all three files (`sims/topic-gbpusd.txt`, `sims/topic-xauusd.txt`, `sims/topic-spx.txt`) so raw GitHub URLs are always live for the Sims Load button
 
 - **News sentiment feed (Step 4 complete)** — `update_news.py` fetches Alpha Vantage `NEWS_SENTIMENT` for `FOREX:GBPUSD`, `FOREX:XAUUSD`, and `EQUITY:SPY`; 8 latest articles per asset with per-ticker sentiment score, source, timestamp, and summary; writes `news-data.js`; `generate-analysis.yml` runs it daily at 06:10 UTC using `ALPHA_VANTAGE_API_KEY` secret; dashboard shows news card below economic calendar — switches per asset pill, Bullish/Bearish/Neutral badge, clickable headline links; hidden when no data

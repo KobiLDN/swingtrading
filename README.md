@@ -9,6 +9,7 @@ A multi-asset swing trading knowledge base and AI-powered analysis dashboard cov
 ## What it does
 
 - Fetches 200 daily candles for GBP/USD, XAU/USD, and SPX (SPY) from Twelve Data every weekday at 06:00 UTC
+- Fetches the economic calendar from **Forex Factory** (primary) + Twelve Data (supplementary), merged and deduplicated
 - Calculates RSI(14), MACD(12,26,9), EMA(50/200), ATR(14) per asset
 - Detects 9 candlestick patterns on the last 5 candles
 - Scores the setup 0–10 using confluence rules from the encyclopedia
