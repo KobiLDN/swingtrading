@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legendary Traders — GBP/USD Swing Trading</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles/site.css">
+<script>
+  (function(){ var t=localStorage.getItem('theme')||'dark'; document.documentElement.setAttribute('data-theme',t); })();
+</script>
+<style>
+  :root {
+    --bg:       #0d0f14;
+    --surface:  #161b22;
+    --surface2: #1e2530;
+    --border:   #2d3748;
+    --text:     #e2e8f0;
+    --muted:    #8892a4;
+    --accent:   #00d4ff;
+    --accent2:  #ff4d6d;
+    --green:    #22c55e;
+    --red:      #ef4444;
+    --yellow:   #f59e0b;
+    --orange:   #fb923c;
+    --purple:   #a855f7;
+    --font:     'Inter', sans-serif;
+    --mono:     'JetBrains Mono', monospace;
+    --radius:   8px;
+    --max-w:    960px;
+  }
+  html[data-theme="light"] {
+    --bg:       #f0f4f8;
+    --surface:  #ffffff;
+    --surface2: #e8edf4;
+    --border:   #cbd5e1;
+    --text:     #1a202c;
+    --muted:    #64748b;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: var(--bg); }
+  body { font-family: var(--font); background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.5; min-height: 100vh; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+
+  /* ── Page layout ── */
+  .page-body { display: flex; max-width: 1160px; margin: 0 auto; }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    width: 188px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 58px;
+    height: calc(100vh - 58px);
+    overflow-y: auto;
+    padding: 20px 0 24px 16px;
+    border-right: 1px solid var(--border);
+  }
+  .sidebar-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    padding-left: 4px;
+  }
+  .sidebar-nav { display: flex; flex-direction: column; gap: 2px; }
+  .sidebar-category {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 10px 10px 3px;
+    opacity: 0.55;
+  }
+  .nav-pill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--muted);
+    padding: 6px 10px;
+    border-radius: var(--radius);
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: color .15s, background .15s, border-color .15s;
+    white-space: nowrap;
+  }
+  .nav-pill:hover { color: var(--text); background: var(--surface2); border-color: var(--border); text-decoration: none; }
+  .nav-pill.active { color: var(--accent); background: rgba(0,212,255,.07); border-color: rgba(0,212,255,.25); }
+  .nav-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .back-top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-family: var(--mono);
+    color: var(--muted);
+    padding: 5px 10px;
+    margin: 0 4px 10px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--surface2);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color .15s, border-color .15s;
+  }
+  .back-top:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+  .wiki-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    color: var(--muted);
+    text-decoration: none;
+    margin-top: 7px;
+    transition: color .15s;
+  }
+  .wiki-link:hover { color: var(--accent); text-decoration: none; }
+  .wiki-link::after { content: '↗'; font-size: 10px; }
+
+  /* ── Hero ── */
+  .hero { max-width: 1160px; margin: 0 auto; padding: 36px 24px 20px; }
+  .hero h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 6px; }
+  .hero p { font-size: 13px; color: var(--muted); line-height: 1.7; max-width: 600px; }
+
+  /* ── Main content ── */
+  .container { flex: 1; min-width: 0; padding: 24px 28px 48px; display: flex; flex-direction: column; gap: 24px; }
+
+  /* Trader card */
+  .trader-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .trader-card.featured { border-color: rgba(0,212,255,.35); box-shadow: 0 0 0 1px rgba(0,212,255,.1); }
+  .trader-card.macro   { border-left: 3px solid var(--yellow); }
+  .trader-card.quant   { border-left: 3px solid var(--accent); }
+  .trader-card.technical { border-left: 3px solid var(--green); }
+  .trader-card.value   { border-left: 3px solid var(--orange); }
+  .trader-card.trend   { border-left: 3px solid var(--purple); }
+
+  /* Card header */
+  .card-head { padding: 20px 24px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .trader-name { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; margin-bottom: 4px; }
+  .trader-meta { font-size: 11px; color: var(--muted); margin-bottom: 8px; font-family: var(--mono); }
+  .tag-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { display: inline-flex; align-items: center; font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; padding: 3px 10px; border-radius: 10px; border: 1px solid; }
+  .tag-quant    { background: rgba(0,212,255,.12);  color: var(--accent); border-color: rgba(0,212,255,.3); }
+  .tag-macro    { background: rgba(245,158,11,.12); color: var(--yellow); border-color: rgba(245,158,11,.3); }
+  .tag-tech     { background: rgba(34,197,94,.12);  color: var(--green);  border-color: rgba(34,197,94,.3); }
+  .tag-value    { background: rgba(251,146,60,.12); color: var(--orange); border-color: rgba(251,146,60,.3); }
+  .tag-trend    { background: rgba(168,85,247,.12); color: var(--purple); border-color: rgba(168,85,247,.3); }
+  .tag-psych    { background: rgba(239,68,68,.12);  color: var(--red);    border-color: rgba(239,68,68,.3); }
+  .tag-swing    { background: rgba(34,197,94,.08);  color: var(--green);  border-color: rgba(34,197,94,.2); }
+
+  /* Return stats */
+  .return-stats { display: flex; gap: 10px; flex-wrap: wrap; }
+  .stat-box { text-align: center; background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius); padding: 8px 14px; min-width: 80px; }
+  .stat-num { font-family: var(--mono); font-size: 18px; font-weight: 700; line-height: 1.1; }
+  .stat-label { font-size: 9px; color: var(--muted); margin-top: 2px; line-height: 1.3; }
+
+  /* Card body */
+  .card-body { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+  .card-col { padding: 20px 24px; }
+  .card-col + .card-col { border-left: 1px solid var(--border); }
+
+  .sub-h { font-size: 10px; font-weight: 700; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 10px; margin-top: 16px; }
+  .sub-h:first-child { margin-top: 0; }
+
+  .famous-for { font-size: 13px; color: var(--text); line-height: 1.6; }
+
+  /* Stats table */
+  .stat-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .stat-table td { padding: 5px 0; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .stat-table td:first-child { color: var(--muted); width: 45%; padding-right: 8px; }
+  .stat-table td:last-child { font-family: var(--mono); font-weight: 500; }
+  .stat-table tr:last-child td { border-bottom: none; }
+
+  /* Philosophy */
+  .phil-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  .phil-item { font-size: 12px; line-height: 1.55; color: var(--text); padding-left: 14px; position: relative; }
+  .phil-item::before { content: '▸'; position: absolute; left: 0; color: var(--accent); font-size: 10px; top: 2px; }
+
+  /* Quote */
+  blockquote { border-left: 3px solid var(--border); padding: 10px 14px; margin: 0; background: var(--surface2); border-radius: 0 var(--radius) var(--radius) 0; }
+  blockquote p { font-size: 12px; font-style: italic; color: var(--text); line-height: 1.7; }
+  blockquote cite { display: block; font-size: 10px; color: var(--muted); margin-top: 6px; font-style: normal; }
+
+  /* Books */
+  .book-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .book-item { font-size: 12px; color: var(--text); }
+  .book-item em { color: var(--accent); }
+
+  /* Learn note */
+  .learn-note { font-size: 12px; color: var(--muted); line-height: 1.6; background: var(--surface2); border-radius: var(--radius); padding: 10px 12px; border-left: 3px solid var(--green); }
+
+  /* Divider */
+  .archetype-head { padding: 8px 0 4px; display: flex; align-items: center; gap: 12px; }
+  .archetype-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+  .archetype-line { flex: 1; height: 1px; background: var(--border); }
+
+  footer { text-align: center; padding: 24px; font-size: 10px; color: var(--muted); border-top: 1px solid var(--border); margin-top: 24px; }
+
+  @media (max-width: 780px) {
+    .sidebar { display: none; }
+    .page-body { display: block; }
+    .container { padding: 16px 12px 48px; }
+    .card-body { grid-template-columns: 1fr; }
+    .card-col + .card-col { border-left: none; border-top: 1px solid var(--border); }
+    .return-stats { justify-content: flex-start; }
+    .card-head { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-brand">
+      <span class="header-label">// Swing Trading</span>
+    </div>
+    <nav class="site-nav">
+      <a class="site-nav-link" href="../index.html">Dashboard</a>
+      <a class="site-nav-link" href="encyclopedia.html">Encyclopedia</a>
+      <a class="site-nav-link active" href="traders.html">Traders</a>
+    </nav>
+    <div class="header-controls">
+      <button class="theme-btn" onclick="toggleTheme()">☾ / ☀</button>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Legendary Traders</h1>
+  <p>10 profiles — quant pioneers, macro legends, technical masters, and value investors. What each traded, how they performed, and what to take from them for swing trading GBP/USD.</p>
+</div>
+
+<div class="page-body">
+
+<aside class="sidebar">
+  <div class="sidebar-label">Traders</div>
+  <a class="back-top" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">↑ Back to top</a>
+  <nav class="sidebar-nav" id="sidebarNav">
+    <div class="sidebar-category">Quant</div>
+    <a class="nav-pill" href="#simons"><span class="nav-dot" style="background:var(--accent)"></span>Jim Simons</a>
+    <div class="sidebar-category">Macro</div>
+    <a class="nav-pill" href="#soros"><span class="nav-dot" style="background:var(--yellow)"></span>George Soros</a>
+    <a class="nav-pill" href="#tudor"><span class="nav-dot" style="background:var(--yellow)"></span>Paul Tudor Jones</a>
+    <a class="nav-pill" href="#druck"><span class="nav-dot" style="background:var(--yellow)"></span>S. Druckenmiller</a>
+    <div class="sidebar-category">Technical</div>
+    <a class="nav-pill" href="#livermore"><span class="nav-dot" style="background:var(--green)"></span>Jesse Livermore</a>
+    <a class="nav-pill" href="#darvas"><span class="nav-dot" style="background:var(--green)"></span>Nicolas Darvas</a>
+    <a class="nav-pill" href="#minervini"><span class="nav-dot" style="background:var(--green)"></span>Mark Minervini</a>
+    <a class="nav-pill" href="#oneil"><span class="nav-dot" style="background:var(--green)"></span>William O'Neil</a>
+    <div class="sidebar-category">Value</div>
+    <a class="nav-pill" href="#buffett"><span class="nav-dot" style="background:var(--orange)"></span>Warren Buffett</a>
+    <div class="sidebar-category">Trend</div>
+    <a class="nav-pill" href="#seykota"><span class="nav-dot" style="background:var(--purple)"></span>Ed Seykota</a>
+  </nav>
+</aside>
+
+<main class="container">
+
+  <!-- ── QUANT ── -->
+  <div class="archetype-head"><span class="archetype-label">Quant Pioneer</span><span class="archetype-line"></span></div>
+
+  <!-- Jim Simons -->
+  <div class="trader-card featured quant" id="simons">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">Jim Simons</div>
+        <div class="trader-meta">1938 – 2024 &nbsp;·&nbsp; Renaissance Technologies &nbsp;·&nbsp; Medallion Fund</div>
+        <div class="tag-row">
+          <span class="tag tag-quant">Quant Pioneer</span>
+          <span class="tag tag-macro">Maths / Physics</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Jim_Simons" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--accent)">66%</div><div class="stat-label">Gross annual<br>since 1988</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">39%</div><div class="stat-label">Net after<br>fees</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">+98%</div><div class="stat-label">2008 gross<br>(S&P −38%)</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">+76%</div><div class="stat-label">2020<br>gross</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--text)">$23M</div><div class="stat-label">From $1K<br>in 1988</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">Founded <strong>Monemetrics</strong> in 1978 with Howard L. Morgan (renamed <strong>Renaissance Technologies</strong> in 1982). Its Medallion Fund is the most successful hedge fund in history — 66% annual gross returns since 1988, never a losing year. Simons was a mathematician, former NSA codebreaker, and winner of the 1976 Oswald Veblen Prize in geometry. He hired physicists, statisticians, and computer scientists — not traders. Medallion closed to outside investors in 1993. The firm had $130 billion AUM by 2021. Mathematician Isadore Singer described the East Setauket office as <em>"the best physics and mathematics department in the world."</em></div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>Founded</td><td>1978 (as Monemetrics) → renamed Renaissance 1982</td></tr>
+          <tr><td>Co-founder</td><td>Howard L. Morgan</td></tr>
+          <tr><td>AUM</td><td>$130 billion (April 2021)</td></tr>
+          <tr><td>Employees</td><td>~310 total · ~150 researchers · ~half hold PhDs</td></tr>
+          <tr><td>Gross annual return</td><td style="color:var(--accent)">66% since 1988 · 71.8% (1994–2014)</td></tr>
+          <tr><td>Net annual return</td><td style="color:var(--green)">39% after fees</td></tr>
+          <tr><td>Fees</td><td>5% management + 44% performance fee</td></tr>
+          <tr><td>2008 (crash year)</td><td style="color:var(--green)">+98.2% gross · +82.4% net (S&amp;P lost 38.5%)</td></tr>
+          <tr><td>2020</td><td style="color:var(--green)">+76% gross</td></tr>
+          <tr><td>Worst year (2001–2013)</td><td style="color:var(--green)">+21% — worst year was still a gain</td></tr>
+          <tr><td>Total profits</td><td>$100B+ since 1988</td></tr>
+          <tr><td>IRS settlement (2021)</td><td style="color:var(--red)">Up to $7 billion — among largest in US history</td></tr>
+          <tr><td>Data processed</td><td>Petabyte-scale warehouses · 9TB per day</td></tr>
+          <tr><td>Outside investors</td><td>Closed since 1993 · employees &amp; families only</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">Pure mathematical models — no human intuition or market "feel"</li>
+          <li class="phil-item">Pattern recognition in data going back to the 1800s — including stock market data from before modern exchanges</li>
+          <li class="phil-item">Didn't care <em>why</em> patterns exist — only that they occurred predictably and profitably</li>
+          <li class="phil-item">Hired mathematicians, physicists, and computational linguists — not traders or economists</li>
+          <li class="phil-item">Fully automated: data collection, feature extraction, signal discovery, and execution all end-to-end</li>
+          <li class="phil-item">Models built to profit from crashes and Black Swan events (2008: +98% gross while market lost 38%)</li>
+          <li class="phil-item">Explored statistical correlations across commodities, currencies, futures, and equities simultaneously</li>
+        </ul>
+        <div class="sub-h">Quant Context</div>
+        <div class="learn-note" style="border-left-color:var(--accent);margin-bottom:0">Simons wasn't the first quant — <strong>Edward Thorp</strong> (the "Father of Quantitative Investing") applied mathematical models to markets in the 1960s–80s. Other major quant firms: Citadel Securities, D.E. Shaw &amp; Co., AQR Capital Management. What made Renaissance unique was full automation of the signal-discovery pipeline itself — the algorithm found the patterns; humans didn't derive them manually.</div>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"I don't want to have to worry about the market every minute. I want models that will make money while I sleep. A pure system without humans interfering."</p>
+          <cite>— Jim Simons</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list">
+          <li class="book-item">📘 <em>The Man Who Solved the Market</em> — Gregory Zuckerman (2019)</li>
+        </ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">Simons proves patterns repeat. You don't have discretionary quant infrastructure — but your encyclopedia's scoring system and pattern detection rules ARE a simplified version of this logic. Trust the system over your gut.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MACRO ── -->
+  <div class="archetype-head"><span class="archetype-label">Macro Legends</span><span class="archetype-line"></span></div>
+
+  <!-- George Soros -->
+  <div class="trader-card macro" id="soros">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">George Soros</div>
+        <div class="trader-meta">b. 1930 &nbsp;·&nbsp; Soros Fund Management &nbsp;·&nbsp; Quantum Fund</div>
+        <div class="tag-row">
+          <span class="tag tag-macro">Macro Legend</span>
+          <span class="tag tag-macro">GBP/USD Direct</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/George_Soros" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">20%</div><div class="stat-label">Avg annual<br>over 40 years</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">$1.8B</div><div class="stat-label">1992 GBP<br>single trade</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">$32B</div><div class="stat-label">Total profits<br>1973–2010</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">"<strong>Broke the Bank of England</strong>" on 16 September 1992 (Black Wednesday). Shorted £10 billion worth of sterling, earning <strong>$1.8 billion</strong> and forcing the UK to withdraw from the European Exchange Rate Mechanism. Co-founded Soros Fund Management in 1970 with <strong>Jim Rogers</strong>. Averaged 20% annually over four decades, generating $32 billion in total profits by 2010. Developed <strong>Reflexivity theory</strong>: market prices influence the fundamentals they reflect — self-reinforcing loops that create bubbles and crashes.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>Founded</td><td>1970 with Jim Rogers (as hedge fund)</td></tr>
+          <tr><td>Structure (now)</td><td>Family office since early 2010s · $25B AUM (2023)</td></tr>
+          <tr><td>1992 GBP trade</td><td style="color:var(--green)">$1.8 billion profit — Black Wednesday</td></tr>
+          <tr><td>Average annual return</td><td style="color:var(--yellow)">~20% over four decades</td></tr>
+          <tr><td>Total profits 1973–2010</td><td style="color:var(--green)">$32 billion</td></tr>
+          <tr><td>Notable loss — 1994</td><td style="color:var(--red)">−$600M betting against Japanese yen</td></tr>
+          <tr><td>Notable loss — 1998</td><td style="color:var(--red)">−$2B Russian financial crisis</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item"><strong>Reflexivity</strong>: market prices influence the fundamentals they reflect — self-reinforcing loops create bubbles and crashes that can be traded</li>
+          <li class="phil-item">Size into conviction: when right, bet big. The 1992 GBP trade was leveraged 10:1</li>
+          <li class="phil-item">Know your exit before your entry. Protect capital first.</li>
+          <li class="phil-item">Macro first: identify structural imbalances, then find the catalyst</li>
+          <li class="phil-item">Even the best blow up — Soros lost $600M on yen (1994) and $2B in Russia (1998). The difference: he survived both and kept compounding.</li>
+        </ul>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"It's not whether you're right or wrong, but how much money you make when you're right and how much you lose when you're wrong."</p>
+          <cite>— George Soros</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list"><li class="book-item">📘 <em>The Alchemy of Finance</em> — George Soros</li><li class="book-item">📘 <em>The Sages</em> — Charles R. Morris (includes Soros)</li></ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">For GBP/USD: understand the macro backdrop (BOE policy, UK data) before trading technicals. Soros found a structural imbalance — the GBP was overvalued in the ERM — then used technical levels to time a $1.8B entry. Also note: he lost $600M and $2B on wrong macro calls. Even with perfect conviction, size your position — Section 12 loss recovery applies to everyone.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Paul Tudor Jones -->
+  <div class="trader-card macro" id="tudor">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">Paul Tudor Jones</div>
+        <div class="trader-meta">b. 1954 &nbsp;·&nbsp; Tudor Investment Corp &nbsp;·&nbsp; Tudor BVI Fund</div>
+        <div class="tag-row">
+          <span class="tag tag-macro">Macro Trader</span>
+          <span class="tag tag-tech">Technical / Contrarian</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Paul_Tudor_Jones" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">~24%</div><div class="stat-label">Annual avg<br>since 1980</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">+200%</div><div class="stat-label">1987 crash<br>year return</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">Predicted and profited from the <strong>1987 Black Monday crash</strong>. Documented in the <em>Trader</em> documentary (1987), he shorted the market in advance and made approximately $100M in a single day while the Dow fell 22%. Has not had a losing year in 28+ years of running Tudor Investment Corp.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>Fund</td><td>Tudor Investment Corp (1980–)</td></tr>
+          <tr><td>1987 return</td><td style="color:var(--green)">+200%+ (Black Monday)</td></tr>
+          <tr><td>Losing years</td><td style="color:var(--green)">0 in first 28 years</td></tr>
+          <tr><td>R:R target</td><td>5:1 minimum</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">Never average down — cut losses immediately</li>
+          <li class="phil-item">5:1 risk-reward target — risk $1 to make $5</li>
+          <li class="phil-item">Always in control: protect your position at all times</li>
+          <li class="phil-item">Combine macro view with technical entry timing</li>
+          <li class="phil-item">Capital preservation > everything else</li>
+        </ul>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"Where you want to be is always in control, never wishing, always trading, and always protecting your position."</p>
+          <cite>— Paul Tudor Jones, Market Wizards</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list"><li class="book-item">📘 <em>Market Wizards</em> — Jack D. Schwager (features PTJ)</li><li class="book-item">🎬 <em>Trader</em> — 1987 documentary film</li></ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">5:1 R:R means you can be wrong 80% of the time and still profit. Your minimum on this dashboard is 1:2 — consider whether any setup justifies a lower ratio. If not, skip it.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stanley Druckenmiller -->
+  <div class="trader-card macro" id="druck">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">Stanley Druckenmiller</div>
+        <div class="trader-meta">b. 1953 &nbsp;·&nbsp; Duquesne Capital &nbsp;·&nbsp; Soros Fund Management</div>
+        <div class="tag-row">
+          <span class="tag tag-macro">Macro Legend</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Stanley_Druckenmiller" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">30%</div><div class="stat-label">Avg annual<br>Duquesne 30yr</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">0</div><div class="stat-label">Losing years<br>at Duquesne</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">Ran Duquesne Capital for 30 years without a single losing year, averaging 30% annually. Worked with George Soros on the 1992 GBP short — it was Druckenmiller who identified the trade; Soros pushed him to size up 10x. Often called the <strong>greatest macro trader of all time</strong> due to consistency without a losing year.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>Duquesne Capital</td><td>1981–2010 (closed to outside investors)</td></tr>
+          <tr><td>Annual avg return</td><td style="color:var(--yellow)">~30% over 30 years</td></tr>
+          <tr><td>Losing years</td><td style="color:var(--green)">Zero</td></tr>
+          <tr><td>1992 GBP trade</td><td>Identified it; Soros sized it up 10x</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">Concentrate — when you have conviction, bet big. Diversification is for people who don't know what they're doing.</li>
+          <li class="phil-item">Capital preservation first. Never risk the ability to come back tomorrow.</li>
+          <li class="phil-item">Follow earnings and liquidity — they drive all markets</li>
+          <li class="phil-item">Macro framework first, then find the trade with best asymmetry</li>
+        </ul>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"The way to build long-term returns is through preservation of capital and home runs. You can be far more aggressive when you're making good profits."</p>
+          <cite>— Stanley Druckenmiller</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list"><li class="book-item">📘 <em>The New Market Wizards</em> — Schwager (features Druckenmiller)</li></ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">When your score is 8–10 and the macro aligns — size up. Don't trade 1% risk when all signals are green. Druckenmiller's edge was conviction sizing, not finding more setups.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TECHNICAL / SWING ── -->
+  <div class="archetype-head"><span class="archetype-label">Technical &amp; Swing Legends</span><span class="archetype-line"></span></div>
+
+  <!-- Jesse Livermore -->
+  <div class="trader-card technical" id="livermore">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">Jesse Livermore</div>
+        <div class="trader-meta">1877 – 1940 &nbsp;·&nbsp; Independent trader &nbsp;·&nbsp; "The Boy Plunger"</div>
+        <div class="tag-row">
+          <span class="tag tag-tech">Technical Legend</span>
+          <span class="tag tag-psych">Psychology</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Jesse_Livermore" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">$100M</div><div class="stat-label">1929 short<br>(~$1.5B today)</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">Started trading at 14 in bucket shops. Made and lost fortunes multiple times. His most famous trade: <strong>shorted the 1929 crash</strong> and made approximately $100 million (equivalent to ~$1.5B today). Considered the greatest trader of the early 20th century. His story is told in <em>Reminiscences of a Stock Operator</em> (1923) — still required reading 100 years later.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>1929 crash profit</td><td style="color:var(--green)">~$100M ($1.5B today)</td></tr>
+          <tr><td>1907 panic profit</td><td style="color:var(--green)">$1M in one day</td></tr>
+          <tr><td>Times went bankrupt</td><td>4 (always came back)</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">Trade only the "line of least resistance" — with the trend, never against it</li>
+          <li class="phil-item">Wait for the market to confirm your thesis before sizing up</li>
+          <li class="phil-item">"It never was my thinking that made the big money. It always was my sitting."</li>
+          <li class="phil-item">Cut losses without emotion — hope is the enemy of the trader</li>
+          <li class="phil-item">Probe first with a small position, add only if it goes right</li>
+        </ul>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"Markets are never wrong — opinions often are."</p>
+          <cite>— Jesse Livermore, Reminiscences of a Stock Operator</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list"><li class="book-item">📘 <em>Reminiscences of a Stock Operator</em> — Edwin Lefèvre</li><li class="book-item">📘 <em>Jesse Livermore: World's Greatest Stock Trader</em> — Richard Smitten</li></ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">Livermore's regime rule is Section 10 of this encyclopedia. Only trade in the direction of the trend. "Sitting" = holding a winning trade through noise. Most retail traders exit too early.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nicolas Darvas -->
+  <div class="trader-card technical" id="darvas">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">Nicolas Darvas</div>
+        <div class="trader-meta">1920 – 1977 &nbsp;·&nbsp; Independent trader &nbsp;·&nbsp; Professional dancer</div>
+        <div class="tag-row">
+          <span class="tag tag-tech">Technical / Momentum</span>
+          <span class="tag tag-swing">Swing</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Nicolas_Darvas" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">$2.25M</div><div class="stat-label">From $25K<br>in 18 months</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">x90</div><div class="stat-label">Account<br>multiplier</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">A professional ballroom dancer who turned <strong>$25,000 into $2.25 million</strong> in 18 months in 1957–58 using only telegrams and weekly stock tables while touring the world. Invented the <strong>Darvas Box</strong> — a dynamic support/resistance system based on price consolidation boxes. Traded only while the market was making new highs.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>Start capital</td><td>$25,000 (1957)</td></tr>
+          <tr><td>End capital</td><td style="color:var(--green)">$2,250,000 (18 months)</td></tr>
+          <tr><td>Method</td><td>Darvas Box — price consolidation breakouts</td></tr>
+          <tr><td>Tools used</td><td>Telegrams + weekly stock tables only</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">Only buy stocks making new 52-week highs with rising volume</li>
+          <li class="phil-item">The Darvas Box: define a consolidation range, enter on breakout above it</li>
+          <li class="phil-item">Stop loss just below the bottom of the box — automatic</li>
+          <li class="phil-item">Never fight the tape — move with momentum, not against it</li>
+          <li class="phil-item">Ignore news and fundamentals. Price and volume tell you everything.</li>
+        </ul>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"I have no ego in the stock market. If I make a mistake I sell immediately."</p>
+          <cite>— Nicolas Darvas</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list"><li class="book-item">📘 <em>How I Made $2,000,000 in the Stock Market</em> — Nicolas Darvas</li></ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">The Darvas Box is S/R in action — Section 3 of this encyclopedia. Consolidation → breakout → momentum. Apply this to GBP/USD: look for tight range formations before major economic releases.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mark Minervini -->
+  <div class="trader-card technical" id="minervini">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">Mark Minervini</div>
+        <div class="trader-meta">b. 1963 &nbsp;·&nbsp; Minervini Private Access &nbsp;·&nbsp; US Investing Champion</div>
+        <div class="tag-row">
+          <span class="tag tag-tech">Momentum / Swing</span>
+          <span class="tag tag-swing">SEPA Method</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Mark_Minervini" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">155%</div><div class="stat-label">US Investing<br>Championship 1997</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">220%</div><div class="stat-label">Average annual<br>over 5 years</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">Won the <strong>US Investing Championship in 1997</strong> with a 155% return. Averaged 220% annually for 5 consecutive years. Developed the <strong>SEPA method</strong> (Specific Entry Point Analysis) and the <strong>VCP</strong> (Volatility Contraction Pattern) — a low-risk entry method based on progressively tighter consolidations before a breakout.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>US Investing Championship</td><td style="color:var(--green)">155% return (1997)</td></tr>
+          <tr><td>5-year average annual</td><td style="color:var(--yellow)">220%</td></tr>
+          <tr><td>Method</td><td>SEPA + VCP (Volatility Contraction Pattern)</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">VCP: look for contracting volatility before entry — 3–4 tighter pullbacks in a row</li>
+          <li class="phil-item">Only buy in a Stage 2 uptrend — price above 50 EMA above 150 EMA above 200 EMA</li>
+          <li class="phil-item">RSI can stay overbought (70+) for weeks in a strong trend — this is NOT a sell signal</li>
+          <li class="phil-item">Cut losses at 7–8%. No exceptions. No averaging down.</li>
+          <li class="phil-item">The biggest risk is not the position — it's your mindset</li>
+        </ul>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"Risk management is not just about how much you risk per trade — it's about how you think when you're in the trade."</p>
+          <cite>— Mark Minervini</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list"><li class="book-item">📘 <em>Trade Like a Stock Market Wizard</em></li><li class="book-item">📘 <em>Think &amp; Trade Like a Champion</em></li></ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">The Minervini insight on RSI is critical for Section 4 of this encyclopedia: in a strong GBP/USD uptrend, RSI staying above 60 is a sign of strength — not a reason to avoid buys.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- William O'Neil -->
+  <div class="trader-card technical" id="oneil">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">William J. O'Neil</div>
+        <div class="trader-meta">1933 – 2023 &nbsp;·&nbsp; Investor's Business Daily &nbsp;·&nbsp; CAN SLIM</div>
+        <div class="tag-row">
+          <span class="tag tag-tech">Momentum / Growth</span>
+          <span class="tag tag-swing">CAN SLIM</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/William_O%27Neil" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">~40%</div><div class="stat-label">Avg annual<br>William O'Neil &amp; Co</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">Founded <strong>Investor's Business Daily (IBD)</strong> and developed the <strong>CAN SLIM</strong> system — a 7-factor checklist for identifying top-performing stocks before they make their big moves. Studied the greatest stock market winners of the 20th century and identified the common traits they shared before their major runs. <em>Breakouts on below-average volume fail 80%+ of the time</em> is his most cited rule.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>Method</td><td>CAN SLIM (7-factor system)</td></tr>
+          <tr><td>Volume rule</td><td>Breakouts need ≥1.5× avg volume to succeed</td></tr>
+          <tr><td>Stop loss rule</td><td>Cut at 7–8% — no exceptions</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">CAN SLIM: Current earnings, Annual earnings, New product/catalyst, Supply &amp; demand, Leader in sector, Institutional support, Market direction</li>
+          <li class="phil-item">Volume is the truth-teller — breakouts without volume are false</li>
+          <li class="phil-item">Buy near proper pivot points (bases), not extended from them</li>
+          <li class="phil-item">Never average down into a losing position</li>
+        </ul>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"The whole secret to winning in the stock market is to lose the least amount possible when you're not right."</p>
+          <cite>— William J. O'Neil</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list"><li class="book-item">📘 <em>How to Make Money in Stocks</em> — William J. O'Neil</li></ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">O'Neil's volume rule is Section 5 of this encyclopedia. Volume ≥1.5× average on a GBP/USD breakout = valid. Below average = skip it. Directly applies to your S/R breakout scoring.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── VALUE ── -->
+  <div class="archetype-head"><span class="archetype-label">Value / Long-Term</span><span class="archetype-line"></span></div>
+
+  <!-- Warren Buffett -->
+  <div class="trader-card value" id="buffett">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">Warren Buffett</div>
+        <div class="trader-meta">b. 1930 &nbsp;·&nbsp; Berkshire Hathaway &nbsp;·&nbsp; "The Oracle of Omaha"</div>
+        <div class="tag-row">
+          <span class="tag tag-value">Value Investor</span>
+          <span class="tag tag-value">Long-Term</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Warren_Buffett" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--orange)">~20%</div><div class="stat-label">Annual avg<br>since 1965</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">3,800,000%</div><div class="stat-label">Berkshire total<br>return 1965–2023</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">Built <strong>Berkshire Hathaway</strong> from a failing textile mill into one of the world's largest companies. The greatest long-term investor in history — ~20% annual compounding since 1965. Learned from Benjamin Graham (value investing) and Philip Fisher (qualitative analysis). Famous for holding "forever" and only investing in businesses he fully understands.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>Berkshire Hathaway returns</td><td style="color:var(--orange)">~3,800,000% total (1965–2023)</td></tr>
+          <tr><td>Annual average</td><td style="color:var(--orange)">~20% since 1965</td></tr>
+          <tr><td>Preferred holding period</td><td>Forever</td></tr>
+          <tr><td>Fee structure</td><td>Zero — he owns the fund</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">Only invest within your circle of competence</li>
+          <li class="phil-item">Buy wonderful companies at fair prices (not fair companies at wonderful prices)</li>
+          <li class="phil-item">Margin of safety — only buy at a significant discount to intrinsic value</li>
+          <li class="phil-item">Be fearful when others are greedy, greedy when others are fearful</li>
+          <li class="phil-item">Rule 1: Never lose money. Rule 2: Never forget Rule 1.</li>
+        </ul>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price."</p>
+          <cite>— Warren Buffett, Shareholder Letters</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list"><li class="book-item">📘 <em>The Essays of Warren Buffett</em> — Cunningham</li><li class="book-item">📘 <em>Buffett: The Biography</em> — Lowenstein</li><li class="book-item">📘 <em>The Intelligent Investor</em> — Benjamin Graham</li></ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">Buffett's framework is the counter-balance: while you trade short-term, his patience principle applies — only take A+ setups. If the trade isn't a 8–10 score, Buffett wouldn't take it. High selectivity is the common thread.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TREND / SYSTEMATIC ── -->
+  <div class="archetype-head"><span class="archetype-label">Trend Following / Systematic</span><span class="archetype-line"></span></div>
+
+  <!-- Ed Seykota -->
+  <div class="trader-card trend" id="seykota">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">Ed Seykota</div>
+        <div class="trader-meta">b. 1946 &nbsp;·&nbsp; Independent &nbsp;·&nbsp; Trend Following Pioneer</div>
+        <div class="tag-row">
+          <span class="tag tag-trend">Trend Following</span>
+          <span class="tag tag-trend">Systematic</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Ed_Seykota" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--purple)">250,000%</div><div class="stat-label">From $5K to<br>$15M+ over 12yr</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">One of the first systematic trend followers — turned <strong>$5,000 into over $15 million</strong> in a 12-year managed account (250,000% return), documented in <em>Market Wizards</em>. Built one of the first computerised trading systems in the early 1970s. His quote on cutting losses is the most repeated rule in all of trading.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>Managed account</td><td style="color:var(--purple)">$5,000 → $15M+ over 12 years</td></tr>
+          <tr><td>Method</td><td>Systematic trend following</td></tr>
+          <tr><td>Key innovation</td><td>One of first computerised trading systems (early 1970s)</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">The three rules: "(1) Cut losses, (2) Cut losses, (3) Cut losses"</li>
+          <li class="phil-item">Let winners run — never cap upside with arbitrary targets</li>
+          <li class="phil-item">Win or lose, everyone gets what they want from the market</li>
+          <li class="phil-item">Systems remove emotion — program the rules, follow them mechanically</li>
+          <li class="phil-item">Trade only with the trend. If in doubt, stay out.</li>
+        </ul>
+        <div class="sub-h">Signature Quote</div>
+        <blockquote>
+          <p>"The elements of good trading are: (1) cutting losses, (2) cutting losses, and (3) cutting losses. If you can follow these three rules, you may have a chance."</p>
+          <cite>— Ed Seykota, Market Wizards</cite>
+        </blockquote>
+        <div class="sub-h">Books</div>
+        <ul class="book-list"><li class="book-item">📘 <em>Market Wizards</em> — Schwager (features Seykota)</li></ul>
+        <div class="sub-h">Swing Trading Lesson</div>
+        <div class="learn-note">Seykota's mantra IS your stop loss discipline from Section 11 and 12. Place the stop, honour it without exception. The system on this dashboard gives you the signals — your only job is execution and cutting losses.</div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+</div><!-- /page-body -->
+
+<footer>
+  For educational purposes only. Not financial advice.
+  &nbsp;·&nbsp; <a href="encyclopedia.html" style="color:var(--muted)">Encyclopedia</a>
+  &nbsp;·&nbsp; <a href="../index.html" style="color:var(--muted)">Dashboard</a>
+  &nbsp;·&nbsp; <a href="https://github.com/KobiLDN/swingtrading" style="color:var(--muted)">GitHub</a>
+</footer>
+
+<script>
+function toggleTheme() {
+  var t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+  localStorage.setItem('theme', t);
+}
+
+// ── Scroll spy — highlight active trader in sidebar ──
+(function() {
+  var ids = ['simons','soros','tudor','druck','livermore','darvas','minervini','oneil','buffett','seykota'];
+  var pills = {};
+  ids.forEach(function(id) {
+    var el = document.querySelector('a[href="#' + id + '"]');
+    if (el) pills[id] = el;
+  });
+
+  // Mark first one active on load
+  if (pills['simons']) pills['simons'].classList.add('active');
+
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        Object.values(pills).forEach(function(p) { p.classList.remove('active'); });
+        var p = pills[e.target.id];
+        if (p) p.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-10% 0px -75% 0px' });
+
+  ids.forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) obs.observe(el);
+  });
+})();
+</script>
+</body>
+</html>

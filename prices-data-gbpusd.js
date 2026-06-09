@@ -1,4 +1,4 @@
-window.PRICES_DATA = {
+window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
   "generated": "2026-06-09T09:00:44Z",

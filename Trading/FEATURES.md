@@ -56,3 +56,13 @@
 - **Encyclopedia HTML** — full styled HTML version of encyclopedia at `Trading/encyclopedia.html`; fixed left sidebar nav (11 sections, active link scroll spy, smooth scroll); sections 10 (Market Regime) and 11 (Risk Management) added; LAGGING badges on RSI/MACD/EMA; AVWAP sub-section; weekend gap risk in GBP/USD characteristics; recommended reading (12 traders, Market Wizards series, trader archetypes)
 
 - **Encyclopedia expanded (Ariyan's advice)** — VWAP/Anchored VWAP concept; lagging indicator warnings on all momentum indicators; Section 10 Market Regime (trending vs consolidation, regime filter rule, variable isolation for backtesting); Section 11 Risk Management (1–2% rule, position size formula with worked example, R/R minimums, full risk rules table)
+
+- **SPX data fix** — `SPX500USD` invalid on Twelve Data free tier; switched to `SPY` (SPDR S&P 500 ETF) as proxy in `update_prices.py`, `generate_analysis.py`, and both GitHub Actions workflow files
+
+- **Shared CSS standardisation** — `styles/site.css` created as single source of truth for header/nav styles; all 3 pages link to it; fixed encyclopedia header bounce (wrong `max-width` + `justify-content:space-between` vs other pages); standardised `theme-btn` across all pages
+
+- **Encyclopedia search + EMA expansion + collapsible sidebar** — full-width sticky search bar with `/` shortcut, ESC clear, amber highlights, match count; EMA 50/200 section fully expanded for beginners (formula, SMA vs EMA, weight cards, time-context cards, self-fulfilling prophecy); collapsible Books and Momentum sidebar sections with chevron animation; sub-nav items for RSI(14), MACD(12,26,9), EMA 50/200, ATR(14), AVWAP
+
+- **Traders sidebar + Wikipedia links** — sticky sidebar replaces jump-chip grid with 10 traders grouped by archetype (Quant / Macro / Technical / Value / Trend), colour dots, and scroll spy; Wikipedia link on every trader card; Back to top button in sidebar
+
+- **Sims multi-agent integration** — `generate_analysis.py` writes `sims/topic-{slug}.txt` after each daily analysis run; one-paragraph debate prompt covering signal score, AI verdict, entry/stop/targets, R/R, indicators, patterns, and invalidation with a challenge question; workflow commits all three files (`sims/topic-gbpusd.txt`, `sims/topic-xauusd.txt`, `sims/topic-spx.txt`) so raw GitHub URLs are always live and ready for the Sims Load button

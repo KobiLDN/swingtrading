@@ -1,4 +1,4 @@
-window.ANALYSIS_DATA = {
+window.ANALYSIS_DATA_GBPUSD = {
   "generated": "2026-06-09T10:00:39Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",

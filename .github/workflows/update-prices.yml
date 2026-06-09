@@ -23,15 +23,34 @@ jobs:
       - name: Install dependencies
         run: pip install pandas numpy requests python-dotenv
 
-      - name: Run price updater
+      - name: Fetch GBP/USD prices
         env:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+          ASSET: "GBP/USD"
         run: python update_prices.py
+
+      - name: Fetch XAU/USD prices
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+          ASSET: "XAU/USD"
+        run: python update_prices.py || echo "XAU/USD fetch failed — skipping"
+
+      - name: Fetch SPX prices
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+          ASSET: "SPY"
+        run: python update_prices.py || echo "SPY fetch failed — skipping"
+
+      - name: Fetch economic calendar
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+        run: python update_calendar.py || echo "Calendar fetch failed — skipping"
 
       - name: Commit updated data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add prices-data.js prices.json
+          git add prices-data*.js prices*.json
+          git add calendar-data.js 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Update prices — $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push origin main

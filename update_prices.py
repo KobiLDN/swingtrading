@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """
-GBP/USD Price Updater
-Fetches 200 daily candles from Twelve Data, calculates indicators, writes prices-data.js
+Multi-Asset Price Updater
+Fetches 200 daily candles from Twelve Data, calculates indicators, writes prices-data-{slug}.js
 
 Usage:
-    python update_prices.py
+    ASSET="GBP/USD"   python update_prices.py
+    ASSET="XAU/USD"   python update_prices.py
+    ASSET="SPX500USD" python update_prices.py
+    python update_prices.py          # defaults to GBP/USD
 
 Requires:
-    TWELVE_DATA_API_KEY environment variable (or in .env file)
+    TWELVE_DATA_API_KEY environment variable (or .env file)
+    ASSET environment variable (optional, default GBP/USD)
     pip install pandas numpy requests python-dotenv
 """
 
@@ -17,7 +21,6 @@ import json
 import requests
 from datetime import datetime, timezone
 
-# Load .env if present (local runs)
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -35,14 +38,53 @@ except ImportError:
     sys.exit(1)
 
 
-# ── Config ─────────────────────────────────────────────────────────────────────
+# ── Asset config ───────────────────────────────────────────────────────────────
 
-SYMBOL     = "GBP/USD"
-API_KEY    = os.environ.get("TWELVE_DATA_API_KEY", "")
+ASSET_CONFIG = {
+    'GBP/USD': {
+        'slug':      'gbpusd',
+        'decimals':  5,
+        'pip_mult':  10000,   # atr * pip_mult = atr in pips
+        'pip_label': 'pips',
+        'pip_value': 0.0001,  # USD per unit per pip (quote currency = USD)
+    },
+    'XAU/USD': {
+        'slug':      'xauusd',
+        'decimals':  2,
+        'pip_mult':  1,       # ATR already in USD/oz
+        'pip_label': 'pts',
+        'pip_value': 1.0,     # $1 per oz per point
+    },
+    'SPX500USD': {
+        'slug':      'spx',
+        'decimals':  2,
+        'pip_mult':  1,       # ATR already in index points
+        'pip_label': 'pts',
+        'pip_value': 1.0,     # $1 per unit per point (micro CFD basis)
+    },
+    'SPY': {
+        'slug':      'spx',
+        'decimals':  2,
+        'pip_mult':  1,       # ATR already in USD
+        'pip_label': 'pts',
+        'pip_value': 1.0,     # $1 per share per point
+    },
+}
+
+SYMBOL     = os.environ.get('ASSET', 'GBP/USD')
+API_KEY    = os.environ.get('TWELVE_DATA_API_KEY', '')
 OUTPUTSIZE = 200
-INTERVAL   = "1day"
-OUTPUT_JS  = "prices-data.js"
-OUTPUT_JSON = "prices.json"
+INTERVAL   = '1day'
+
+cfg       = ASSET_CONFIG.get(SYMBOL, ASSET_CONFIG['GBP/USD'])
+SLUG      = cfg['slug']
+DECIMALS  = cfg['decimals']
+PIP_MULT  = cfg['pip_mult']
+PIP_LABEL = cfg['pip_label']
+PIP_VALUE = cfg['pip_value']
+
+OUTPUT_JS   = f'prices-data-{SLUG}.js'
+OUTPUT_JSON = f'prices-{SLUG}.json'
 
 
 # ── Indicators ─────────────────────────────────────────────────────────────────
@@ -51,9 +93,9 @@ def calc_ema(series, period):
     return series.ewm(span=period, adjust=False).mean()
 
 def calc_rsi(close, period=14):
-    delta = close.diff()
-    gain  = delta.clip(lower=0)
-    loss  = (-delta).clip(lower=0)
+    delta    = close.diff()
+    gain     = delta.clip(lower=0)
+    loss     = (-delta).clip(lower=0)
     avg_gain = gain.ewm(alpha=1/period, adjust=False).mean()
     avg_loss = loss.ewm(alpha=1/period, adjust=False).mean()
     rs = avg_gain / avg_loss.replace(0, np.nan)
@@ -74,11 +116,11 @@ def calc_atr(high, low, close, period=14):
 
 def add_indicators(df):
     df = df.copy()
-    df['ema50']      = calc_ema(df['close'], 50)
-    df['ema200']     = calc_ema(df['close'], 200)
-    df['rsi']        = calc_rsi(df['close'])
+    df['ema50']       = calc_ema(df['close'], 50)
+    df['ema200']      = calc_ema(df['close'], 200)
+    df['rsi']         = calc_rsi(df['close'])
     df['macd_line'], df['macd_signal'], df['macd_hist'] = calc_macd(df['close'])
-    df['atr']        = calc_atr(df['high'], df['low'], df['close'])
+    df['atr']         = calc_atr(df['high'], df['low'], df['close'])
     return df
 
 
@@ -176,12 +218,7 @@ def score_setup(rsi_val, patterns, divergence, hist_tail):
         elif h_prev > 0 and h_last < h_prev:
             score += 1
     score = min(score, 10)
-    if score >= 8:
-        verdict = 'BUY/SELL'
-    elif score >= 5:
-        verdict = 'WATCH'
-    else:
-        verdict = 'NO TRADE'
+    verdict = 'BUY/SELL' if score >= 8 else 'WATCH' if score >= 5 else 'NO TRADE'
     return score, verdict
 
 
@@ -199,7 +236,7 @@ def fetch_ohlc():
         f"?symbol={SYMBOL}&interval={INTERVAL}&outputsize={OUTPUTSIZE}"
         f"&apikey={API_KEY}&format=JSON"
     )
-    print(f"Fetching {OUTPUTSIZE} candles for {SYMBOL} ...")
+    print(f"Fetching {OUTPUTSIZE} candles for {SYMBOL} ({SLUG}) ...")
     resp = requests.get(url, timeout=30)
     resp.raise_for_status()
     data = resp.json()
@@ -222,14 +259,25 @@ def fetch_ohlc():
 # ── Write outputs ──────────────────────────────────────────────────────────────
 
 def write_outputs(payload):
-    js = f"window.PRICES_DATA = {json.dumps(payload, indent=2)};\n"
+    var_name = f'PRICES_DATA_{SLUG.upper()}'
+
+    js = f"window.{var_name} = {json.dumps(payload, indent=2)};\n"
     with open(OUTPUT_JS, 'w', encoding='utf-8') as f:
         f.write(js)
-    print(f"  Written: {OUTPUT_JS}")
+    print(f"  Written: {OUTPUT_JS}  (window.{var_name})")
 
     with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
         json.dump(payload, f, indent=2)
     print(f"  Written: {OUTPUT_JSON}")
+
+    # Backward compat: GBP/USD also writes the legacy un-suffixed files
+    if SLUG == 'gbpusd':
+        compat_js = f"window.PRICES_DATA = {json.dumps(payload, indent=2)};\n"
+        with open('prices-data.js', 'w', encoding='utf-8') as f:
+            f.write(compat_js)
+        with open('prices.json', 'w', encoding='utf-8') as f:
+            json.dump(payload, f, indent=2)
+        print("  Written: prices-data.js + prices.json  (backward compat)")
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -253,64 +301,55 @@ def main():
     rsi_v = float(last['rsi'])
     atr_v = float(last['atr'])
 
-    if price > e50 > e200:
-        trend = 'STRONG UPTREND'
-    elif price < e50 < e200:
-        trend = 'STRONG DOWNTREND'
-    elif e50 > e200:
-        trend = 'BULLISH BIAS'
-    elif e50 < e200:
-        trend = 'BEARISH BIAS'
-    else:
-        trend = 'NEUTRAL'
+    if price > e50 > e200:     trend = 'STRONG UPTREND'
+    elif price < e50 < e200:   trend = 'STRONG DOWNTREND'
+    elif e50 > e200:           trend = 'BULLISH BIAS'
+    elif e50 < e200:           trend = 'BEARISH BIAS'
+    else:                       trend = 'NEUTRAL'
 
-    hist_tail = df['macd_hist'].tail(3)
-    score, verdict = score_setup(rsi_v, patterns, divergence, hist_tail)
-    macd_hist_improving = False
-    if len(hist_tail) >= 2:
-        h_prev = float(hist_tail.iloc[-2])
-        h_last = float(hist_tail.iloc[-1])
-        if (h_prev < 0 and h_last > h_prev) or (h_prev > 0 and h_last < h_prev):
-            macd_hist_improving = True
+    score, verdict = score_setup(rsi_v, patterns, divergence, df['macd_hist'].tail(3))
 
-    # Last 100 candles for sparkline
     candles = [
         {
             'date':  r['datetime'].strftime('%Y-%m-%d'),
-            'open':  round(float(r['open']), 5),
-            'high':  round(float(r['high']), 5),
-            'low':   round(float(r['low']), 5),
-            'close': round(float(r['close']), 5),
+            'open':  round(float(r['open']),  DECIMALS),
+            'high':  round(float(r['high']),  DECIMALS),
+            'low':   round(float(r['low']),   DECIMALS),
+            'close': round(float(r['close']), DECIMALS),
         }
         for _, r in df.tail(100).iterrows()
     ]
 
     payload = {
-        'symbol':       SYMBOL,
-        'generated':    datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'date':         last['datetime'].strftime('%Y-%m-%d'),
-        'price':        round(price, 5),
-        'atr':          round(atr_v, 5),
-        'atr_pips':     round(atr_v * 10000),
-        'ema50':        round(e50, 5),
-        'ema200':       round(e200, 5),
-        'rsi':          round(rsi_v, 2),
-        'macd_line':    round(float(last['macd_line']), 6),
-        'macd_signal':  round(float(last['macd_signal']), 6),
-        'macd_hist':    round(float(last['macd_hist']), 6),
-        'trend':        trend,
-        'divergence':          divergence,
-        'patterns':            patterns,
-        'score':               score,
-        'verdict':             verdict,
-        'macd_hist_improving': macd_hist_improving,
-        'candles':      candles,
+        'symbol':      SYMBOL,
+        'slug':        SLUG,
+        'generated':   datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'date':        last['datetime'].strftime('%Y-%m-%d'),
+        'price':       round(price, DECIMALS),
+        'atr':         round(atr_v, DECIMALS),
+        'atr_pips':    round(atr_v * PIP_MULT),
+        'pip_label':   PIP_LABEL,
+        'pip_mult':    PIP_MULT,
+        'pip_value':   PIP_VALUE,
+        'decimals':    DECIMALS,
+        'ema50':       round(e50,   DECIMALS),
+        'ema200':      round(e200,  DECIMALS),
+        'rsi':         round(rsi_v, 2),
+        'macd_line':   round(float(last['macd_line']),   6),
+        'macd_signal': round(float(last['macd_signal']), 6),
+        'macd_hist':   round(float(last['macd_hist']),   6),
+        'trend':       trend,
+        'divergence':  divergence,
+        'patterns':    patterns,
+        'score':       score,
+        'verdict':     verdict,
+        'candles':     candles,
     }
 
     write_outputs(payload)
 
     print(f"\n  {SYMBOL}  {last['datetime'].strftime('%Y-%m-%d')}")
-    print(f"  Price: {price:.5f}  |  Trend: {trend}")
+    print(f"  Price: {price:.{DECIMALS}f}  |  Trend: {trend}")
     print(f"  RSI: {rsi_v:.1f}  |  Score: {score}/10  ->  {verdict}")
     for p in patterns:
         print(f"  Pattern: {p['name']} ({p['signal']})")
