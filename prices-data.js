@@ -1,30 +1,24 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-06-09T17:03:39Z",
-  "date": "2026-06-09",
-  "price": 1.33744,
-  "atr": 0.00631,
-  "atr_pips": 63,
+  "generated": "2026-06-10T09:40:45Z",
+  "date": "2026-06-10",
+  "price": 1.33928,
+  "atr": 0.00607,
+  "atr_pips": 61,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34385,
-  "ema200": 1.34065,
-  "rsi": 42.82,
-  "macd_line": -0.00302,
-  "macd_signal": -0.002216,
-  "macd_hist": -0.000804,
+  "ema50": 1.34368,
+  "ema200": 1.34075,
+  "rsi": 45.8,
+  "macd_line": -0.002747,
+  "macd_signal": -0.002317,
+  "macd_hist": -0.00043,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-06-05",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    },
     {
       "date": "2026-06-06",
       "name": "Doji",
@@ -47,13 +41,6 @@ window.PRICES_DATA = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-02",
-      "open": 1.34423,
-      "high": 1.34643,
-      "low": 1.33153,
-      "close": 1.34292
-    },
     {
       "date": "2026-03-03",
       "open": 1.34292,
@@ -745,7 +732,14 @@ window.PRICES_DATA = {
       "open": 1.33389,
       "high": 1.34093,
       "low": 1.33319,
-      "close": 1.33744
+      "close": 1.33789
+    },
+    {
+      "date": "2026-06-10",
+      "open": 1.33788,
+      "high": 1.33978,
+      "low": 1.33687,
+      "close": 1.33928
     }
   ]
 };
