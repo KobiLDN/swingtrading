@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-06-09T18:44:10Z",
+  "generated": "2026-06-10T10:20:00Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-06-09",
-  "decision": "WAIT",
+  "date": "2026-06-10",
+  "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "6/10",
-  "analysis": "The daily chart confirms a strong downtrend with price (4257.62) trading well below both the EMA50 (4545.68) and EMA200 (4583.97). The bearish MACD (line below signal, negative histogram) aligns with this trend, and the recent Evening Star candlestick pattern (following two Dojis) suggests continued selling pressure rather than a reversal. However, the RSI at 27.4 is deeply oversold, which historically can precede a short-term bounce or consolidation. No bullish divergence is present, so the oversold condition alone does not constitute a reversal signal.\n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are evident from the provided data. The price is near a potential psychological support at 4200, with the ATR of 74 points indicating that a move to 4183\u20134200 is plausible. Resistance levels are clustered around 4330 (recent swing high) and 4400, with the EMA50 far above at 4545. The confluence of RSI oversold and bearish MACD creates a mixed picture: the trend and MACD agree on downside, but RSI warns of exhaustion. The signal score of 6/10 reflects this tension.\n\nGiven the strong downtrend and lack of a clear bullish reversal pattern, the best trade setup is to wait for a bounce toward resistance (e.g., 4330\u20134400) to initiate a short position with a favorable risk/reward. Entering a sell at current levels risks a sharp counter-trend rally from oversold conditions, while buying against the trend lacks confirmation. Patience is warranted until price provides a clearer entry point or a reversal pattern (e.g., bullish engulfing, hammer) emerges near support.",
+  "entry": "4174.2",
+  "stop_loss": "4250.0",
+  "target_1": "4100.0",
+  "target_2": "4000.0",
+  "risk_reward": "1:1 (T1) / 1:2.3 (T2)",
+  "score": "6/10 confirmed",
+  "analysis": "The prevailing trend is unequivocally bearish. Price at 4174.2 sits far below both the EMA50 (4531.21) and EMA200 (4579.91), confirming a strong downtrend. The MACD is bearish with the histogram negative and the line below the signal line, aligning with the trend. RSI at 23.3 is oversold, but no bullish divergence exists, meaning the oversold condition does not yet signal a reversal and can persist in a strong downtrend. The candlestick pattern \u2013 an Evening Star preceded by two Dojis \u2013 reinforces bearish momentum after a brief consolidation, suggesting the selling pressure is resuming.\n\nSupport and resistance are inferred from round numbers and recent price action. The nearest resistance is the 4200 psychological level, followed by 4250 (potential prior swing high). Below, 4100 offers immediate support, then 4000 and 3900 as deeper levels. The ATR of 77 points indicates average daily volatility, making a stop at 4250 (roughly 76 pts above entry) reasonable to avoid noise while respecting the recent structure.\n\nThe trade setup targets a continuation of the downtrend. Entry at current price captures immediate momentum, with T1 at 4100 (a round number and likely minor support) and T2 at 4000 (a major psychological level). The risk-reward ratio is acceptable, particularly for T2. However, the oversold RSI introduces a risk of a short-term bounce, so position sizing should be conservative. The signal score of 6/10 reflects the strong trend alignment but penalises the oversold condition and lack of a clean retracement entry.",
   "invalidation": "N/A",
   "support_levels": [
-    4200.0,
-    4150.0,
-    4100.0
+    4100.0,
+    4000.0,
+    3900.0
   ],
   "resistance_levels": [
-    4330.0,
-    4400.0,
-    4500.0
+    4200.0,
+    4250.0,
+    4300.0
   ]
 };
