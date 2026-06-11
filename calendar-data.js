@@ -1,50 +1,6 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-06-10T09:40:46Z",
+  "generated": "2026-06-11T10:06:23Z",
   "events": [
-    {
-      "date": "2026-06-10",
-      "time": "08:30",
-      "currency": "USD",
-      "event": "Core CPI m/m",
-      "impact": "high",
-      "forecast": "0.3%",
-      "previous": "0.4%",
-      "actual": "",
-      "today": true
-    },
-    {
-      "date": "2026-06-10",
-      "time": "08:30",
-      "currency": "USD",
-      "event": "Core CPI y/y",
-      "impact": "high",
-      "forecast": "2.9%",
-      "previous": "2.8%",
-      "actual": "",
-      "today": true
-    },
-    {
-      "date": "2026-06-10",
-      "time": "08:30",
-      "currency": "USD",
-      "event": "CPI m/m",
-      "impact": "high",
-      "forecast": "0.5%",
-      "previous": "0.6%",
-      "actual": "",
-      "today": true
-    },
-    {
-      "date": "2026-06-10",
-      "time": "08:30",
-      "currency": "USD",
-      "event": "CPI y/y",
-      "impact": "high",
-      "forecast": "4.2%",
-      "previous": "3.8%",
-      "actual": "",
-      "today": true
-    },
     {
       "date": "2026-06-11",
       "time": "08:15",
@@ -54,7 +10,7 @@ window.CALENDAR_DATA = {
       "forecast": "2.40%",
       "previous": "2.15%",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-11",
@@ -65,7 +21,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-11",
@@ -76,7 +32,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.5%",
       "previous": "1.0%",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-11",
@@ -87,7 +43,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.7%",
       "previous": "1.4%",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-11",
@@ -98,7 +54,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-12",
