@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-06-10
-**Generated:** 2026-06-10T10:19:25Z
+**Date:** 2026-06-11
+**Generated:** 2026-06-11T10:56:27Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,26 +18,26 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 1.335, 1.33, 1.325 |
-| **Resistance** | 1.3437, 1.345, 1.35 |
+| **Support** | 1.33, 1.325, 1.32 |
+| **Resistance** | 1.3433, 1.35, 1.36 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a bearish bias in the EMA structure, with price at 1.33928 trading below both the 50 EMA (1.34368) and the 200 EMA (1.34075). This confirms a bearish alignment, as price action is failing to reclaim either moving average. The recent candlestick patterns—Doji, Doji, Morning Star—suggest indecision followed by a potential bullish reversal attempt, but the Morning Star has not yet been confirmed by follow-through above the 200 EMA. The overall trend remains bearish until price closes decisively above 1.34075.  
+The EMA structure shows a bearish bias despite the "BULLISH BIAS" label, as price at 1.33618 is trading below both the EMA 50 (1.3433) and EMA 200 (1.3403). This is a clear bearish alignment — price below both key moving averages — contradicting the stated trend label. The price action does not confirm a bullish trend; instead, it suggests a potential downtrend or at least a corrective phase within a larger range. The recent candlestick patterns (Doji, Morning Star, Shooting Star) indicate indecision and failed bullish momentum, with the Shooting Star acting as a bearish reversal signal near the EMA 50.
 
-No clear chart patterns like triangles, flags, or double tops/bottoms are evident on the daily timeframe. The price is hovering near the 200 EMA, which often acts as a dynamic resistance/support zone. The nearest support below is the 1.3350 area (prior swing low), followed by 1.3300 and 1.3250. Resistance sits at the 50 EMA (1.3437), then 1.3450 (recent high), and 1.3500 (psychological level).  
+No clear chart patterns like triangles, flags, or double tops/bottoms are immediately evident from the data. However, the price is hovering near a potential support zone around 1.3300 (a psychological level and prior swing low area), with resistance at the EMA 50 (1.3433) and the EMA 200 (1.3403). The proximity of both EMAs creates a resistance cluster between 1.3403 and 1.3433, which has capped price recently. A break below 1.3300 could open the door to 1.3250 and 1.3200.
 
-RSI at 45.8 is neutral but slightly bearish, showing no divergence. MACD is bearish with the line below the signal line and a negative histogram, confirming downward momentum. These oscillators agree with the bearish EMA trend, but the Morning Star pattern introduces a conflicting bullish signal. The signal score of 5/10 reflects this mixed picture—neither strong bearish nor strong bullish conviction.  
+RSI at 41.36 is neutral but leaning bearish (below 50), while MACD is bearish with the line below the signal and a negative histogram. Both indicators agree on bearish momentum, but the RSI is not oversold, leaving room for further downside. The lack of RSI divergence and the mixed candlestick patterns (Morning Star followed by Shooting Star) suggest no clear directional conviction. The signal score of 5/10 reflects this ambiguity — the setup is not clean enough for a high-confidence trade.
 
-The single best trade setup is to wait. The bearish trend is intact, but the Morning Star and proximity to the 200 EMA create a high-risk zone for a short entry. A long entry lacks confirmation above the 200 EMA. Patience is warranted until price either breaks below 1.3350 (renewing bearish momentum) or closes above 1.34075 (shifting bias to bullish).
+Given the bearish EMA alignment, bearish MACD, and neutral-to-bearish RSI, a short trade might seem tempting, but the price is near a potential support zone (1.3300) and the recent Doji/Morning Star suggest buyers are attempting to step in. The Shooting Star warns of rejection at resistance, but without a confirmed breakdown below 1.3300, the risk of a false breakout or a bounce is high. The best course is to wait for a clearer signal — either a decisive break below 1.3300 with momentum (for a short) or a reclaim of the EMA 200 (1.3403) with bullish follow-through (for a long).
 
 ---
 
 ## Invalidation
 
-A daily close above 1.3437 (50 EMA) would invalidate the bearish bias and suggest a potential trend reversal, while a break below 1.3350 would confirm continued bearish momentum.
+This setup is invalidated if price breaks and closes above the EMA 200 at 1.3403, as that would shift the bias back to bullish and negate the bearish EMA alignment.
 
 ---
 

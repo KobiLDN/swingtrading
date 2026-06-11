@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-06-10
-**Generated:** 2026-06-10T10:20:00Z
+**Date:** 2026-06-11
+**Generated:** 2026-06-11T10:56:34Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,24 +12,24 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 4174.2 |
-| **Stop Loss** | 4250.0 |
-| **Target 1** | 4100.0 |
-| **Target 2** | 4000.0 |
-| **Risk/Reward** | 1:1 (T1) / 1:2.3 (T2) |
+| **Entry** | 4090.66 |
+| **Stop Loss** | 4175.00 |
+| **Target 1** | 4006.00 |
+| **Target 2** | 3922.00 |
+| **Risk/Reward** | 1:1.5 |
 | **Score** | 6/10 confirmed |
-| **Support** | 4100.0, 4000.0, 3900.0 |
-| **Resistance** | 4200.0, 4250.0, 4300.0 |
+| **Support** | 4006.0, 3922.0, 3850.0 |
+| **Resistance** | 4175.0, 4250.0, 4330.0 |
 
 ---
 
 ## Analysis
 
-The prevailing trend is unequivocally bearish. Price at 4174.2 sits far below both the EMA50 (4531.21) and EMA200 (4579.91), confirming a strong downtrend. The MACD is bearish with the histogram negative and the line below the signal line, aligning with the trend. RSI at 23.3 is oversold, but no bullish divergence exists, meaning the oversold condition does not yet signal a reversal and can persist in a strong downtrend. The candlestick pattern – an Evening Star preceded by two Dojis – reinforces bearish momentum after a brief consolidation, suggesting the selling pressure is resuming.
+The trend is unequivocally bearish. Price at 4090.66 is far below both the EMA 50 (4510.08) and EMA 200 (4581.27), confirming a strong downtrend. The recent candlestick pattern — a Doji, Doji, Evening Star sequence — suggests a bearish reversal after a brief pause, reinforcing the continuation of selling pressure. No bullish reversal patterns (e.g., hammer, engulfing) are present, and the Evening Star is a reliable top reversal signal in a downtrend, indicating that the latest bounce may be exhausted.
 
-Support and resistance are inferred from round numbers and recent price action. The nearest resistance is the 4200 psychological level, followed by 4250 (potential prior swing high). Below, 4100 offers immediate support, then 4000 and 3900 as deeper levels. The ATR of 77 points indicates average daily volatility, making a stop at 4250 (roughly 76 pts above entry) reasonable to avoid noise while respecting the recent structure.
+RSI at 22.11 is deeply oversold, which typically warns of a potential bounce. However, in a strong downtrend, oversold conditions can persist and are not reliable reversal signals without divergence. Since no RSI divergence is detected, the oversold reading aligns with the bearish MACD setup (line below signal, negative histogram). The MACD histogram at -35.14 shows accelerating downside momentum. Both RSI and MACD agree with the trend, not against it, supporting a continuation sell.
 
-The trade setup targets a continuation of the downtrend. Entry at current price captures immediate momentum, with T1 at 4100 (a round number and likely minor support) and T2 at 4000 (a major psychological level). The risk-reward ratio is acceptable, particularly for T2. However, the oversold RSI introduces a risk of a short-term bounce, so position sizing should be conservative. The signal score of 6/10 reflects the strong trend alignment but penalises the oversold condition and lack of a clean retracement entry.
+Key support near current price is the 4006.00 level (a prior swing low from early June). Below that, 3922.00 and 3850.00 are next major supports. Resistance is at 4175.00 (recent minor high), then 4250.00 and 4330.00 (former support turned resistance). The Evening Star pattern’s high around 4175 provides a logical stop-loss level. The risk-reward is favorable if price reaches target 1 (4006) and target 2 (3922), offering a 1:1.5 ratio.
 
 ---
 
