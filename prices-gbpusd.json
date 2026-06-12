@@ -1,21 +1,21 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-06-11T10:06:22Z",
-  "date": "2026-06-11",
-  "price": 1.33618,
-  "atr": 0.00611,
-  "atr_pips": 61,
+  "generated": "2026-06-12T09:56:55Z",
+  "date": "2026-06-12",
+  "price": 1.34198,
+  "atr": 0.00639,
+  "atr_pips": 64,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.3433,
-  "ema200": 1.3403,
-  "rsi": 41.36,
-  "macd_line": -0.002927,
-  "macd_signal": -0.00247,
-  "macd_hist": -0.000457,
+  "ema50": 1.34345,
+  "ema200": 1.34049,
+  "rsi": 50.25,
+  "macd_line": -0.002083,
+  "macd_signal": -0.002323,
+  "macd_hist": 0.00024,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
@@ -36,18 +36,17 @@
       "name": "Shooting Star",
       "signal": "BEARISH REVERSAL",
       "strength": 3
+    },
+    {
+      "date": "2026-06-11",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-04",
-      "open": 1.3358,
-      "high": 1.34038,
-      "low": 1.33055,
-      "close": 1.33756
-    },
     {
       "date": "2026-03-05",
       "open": 1.33756,
@@ -737,9 +736,16 @@
     {
       "date": "2026-06-11",
       "open": 1.33681,
-      "high": 1.33917,
-      "low": 1.33503,
-      "close": 1.33618
+      "high": 1.34318,
+      "low": 1.33266,
+      "close": 1.34165
+    },
+    {
+      "date": "2026-06-12",
+      "open": 1.34163,
+      "high": 1.34263,
+      "low": 1.33846,
+      "close": 1.34198
     }
   ]
 }
