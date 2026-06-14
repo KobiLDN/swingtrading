@@ -59,4 +59,8 @@
 
 - **Sims multi-agent integration** — `generate_analysis.py` writes `sims/topic-{slug}.txt` after each daily analysis run; one-paragraph debate prompt covering signal score, AI verdict, entry/stop/targets, R/R, indicators, patterns, and invalidation with a challenge question; workflow commits all three files (`sims/topic-gbpusd.txt`, `sims/topic-xauusd.txt`, `sims/topic-spx.txt`) so raw GitHub URLs are always live for the Sims Load button
 
+- **Price Overview 3-col layout** — Price data, About This Asset (per-asset description, key drivers, session hours, pip value — switches with asset pill), AI Quick Verdict mini card (BUY/SELL/WAIT, confidence, entry, stop, target 1, R/R); all three in an equal-width `overview-grid`
+
+- **Candlestick Patterns horizontal + guide** — Pattern list now flex-wrap so patterns tile side by side; full-width Pattern Guide card below explains all 9 patterns (Hammer, Shooting Star, Bullish/Bearish Engulfing, Doji, Morning Star, Evening Star, Bullish/Bearish Harami) in auto-fit grid
+
 - **News sentiment feed (Step 4 complete)** — `update_news.py` fetches Alpha Vantage `NEWS_SENTIMENT` for `FOREX:GBPUSD`, `FOREX:XAUUSD`, and `EQUITY:SPY`; 8 latest articles per asset with per-ticker sentiment score, source, timestamp, and summary; writes `news-data.js`; `generate-analysis.yml` runs it daily at 06:10 UTC using `ALPHA_VANTAGE_API_KEY` secret; dashboard shows news card below economic calendar — switches per asset pill, Bullish/Bearish/Neutral badge, clickable headline links; hidden when no data
