@@ -272,7 +272,6 @@
   .verdict-sub { font-size: 12px; color: var(--muted); margin-top: 4px; }
 
   /* ── Patterns ── */
-  .pattern-list { display: flex; flex-direction: column; gap: 8px; }
   .pattern-item {
     display: flex;
     align-items: center;
@@ -584,6 +583,37 @@
   }
   .cal-empty { font-size: 12px; color: var(--muted); font-style: italic; }
 
+  /* ── Overview 3-col grid ── */
+  .overview-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+  /* Asset context card */
+  .ctx-name { font-size: 17px; font-weight: 700; margin-bottom: 2px; }
+  .ctx-aka  { font-size: 10px; font-family: var(--mono); color: var(--accent); letter-spacing: 1px; margin-bottom: 12px; }
+  .ctx-desc { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 12px; }
+  .ctx-row  { font-size: 11px; color: var(--muted); margin-bottom: 6px; line-height: 1.5; }
+  .ctx-row strong { color: var(--text); }
+
+  /* AI verdict mini card */
+  .verdict-mini { display: flex; flex-direction: column; gap: 8px; }
+  .verdict-mini-dec { font-size: 26px; font-weight: 800; font-family: var(--mono); letter-spacing: 1px; }
+  .verdict-mini-row { display: flex; justify-content: space-between; align-items: center; font-size: 12px; padding: 4px 0; border-bottom: 1px solid var(--border); }
+  .verdict-mini-row:last-of-type { border-bottom: none; }
+  .verdict-mini-lbl { color: var(--muted); }
+  .verdict-mini-val { font-family: var(--mono); font-weight: 600; }
+
+  /* Patterns horizontal */
+  .pattern-list { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pattern-item { min-width: 180px; flex: 1; }
+
+  /* Pattern guide grid */
+  .pat-guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    gap: 12px 20px;
+  }
+  .pat-guide-item .exp-term { margin-top: 0; font-size: 11px; }
+  .pat-guide-item .exp-def  { font-size: 11px; }
+
   /* ── Footer ── */
   footer {
     text-align: center;
@@ -651,28 +681,49 @@
     </div>
   </div>
 
-  <!-- Price + Trend -->
-  <div class="card">
-    <div class="card-title">Price Overview</div>
-    <div class="price-hero">
-      <div>
-        <div class="price-val" id="price-val">—</div>
-        <div class="price-sub">
-          ATR(14): <span id="atr-val" style="font-family:var(--mono)">—</span> <span id="atr-label">pips</span> &nbsp;·&nbsp;
-          Daily range guide
+  <!-- Price Overview — 3-column grid -->
+  <div class="overview-grid">
+
+    <!-- Col 1: Price data -->
+    <div class="card">
+      <div class="card-title">Price Overview</div>
+      <div class="price-hero">
+        <div>
+          <div class="price-val" id="price-val">—</div>
+          <div class="price-sub">
+            ATR(14): <span id="atr-val" style="font-family:var(--mono)">—</span> <span id="atr-label">pips</span> &nbsp;·&nbsp;
+            Daily range guide
+          </div>
+          <div class="ema-row" style="margin-top:12px">
+            <span class="ema-tag">EMA 50: <span id="ema50-val">—</span></span>
+            <span class="ema-arrow" id="ema-arrow">—</span>
+            <span class="ema-tag">EMA 200: <span id="ema200-val">—</span></span>
+          </div>
         </div>
-        <div class="ema-row" style="margin-top:12px">
-          <span class="ema-tag">EMA 50: <span id="ema50-val">—</span></span>
-          <span class="ema-arrow" id="ema-arrow">—</span>
-          <span class="ema-tag">EMA 200: <span id="ema200-val">—</span></span>
+        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
+          <span class="trend-badge trend-neutral" id="trend-badge">—</span>
+          <span class="regime-badge regime-ranging" id="regime-badge">— REGIME</span>
         </div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end">
-        <span class="trend-badge trend-neutral" id="trend-badge">—</span>
-        <span class="regime-badge regime-ranging" id="regime-badge">— REGIME</span>
       </div>
     </div>
-  </div>
+
+    <!-- Col 2: Asset context -->
+    <div class="card" id="asset-ctx-card">
+      <div class="card-title">About This Asset</div>
+      <div id="asset-ctx-body">
+        <div class="ctx-desc" style="color:var(--muted);font-size:12px">Select an asset to see context.</div>
+      </div>
+    </div>
+
+    <!-- Col 3: AI quick verdict -->
+    <div class="card" id="verdict-mini-card">
+      <div class="card-title">AI Quick Verdict</div>
+      <div class="verdict-mini" id="verdict-mini-body">
+        <div class="ctx-desc" style="color:var(--muted);font-size:12px">Analysis loads daily at 06:10 UTC.</div>
+      </div>
+    </div>
+
+  </div><!-- end overview-grid -->
 
   <!-- Chart -->
   <div class="card-row">
@@ -815,6 +866,49 @@
     <div class="card-title">Candlestick Patterns — Last 5 Candles</div>
     <div class="pattern-list" id="pattern-list">
       <span class="pat-none">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Pattern guide -->
+  <div class="card" style="padding:16px 20px">
+    <div class="exp-label" style="margin-bottom:14px">Pattern Guide</div>
+    <div class="pat-guide-grid">
+      <div class="pat-guide-item cal-exp-item">
+        <div class="exp-term">Hammer</div>
+        <div class="exp-def">Small body, long lower wick. Appears at lows — buyers stepped in hard. Bullish reversal signal. Stronger after a downtrend.</div>
+      </div>
+      <div class="pat-guide-item cal-exp-item">
+        <div class="exp-term">Shooting Star</div>
+        <div class="exp-def">Small body, long upper wick. Appears at highs — sellers rejected the rally. Bearish reversal. The opposite of a Hammer.</div>
+      </div>
+      <div class="pat-guide-item cal-exp-item">
+        <div class="exp-term">Bullish Engulfing</div>
+        <div class="exp-def">Green candle fully wraps the prior red candle. Buyers overwhelmed sellers in one session. Strong bullish reversal, especially at support.</div>
+      </div>
+      <div class="pat-guide-item cal-exp-item">
+        <div class="exp-term">Bearish Engulfing</div>
+        <div class="exp-def">Red candle fully wraps the prior green candle. Sellers took over completely. Strong bearish reversal, especially at resistance.</div>
+      </div>
+      <div class="pat-guide-item cal-exp-item">
+        <div class="exp-term">Doji</div>
+        <div class="exp-def">Open and close nearly equal — tiny body. Market is undecided. Alone it's neutral; after a trend it can signal exhaustion and reversal.</div>
+      </div>
+      <div class="pat-guide-item cal-exp-item">
+        <div class="exp-term">Morning Star</div>
+        <div class="exp-def">3-candle pattern: red, tiny doji/small candle, then strong green. Reversal from a downtrend. One of the most reliable bullish patterns.</div>
+      </div>
+      <div class="pat-guide-item cal-exp-item">
+        <div class="exp-term">Evening Star</div>
+        <div class="exp-def">3-candle pattern: green, small candle at top, then strong red. Reversal from an uptrend. Bearish counterpart to Morning Star.</div>
+      </div>
+      <div class="pat-guide-item cal-exp-item">
+        <div class="exp-term">Bullish Harami</div>
+        <div class="exp-def">Small green candle inside a larger red candle. Selling momentum is slowing — potential reversal up. Less powerful than Engulfing but worth noting.</div>
+      </div>
+      <div class="pat-guide-item cal-exp-item">
+        <div class="exp-term">Bearish Harami</div>
+        <div class="exp-def">Small red candle inside a larger green candle. Buying momentum is fading — potential reversal down. Watch for confirmation next candle.</div>
+      </div>
     </div>
   </div>
 
@@ -992,6 +1086,65 @@ var CAL_EXPLAINERS = {
   }
 };
 
+var ASSET_CONTEXT = {
+  gbpusd: {
+    name: 'GBP/USD', aka: 'CABLE',
+    desc: 'The British pound vs the US dollar — one of the most traded forex pairs, nicknamed "Cable" after the transatlantic telegraph cable used for old price quotes.',
+    drivers: 'UK CPI/inflation, Bank of England rate decisions, US Fed decisions, US jobs data (NFP), GDP figures from both countries, geopolitical risk.',
+    session: 'Most active: London session (08:00–17:00 UTC). Spikes around UK/US news releases.',
+    pip: '1 pip = 0.0001 · £10 per pip on a standard lot (100k units) · Mini lot = £1/pip'
+  },
+  xauusd: {
+    name: 'XAU/USD', aka: 'SPOT GOLD',
+    desc: 'Gold priced in US dollars per troy ounce. A global safe-haven asset — investors buy gold during uncertainty, inflation fears, or dollar weakness.',
+    drivers: 'US real yields (inverted), Fed rate outlook, USD strength (DXY), inflation data (CPI), geopolitical risk, central bank gold purchases, NFP.',
+    session: 'Trades nearly 24h. Most liquid during London/NY overlap (13:00–17:00 UTC). Large moves on US macro releases.',
+    pip: '1 point = $0.01 · $10 per point on a standard lot (100 oz) · Mini lot = $1/point'
+  },
+  spx: {
+    name: 'SPX (via SPY)', aka: 'S&P 500 ETF PROXY',
+    desc: 'The S&P 500 index tracks the 500 largest US companies. SPY is the ETF proxy — 99.9%+ correlation. The most-watched equity benchmark in the world.',
+    drivers: 'Fed rate decisions (FOMC), CPI/inflation data, NFP jobs report, GDP growth, corporate earnings seasons (especially big tech), VIX volatility index.',
+    session: 'US market hours: 14:30–21:00 UTC. Pre-market moves on big macro prints. Earnings after close can gap the open.',
+    pip: '1 pt = $1 on SPX · SPY moves ~1/10 of SPX · Position sizing via ATR for swing trades'
+  }
+};
+
+function updateAssetContext(slug) {
+  var ctx = ASSET_CONTEXT[slug] || ASSET_CONTEXT.gbpusd;
+  var body = el('asset-ctx-body');
+  if (!body) return;
+  body.innerHTML =
+    '<div class="ctx-name">' + ctx.name + '</div>' +
+    '<div class="ctx-aka">' + ctx.aka + '</div>' +
+    '<div class="ctx-desc">' + ctx.desc + '</div>' +
+    '<div class="ctx-row"><strong>Key drivers</strong><br>' + ctx.drivers + '</div>' +
+    '<div class="ctx-row"><strong>Session</strong><br>' + ctx.session + '</div>' +
+    '<div class="ctx-row"><strong>Pip value</strong><br>' + ctx.pip + '</div>';
+}
+
+function updateVerdictMini() {
+  var body = el('verdict-mini-body');
+  if (!body) return;
+  var a = window.ANALYSIS_DATA;
+  if (!a || !a.decision) {
+    body.innerHTML = '<div class="ctx-desc" style="color:var(--muted);font-size:12px">Analysis loads daily at 06:10 UTC.</div>';
+    return;
+  }
+  var dec = (a.decision || '').toUpperCase();
+  var decColor = dec === 'BUY' ? 'var(--green)' : dec === 'SELL' ? 'var(--red)' : 'var(--accent)';
+  function vrow(lbl, val) {
+    return '<div class="verdict-mini-row"><span class="verdict-mini-lbl">' + lbl + '</span><span class="verdict-mini-val">' + (val || '—') + '</span></div>';
+  }
+  body.innerHTML =
+    '<div class="verdict-mini-dec" style="color:' + decColor + '">' + dec + '</div>' +
+    vrow('Confidence', a.confidence) +
+    vrow('Entry', a.entry) +
+    vrow('Stop Loss', a.stop_loss) +
+    vrow('Target 1', a.target_1) +
+    vrow('Risk / Reward', a.risk_reward);
+}
+
 function updateCalendarExplainer(slug) {
   var cfg = CAL_EXPLAINERS[slug] || CAL_EXPLAINERS.gbpusd;
   var assetEl  = el('cal-exp-asset');
@@ -1014,6 +1167,7 @@ function switchAsset(slug) {
   });
 
   updateCalendarExplainer(slug);
+  updateAssetContext(slug);
 
   // Always swap globals — null means "no data yet for this asset"
   var data = getAssetData(slug);
@@ -1315,6 +1469,7 @@ function renderAnalysis() {
     el('analysis-text').textContent = 'No AI analysis yet for this asset.';
     el('invalidation-text').style.display = 'none';
     el('analysis-meta').textContent = '';
+    updateVerdictMini();
     return;
   }
 
@@ -1343,6 +1498,8 @@ function renderAnalysis() {
     el('analysis-meta').textContent =
       'Generated: ' + fmtDate(a.generated) + ' · Model: ' + (a.model || '');
   }
+
+  updateVerdictMini();
 
   // Auto-fill stop into position calculator from AI entry/SL
   if (a.entry && a.stop_loss) {
