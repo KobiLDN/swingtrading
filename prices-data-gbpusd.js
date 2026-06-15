@@ -1,42 +1,24 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-06-12T09:56:55Z",
-  "date": "2026-06-12",
-  "price": 1.34198,
-  "atr": 0.00639,
-  "atr_pips": 64,
+  "generated": "2026-06-15T11:46:06Z",
+  "date": "2026-06-15",
+  "price": 1.34218,
+  "atr": 0.00585,
+  "atr_pips": 59,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34345,
-  "ema200": 1.34049,
-  "rsi": 50.25,
-  "macd_line": -0.002083,
-  "macd_signal": -0.002323,
-  "macd_hist": 0.00024,
+  "ema50": 1.34311,
+  "ema200": 1.33981,
+  "rsi": 51.06,
+  "macd_line": -0.001432,
+  "macd_signal": -0.002018,
+  "macd_hist": 0.000586,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-06-08",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
-    {
-      "date": "2026-06-09",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-06-10",
-      "name": "Shooting Star",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
-    },
     {
       "date": "2026-06-11",
       "name": "Bullish Engulfing",
@@ -44,30 +26,9 @@ window.PRICES_DATA_GBPUSD = {
       "strength": 4
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-05",
-      "open": 1.33756,
-      "high": 1.33865,
-      "low": 1.33001,
-      "close": 1.33192
-    },
-    {
-      "date": "2026-03-06",
-      "open": 1.33194,
-      "high": 1.34079,
-      "low": 1.33109,
-      "close": 1.33891
-    },
-    {
-      "date": "2026-03-07",
-      "open": 1.33891,
-      "high": 1.34177,
-      "low": 1.338,
-      "close": 1.34056
-    },
     {
       "date": "2026-03-08",
       "open": 1.34057,
@@ -745,7 +706,28 @@ window.PRICES_DATA_GBPUSD = {
       "open": 1.34163,
       "high": 1.34263,
       "low": 1.33846,
-      "close": 1.34198
+      "close": 1.34049
+    },
+    {
+      "date": "2026-06-13",
+      "open": 1.34051,
+      "high": 1.34098,
+      "low": 1.34037,
+      "close": 1.34066
+    },
+    {
+      "date": "2026-06-14",
+      "open": 1.34065,
+      "high": 1.34248,
+      "low": 1.3387,
+      "close": 1.33991
+    },
+    {
+      "date": "2026-06-15",
+      "open": 1.34004,
+      "high": 1.34614,
+      "low": 1.33994,
+      "close": 1.34218
     }
   ]
 };
