@@ -1,6 +1,7 @@
 # Kanban
 
-Sessions: **trading/local** (this session) · **trading/cloud** (`claude/friendly-dijkstra-lBUrd`)
+Sessions: **trading/local** (this session, `G:\My Drive\coding\ai\Trading\SwingTrading`) · **trading/cloud** (`claude/friendly-dijkstra-lBUrd`)
+Local folder: one directory only — `dev` is a remote-only GitHub branch, not a separate folder.
 
 ---
 

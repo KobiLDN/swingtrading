@@ -18,7 +18,7 @@ git push origin main:claude/friendly-dijkstra-lBUrd
 | Branch | Type | Session | Purpose |
 |---|---|---|---|
 | `main` | Local + Remote | trading/local (this session) | Live GitHub Pages — source of truth |
-| `dev` | Local + Remote | trading/local (this session) | Dev mirror — delete+recreate from main each sync |
+| `dev` | Remote only (no local checkout) | trading/local (this session) | Dev mirror — delete+recreate from main each sync; no separate local folder |
 | `claude/friendly-dijkstra-lBUrd` | Remote only | trading/cloud (claude.ai) | Cloud session branch — must receive every main push |
 
 ---
