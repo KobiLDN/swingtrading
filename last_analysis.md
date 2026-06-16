@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-06-15
-**Generated:** 2026-06-15T12:39:16Z
+**Date:** 2026-06-16
+**Generated:** 2026-06-16T11:31:10Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 1.3398, 1.337, 1.335 |
-| **Resistance** | 1.3431, 1.345, 1.35 |
+| **Entry** | 1.34231 |
+| **Stop Loss** | 1.33662 |
+| **Target 1** | 1.34580 |
+| **Target 2** | 1.35000 |
+| **Risk/Reward** | 1:1.35 |
+| **Score** | 6/10 |
+| **Support** | 1.33977, 1.336, 1.332 |
+| **Resistance** | 1.3458, 1.35, 1.355 |
 
 ---
 
 ## Analysis
 
-Price is currently at 1.34218, sitting between the 50 EMA (1.34311) and 200 EMA (1.33981). The overall trend bias is labelled bullish, but price has not yet reclaimed the 50 EMA, which acts as near-term resistance. The Bullish Engulfing candlestick pattern in the last five candles suggests a potential reversal higher, but this signal is not yet confirmed by a close above the 50 EMA. The RSI(14) at 51.06 is neutral, offering no momentum edge, while the MACD remains bullish with the line above signal and a positive histogram, though the histogram reading (+0.000586) is small, indicating weak momentum. No divergence or additional chart patterns (e.g., triangles, flags) are present to reinforce the setup.  
+The daily chart shows a bullish bias supported by both EMAs: price at 1.34231 is above the EMA 200 (1.33977) and marginally below the EMA 50 (1.34305). This slight proximity below the 50-period EMA does not negate the overall bullish structure, as it suggests price is consolidating near a key moving average rather than breaking down. The EMA 200 acts as a dynamic floor, while the EMA 50 is nearby resistance likely to be tested. The presence of an Inverted Hammer and Morning Star candlestick patterns over the last five sessions confirms a reversal attempt off recent lows, aligning with the prevailing bullish bias.
 
-Key support lies at the 200 EMA (1.33981), with further levels at 1.3370 (recent swing low) and 1.3350 (prior consolidation zone). Resistance is clustered around the 50 EMA (1.34311), followed by 1.3450 (psychological round number) and 1.3500 (major resistance). The ATR of 59 pips suggests average daily volatility is modest, so any trade must respect these levels. The Bullish Engulfing pattern is encouraging, but the low signal score (4/10) reflects the lack of strong confluence; the price has not broken above the 50 EMA, and RSI does not confirm overbought/oversold extremes.  
+No clear triangles, flags, or double tops/bottoms are visible on this timeframe. However, the price action is forming a potential higher low after the recent pullback, which could evolve into a bullish flag continuation pattern if price breaks above the EMA 50 and recent swing high. The Inverted Hammer and Morning Star patterns already signal rejection of lower prices and bullish momentum building, making them the primary pattern evidence.
 
-Given the mixed signals, the most prudent approach is to wait for additional confirmation. A buy setup would become viable if price closes above the 50 EMA (1.3431) on higher volume, ideally with RSI moving above 55. Alternatively, a pullback to the 200 EMA (1.3398) that holds and forms a bullish reversal candle could offer a better risk/reward entry. Until then, the risk of a false breakout or a continued drift lower remains elevated.
+RSI is neutral at 51.39, showing no overbought or oversold extremes and no divergence, which leaves room for further upside. MACD is bullish with the line above the signal and a positive histogram (+0.000667), confirming upward momentum. Both indicators align with the bullish trend, supporting a continuation bias. The initial signal score of 4/10 seems conservative given the confluence of patterns and momentum; I revise it to 6/10.
+
+The best trade setup is a long entry near current price, targeting the nearest resistance cluster at 1.34580 (likely prior swing high) and then the psychological level of 1.35000. The stop-loss is placed below the EMA 200 and recent swing low around 1.33662 (one ATR below the 200 EMA) to account for volatility. Risk-reward is acceptable at 1:1.35 for the first target, improving if price extends toward target two.
 
 ---
 
 ## Invalidation
 
-A daily close below the 200 EMA (1.33981) would cancel any bullish potential and shift the outlook to bearish.
+A daily close below 1.33662 (below the EMA 200 and the low of the Morning Star pattern) would invalidate the bullish setup and signal a trend reversal to bearish.
 
 ---
 

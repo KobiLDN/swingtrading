@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-06-15T12:39:51Z",
+  "generated": "2026-06-16T11:31:44Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-06-12",
+  "date": "2026-06-15",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_SPX = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "1/10",
-  "analysis": "The price action remains firmly above both the 50-day (725.61) and 200-day (691.87) EMAs, confirming the primary trend as a strong uptrend. However, recent momentum has stalled. The MACD is bearish, with the line below the signal line and a negative histogram, indicating weakening upward pressure. The RSI at 52.94 is neutral and shows no divergence, providing no additional confirmation of trend continuation or reversal. The pre-calculated signal score of 1/10 reflects this lack of clear entry triggers.  \n\nNo candlestick patterns or obvious chart formations (like flags or triangles) are present over the last five candles. Using the ATR(14) of 9.57, near-term support is estimated around 732.18 (current price minus ATR) and the EMA50 at 725.61. Resistance lies near 751.32 (price plus ATR) and potential psychological round numbers such as 760. The absence of a bullish catalyst\u2014combined with the bearish MACD and low signal score\u2014makes initiating a position unattractive.  \n\nThe disagreement between the strong uptrend (price above EMAs) and the bearish momentum oscillator (MACD) suggests a consolidation or pullback phase. Without a clear pattern or divergence, the risk of entering a counter-trend trade is elevated, and buying into fading momentum offers an unfavorable risk/reward. The prudent course is to wait for either a price correction that finds support at EMAs with a bullish reversal signal, or a resumption of strength that clears resistance with volume.",
-  "invalidation": "A decisive break above 751.32 accompanied by a MACD bullish crossover would shift the outlook to a buy setup, while a close below the 50-day EMA (725.61) would invalidate the underlying strong uptrend and suggest a deeper retracement.",
+  "analysis": "The trend is undeniably strong with price well above both the EMA50 (726.76) and EMA200 (691.98). However, the pre-calculated signal score of 1/10 highlights a major disconnect between the bullish price structure and the weakening momentum indicators. Price action confirms the EMA trend, but the bearish MACD crossover (line below signal) and negative histogram (-2.297718) suggest that buying pressure is fading near current levels. No significant candlestick patterns or clear chart formations (triangles, flags, double tops/bottoms) are visible, leaving the market in a directional but momentum-lagging state.  \n\nRSI at 60.39 is neutral and shows no divergence, offering no edge. The MACD and RSI diverge from the trend \u2014 they are not confirming the uptrend's strength. This lack of confluence is a classic warning sign for swing traders. Key support levels are the round number 740.00 (psychological) and the EMA50 at 726.76. Resistance lies just above at 760.00, then 770.00. With ATR(14) at ~10 points, any entry around 754.83 would leave a thin margin to resistance and a wide stop below support, making risk management unfavorable without a confirmed pullback.  \n\nThe single best trade setup right now is to wait for a clear re-test of the EMA50 or a bullish MACD re-cross (line back above signal) that aligns with the trend. Entering long here would require ignoring the MACD bearish signal, which is risky given the low score. A sell setup is not warranted because the trend is still up, and no bearish reversal pattern exists. Patience is advised until momentum catches up with price.",
+  "invalidation": "This wait setup is invalidated if the price breaks decisively above 760 with a strong bullish MACD turn, signaling renewed momentum, or if it falls below the EMA50 (726.76), which would shift the trend to neutral or bearish.",
   "support_levels": [
-    725.61,
-    691.87,
-    732.18
+    740.0,
+    726.76,
+    691.98
   ],
   "resistance_levels": [
-    751.32,
     760.0,
-    770.0
+    770.0,
+    780.0
   ]
 };
