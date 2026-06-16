@@ -1,41 +1,40 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-06-15T11:46:06Z",
-  "date": "2026-06-15",
-  "price": 1.34218,
-  "atr": 0.00585,
-  "atr_pips": 59,
+  "generated": "2026-06-16T10:54:11Z",
+  "date": "2026-06-16",
+  "price": 1.34231,
+  "atr": 0.00569,
+  "atr_pips": 57,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34311,
-  "ema200": 1.33981,
-  "rsi": 51.06,
-  "macd_line": -0.001432,
-  "macd_signal": -0.002018,
-  "macd_hist": 0.000586,
+  "ema50": 1.34305,
+  "ema200": 1.33977,
+  "rsi": 51.39,
+  "macd_line": -0.001199,
+  "macd_signal": -0.001866,
+  "macd_hist": 0.000667,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-06-11",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
+      "date": "2026-06-15",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
+    },
+    {
+      "date": "2026-06-16",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-08",
-      "open": 1.34057,
-      "high": 1.34164,
-      "low": 1.3338,
-      "close": 1.33544
-    },
     {
       "date": "2026-03-09",
       "open": 1.3352,
@@ -727,7 +726,14 @@
       "open": 1.34004,
       "high": 1.34614,
       "low": 1.33994,
-      "close": 1.34218
+      "close": 1.34128
+    },
+    {
+      "date": "2026-06-16",
+      "open": 1.34127,
+      "high": 1.3427,
+      "low": 1.33905,
+      "close": 1.34231
     }
   ]
 }
