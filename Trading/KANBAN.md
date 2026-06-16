@@ -38,6 +38,8 @@ Sessions: **trading/local** (this session, `G:\My Drive\coding\ai\Trading\SwingT
 
 | Item | Date | Session |
 |---|---|---|
+| KANBAN.md created | 2026-06-15 | local |
+| Dev branch removed — simplified to main + cloud only | 2026-06-15 | local |
 | BRANCHES.md + push-all-branches rule | 2026-06-14 | local |
 | Traders sidebar scroll fix (`scroll-margin-top`) | 2026-06-14 | local |
 | Price Overview 3-col grid (price · asset context · AI verdict mini) | 2026-06-14 | local |
