@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-06-16T11:31:10Z",
+  "generated": "2026-06-17T11:14:57Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-06-16",
+  "date": "2026-06-17",
   "decision": "BUY",
   "confidence": "MEDIUM",
-  "entry": "1.34231",
-  "stop_loss": "1.33662",
-  "target_1": "1.34580",
-  "target_2": "1.35000",
-  "risk_reward": "1:1.35",
-  "score": "6/10",
-  "analysis": "The daily chart shows a bullish bias supported by both EMAs: price at 1.34231 is above the EMA 200 (1.33977) and marginally below the EMA 50 (1.34305). This slight proximity below the 50-period EMA does not negate the overall bullish structure, as it suggests price is consolidating near a key moving average rather than breaking down. The EMA 200 acts as a dynamic floor, while the EMA 50 is nearby resistance likely to be tested. The presence of an Inverted Hammer and Morning Star candlestick patterns over the last five sessions confirms a reversal attempt off recent lows, aligning with the prevailing bullish bias.\n\nNo clear triangles, flags, or double tops/bottoms are visible on this timeframe. However, the price action is forming a potential higher low after the recent pullback, which could evolve into a bullish flag continuation pattern if price breaks above the EMA 50 and recent swing high. The Inverted Hammer and Morning Star patterns already signal rejection of lower prices and bullish momentum building, making them the primary pattern evidence.\n\nRSI is neutral at 51.39, showing no overbought or oversold extremes and no divergence, which leaves room for further upside. MACD is bullish with the line above the signal and a positive histogram (+0.000667), confirming upward momentum. Both indicators align with the bullish trend, supporting a continuation bias. The initial signal score of 4/10 seems conservative given the confluence of patterns and momentum; I revise it to 6/10.\n\nThe best trade setup is a long entry near current price, targeting the nearest resistance cluster at 1.34580 (likely prior swing high) and then the psychological level of 1.35000. The stop-loss is placed below the EMA 200 and recent swing low around 1.33662 (one ATR below the 200 EMA) to account for volatility. Risk-reward is acceptable at 1:1.35 for the first target, improving if price extends toward target two.",
-  "invalidation": "A daily close below 1.33662 (below the EMA 200 and the low of the Morning Star pattern) would invalidate the bullish setup and signal a trend reversal to bearish.",
+  "entry": "1.34103",
+  "stop_loss": "1.33940",
+  "target_1": "1.34300",
+  "target_2": "1.34600",
+  "risk_reward": "1:1.2 (T1) / 1:3.1 (T2)",
+  "score": "5/10",
+  "analysis": "The daily chart shows a bullish EMA alignment (EMA50 above EMA200), but price is currently trading below the EMA50 at 1.34298, indicating short-term weakness within a longer-term uptrend. The recent candlestick patterns\u2014an Inverted Hammer followed by a Morning Star\u2014suggest a potential bullish reversal from the recent dip. The MACD is bullish (line above signal) with a positive histogram, supporting upward momentum, while RSI at 49.06 is neutral, leaving room for further upside without being overbought.  \n\nPrice action is testing the EMA200 at 1.33994 as support, and the Morning Star pattern implies buyers are stepping in. A break above the EMA50 would confirm the bullish bias, but the current setup offers a favorable risk-reward entry near the EMA200 with a tight stop. The absence of RSI divergence and the MACD\u2019s bullish structure add confluence to the reversal narrative.  \n\nKey support is the EMA200 (1.33994), with further support near 1.33800 (recent swing low) and 1.33500 (prior consolidation zone). Resistance is first at the EMA50 (1.34298), then 1.34500 (psychological level), and 1.34800 (previous high). The ATR of 56 pips suggests a stop of ~16 pips below entry is reasonable, targeting a move back toward the EMA50 and beyond.  \n\nThe signal score remains 5/10 due to the neutral RSI and price below the EMA50, which tempers conviction. However, the bullish candlestick patterns and MACD alignment provide a moderate-confidence buy setup for swing traders willing to accept a short-term pullback risk.",
+  "invalidation": "A daily close below the EMA200 (1.33994) would cancel this setup, as it would break the primary support and negate the bullish reversal pattern.",
   "support_levels": [
-    1.33977,
-    1.336,
-    1.332
+    1.33994,
+    1.338,
+    1.335
   ],
   "resistance_levels": [
-    1.3458,
-    1.35,
-    1.355
+    1.34298,
+    1.345,
+    1.348
   ]
 };
