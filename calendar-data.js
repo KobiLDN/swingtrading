@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-06-16T10:54:12Z",
+  "generated": "2026-06-17T10:26:05Z",
   "events": [
     {
       "date": "2026-06-17",
@@ -10,7 +10,7 @@ window.CALENDAR_DATA = {
       "forecast": "3.0%",
       "previous": "2.8%",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-17",
@@ -21,7 +21,7 @@ window.CALENDAR_DATA = {
       "forecast": "3.75%",
       "previous": "3.75%",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-17",
@@ -32,7 +32,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-17",
@@ -43,7 +43,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-17",
@@ -54,7 +54,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-18",
