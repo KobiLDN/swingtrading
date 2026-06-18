@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-06-16
-**Generated:** 2026-06-17T11:15:28Z
+**Date:** 2026-06-17
+**Generated:** 2026-06-18T10:45:10Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | HIGH |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 1/10 |
-| **Support** | 740.0, 727.68, 691.91 |
-| **Resistance** | 760.0, 770.0, 780.0 |
+| **Score** | 0/10 |
+| **Support** | 728.2, 720.0, 692.87 |
+| **Resistance** | 750.83, 760.0, 770.0 |
 
 ---
 
 ## Analysis
 
-The price of 750.33 sits well above both the EMA50 (727.68) and EMA200 (691.91), confirming the strong uptrend in place. However, the pre-calculated signal score of 1/10 indicates extremely weak trade conviction, largely due to conflicting momentum readings. The MACD is bearish (line below signal, histogram negative), suggesting that buying pressure is fading or that a short-term pullback is developing, even as the trend remains upward. The RSI at 57.05 is neutral, providing no overbought or oversold edge, and no candlestick patterns or divergences offer additional confirmation.
+The SPY daily chart shows a strong uptrend confirmed by price trading well above both the 50-day EMA (728.20) and 200-day EMA (692.87). However, the pre-calculated indicators reveal a clear divergence between price action and momentum. The MACD is bearish with the line below the signal line and a negative histogram (-1.888), indicating weakening upside momentum. The RSI at 50.74 is neutral, offering no directional bias, and no candlestick patterns or divergences are present to provide a trade trigger. The signal score of 0/10 reflects the absence of a reliable setup.
 
-In terms of chart patterns, none are detected from the last five candles, and there are no obvious triangles, flags, or double tops/bottoms to infer. The nearest major support is the EMA50 at 727.68, but that is over 22 points away, leaving a gap where minor support might form around the round number 740. Resistance above is unclear; given the ATR of 9.64, a break above 760 would signal renewed strength. Until the MACD turns bullish or a clear pattern emerges, the risk of entering long is elevated by the bearish MACD divergence, while shorting against the strong uptrend is not advisable.
+Given the strong trend but deteriorating momentum, the most prudent action is to wait for either a re-confirmation of the uptrend (e.g., a bullish MACD crossover or a pullback to support with a reversal pattern) or a clear breakdown below key support. The ATR of 9.87 suggests typical daily moves of about ±10 points, placing near-term support around 731 (price minus ATR) and resistance near 751 (price plus ATR). The EMA50 at 728.20 serves as the first major support, while the round number 750 and the ATR-based level 750.83 act as immediate resistance.
 
-The best trade setup right now is to wait for either a price pullback to the EMA50 or a bullish MACD crossover that confirms continuation. Entering at current levels offers a poor risk/reward because the nearest support is far away and the MACD warns of weakness. A wait-and-see approach preserves capital for a higher-conviction entry.
+No additional chart patterns (triangles, flags, double tops/bottoms) are inferred from the last five candles, and the lack of any pattern or divergence means there is no high-probability entry. A swing trade would require either a bullish catalyst (e.g., MACD turning positive) or a bearish breakdown below the EMA50 to shift the trend. Until then, the risk of entering long into weakening momentum or short against a strong trend is unwarranted.
 
 ---
 
 ## Invalidation
 
-This wait setup is invalidated if the price breaks decisively above 760 with a bullish MACD crossover, or if it holds above 740 and forms a bullish candlestick pattern (e.g., hammer or engulfing) with improving momentum.
+This wait setup is invalidated if price breaks above 751 with strong volume and a bullish MACD crossover, or if it breaks below 728 with a bearish candlestick pattern, as either would create a new tradeable signal.
 
 ---
 

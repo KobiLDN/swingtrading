@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-06-17T11:15:04Z",
+  "generated": "2026-06-18T10:44:44Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-06-17",
+  "date": "2026-06-18",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -12,14 +12,14 @@ window.ANALYSIS_DATA_XAUUSD = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "4/10 confirmed",
-  "analysis": "The daily chart shows a strong downtrend confirmed by price trading well below both the EMA50 (4463.22) and EMA200 (4577.03). However, the recent price action has produced a Morning Star candlestick pattern over the last five candles, suggesting a potential short-term reversal or at least a pause in selling pressure. The MACD has turned bullish with the line above the signal line and a positive histogram (+11.37), which conflicts with the dominant downtrend. The RSI at 45.95 is neutral, not oversold, and shows no divergence, offering no strong confirmation for either a trend continuation or reversal.\n\nNo clear additional chart patterns (triangles, flags, double tops/bottoms) are evident on the daily timeframe near current price. The nearest support is the psychological 4300.00 level, followed by 4250.00 and 4200.00. Resistance is immediate at the EMA50 (4463.22), then the EMA200 (4577.03), and further out at 4650.00. The MACD bullish signal and Morning Star pattern suggest a potential bounce, but the overwhelming downtrend and lack of RSI confirmation make a counter-trend buy risky. A sell setup is not justified because the MACD is bullish and price is showing a reversal pattern.\n\nGiven the conflicting signals\u2014strong downtrend versus a nascent bullish MACD crossover and a Morning Star\u2014the prudent action is to wait. The 4/10 signal score reflects this ambiguity. A clearer setup would require either a confirmed breakdown below 4300 (to sell) or a sustained move above the EMA50 with RSI above 50 (to buy). Entering now would expose the trade to high uncertainty and poor risk/reward.",
-  "invalidation": "A decisive daily close below 4300.00 would invalidate the potential reversal and confirm continued downside; a daily close above the EMA50 (4463.22) would invalidate the bearish trend bias and favor a long setup.",
+  "analysis": "The pre-calculated indicators clearly define a **strong downtrend** on the daily chart, with price at 4265.92 trading well below both the EMA 50 (4452.84) and EMA 200 (4575.69). This EMA alignment confirms the bearish structure, and price action has respected the downward slope of these moving averages for an extended period. However, the recent candlestick patterns \u2014 a Morning Star and an Inverted Hammer within the last five candles \u2014 suggest a potential short-term bullish reversal or at least a pause in selling pressure. These patterns are not yet confirmed by a decisive close above nearby resistance, so they remain tentative.\n\nNo clear additional chart patterns (triangles, flags, double tops/bottoms) are immediately inferable from the given data. The price is in a free-fall structure, making pattern identification unreliable without a visible consolidation zone. Key support near 4200.00 (psychological round number) and 4150.00 (prior swing low) are the nearest downside levels. Resistance is clustered at 4350.00 (recent minor high) and the EMA 50 at 4452.84, which would need to be reclaimed to signal a trend shift.\n\nThe RSI at 41.84 is neutral but leans bearish, not yet oversold, indicating room for further downside. The MACD shows a bullish crossover (line above signal) with a positive histogram, which diverges from the strong downtrend. This is a **bearish divergence** in the context of the trend \u2014 the MACD is trying to turn up while price continues to make lower lows. This lack of confluence between RSI (neutral-bearish) and MACD (bullish) creates a conflicting signal, reducing confidence in any directional bias. The signal score of 4/10 appropriately reflects this ambiguity.\n\nThe single best trade setup right now is **no trade**. The conflicting signals \u2014 bearish EMA trend vs. bullish candlestick patterns and MACD \u2014 create a high-risk environment for a swing trade. A counter-trend buy would require a confirmed break above 4350.00 resistance, while a sell would need a breakdown below 4200.00 support. Until one of these levels is decisively breached, the risk/reward is unfavorable. Patience is warranted.",
+  "invalidation": "This WAIT call is invalidated if price closes decisively above 4350.00 (suggesting a potential trend reversal) or below 4200.00 (confirming continued downtrend acceleration).",
   "support_levels": [
-    4300.0,
-    4250.0,
-    4200.0
+    4200.0,
+    4150.0,
+    4100.0
   ],
   "resistance_levels": [
-    4650.0
+    4350.0
   ]
 };
