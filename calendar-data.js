@@ -1,61 +1,6 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-06-17T10:26:05Z",
+  "generated": "2026-06-18T10:05:41Z",
   "events": [
-    {
-      "date": "2026-06-17",
-      "time": "02:00",
-      "currency": "GBP",
-      "event": "CPI y/y",
-      "impact": "high",
-      "forecast": "3.0%",
-      "previous": "2.8%",
-      "actual": "",
-      "today": true
-    },
-    {
-      "date": "2026-06-17",
-      "time": "14:00",
-      "currency": "USD",
-      "event": "Federal Funds Rate",
-      "impact": "high",
-      "forecast": "3.75%",
-      "previous": "3.75%",
-      "actual": "",
-      "today": true
-    },
-    {
-      "date": "2026-06-17",
-      "time": "14:00",
-      "currency": "USD",
-      "event": "FOMC Economic Projections",
-      "impact": "high",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "today": true
-    },
-    {
-      "date": "2026-06-17",
-      "time": "14:00",
-      "currency": "USD",
-      "event": "FOMC Statement",
-      "impact": "high",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "today": true
-    },
-    {
-      "date": "2026-06-17",
-      "time": "14:30",
-      "currency": "USD",
-      "event": "FOMC Press Conference",
-      "impact": "high",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "today": true
-    },
     {
       "date": "2026-06-18",
       "time": "02:00",
@@ -65,7 +10,7 @@ window.CALENDAR_DATA = {
       "forecast": "25.8K",
       "previous": "26.5K",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-18",
@@ -76,7 +21,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-18",
@@ -87,7 +32,7 @@ window.CALENDAR_DATA = {
       "forecast": "1-0-8",
       "previous": "1-0-8",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-06-18",
@@ -98,7 +43,7 @@ window.CALENDAR_DATA = {
       "forecast": "3.75%",
       "previous": "3.75%",
       "actual": "",
-      "today": false
+      "today": true
     }
   ]
 };

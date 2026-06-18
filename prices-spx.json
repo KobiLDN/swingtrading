@@ -1,34 +1,27 @@
 {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-06-17T10:26:04Z",
-  "date": "2026-06-16",
-  "price": 750.33,
-  "atr": 9.64,
+  "generated": "2026-06-18T10:05:41Z",
+  "date": "2026-06-17",
+  "price": 740.96,
+  "atr": 9.87,
   "atr_pips": 10,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 727.68,
-  "ema200": 691.91,
-  "rsi": 57.05,
-  "macd_line": 4.697025,
-  "macd_signal": 6.394291,
-  "macd_hist": -1.697266,
+  "ema50": 728.2,
+  "ema200": 692.87,
+  "rsi": 50.74,
+  "macd_line": 4.034031,
+  "macd_signal": 5.922238,
+  "macd_hist": -1.888206,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [],
-  "score": 1,
+  "score": 0,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-01-23",
-      "open": 688.15,
-      "high": 690.96,
-      "low": 687.16,
-      "close": 689.23
-    },
     {
       "date": "2026-01-26",
       "open": 690.49,
@@ -721,6 +714,13 @@
       "high": 755.44,
       "low": 749.88,
       "close": 750.33
+    },
+    {
+      "date": "2026-06-17",
+      "open": 751.29,
+      "high": 752.15,
+      "low": 739.25,
+      "close": 740.96
     }
   ]
 }
