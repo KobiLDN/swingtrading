@@ -1,1 +1,12 @@
-SPY 2026-06-17 — Signal score 0/10. AI verdict: WAIT (confidence: HIGH). Entry N/A, stop N/A, targets N/A / N/A (R/R N/A). Price 740.96 vs EMA50 728.2 / EMA200 692.87. ATR 9.87 (10 pts). RSI 50.74, MACD bearish. Patterns: none. Invalidation: This wait setup is invalidated if price breaks above 751 with strong volume and a bullish MACD crossover, or if it breaks below 728 with a bearish candlestick pattern, as either would create a new tradeable signal.. Do you agree with this setup? Challenge the entry, stop, or confidence.
+SPY 2026-06-18 — Signal score 3/10. AI verdict: WAIT (confidence: MEDIUM). Entry N/A, stop N/A, targets N/A / N/A (R/R N/A). Price 746.74 vs EMA50 728.93 / EMA200 694.13. ATR 9.69 (10 pts). RSI 54.11, MACD bearish. Patterns: Hammer. Invalidation: A close below 740.00 would cancel any bullish bias and signal a deeper pullback toward EMA 50 support.
+
+DECISION: WAIT  
+CONFIDENCE: MEDIUM  
+ENTRY: N/A  
+STOP_LOSS: N/A  
+TARGET_1: N/A  
+TARGET_2: N/A  
+RISK_REWARD: N/A  
+SCORE: 3/10  
+SUPPORT_LEVELS: 740.00, 728.93, 694.13  
+RESISTANCE_LEVELS: 750.00, 755.00, 760.00. Do you agree with this setup? Challenge the entry, stop, or confidence.
