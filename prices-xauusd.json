@@ -1,21 +1,21 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-06-18T10:05:40Z",
-  "date": "2026-06-18",
-  "price": 4265.92,
-  "atr": 86.13,
-  "atr_pips": 86,
+  "generated": "2026-06-19T10:12:29Z",
+  "date": "2026-06-19",
+  "price": 4157.39,
+  "atr": 89.86,
+  "atr_pips": 90,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4452.84,
-  "ema200": 4575.69,
-  "rsi": 41.84,
-  "macd_line": -71.776451,
-  "macd_signal": -80.400614,
-  "macd_hist": 8.624162,
+  "ema50": 4439.11,
+  "ema200": 4566.26,
+  "rsi": 35.14,
+  "macd_line": -80.063373,
+  "macd_signal": -81.058066,
+  "macd_hist": 0.994693,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -24,24 +24,11 @@
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
-    },
-    {
-      "date": "2026-06-18",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-11",
-      "open": 5198.02,
-      "high": 5223.26,
-      "low": 5158.04,
-      "close": 5183.31
-    },
     {
       "date": "2026-03-12",
       "open": 5183.22,
@@ -732,8 +719,15 @@
       "date": "2026-06-18",
       "open": 4257.67,
       "high": 4329.94,
-      "low": 4255.68,
-      "close": 4265.92
+      "low": 4202.12,
+      "close": 4209.12
+    },
+    {
+      "date": "2026-06-19",
+      "open": 4208.52,
+      "high": 4211.06,
+      "low": 4122.52,
+      "close": 4157.39
     }
   ]
 }
