@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-06-19T10:55:19Z",
+  "generated": "2026-06-22T12:24:44Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
   "date": "2026-06-18",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "3/10",
-  "analysis": "The SPY daily chart shows a strong uptrend confirmed by price at 746.74, well above both the EMA 50 (728.93) and EMA 200 (694.13). The recent price action includes a hammer candlestick pattern, which suggests a potential bullish reversal or continuation after a minor pullback. However, the MACD is bearish with the line below the signal and negative histogram, indicating short-term momentum weakness. The RSI at 54.11 is neutral, showing no overbought or oversold conditions, and no divergence is present. The signal score of 3/10 reflects a mixed picture where the long-term trend is bullish but short-term indicators are cautious.\n\nFrom a pattern perspective, the hammer on the last candle could signal a bounce from support near the 740\u2013742 area, which aligns with recent price action. No clear triangles, flags, or double tops/bottoms are evident, but the price is consolidating near the upper end of the range. Key support levels are 740.00 (recent low), 728.93 (EMA 50), and 694.13 (EMA 200). Resistance levels are 750.00 (psychological round number), 755.00 (prior high), and 760.00 (next resistance). The RSI and MACD do not fully agree with the trend\u2014MACD is bearish while the trend is strong\u2014so caution is warranted.\n\nThe single best trade setup is a WAIT approach. The hammer suggests a potential buy, but the MACD bearishness and neutral RSI indicate no immediate confirmation. A buy would require a close above 750.00 with rising RSI and MACD turning positive. A sell is not justified given the strong uptrend. The risk-reward is not favorable for a long entry now due to proximity to resistance and weak short-term momentum. The score remains 3/10 due to conflicting signals.",
-  "invalidation": "A close below 740.00 would cancel any bullish bias and signal a deeper pullback toward EMA 50 support.\n\nDECISION: WAIT  \nCONFIDENCE: MEDIUM  \nENTRY: N/A  \nSTOP_LOSS: N/A  \nTARGET_1: N/A  \nTARGET_2: N/A  \nRISK_REWARD: N/A  \nSCORE: 3/10  \nSUPPORT_LEVELS: 740.00, 728.93, 694.13  \nRESISTANCE_LEVELS: 750.00, 755.00, 760.00",
+  "analysis": "The SPY daily chart is in a strong uptrend confirmed by price well above both the EMA 50 (728.93) and EMA 200 (694.13). However, immediate price action does not provide a clean entry. The RSI at 54.11 is neutral with no divergence, showing no momentum extremes. The MACD is bearish with the line below the signal line and a negative histogram (-1.59), indicating deteriorating upside momentum despite the prevailing trend. This divergence between trend direction (bullish) and momentum oscillators (bearish) reduces confidence in a buy setup.  \n\nNo clear chart pattern such as a flag, triangle, or double top/bottom is visible from the given data. The recent hammer candlestick pattern near the current price could suggest a short-term bounce, but it appeared after a modest pullback and lacks strong bullish confirmation. Price is trading in a no-man\u2019s land between the closest support near the 739 area and resistance near the all-time high zone around 756-760. With no clear breakout or pullback to a defined support, the risk/reward for a buy is unfavorable, and a sell is counter-trend.  \n\nGiven the low signal score of 3/10, the bearish MACD crossover, and the absence of a confirmed catalyst, the prudent action is to wait. A buy could become viable if price pulls back to test EMA 50 support (728.93) with a bullish reversal pattern, or if the MACD turns bullish with a positive histogram crossover. A sell would only be considered if price breaks decisively below EMA 50 with volume, which is not currently the case.  \n\nRisk assessment: The primary risk is entering a counter-trend trade (short) against the strong uptrend, or entering a premature long as momentum weakens. ATR of 9.69 points means daily swings are large, so tight stops are prone to being hit. The best approach is patience until a higher-probability setup emerges with clearer oscillator alignment.",
+  "invalidation": "This wait setup is invalidated if price breaks above 756.50 with strong volume and a bullish MACD crossover, or if price drops below 728.93 with a bearish candlestick close.",
   "support_levels": [
-    740.0,
+    739.0,
     728.93,
-    694.13
+    720.0
   ],
   "resistance_levels": [
-    750.0,
-    755.0,
-    760.0
+    756.43,
+    760.0,
+    770.0
   ]
 };
