@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-06-22
-**Generated:** 2026-06-22T12:23:36Z
+**Date:** 2026-06-23
+**Generated:** 2026-06-23T09:59:59Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,26 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 4/10 |
-| **Support** | 1.32, 1.315, 1.31 |
-| **Resistance** | 1.33, 1.3389, 1.3406 |
+| **Support** | 1.315, 1.31, 1.3 |
+| **Resistance** | 1.3382, 1.3401, 1.35 |
 
 ---
 
 ## Analysis
 
-The daily chart confirms a strong downtrend with price (1.3241) trading well below both the EMA50 (1.33886) and EMA200 (1.34059). The price action aligns with the EMA structure, showing consistent lower highs and lower lows over recent sessions. No additional chart patterns such as flags, triangles, or double tops/bottoms are evident in the last five candles, though the broader structure suggests a potential bear flag or consolidation near the 1.3200 support zone.
+The trend is clearly bearish, with price at 1.32221 trading well below both the EMA 50 (1.33824) and EMA 200 (1.34009). This confirms a strong downtrend, and the MACD remains bearish with the line below the signal line and a negative histogram. However, the RSI at 36.01 is in neutral territory, not oversold, and a bullish RSI divergence has been detected — meaning price made a lower low while RSI made a higher low. This divergence suggests selling momentum is weakening, which often precedes a reversal or at least a significant bounce.  
 
-The RSI at 37.07 is neutral but not oversold, yet a bullish divergence is present (price making lower lows while RSI made higher lows). This divergence hints at weakening downside momentum. However, the MACD remains bearish with the line below the signal line and a negative histogram (-0.001562), indicating continued selling pressure. The divergence and MACD are in conflict: the RSI suggests a possible reversal, while the MACD confirms the trend. This lack of confluence reduces confidence in any immediate directional trade.
+No candlestick patterns or clear chart formations (triangles, flags, double tops/bottoms) are present on the last five candles, so pattern-based confirmation is lacking. The nearest resistance levels are the EMA 50 at 1.3382 and EMA 200 at 1.3401, which are well above current price. Support lies near 1.3150 (prior swing low) and then 1.3100. The ATR of 68 pips indicates moderate daily volatility, but the risk of a counter-trend bounce is elevated due to the divergence.  
 
-Given the strong downtrend and conflicting signals, the best course is to wait for a clearer setup. A long trade would be premature without a confirmed reversal pattern (e.g., a bullish engulfing candle or break above the EMA50). A short trade is risky due to the bullish RSI divergence and proximity to the 1.3200 support level. The signal score of 4/10 reflects this uncertainty. Key support lies at 1.3200 (round number and prior low), with further support at 1.3150 and 1.3100. Resistance is at 1.3300 (recent minor high), then the EMA50 at 1.3389, and the EMA200 at 1.3406.
+The RSI divergence and MACD bearishness are in conflict — the MACD supports the downtrend, while the RSI divergence hints at exhaustion. This lack of confluence, combined with a neutral RSI and no candlestick trigger, makes the current risk/reward unfavorable for a new swing trade. A sell entry near current price would have tight profit potential before hitting strong resistance, while a buy would be counter-trend without confirmation.  
+
+The single best trade setup here is to wait for either a confirmed breakdown below 1.3150 (to sell with momentum) or a bullish reversal pattern (e.g., a bullish engulfing candle or double bottom) near support with RSI rising above 40. Until then, the 4/10 signal score reflects the mixed signals and lack of a clear edge.
 
 ---
 
 ## Invalidation
 
-This wait-and-see stance is invalidated if price breaks decisively below 1.3200 (confirming continued downtrend) or rallies above the EMA50 at 1.3389 (suggesting a trend reversal).
+A daily close above 1.3382 (EMA 50) would invalidate the bearish bias and suggest a potential trend shift, while a breakdown below 1.3150 with increasing volume would confirm the downtrend continuation and create a sell setup.
 
 ---
 
