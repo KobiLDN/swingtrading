@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-06-23
-**Generated:** 2026-06-23T10:00:14Z
+**Date:** 2026-06-24
+**Generated:** 2026-06-24T09:49:02Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,26 +10,26 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 6/10 |
-| **Support** | 4100.0, 4000.0, 3950.0 |
-| **Resistance** | 4200.0, 4300.0, 4396.62 |
+| **Entry** | 4079.5 |
+| **Stop Loss** | 4158.0 |
+| **Target 1** | 4000.0 |
+| **Target 2** | 3920.0 |
+| **Risk/Reward** | 1:1.5 |
+| **Score** | 7/10 |
+| **Support** | 4050.0, 4000.0, 3920.0 |
+| **Resistance** | 4150.0, 4200.0, 4384.0 |
 
 ---
 
 ## Analysis
 
-The daily chart confirms a strong downtrend, with price (4105.49) far below both the EMA50 (4396.62) and EMA200 (4549.69). The bearish engulfing candle in the last five sessions reinforces downside momentum, while the preceding doji signals indecision. No clear classical patterns like triangles or double tops are evident, though the sustained drop suggests a possible impulsive move. Key support lies at the 4100 round number, followed by 4000 and 3950; resistance is near 4200 (recent short-term high), then 4300, with the EMA50 as a major resistance zone.  
+The trend is unequivocally bearish. Price at 4079.5 is far below both the EMA 50 (4384.37) and EMA 200 (4545.05), confirming a strong downtrend. The recent candlestick patterns—Doji followed by Bearish Engulfing—indicate continued selling pressure after a brief pause, reinforcing the bearish momentum. No clear reversal patterns (e.g., double bottom, bullish flag) are present; instead, the price action suggests a continuation lower, potentially forming a descending channel with the recent swing highs near 4150–4200 acting as resistance.
 
-The RSI at 33.63 is neutral but leaning toward oversold, yet the bullish RSI divergence (price making lower lows while RSI makes higher lows) warns of weakening bearish momentum. However, the MACD remains bearish (line below signal) with a negative histogram, though the histogram’s small value (-1.54) could indicate flattening. This creates a clear conflict: the trend and MACD favor further downside, while the RSI divergence hints at a potential reversal. Confluence is absent, making any directional trade highly uncertain.  
+RSI at 32.16 is near oversold but not yet below 30, leaving room for further downside. The bullish RSI divergence (price making lower lows while RSI makes higher lows) is a cautionary signal that could precede a reversal, but it is not yet confirmed by price action. MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend. The divergence introduces a conflict, but the trend and momentum indicators still favor selling until a clear reversal pattern emerges.
 
-Given the conflicting signals, the best trade setup is to wait for a clearer catalyst. A continuation short would require a decisive break below 4100 with volume, while a reversal long needs a bullish confirmation (e.g., a strong bullish candle breaking above 4200 or RSI moving above 40). The ATR of 79.74 implies wide swings, increasing risk for premature entries. The pre-calculated signal score of 8/10 likely overweights the trend and candlestick patterns without fully accounting for the bullish divergence; therefore, I revise the score to 6/10, reflecting the balanced but inconclusive setup.
+Key support is at 4050 (recent minor low) and the psychological 4000 level. Resistance is at 4150 (recent swing high) and 4200 (prior consolidation zone). The best trade setup is a short from current price with a stop above 4150 to allow for a false breakout. Targets are set at 4000 (round number) and 3920 (next major support). The 7/10 score reflects strong trend alignment but reduced confidence due to the RSI divergence and proximity to support.
 
 ---
 

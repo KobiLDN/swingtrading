@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-06-22
-**Generated:** 2026-06-23T10:00:35Z
+**Date:** 2026-06-23
+**Generated:** 2026-06-24T09:49:50Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,36 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 3/10 |
-| **Support** | 729.53, 720.0, 694.38 |
-| **Resistance** | 745.0, 750.0, 755.0 |
+| **Score** | 2/10 |
+| **Support** | 729.69, 723.0, 714.0 |
+| **Resistance** | 738.0, 743.0, 750.0 |
 
 ---
 
 ## Analysis
 
-The overall trend remains strongly bullish, with price well above both the EMA50 (729.53) and EMA200 (694.38). However, the pre-calculated indicators present a conflicting picture. The MACD is bearish (line below signal, histogram negative), indicating waning upside momentum, while the RSI is neutral at 52.54 with no divergence—neither confirming nor rejecting the trend. The Hammer candlestick pattern appearing within the last five candles could signal a potential bullish reversal from a short-term decline, but its reliability is diminished in a strong uptrend without additional confirmation. The signal score of 3/10 reflects this low conviction.
+The EMA structure confirms a strong uptrend (price above both 50 and 200 EMAs), but the current price action lacks momentum. The RSI at 45.92 is neutral-bearish, and the MACD is bearish with a negative histogram, signaling weakening bullish momentum. The recent candlestick patterns (Hammer, Doji) suggest indecision and potential reversal, but they are not confirmed by volume or follow-through. The low signal score of 2/10 reflects a poor risk/reward setup for a swing trade at this juncture.
 
-Key support levels near the current price of 744.39 are the EMA50 at 729.53, followed by the round number 720 and the EMA200 at 694.38. Resistance lies at the psychologically important 745, then 750 and 755. The ATR of 9.5 suggests that a one-day move of about 10 points is normal, so any entry would need to account for this volatility. The bearish MACD contradicts the bullish price structure, which often precedes a consolidation or pullback. Until the MACD turns positive or price breaks above recent highs with strength, the risk of a deeper correction remains.
+No clear chart patterns (triangles, flags, double tops/bottoms) are evident on the daily timeframe. The Hammer near the 50 EMA (729.69) could be a bullish reversal attempt, but the Doji that followed indicates hesitation. Key support is the 50 EMA at 729.69, with further support near 723.00 (prior swing low) and 714.00 (200 EMA). Resistance lies at 738.00 (recent high), 743.00 (prior resistance), and 750.00 (psychological round number).
 
-The single best trade setup right now is to wait for a clearer signal. A long entry would require confirmation such as a higher close following the Hammer or a MACD crossover above the signal line. A short entry is not justified given the dominant uptrend. Therefore, the prudent action is to remain on the sidelines, preserving capital until the technical picture becomes more aligned. The low signal score and mixed momentum discourage taking a position.
+RSI and MACD do not agree with the strong uptrend. RSI is neutral-bearish, and MACD is bearish, both diverging from the bullish EMA alignment. This lack of confluence suggests the trend may be stalling or entering a consolidation phase. Without a clear catalyst or confirmation from volume/price action, entering a trade now carries elevated risk of a false breakout or deeper pullback.
+
+The single best trade setup is to wait for either a confirmed bullish reversal above 738.00 with strong volume (triggering a buy) or a breakdown below 729.69 (triggering a short). Currently, no setup meets the criteria for a high-probability swing trade.
+
+RISK ASSESSMENT:  
+The primary risk is a continuation of the current indecision leading to a sharp move in either direction. The low RSI and bearish MACD increase the probability of a deeper pullback toward the 200 EMA (714.00). Conversely, a false breakout above 738.00 could trap late buyers. The ATR of 9.69 implies moderate daily volatility, so any trade without clear confirmation risks a 1-2% adverse move.
 
 ---
 
 ## Invalidation
 
-This wait setup is invalidated if price decisively breaks above 750 with strong volume and a bullish MACD crossover, or if it closes below the Hammer low (approximately 735–738) and the EMA50, confirming a deeper pullback.
+This wait setup is invalidated if price closes decisively above 738.00 with RSI crossing above 50 and MACD turning positive, or if price breaks and holds below 729.69 with increasing bearish volume.
 
 ---
 
