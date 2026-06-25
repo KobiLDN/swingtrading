@@ -1,21 +1,21 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-06-24T08:52:53Z",
-  "date": "2026-06-24",
-  "price": 4079.5,
-  "atr": 78.63,
-  "atr_pips": 79,
+  "generated": "2026-06-25T08:46:48Z",
+  "date": "2026-06-25",
+  "price": 3999.83,
+  "atr": 82.77,
+  "atr_pips": 83,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4384.37,
-  "ema200": 4545.05,
-  "rsi": 32.16,
-  "macd_line": -86.686597,
-  "macd_signal": -82.569975,
-  "macd_hist": -4.116622,
+  "ema50": 4366.33,
+  "ema200": 4537.39,
+  "rsi": 28.39,
+  "macd_line": -99.957417,
+  "macd_signal": -87.047908,
+  "macd_hist": -12.909509,
   "trend": "STRONG DOWNTREND",
   "divergence": "BULLISH",
   "patterns": [
@@ -30,18 +30,17 @@ window.PRICES_DATA_XAUUSD = {
       "name": "Bearish Engulfing",
       "signal": "STRONG BEARISH",
       "strength": 4
+    },
+    {
+      "date": "2026-06-25",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 7,
-  "verdict": "WATCH",
+  "score": 9,
+  "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-03-17",
-      "open": 5012.46,
-      "high": 5042.92,
-      "low": 4978.14,
-      "close": 4998.98
-    },
     {
       "date": "2026-03-18",
       "open": 4998.64,
@@ -732,8 +731,15 @@ window.PRICES_DATA_XAUUSD = {
       "date": "2026-06-24",
       "open": 4109.93,
       "high": 4114.72,
-      "low": 4050.56,
-      "close": 4079.5
+      "low": 3961.49,
+      "close": 4001.12
+    },
+    {
+      "date": "2026-06-25",
+      "open": 4000.57,
+      "high": 4018.32,
+      "low": 3964.41,
+      "close": 3999.83
     }
   ]
 };
