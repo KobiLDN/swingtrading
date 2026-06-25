@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-06-24
-**Generated:** 2026-06-24T09:48:44Z
+**Date:** 2026-06-25
+**Generated:** 2026-06-25T09:39:28Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 1.3193 |
-| **Stop Loss** | 1.3260 |
-| **Target 1** | 1.3126 |
-| **Target 2** | 1.3050 |
-| **Risk/Reward** | 1:1.5 |
-| **Score** | 4/10 confirmed |
-| **Support** | 1.3126, 1.305, 1.3 |
-| **Resistance** | 1.326, 1.3374, 1.3399 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 4/10 |
+| **Support** | 1.315, 1.31, 1.305 |
+| **Resistance** | 1.325, 1.3367, 1.3416 |
 
 ---
 
 ## Analysis
 
-The pre-calculated trend is a strong downtrend, and the price at 1.3193 is well below both the EMA 50 (1.3374) and EMA 200 (1.3399), confirming bearish alignment. Price action supports the EMA trend as the pair continues to print lower highs and lower lows, with no recent reversal candles or break above the EMAs. The absence of any bullish candlestick patterns in the last five candles further reinforces the downtrend continuation.
+The trend is unequivocally bearish, with price trading well below both the 50 EMA (1.33665) and 200 EMA (1.34155). The EMA alignment confirms a strong downtrend, and price action respects this structure by making lower highs and lower lows. However, the current price of 1.31962 is near a potential short-term support zone around 1.3150, which could act as a temporary floor. No clear chart patterns like flags or triangles are evident, but the proximity to this support suggests the pair may be consolidating before the next leg lower.
 
-No clear chart patterns such as triangles, flags, or double tops/bottoms are apparent on the daily chart. However, the price is approaching a likely support zone near 1.3126, which aligns with the previous swing low from mid-June 2026. A break below this level could accelerate selling toward the psychological 1.3050 and 1.3000 handles. Resistance is clustered around 1.3260 (recent minor swing high) and then the EMA cluster at 1.3374–1.3399.
+The RSI at 35.95 is neutral but leaning toward oversold, and the bullish RSI divergence introduces a conflicting signal—price made a lower low while RSI made a higher low. This divergence often precedes a bounce or reversal. Meanwhile, the MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend. The divergence and MACD are in disagreement, creating a mixed picture that reduces confidence in a pure trend-following entry.
 
-RSI at 33.81 is neutral but leaning toward oversold territory, while the bullish RSI divergence introduces a conflicting signal — price making lower lows while RSI makes higher lows. MACD remains bearish with the line below the signal line and a negative histogram, agreeing with the downtrend. The divergence suggests exhaustion may be building, but until price confirms a reversal (e.g., a break above resistance), the bearish momentum remains dominant.
-
-The single best trade setup is a continuation sell at current price (1.3193) with a tight stop above the 1.3260 resistance. Targets are set at the prior swing low (1.3126) and extended to 1.3050. The risk-reward ratio of 1:1.5 is acceptable given the strong trend, but the moderate confidence accounts for the divergence risk.
+Given the strong downtrend but the presence of a bullish RSI divergence and proximity to support, the single best trade setup is to wait. A short entry here risks a counter-trend bounce, while a long entry fights the dominant trend. The signal score of 4/10 reflects this ambiguity—the trend is clear, but the divergence and neutral RSI suggest exhaustion rather than momentum. A better opportunity would be to wait for a retracement to the 1.3250–1.3300 resistance zone to short, or a confirmed breakdown below 1.3150 to sell with momentum.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.3260 would invalidate this short setup, as it would suggest a break of the immediate resistance and potential trend reversal.
+This setup is invalidated if price breaks and closes above 1.3250, which would signal a potential short-term reversal and negate the bearish bias.
 
 ---
 

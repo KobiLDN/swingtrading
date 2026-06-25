@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-06-24
-**Generated:** 2026-06-24T09:49:02Z
+**Date:** 2026-06-25
+**Generated:** 2026-06-25T09:40:21Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | 4079.5 |
-| **Stop Loss** | 4158.0 |
-| **Target 1** | 4000.0 |
-| **Target 2** | 3920.0 |
-| **Risk/Reward** | 1:1.5 |
+| **Entry** | 3999.83 |
+| **Stop Loss** | 3917.06 |
+| **Target 1** | 4150.00 |
+| **Target 2** | 4300.00 |
+| **Risk/Reward** | 1:1.8 (approx.) |
 | **Score** | 7/10 |
-| **Support** | 4050.0, 4000.0, 3920.0 |
-| **Resistance** | 4150.0, 4200.0, 4384.0 |
+| **Support** | 3950.0, 3900.0, 3800.0 |
+| **Resistance** | 4100.0, 4200.0, 4366.33 |
 
 ---
 
 ## Analysis
 
-The trend is unequivocally bearish. Price at 4079.5 is far below both the EMA 50 (4384.37) and EMA 200 (4545.05), confirming a strong downtrend. The recent candlestick patterns—Doji followed by Bearish Engulfing—indicate continued selling pressure after a brief pause, reinforcing the bearish momentum. No clear reversal patterns (e.g., double bottom, bullish flag) are present; instead, the price action suggests a continuation lower, potentially forming a descending channel with the recent swing highs near 4150–4200 acting as resistance.
+The trend is undeniably bearish, with price trading far below both the EMA 50 (4366.33) and EMA 200 (4537.39), confirming a strong downtrend. However, the price action over the last five candles shows a Doji and a Bearish Engulfing pattern, which typically indicate indecision or potential exhaustion near a low, not a continuation of a clean trend. The current price of 3999.83 is well below the EMAs, suggesting the market is extremely stretched to the downside. While the trend is down, the velocity of the decline and the proximity to a psychological round number (4000) create a high-risk environment for further short entries without a pullback.
 
-RSI at 32.16 is near oversold but not yet below 30, leaving room for further downside. The bullish RSI divergence (price making lower lows while RSI makes higher lows) is a cautionary signal that could precede a reversal, but it is not yet confirmed by price action. MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend. The divergence introduces a conflict, but the trend and momentum indicators still favor selling until a clear reversal pattern emerges.
+No clear classic chart patterns like triangles, flags, or double tops/bottoms are immediately evident on the daily chart from the given data. However, the cluster of Doji candles near the 4000 level could be forming a potential bottoming pattern, such as a rounding bottom or a small consolidation zone. The key support level is the psychological 4000 mark, with further support at 3950 and 3900. Resistance is clustered at 4100 (recent swing low), then 4200, and the major EMA 50 at 4366.33.
 
-Key support is at 4050 (recent minor low) and the psychological 4000 level. Resistance is at 4150 (recent swing high) and 4200 (prior consolidation zone). The best trade setup is a short from current price with a stop above 4150 to allow for a false breakout. Targets are set at 4000 (round number) and 3920 (next major support). The 7/10 score reflects strong trend alignment but reduced confidence due to the RSI divergence and proximity to support.
+The RSI is deeply oversold at 28.39 and shows a bullish divergence, which is a strong contrarian signal that the selling momentum is waning and a reversal could be imminent. The MACD remains bearish with the line below the signal and a negative histogram, but the histogram is flattening, which can be an early sign of momentum slowing. This creates a clear divergence between the oversold RSI (bullish) and the still-bearish MACD. The confluence here is not agreement with the trend; rather, it is a warning that the trend is exhausted and a counter-trend bounce is highly probable. The signal score of 9/10 likely reflects the strength of the bearish trend, but it fails to account for the extreme oversold condition and bullish divergence, which are powerful reversal signals. Therefore, I revise the score down to 7/10 to reflect the high-risk, high-reward nature of a counter-trend trade.
+
+The single best trade setup is a contrarian BUY at current levels, targeting a mean reversion bounce toward the 4150-4200 area. This is not a trend-following trade; it is a high-probability counter-trend scalp/swing based on extreme RSI readings and bullish divergence. The risk is that the downtrend resumes aggressively, but the ATR of 83 points provides a reasonable stop-loss distance. A stop at 3917 (1.0 ATR below entry) allows for normal volatility while protecting against a deeper sell-off. The reward targets are set at the first resistance zone (4150) and the next major resistance (4300), offering a favorable risk-reward ratio even on the first target.
 
 ---
 
 ## Invalidation
 
-N/A
+This setup is invalidated if price breaks and closes below 3917.06 (the stop-loss level), confirming that the downtrend has resumed with renewed momentum and the oversold bounce has failed.
 
 ---
 
