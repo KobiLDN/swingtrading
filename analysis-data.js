@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-06-25T09:39:28Z",
+  "generated": "2026-06-26T09:48:07Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-06-25",
-  "decision": "WAIT",
-  "confidence": "LOW",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The trend is unequivocally bearish, with price trading well below both the 50 EMA (1.33665) and 200 EMA (1.34155). The EMA alignment confirms a strong downtrend, and price action respects this structure by making lower highs and lower lows. However, the current price of 1.31962 is near a potential short-term support zone around 1.3150, which could act as a temporary floor. No clear chart patterns like flags or triangles are evident, but the proximity to this support suggests the pair may be consolidating before the next leg lower.\n\nThe RSI at 35.95 is neutral but leaning toward oversold, and the bullish RSI divergence introduces a conflicting signal\u2014price made a lower low while RSI made a higher low. This divergence often precedes a bounce or reversal. Meanwhile, the MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend. The divergence and MACD are in disagreement, creating a mixed picture that reduces confidence in a pure trend-following entry.\n\nGiven the strong downtrend but the presence of a bullish RSI divergence and proximity to support, the single best trade setup is to wait. A short entry here risks a counter-trend bounce, while a long entry fights the dominant trend. The signal score of 4/10 reflects this ambiguity\u2014the trend is clear, but the divergence and neutral RSI suggest exhaustion rather than momentum. A better opportunity would be to wait for a retracement to the 1.3250\u20131.3300 resistance zone to short, or a confirmed breakdown below 1.3150 to sell with momentum.",
-  "invalidation": "This setup is invalidated if price breaks and closes above 1.3250, which would signal a potential short-term reversal and negate the bearish bias.",
+  "date": "2026-06-26",
+  "decision": "BUY",
+  "confidence": "MEDIUM",
+  "entry": "1.32147",
+  "stop_loss": "1.31470",
+  "target_1": "1.33000",
+  "target_2": "1.33604",
+  "risk_reward": "1:1.25 (approx.)",
+  "score": "8/10",
+  "analysis": "The daily chart shows a strong downtrend with price trading well below both the 50 EMA (1.33604) and 200 EMA (1.34119). However, the last five candles have formed a Morning Star pattern, a classic bullish reversal that signals potential exhaustion of selling pressure. This is supported by a Bullish RSI Divergence, where price made lower lows while RSI formed higher lows, indicating weakening downside momentum. The RSI itself is at 38.61, neutral but below 50, and the MACD remains bearish with the line below the signal line and a negative histogram, so the trend-based momentum is still against a long trade.\n\nGiven the conflicting signals \u2014 strong downtrend versus bullish reversal patterns \u2014 the setup is a counter-trend buy with moderate confidence. The ATR of 68 pips suggests a reasonable stop distance, and the Morning Star often leads to a 1\u20133 day bounce. The first target is the round number at 1.3300, and the second target is the 50 EMA at 1.33604, which also aligns with a prior support/resistance zone. The risk/reward is approximately 1:1.25, acceptable for a swing trade given the high signal score. The score of 8/10 reflects the strength of the reversal indicators despite the overarching downtrend.\n\nKey support levels below current price are 1.3180 (recent low), 1.3150 (psychological), and 1.3100 (round number). Resistance levels above are 1.3250 (short-term swing high), 1.3300, and the 50 EMA at 1.3360. A successful break above 1.3250 would add confidence to the bullish scenario.",
+  "invalidation": "This bullish setup is invalidated if price closes below 1.31470 (stop-loss level) or if the next candle breaks the Morning Star low without a meaningful bounce, confirming rejection of the reversal pattern.",
   "support_levels": [
+    1.318,
     1.315,
-    1.31,
-    1.305
+    1.31
   ],
   "resistance_levels": [
     1.325,
-    1.3367,
-    1.3416
+    1.33,
+    1.336
   ]
 };
