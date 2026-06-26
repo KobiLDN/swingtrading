@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-06-25T08:46:48Z",
-  "date": "2026-06-25",
-  "price": 3999.83,
-  "atr": 82.77,
+  "generated": "2026-06-26T08:50:40Z",
+  "date": "2026-06-26",
+  "price": 4033.97,
+  "atr": 82.62,
   "atr_pips": 83,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4366.33,
-  "ema200": 4537.39,
-  "rsi": 28.39,
-  "macd_line": -99.957417,
-  "macd_signal": -87.047908,
-  "macd_hist": -12.909509,
+  "ema50": 4354.31,
+  "ema200": 4536.21,
+  "rsi": 32.05,
+  "macd_line": -99.954403,
+  "macd_signal": -89.289527,
+  "macd_hist": -10.664876,
   "trend": "STRONG DOWNTREND",
-  "divergence": "BULLISH",
+  "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-06-21",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-06-23",
       "name": "Bearish Engulfing",
@@ -32,22 +26,15 @@ window.PRICES_DATA_XAUUSD = {
       "strength": 4
     },
     {
-      "date": "2026-06-25",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
+      "date": "2026-06-26",
+      "name": "Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
-  "score": 9,
-  "verdict": "BUY/SELL",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-18",
-      "open": 4998.64,
-      "high": 5016.82,
-      "low": 4837.58,
-      "close": 4841.93
-    },
     {
       "date": "2026-03-19",
       "open": 4842.11,
@@ -737,9 +724,16 @@ window.PRICES_DATA_XAUUSD = {
     {
       "date": "2026-06-25",
       "open": 4000.57,
-      "high": 4018.32,
+      "high": 4044.57,
       "low": 3964.41,
-      "close": 3999.83
+      "close": 4026.45
+    },
+    {
+      "date": "2026-06-26",
+      "open": 4026.49,
+      "high": 4040.4,
+      "low": 3984.06,
+      "close": 4033.97
     }
   ]
 };

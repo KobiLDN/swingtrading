@@ -1,34 +1,34 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-06-25T08:46:47Z",
-  "date": "2026-06-25",
-  "price": 1.31962,
-  "atr": 0.00674,
-  "atr_pips": 67,
+  "generated": "2026-06-26T08:50:39Z",
+  "date": "2026-06-26",
+  "price": 1.32147,
+  "atr": 0.00676,
+  "atr_pips": 68,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33665,
-  "ema200": 1.34155,
-  "rsi": 35.95,
-  "macd_line": -0.006167,
-  "macd_signal": -0.004844,
-  "macd_hist": -0.001322,
+  "ema50": 1.33604,
+  "ema200": 1.34119,
+  "rsi": 38.61,
+  "macd_line": -0.006055,
+  "macd_signal": -0.005093,
+  "macd_hist": -0.000962,
   "trend": "STRONG DOWNTREND",
   "divergence": "BULLISH",
-  "patterns": [],
-  "score": 4,
-  "verdict": "NO TRADE",
-  "candles": [
+  "patterns": [
     {
-      "date": "2026-03-18",
-      "open": 1.33526,
-      "high": 1.3375,
-      "low": 1.3274,
-      "close": 1.32765
-    },
+      "date": "2026-06-26",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
+    }
+  ],
+  "score": 8,
+  "verdict": "BUY/SELL",
+  "candles": [
     {
       "date": "2026-03-19",
       "open": 1.32766,
@@ -718,9 +718,16 @@ window.PRICES_DATA_GBPUSD = {
     {
       "date": "2026-06-25",
       "open": 1.31696,
-      "high": 1.31965,
-      "low": 1.31586,
-      "close": 1.31962
+      "high": 1.32192,
+      "low": 1.31478,
+      "close": 1.31909
+    },
+    {
+      "date": "2026-06-26",
+      "open": 1.31911,
+      "high": 1.32198,
+      "low": 1.31807,
+      "close": 1.32147
     }
   ]
 };
