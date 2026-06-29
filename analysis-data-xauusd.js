@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-06-26T09:48:26Z",
+  "generated": "2026-06-29T11:21:34Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-06-26",
-  "decision": "SELL",
-  "confidence": "MEDIUM",
-  "entry": "4100",
-  "stop_loss": "4150",
-  "target_1": "4000",
-  "target_2": "3950",
-  "risk_reward": "1:2 (first target) / 1:3 (second target)",
-  "score": "5/10",
-  "analysis": "The daily chart confirms a strong downtrend, with price well below both the EMA50 (4354.31) and EMA200 (4536.21). The current price action validates this bearish EMA alignment, as consecutive lower highs and lower lows have been established. The recent candlestick patterns\u2014a Bearish Engulfing followed by a Hammer\u2014suggest a short-term struggle: the engulfing reinforces selling pressure, while the hammer hints at a potential local bottom near 4000. However, in a persistent downtrend, hammers often act as continuation patterns after a brief pause rather than reversal signals, especially with RSI still in neutral territory (32.05) and no bullish divergence.\n\nKey support is the psychological 4000 level, with further downside targets at 3950 and 3900, based on previous swing lows and the ATR (82.62) suggesting typical daily ranges. Resistance lies at 4100 (a round number and recent minor high), then 4150 and 4200, which align with prior consolidation zones. The RSI is not yet oversold (below 30), indicating room for further decline, while the MACD remains bearish with a negative histogram, confirming the dominant downtrend. There is no divergence to warrant a reversal call, so the bearish confluence from both RSI and MACD supports additional downside.\n\nThe single best trade setup is a sell on a retracement toward the 4100 resistance level. This allows for a cleaner risk/reward entry, as the current price (4033.97) is too close to potential support (4000) and offers a poor risk profile. By waiting for a bounce into resistance, we can place a stop above 4150 (the next meaningful level) and target 4000 and 3950. Given the strong trend, the probability of a test of 4000 or lower remains high, but the 5/10 signal score reflects the presence of a hammer and non-extreme RSI, which introduce some uncertainty. Thus, this is a medium-confidence trade.\n\nRISK ASSESSMENT:\nThe primary risk is a false breakdown or a stronger-than-expected bounce from the hammer pattern. If the price rallies above 4150, the short-term bias could shift from continuation to a potential range, invalidating the bearish setup. Additionally, the RSI near 32 could attract buyers looking for a mean reversion, though the macro trend strongly favors sellers. Position sizing should account for the ATR-driven volatility (~83 pts daily) to avoid premature stop-outs.",
-  "invalidation": "A daily close above 4150 would cancel this sell setup, as it would signal a break above the nearest resistance and potentially initiate a trend reversal or a larger correction.",
+  "date": "2026-06-29",
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "4/10 confirmed",
+  "analysis": "The trend is unequivocally bearish, as confirmed by the price trading far below both the EMA 50 (4323.54) and EMA 200 (4534.11). The EMA alignment (50 below 200) and the gap between current price (4035.59) and the EMAs indicate a strong downtrend. However, the price action is not cleanly confirming momentum at this moment. The presence of a Morning Star candlestick pattern (typically bullish reversal) and a Doji (indecision) within the last five candles suggests potential exhaustion of the selling pressure or a consolidation phase before the next move. This contradiction between the bearish EMA structure and the short-term bullish candlestick signal creates a low-confidence trading environment.\n\nThere are no clear secondary chart patterns such as flags, triangles, or double tops/bottoms visible near current price. The most relevant structure is the price\u2019s proximity to the psychological round number of 4000, which could act as strong support. A break below this level would likely accelerate the downtrend toward the next support at 3950 and then 3900. Resistance is stacked above, with initial resistance at 4085 (recent local pivot), followed by 4150, and then the EMA 50 at 4323.54, which would represent a major resistance in a bear market.\n\nRSI at 34.28 is in neutral territory but close to oversold (30). It does not show divergence, and its reading below 50 aligns with the bearish trend. However, it is not deeply oversold, meaning there is room for further downside. MACD is bearish, with the line below the signal line and a negative histogram, confirming bearish momentum. There is no bullish divergence or crossover to suggest an imminent reversal. Both RSI and MACD agree with the downtrend, but the RSI\u2019s proximity to oversold and the bullish candlestick pattern create a divergence of short-term signals.\n\nThe best trade setup right now is to WAIT. The downtrend is intact, but the price is at a potential support zone (4000\u20134035) where a bounce could occur. Entering a short here offers poor risk/reward given the nearby support, while entering a long is counter-trend and risky due to the strong bearish EMA structure and MACD. A more reliable setup would be to wait for either a confirmed break below 4000 (to short with a tight stop above the breakdown level) or a clear bearish rejection from a resistance level (e.g., 4085\u20134150) after a bounce.",
+  "invalidation": "A daily close above the EMA 50 (4323.54) would invalidate the current downtrend bias and suggest a potential trend reversal.",
   "support_levels": [
-    4000.0,
+    4010.0,
     3950.0,
     3900.0
   ],
   "resistance_levels": [
-    4100.0,
+    4085.0,
     4150.0,
-    4200.0
+    4323.54
   ]
 };

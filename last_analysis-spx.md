@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-06-25
-**Generated:** 2026-06-26T09:48:48Z
+**Date:** 2026-06-26
+**Generated:** 2026-06-29T11:22:52Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,26 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 2/10 |
-| **Support** | 730.01, 720.0, 696.21 |
-| **Resistance** | 740.0, 750.0, 760.0 |
+| **Support** | 728.0, 725.0, 720.0 |
+| **Resistance** | 729.97, 735.0, 740.0 |
 
 ---
 
 ## Analysis
 
-Price remains above both the 50‑day (730.01) and 200‑day (696.21) EMAs, confirming the stated “STRONG UPTREND” at the macro level. However, the recent candlestick pattern (Hammer, Doji) suggests indecision or a potential short‑term reversal after a decline, and the MACD is bearish with a negative histogram, indicating fading upside momentum. The RSI at 46.49 is neutral but leaning toward bearish territory, lacking any divergence to support a reversal. The overall signal score of 2/10 reflects this poor confluence between the long‑term trend and short‑term momentum.
+The price action does not confirm the stated bullish bias. While price remains above the EMA200 (697.27), it has slipped below the EMA50 (729.97), indicating short-term weakness. The two consecutive Doji candles suggest indecision and a potential consolidation phase, but no clear directional breakout has occurred. The trend bias is likely derived from the longer-term EMA200 slope, but the immediate price structure is neutral-to-bearish.
 
-No clear chart patterns such as flags, triangles, or double tops/bottoms are evident from the limited candlestick data. The nearest support is the 50‑day EMA at 730.01, followed by the psychological 720 level and the 200‑day EMA at 696.21. Resistance is anchored at the round figure 740, then 750 and 760. With no bullish confirmation from price action, momentum oscillators, or a rising MACD, the risk of entering a long position at current levels outweighs the reward. A short is not advisable against the dominant uptrend.
+No additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the limited data. The proximity of price to the EMA50 (resistance) and the presence of Dojis could imply a pending decision, but without a confirmed pattern, no reliable setup exists. Key support is psychological at 728.00, with further support near 725.00 and the EMA200 at 697.27. Resistance is anchored at the EMA50 (729.97), followed by 735.00 and 740.00.
 
-The single best trade setup at this moment is to wait for either a pullback to the 50‑day EMA with a bullish MACD crossover or a strong break above 740 with increasing volume. Until then, the conflicting signals—strong trend vs. weakening momentum—warrant patience.
+RSI at 43.21 is neutral and does not provide a strong signal, while the MACD is bearish (line below signal, negative histogram). This divergence between the long-term bullish bias and short-term bearish momentum creates a conflicting picture. The low signal score (2/10) reinforces the lack of confluence. The best trade setup is to wait for a clearer catalyst—either a decisive break above the EMA50 with volume or a test of the EMA200 support.
+
+Risk assessment is unfavorable due to the mixed signals and low conviction. Entering now would require fighting the MACD bearishness and the Doji indecision, with no clear
 
 ---
 
 ## Invalidation
 
-If price closes decisively below the 50‑day EMA (730.01) with expanding volume, the uptrend would be seriously threatened; conversely, a bullish MACD crossover and a close above 740 would confirm a resumption of the trend and invalidate the wait stance.
+N/A
 
 ---
 
