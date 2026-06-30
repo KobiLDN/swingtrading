@@ -1,22 +1,22 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-06-29T10:22:12Z",
-  "date": "2026-06-26",
-  "price": 728.99,
-  "atr": 10.39,
-  "atr_pips": 10,
+  "generated": "2026-06-30T08:56:34Z",
+  "date": "2026-06-29",
+  "price": 741.0,
+  "atr": 10.54,
+  "atr_pips": 11,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 729.97,
-  "ema200": 697.27,
-  "rsi": 43.21,
-  "macd_line": -0.13826,
-  "macd_signal": 2.657017,
-  "macd_hist": -2.795277,
-  "trend": "BULLISH BIAS",
+  "ema50": 730.4,
+  "ema200": 697.67,
+  "rsi": 51.54,
+  "macd_line": 0.063748,
+  "macd_signal": 2.138363,
+  "macd_hist": -2.074615,
+  "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
     {
@@ -30,18 +30,17 @@ window.PRICES_DATA_SPX = {
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
+    },
+    {
+      "date": "2026-06-29",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 2,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-02-03",
-      "open": 696.21,
-      "high": 696.96,
-      "low": 684.03,
-      "close": 689.53
-    },
     {
       "date": "2026-02-04",
       "open": 690.35,
@@ -734,6 +733,13 @@ window.PRICES_DATA_SPX = {
       "high": 736.53,
       "low": 716.58,
       "close": 728.99
+    },
+    {
+      "date": "2026-06-29",
+      "open": 736.53,
+      "high": 741.56,
+      "low": 732.11,
+      "close": 741.0
     }
   ]
 };

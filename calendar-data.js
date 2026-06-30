@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-06-29T10:22:12Z",
+  "generated": "2026-06-30T08:56:35Z",
   "events": [
     {
       "date": "2026-07-01",
@@ -29,7 +29,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "ISM Manufacturing PMI",
       "impact": "high",
-      "forecast": "53.7",
+      "forecast": "53.8",
       "previous": "54.0",
       "actual": "",
       "today": false
@@ -51,7 +51,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "Non-Farm Employment Change",
       "impact": "high",
-      "forecast": "114K",
+      "forecast": "110K",
       "previous": "172K",
       "actual": "",
       "today": false
