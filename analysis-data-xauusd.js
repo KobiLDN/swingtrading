@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-06-29T11:21:34Z",
+  "generated": "2026-06-30T09:58:31Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10 confirmed",
-  "analysis": "The trend is unequivocally bearish, as confirmed by the price trading far below both the EMA 50 (4323.54) and EMA 200 (4534.11). The EMA alignment (50 below 200) and the gap between current price (4035.59) and the EMAs indicate a strong downtrend. However, the price action is not cleanly confirming momentum at this moment. The presence of a Morning Star candlestick pattern (typically bullish reversal) and a Doji (indecision) within the last five candles suggests potential exhaustion of the selling pressure or a consolidation phase before the next move. This contradiction between the bearish EMA structure and the short-term bullish candlestick signal creates a low-confidence trading environment.\n\nThere are no clear secondary chart patterns such as flags, triangles, or double tops/bottoms visible near current price. The most relevant structure is the price\u2019s proximity to the psychological round number of 4000, which could act as strong support. A break below this level would likely accelerate the downtrend toward the next support at 3950 and then 3900. Resistance is stacked above, with initial resistance at 4085 (recent local pivot), followed by 4150, and then the EMA 50 at 4323.54, which would represent a major resistance in a bear market.\n\nRSI at 34.28 is in neutral territory but close to oversold (30). It does not show divergence, and its reading below 50 aligns with the bearish trend. However, it is not deeply oversold, meaning there is room for further downside. MACD is bearish, with the line below the signal line and a negative histogram, confirming bearish momentum. There is no bullish divergence or crossover to suggest an imminent reversal. Both RSI and MACD agree with the downtrend, but the RSI\u2019s proximity to oversold and the bullish candlestick pattern create a divergence of short-term signals.\n\nThe best trade setup right now is to WAIT. The downtrend is intact, but the price is at a potential support zone (4000\u20134035) where a bounce could occur. Entering a short here offers poor risk/reward given the nearby support, while entering a long is counter-trend and risky due to the strong bearish EMA structure and MACD. A more reliable setup would be to wait for either a confirmed break below 4000 (to short with a tight stop above the breakdown level) or a clear bearish rejection from a resistance level (e.g., 4085\u20134150) after a bounce.",
-  "invalidation": "A daily close above the EMA 50 (4323.54) would invalidate the current downtrend bias and suggest a potential trend reversal.",
+  "score": "5/10",
+  "analysis": "The daily chart confirms a strong downtrend with price at 4015.59, well below both the EMA50 (4310.75) and EMA200 (4529.52). The MACD remains bearish (line below signal, negative histogram) and RSI at 33.15 is neutral but approaching oversold territory, indicating weakening momentum but not yet a reversal trigger. No RSI divergence is present, so the bearish bias from the indicators is consistent with the price action and EMA alignment. However, the recent candlestick patterns\u2014a Morning Star followed by two Dojis\u2014introduce a potential bullish reversal signal that contradicts the prevailing trend, creating uncertainty.\n\nNearby support levels are psychological and structural: 4000 (round number), 3950 (potential prior swing low), and 3900 (next major zone). Resistance levels are tighter due to recent consolidation: 4045 (recent Doji high), 4100 (round number), and 4150 (the Morning Star bullish candle high). The ATR(14) of 77 suggests wide daily ranges, so any breakout could be sharp. The Morning Star indicates possible buying pressure, but the subsequent Dojis reflect indecision and a lack of follow-through, weakening the reversal case. The bearish MACD and strong downtrend argue against a long entry without confirmation, while a short entry lacks a clear nearby resistance level with acceptable risk due to the oversold RSI and potential reversal pattern.\n\nGiven the conflicting signals\u2014clear downtrend vs. a nascent bullish pattern\u2014the prudent approach is to wait for more clarity. A long trade would only be justified if price breaks above the 4045 resistance with volume and RSI moves above 40, confirming a short-term bottom. A short trade would require a breakdown below 4000 with renewed bearish momentum and MACD acceleration. The overall signal score remains 5/10, reflecting the balanced risk and the need for confirmation.",
+  "invalidation": "This wait-and-see stance is invalidated if price decisively breaks above 4050 (triggering a potential long setup) or breaks and sustains below 3990 (reinforcing the downtrend for a short entry).",
   "support_levels": [
-    4010.0,
+    4000.0,
     3950.0,
     3900.0
   ],
   "resistance_levels": [
-    4085.0,
-    4150.0,
-    4323.54
+    4045.0,
+    4100.0,
+    4150.0
   ]
 };
