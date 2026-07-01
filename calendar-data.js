@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-06-30T08:56:35Z",
+  "generated": "2026-07-01T09:29:14Z",
   "events": [
     {
       "date": "2026-07-01",
@@ -10,7 +10,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-07-01",
@@ -21,7 +21,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-07-01",
@@ -32,7 +32,7 @@ window.CALENDAR_DATA = {
       "forecast": "53.8",
       "previous": "54.0",
       "actual": "",
-      "today": false
+      "today": true
     },
     {
       "date": "2026-07-02",
@@ -51,7 +51,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "Non-Farm Employment Change",
       "impact": "high",
-      "forecast": "110K",
+      "forecast": "114K",
       "previous": "172K",
       "actual": "",
       "today": false

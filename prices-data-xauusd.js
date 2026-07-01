@@ -1,53 +1,34 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-06-30T08:56:34Z",
-  "date": "2026-06-30",
-  "price": 4015.59,
-  "atr": 77.17,
-  "atr_pips": 77,
+  "generated": "2026-07-01T09:29:14Z",
+  "date": "2026-07-01",
+  "price": 3978.41,
+  "atr": 77.57,
+  "atr_pips": 78,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4310.75,
-  "ema200": 4529.52,
-  "rsi": 33.15,
-  "macd_line": -92.969976,
-  "macd_signal": -90.751737,
-  "macd_hist": -2.218239,
+  "ema50": 4297.42,
+  "ema200": 4523.97,
+  "rsi": 30.99,
+  "macd_line": -95.76291,
+  "macd_signal": -91.854569,
+  "macd_hist": -3.908342,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-06-26",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-06-28",
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
-    },
-    {
-      "date": "2026-06-30",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 2,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-23",
-      "open": 4497.44,
-      "high": 4532.23,
-      "low": 4104.82,
-      "close": 4400.01
-    },
     {
       "date": "2026-03-24",
       "open": 4399.38,
@@ -737,9 +718,16 @@ window.PRICES_DATA_XAUUSD = {
     {
       "date": "2026-06-30",
       "open": 4016.34,
-      "high": 4036.94,
+      "high": 4063.06,
       "low": 3949.45,
-      "close": 4015.59
+      "close": 4007.7
+    },
+    {
+      "date": "2026-07-01",
+      "open": 4007.53,
+      "high": 4018.16,
+      "low": 3959.59,
+      "close": 3978.41
     }
   ]
 };
