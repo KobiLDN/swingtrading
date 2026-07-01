@@ -665,6 +665,7 @@
       <button class="asset-pill active" data-asset="gbpusd" onclick="switchAsset('gbpusd')">GBP/USD</button>
       <button class="asset-pill" data-asset="xauusd" onclick="switchAsset('xauusd')">XAU/USD</button>
       <button class="asset-pill" data-asset="spx" onclick="switchAsset('spx')">SPX</button>
+      <button class="asset-pill" data-asset="oil" onclick="switchAsset('oil')">WTI Oil</button>
     </div>
     <span class="header-sub" id="last-updated"></span>
   </div>
@@ -1015,9 +1016,11 @@
 <script src="prices-data-gbpusd.js"></script>
 <script src="prices-data-xauusd.js"></script>
 <script src="prices-data-spx.js"></script>
+<script src="prices-data-oil.js"></script>
 <script src="analysis-data-gbpusd.js"></script>
 <script src="analysis-data-xauusd.js"></script>
 <script src="analysis-data-spx.js"></script>
+<script src="analysis-data-oil.js"></script>
 <!-- Economic calendar -->
 <script src="calendar-data.js"></script>
 <!-- News sentiment -->
@@ -1034,11 +1037,12 @@ function toggleTheme() {
 // ── Asset switching ───────────────────────────────────────────────────────────
 var CURRENT_ASSET = localStorage.getItem('asset') || 'gbpusd';
 
-var ASSET_LABELS = { gbpusd: 'GBP/USD', xauusd: 'XAU/USD', spx: 'SPX500' };
+var ASSET_LABELS = { gbpusd: 'GBP/USD', xauusd: 'XAU/USD', spx: 'SPX500', oil: 'WTI Crude' };
 var ASSET_NOTES  = {
   gbpusd: 'GBP/USD pip value = $0.0001 per unit · Stop auto-filled from AI analysis when available',
   xauusd: 'XAU/USD point value = $1.00 per oz · Stop auto-filled from AI analysis when available',
   spx:    'SPX point value = $1.00 per unit · Stop auto-filled from AI analysis when available',
+  oil:    'WTI Crude point value = $1.00 per barrel · Stop auto-filled from AI analysis when available',
 };
 
 function getAssetData(slug) {
@@ -1083,6 +1087,16 @@ var CAL_EXPLAINERS = {
       calItem('NFP (Non-Farm Payrolls)','Strong jobs = mixed — good economy but delays rate cuts. Weak jobs = bad growth but may bring cuts forward. Context matters.') +
       calItem('GDP (Quarterly)',       'Overall US economic growth. Positive = stocks rise. Two consecutive negative quarters = recession = large sell-off risk.') +
       calItem('Earnings Season',      'Not on this calendar but huge for SPX — Jan, Apr, Jul, Oct. Apple, Nvidia, JPMorgan earnings can gap the index ±2% overnight.')
+  },
+  oil: {
+    label: 'WTI Crude Oil',
+    footer: 'USD events + supply/demand reports',
+    body:
+      calItem('EIA Crude Inventories', 'Published every Wednesday at 15:30 UTC. Surprise build (more supply than expected) = price falls. Surprise draw (less supply) = price rallies. Single biggest weekly event for oil.') +
+      calItem('OPEC+ Production Decisions', 'OPEC+ meetings can swing oil ±5% in a session. Production cuts = supply squeeze = price up. Increased quotas = price down. Dates are irregular — watch headlines.') +
+      calItem('NFP / US Jobs Data',    'Strong US jobs = strong economy = higher oil demand expectations = price up. Weak jobs = recession fear = oil falls.') +
+      calItem('Fed Rate Decisions',    'Rate hikes strengthen USD and slow growth — both bearish for oil. Rate cuts weaken USD and boost growth expectations — bullish for oil.') +
+      calItem('API Crude Inventories', 'American Petroleum Institute report published Tuesday evenings — an unofficial preview of Wednesday\'s EIA number. Moves oil overnight.')
   }
 };
 
@@ -1107,6 +1121,13 @@ var ASSET_CONTEXT = {
     drivers: 'Fed rate decisions (FOMC), CPI/inflation data, NFP jobs report, GDP growth, corporate earnings seasons (especially big tech), VIX volatility index.',
     session: 'US market hours: 14:30–21:00 UTC. Pre-market moves on big macro prints. Earnings after close can gap the open.',
     pip: '1 pt = $1 on SPX · SPY moves ~1/10 of SPX · Position sizing via ATR for swing trades'
+  },
+  oil: {
+    name: 'WTI Crude Oil', aka: 'USOIL',
+    desc: 'West Texas Intermediate — the US benchmark for crude oil, priced in USD per barrel. One of the most actively traded commodities in the world, driven by supply/demand dynamics and geopolitics.',
+    drivers: 'OPEC+ production decisions, EIA/API inventory reports, US dollar strength (DXY), global growth expectations, geopolitical risk (Middle East, Russia), refinery demand.',
+    session: 'Trades nearly 24h. Most liquid during US hours (13:00–21:00 UTC). Wednesday 15:30 UTC EIA report is the key weekly event.',
+    pip: '1 point = $1.00 per barrel · Standard contract = 1,000 barrels · Use ATR for stop sizing'
   }
 };
 
@@ -1188,7 +1209,7 @@ function switchAsset(slug) {
   renderAnalysis();
   initChart();
   calcPosition();
-  var labels = { gbpusd: 'GBP/USD', xauusd: 'XAU/USD', spx: 'SPX' };
+  var labels = { gbpusd: 'GBP/USD', xauusd: 'XAU/USD', spx: 'SPX', oil: 'WTI Crude Oil' };
   renderNews(slug, labels[slug] || slug.toUpperCase());
 }
 

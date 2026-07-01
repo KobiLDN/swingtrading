@@ -69,6 +69,13 @@ ASSET_CONFIG = {
         'pip_label': 'pts',
         'pip_value': 1.0,     # $1 per share per point
     },
+    'USOIL': {
+        'slug':      'oil',
+        'decimals':  2,
+        'pip_mult':  1,       # ATR already in USD/barrel
+        'pip_label': 'pts',
+        'pip_value': 1.0,     # $1 per barrel per point
+    },
 }
 
 SYMBOL     = os.environ.get('ASSET', 'GBP/USD')

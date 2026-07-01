@@ -41,6 +41,12 @@ jobs:
           ASSET: "SPY"
         run: python update_prices.py || echo "SPY fetch failed — skipping"
 
+      - name: Fetch WTI Crude Oil prices
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+          ASSET: "USOIL"
+        run: python update_prices.py || echo "USOIL fetch failed — skipping"
+
       - name: Fetch economic calendar
         env:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}

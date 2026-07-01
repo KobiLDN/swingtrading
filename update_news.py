@@ -35,9 +35,10 @@ OUTPUT_JS = 'news-data.js'
 LIMIT     = 8  # articles per asset
 
 ASSETS = [
-    {'slug': 'gbpusd', 'ticker': 'FOREX:GBPUSD', 'label': 'GBP/USD'},
-    {'slug': 'xauusd', 'ticker': 'FOREX:XAUUSD', 'label': 'XAU/USD'},
-    {'slug': 'spx',    'ticker': 'EQUITY:SPY',   'label': 'SPX'},
+    {'slug': 'gbpusd', 'ticker': 'FOREX:GBPUSD',    'label': 'GBP/USD'},
+    {'slug': 'xauusd', 'ticker': 'FOREX:XAUUSD',    'label': 'XAU/USD'},
+    {'slug': 'spx',    'ticker': 'EQUITY:SPY',       'label': 'SPX'},
+    {'slug': 'oil',    'ticker': 'COMMODITY:USOIL',  'label': 'WTI Crude Oil'},
 ]
 
 
