@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-06-30T09:58:31Z",
+  "generated": "2026-07-01T10:09:14Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The daily chart confirms a strong downtrend with price at 4015.59, well below both the EMA50 (4310.75) and EMA200 (4529.52). The MACD remains bearish (line below signal, negative histogram) and RSI at 33.15 is neutral but approaching oversold territory, indicating weakening momentum but not yet a reversal trigger. No RSI divergence is present, so the bearish bias from the indicators is consistent with the price action and EMA alignment. However, the recent candlestick patterns\u2014a Morning Star followed by two Dojis\u2014introduce a potential bullish reversal signal that contradicts the prevailing trend, creating uncertainty.\n\nNearby support levels are psychological and structural: 4000 (round number), 3950 (potential prior swing low), and 3900 (next major zone). Resistance levels are tighter due to recent consolidation: 4045 (recent Doji high), 4100 (round number), and 4150 (the Morning Star bullish candle high). The ATR(14) of 77 suggests wide daily ranges, so any breakout could be sharp. The Morning Star indicates possible buying pressure, but the subsequent Dojis reflect indecision and a lack of follow-through, weakening the reversal case. The bearish MACD and strong downtrend argue against a long entry without confirmation, while a short entry lacks a clear nearby resistance level with acceptable risk due to the oversold RSI and potential reversal pattern.\n\nGiven the conflicting signals\u2014clear downtrend vs. a nascent bullish pattern\u2014the prudent approach is to wait for more clarity. A long trade would only be justified if price breaks above the 4045 resistance with volume and RSI moves above 40, confirming a short-term bottom. A short trade would require a breakdown below 4000 with renewed bearish momentum and MACD acceleration. The overall signal score remains 5/10, reflecting the balanced risk and the need for confirmation.",
-  "invalidation": "This wait-and-see stance is invalidated if price decisively breaks above 4050 (triggering a potential long setup) or breaks and sustains below 3990 (reinforcing the downtrend for a short entry).",
+  "score": "2/10 confirmed",
+  "analysis": "The trend is unequivocally bearish, with price at 3978.41 trading far below both the EMA 50 (4297.42) and EMA 200 (4523.97). This confirms a strong downtrend, and the price action aligns with the EMA structure \u2014 no bullish crossover or base-building is evident. The RSI at 30.99 is near oversold territory but not yet below 30, and the MACD remains bearish with the line below the signal and a negative histogram. However, the RSI is not yet oversold enough to trigger a reliable reversal signal, and there is no bullish divergence to suggest momentum exhaustion.\n\nNo clear chart patterns such as flags, triangles, or double tops/bottoms are identifiable from the last five candles. The single Doji candle near the current price suggests indecision, but in a strong downtrend, a Doji often acts as a continuation pattern rather than a reversal. Without a confirmed support bounce or a bullish reversal pattern (e.g., hammer, engulfing), there is no reliable entry signal. Key support lies near the psychological 3900.00 level, with further support at 3850.00 and 3800.00. Resistance is clustered around 4050.00 (recent minor swing high), then 4100.00 and 4200.00.\n\nThe RSI and MACD both agree with the bearish trend \u2014 no bullish divergence or crossover exists to challenge the downtrend. The signal score of 2/10 accurately reflects the lack of confluence for a counter-trend buy and the absence of a low-risk short entry (price is already extended from the last resistance). The best trade setup would be to wait for a retracement toward the 4050\u20134100 resistance zone to short, or for a confirmed bullish reversal pattern near 3900 support with RSI oversold and MACD bullish cross. Currently, neither condition is met.",
+  "invalidation": "A daily close above 4050.00 would invalidate the immediate bearish bias and suggest a potential trend shift or consolidation.",
   "support_levels": [
-    4000.0,
-    3950.0,
-    3900.0
+    3900.0,
+    3850.0,
+    3800.0
   ],
   "resistance_levels": [
-    4045.0,
+    4050.0,
     4100.0,
-    4150.0
+    4200.0
   ]
 };

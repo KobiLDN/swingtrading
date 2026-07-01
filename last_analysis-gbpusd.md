@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-06-30
-**Generated:** 2026-06-30T09:58:17Z
+**Date:** 2026-07-01
+**Generated:** 2026-07-01T10:08:51Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,30 @@
 |-------|-------|
 | **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.32283 |
-| **Stop Loss** | 1.31620 |
-| **Target 1** | 1.33396 |
-| **Target 2** | 1.33991 |
-| **Risk/Reward** | 1.65 (to T1) / 2.52 (to T2) |
-| **Score** | 7/10 |
-| **Support** | 1.32, 1.316, 1.31 |
-| **Resistance** | 1.33396, 1.33991, 1.345 |
+| **Entry** | 1.32487 |
+| **Stop Loss** | 1.31881 |
+| **Target 1** | 1.33373 |
+| **Target 2** | 1.34064 |
+| **Risk/Reward** | 1.47 |
+| **Score** | 6/10 |
+| **Support** | 1.32, 1.315, 1.31 |
+| **Resistance** | 1.33373, 1.34064, 1.35 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong downtrend with price trading well below both the 50- and 200-period EMAs (1.33396 and 1.33991). However, the recent price action has produced a Morning Star candlestick pattern, a classic bullish reversal signal. This is reinforced by a bullish RSI divergence (price made a lower low while RSI formed a higher low) and a bullish MACD crossover with a positive histogram. These divergences suggest that downside momentum is waning, and a counter-trend bounce or reversal may be underway. The signal score of 7/10 reflects this confluence of bullish indicators against the backdrop of a dominant downtrend.
+The trend is confirmed as a strong downtrend by the EMA structure, with price trading well below both the 50 EMA (1.33373) and 200 EMA (1.34064). However, the recent price action shows a Doji candlestick pattern on the daily chart, indicating indecision and potential exhaustion of the selling momentum. This Doji, combined with the price being near a psychological support zone around 1.3200, suggests a possible pause or reversal in the downtrend, rather than a continuation. The bearish EMA alignment is currently being challenged by this candlestick signal.
 
-No additional chart patterns (triangles, flags, double tops/bottoms) are explicitly visible from the given data, but the Morning Star pattern itself implies a potential bottoming structure near the 1.3160–1.3200 area. Key support levels are the psychological 1.3200 round number, the recent swing low near 1.3160 (likely the low of the Morning Star’s bearish candle), and 1.3100. Resistance is clustered at the EMA50 (1.33396), the EMA200 (1.33991), and the prior consolidation zone around 1.3450.
+The RSI at 44.36 is neutral but shows a bullish divergence, meaning price made a lower low while RSI made a higher low. This is a classic early reversal signal. The MACD confirms this bullish divergence with the line above the signal line and a positive histogram, indicating that downside momentum is fading. The confluence of RSI divergence and MACD bullish crossover provides a strong counter-trend signal against the dominant EMA downtrend. The signal score of 5/10 is revised upward to 6/10 due to this divergence and pattern confluence.
 
-The RSI (42.25) is neutral but rising, while the MACD is bullish and above its signal line. This agreement between RSI divergence and MACD crossover supports a bullish bias, even though the overall trend remains bearish. The trade setup is a counter-trend buy, targeting the EMAs as logical resistance levels. The stop-loss is placed below the recent swing low (1.
+The single best trade setup here is a counter-trend buy, anticipating a short-term bounce toward the 50 EMA at 1.33373 (T1) and possibly the 200 EMA at 1.34064 (T2). The stop loss is placed below the recent swing low and ATR-based volatility, at 1.31881 (approximately 60 pips below entry, matching the ATR of 61 pips). The risk-reward ratio is favorable at 1.47, as the first target offers 89 pips of upside against 61 pips of risk. Key support levels below are 1.3200 (psychological) and 1.3150, while resistance is clustered at the EMAs.
 
 ---
 
 ## Invalidation
 
-N/A
+This setup is invalidated if price breaks and closes below 1.31881, confirming a continuation of the strong downtrend and negating the bullish divergence.
 
 ---
 

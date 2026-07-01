@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-06-29
-**Generated:** 2026-06-30T09:58:48Z
+**Date:** 2026-06-30
+**Generated:** 2026-07-01T10:09:31Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,34 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 confirmed |
-| **Support** | 730.4, 720.0, 697.67 |
-| **Resistance** | 750.0, 760.0, 770.0 |
+| **Score** | 5/10 |
+| **Support** | 736.47, 731.05, 720.0 |
+| **Resistance** | 757.0, 765.0, 780.0 |
 
 ---
 
 ## Analysis
 
-The price at 741.0 is well above both the EMA50 (730.4) and EMA200 (697.7), confirming the strong uptrend indicated by the trend label. However, the MACD is bearish with the line below the signal line and a negative histogram, signaling weakening short-term momentum. The RSI at 51.54 is neutral, showing no overbought or oversold conditions. The recent candlestick pattern—a Morning Star preceded by two Dojis—suggests a potential bullish reversal, but its placement after a period of consolidation makes it less reliable without additional confirmation.
+The trend is classified as a strong uptrend based on EMA50 (731.05) and EMA200 (698.63) positioning well below current price (746.77). Price action confirms this bullish structure, as the price remains above both key EMAs. However, the recent candlestick pattern — a Doji followed by a Morning Star — suggests a potential short-term reversal or consolidation after a pause, not a clear continuation signal. The Morning Star is a bullish reversal pattern, but its effectiveness is diminished when the overall trend is already strong and price is near resistance.
 
-No clear chart patterns like triangles or flags are inferable from the limited data, but the price appears to be consolidating near the 741 level after a strong run. Key support is the EMA50 at 730.4, followed by the round number 720 and the EMA200 at 697.7. Resistance lies at psychological levels 750, 760, and 770, with 750 being the nearest potential hurdle given the ATR of ~10.5 points.
+The MACD is bearish (line below signal, negative histogram), which directly conflicts with the bullish EMA trend. RSI at 54.95 is neutral and shows no divergence, offering no strong directional edge. This lack of confluence between trend-following indicators (EMAs) and momentum oscillators (MACD, RSI) creates a mixed signal. The signal score of 5/10 reflects this ambiguity — the trend is intact, but momentum is fading, and no clear breakout or breakdown pattern is present.
 
-The RSI and MACD do not agree with the strong uptrend; the MACD is bearish while the trend remains bullish, creating a divergence in momentum. The Morning Star offers a short-term bullish signal, but the overall score of 5/10 reflects the mixed picture. Given the lack of confluence and the neutral RSI, waiting for clearer alignment (e.g., a MACD bullish cross or a confirmed break above 750) is prudent.
-
-RISK ASSESSMENT:
-The primary risk is that the bearish MACD leads to a deeper pullback, potentially breaking below the EMA50. Conversely, the strong uptrend could resume if the Morning Star pattern attracts buyers. The current setup lacks the high-confidence trigger needed for a swing trade; entering now would rely on a low-probability outcome.
+No additional chart patterns like triangles, flags, or double tops/bottoms are immediately inferable from the given data. The price is in a no-man’s land between the EMA50 support (731.05) and the next resistance zone near 757–765. Without a clear catalyst or pattern, entering a trade here would be speculative. The ATR of 10.3 points suggests moderate daily volatility, but the risk of a false breakout or whipsaw is elevated given the conflicting signals.
 
 ---
 
 ## Invalidation
 
-This WAIT stance is invalidated if the price breaks and holds above 750 with volume, confirming the Morning Star and resuming the uptrend, or if it closes below 730.4, signaling a trend reversal.
+A close below EMA50 (731.05) would invalidate the bullish trend structure and shift the bias to bearish, while a decisive break above 757 with strong volume would confirm a bullish continuation.
 
 ---
 
