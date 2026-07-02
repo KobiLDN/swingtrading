@@ -1,21 +1,21 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-02T08:41:47Z",
+  "generated": "2026-07-02T19:38:00Z",
   "date": "2026-07-02",
-  "price": 1.33507,
-  "atr": 0.00649,
-  "atr_pips": 65,
+  "price": 1.33448,
+  "atr": 0.0067,
+  "atr_pips": 67,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33389,
-  "ema200": 1.34097,
-  "rsi": 57.33,
-  "macd_line": -0.002898,
-  "macd_signal": -0.004582,
-  "macd_hist": 0.001684,
+  "ema50": 1.33387,
+  "ema200": 1.34096,
+  "rsi": 56.72,
+  "macd_line": -0.002945,
+  "macd_signal": -0.004592,
+  "macd_hist": 0.001646,
   "trend": "BEARISH BIAS",
   "divergence": "BULLISH",
   "patterns": [
@@ -725,9 +725,9 @@ window.PRICES_DATA = {
     {
       "date": "2026-07-02",
       "open": 1.32758,
-      "high": 1.33549,
+      "high": 1.33833,
       "low": 1.3269,
-      "close": 1.33507
+      "close": 1.33448
     }
   ]
 };
