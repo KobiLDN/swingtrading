@@ -47,7 +47,7 @@ jobs:
       - name: Analyse WTI Crude Oil
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          ASSET: "USOIL"
+          ASSET: "WTI/USD"
         run: python generate_analysis.py || echo "USOIL analysis failed — skipping"
 
       - name: Fetch news sentiment
