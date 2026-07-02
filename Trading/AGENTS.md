@@ -4,6 +4,15 @@ This file is for any AI or human contributor working in this repo. It describes 
 
 ---
 
+## ⛔ STRICT PUSH RULES (see `Trading/BRANCHES.md`)
+
+1. **All work goes to the dev branch (`claude/friendly-dijkstra-lBUrd`) FIRST** — test on the Cloudflare dev preview (https://claude-friendly-dijkstra-lbu.swingtrading.pages.dev) before anything touches live.
+2. **NEVER push to `main` without asking Kobi for permission** — main deploys instantly to the live site (https://swingtrading.pages.dev). Ask, wait for a yes, then push.
+
+Only the GitHub Actions bots may push to main without asking (daily data updates).
+
+---
+
 ## What This Project Is
 
 A **live GBP/USD swing trading dashboard** hosted on GitHub Pages, with a fully automated daily data pipeline powered by GitHub Actions, Python, and an OpenRouter AI model.
