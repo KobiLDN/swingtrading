@@ -1,4 +1,4 @@
-window.PRICES_DATA_OIL = {
+{
   "symbol": "USO",
   "slug": "oil",
   "generated": "2026-07-02T19:40:56Z",
@@ -736,4 +736,4 @@ window.PRICES_DATA_OIL = {
       "close": 103.93
     }
   ]
-};
+}
