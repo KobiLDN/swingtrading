@@ -48,6 +48,13 @@ ASSET_CONFIG = {
         'pip_label': 'pips',
         'pip_value': 0.0001,  # USD per unit per pip (quote currency = USD)
     },
+    'EUR/USD': {
+        'slug':      'eurusd',
+        'decimals':  5,
+        'pip_mult':  10000,   # atr * pip_mult = atr in pips
+        'pip_label': 'pips',
+        'pip_value': 0.0001,  # USD per unit per pip (quote currency = USD)
+    },
     'XAU/USD': {
         'slug':      'xauusd',
         'decimals':  2,
@@ -68,6 +75,13 @@ ASSET_CONFIG = {
         'pip_mult':  1,       # ATR already in USD
         'pip_label': 'pts',
         'pip_value': 1.0,     # $1 per share per point
+    },
+    'XAG/USD': {
+        'slug':      'xagusd',
+        'decimals':  3,
+        'pip_mult':  1,       # ATR already in USD/oz
+        'pip_label': 'pts',
+        'pip_value': 1.0,     # $1 per oz per point
     },
     'USO': {
         'slug':      'oil',

@@ -38,7 +38,9 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf-8-s
 
 ASSET_SLUGS = {
     'GBP/USD':   'gbpusd',
+    'EUR/USD':   'eurusd',
     'XAU/USD':   'xauusd',
+    'XAG/USD':   'xagusd',
     'SPX500USD': 'spx',
     'SPY':       'spx',
     'USO':       'oil',

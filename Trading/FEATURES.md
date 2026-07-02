@@ -3,7 +3,6 @@
 ## Backlog
 
 ### Parked
-- **EUR/USD pair expansion** — covered by Step 1/2 architecture; add after Gold + SPX proven
 - **USD/JPY pair expansion** — same; JPY safe-haven and BOJ intervention risk as additional characteristics
 - **Sections 12–15 encyclopedia** — local added additional encyclopedia sections; review and publish when stable
 
@@ -64,3 +63,5 @@
 - **Candlestick Patterns horizontal + guide** — Pattern list now flex-wrap so patterns tile side by side; full-width Pattern Guide card below explains all 9 patterns (Hammer, Shooting Star, Bullish/Bearish Engulfing, Doji, Morning Star, Evening Star, Bullish/Bearish Harami) in auto-fit grid
 
 - **News sentiment feed (Step 4 complete)** — `update_news.py` fetches Alpha Vantage `NEWS_SENTIMENT` for `FOREX:GBPUSD`, `FOREX:XAUUSD`, and `EQUITY:SPY`; 8 latest articles per asset with per-ticker sentiment score, source, timestamp, and summary; writes `news-data.js`; `generate-analysis.yml` runs it daily at 06:10 UTC using `ALPHA_VANTAGE_API_KEY` secret; dashboard shows news card below economic calendar — switches per asset pill, Bullish/Bearish/Neutral badge, clickable headline links; hidden when no data
+
+- **EUR/USD + Silver (XAG/USD) assets** — 6-asset dashboard: GBP/USD, EUR/USD, XAU/USD, XAG/USD, SPX (SPY), WTI (USO); direct symbols for both new pairs, full pipeline + news + explainer coverage

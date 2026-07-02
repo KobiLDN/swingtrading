@@ -29,6 +29,12 @@ jobs:
           ASSET: "GBP/USD"
         run: python update_prices.py
 
+      - name: Fetch EUR/USD prices
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+          ASSET: "EUR/USD"
+        run: python update_prices.py || echo "EUR/USD fetch failed — skipping"
+
       - name: Fetch XAU/USD prices
         env:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
@@ -40,6 +46,12 @@ jobs:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
           ASSET: "SPY"
         run: python update_prices.py || echo "SPY fetch failed — skipping"
+
+      - name: Fetch XAG/USD prices
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+          ASSET: "XAG/USD"
+        run: python update_prices.py || echo "XAG/USD fetch failed — skipping"
 
       - name: Fetch WTI Crude Oil prices
         env:

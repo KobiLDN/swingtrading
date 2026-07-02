@@ -32,6 +32,12 @@ jobs:
           ASSET: "GBP/USD"
         run: python generate_analysis.py
 
+      - name: Analyse EUR/USD
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ASSET: "EUR/USD"
+        run: python generate_analysis.py || echo "EUR/USD analysis failed — skipping"
+
       - name: Analyse XAU/USD
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -43,6 +49,12 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           ASSET: "SPY"
         run: python generate_analysis.py || echo "SPY analysis failed — skipping"
+
+      - name: Analyse XAG/USD
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ASSET: "XAG/USD"
+        run: python generate_analysis.py || echo "XAG/USD analysis failed — skipping"
 
       - name: Analyse WTI Crude Oil
         env:
