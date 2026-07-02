@@ -1,8 +1,14 @@
 # GBP/USD Swing Trading Dashboard
 
-**Live site → [KobiLDN.github.io/swingtrading](https://KobiLDN.github.io/swingtrading)**
+**Live site → [swingtrading.pages.dev](https://swingtrading.pages.dev)** (Cloudflare Pages, deploys from `main`)
 
-A multi-asset swing trading knowledge base and AI-powered analysis dashboard covering GBP/USD, XAU/USD, and SPX (via SPY). Daily OHLC data is fetched automatically, all technical indicators are calculated, and DeepSeek AI generates a structured BUY / SELL / WAIT decision — updated every weekday morning.
+| Environment | URL | Deploys from |
+|---|---|---|
+| **Live** (Cloudflare) | [swingtrading.pages.dev](https://swingtrading.pages.dev) | `main` |
+| **Dev preview** (Cloudflare) | [claude-friendly-dijkstra-lbu.swingtrading.pages.dev](https://claude-friendly-dijkstra-lbu.swingtrading.pages.dev) | `claude/friendly-dijkstra-lBUrd` |
+| **Mirror** (GitHub Pages) | [KobiLDN.github.io/swingtrading](https://KobiLDN.github.io/swingtrading) | `main` |
+
+A multi-asset swing trading knowledge base and AI-powered analysis dashboard covering GBP/USD, XAU/USD, SPX (via SPY), and WTI Crude (via USO). Daily OHLC data is fetched automatically, all technical indicators are calculated, and DeepSeek AI generates a structured BUY / SELL / WAIT decision — updated every weekday morning.
 
 ---
 
