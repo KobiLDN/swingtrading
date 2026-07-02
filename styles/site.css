@@ -29,13 +29,26 @@ header {
   min-width: 0;
 }
 .header-label {
-  font-family: var(--mono);
-  font-size: 9px;
-  color: var(--accent);
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
   white-space: nowrap;
+  text-decoration: none;
 }
+.brand-slash {
+  font-size: 20px;
+  font-weight: 800;
+  font-style: italic;
+  color: var(--accent);
+  line-height: 1;
+}
+.brand-word {
+  font-size: 17px;
+  letter-spacing: -0.4px;
+  color: var(--text);
+}
+.brand-word b { font-weight: 800; }
+.brand-word span { font-weight: 300; opacity: .75; }
 
 /* ── Site navigation ── */
 .site-nav {
