@@ -1,4 +1,4 @@
-window.PRICES_DATA_EURUSD = {
+{
   "symbol": "EUR/USD",
   "slug": "eurusd",
   "generated": "2026-07-02T19:49:22Z",
@@ -736,4 +736,4 @@ window.PRICES_DATA_EURUSD = {
       "close": 1.14268
     }
   ]
-};
+}
