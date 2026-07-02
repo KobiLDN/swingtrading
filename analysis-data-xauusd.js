@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-07-01T10:09:14Z",
+  "generated": "2026-07-02T09:30:19Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-07-01",
+  "date": "2026-07-02",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10 confirmed",
-  "analysis": "The trend is unequivocally bearish, with price at 3978.41 trading far below both the EMA 50 (4297.42) and EMA 200 (4523.97). This confirms a strong downtrend, and the price action aligns with the EMA structure \u2014 no bullish crossover or base-building is evident. The RSI at 30.99 is near oversold territory but not yet below 30, and the MACD remains bearish with the line below the signal and a negative histogram. However, the RSI is not yet oversold enough to trigger a reliable reversal signal, and there is no bullish divergence to suggest momentum exhaustion.\n\nNo clear chart patterns such as flags, triangles, or double tops/bottoms are identifiable from the last five candles. The single Doji candle near the current price suggests indecision, but in a strong downtrend, a Doji often acts as a continuation pattern rather than a reversal. Without a confirmed support bounce or a bullish reversal pattern (e.g., hammer, engulfing), there is no reliable entry signal. Key support lies near the psychological 3900.00 level, with further support at 3850.00 and 3800.00. Resistance is clustered around 4050.00 (recent minor swing high), then 4100.00 and 4200.00.\n\nThe RSI and MACD both agree with the bearish trend \u2014 no bullish divergence or crossover exists to challenge the downtrend. The signal score of 2/10 accurately reflects the lack of confluence for a counter-trend buy and the absence of a low-risk short entry (price is already extended from the last resistance). The best trade setup would be to wait for a retracement toward the 4050\u20134100 resistance zone to short, or for a confirmed bullish reversal pattern near 3900 support with RSI oversold and MACD bullish cross. Currently, neither condition is met.",
-  "invalidation": "A daily close above 4050.00 would invalidate the immediate bearish bias and suggest a potential trend shift or consolidation.",
+  "score": "5/10",
+  "analysis": "The pre-calculated indicators present a clear conflict. Price at 4073.7 sits far below both the EMA50 (4290.65) and EMA200 (4521.64), confirming the \u201cSTRONG DOWNTREND\u201d designation. However, the last five candles include a Doji, Bullish Engulfing, and a Morning Star \u2013 a classic bullish reversal cluster. This suggests a short-term buying interest that could lead to a corrective bounce. The MACD has turned bullish (line above signal, positive histogram), adding weight to the reversal case, while the RSI at 40.43 is neutral (not oversold) and shows no divergence, leaving room for further downside before becoming seriously oversold.  \n\nThe trend-following logic (EMAs firmly above price) argues for selling, but the candlestick and MACD signals argue for buying. The signal score of 5/10 correctly reflects this stalemate. Without a clear confluence of trend and momentum, entering either direction carries elevated risk. A counter-trend buy would require a stop well below recent lows (likely near 4000), but the ATR of 82 points means any stop would be wide, exposing the trade to the strong downtrend. A trend-following sell would face the risk of a sharp squeeze given the reversal patterns.  \n\nSupport near 4050 (recent minor swing low) and the psychological 4000 area are critical. If price holds above these levels and continues to form higher lows, a bullish trade could become viable. Resistance at 4100 (immediate round number) and 4150 (prior congestion) must be broken for any uptrend confirmation. The EMA50 at 4290 remains a major barrier. Until price aligns with either the downward EMAs or the bullish reversal structure with a clear breakout, the prudent course is to wait.",
+  "invalidation": "This wait setup is invalidated if price breaks above 4150 with strong momentum (signaling a confirmed reversal) or falls below 4000 (reasserting the downtrend).",
   "support_levels": [
-    3900.0,
-    3850.0,
-    3800.0
+    4050.0,
+    4000.0,
+    3950.0
   ],
   "resistance_levels": [
-    4050.0,
     4100.0,
-    4200.0
+    4150.0,
+    4290.6
   ]
 };
