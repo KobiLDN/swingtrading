@@ -69,12 +69,12 @@ ASSET_CONFIG = {
         'pip_label': 'pts',
         'pip_value': 1.0,     # $1 per share per point
     },
-    'WTI/USD': {
+    'USO': {
         'slug':      'oil',
         'decimals':  2,
-        'pip_mult':  1,       # ATR already in USD/barrel
+        'pip_mult':  1,       # ATR already in USD/share
         'pip_label': 'pts',
-        'pip_value': 1.0,     # $1 per barrel per point
+        'pip_value': 1.0,     # $1 per share per point (USO ETF ~ WTI proxy)
     },
 }
 
