@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
 **Date:** 2026-07-02
-**Generated:** 2026-07-03T09:33:22Z
+**Generated:** 2026-07-03T19:47:48Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,29 +11,29 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 734.78, 732.14, 730.0 |
-| **Resistance** | 745.0, 750.0, 755.0 |
+| **Support** | 732.14, 730.0, 699.32 |
+| **Resistance** | 750.0, 755.0, 760.0 |
 
 ---
 
 ## Analysis
 
-The SPY daily chart shows a strong uptrend with price well above the 50- and 200-day EMAs (732.14 and 699.32). However, the recent price action introduces caution. The last five candles include a Doji (indecision), a Morning Star (bullish reversal), followed by a Bearish Engulfing pattern — a conflicting sequence that often signals exhaustion or a potential short-term reversal. The MACD is bearish with the line below the signal line and a negative histogram, indicating waning upside momentum. The RSI at 53.5 is neutral and shows no divergence, offering no additional confirmation. The signal score of 5/10 reflects this mixed technical picture: the trend remains bullish, but near-term momentum and candlestick patterns suggest consolidation or a pullback.
+Price action confirms the EMA-driven strong uptrend as SPY trades well above both the 50-period (732.14) and 200-period (699.32) EMAs. However, the bearish MACD (line below signal, negative histogram) signals weakening bullish momentum, contradicting the trend direction. The RSI at 53.5 is neutral, providing no overbought or oversold extremity. The recent candlestick sequence — a Doji, then a Morning Star (bullish reversal), followed by a Bearish Engulfing (bearish reversal) — reflects indecision and a failed breakout attempt, often seen in consolidations or distribution phases. No clear chart patterns like triangles or flags are evident from the limited data; the price action appears to be churning near recent highs without a decisive breakout or breakdown.
 
-Key support levels are the 50-day EMA at 732.14, the ATR-based support at 734.78 (price minus one ATR), and the round number 730. On the upside, resistance is likely near the current round number at 745, followed by psychological 750 and then 755. The lack of a clear breakout or breakdown and the conflicting signals favor patience. The best trade setup would be to wait for a decisive move: either a break above 750 with strong volume to confirm continued uptrend, or a dip to the 50-day EMA with a bullish reversal pattern (e.g., hammer or bullish engulfing) to re-enter long. At present, entering a trade would carry elevated risk due to the bearish MACD and the recent bearish engulfing candle.
+Key support levels are the EMA50 at 732.14, the psychological 730.00, and the EMA200 at 699.32. Nearest resistance is the round 750.00, followed by 755.00 and 760.00, which may have acted as prior hurdles. The conflicting signals between the strong uptrend (price above EMAs) and the bearish momentum indicators (MACD, mixed candlesticks) yield a neutral score of 5/10. The lack of a clear edge — no divergence, no extreme RSI reading, and no confirmed reversal pattern — argues against entering a trade now. Waiting for either a bullish MACD crossover above the signal line with price clearing resistance, or a confirmed breakdown below the EMA50 (which would flip the trend) provides a better risk/reward setup.
 
 ---
 
 ## Invalidation
 
-N/A
+This WAIT stance is invalidated if price closes above 750.00 with a bullish MACD crossover (triggering a BUY) or breaks and holds below the EMA50 at 732.14 (triggering a SELL).
 
 ---
 

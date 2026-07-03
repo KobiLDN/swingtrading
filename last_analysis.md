@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
 **Date:** 2026-07-03
-**Generated:** 2026-07-03T09:32:37Z
+**Generated:** 2026-07-03T19:47:07Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,32 +12,30 @@
 |-------|-------|
 | **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.3362 |
-| **Stop Loss** | 1.3297 |
-| **Target 1** | 1.3420 |
-| **Target 2** | 1.3485 |
-| **Risk/Reward** | 1:1.9 |
+| **Entry** | 1.3355 |
+| **Stop Loss** | 1.3290 |
+| **Target 1** | 1.3406 |
+| **Target 2** | 1.3460 |
+| **Risk/Reward** | 1:1.6 |
 | **Score** | 6/10 |
-| **Support** | 1.333, 1.3275, 1.32 |
-| **Resistance** | 1.3406, 1.345, 1.35 |
+| **Support** | 1.3339, 1.33, 1.325 |
+| **Resistance** | 1.3406, 1.346, 1.35 |
 
 ---
 
 ## Analysis
 
-Trend confirmation is mixed but leans bullish on a short-term basis. Price at 1.3362 is trading above the EMA 50 (1.33397) but below the EMA 200 (1.34059), indicating a bearish bias in the larger trend. However, the recent price action shows a bounce from the EMA 50 area, and the Doji candlestick pattern suggests indecision that could resolve upward, especially given the bullish RSI divergence and MACD configuration. The price is attempting to reclaim the EMA 200 as support, which would flip the intermediate trend.
+The trend bias is bearish based on price trading below the EMA 200 (1.34058), but the EMA 50 (1.33394) is acting as immediate support, with price currently at 1.3355—just above the 50 EMA. This creates a short-term bullish tilt within a broader bearish structure. The Doji candlestick pattern on the last five candles signals indecision, but it often precedes a reversal when combined with bullish divergence. Price action is respecting the 50 EMA as support, which suggests a potential bounce toward the 200 EMA.
 
-No clear triangle, flag, or double top/bottom patterns are immediately evident on the daily chart from the data provided. However, the proximity to the EMA 200 (1.34059) creates a potential resistance pivot zone. A break above this level would likely form a bullish flag continuation from the prior uptrend. The Doji near the EMA 50 support suggests a potential reversal point, especially with bullish divergence present.
+The RSI at 57.82 is neutral but shows a bullish divergence, indicating weakening downside momentum. The MACD is bullish with the line above the signal line and a positive histogram, confirming upward momentum. This confluence between RSI divergence and MACD bullishness supports a counter-trend long setup, especially given the proximity to the 50 EMA. The signal score of 5/10 is revised upward to 6/10 due to the divergence and MACD alignment, though the bearish EMA structure caps confidence.
 
-RSI at 58.55 is neutral but rising, and the bullish RSI divergence indicates weakening downside momentum. MACD is bullish with the line above the signal and a positive histogram, confirming short-term upward momentum. This confluence supports a counter-trend buy against the bearish EMA 200 bias, targeting a re-test of the EMA 200 and possibly a breakout. The signal score is revised to 6/10 due to the divergence and MACD alignment, despite the larger bearish EMA structure.
-
-The single best trade setup is a long entry at current price (1.3362) with a stop below the recent swing low near 1.3297 (below EMA 50 and recent support). Target 1 is the EMA 200 at 1.3406, and Target 2 is the prior resistance zone near 1.3485. Risk is moderate given the bearish EMA 200 overhead, but the bullish divergence and MACD provide a favorable risk/reward for a swing trade. The ATR of 65 pips supports a stop of roughly 65 pips below entry.
+Key support is at the EMA 50 (1.33394), followed by 1.3300 (psychological round number) and 1.3250 (prior swing low). Resistance is at the EMA 200 (1.34058), then 1.3460 (recent high), and 1.3500 (major resistance). The trade targets a move to the 200 EMA as the first target, with an extension to the recent high if momentum persists. The risk-reward ratio of 1:1.6 is acceptable for a swing trade, given the stop loss placed below the 50 EMA and recent support.
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if price closes decisively below the EMA 50 at 1.33397, breaking the bullish divergence structure and confirming continued bearish momentum.
+This setup is invalidated if price closes decisively below the EMA 50 at 1.3339, as it would break the immediate support and confirm the bearish bias, negating the bullish divergence and MACD signal.
 
 ---
 

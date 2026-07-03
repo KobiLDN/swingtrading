@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
 **Date:** 2026-07-02
-**Generated:** 2026-07-03T09:33:50Z
+**Generated:** 2026-07-03T19:48:48Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,26 +18,26 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 100.0, 98.0, 95.0 |
-| **Resistance** | 104.01, 105.0, 108.0 |
+| **Support** | 99.14, 95.0, 90.0 |
+| **Resistance** | 108.82, 112.5, 117.0 |
 
 ---
 
 ## Analysis
 
-The price action does not confirm the stated bullish bias. While the longer-term EMA structure suggests a prior uptrend, current price at 103.98 is below both the EMA 50 (122.27) and EMA 200 (104.01). This places the market in a short-term downtrend, with the 200 EMA acting as immediate resistance. The recent candlestick patterns—a hammer followed by a bearish engulfing—indicate an initial reversal attempt that was quickly rejected, reinforcing bearish momentum.
+The price at 103.98 is essentially sitting on the EMA 200 at 104.01, which creates a precarious tug-of-war. While the EMA 50 at 122.27 remains well above the EMA 200, indicating a long-term bullish bias, price action is significantly below the EMA 50 and only barely holding the 200-day line. This is not a confirmation of a trending move; it suggests the prior uptrend has stalled and price is testing the last major support in the current pullback. The “BULLISH BIAS” label is a legacy from the moving average placement, but current price action is decidedly cautious and reactive to the 200-day line.
 
-No clear chart patterns such as triangles or flags are evident near current levels. The closest structural levels are the psychological 100.00 support and the 200 EMA resistance at 104.01. The ATR of 4.84 suggests high volatility, making tight stops unreliable. RSI at 30.41 is near oversold but not extreme, while MACD remains bearish with a negative histogram. The divergence between the RSI (potential bounce zone) and MACD (bearish confirmation) creates conflicting signals, and the lack of a clear divergence pattern means no strong reversal trigger exists.
+The appearance of both a Hammer and a Bearish Engulfing pattern within the last five candles highlights extreme indecision. The Hammer suggests the 104 area attracted buyers, but the subsequent Bearish Engulfing indicates sellers overwhelmed those buyers and closed below the Hammer’s high. This conflicting structure prevents any clear pattern inference (no triangle, flag, or top/bottom is well-defined yet). A close below the Hammer’s low (~99.14) would create a double-top-like breakdown from the 108.82 resistance level, while a strong close above 108.82 would signal a potential flag continuation.
 
-The single best trade setup is to wait for a clearer catalyst. A short entry near the 200 EMA (104.01) with a tight stop above 105.00 would offer a defined risk, but the proximity of the 200 EMA and the oversold RSI increase the chance of a false breakout. Conversely, a long entry would require a decisive break above the 200 EMA combined with bullish MACD crossover or RSI divergence, which is absent. Given the 5/10 score and mixed indicators, patience is prudent.
+RSI at 30.41 is just above oversold territory, implying momentum is exhausted to the downside but not yet confirmed for a reversal. The MACD shows bearish alignment (line below signal with negative histogram), agreeing with the weak price action and contradicting the bullish EMA trend. There is no divergence to provide a leading reversal signal. The divergence between the bearish oscillators and the still-bullish moving average structure creates a high-risk, low-conviction environment. The safest action is to wait for either a clean break and hold above 108.82 to re-enter long, or a breakdown below the Hammer low to enter short.
 
-Risk assessment: The market is at a critical juncture—price straddling the 200 EMA and RSI near oversold. A false move in either direction could trigger sharp reversals. The relatively wide ATR means stop-loss placement is challenging, and the lack of a dominant trend increases the likelihood of whipsaws. The bearish engulfing pattern favors sellers, but the low RSI cautions against aggressive shorts.
+RISK ASSESSMENT: The primary risk is the false support at the EMA 200. Given the ATR is 4.84 points, a stop placed near the recent swing low of 99.14 would be approximately 1 ATR away from current price, which is tight but acceptable if a breakdown occurs. However, with conflicting candle patterns and mixed indicator alignment, entering now exposes the trade to whipsaw risk. A decisive move either direction is needed for a high-probability setup.
 
 ---
 
 ## Invalidation
 
-This wait setup is invalidated if price closes decisively above 105.00 (breaking above the bearish engulfing high) or below 100.00 (confirming a breakdown from the 200 EMA test).
+This setup is invalidated if price closes decisively below 99.14, which would confirm a breakdown from the recent consolidation and likely accelerate selling toward the 95.00 support zone.
 
 ---
 
