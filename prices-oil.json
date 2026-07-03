@@ -1,9 +1,9 @@
 {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-07-02T19:49:24Z",
+  "generated": "2026-07-03T08:49:14Z",
   "date": "2026-07-02",
-  "price": 103.99,
+  "price": 103.98,
   "atr": 4.84,
   "atr_pips": 5,
   "pip_label": "pts",
@@ -12,10 +12,10 @@
   "decimals": 2,
   "ema50": 122.27,
   "ema200": 104.01,
-  "rsi": 30.43,
-  "macd_line": -8.002397,
-  "macd_signal": -6.932892,
-  "macd_hist": -1.069506,
+  "rsi": 30.41,
+  "macd_line": -8.003195,
+  "macd_signal": -6.933051,
+  "macd_hist": -1.070144,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
@@ -724,16 +724,16 @@
     {
       "date": "2026-07-01",
       "open": 104.55,
-      "high": 104.99,
-      "low": 103.14,
+      "high": 105.0,
+      "low": 103.15,
       "close": 103.27
     },
     {
       "date": "2026-07-02",
       "open": 102.85,
       "high": 104.46,
-      "low": 102.46,
-      "close": 103.99
+      "low": 102.42,
+      "close": 103.98
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-07-02T19:49:22Z",
-  "date": "2026-07-02",
-  "price": 1.14268,
-  "atr": 0.00542,
-  "atr_pips": 54,
+  "generated": "2026-07-03T08:49:12Z",
+  "date": "2026-07-03",
+  "price": 1.14543,
+  "atr": 0.00533,
+  "atr_pips": 53,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15249,
-  "ema200": 1.16392,
-  "rsi": 43.09,
-  "macd_line": -0.004644,
-  "macd_signal": -0.005064,
-  "macd_hist": 0.000421,
+  "ema50": 1.15224,
+  "ema200": 1.16373,
+  "rsi": 47.64,
+  "macd_line": -0.003982,
+  "macd_signal": -0.004839,
+  "macd_hist": 0.000856,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -35,13 +35,6 @@
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-25",
-      "open": 1.15854,
-      "high": 1.163,
-      "low": 1.15553,
-      "close": 1.15625
-    },
     {
       "date": "2026-03-26",
       "open": 1.15624,
@@ -733,7 +726,14 @@
       "open": 1.13784,
       "high": 1.1473,
       "low": 1.13753,
-      "close": 1.14268
+      "close": 1.14342
+    },
+    {
+      "date": "2026-07-03",
+      "open": 1.14339,
+      "high": 1.14621,
+      "low": 1.14209,
+      "close": 1.14543
     }
   ]
 }
