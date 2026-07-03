@@ -40,7 +40,7 @@ ASSET_SLUGS = {
     'GBP/USD':   'gbpusd',
     'EUR/USD':   'eurusd',
     'XAU/USD':   'xauusd',
-    'XAG/USD':   'xagusd',
+    'SLV':       'xagusd',
     'SPX500USD': 'spx',
     'SPY':       'spx',
     'USO':       'oil',

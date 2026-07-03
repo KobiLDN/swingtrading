@@ -50,8 +50,8 @@ jobs:
       - name: Fetch XAG/USD prices
         env:
           TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
-          ASSET: "XAG/USD"
-        run: python update_prices.py || echo "XAG/USD fetch failed — skipping"
+          ASSET: "SLV"
+        run: python update_prices.py || echo "SLV fetch failed — skipping"
 
       - name: Fetch WTI Crude Oil prices
         env:

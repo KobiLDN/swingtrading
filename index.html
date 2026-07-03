@@ -1162,11 +1162,11 @@ var ASSET_CONTEXT = {
     pip: '1 point = $0.01 · $10 per point on a standard lot (100 oz) · Mini lot = $1/point'
   },
   xagusd: {
-    name: 'XAG/USD', aka: 'SPOT SILVER',
+    name: 'Silver (via SLV)', aka: 'ISHARES SILVER TRUST PROXY',
     desc: 'Silver priced in US dollars per troy ounce. Half safe-haven metal, half industrial commodity (solar, electronics) \u2014 which makes it more volatile than gold in both directions.',
     drivers: 'Fed rate outlook, USD strength (DXY), gold direction (silver amplifies it 1.5\u20132\u00d7), industrial demand / manufacturing PMIs, gold/silver ratio mean reversion.',
     session: 'Trades nearly 24h. Most liquid during London/NY overlap (13:00\u201317:00 UTC). Sharper spikes and deeper pullbacks than gold.',
-    pip: '1 point = $0.01 \u00b7 Standard contract = 5,000 oz \u00b7 Use ATR for stop sizing \u2014 silver ATR runs hot'
+    pip: 'SLV is an ETF holding physical silver \u2014 moves ~1:1 with spot direction \u00b7 1 pt = $1/share \u00b7 Use ATR for stop sizing'
   },
   spx: {
     name: 'SPX (via SPY)', aka: 'S&P 500 ETF PROXY',

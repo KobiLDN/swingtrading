@@ -53,8 +53,8 @@ jobs:
       - name: Analyse XAG/USD
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          ASSET: "XAG/USD"
-        run: python generate_analysis.py || echo "XAG/USD analysis failed — skipping"
+          ASSET: "SLV"
+        run: python generate_analysis.py || echo "SLV analysis failed — skipping"
 
       - name: Analyse WTI Crude Oil
         env:

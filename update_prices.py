@@ -76,12 +76,12 @@ ASSET_CONFIG = {
         'pip_label': 'pts',
         'pip_value': 1.0,     # $1 per share per point
     },
-    'XAG/USD': {
+    'SLV': {
         'slug':      'xagusd',
-        'decimals':  3,
-        'pip_mult':  1,       # ATR already in USD/oz
+        'decimals':  2,
+        'pip_mult':  1,       # ATR already in USD/share
         'pip_label': 'pts',
-        'pip_value': 1.0,     # $1 per oz per point
+        'pip_value': 1.0,     # $1 per share per point (SLV ETF ~ silver proxy)
     },
     'USO': {
         'slug':      'oil',
