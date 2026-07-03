@@ -40,7 +40,7 @@ ASSETS = [
     {'slug': 'xauusd', 'ticker': 'FOREX:XAUUSD',    'label': 'XAU/USD'},
     {'slug': 'xagusd', 'ticker': 'FOREX:XAGUSD',    'label': 'XAG/USD'},
     {'slug': 'spx',    'ticker': 'EQUITY:SPY',       'label': 'SPX'},
-    {'slug': 'oil',    'ticker': 'COMMODITY:USOIL',  'label': 'WTI Crude Oil'},
+    {'slug': 'oil',    'ticker': 'EQUITY:USO',        'label': 'WTI Crude Oil'},
 ]
 
 
