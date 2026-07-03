@@ -1,5 +1,5 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-07-03T19:47:21Z",
+  "generated": "2026-07-03T21:24:59Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
@@ -12,8 +12,8 @@ window.ANALYSIS_DATA_EURUSD = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "4/10",
-  "analysis": "The daily chart confirms a strong downtrend with price (1.14385) trading well below both the 50-EMA (1.15218) and 200-EMA (1.16372), aligning with the given trend label. However, the recent candlestick sequence\u2014an Evening Star followed by a Bullish Engulfing\u2014creates ambiguity. The Evening Star signaled bearish continuation, while the Bullish Engulfing suggests a potential reversal or at least a pause. Price action has not yet broken above any key moving averages, so the downtrend remains intact, but the conflicting patterns reduce conviction.\n\nThe RSI at 45.07 is neutral, offering no overbought/oversold extremes, and there is no divergence. MACD shows a bullish crossover (line above signal) with a positive histogram, indicating short-term upward momentum. This diverges from the price trend, as MACD is typically a lagging indicator but can foreshadow a trend change. However, without a confirmed price breakout above the EMAs, this bullish signal is suspect and could simply be a counter-trend bounce within a larger downtrend. The signal score of 4/10 reflects the low confluence between trend and momentum oscillators.\n\nThe nearest resistance is the 50-EMA at 1.1522, followed by the 200-EMA at 1.1637. Support lies at the psychological 1.1400 level, then 1.1350 and 1.1300. Given the mixed signals\u2014strong downtrend versus bullish MACD and indecisive candlestick patterns\u2014no clear high-probability setup exists. A short trade would require a bounce toward resistance for a better risk/reward,",
-  "invalidation": "N/A",
+  "analysis": "The daily chart remains in a strong downtrend with price (1.14377) well below both the EMA50 (1.15218) and EMA200 (1.16372). This confirms the bearish trend from a moving average perspective. However, recent candlestick patterns present conflicting signals: an Evening Star (bearish) followed by a Bullish Engulfing pattern within the last five candles suggests indecision and a potential reversal attempt. The RSI at 44.93 is neutral, offering no oversold confirmation for a bounce, while the MACD has turned bullish (line above signal) with a rising histogram, hinting at possible upward momentum.\n\nAdditional chart patterns are not explicitly identified, but the price is hovering near the psychological 1.1400 support level. A break below this could accelerate selling toward 1.1350 and 1.1300. Conversely, a sustained move above the 1.1522 EMA50 would be the first sign of trend weakening. The combination of a strong downtrend, neutral RSI, and mixed candlestick signals creates low confluence. The MACD bullish crossover is the only bullish factor, but it lacks volume or divergence confirmation.\n\nGiven the low signal score (4/10) and the contradictory technical evidence, the prudent approach is to wait for a clearer directional catalyst. A short entry would require a confirmed rejection near resistance (e.g., EMA50), while a long entry would need a strong bullish breakout above the EMA50 with RSI crossing above 50 and MACD strengthening further. Neither condition is currently met.",
+  "invalidation": "A break below 1.1400 would confirm continued downside, while a daily close above 1.1522 (EMA50) would invalidate the immediate downtrend bias and suggest a potential trend reversal.",
   "support_levels": [
     1.14,
     1.135,
@@ -21,7 +21,7 @@ window.ANALYSIS_DATA_EURUSD = {
   ],
   "resistance_levels": [
     1.1522,
-    1.1637,
-    1.17
+    1.16,
+    1.1637
   ]
 };

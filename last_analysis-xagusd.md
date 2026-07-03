@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
 **Date:** 2026-07-02
-**Generated:** 2026-07-03T19:48:22Z
+**Generated:** 2026-07-03T21:25:35Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 4/10 |
-| **Support** | 53.5, 51.0, 49.8 |
+| **Support** | 53.5, 51.0, 49.2 |
 | **Resistance** | 57.0, 59.5, 62.91 |
 
 ---
 
 ## Analysis
 
-The EMA structure shows a bearish configuration (price at 55.02 well below both EMA 50 at 62.91 and EMA 200 at 61.66), yet the trend label is “BULLISH BIAS.” This contradiction suggests the bias may be based on a longer-term view or recent reversal attempts, but price action does **not** confirm it. The price is trading below both key moving averages, which typically indicates a downtrend or at least strong resistance overhead. The recent candlestick patterns (Morning Star, Shooting Star, Morning Star) reflect high volatility and indecision rather than a clear directional push.
+The EMA structure shows a bearish configuration with price ($55.02) trading well below both the 50 EMA ($62.91) and 200 EMA ($61.66). This is a clear bearish trend on the daily timeframe, despite the "BULLISH BIAS" label in the pre-calculated data. Price action does NOT confirm the EMA trend—price is making lower lows relative to the EMAs, and the EMAs themselves are sloping downward. The recent candlestick patterns (Morning Star, Shooting Star, Morning Star) indicate high volatility and indecision, not a sustainable bullish reversal, especially given the overhead EMA resistance.
 
-No clear chart patterns like triangles, flags, or double tops/bottoms are evident from the given data. The price appears to be in a choppy, low-confidence zone near the 55.00 level. Support is inferred near 53.50 (recent swing low) and 51.00 (prior support), while resistance sits at 57.00 (recent high) and the declining EMA 50 at 62.91. The RSI at 38.17 is neutral but leaning bearish, and the MACD is bearish with the line below the signal line and a negative histogram. There is no bullish divergence to suggest an imminent reversal.
+No clear additional chart patterns (triangles, flags, double tops/bottoms) are immediately inferable from the given data. The price appears to be in a downtrend channel, but without price history or volume data, a specific pattern cannot be confirmed. Key support is near the recent swing low around $53.50, with further support at $51.00 (prior reaction zone) and $49.20 (major psychological level). Resistance is stacked overhead: first at $57.00 (recent consolidation high), then $59.50 (prior breakdown level), and finally the 50 EMA at $62.91.
 
-Given the conflicting signals (bearish EMAs, bearish MACD, neutral RSI, mixed candlestick patterns, and a 5/10 signal score), there is no high-conviction trade setup. A buy would require a confirmed break above 57.00 with RSI rising above 50, while a sell would need a breakdown below 53.50 with increasing bearish momentum. Currently, the risk of whipsaw is high. The revised score is lowered to 4/10 due to the lack of confluence between trend label and actual price action.
+RSI at 38.17 is in bearish territory but not oversold, suggesting further downside potential. MACD is bearish with the line below the signal line and a negative histogram, confirming the downtrend. There is no RSI divergence to suggest a reversal. The indicators agree with the bearish trend, not the "bullish bias" label. The signal score of 5/10 is too optimistic given the bearish EMA alignment and MACD; I revise it down to 4/10. There is no high-conviction trade setup here—a short entry would be chasing the move near support, and a long entry lacks bullish confirmation.
 
 ---
 
 ## Invalidation
 
-A decisive daily close above 57.00 would shift the bias to bullish and invalidate the wait stance, while a close below 53.50 would confirm bearish continuation and potentially trigger a sell setup.
+A decisive daily close above the 50 EMA ($62.91) would invalidate the bearish bias and shift the outlook to neutral/bullish.
 
 ---
 
