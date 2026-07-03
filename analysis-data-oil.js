@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-07-02T19:52:25Z",
+  "generated": "2026-07-03T09:33:50Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
   "date": "2026-07-02",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The price at 103.99 is trading just below the EMA200 (104.01) and far below the EMA50 (122.27), indicating a clear bearish structure despite the \"BULLISH BIAS\" label. The EMA50 is declining relative to price, confirming a downtrend. The recent candlestick sequence\u2014a hammer followed by a bearish engulfing\u2014suggests an initial attempt at reversal failed, with sellers regaining control. This pattern often signals continuation of the prevailing downtrend, especially when it occurs near a key moving average acting as resistance.  \n\nThe RSI at 30.43 is in neutral territory but approaching oversold, while the MACD remains bearish with the line below the signal line and a negative histogram. There is no RSI divergence to suggest a pending reversal. The bearish MACD aligns with the price action below the EMAs, reinforcing the bearish bias. However, the proximity to the EMA200 creates a potential support zone that could trigger a bounce, introducing uncertainty. The signal score of 5/10 reflects this mixed picture\u2014bearish momentum but a key technical level nearby.  \n\nKey support levels are 102.00 (recent minor swing low), 100.00 (psychological round number), and 98.00 (prior reaction zone). Resistance is immediate at the EMA200 (104.01), then 108.00 (a prior consolidation area), and finally the EMA50 (122.27). The best trade setup would be a short entry only after a confirmed breakdown below 102.00 with increasing volume, as that would signal rejection of the EMA200 support and open the path toward 100.00. Currently, the risk of a false breakdown or a bounce from the EMA200 is too high to justify entering.  \n\nRisk assessment is elevated due to conflicting signals: the bearish indicators and candlestick pattern suggest selling, but the price is at a major moving average that has historically acted as support. A premature short could be caught in a short squeeze if buyers defend the EMA200. Waiting for a decisive close below 102.00 provides a cleaner risk/reward profile.",
-  "invalidation": "This wait-and-see stance is invalidated if price closes decisively above the EMA200 (104.01) on strong volume, as that would indicate a successful defense of support and a potential trend reversal to the upside.",
+  "analysis": "The price action does not confirm the stated bullish bias. While the longer-term EMA structure suggests a prior uptrend, current price at 103.98 is below both the EMA 50 (122.27) and EMA 200 (104.01). This places the market in a short-term downtrend, with the 200 EMA acting as immediate resistance. The recent candlestick patterns\u2014a hammer followed by a bearish engulfing\u2014indicate an initial reversal attempt that was quickly rejected, reinforcing bearish momentum.\n\nNo clear chart patterns such as triangles or flags are evident near current levels. The closest structural levels are the psychological 100.00 support and the 200 EMA resistance at 104.01. The ATR of 4.84 suggests high volatility, making tight stops unreliable. RSI at 30.41 is near oversold but not extreme, while MACD remains bearish with a negative histogram. The divergence between the RSI (potential bounce zone) and MACD (bearish confirmation) creates conflicting signals, and the lack of a clear divergence pattern means no strong reversal trigger exists.\n\nThe single best trade setup is to wait for a clearer catalyst. A short entry near the 200 EMA (104.01) with a tight stop above 105.00 would offer a defined risk, but the proximity of the 200 EMA and the oversold RSI increase the chance of a false breakout. Conversely, a long entry would require a decisive break above the 200 EMA combined with bullish MACD crossover or RSI divergence, which is absent. Given the 5/10 score and mixed indicators, patience is prudent.\n\nRisk assessment: The market is at a critical juncture\u2014price straddling the 200 EMA and RSI near oversold. A false move in either direction could trigger sharp reversals. The relatively wide ATR means stop-loss placement is challenging, and the lack of a dominant trend increases the likelihood of whipsaws. The bearish engulfing pattern favors sellers, but the low RSI cautions against aggressive shorts.",
+  "invalidation": "This wait setup is invalidated if price closes decisively above 105.00 (breaking above the bearish engulfing high) or below 100.00 (confirming a breakdown from the 200 EMA test).",
   "support_levels": [
-    102.0,
     100.0,
-    98.0
+    98.0,
+    95.0
   ],
   "resistance_levels": [
     104.01,
-    108.0,
-    122.27
+    105.0,
+    108.0
   ]
 };

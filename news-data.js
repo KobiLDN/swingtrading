@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-02T19:52:25Z",
+  "generated": "2026-07-03T09:33:50Z",
   "assets": {
     "gbpusd": [],
     "eurusd": [],

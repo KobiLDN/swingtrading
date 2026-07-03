@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-07-02
-**Generated:** 2026-07-02T19:51:28Z
+**Date:** 2026-07-03
+**Generated:** 2026-07-03T09:32:59Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 4/10 |
-| **Support** | 1.1373, 1.13, 1.125 |
-| **Resistance** | 1.1525, 1.1639, 1.17 |
+| **Support** | 1.14, 1.135, 1.13 |
+| **Resistance** | 1.15, 1.15224, 1.155 |
 
 ---
 
 ## Analysis
 
-The trend is confirmed as a strong downtrend, with price at 1.14268 trading well below both the EMA 50 (1.15249) and EMA 200 (1.16392). This bearish alignment is clear and persistent. However, price action in the last five candles shows conflicting signals: an Evening Star pattern (bearish reversal) followed by a Bullish Engulfing pattern (bullish reversal). This suggests indecision and potential for a short-term bounce, but the overall downtrend remains intact. No additional chart patterns like triangles, flags, or double tops/bottoms are evident on the daily timeframe near current price.
+The price at 1.14543 sits well below both the EMA50 (1.15224) and EMA200 (1.16373), confirming a strong downtrend. However, the MACD has turned bullish with the line crossing above the signal and a positive histogram, suggesting early momentum shift. The RSI is neutral at 47.64 with no divergence, offering no clear directional bias. The candlestick patterns are conflicting—an Evening Star (bearish) followed by a Bullish Engulfing (bullish) within the last five candles—creating ambiguity about near-term direction. The overall signal score of 4/10 reflects this lack of confluence.
 
-RSI at 43.09 is neutral, not oversold, and shows no divergence. The MACD is bullish (line above signal) with a positive histogram, indicating some upward momentum. This creates a divergence between the bearish EMA trend and the bullish MACD signal. The MACD bullishness is weak (histogram only +0.000421) and likely represents a counter-trend correction within the larger downtrend. The signal score of 4/10 reflects this mixed picture—the trend is bearish, but short-term momentum is slightly bullish.
+No clear chart patterns like triangles or flags are evident from the given data. The key resistance levels overhead are the round 1.1500, the EMA50 at 1.15224, and 1.1550. Support lies at 1.1400 (round number) and further at 1.1350/1.1300. The strong downtrend argues against buying until a decisive break above the EMA50, while the MACD bullish signal and recent Bullish Engulfing caution against selling at current levels. The ATR of 53 pips suggests that a move of only 0.5% would be a typical daily range, so a breakout play is possible but not yet confirmed.
 
-Given the conflicting signals (bearish trend vs. bullish MACD, mixed candlestick patterns), the single best trade setup is to wait. A sell entry would be premature because the MACD suggests a potential bounce, and a buy entry would be fighting the strong downtrend. The risk of entering now is high, as the market could either resume the downtrend or stage a short-term rally toward the EMA 50 resistance. Patience is warranted until a clearer confluence emerges—either a bearish rejection at resistance or a confirmed break above the EMA 50.
+Given the conflicting indicators—trend vs. momentum, bearish vs. bullish candlesticks—the most prudent action is to wait for clearer confirmation. A long entry would require price to reclaim EMA50 and show follow-through, while a short entry would need a rejection from resistance or a break below 1.1400. Until either scenario materializes, the risk-reward is unfavorable, and the 4/10 score appropriately reflects the uncertainty.
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if price breaks and closes above the EMA 50 at 1.15249, which would shift the short-term bias bullish and negate the downtrend premise.
+This WAIT stance is invalidated if price closes decisively above 1.1530 (above EMA50) for a bullish shift, or below 1.1380 (below recent support) for a bearish continuation.
 
 ---
 

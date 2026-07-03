@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-07-02
-**Generated:** 2026-07-02T19:52:01Z
+**Date:** 2026-07-03
+**Generated:** 2026-07-03T09:33:07Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,32 +12,32 @@
 |-------|-------|
 | **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | 4113.69 |
-| **Stop Loss** | 4027.00 |
-| **Target 1** | 4292.00 |
-| **Target 2** | 4522.00 |
-| **Risk/Reward** | 1:2.1 |
+| **Entry** | 4181.69 |
+| **Stop Loss** | 4095.00 |
+| **Target 1** | 4288.27 |
+| **Target 2** | 4350.00 |
+| **Risk/Reward** | 1:1.5 (approx.) |
 | **Score** | 6/10 |
-| **Support** | 4027.0, 3950.0, 3800.0 |
-| **Resistance** | 4292.22, 4522.04, 4700.0 |
+| **Support** | 4100.0, 4000.0, 3920.0 |
+| **Resistance** | 4288.27, 4350.0, 4518.15 |
 
 ---
 
 ## Analysis
 
-The trend is undeniably bearish, with price trading well below both the 50 EMA (4292.22) and 200 EMA (4522.04), and the ATR of 86.61 confirms high volatility typical of a strong downtrend. However, the price action over the last five candles shows a clear reversal pattern cluster: a Doji indicating indecision, followed by a Bullish Engulfing and a Morning Star. This sequence suggests that selling momentum has exhausted near current levels, and buyers are stepping in aggressively. The price is now attempting to base above the recent swing low, which is a classic reversal setup within a downtrend.
+The dominant trend remains a strong downtrend, confirmed by price trading well below both the EMA 50 (4288.27) and EMA 200 (4518.15). However, the recent price action shows a clear divergence from this bearish momentum. The appearance of a Bullish Engulfing pattern followed by a Morning Star within the last five candles is a powerful reversal signal, especially after a prolonged decline. This suggests that selling pressure has exhausted near the current lows, and buyers are stepping in aggressively. The price is attempting to form a short-term bottom, which warrants a counter-trend long bias.
 
-The RSI at 44.41 is neutral but rising from oversold territory, and the MACD has just crossed bullishly with a positive histogram. This is a divergence from the bearish EMA structure — the momentum indicators are turning up while price remains below the EMAs. This is a typical early-stage reversal signal, not a trend continuation. The candlestick patterns (Morning Star, Bullish Engulfing) are strong reversal signals, especially when combined with the MACD crossover. The signal score of 5/10 is conservative; I would revise it to 6/10 given the confluence of bullish candlestick patterns and momentum divergence.
+The RSI at 50.41 is neutral, indicating the asset is neither overbought nor oversold, leaving room for upside without immediate resistance from overbought conditions. The MACD is bullish, with the line above the signal line and a positive histogram (+16.81), confirming that short-term momentum has shifted upward. This MACD bullish crossover aligns with the candlestick reversal patterns, providing confluence for a long trade. The lack of RSI divergence means the move is not yet exhausted, supporting further upside potential.
 
-Key support is the recent swing low near 4027.00, which aligns with the lower boundary of a potential double bottom formation. Resistance is the 50 EMA at 4292.22, followed by the 200 EMA at 4522.04. There is no clear flag or triangle pattern, but the price action suggests a potential double bottom with the current candle as the right shoulder. The risk is that this is merely a bear flag continuation, but the Morning Star and Bullish Engulfing are strong enough to warrant a counter-trend long with a tight stop.
+Key support is the psychological level at 4100.00, with stronger support at 4000.00. Resistance is first at the EMA 50 (4288.27), which is a major dynamic hurdle. A break above that opens the path toward 4350.00 (a prior swing low) and eventually the EMA 200 at 4518.15. The ATR of 85.74 suggests a wide stop is necessary to avoid being stopped out by noise; placing the stop below the recent swing low near 4095.00 provides a reasonable buffer. The risk-reward ratio of approximately 1:1.5 is acceptable for a counter-trend trade given the strong reversal signals.
 
-The single best trade is a counter-trend buy at current price, targeting the 50 EMA as the first objective and the 200 EMA as the second. The stop loss should be placed below the recent swing low (4027.00) to allow for normal volatility (ATR is 87 pts). The risk-reward is favorable at 1:2.1 if the first target is hit. The overall score is revised to 6/10 because the trend is still bearish, but the reversal signals are strong and the MACD/RSI are aligning bullishly.
+The signal score has been revised upward from 4/10 to 6/10 because the candlestick patterns and MACD bullish crossover provide a compelling short-term setup despite the overarching downtrend. This is a tactical counter-trend trade, not a trend-following one. Traders should be prepared for a quick move to resistance and consider taking partial profits at the EMA 50.
 
 ---
 
 ## Invalidation
 
-A daily close below 4027.00 would invalidate the reversal setup and confirm continuation of the downtrend.
+A daily close below 4095.00 (the recent swing low) would invalidate the reversal setup and signal a continuation of the downtrend.
 
 ---
 

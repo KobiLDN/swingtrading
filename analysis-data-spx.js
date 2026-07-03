@@ -1,25 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-07-02T19:52:12Z",
+  "generated": "2026-07-03T09:33:22Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
   "date": "2026-07-02",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The SPY daily chart shows a strong uptrend with price (743.12) well above both the 50-day EMA (732.07) and 200-day EMA (699.31), confirming bullish momentum on a longer timeframe. However, recent candlestick patterns\u2014Bearish Engulfing and Evening Star\u2014appear alongside a Doji and Morning Star, creating a mixed picture of indecision and potential reversal at elevated levels. The signal score of 5/10 reflects this ambiguity, as the price action lacks a clear directional catalyst.\n\nThe MACD has turned bearish, with the line below its signal line and a negative histogram (-0.42), signaling waning upside momentum. Meanwhile, the RSI sits at a neutral 52.3 with no divergence, offering no overbought or oversold extremes. This disconnect between the strong EMA trend and the bearish MACD suggests the uptrend may be stalling or entering a consolidation phase. No additional chart patterns (e.g., flags, triangles, double tops) are evident from the given data, but the cluster of reversal candles near current price hints at a possible short-term top.\n\nGiven the conflicting technical signals\u2014trend bullish, momentum bearish, candlestick patterns mixed\u2014the prudent course is to wait for clearer confirmation. A break above recent highs (near 753, derived from ATR) with strong volume would reinstate bullish momentum, while a decisive close below the 50-day EMA at 732.07 would signal a trend shift. The risk of a false breakout or sharp reversal is elevated due to the negative MACD and bearish candle patterns, making a neutral stance appropriate until the next directional move is validated.",
-  "invalidation": "This wait decision is invalidated if price breaks above 753.27 with strong bullish volume (triggering a buy) or closes below 732.07 (triggering a sell), providing a clear tradeable signal.",
+  "analysis": "The SPY daily chart shows a strong uptrend with price well above the 50- and 200-day EMAs (732.14 and 699.32). However, the recent price action introduces caution. The last five candles include a Doji (indecision), a Morning Star (bullish reversal), followed by a Bearish Engulfing pattern \u2014 a conflicting sequence that often signals exhaustion or a potential short-term reversal. The MACD is bearish with the line below the signal line and a negative histogram, indicating waning upside momentum. The RSI at 53.5 is neutral and shows no divergence, offering no additional confirmation. The signal score of 5/10 reflects this mixed technical picture: the trend remains bullish, but near-term momentum and candlestick patterns suggest consolidation or a pullback.\n\nKey support levels are the 50-day EMA at 732.14, the ATR-based support at 734.78 (price minus one ATR), and the round number 730. On the upside, resistance is likely near the current round number at 745, followed by psychological 750 and then 755. The lack of a clear breakout or breakdown and the conflicting signals favor patience. The best trade setup would be to wait for a decisive move: either a break above 750 with strong volume to confirm continued uptrend, or a dip to the 50-day EMA with a bullish reversal pattern (e.g., hammer or bullish engulfing) to re-enter long. At present, entering a trade would carry elevated risk due to the bearish MACD and the recent bearish engulfing candle.",
+  "invalidation": "N/A",
   "support_levels": [
-    732.07,
-    699.31
+    734.78,
+    732.14,
+    730.0
   ],
   "resistance_levels": [
-    753.27,
-    765.0
+    745.0,
+    750.0,
+    755.0
   ]
 };
