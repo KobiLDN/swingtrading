@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-03
-**Generated:** 2026-07-03T21:24:47Z
+**Date:** 2026-07-04
+**Generated:** 2026-07-03T23:05:53Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 1.33394, 1.33, 1.327 |
-| **Resistance** | 1.34058, 1.342, 1.345 |
+| **Support** | 1.33397, 1.33, 1.325 |
+| **Resistance** | 1.3406, 1.345, 1.35 |
 
 ---
 
 ## Analysis
 
-The daily chart presents a clear conflict between the longer-term bearish bias and short-term bullish momentum. Price (1.33546) sits above the EMA50 (1.33394) but below the EMA200 (1.34058), confirming a bearish structure on the higher timeframe while the shorter EMA is being tested as support. The pre-calculated trend label of “BEARISH BIAS” aligns with the price being under the 200‑period moving average, but recent price action has not yet confirmed a continuation lower—instead, the Doji candlestick pattern signals indecision after a move, suggesting the market is pausing.
+The price sits at 1.33529, caught between the EMA 50 (1.33397) and EMA 200 (1.3406). The EMA alignment is bearish, with the 50 below the 200, confirming a longer-term downtrend bias. However, recent price action shows two consecutive dojis, signaling indecision and a potential pause. The RSI at 57.62 is neutral, but the bullish divergence suggests underlying upward momentum that may be building. The MACD is also bullish, with the line above the signal and a positive histogram, supporting a short-term bullish bias.  
 
-The RSI at 57.78 is neutral, but the bullish divergence adds a layer of potential reversal momentum. The MACD is also bullish (line above signal, positive histogram), which agrees with the short‑term upward push. However, these bullish signals are not yet strong enough to override the dominant bearish trend, especially with the price still below the key EMA200 resistance. Without a clear breakout or rejection, the confluence is mixed: short‑term indicators favour a long, but the larger trend argues for a short.
+These conflicting signals—bearish trend structure versus bullish momentum and divergence—create a low-conviction environment. The signal score of 5/10 reflects this neutrality. There are no clear chart patterns like triangles or flags, only the doji formation, which further emphasizes the need for confirmation. Key support is the EMA 50 (1.33397), offering a floor, while the EMA 200 (1.3406) serves as immediate resistance. A break above or below these levels would likely define the next swing.  
 
-Given the 5/10 signal score and the absence of a confirmed pattern (only a Doji), the most prudent action is to wait for a decisive move. A long entry would require a clean break above the EMA200 (1.34058) with volume, while a short entry would need a rejection at that level or a breakdown below the EMA50 (1.33394). The ATR of 65 pips indicates reasonable volatility, but the current risk‑reward is unclear. Therefore, no trade is recommended until the market resolves the current indecision.
+Given the lack of confluence, the best course is to wait for a decisive breakout. A long position would only become attractive if price closes above the EMA 200 with volume, confirming a trend reversal. Conversely, a short trade would be viable if price breaks below the EMA 50, reaffirming the bearish bias. Until then, the risk of a
 
 ---
 
 ## Invalidation
 
-This wait‑and‑see setup is invalidated if price breaks and closes below the EMA50 (1.33394) with increasing bearish momentum, or
+N/A
 
 ---
 

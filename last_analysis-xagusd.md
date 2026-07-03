@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
 **Date:** 2026-07-02
-**Generated:** 2026-07-03T21:25:35Z
+**Generated:** 2026-07-03T23:06:53Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 53.5, 51.0, 49.2 |
-| **Resistance** | 57.0, 59.5, 62.91 |
+| **Score** | 5/10 |
+| **Support** | 52.5, 50.0, 48.0 |
+| **Resistance** | 57.5, 62.91, 66.0 |
 
 ---
 
 ## Analysis
 
-The EMA structure shows a bearish configuration with price ($55.02) trading well below both the 50 EMA ($62.91) and 200 EMA ($61.66). This is a clear bearish trend on the daily timeframe, despite the "BULLISH BIAS" label in the pre-calculated data. Price action does NOT confirm the EMA trend—price is making lower lows relative to the EMAs, and the EMAs themselves are sloping downward. The recent candlestick patterns (Morning Star, Shooting Star, Morning Star) indicate high volatility and indecision, not a sustainable bullish reversal, especially given the overhead EMA resistance.
+The EMA structure shows a bearish configuration with price (55.02) trading well below both the 50 EMA (62.91) and 200 EMA (61.66), indicating a sustained downtrend. Despite the “BULLISH BIAS” label, price action does not confirm this — the price is making lower lows relative to the EMAs, and the EMAs themselves are sloping downward. The recent candlestick patterns (Morning Star, Shooting Star, Morning Star) suggest short-term volatility and indecision rather than a clear reversal, as the Shooting Star between two Morning Stars implies failed upside follow-through.
 
-No clear additional chart patterns (triangles, flags, double tops/bottoms) are immediately inferable from the given data. The price appears to be in a downtrend channel, but without price history or volume data, a specific pattern cannot be confirmed. Key support is near the recent swing low around $53.50, with further support at $51.00 (prior reaction zone) and $49.20 (major psychological level). Resistance is stacked overhead: first at $57.00 (recent consolidation high), then $59.50 (prior breakdown level), and finally the 50 EMA at $62.91.
+No clear chart patterns like triangles, flags, or double tops/bottoms are evident on the daily timeframe. The price is in a broad downtrend channel, with the nearest support around 52.50 (prior swing low) and resistance at 57.50 (recent minor high). The 50 EMA at 62.91 serves as major resistance. RSI at 38.17 is neutral but in bearish territory, and MACD is bearish with the line below the signal line and a negative histogram, confirming downside momentum. There is no RSI divergence to suggest an imminent reversal.
 
-RSI at 38.17 is in bearish territory but not oversold, suggesting further downside potential. MACD is bearish with the line below the signal line and a negative histogram, confirming the downtrend. There is no RSI divergence to suggest a reversal. The indicators agree with the bearish trend, not the "bullish bias" label. The signal score of 5/10 is too optimistic given the bearish EMA alignment and MACD; I revise it down to 4/10. There is no high-conviction trade setup here—a short entry would be chasing the move near support, and a long entry lacks bullish confirmation.
+Given the bearish trend, weak candlestick confirmation, and lack of a clear reversal signal, the best trade setup is to wait. A short entry would be risky near support, and a long entry lacks confirmation. The signal score of 5/10 reflects this mixed picture — neutral RSI, bearish MACD, and conflicting candlestick patterns offer no high-conviction edge. Patience is warranted until price either breaks below 52.50 with momentum (favoring shorts) or reclaims the 50 EMA (favoring longs).
 
 ---
 
 ## Invalidation
 
-A decisive daily close above the 50 EMA ($62.91) would invalidate the bearish bias and shift the outlook to neutral/bullish.
+A daily close above 62.91 (50 EMA) would invalidate the bearish bias and shift the outlook to neutral/bullish.
 
 ---
 

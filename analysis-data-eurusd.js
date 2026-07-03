@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-07-03T21:24:59Z",
+  "generated": "2026-07-03T23:06:19Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_EURUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The daily chart remains in a strong downtrend with price (1.14377) well below both the EMA50 (1.15218) and EMA200 (1.16372). This confirms the bearish trend from a moving average perspective. However, recent candlestick patterns present conflicting signals: an Evening Star (bearish) followed by a Bullish Engulfing pattern within the last five candles suggests indecision and a potential reversal attempt. The RSI at 44.93 is neutral, offering no oversold confirmation for a bounce, while the MACD has turned bullish (line above signal) with a rising histogram, hinting at possible upward momentum.\n\nAdditional chart patterns are not explicitly identified, but the price is hovering near the psychological 1.1400 support level. A break below this could accelerate selling toward 1.1350 and 1.1300. Conversely, a sustained move above the 1.1522 EMA50 would be the first sign of trend weakening. The combination of a strong downtrend, neutral RSI, and mixed candlestick signals creates low confluence. The MACD bullish crossover is the only bullish factor, but it lacks volume or divergence confirmation.\n\nGiven the low signal score (4/10) and the contradictory technical evidence, the prudent approach is to wait for a clearer directional catalyst. A short entry would require a confirmed rejection near resistance (e.g., EMA50), while a long entry would need a strong bullish breakout above the EMA50 with RSI crossing above 50 and MACD strengthening further. Neither condition is currently met.",
-  "invalidation": "A break below 1.1400 would confirm continued downside, while a daily close above 1.1522 (EMA50) would invalidate the immediate downtrend bias and suggest a potential trend reversal.",
+  "score": "4/10 confirmed",
+  "analysis": "The price at 1.1439 is well below both the EMA 50 (1.15185) and EMA 200 (1.16351), confirming the STRONG DOWNTREND. However, the recent candlestick patterns \u2014 an Evening Star followed by a Bullish Engulfing \u2014 indicate short-term indecision and a potential reversal attempt. The price is currently compressing below the EMA 50, which acts as dynamic resistance, and the overall trend remains bearish until price reclaims that level. No clear triangle, flag, or double top/bottom pattern is present on the daily chart; the structure appears to be a slow grind lower with intermittent corrective bounces.\n\nRSI at 45.19 is neutral, neither oversold nor overbought, offering no clear divergence. MACD shows a bullish crossover (line above signal) with a positive histogram, which contradicts the bearish EMA trend. This divergence between momentum (bullish short-term) and price structure (bearish long-term) creates a low-conviction environment. The signal score of 4/10 reflects this mixed picture \u2014 the trend is clear, but momentum is not aligned, and recent candlestick patterns add uncertainty.\n\nThe single best trade setup here is to WAIT. A bearish trade would risk a counter-trend bounce given the MACD bullish cross and Bullish Engulfing pattern. A bullish trade would be premature against the dominant downtrend. The risk-reward is unclear until either price breaks below the recent swing low near 1.1390 (validating downtrend continuation) or rallies above the EMA 50 near 1.1480 (opening a mean-reversion long). Both levels are within 1 ATR (50 pips), but the lack of confluence keeps risk high.",
+  "invalidation": "A decisive close above 1.1480 would invalidate the bearish bias and suggest a deeper correction, while a breakdown below 1.1390 would cancel any bullish reversal case and confirm trend continuation.",
   "support_levels": [
-    1.14,
-    1.135,
-    1.13
+    1.139,
+    1.131,
+    1.125
   ],
   "resistance_levels": [
-    1.1522,
-    1.16,
-    1.1637
+    1.148,
+    1.1519,
+    1.1635
   ]
 };

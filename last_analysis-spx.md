@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
 **Date:** 2026-07-02
-**Generated:** 2026-07-03T21:25:22Z
+**Generated:** 2026-07-03T23:06:42Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,26 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 734.62, 732.14, 730.0 |
-| **Resistance** | 750.0, 754.94, 760.0 |
+| **Support** | 740.0, 732.14, 720.0 |
+| **Resistance** | 745.0, 750.0, 755.0 |
 
 ---
 
 ## Analysis
 
-The EMA structure (price above both 50 and 200) and the STRONG UPTREND label confirm a bullish long-term bias. However, recent price action is ambiguous: after a Doji and Morning Star (bullish reversal), a Bearish Engulfing candle formed at 744.78, suggesting rejection at higher levels. While price remains above the 50 EMA (732.14), the bearish engulfing indicates potential short-term exhaustion or a pause in the uptrend.  
+Price action confirms the strong uptrend signaled by EMAs (price well above both 50- and 200-period EMAs). However, the recent candlestick sequence—a Morning Star followed by a Bearish Engulfing—suggests indecision and a failed bullish reversal, hinting at potential short-term weakness. No clear triangle, flag, or double top/bottom is evident from the given data, though the price is near the upper end of its recent range.
 
-The MACD is bearish (line below signal, negative histogram) and diverges from the bullish price trend, warning of weakening momentum. The RSI at a neutral 53.5 provides no overbought/oversold extreme, leaving direction indeterminate. No clear chart patterns like flags or double tops are evident from the given data, but the candlestick sequence hints at a possible consolidation or minor reversal.  
+The RSI at 53.5 is neutral and offers no divergence, while the MACD is bearish with the line below the signal line and a negative histogram. This creates a bearish-to-neutral divergence against the strong price trend, reducing conviction for a continuation move. The signal score of 5/10 further underscores the mixed environment.
 
-Key support is at the 50 EMA (732.14) and the ATR-based level at 734.62 (price minus 10 pts). Resistance is near the round number 750.00 and the ATR upper band at 754.94. The lack of confluence between price trend (bullish) and momentum (bearish MACD), combined with a neutral signal score, argues against entering a trade now. Waiting for either a confirmed breakdown below support or a bullish re-engagement with improving MACD momentum is prudent.  
-
-Risk assessment: ATR of 10.16 points means any trade carries significant daily swing risk. The current setup lacks clear directional conviction, making a swing trade premature. The 5/10 score reflects indecision; no high-confidence edge is present.
+Given the conflicting signals—strong trend vs. bearish MACD and mixed candle patterns—the prudent action is to wait for clearer confirmation. A buy would risk chasing a potential pullback, while a sell would counter the dominant uptrend without a confirmed breakdown. Patience allows the market to resolve the current indecision before committing capital.
 
 ---
 
 ## Invalidation
 
-A close above 750.00 with a bullish MACD crossover would shift bias to a new long; a close below 732.14 (50 EMA) would confirm short-term bearish pressure and potentially invalidate the uptrend synchronization.
+This wait setup is invalidated if price breaks decisively above 750 with strong volume (confirming trend continuation) or falls below 732.14 (EMA50) on close, signaling a potential trend shift.
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
 **Date:** 2026-07-02
-**Generated:** 2026-07-03T21:26:02Z
+**Generated:** 2026-07-03T23:07:08Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,26 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 99.14, 95.0, 90.0 |
-| **Resistance** | 108.82, 112.5, 122.27 |
+| **Support** | 100.0, 98.0, 95.0 |
+| **Resistance** | 104.01, 105.0, 110.0 |
 
 ---
 
 ## Analysis
 
-The trend structure is ambiguous. Price at 103.98 is essentially sitting on the EMA 200 (104.01), which acts as a critical pivot. The EMA 50 at 122.27 is far above, indicating a severe bearish slope in the shorter-term moving average relative to price. While the label says "BULLISH BIAS," the price action does not confirm this — price is well below the EMA 50 and barely clinging to the EMA 200. The recent Hammer candlestick suggests a potential bounce, but it was immediately followed by a Bearish Engulfing pattern, which negates the bullish reversal signal and points to continued selling pressure.
+Price action does not confirm the labelled bullish bias. At 103.98, USO is trading well below the EMA50 (122.27) and essentially at the EMA200 (104.01). This flat EMA200 is acting as a resistance barrier rather than support, and the price has failed to close above it. The presence of a hammer followed by a bearish engulfing pattern indicates an initial bounce was immediately rejected by sellers, suggesting persistent selling pressure near the 104 level.  
 
-No clear chart patterns like triangles, flags, or double tops/bottoms are evident on the daily timeframe from the given data. The price is in a broad downtrend from the EMA 50 level, and the current area around 104 is a potential support zone (the EMA 200). However, the Bearish Engulfing pattern after a Hammer creates a "trap" scenario — buyers who entered on the Hammer are now trapped, which often leads to further downside. Key support below is at 99.14 (a prior swing low) and then 95.00 (psychological/round number). Resistance above is at 108.82 (recent swing high) and then the EMA 50 at 122.27.
+The MACD remains bearish with the line below the signal line and a negative histogram, confirming downward momentum. The RSI at 30.41 is neutral but approaching oversold territory, which could hint at a potential bounce, but the RSI shows no divergence and lacks conviction. No clear chart patterns such as flags or double tops/bottoms are evident; the current price action appears to be consolidating near the EMA200, which often acts as a decision point.  
 
-RSI at 30.41 is neutral but very close to oversold territory. This could indicate exhaustion of selling pressure, but there is no bullish divergence to confirm a reversal. MACD remains bearish with the line below the signal line and a negative histogram (-1.07), which aligns with the bearish price action. There is no confluence between the RSI (neutral/oversold) and MACD (bearish) — they disagree. The RSI suggests a potential bounce is possible, but the MACD says momentum is still down. This lack of agreement, combined with the conflicting candlestick patterns, makes a clear directional trade unreliable.
-
-The single best trade setup here is no trade. The risk of a false breakout below the EMA 200 or a dead-cat bounce is high. A swing trader should wait for either a confirmed close above 108.82 (to signal a reversal) or a breakdown below 99.14 with increasing volume (to confirm the downtrend continuation). The signal score of 5/10 is appropriate — it reflects the mixed signals and lack of clear edge.
+Given the bearish MACD, the bearish engulfing candle, and price below key EMAs, the short-term bias is bearish. However, the low RSI and the earlier hammer warn that a sharp selloff may attract buyers, creating a high-risk environment for either direction. The 5/10 signal score reflects this conflict – neither bulls nor bears have a clear, confirmable edge. The prudent approach is to wait for a decisive break either above 104.50 (to invalidate the bearish setup) or below 100.00 (to confirm a breakdown).
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if price closes decisively above 108.82 with strong momentum, or if it breaks and holds below 99.14 with increasing volume.
+A daily close above 104.50 (specifically above the EMA200 with increasing volume) would negate the bearish-leaning setup and shift the bias back to bullish, while a close below 100.00 would confirm the breakdown and strengthen the sell thesis.
 
 ---
 
