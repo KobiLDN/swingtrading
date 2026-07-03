@@ -1,21 +1,21 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-07-03T08:49:13Z",
+  "generated": "2026-07-03T19:46:32Z",
   "date": "2026-07-03",
-  "price": 4181.69,
+  "price": 4174.83,
   "atr": 85.74,
   "atr_pips": 86,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4288.27,
-  "ema200": 4518.15,
-  "rsi": 50.41,
-  "macd_line": -68.086681,
-  "macd_signal": -84.8996,
-  "macd_hist": 16.812919,
+  "ema50": 4288.0,
+  "ema200": 4518.08,
+  "rsi": 49.85,
+  "macd_line": -68.634124,
+  "macd_signal": -85.009089,
+  "macd_hist": 16.374965,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -733,7 +733,7 @@ window.PRICES_DATA_XAUUSD = {
       "open": 4123.72,
       "high": 4195.33,
       "low": 4120.91,
-      "close": 4181.69
+      "close": 4174.83
     }
   ]
 };

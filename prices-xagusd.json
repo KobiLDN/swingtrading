@@ -1,4 +1,4 @@
-window.PRICES_DATA_XAGUSD = {
+{
   "symbol": "SLV",
   "slug": "xagusd",
   "generated": "2026-07-03T19:46:33Z",
@@ -742,4 +742,4 @@ window.PRICES_DATA_XAGUSD = {
       "close": 55.02
     }
   ]
-};
+}
