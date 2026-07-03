@@ -1,9 +1,9 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-07-03T19:46:32Z",
+  "generated": "2026-07-03T19:49:18Z",
   "date": "2026-07-03",
-  "price": 1.14385,
+  "price": 1.14377,
   "atr": 0.00533,
   "atr_pips": 53,
   "pip_label": "pips",
@@ -12,10 +12,10 @@ window.PRICES_DATA_EURUSD = {
   "decimals": 5,
   "ema50": 1.15218,
   "ema200": 1.16372,
-  "rsi": 45.07,
-  "macd_line": -0.004108,
-  "macd_signal": -0.004864,
-  "macd_hist": 0.000755,
+  "rsi": 44.93,
+  "macd_line": -0.004115,
+  "macd_signal": -0.004865,
+  "macd_hist": 0.00075,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -733,7 +733,7 @@ window.PRICES_DATA_EURUSD = {
       "open": 1.14339,
       "high": 1.14621,
       "low": 1.14209,
-      "close": 1.14385
+      "close": 1.14377
     }
   ]
 };
