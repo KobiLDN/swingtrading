@@ -200,15 +200,21 @@ def merge_events(ff_events, td_events):
 
 def filter_window(events):
     today = datetime.now(timezone.utc).date()
-    end   = today + timedelta(days=7)
     today_str = str(today)
-    end_str   = str(end)
 
-    filtered = [e for e in events if today_str <= e['date'] <= end_str]
+    # Window: Monday of current week → Sunday of next week
+    # This avoids the Thursday problem where current-week events are "past"
+    # and next-week events aren't published yet, leaving 0 results.
+    monday_this_week = today - timedelta(days=today.weekday())  # weekday(): Mon=0
+    sunday_next_week = monday_this_week + timedelta(days=13)
+    start_str = str(monday_this_week)
+    end_str   = str(sunday_next_week)
 
-    # Tag today's events for amber highlight on dashboard
+    filtered = [e for e in events if start_str <= e['date'] <= end_str]
+
     for e in filtered:
         e['today'] = (e['date'] == today_str)
+        e['past']  = (e['date'] < today_str)
 
     return filtered
 

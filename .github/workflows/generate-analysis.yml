@@ -62,9 +62,7 @@ jobs:
           ASSET: "USO"
         run: python generate_analysis.py || echo "USO analysis failed — skipping"
 
-      - name: Fetch news sentiment
-        env:
-          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+      - name: Fetch news (Yahoo Finance RSS)
         run: python update_news.py || echo "News fetch failed — skipping"
 
       - name: Commit analysis output

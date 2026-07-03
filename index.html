@@ -583,6 +583,8 @@
   .cal-table tr:last-child td { border-bottom: none; }
   .cal-today-row td { background: rgba(245,158,11,.06); }
   .cal-today-row td:first-child { border-left: 3px solid var(--yellow); padding-left: 5px; }
+  .cal-past-row td { opacity: .45; }
+  .cal-past-row td:first-child { border-left: 3px solid var(--muted); padding-left: 5px; }
   .cal-badge-usd { color: #60a5fa; font-weight: 700; font-family: var(--mono); }
   .cal-badge-gbp { color: #34d399; font-weight: 700; font-family: var(--mono); }
   .cal-badge-eur { color: #a78bfa; font-weight: 700; font-family: var(--mono); }
@@ -1652,18 +1654,14 @@ function buildPrompt(d) {
     });
   }
 
-  // ── Section 4: News sentiment ────────────────────────────────────────────────
-  var news      = window.NEWS_DATA;
-  var slugUpper = slug.replace('spx','spy').toUpperCase();
+  // ── Section 4: Recent News ───────────────────────────────────────────────────
+  var news = window.NEWS_DATA;
   if (news && news.assets) {
-    var assetNews = news.assets[slug] || news.assets[slugUpper];
-    if (assetNews && assetNews.articles && assetNews.articles.length) {
-      var score = assetNews.sentiment_score;
-      var label = score > 0.15 ? 'BULLISH' : score < -0.15 ? 'BEARISH' : 'NEUTRAL';
-      prompt += '\n── NEWS SENTIMENT (' + (d.symbol || slug.toUpperCase()) + ') ──\n';
-      prompt += '  Overall: ' + label + ' (score: ' + (score >= 0 ? '+' : '') + score.toFixed(3) + ')\n';
-      assetNews.articles.slice(0, 3).forEach(function(a) {
-        prompt += '  • [' + a.sentiment + '] ' + a.title + '\n';
+    var newsItems = news.assets[slug] || [];
+    if (newsItems.length) {
+      prompt += '\n── RECENT NEWS (' + (d.symbol || slug.toUpperCase()) + ') ──\n';
+      newsItems.slice(0, 3).forEach(function(a) {
+        prompt += '  • [' + a.time_published + '] ' + a.title + '\n';
       });
     }
   }
@@ -1774,7 +1772,7 @@ function renderCalendar() {
   if (!wrap) return;
 
   if (events.length === 0) {
-    wrap.innerHTML = '<span class="cal-empty">No high-impact events in the next 7 days.</span>';
+    wrap.innerHTML = '<span class="cal-empty">No high-impact events this week or next.</span>';
     if (card) card.style.display = 'block';
     return;
   }
@@ -1784,12 +1782,13 @@ function renderCalendar() {
   var rows = '';
   events.forEach(function(e) {
     var isToday = e.date === today;
-    var cls = isToday ? ' class="cal-today-row"' : '';
+    var isPast  = e.past && !isToday;
+    var cls = isToday ? ' class="cal-today-row"' : (isPast ? ' class="cal-past-row"' : '');
     var ccy = e.currency || '';
     var ccySpan = '<span class="' + (ccyCls[ccy] || '') + '">' + ccy + '</span>';
     rows += '<tr' + cls + '>' +
       '<td style="white-space:nowrap"><span class="cal-impact-dot"></span>' +
-        (e.date || '') + (isToday ? ' <strong style="color:var(--yellow);font-size:10px">TODAY</strong>' : '') + '</td>' +
+        (e.date || '') + (isToday ? ' <strong style="color:var(--yellow);font-size:10px">TODAY</strong>' : (isPast ? ' <span style="color:var(--muted);font-size:10px">PAST</span>' : '')) + '</td>' +
       '<td style="font-family:var(--mono);color:var(--muted)">' + (e.time || '—') + '</td>' +
       '<td>' + ccySpan + '</td>' +
       '<td>' + (e.event || '') + '</td>' +
@@ -1824,17 +1823,11 @@ function renderNews(slug, label) {
 
   var html = '';
   articles.forEach(function(a) {
-    var score = parseFloat(a.sentiment_score) || 0;
-    var lbl_s = (a.sentiment_label || '').toLowerCase();
-    var cls   = lbl_s.includes('bullish') ? 'bullish' : lbl_s.includes('bearish') ? 'bearish' : 'neutral';
-    var badge = lbl_s.includes('bullish') ? 'Bullish' : lbl_s.includes('bearish') ? 'Bearish' : 'Neutral';
     html +=
       '<div class="news-item">' +
-        '<span class="news-badge ' + cls + '">' + badge + '</span>' +
         '<div class="news-body">' +
           '<div class="news-title"><a href="' + a.url + '" target="_blank" rel="noopener">' + a.title + '</a></div>' +
-          '<div class="news-meta">' + a.source + ' &nbsp;·&nbsp; ' + a.time_published + ' UTC' +
-            '&nbsp;·&nbsp; score: ' + score.toFixed(2) + '</div>' +
+          '<div class="news-meta">' + a.source + ' &nbsp;·&nbsp; ' + a.time_published + ' UTC</div>' +
           (a.summary ? '<div class="news-summary">' + a.summary + (a.summary.length >= 298 ? '…' : '') + '</div>' : '') +
         '</div>' +
       '</div>';
