@@ -1,22 +1,22 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-03T23:04:00Z",
+  "generated": "2026-07-04T11:27:10Z",
   "date": "2026-07-04",
-  "price": 1.33529,
-  "atr": 0.00613,
+  "price": 1.33503,
+  "atr": 0.00614,
   "atr_pips": 61,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33397,
+  "ema50": 1.33396,
   "ema200": 1.3406,
-  "rsi": 57.62,
-  "macd_line": -0.001239,
-  "macd_signal": -0.003505,
-  "macd_hist": 0.002266,
-  "trend": "BEARISH BIAS",
+  "rsi": 57.32,
+  "macd_line": -0.00126,
+  "macd_signal": -0.003509,
+  "macd_hist": 0.002249,
+  "trend": "NEUTRAL",
   "divergence": "BULLISH",
   "patterns": [
     {
@@ -731,9 +731,9 @@
     {
       "date": "2026-07-04",
       "open": 1.33493,
-      "high": 1.33561,
+      "high": 1.33565,
       "low": 1.33481,
-      "close": 1.33529
+      "close": 1.33503
     }
   ]
 }

@@ -1,7 +1,7 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-07-03T23:04:04Z",
+  "generated": "2026-07-04T11:27:12Z",
   "date": "2026-07-02",
   "price": 55.02,
   "atr": 2.51,
@@ -16,7 +16,7 @@ window.PRICES_DATA_XAGUSD = {
   "macd_line": -3.587206,
   "macd_signal": -3.423499,
   "macd_hist": -0.163707,
-  "trend": "BULLISH BIAS",
+  "trend": "BEARISH BIAS",
   "divergence": "None",
   "patterns": [
     {

@@ -1,7 +1,7 @@
 window.PRICES_DATA_OIL = {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-07-03T23:04:05Z",
+  "generated": "2026-07-04T11:27:13Z",
   "date": "2026-07-02",
   "price": 103.98,
   "atr": 4.84,
@@ -16,7 +16,7 @@ window.PRICES_DATA_OIL = {
   "macd_line": -8.003195,
   "macd_signal": -6.933051,
   "macd_hist": -1.070144,
-  "trend": "BULLISH BIAS",
+  "trend": "BEARISH BIAS",
   "divergence": "None",
   "patterns": [
     {

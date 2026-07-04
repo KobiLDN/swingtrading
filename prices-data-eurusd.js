@@ -1,21 +1,21 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-07-03T23:04:01Z",
+  "generated": "2026-07-04T11:27:10Z",
   "date": "2026-07-04",
-  "price": 1.1439,
-  "atr": 0.00502,
+  "price": 1.14371,
+  "atr": 0.00503,
   "atr_pips": 50,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15185,
+  "ema50": 1.15184,
   "ema200": 1.16351,
-  "rsi": 45.19,
-  "macd_line": -0.003698,
-  "macd_signal": -0.004633,
-  "macd_hist": 0.000935,
+  "rsi": 44.84,
+  "macd_line": -0.003713,
+  "macd_signal": -0.004636,
+  "macd_hist": 0.000923,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -30,6 +30,12 @@ window.PRICES_DATA_EURUSD = {
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-07-04",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
   "score": 4,
@@ -731,9 +737,9 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-07-04",
       "open": 1.1437,
-      "high": 1.14448,
+      "high": 1.14456,
       "low": 1.14348,
-      "close": 1.1439
+      "close": 1.14371
     }
   ]
 };
