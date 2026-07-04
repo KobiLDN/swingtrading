@@ -324,9 +324,13 @@ def main():
 
     if price > e50 > e200:     trend = 'STRONG UPTREND'
     elif price < e50 < e200:   trend = 'STRONG DOWNTREND'
-    elif e50 > e200:           trend = 'BULLISH BIAS'
-    elif e50 < e200:           trend = 'BEARISH BIAS'
-    else:                       trend = 'NEUTRAL'
+    elif e50 > e200 and price > e50:  trend = 'BULLISH BIAS'
+    elif e50 > e200 and price < e200: trend = 'BEARISH BIAS'   # below both EMAs despite bullish structure
+    elif e50 > e200:                  trend = 'NEUTRAL'         # price between EMA50 and EMA200
+    elif e50 < e200 and price < e50:  trend = 'BEARISH BIAS'
+    elif e50 < e200 and price > e200: trend = 'BULLISH BIAS'   # above both EMAs despite bearish structure
+    elif e50 < e200:                  trend = 'NEUTRAL'         # price between EMA200 and EMA50
+    else:                             trend = 'NEUTRAL'
 
     score, verdict = score_setup(rsi_v, patterns, divergence, df['macd_hist'].tail(3))
 
