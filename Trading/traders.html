@@ -247,6 +247,7 @@
   <nav class="sidebar-nav" id="sidebarNav">
     <div class="sidebar-category">Quant</div>
     <a class="nav-pill" href="#simons"><span class="nav-dot" style="background:var(--accent)"></span>Jim Simons</a>
+    <a class="nav-pill" href="#wenfeng"><span class="nav-dot" style="background:var(--accent)"></span>Liang Wenfeng</a>
     <div class="sidebar-category">Macro</div>
     <a class="nav-pill" href="#soros"><span class="nav-dot" style="background:var(--yellow)"></span>George Soros</a>
     <a class="nav-pill" href="#tudor"><span class="nav-dot" style="background:var(--yellow)"></span>Paul Tudor Jones</a>
@@ -334,6 +335,61 @@
         </ul>
         <div class="sub-h">Swing Trading Lesson</div>
         <div class="learn-note">Simons proves patterns repeat. You don't have discretionary quant infrastructure — but your encyclopedia's scoring system and pattern detection rules ARE a simplified version of this logic. Trust the system over your gut.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Liang Wenfeng -->
+  <div class="trader-card quant" id="wenfeng">
+    <div class="card-head">
+      <div>
+        <div class="trader-name">Liang Wenfeng</div>
+        <div class="trader-meta">b. 1985 &nbsp;·&nbsp; High-Flyer Capital Management &nbsp;·&nbsp; DeepSeek</div>
+        <div class="tag-row">
+          <span class="tag tag-quant">AI Quant</span>
+          <span class="tag tag-quant">Systematic</span>
+        </div>
+        <a class="wiki-link" href="https://en.wikipedia.org/wiki/Liang_Wenfeng" target="_blank" rel="noopener">Wikipedia</a>
+      </div>
+      <div class="return-stats">
+        <div class="stat-box"><div class="stat-num" style="color:var(--green)">57%+</div><div class="stat-label">Annual gain<br>peak year</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--accent)">$14B</div><div class="stat-label">Peak AUM<br>High-Flyer</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--yellow)">$6M</div><div class="stat-label">DeepSeek V3<br>training cost</div></div>
+        <div class="stat-box"><div class="stat-num" style="color:var(--text)">~$10B</div><div class="stat-label">Est. net<br>worth</div></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-col">
+        <div class="sub-h">Famous For</div>
+        <div class="famous-for">Co-founded <strong>High-Flyer Capital Management</strong> in 2016 with two Zhejiang University classmates, building one of China's largest AI-driven quant hedge funds — peak $14B AUM. By 2021 every strategy was 100% machine-learning-driven. In 2023 he spun out <strong>DeepSeek</strong>, an AI research lab that in January 2025 released <em>DeepSeek-R1</em> — an open-source reasoning model competitive with OpenAI o1, trained for ~$6M versus rivals' $100M+. The release sent Nvidia stock down 17% in a single session, repricing global AI infrastructure valuations overnight.</div>
+        <div class="sub-h">Key Stats</div>
+        <table class="stat-table">
+          <tr><td>Born</td><td>1985, Zhanjiang, Guangdong, China</td></tr>
+          <tr><td>Education</td><td>Zhejiang University — Electronic Engineering (BEng), Information & Comm. Engineering (MEng)</td></tr>
+          <tr><td>High-Flyer AUM</td><td>Peak ~$14B (2021); ~$8–13B range (2025)</td></tr>
+          <tr><td>High-Flyer stake</td><td>~76%</td></tr>
+          <tr><td>DeepSeek stake</td><td>~84%</td></tr>
+          <tr><td>GPUs stockpiled</td><td>10,000 Nvidia H800s (pre-export-ban, 2021)</td></tr>
+          <tr><td>DeepSeek V3 cost</td><td>~$6M (vs. ~$100M for GPT-4)</td></tr>
+          <tr><td>Recognition</td><td>Time 100 Most Influential AI (2025); Fortune Most Powerful in Business</td></tr>
+        </table>
+      </div>
+      <div class="card-col">
+        <div class="sub-h">Philosophy</div>
+        <ul class="phil-list">
+          <li class="phil-item">Treats AI model assumptions as market inefficiencies — find the mispricing, exploit with superior algorithm rather than brute-force compute.</li>
+          <li class="phil-item">Quant fund capability doubles every ~18 months (Moore's Law for alpha).</li>
+          <li class="phil-item">Open-source is cultural, not a concession — the real moat is the team's accumulated know-how.</li>
+          <li class="phil-item">Bottom-up culture: employees bring unique ideas without explicit direction; curiosity is the hiring filter, not pedigree.</li>
+          <li class="phil-item">Long time horizon with a hard focus on the hardest problems: "Our destination is AGI, not just making a quick buck."</li>
+        </ul>
+        <div class="sub-h">Quote</div>
+        <blockquote>
+          <p>"What we lack isn't capital but confidence and the ability to organize high-caliber talent for effective innovation."</p>
+          <cite>— Liang Wenfeng</cite>
+        </blockquote>
+        <div class="sub-h">Lessons for Swing Traders</div>
+        <div class="learn-note">Wenfeng's edge is finding <em>consensus mispricings</em> — widely-held assumptions that are wrong — and exploiting them systematically before the market corrects. For swing traders: find where the crowd's assumption about support, trend, or momentum is provably stale, enter before the repricing, and exit when consensus catches up. His early GPU stockpile is also a masterclass in asymmetric positioning on a structural theme.</div>
       </div>
     </div>
   </div>
@@ -823,7 +879,7 @@ function toggleTheme() {
 
 // ── Scroll spy — highlight active trader in sidebar ──
 (function() {
-  var ids = ['simons','soros','tudor','druck','livermore','darvas','minervini','oneil','buffett','seykota'];
+  var ids = ['simons','wenfeng','soros','tudor','druck','livermore','darvas','minervini','oneil','buffett','seykota'];
   var pills = {};
   ids.forEach(function(id) {
     var el = document.querySelector('a[href="#' + id + '"]');
