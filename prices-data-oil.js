@@ -1,7 +1,7 @@
 window.PRICES_DATA_OIL = {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-07-04T11:27:13Z",
+  "generated": "2026-07-06T09:55:51Z",
   "date": "2026-07-02",
   "price": 103.98,
   "atr": 4.84,

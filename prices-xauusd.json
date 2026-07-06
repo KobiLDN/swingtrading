@@ -1,54 +1,46 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-07-04T11:27:11Z",
-  "date": "2026-07-04",
-  "price": 4175.0,
-  "atr": 79.63,
-  "atr_pips": 80,
+  "generated": "2026-07-06T09:55:50Z",
+  "date": "2026-07-06",
+  "price": 4142.07,
+  "atr": 73.96,
+  "atr_pips": 74,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4283.58,
-  "ema200": 4518.29,
-  "rsi": 49.87,
-  "macd_line": -57.760931,
-  "macd_signal": -79.558111,
-  "macd_hist": 21.79718,
+  "ema50": 4273.94,
+  "ema200": 4512.41,
+  "rsi": 46.75,
+  "macd_line": -43.480311,
+  "macd_signal": -67.388733,
+  "macd_hist": 23.908423,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-01",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
-    },
     {
       "date": "2026-07-02",
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-07-05",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-07-06",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-27",
-      "open": 4362.53,
-      "high": 4550.97,
-      "low": 4352.84,
-      "close": 4514.84
-    },
-    {
-      "date": "2026-03-28",
-      "open": 4514.76,
-      "high": 4514.81,
-      "low": 4492.14,
-      "close": 4507.69
-    },
     {
       "date": "2026-03-29",
       "open": 4507.71,
@@ -733,7 +725,21 @@
       "open": 4174.9,
       "high": 4175.1,
       "low": 4174.84,
-      "close": 4175.0
+      "close": 4174.94
+    },
+    {
+      "date": "2026-07-05",
+      "open": 4174.91,
+      "high": 4175.11,
+      "low": 4165.65,
+      "close": 4175.01
+    },
+    {
+      "date": "2026-07-06",
+      "open": 4174.96,
+      "high": 4202.03,
+      "low": 4136.7,
+      "close": 4142.07
     }
   ]
 }
