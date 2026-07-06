@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-04
-**Generated:** 2026-07-03T23:05:53Z
+**Date:** 2026-07-06
+**Generated:** 2026-07-06T10:57:39Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 1.33397, 1.33, 1.325 |
-| **Resistance** | 1.3406, 1.345, 1.35 |
+| **Score** | 5/10 (revised) |
+| **Support** | 1.33, 1.325, 1.32 |
+| **Resistance** | 1.334, 1.3412, 1.35 |
 
 ---
 
 ## Analysis
 
-The price sits at 1.33529, caught between the EMA 50 (1.33397) and EMA 200 (1.3406). The EMA alignment is bearish, with the 50 below the 200, confirming a longer-term downtrend bias. However, recent price action shows two consecutive dojis, signaling indecision and a potential pause. The RSI at 57.62 is neutral, but the bullish divergence suggests underlying upward momentum that may be building. The MACD is also bullish, with the line above the signal and a positive histogram, supporting a short-term bullish bias.  
+The pre-calculated indicators present a conflicting picture. While the EMA structure (price below both 50 and 200 EMAs) and the stated “STRONG DOWNTREND” align on the bearish side, the RSI shows bullish divergence and the MACD has turned bullish with the line above its signal and a positive histogram. These momentum signals often precede trend reversals, raising the possibility that the downtrend is exhausting. However, the candlestick patterns over the last five sessions—Doji, Shooting Star, Evening Star, Evening Star—are all bearish reversal patterns that suggest sellers have repeatedly defended higher prices, creating a series of failed bounces. This indicates that even if momentum is shifting, short-term supply remains dominant, and price may need to break decisively above EMA 50 (1.33397) to confirm a reversal.
 
-These conflicting signals—bearish trend structure versus bullish momentum and divergence—create a low-conviction environment. The signal score of 5/10 reflects this neutrality. There are no clear chart patterns like triangles or flags, only the doji formation, which further emphasizes the need for confirmation. Key support is the EMA 50 (1.33397), offering a floor, while the EMA 200 (1.3406) serves as immediate resistance. A break above or below these levels would likely define the next swing.  
+No clear additional chart patterns (triangles, flags, double tops/bottoms) are visible from the given data alone. The proximity of price to EMA 50 makes that level a critical pivot: a sustained move above would target EMA 200 at 1.3412, while failure could lead to a re-test of recent lows near 1.3300 or lower. The RSI at 54.24 is neutral, providing no extreme overbought/oversold signal, and the MACD histogram is positive but small (0.002082), indicating only modest bullish momentum. The bearish candle cluster overrides the bullish divergence in the near term, as price action is a more immediate confirmation than latent divergence.
 
-Given the lack of confluence, the best course is to wait for a decisive breakout. A long position would only become attractive if price closes above the EMA 200 with volume, confirming a trend reversal. Conversely, a short trade would be viable if price breaks below the EMA 50, reaffirming the bearish bias. Until then, the risk of a
+Given the lack of confluence between trend/momentum and price action, the risk of entering either direction is high. A buy would require a breakout above EMA 50 with a strong bullish candle, while a sell would need confirmation of a breakdown below support and aligned bearish momentum—neither condition is currently met. Therefore, the prudent course is to wait for a clearer signal, such as a decisive close above 1.3340 (for long) or below 1.3300 (for short), with both RSI and MACD confirming the move.
 
 ---
 
 ## Invalidation
 
-N/A
+A bullish setup would be invalidated if price fails to close above 1.3340 within two sessions; a bearish setup would be invalidated if price holds above 1.3300 and produces a bullish engulfing pattern.
 
 ---
 

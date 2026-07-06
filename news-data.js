@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-03T23:07:09Z",
+  "generated": "2026-07-06T10:59:33Z",
   "assets": {
     "gbpusd": [
       {
@@ -61,6 +61,13 @@ window.NEWS_DATA = {
     ],
     "eurusd": [
       {
+        "title": "BofA highlights FX intervention impact on reserves and central bank balance sheets",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/bofa-highlights-fx-intervention-impact-084721714.html?.tsrc=rss",
+        "time_published": "2026-07-04 08:47",
+        "source": "Finance",
+        "summary": "Investing.com -- Foreign exchange intervention remains an infrequent but powerful policy tool in major economies, according to BofA, with recent episodes involving the Japanese yen and Swiss franc highlighting how official actions can ripple across global markets, reserve holdings and U.S. Treasury"
+      },
+      {
         "title": "Africa's Largest Centralized Exchange Integrates Hyperliquid Perps",
         "url": "https://www.bankless.com/read/news/africas-largest-centralized-exchange-integrates-hyperliquid-perps?.tsrc=rss",
         "time_published": "2026-07-02 18:46",
@@ -108,17 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-06-30 14:37",
         "source": "Barchart",
         "summary": "The dollar index (DXY00 ) today is up by +0.21%. The dollar is moving higher on month- and quarter-end demand, with today being the last trading day of Q2. Also, today's decline in the yen to a 39-year low is supportive for the dollar. In addition, today's weaker-than-expected German June..."
-      },
-      {
-        "title": "Europe's central bank head defends its recent rate hike to fight inflation",
-        "url": "https://finance.yahoo.com/economy/policy/articles/europes-central-bank-head-defends-195947897.html?.tsrc=rss",
-        "time_published": "2026-06-29 19:59",
-        "source": "Finance",
-        "summary": "The head of the European Central Bank defended its June 11 rate hike as justified to ward off real inflationary pressures and said it wasn\u2019t just a mere \u201cinsurance hike.\"  ECB head Christine Lagarde said Monday that without the quarter percentage-point increase, inflation could have lingered above t"
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "America\u2019s 250th Birthday Just Set a Silver World Record \u2014 Literally",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/america-250th-birthday-just-set-213109191.html?.tsrc=rss",
+        "time_published": "2026-07-05 21:31",
+        "source": "Finance",
+        "summary": "America\u2019s 250th birthday just got a little heavier. Texas Precious Metals has officially earned the Guinness World Records title for the world\u2019s heaviest silver coin after unveiling a 2,500-troy-ounce, 0.9999 pure silver commemorative coin weighing approximately 200 pounds. Created to..."
+      },
       {
         "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Amid Latest Economic Reports",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125735076.html?.tsrc=rss",
@@ -167,16 +174,51 @@ window.NEWS_DATA = {
         "time_published": "2026-06-26 13:58",
         "source": "Finance",
         "summary": "(Corrects the third paragraph to state that May advance trade deficit widened.) The broad market"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131102405.html?.tsrc=rss",
-        "time_published": "2026-06-26 13:11",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.7%, and the actively t"
       }
     ],
     "spx": [
+      {
+        "title": "Nasdaq, S&P 500, Dow Futures Rise After Fourth Of July Break As Investors Await Fed Minutes: SLS, ONDS, HOOD, MARA, HUT In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-rise-after-fourth-of-july-break-as-investors-await-fed-minutes/cZmKumjR7kK?.tsrc=rss",
+        "time_published": "2026-07-06 00:58",
+        "source": "Stocktwits",
+        "summary": "U.S. stock futures edged higher in the overnight session ahead of Monday\u2019s open following a strong rally in the prior week."
+      },
+      {
+        "title": "QYLD\u2019s $10,000 Problem: How a Covered-Call ETF Left Investors With a Fraction of Nasdaq Gains",
+        "url": "https://247wallst.com/investing/2026/07/05/qylds-10000-problem-how-a-covered-call-etf-left-investors-with-a-fraction-of-nasdaq-gains/?.tsrc=rss",
+        "time_published": "2026-07-06 00:38",
+        "source": "247wallst",
+        "summary": "Over the past decade, an investor who put $10,000 into QYLD walked away with a fraction of what a plain Nasdaq-100 index holder pocketed. The fat monthly checks papered over that gap rather than closing it. What You\u2019re Actually Paying The Global X NASDAQ 100 Covered Call ETF (NASDAQ:QYLD) sells the"
+      },
+      {
+        "title": "Buying VOO Near All-Time Highs Could Still Be a Smart Move",
+        "url": "https://www.fool.com/investing/2026/07/05/buying-voo-all-time-highs-still-smart-spy/?.tsrc=rss",
+        "time_published": "2026-07-05 19:50",
+        "source": "Fool",
+        "summary": "You can't know the one thing you need to know about timing the market."
+      },
+      {
+        "title": "Goldman Says AI Is Driving a 22% Earnings Surge. For a 68-Year-Old, the Rally Swelling His 401(k) Is Inflating the RMD Tax Hit Waiting at 73.",
+        "url": "https://247wallst.com/personal-finance/2026/07/05/goldman-says-ai-is-driving-a-22-earnings-surge-for-a-68-year-old-the-rally-swelling-his-401k-is-inflating-the-rmd-tax-hit-waiting-at-73/?.tsrc=rss",
+        "time_published": "2026-07-05 18:03",
+        "source": "247wallst",
+        "summary": "A 68-year-old who retired recently with most of his savings in a traditional 401(k) or IRA is watching his account statements with mixed feelings. Goldman Sachs strategists led by Ben Snider project S&P 500 Q2 earnings will jump roughly 22% year over year, powered by the AI investment boom and energ"
+      },
+      {
+        "title": "Are Advisors Rethinking Index Investing?",
+        "url": "https://www.thedailyupside.com/advisor/investing-strategies/are-advisors-rethinking-index-investing/?.tsrc=rss",
+        "time_published": "2026-07-05 12:00",
+        "source": "Thedailyupside",
+        "summary": "Low-cost funds can come with tradeoffs when it means owning the losers right alongside the winners."
+      },
+      {
+        "title": "The Rise of Active ETFs: Can Fund Managers Outperform Passive Investing?",
+        "url": "https://www.fool.com/investing/2026/07/03/the-rise-of-active-etfs-can-fund-managers-outperfo/?.tsrc=rss",
+        "time_published": "2026-07-04 03:20",
+        "source": "Fool",
+        "summary": "Whether you want someone to oversee your ETF or prefer to go it alone, knowing what you can expect is important."
+      },
       {
         "title": "JEPI Investors Missed 13.21% in Gains While Paying Hidden Taxes on \u2018Monthly\u2019 Income",
         "url": "https://247wallst.com/investing/2026/07/03/jepi-investors-missed-13-21-in-gains-while-paying-hidden-taxes-on-monthly-income/?.tsrc=rss",
@@ -190,48 +232,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-03 19:06",
         "source": "247wallst",
         "summary": "The Treasury Department just handed one obscure ticker a windfall no marketing budget could buy. The State Street SPDR Portfolio S&P 500 ETF (SPYM) was named the default investment vehicle for Trump Accounts, the new children\u2019s savings program rolling out this summer. Most retail investors have neve"
-      },
-      {
-        "title": "What Actually Drove IWD Over The Past Year",
-        "url": "https://www.trefis.com/articles/605699/what-actually-drove-iwd-over-the-past-year/2026-07-03?.tsrc=rss",
-        "time_published": "2026-07-03 12:55",
-        "source": "Trefis",
-        "summary": "The fund's strong return hides a story of extreme concentration, with a few winners pulling the weight for hundreds of others."
-      },
-      {
-        "title": "EWY's Dip Looks Familiar, But Is It A Trap?",
-        "url": "https://www.trefis.com/articles/605701/ewys-dip-looks-familiar-but-is-it-a-trap/2026-07-03?.tsrc=rss",
-        "time_published": "2026-07-03 12:55",
-        "source": "Trefis",
-        "summary": "The South Korea ETF has a habit of bouncing back from drops like this one, but the price of admission has often been more pain."
-      },
-      {
-        "title": "ETF Zoo: Mid-Year Check-In  the AI Trade That Won\u2019t Quit",
-        "url": "http://www.etf.com/sections/podcasts/etf-zoo-mid-year-check-ai-trade-wont-quit?utm_source=yahoo-financeutm_medium=rssutm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-07-03 01:16",
-        "source": "Etf",
-        "summary": "The ETF industry smashed through the $1 trillion mark in flows shortly before the close of the first half. Find out what this week\u2019s ETF Zoo crew thought about where the money is going, SEC regulatory updates, leveraged ETF popularity and more."
-      },
-      {
-        "title": "SPYI\u2019s 0.68% Fee Could Cost You Thousands Over 20 Years\u2014Here\u2019s Why",
-        "url": "https://247wallst.com/investing/2026/07/02/spyis-0-68-fee-could-cost-you-thousands-over-20-years-heres-why/?.tsrc=rss",
-        "time_published": "2026-07-02 22:17",
-        "source": "247wallst",
-        "summary": "If you own Neos S&P 500 High Income ETF (CBOE:SPYI) for the fat monthly checks, the mailbox math looks great. The opportunity cost is where the fund gets quiet. Over the past year, SPYI holders pocketed a 19% total return while a plain S&P 500 index fund produced 20.87%. That gap is the product. Wha"
-      },
-      {
-        "title": "The 41-Day Dividend Trap That Quietly Erodes SPY Returns Every Quarter",
-        "url": "https://247wallst.com/investing/2026/07/02/the-41-day-dividend-trap-that-quietly-erodes-spy-returns-every-quarter/?.tsrc=rss",
-        "time_published": "2026-07-02 20:06",
-        "source": "247wallst",
-        "summary": "SPY is the ticker every trader knows and the fund most retail investors default to when they want \u201cthe S&P 500.\u201d That default has a price. Two nearly identical ETFs charge a fraction of the fee, reinvest dividends faster, and hand you the same 500 stocks. If your S&P 500 money is sitting in SPY, ..."
-      },
-      {
-        "title": "\u201cDiversification Means Always Having to Say You\u2019re Sorry\"",
-        "url": "http://www.etf.com/sections/conferences/diversification-means-always-having-say-youre-sorry?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-07-02 19:49",
-        "source": "Etf",
-        "summary": "There\u2019s a common misconception that true portfolio diversification means always having to apologize for something being down in the portfolio. It\u2019s an idea that industry veteran Caroline Barnett tackles head on from Basis Northwest, as well as common stumbling blocks for advisors, the effectiveness"
       }
     ],
     "oil": [

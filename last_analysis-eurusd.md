@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-07-04
-**Generated:** 2026-07-03T23:06:19Z
+**Date:** 2026-07-06
+**Generated:** 2026-07-06T10:57:51Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 confirmed |
-| **Support** | 1.139, 1.131, 1.125 |
-| **Resistance** | 1.148, 1.1519, 1.1635 |
+| **Score** | 5/10 |
+| **Support** | 1.14, 1.135, 1.13 |
+| **Resistance** | 1.145, 1.1511, 1.1633 |
 
 ---
 
 ## Analysis
 
-The price at 1.1439 is well below both the EMA 50 (1.15185) and EMA 200 (1.16351), confirming the STRONG DOWNTREND. However, the recent candlestick patterns — an Evening Star followed by a Bullish Engulfing — indicate short-term indecision and a potential reversal attempt. The price is currently compressing below the EMA 50, which acts as dynamic resistance, and the overall trend remains bearish until price reclaims that level. No clear triangle, flag, or double top/bottom pattern is present on the daily chart; the structure appears to be a slow grind lower with intermittent corrective bounces.
+The daily chart exhibits a strong downtrend, with price (1.14123) trading well below both the 50‑EMA (1.15114) and 200‑EMA (1.16334). This structure confirms the bearish bias from the EMAs, as price action has consistently respected the moving averages as resistance. However, the recent price behavior introduces conflicting signals: a Bullish Engulfing pattern suggests a potential reversal, but it was immediately followed by an Evening Star, indicating a rejection of higher levels. This leaves the near‑term direction ambiguous.
 
-RSI at 45.19 is neutral, neither oversold nor overbought, offering no clear divergence. MACD shows a bullish crossover (line above signal) with a positive histogram, which contradicts the bearish EMA trend. This divergence between momentum (bullish short-term) and price structure (bearish long-term) creates a low-conviction environment. The signal score of 4/10 reflects this mixed picture — the trend is clear, but momentum is not aligned, and recent candlestick patterns add uncertainty.
+The MACD has turned bullish (line above signal with a rising histogram), hinting at building upward momentum. In contrast, the RSI at 41.14 remains in neutral territory, not oversold, and shows no divergence. The absence of RSI confirmation weakens the MACD signal, and the overall trend remains firmly bearish. The signal score of 5/10 reflects this balance of bearish trend structure against early bullish momentum and mixed candlestick evidence.
 
-The single best trade setup here is to WAIT. A bearish trade would risk a counter-trend bounce given the MACD bullish cross and Bullish Engulfing pattern. A bullish trade would be premature against the dominant downtrend. The risk-reward is unclear until either price breaks below the recent swing low near 1.1390 (validating downtrend continuation) or rallies above the EMA 50 near 1.1480 (opening a mean-reversion long). Both levels are within 1 ATR (50 pips), but the lack of confluence keeps risk high.
+Key support lies near the psychological 1.1400 level, followed by 1.1350 and 1.1300. Resistance is clustered at 1.1450 (short‑term), then the 50‑EMA at 1.1511, and finally the 200‑EMA at 1.1633. Without a clear catalyst or confirmation, entering a trade now would rely on guessing which signal dominates. The prudent approach is to wait for price to either break decisively below 1.1400 (extending the downtrend) or reclaim the 50‑EMA (shifting the bias). ATR of 49 pips suggests moderate volatility, but the lack of confluence between trend, momentum, and candlestick patterns elevates the risk of a false breakout.
 
 ---
 
 ## Invalidation
 
-A decisive close above 1.1480 would invalidate the bearish bias and suggest a deeper correction, while a breakdown below 1.1390 would cancel any bullish reversal case and confirm trend continuation.
+This wait‑and‑see stance is invalidated if price breaks and closes above the 50‑EMA (1.1511) or below the 1.1400 support, providing a clear directional bias for the next trade.
 
 ---
 
