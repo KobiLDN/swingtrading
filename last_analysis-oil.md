@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-07-02
-**Generated:** 2026-07-06T10:59:32Z
+**Date:** 2026-07-06
+**Generated:** 2026-07-07T09:59:32Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,28 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | LOW |
-| **Entry** | 103.98 |
-| **Stop Loss** | 105.50 |
-| **Target 1** | 100.00 |
-| **Target 2** | 95.00 |
-| **Risk/Reward** | 2.62:1 |
+| **Decision** | WAIT |
+| **Confidence** | MEDIUM |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 100.0, 98.0, 95.0 |
-| **Resistance** | 104.01, 105.0, 110.0 |
+| **Support** | 103.92, 100.0, 95.0 |
+| **Resistance** | 109.0, 112.0, 121.57 |
 
 ---
 
 ## Analysis
 
-Price action confirms the bearish EMA trend, as USO trades at 103.98, below the EMA50 (122.27) and marginally below the EMA200 (104.01). The EMA200 is acting as a dynamic resistance, and the price’s inability to hold above it reinforces the bearish bias. The recent
+Price at 104.35 sits in a no‑man’s land between the long‑term EMA200 (103.92) and the far‑above EMA50 (121.57), leading to a neutral trend designation. The bearish engulfing pattern from the last five candles signals fresh selling pressure, yet the RSI at 31.08 is deep into oversold territory, hinting at exhaustion. MACD remains bearish (line below signal, negative histogram), which aligns with the immediate price weakness but contradicts the potential for a mean‑reversion bounce off the EMA200.  
+
+Conspicuous chart patterns are absent from the given data, but the proximity of price to the EMA200 (just 0.43 points above) creates a critical decision zone. If the EMA200 holds, a double‑bottom or support‑test pattern could emerge; if broken, the next logical support is the psychological 100.00 level. Resistance nearest overhead is likely the prior swing high near 109.00, followed by 112.00 and eventually the steep EMA50 at 121.57.  
+
+The RSI oversold condition does not yet confirm with MACD, which is still pointing lower. This lack of confluence argues against an immediate buy. Meanwhile, the bearish engulfing candle and negative MACD histogram discourage a sell given the proximity to major support. The signal score of 5/10 accurately reflects this indecision.  
+
+Given the conflicting signals—oversold RSI vs. bearish price action and MACD—the prudent approach is to wait for a clear catalyst. A break and close below the EMA200 would confirm a bearish breakdown, while a bullish reversal candle (e.g., hammer) at support would set up a long entry. Neither is present now.
 
 ---
 
 ## Invalidation
 
-N/A
+This WAIT stance is invalidated if price closes decisively above 109.00 (bullish breakout) or below 103.00 (bearish breakdown with sustained momentum).
 
 ---
 

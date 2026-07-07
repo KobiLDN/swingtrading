@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-07-04
-**Generated:** 2026-07-03T23:06:31Z
+**Date:** 2026-07-07
+**Generated:** 2026-07-07T09:58:34Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 4/10 |
+| **Decision** | SELL |
+| **Confidence** | MEDIUM |
+| **Entry** | 4130.00 |
+| **Stop Loss** | 4205.00 |
+| **Target 1** | 4050.00 |
+| **Target 2** | 3980.00 |
+| **Risk/Reward** | 1:1.14 (approx. 1:1.1) |
+| **Score** | 5/10 |
 | **Support** | 4100.0, 4050.0, 4000.0 |
-| **Resistance** | 4250.0, 4283.58, 4350.0 |
+| **Resistance** | 4200.0, 4269.0, 4300.0 |
 
 ---
 
 ## Analysis
 
-The daily chart for XAU/USD shows price at 4174.97, well below both the EMA50 (4283.58) and EMA200 (4518.29), confirming a strong downtrend. Price action is consistent with this trend, as recent swings have made lower highs and lower lows. However, the last five candles include a Bullish Engulfing pattern and a Morning Star, which are powerful reversal signals. These patterns suggest a potential short-term bottom, but they have not yet been confirmed by a break above key resistance levels.  
+Price action firmly confirms the strong downtrend indicated by the EMA50 (4269) and EMA200 (4507) well above current price. The last five candles include a Doji followed by two Evening Stars—a classic bearish reversal and continuation pattern that suggests sellers remain in control despite a brief indecision. The RSI at 45.13 is neutral, not oversold, leaving room for further downside. However, the MACD is bullish with the line above its signal and a positive histogram, signaling a potential short-term momentum shift. This conflict between trend and MACD is the primary reason for the moderate 5/10 score.  
 
-No additional chart patterns like triangles, flags, or double tops/bottoms are clearly evident near current price. The nearest significant resistance is the EMA50 at 4283.58, followed by the round number 4300 and the prior swing high near 4350. Support levels below include 4100 (psychological), 4050, and 4000. The RSI at 49.86 is neutral, showing no overbought or oversold condition, but it does not contradict a potential bounce. The MACD is bullish (line above signal) with a positive histogram (+21.8), indicating upward momentum. However, this momentum is occurring within a strong downtrend, creating divergence between trend and momentum.  
+No clear chart patterns such as triangles or flags are evident from the given data, but the consecutive Evening Stars imply a rejection of higher prices, possibly forming a minor descending channel or a series of lower highs. Near-term resistance is the 4200 psychological level, followed by the EMA50 at 4269, which is a strong dynamic barrier. Support lies at the round number 4100, then 4050 (a potential prior swing low), and 4000.  
 
-The confluence between RSI and MACD is mildly bullish, but they disagree with the dominant EMA trend. The candlestick patterns add a bullish bias, but the overall trend remains bearish. Until price can reclaim the EMA50 and sustain above it, the risk of a continued downtrend is high. A counter-trend trade would require very tight risk management and clear confirmation, which is not yet present. Therefore, the best course is to wait for price to either break above 4283.58 (triggering a potential trend reversal) or to fail and resume the downtrend.
+The RSI and MACD do not agree with the trend: RSI is neutral, while MACD leans bullish. This divergence reduces conviction but does not invalidate the dominant downtrend. In swing trading, the trend is the primary filter, so a sell setup is preferred, but only on a small bounce to improve the risk/reward. The entry at 4130 is slightly above current price to avoid chasing, with a stop above the recent high near 4200. Targets are based on ATR (73 pts) and round-number support.  
+
+Risk assessment: The stop of 75 points (from entry to 4205) is just over 1 ATR, which is appropriate for daily swings. The reward-to-risk is slightly above 1:1, which is acceptable given the strong trend direction. The main risk is a sudden bullish reversal fueled by the MACD signal, which could trigger a short squeeze toward the EMAs. The position size should be reduced to account for this mixed signal.
 
 ---
 
 ## Invalidation
 
-A daily close below 4100 would invalidate the bullish reversal patterns and likely signal a continuation of the downtrend.
+N/A
 
 ---
 

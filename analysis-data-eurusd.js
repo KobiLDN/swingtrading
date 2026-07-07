@@ -1,27 +1,25 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-07-06T10:57:51Z",
+  "generated": "2026-07-07T09:58:14Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The daily chart exhibits a strong downtrend, with price (1.14123) trading well below both the 50\u2011EMA (1.15114) and 200\u2011EMA (1.16334). This structure confirms the bearish bias from the EMAs, as price action has consistently respected the moving averages as resistance. However, the recent price behavior introduces conflicting signals: a Bullish Engulfing pattern suggests a potential reversal, but it was immediately followed by an Evening Star, indicating a rejection of higher levels. This leaves the near\u2011term direction ambiguous.\n\nThe MACD has turned bullish (line above signal with a rising histogram), hinting at building upward momentum. In contrast, the RSI at 41.14 remains in neutral territory, not oversold, and shows no divergence. The absence of RSI confirmation weakens the MACD signal, and the overall trend remains firmly bearish. The signal score of 5/10 reflects this balance of bearish trend structure against early bullish momentum and mixed candlestick evidence.\n\nKey support lies near the psychological 1.1400 level, followed by 1.1350 and 1.1300. Resistance is clustered at 1.1450 (short\u2011term), then the 50\u2011EMA at 1.1511, and finally the 200\u2011EMA at 1.1633. Without a clear catalyst or confirmation, entering a trade now would rely on guessing which signal dominates. The prudent approach is to wait for price to either break decisively below 1.1400 (extending the downtrend) or reclaim the 50\u2011EMA (shifting the bias). ATR of 49 pips suggests moderate volatility, but the lack of confluence between trend, momentum, and candlestick patterns elevates the risk of a false breakout.",
-  "invalidation": "This wait\u2011and\u2011see stance is invalidated if price breaks and closes above the 50\u2011EMA (1.1511) or below the 1.1400 support, providing a clear directional bias for the next trade.",
+  "analysis": "The daily chart shows a strong downtrend, with price trading well below both the EMA50 (1.15093) and EMA200 (1.16298). This aligns with the \u201cSTRONG DOWNTREND\u201d label and confirms the bearish bias. However, recent price action includes a Doji and an Evening Star pattern\u2014typically a bearish reversal pattern\u2014which would normally reinforce selling pressure. Yet the MACD (12,26,9) is bullish (line above signal) with a positive histogram, indicating short-term upward momentum that contradicts the prevailing trend. The RSI at 43.4 remains neutral, not oversold, leaving room for further downside but also not confirming exhaustion.\n\nNo clear additional chart patterns (triangles, flags, or double tops/bottoms) can be inferred from the given data. The nearest support levels are psychological round numbers and likely recent swing lows around 1.1400, 1.1350, and 1.1300. Resistance is immediate at the recent price congestion near 1.1470, followed by the EMA50 at 1.15093 and the EMA200 at 1.16298. The confluence of indicators is poor: the bearish trend and Evening Star argue for selling, while the bullish MACD suggests a potential recovery. This lack of agreement creates a high-risk environment for any directional entry.\n\nGiven the mixed signals and the moderate 5/10 overall score, the prudent approach is to wait for clearer confirmation. A strong break below 1.1400 support would favor a short, while a sustained move above the EMA50 would indicate a trend reversal and a potential long. Until then, standing aside avoids catching a knife in a volatile, indecisive market.",
+  "invalidation": "If price breaks and holds above the EMA50 (1.15093), the downtrend structure is invalidated, and a bullish bias would take precedence.",
   "support_levels": [
     1.14,
     1.135,
     1.13
   ],
   "resistance_levels": [
-    1.145,
-    1.1511,
-    1.1633
+    1.147
   ]
 };

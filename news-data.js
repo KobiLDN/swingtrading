@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-06T10:59:33Z",
+  "generated": "2026-07-07T09:59:33Z",
   "assets": {
     "gbpusd": [
       {
@@ -61,6 +61,13 @@ window.NEWS_DATA = {
     ],
     "eurusd": [
       {
+        "title": "Dollar Gains on Strength in US Services Activity",
+        "url": "https://www.barchart.com/story/news/3143371/dollar-gains-on-strength-in-us-services-activity?.tsrc=rss",
+        "time_published": "2026-07-06 14:39",
+        "source": "Barchart",
+        "summary": "The dollar index (DXY00 ) today is up by +0.22%. The dollar is moving higher today on the as-expected Jun ISM services index report. The dollar also found support amid yen weakness after Japanese authorities failed to intervene in the forex market to support the yen while US markets were..."
+      },
+      {
         "title": "BofA highlights FX intervention impact on reserves and central bank balance sheets",
         "url": "https://finance.yahoo.com/markets/currencies/articles/bofa-highlights-fx-intervention-impact-084721714.html?.tsrc=rss",
         "time_published": "2026-07-04 08:47",
@@ -108,17 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-06-30 16:05",
         "source": "Finance",
         "summary": "Great-West Lifeco Inc. (\"Great West\" or the \"Company\") announced today the pricing of \u20ac500 million senior fixed rate euro bonds. This is the Company's fourth debt issuance in the euro market."
-      },
-      {
-        "title": "Dollar Climbs on Month- and Quarter-End Demand",
-        "url": "https://www.barchart.com/story/news/3056755/dollar-climbs-on-month-and-quarter-end-demand?.tsrc=rss",
-        "time_published": "2026-06-30 14:37",
-        "source": "Barchart",
-        "summary": "The dollar index (DXY00 ) today is up by +0.21%. The dollar is moving higher on month- and quarter-end demand, with today being the last trading day of Q2. Also, today's decline in the yen to a 39-year low is supportive for the dollar. In addition, today's weaker-than-expected German June..."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday as Chip Stocks Rebound",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125452192.html?.tsrc=rss",
+        "time_published": "2026-07-06 12:54",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
+      },
       {
         "title": "America\u2019s 250th Birthday Just Set a Silver World Record \u2014 Literally",
         "url": "https://finance.yahoo.com/markets/commodities/articles/america-250th-birthday-just-set-213109191.html?.tsrc=rss",
@@ -167,74 +174,102 @@ window.NEWS_DATA = {
         "time_published": "2026-06-29 12:56",
         "source": "Finance",
         "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1%, and the actively trade"
-      },
-      {
-        "title": "Correction: Exchange-Traded Funds, Equity Futures Decline Pre-Bell Friday as Investors Shift Focus From Middle East to Technology Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/correction-exchange-traded-funds-equity-135811891.html?.tsrc=rss",
-        "time_published": "2026-06-26 13:58",
-        "source": "Finance",
-        "summary": "(Corrects the third paragraph to state that May advance trade deficit widened.) The broad market"
       }
     ],
     "spx": [
       {
-        "title": "Nasdaq, S&P 500, Dow Futures Rise After Fourth Of July Break As Investors Await Fed Minutes: SLS, ONDS, HOOD, MARA, HUT In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-rise-after-fourth-of-july-break-as-investors-await-fed-minutes/cZmKumjR7kK?.tsrc=rss",
-        "time_published": "2026-07-06 00:58",
+        "title": "Nasdaq Futures Lag After Samsung Selloff Hits AI Chip Trade: Why SPCX, MU, SNDK, RIVN, WMT Are In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/stock-market-today-dow-nasdaq-sp500-futures-spcx-mu-sndk-rivn-wmt-stocks/cZmlX39R7mS?.tsrc=rss",
+        "time_published": "2026-07-07 08:43",
         "source": "Stocktwits",
-        "summary": "U.S. stock futures edged higher in the overnight session ahead of Monday\u2019s open following a strong rally in the prior week."
+        "summary": "Stocktwits data showed retail sentiment remained \u2018bullish\u2019 around QQQ, and improved to \u2018extremely bullish\u2019 on SPY."
       },
       {
-        "title": "QYLD\u2019s $10,000 Problem: How a Covered-Call ETF Left Investors With a Fraction of Nasdaq Gains",
-        "url": "https://247wallst.com/investing/2026/07/05/qylds-10000-problem-how-a-covered-call-etf-left-investors-with-a-fraction-of-nasdaq-gains/?.tsrc=rss",
-        "time_published": "2026-07-06 00:38",
+        "title": "S&P 500, Nasdaq End Higher On Support From Strong Tech Gains Led By Nvidia, Dow Hits Record Highs \u2014 MSFT, NVDA, LMT, AVGO, SPCX In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-higher-on-support-from-strong-tech-gains-led-by-nvidia-dow-hits-record-highs-msft-nvda-lmt-avgo-spcx-in-focus/cZm1YfaR7lU?.tsrc=rss",
+        "time_published": "2026-07-06 21:24",
+        "source": "Stocktwits",
+        "summary": "Shares of Microsoft fell almost 1% after the company said it\u2019s cutting 4,800 jobs, or 2.1% of its global workforce."
+      },
+      {
+        "title": "Top Wall Street Strategist: The S&P 500 Could Hit As High As 8,800 This Year, But a 10-20% Drop May Come First",
+        "url": "https://247wallst.com/investing/2026/07/06/top-wall-street-strategist-the-sp-500-could-hit-as-high-as-8800-this-year-but-a-10-20-drop-may-come-first/?.tsrc=rss",
+        "time_published": "2026-07-06 20:27",
         "source": "247wallst",
-        "summary": "Over the past decade, an investor who put $10,000 into QYLD walked away with a fraction of what a plain Nasdaq-100 index holder pocketed. The fat monthly checks papered over that gap rather than closing it. What You\u2019re Actually Paying The Global X NASDAQ 100 Covered Call ETF (NASDAQ:QYLD) sells the"
+        "summary": "Fundstrat\u2019s Tom Lee laid out a roadmap for where he saw the market going for the rest of the year on a CNBC Squawk Box interview on July 6, 2026, arguing the S&P 500 can grind to 8,000 by year-end, with upside to 8,400 to 8,800, but that would likely come only after surviving a ... Top Wall Street S"
       },
       {
-        "title": "Buying VOO Near All-Time Highs Could Still Be a Smart Move",
-        "url": "https://www.fool.com/investing/2026/07/05/buying-voo-all-time-highs-still-smart-spy/?.tsrc=rss",
-        "time_published": "2026-07-05 19:50",
-        "source": "Fool",
-        "summary": "You can't know the one thing you need to know about timing the market."
-      },
-      {
-        "title": "Goldman Says AI Is Driving a 22% Earnings Surge. For a 68-Year-Old, the Rally Swelling His 401(k) Is Inflating the RMD Tax Hit Waiting at 73.",
-        "url": "https://247wallst.com/personal-finance/2026/07/05/goldman-says-ai-is-driving-a-22-earnings-surge-for-a-68-year-old-the-rally-swelling-his-401k-is-inflating-the-rmd-tax-hit-waiting-at-73/?.tsrc=rss",
-        "time_published": "2026-07-05 18:03",
+        "title": "Microsoft Is Cutting 4,800 Jobs to Feed the AI Machine. Should You Still Own It?",
+        "url": "https://247wallst.com/investing/2026/07/06/microsoft-is-cutting-4800-jobs-to-feed-the-ai-machine-should-you-still-own-it/?.tsrc=rss",
+        "time_published": "2026-07-06 19:58",
         "source": "247wallst",
-        "summary": "A 68-year-old who retired recently with most of his savings in a traditional 401(k) or IRA is watching his account statements with mixed feelings. Goldman Sachs strategists led by Ben Snider project S&P 500 Q2 earnings will jump roughly 22% year over year, powered by the AI investment boom and energ"
+        "summary": "Microsoft (NASDAQ:MSFT) looks mispriced, and the discomfort is the whole point. The company is cutting roughly 4,800 jobs, about 2.1% of its workforce, while telling investors it will spend roughly $190 billion on capex in calendar 2026 to feed AI and Azure. Microsoft is the closest thing the S&P 50"
       },
       {
-        "title": "Are Advisors Rethinking Index Investing?",
-        "url": "https://www.thedailyupside.com/advisor/investing-strategies/are-advisors-rethinking-index-investing/?.tsrc=rss",
-        "time_published": "2026-07-05 12:00",
-        "source": "Thedailyupside",
-        "summary": "Low-cost funds can come with tradeoffs when it means owning the losers right alongside the winners."
+        "title": "\u201cDiversification Means Always Having to Say You\u2019re Sorry\"",
+        "url": "http://www.etf.com/sections/conferences/diversification-means-always-having-say-youre-sorry?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-07-06 19:49",
+        "source": "Etf",
+        "summary": "There\u2019s a common misconception that true portfolio diversification means always having to apologize for something being down in the portfolio. It\u2019s an idea that industry veteran Carolyn Barnette tackles head on from Basis Northwest, as well as common stumbling blocks for advisors, the effectiveness"
       },
       {
-        "title": "The Rise of Active ETFs: Can Fund Managers Outperform Passive Investing?",
-        "url": "https://www.fool.com/investing/2026/07/03/the-rise-of-active-etfs-can-fund-managers-outperfo/?.tsrc=rss",
-        "time_published": "2026-07-04 03:20",
-        "source": "Fool",
-        "summary": "Whether you want someone to oversee your ETF or prefer to go it alone, knowing what you can expect is important."
-      },
-      {
-        "title": "JEPI Investors Missed 13.21% in Gains While Paying Hidden Taxes on \u2018Monthly\u2019 Income",
-        "url": "https://247wallst.com/investing/2026/07/03/jepi-investors-missed-13-21-in-gains-while-paying-hidden-taxes-on-monthly-income/?.tsrc=rss",
-        "time_published": "2026-07-03 20:09",
+        "title": "AI Crushed Software Stocks. IGV Is Betting the \u2018SaaSpocalypse\u2019 Is Overblown",
+        "url": "https://247wallst.com/personal-finance/2026/07/06/ai-crushed-software-stocks-igv-is-betting-the-saaspocalypse-is-overblown/?.tsrc=rss",
+        "time_published": "2026-07-06 19:45",
         "source": "247wallst",
-        "summary": "The pitch is simple: monthly checks from blue-chip stocks. The reality is quieter. Holders of JPMorgan Equity Premium Income ETF (NYSEARCA:JEPI) have watched a raging bull market pass them by while an options overlay clipped the upside and the IRS took a bigger bite than the fact sheet lets on. What"
+        "summary": "The iShares Expanded Tech-Software Sector ETF (BATS:IGV) is down 10.5% year to date while the S&P 500 is up 10.8% and the Technology Select Sector SPDR is up 26%. That gap reflects the market pricing software as if the AI thesis has turned against it. Own IGV and you are betting the \u201cSaaSpocalypse\u201d"
       },
       {
-        "title": "Trump Accounts Auto-Buy SPYM on July 4. Here\u2019s the ETF Nobody\u2019s Heard Of",
-        "url": "https://247wallst.com/personal-finance/2026/07/03/trump-accounts-auto-buy-spym-on-july-4-heres-the-etf-nobodys-heard-of/?.tsrc=rss",
-        "time_published": "2026-07-03 19:06",
+        "title": "AI\u2019s Next Act Isn\u2019t Chatbots. It\u2019s Robots, and BOTZ Is the Bet",
+        "url": "https://247wallst.com/personal-finance/2026/07/06/ais-next-act-isnt-chatbots-its-robots-and-botz-is-the-bet/?.tsrc=rss",
+        "time_published": "2026-07-06 19:30",
         "source": "247wallst",
-        "summary": "The Treasury Department just handed one obscure ticker a windfall no marketing budget could buy. The State Street SPDR Portfolio S&P 500 ETF (SPYM) was named the default investment vehicle for Trump Accounts, the new children\u2019s savings program rolling out this summer. Most retail investors have neve"
+        "summary": "The pitch for the Global X Robotics & Artificial Intelligence ETF (NASDAQ:BOTZ) has quietly changed. For years BOTZ was sold as a niche automation bet, a fund for people who wanted factory-floor exposure without picking Japanese conglomerates one at a time. Now, with generative AI running out of par"
+      },
+      {
+        "title": "$300 a Month at 25 Beats $800 a Month at 40. Most People Start Too Late.",
+        "url": "https://247wallst.com/personal-finance/2026/07/06/300-a-month-at-25-beats-800-a-month-at-40-most-people-start-too-late/?.tsrc=rss",
+        "time_published": "2026-07-06 19:25",
+        "source": "247wallst",
+        "summary": "The math on retirement saving punishes late starters in ways most people underestimate. A 25-year-old who sets aside $300 a month and earns a 7% average annual return finishes at age 65 with roughly $787,000, having contributed $144,000 of their own money. A 40-year-old who tries to catch up by putt"
       }
     ],
     "oil": [
+      {
+        "title": "Update: WTI Oil Edges Lower as it Sticks Near a Four-Month Low as Supply Continues to Return to Normal",
+        "url": "https://finance.yahoo.com/energy/articles/wti-oil-edges-lower-sticks-184012192.html?.tsrc=rss",
+        "time_published": "2026-07-06 18:40",
+        "source": "Finance",
+        "summary": "(Adds closing WTI price in the second paragraph.) West Texas Intermediate (WTI) crude oil prices"
+      },
+      {
+        "title": "Sector Update: Energy Stocks Decline Premarket Monday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132822878.html?.tsrc=rss",
+        "time_published": "2026-07-06 13:28",
+        "source": "Finance",
+        "summary": "Energy stocks were declining premarket Monday, with the State Street Energy Select Sector SPDR ETF ("
+      },
+      {
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday as Chip Stocks Rebound",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125452192.html?.tsrc=rss",
+        "time_published": "2026-07-06 12:54",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
+      },
+      {
+        "title": "Oil Sticks Near a Four-Month Low as Supply Continues to Return to Normal",
+        "url": "https://finance.yahoo.com/energy/articles/oil-sticks-near-four-month-124510186.html?.tsrc=rss",
+        "time_published": "2026-07-06 12:45",
+        "source": "Finance",
+        "summary": "Oil prices eased early Monday, staying near pre-war levels as tankers continue to move through the S"
+      },
+      {
+        "title": "Best ETF Areas of June",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/best-etf-areas-june-120000507.html?.tsrc=rss",
+        "time_published": "2026-07-06 12:00",
+        "source": "Finance",
+        "summary": "Biotech, China, insurance and healthcare ETFs led June gains as strong earnings, AI optimism and easing geopolitical fears lifted markets."
+      },
       {
         "title": "Update: Oil Steady at Prewar Levels as Ships Continue to Moving Through Strait of Hormuz",
         "url": "https://finance.yahoo.com/energy/articles/oil-steady-prewar-levels-ships-182655323.html?.tsrc=rss",
@@ -255,41 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-02 13:25",
         "source": "Finance",
         "summary": "Energy stocks were edging higher pre-bell Thursday, with the State Street Energy Select Sector SPDR"
-      },
-      {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Amid Latest Economic Reports",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125735076.html?.tsrc=rss",
-        "time_published": "2026-07-02 12:57",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Fall Premarket Wednesday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-132732039.html?.tsrc=rss",
-        "time_published": "2026-07-01 13:27",
-        "source": "Finance",
-        "summary": "Energy stocks were falling premarket Wednesday, with the State Street Energy Select Sector SPDR ETF"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Ahead of Fed Chair Warsh's International Debut",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-123900903.html?.tsrc=rss",
-        "time_published": "2026-07-01 12:39",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.2%, and the actively t"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Advance Premarket Tuesday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132945519.html?.tsrc=rss",
-        "time_published": "2026-06-30 13:29",
-        "source": "Finance",
-        "summary": "Energy stocks were advancing premarket Tuesday, with the State Street Energy Select Sector SPDR ETF"
-      },
-      {
-        "title": "Exchange-Traded Funds Mixed, Equity Futures Lower Pre-Bell Ahead of Key Economic Reports",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130043691.html?.tsrc=rss",
-        "time_published": "2026-06-30 13:00",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up marginally, and the active"
       }
     ]
   }
