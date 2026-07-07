@@ -1,23 +1,23 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-06T09:55:49Z",
-  "date": "2026-07-06",
-  "price": 1.33326,
-  "atr": 0.00578,
+  "generated": "2026-07-07T09:23:55Z",
+  "date": "2026-07-07",
+  "price": 1.33891,
+  "atr": 0.00584,
   "atr_pips": 58,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33397,
-  "ema200": 1.3412,
-  "rsi": 54.24,
-  "macd_line": -0.000339,
-  "macd_signal": -0.002422,
-  "macd_hist": 0.002082,
-  "trend": "STRONG DOWNTREND",
-  "divergence": "BULLISH",
+  "ema50": 1.33437,
+  "ema200": 1.34057,
+  "rsi": 61.72,
+  "macd_line": 0.000736,
+  "macd_signal": -0.001717,
+  "macd_hist": 0.002453,
+  "trend": "NEUTRAL",
+  "divergence": "None",
   "patterns": [
     {
       "date": "2026-07-03",
@@ -38,22 +38,15 @@ window.PRICES_DATA_GBPUSD = {
       "strength": 5
     },
     {
-      "date": "2026-07-06",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
+      "date": "2026-07-07",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 8,
-  "verdict": "BUY/SELL",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-29",
-      "open": 1.32712,
-      "high": 1.33487,
-      "low": 1.3235,
-      "close": 1.32643
-    },
     {
       "date": "2026-03-30",
       "open": 1.32654,
@@ -743,9 +736,16 @@ window.PRICES_DATA_GBPUSD = {
     {
       "date": "2026-07-06",
       "open": 1.33483,
-      "high": 1.33567,
+      "high": 1.33975,
       "low": 1.33292,
-      "close": 1.33326
+      "close": 1.33899
+    },
+    {
+      "date": "2026-07-07",
+      "open": 1.33896,
+      "high": 1.34027,
+      "low": 1.3375,
+      "close": 1.33891
     }
   ]
 };

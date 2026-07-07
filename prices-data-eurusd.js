@@ -1,32 +1,32 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-07-06T09:55:49Z",
-  "date": "2026-07-06",
-  "price": 1.14123,
-  "atr": 0.00486,
-  "atr_pips": 49,
+  "generated": "2026-07-07T09:23:56Z",
+  "date": "2026-07-07",
+  "price": 1.14285,
+  "atr": 0.0047,
+  "atr_pips": 47,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15114,
-  "ema200": 1.16334,
-  "rsi": 41.14,
-  "macd_line": -0.00318,
-  "macd_signal": -0.004129,
-  "macd_hist": 0.000949,
+  "ema50": 1.15093,
+  "ema200": 1.16298,
+  "rsi": 43.4,
+  "macd_line": -0.002746,
+  "macd_signal": -0.003816,
+  "macd_hist": 0.001069,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-07-02",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
+      "date": "2026-07-06",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     },
     {
-      "date": "2026-07-06",
+      "date": "2026-07-07",
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
@@ -35,13 +35,6 @@ window.PRICES_DATA_EURUSD = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-29",
-      "open": 1.15391,
-      "high": 1.15428,
-      "low": 1.14874,
-      "close": 1.15007
-    },
     {
       "date": "2026-03-30",
       "open": 1.15005,
@@ -731,9 +724,16 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-07-06",
       "open": 1.14424,
-      "high": 1.1444,
-      "low": 1.14119,
-      "close": 1.14123
+      "high": 1.14459,
+      "low": 1.14094,
+      "close": 1.14412
+    },
+    {
+      "date": "2026-07-07",
+      "open": 1.14409,
+      "high": 1.14483,
+      "low": 1.1425,
+      "close": 1.14285
     }
   ]
 };

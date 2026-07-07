@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-07-06T09:55:50Z",
-  "date": "2026-07-06",
-  "price": 4142.07,
-  "atr": 73.96,
-  "atr_pips": 74,
+  "generated": "2026-07-07T09:23:57Z",
+  "date": "2026-07-07",
+  "price": 4126.09,
+  "atr": 72.87,
+  "atr_pips": 73,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4273.94,
-  "ema200": 4512.41,
-  "rsi": 46.75,
-  "macd_line": -43.480311,
-  "macd_signal": -67.388733,
-  "macd_hist": 23.908423,
+  "ema50": 4269.01,
+  "ema200": 4507.81,
+  "rsi": 45.13,
+  "macd_line": -38.834963,
+  "macd_signal": -61.383819,
+  "macd_hist": 22.548856,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-02",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-07-05",
       "name": "Doji",
@@ -36,18 +30,17 @@ window.PRICES_DATA_XAUUSD = {
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-07-07",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-29",
-      "open": 4507.71,
-      "high": 4507.91,
-      "low": 4507.63,
-      "close": 4507.68
-    },
     {
       "date": "2026-03-30",
       "open": 4507.7,
@@ -738,8 +731,15 @@ window.PRICES_DATA_XAUUSD = {
       "date": "2026-07-06",
       "open": 4174.96,
       "high": 4202.03,
-      "low": 4136.7,
-      "close": 4142.07
+      "low": 4129.33,
+      "close": 4165.12
+    },
+    {
+      "date": "2026-07-07",
+      "open": 4164.61,
+      "high": 4169.44,
+      "low": 4117.6,
+      "close": 4126.09
     }
   ]
 };
