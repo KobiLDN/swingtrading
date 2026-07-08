@@ -1,52 +1,75 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-07T09:23:55Z",
-  "date": "2026-07-07",
-  "price": 1.33891,
-  "atr": 0.00584,
-  "atr_pips": 58,
+  "generated": "2026-07-08T08:07:48Z",
+  "date": "2026-07-08",
+  "price": 1.3368,
+  "atr": 0.00625,
+  "atr_pips": 63,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33437,
-  "ema200": 1.34057,
-  "rsi": 61.72,
-  "macd_line": 0.000736,
-  "macd_signal": -0.001717,
-  "macd_hist": 0.002453,
+  "ema50": 1.33427,
+  "ema200": 1.34107,
+  "rsi": 58.44,
+  "macd_line": -0.002242,
+  "macd_signal": -0.004342,
+  "macd_hist": 0.0021,
   "trend": "NEUTRAL",
-  "divergence": "None",
+  "divergence": "BULLISH",
   "patterns": [
     {
-      "date": "2026-07-03",
+      "date": "2026-06-30",
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
     },
     {
-      "date": "2026-07-04",
-      "name": "Shooting Star",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
-    },
-    {
-      "date": "2026-07-05",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
+      "date": "2026-07-08",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 7,
+  "verdict": "WATCH",
   "candles": [
+    {
+      "date": "2026-03-25",
+      "open": 1.33823,
+      "high": 1.3435,
+      "low": 1.33591,
+      "close": 1.33658
+    },
+    {
+      "date": "2026-03-26",
+      "open": 1.33657,
+      "high": 1.33776,
+      "low": 1.33139,
+      "close": 1.33142
+    },
+    {
+      "date": "2026-03-27",
+      "open": 1.3314,
+      "high": 1.33471,
+      "low": 1.32604,
+      "close": 1.32723
+    },
+    {
+      "date": "2026-03-28",
+      "open": 1.32721,
+      "high": 1.33624,
+      "low": 1.32573,
+      "close": 1.32711
+    },
+    {
+      "date": "2026-03-29",
+      "open": 1.32712,
+      "high": 1.33487,
+      "low": 1.3235,
+      "close": 1.32643
+    },
     {
       "date": "2026-03-30",
       "open": 1.32654,
@@ -696,56 +719,21 @@ window.PRICES_DATA = {
       "open": 1.32596,
       "high": 1.32772,
       "low": 1.32117,
-      "close": 1.32608
-    },
-    {
-      "date": "2026-07-01",
-      "open": 1.32603,
-      "high": 1.32934,
-      "low": 1.32199,
-      "close": 1.32761
-    },
-    {
-      "date": "2026-07-02",
-      "open": 1.32758,
-      "high": 1.33833,
-      "low": 1.3269,
-      "close": 1.33475
-    },
-    {
-      "date": "2026-07-03",
-      "open": 1.33472,
-      "high": 1.33803,
-      "low": 1.33348,
-      "close": 1.33493
-    },
-    {
-      "date": "2026-07-04",
-      "open": 1.33493,
-      "high": 1.33565,
-      "low": 1.3348,
-      "close": 1.33513
-    },
-    {
-      "date": "2026-07-05",
-      "open": 1.3351,
-      "high": 1.33776,
-      "low": 1.33332,
-      "close": 1.33469
-    },
-    {
-      "date": "2026-07-06",
-      "open": 1.33483,
-      "high": 1.33975,
-      "low": 1.33292,
-      "close": 1.33899
+      "close": 1.32622
     },
     {
       "date": "2026-07-07",
-      "open": 1.33896,
-      "high": 1.34027,
-      "low": 1.3375,
-      "close": 1.33891
+      "open": 1.33621,
+      "high": 1.33628,
+      "low": 1.3356,
+      "close": 1.33592
+    },
+    {
+      "date": "2026-07-08",
+      "open": 1.33584,
+      "high": 1.33699,
+      "low": 1.33431,
+      "close": 1.3368
     }
   ]
 };

@@ -1,40 +1,75 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-07-07T09:23:56Z",
-  "date": "2026-07-07",
-  "price": 1.14285,
-  "atr": 0.0047,
-  "atr_pips": 47,
+  "generated": "2026-07-08T08:07:48Z",
+  "date": "2026-07-08",
+  "price": 1.14274,
+  "atr": 0.00462,
+  "atr_pips": 46,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15093,
-  "ema200": 1.16298,
-  "rsi": 43.4,
-  "macd_line": -0.002746,
-  "macd_signal": -0.003816,
-  "macd_hist": 0.001069,
+  "ema50": 1.15263,
+  "ema200": 1.16395,
+  "rsi": 41.13,
+  "macd_line": -0.004415,
+  "macd_signal": -0.004968,
+  "macd_hist": 0.000553,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-07-06",
+      "date": "2026-06-30",
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
     },
     {
-      "date": "2026-07-07",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
+      "date": "2026-07-08",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
+    {
+      "date": "2026-03-25",
+      "open": 1.15854,
+      "high": 1.163,
+      "low": 1.15553,
+      "close": 1.15625
+    },
+    {
+      "date": "2026-03-26",
+      "open": 1.15624,
+      "high": 1.15727,
+      "low": 1.15225,
+      "close": 1.15227
+    },
+    {
+      "date": "2026-03-27",
+      "open": 1.15225,
+      "high": 1.15491,
+      "low": 1.1502,
+      "close": 1.1518
+    },
+    {
+      "date": "2026-03-28",
+      "open": 1.15178,
+      "high": 1.15542,
+      "low": 1.15079,
+      "close": 1.15393
+    },
+    {
+      "date": "2026-03-29",
+      "open": 1.15391,
+      "high": 1.15428,
+      "low": 1.14874,
+      "close": 1.15007
+    },
     {
       "date": "2026-03-30",
       "open": 1.15005,
@@ -684,56 +719,21 @@ window.PRICES_DATA_EURUSD = {
       "open": 1.14245,
       "high": 1.14347,
       "low": 1.13827,
-      "close": 1.14218
-    },
-    {
-      "date": "2026-07-01",
-      "open": 1.14215,
-      "high": 1.14259,
-      "low": 1.13609,
-      "close": 1.13786
-    },
-    {
-      "date": "2026-07-02",
-      "open": 1.13784,
-      "high": 1.1473,
-      "low": 1.13753,
-      "close": 1.14342
-    },
-    {
-      "date": "2026-07-03",
-      "open": 1.14339,
-      "high": 1.14621,
-      "low": 1.14209,
-      "close": 1.14363
-    },
-    {
-      "date": "2026-07-04",
-      "open": 1.1437,
-      "high": 1.14458,
-      "low": 1.14326,
-      "close": 1.14383
-    },
-    {
-      "date": "2026-07-05",
-      "open": 1.14381,
-      "high": 1.14658,
-      "low": 1.14241,
-      "close": 1.14428
-    },
-    {
-      "date": "2026-07-06",
-      "open": 1.14424,
-      "high": 1.14459,
-      "low": 1.14094,
-      "close": 1.14412
+      "close": 1.14256
     },
     {
       "date": "2026-07-07",
-      "open": 1.14409,
-      "high": 1.14483,
-      "low": 1.1425,
-      "close": 1.14285
+      "open": 1.14161,
+      "high": 1.14175,
+      "low": 1.14108,
+      "close": 1.14121
+    },
+    {
+      "date": "2026-07-08",
+      "open": 1.14119,
+      "high": 1.14317,
+      "low": 1.13994,
+      "close": 1.14274
     }
   ]
 };

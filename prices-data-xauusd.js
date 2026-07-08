@@ -1,46 +1,69 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-07-07T09:23:57Z",
-  "date": "2026-07-07",
-  "price": 4126.09,
-  "atr": 72.87,
-  "atr_pips": 73,
+  "generated": "2026-07-08T08:07:49Z",
+  "date": "2026-07-08",
+  "price": 4119.24,
+  "atr": 76.52,
+  "atr_pips": 77,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4269.01,
-  "ema200": 4507.81,
-  "rsi": 45.13,
-  "macd_line": -38.834963,
-  "macd_signal": -61.383819,
-  "macd_hist": 22.548856,
+  "ema50": 4296.19,
+  "ema200": 4523.08,
+  "rsi": 44.12,
+  "macd_line": -76.059169,
+  "macd_signal": -86.546182,
+  "macd_hist": 10.487012,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-07-05",
+      "date": "2026-06-28",
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
-    },
-    {
-      "date": "2026-07-06",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 2,
+  "verdict": "NO TRADE",
   "candles": [
+    {
+      "date": "2026-03-25",
+      "open": 4399.59,
+      "high": 4602.63,
+      "low": 4396.85,
+      "close": 4531.48
+    },
+    {
+      "date": "2026-03-26",
+      "open": 4531.38,
+      "high": 4546.07,
+      "low": 4358.35,
+      "close": 4362.64
+    },
+    {
+      "date": "2026-03-27",
+      "open": 4362.53,
+      "high": 4550.97,
+      "low": 4352.84,
+      "close": 4514.84
+    },
+    {
+      "date": "2026-03-28",
+      "open": 4514.76,
+      "high": 4514.81,
+      "low": 4492.14,
+      "close": 4507.69
+    },
+    {
+      "date": "2026-03-29",
+      "open": 4507.71,
+      "high": 4507.91,
+      "low": 4507.63,
+      "close": 4507.68
+    },
     {
       "date": "2026-03-30",
       "open": 4507.7,
@@ -690,56 +713,21 @@ window.PRICES_DATA_XAUUSD = {
       "open": 4016.34,
       "high": 4063.06,
       "low": 3949.45,
-      "close": 4007.7
-    },
-    {
-      "date": "2026-07-01",
-      "open": 4007.53,
-      "high": 4115.77,
-      "low": 3959.59,
-      "close": 4031.57
-    },
-    {
-      "date": "2026-07-02",
-      "open": 4031.39,
-      "high": 4142.4,
-      "low": 4028.95,
-      "close": 4123.88
-    },
-    {
-      "date": "2026-07-03",
-      "open": 4123.72,
-      "high": 4195.33,
-      "low": 4120.91,
-      "close": 4174.94
-    },
-    {
-      "date": "2026-07-04",
-      "open": 4174.9,
-      "high": 4175.1,
-      "low": 4174.84,
-      "close": 4174.94
-    },
-    {
-      "date": "2026-07-05",
-      "open": 4174.91,
-      "high": 4175.11,
-      "low": 4165.65,
-      "close": 4175.01
-    },
-    {
-      "date": "2026-07-06",
-      "open": 4174.96,
-      "high": 4202.03,
-      "low": 4129.33,
-      "close": 4165.12
+      "close": 4033.57
     },
     {
       "date": "2026-07-07",
-      "open": 4164.61,
-      "high": 4169.44,
-      "low": 4117.6,
-      "close": 4126.09
+      "open": 4116.43,
+      "high": 4116.75,
+      "low": 4103.5,
+      "close": 4106.14
+    },
+    {
+      "date": "2026-07-08",
+      "open": 4106.19,
+      "high": 4134.11,
+      "low": 4094.11,
+      "close": 4119.24
     }
   ]
 };
