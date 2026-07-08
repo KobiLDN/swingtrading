@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-07
-**Generated:** 2026-07-07T09:57:43Z
+**Date:** 2026-07-08
+**Generated:** 2026-07-08T08:42:05Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 1.33437, 1.33, 1.326 |
-| **Resistance** | 1.34057, 1.345, 1.35 |
+| **Decision** | BUY |
+| **Confidence** | MEDIUM |
+| **Entry** | 1.3368 |
+| **Stop Loss** | 1.3300 |
+| **Target 1** | 1.3411 |
+| **Target 2** | 1.3450 |
+| **Risk/Reward** | 1.21 (for T2); 0.63 (for T1) |
+| **Score** | 7/10 |
+| **Support** | 1.3343, 1.33, 1.326 |
+| **Resistance** | 1.3411, 1.345, 1.35 |
 
 ---
 
 ## Analysis
 
-The overall trend is labeled NEUTRAL, with price at 1.33891 sitting between the EMA50 (1.33437) and the EMA200 (1.34057). This range-bound structure offers no clear directional bias from moving averages alone. The recent candlestick patterns—Doji, Shooting Star, Evening Star, and another Doji—form a bearish reversal cluster, suggesting selling pressure near recent highs. However, the MACD remains bullish (line above signal, positive histogram), indicating underlying upward momentum that contradicts the candlestick signals. The RSI at 61.72 is firmly neutral, adding no decisive edge.  
+The price is currently above the EMA50 (1.33427) but below the EMA200 (1.34107), placing the market in a short-term bullish bias within a longer-term neutral-to-bearish structure. However, the recent Bullish Engulfing candle following a Doji signals a potential reversal after a period of indecision. This classic two-candle pattern, combined with the RSI bullish divergence (price made a lower low while RSI formed a higher low), suggests increasing upside momentum. The MACD is also bullish, with the MACD line above the signal line and rising histogram bars, confirming the short-term shift in momentum. Together, these indicators provide a confluence for a long trade despite the overall neutral trend designation.
 
-No additional chart patterns like triangles or double tops/bottoms are evident from the provided data. The closest support is the EMA50 at 1.33437, followed by the psychological 1.3300 level. Resistance is the EMA200 at 1.34057, then the round 1.3450 area. The signal score of 4/10 reflects the low confluence: bearish price action versus bullish MACD, with a neutral trend. This conflict creates an unreliable risk/reward profile for an immediate swing trade.  
+No major chart patterns like triangles or flags are obvious from the given data, but the clean Bullish Engulfing pattern at current levels acts as a powerful reversal signal. Near-term support is found at the EMA50 (1.3343) and the round number 1.3300, while resistance sits at the EMA200 (1.3411), followed by 1.3450 (prior swing high) and the psychological 1.3500 level. The ATR of 63 pips indicates typical daily volatility; the proposed stop at 1.3300 (68 pips below entry) respects this by being placed just below the nearest major support, providing room to avoid noise while protecting against a failed breakout.
 
-Given the mixed signals, the prudent approach is to wait for either a decisive break above the EMA200 (to confirm bullish continuation) or a clear rejection from it that pushes price below the EMA50 (to validate the bearish reversal patterns). Entering now would require taking on high uncertainty with no clear edge.
+The trade setup is a buy at the current price of 1.3368, targeting the first resistance at the EMA200 (1.3411) for a 43-pip gain, with a secondary target at 1.3450 for an 82-pip gain. The risk of 68 pips yields a risk-reward ratio of 0.63 for T1 and 1.21 for T2, which is acceptable given the strong signal score of 7/10 and the confluence of bullish divergence, candlestick pattern, and MACD. Risk is medium due to the neutral long-term trend and the proximity of resistance, but the short-term evidence favors a bullish move.
 
 ---
 
 ## Invalidation
 
-A sustained move above 1.3415 (above EMA200 with confirmation) would invalidate the bearish candlestick signals and shift bias to bullish.
+This bullish setup is invalidated if price closes below 1.3300 (the swing low area) or breaks below the Bullish Engulfing candle’s low, as that would negate the reversal signal and expose the market to further downside.
 
 ---
 

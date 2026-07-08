@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-07-07T09:58:47Z",
+  "generated": "2026-07-08T08:43:19Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_SPX = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The daily chart confirms a strong uptrend with price well above both the 50- and 200-period EMAs (732.89 and 700.26). The MACD line remains above the signal line with a positive histogram, reinforcing bullish momentum. However, the RSI at 57.59 is neutral, indicating the uptrend is not overextended but lacks strong buying conviction. The candlestick pattern conflict\u2014a Morning Star followed by a Bearish Engulfing\u2014suggests a tug-of-war between buyers and sellers, leaving the immediate direction unclear.  \n\nNo clear chart patterns like flags or triangles are evident from the given data. Key support lies near the ATR-derived level of 741.31 (price minus 14-day ATR), with stronger support at the EMA50 (732.89). Resistance is near the ATR upper bound at 761.25, with potential further resistance at round numbers 770 and 780. The absence of bearish RSI divergence and the bullish MACD alignment favor the trend, but the recent bearish engulfing warns of a possible pullback.  \n\nGiven the signal score of 5/10, the setup is ambiguous. A buy would require confirmation that the bearish engulfing is merely a pause within the uptrend (e.g., a bullish follow-through candle above 753). A sell would go against the dominant trend and lacks confirmation. Thus, the prudent action is to wait for a clearer signal\u2014either a bounce off support or a decisive break above recent highs.\n\nRISK ASSESSMENT:  \nThe primary risk is the conflicting candlestick pattern generating a false signal in a strong trend. If price fails to hold above the EMA50, a deeper correction could unfold. The neutral RSI provides no edge, and the moderate ATR (10 pts) means stops must be wide enough to avoid noise. Waiting reduces exposure until momentum aligns with one of the patterns.",
-  "invalidation": "A daily close below the EMA50 (732.89) would break the strong uptrend structure and invalidate any bullish bias, shifting the outlook to neutral or bearish.",
+  "score": "4/10",
+  "analysis": "The daily chart shows a strong uptrend confirmed by price well above both the EMA50 (733.47) and EMA200 (700.93). The MACD remains bullish with the line above the signal line and a positive histogram, supporting the prevailing trend. However, the RSI at 54.74 is neutral, indicating no overbought or oversold momentum, and the absence of divergence leaves the trend intact but without strong directional conviction.\n\nThe most notable short-term signal is the Bearish Engulfing candlestick pattern within the last five candles. This pattern suggests potential selling pressure and a possible short-term reversal or pullback, especially after a sustained rally. The signal score of 4/10 reflects this conflict: the underlying trend is bullish, but the immediate price action is bearish. Without additional confirmation (e.g., a breakdown below support or a follow-through bearish candle), entering a trade now carries elevated uncertainty.\n\nKey support levels near current price include the round number 740.00, the EMA50 at 733.47, and the psychological 730.00 area. Resistance lies at 750.00 (round number), the ATR-based upper range of 757.41, and 760.00. The risk-reward for a potential short trade is unfavorable against the strong uptrend, while a long entry lacks confirmation after the bearish engulfing. Therefore, the prudent action is to wait for either a clear breakout above the engulfing high (bullish continuation) or a decisive break below the EMA50 (bearish reversal) before committing capital.",
+  "invalidation": "This wait setup is invalidated if price closes above the high of the Bearish Engulfing candle (approx. 750.00) or breaks and holds below the EMA50 (733.47) with increased volume.",
   "support_levels": [
-    741.31,
-    732.89,
-    700.26
+    740.0,
+    733.47,
+    730.0
   ],
   "resistance_levels": [
-    761.25,
-    770.0,
-    780.0
+    750.0,
+    757.41,
+    760.0
   ]
 };

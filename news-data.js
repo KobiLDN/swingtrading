@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-07T09:59:33Z",
+  "generated": "2026-07-08T08:44:21Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "U.S. Dollar Gains Ground As Oil Rallies: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-oil-171007581.html?.tsrc=rss",
+        "time_published": "2026-07-07 17:10",
+        "source": "Finance",
+        "summary": "The American currency gained ground as traders focused on recent events in the Strait of Hormuz."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Holds $100.93 on Policy Divergence \u2014 Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-055559695.html?.tsrc=rss",
+        "time_published": "2026-07-07 05:55",
+        "source": "Finance",
+        "summary": "With strong U.S. fundamentals, fiscal deficits, and reserve-currency status, the Dollar gained ground amid shifting risk sentiment. DXY held steady at $100.93, EUR/USD defended blue trendline support, and GBP/USD maintained bullish structure above $1.3380. Full technical analysis inside."
+      },
       {
         "title": "Africa's Largest Centralized Exchange Integrates Hyperliquid Perps",
         "url": "https://www.bankless.com/read/news/africas-largest-centralized-exchange-integrates-hyperliquid-perps?.tsrc=rss",
@@ -43,23 +57,30 @@ window.NEWS_DATA = {
         "time_published": "2026-05-12 13:24",
         "source": "Finance",
         "summary": "Even if Starmer\u2019s premiership survives this, his days look numbered, and the prospect of yet another leadership change is spooking the U.K.\u2019s government debt market."
-      },
-      {
-        "title": "Sterling Today: Pound jumps as dollar sells off on Iran-Hormuz deal hopes",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/sterling-today-pound-jumps-dollar-125557013.html?.tsrc=rss",
-        "time_published": "2026-05-06 12:55",
-        "source": "Finance",
-        "summary": "Investing.com -- Sterling and the euro surged on Wednesday as the dollar sold off sharply after Iran signalled the Strait of Hormuz could reopen and reports emerged that Washington and Tehran were closing in on a deal to end the Gulf war, triggering a broad risk rally and a steep slide in oil prices"
-      },
-      {
-        "title": "Hedge Funds Are Shorting the U.S. Dollar So Make This 1 Trade Now",
-        "url": "https://www.barchart.com/story/news/1322793/hedge-funds-are-shorting-the-u-s-dollar-so-make-this-1-trade-now?.tsrc=rss",
-        "time_published": "2026-04-15 15:19",
-        "source": "Barchart",
-        "summary": "June British pound futures present a buying opportunity on more price strength."
       }
     ],
     "eurusd": [
+      {
+        "title": "U.S. Dollar Gains Ground As Oil Rallies: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-oil-171007581.html?.tsrc=rss",
+        "time_published": "2026-07-07 17:10",
+        "source": "Finance",
+        "summary": "The American currency gained ground as traders focused on recent events in the Strait of Hormuz."
+      },
+      {
+        "title": "Stubborn Dollar Threatens Major Breakout Against Euro and Franc",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/stubborn-dollar-threatens-major-breakout-131004981.html?.tsrc=rss",
+        "time_published": "2026-07-07 13:10",
+        "source": "Finance",
+        "summary": "The US dollar remains stubbornly positive in the early hours of the Tuesday session."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Holds $100.93 on Policy Divergence \u2014 Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-055559695.html?.tsrc=rss",
+        "time_published": "2026-07-07 05:55",
+        "source": "Finance",
+        "summary": "With strong U.S. fundamentals, fiscal deficits, and reserve-currency status, the Dollar gained ground amid shifting risk sentiment. DXY held steady at $100.93, EUR/USD defended blue trendline support, and GBP/USD maintained bullish structure above $1.3380. Full technical analysis inside."
+      },
       {
         "title": "Dollar Gains on Strength in US Services Activity",
         "url": "https://www.barchart.com/story/news/3143371/dollar-gains-on-strength-in-us-services-activity?.tsrc=rss",
@@ -94,31 +115,31 @@ window.NEWS_DATA = {
         "time_published": "2026-07-01 19:34",
         "source": "Barchart",
         "summary": "The dollar index (DXY00 ) on Wednesday rose by +0.19%. The dollar moved higher on Wednesday as T-note yields rose after Fed Chair Warsh provided no guidance on interest rates at a meeting of central bankers in Portugal. The dollar also found support after the euro weakened following the Eurozone..."
-      },
-      {
-        "title": "Robinhood expands perpetual futures offering in Europe, plans crypto launch in UK",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/robinhood-expands-perpetual-futures-offering-184644896.html?.tsrc=rss",
-        "time_published": "2026-07-01 18:46",
-        "source": "Finance",
-        "summary": "Robinhood said on Wednesday it plans to launch crypto trading in the UK and broadened its \u200cperpetual futures offering in Europe beyond cryptocurrencies.  \u2022 Eligible European investors will now be able to trade perpetual futures tied to \u200bcommodities, ETFs and foreign exchange markets, including gold,"
-      },
-      {
-        "title": "Dollar Supported by Euro and Yen Weakness",
-        "url": "https://www.barchart.com/story/news/3079559/dollar-supported-by-euro-and-yen-weakness?.tsrc=rss",
-        "time_published": "2026-07-01 14:42",
-        "source": "Barchart",
-        "summary": "The dollar index (DXY00 ) today is up by +0.13%. The dollar is moving higher today amid weakness in the euro after the Eurozone June CPI report showed prices rose less than expected, knocking the euro lower. Also, today\u2019s decline in the yen to a new 39-year low is dollar-supportive...."
-      },
-      {
-        "title": "Great West announces pricing of \u20ac500 million senior fixed rate euro bonds",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/great-west-announces-pricing-500-160500296.html?.tsrc=rss",
-        "time_published": "2026-06-30 16:05",
-        "source": "Finance",
-        "summary": "Great-West Lifeco Inc. (\"Great West\" or the \"Company\") announced today the pricing of \u20ac500 million senior fixed rate euro bonds. This is the Company's fourth debt issuance in the euro market."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "The Precious Metals Trade Has Gone Into Reverse",
+        "url": "http://www.etf.com/sections/features/precious-metals-trade-has-gone-reverse?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-07-08 02:29",
+        "source": "Etf",
+        "summary": "The year-to-date losses look mild, but the fall from the January peaks tells a very different story."
+      },
+      {
+        "title": "A $1,000 Gold Rally? Why Analysts Are Repricing Safe Havens",
+        "url": "https://247wallst.com/investing/2026/07/07/a-1000-gold-rally-why-analysts-are-repricing-safe-havens/?.tsrc=rss",
+        "time_published": "2026-07-07 20:05",
+        "source": "247wallst",
+        "summary": "The Number Gold\u2019s proxy in the equity market, SPDR Gold Shares (NYSEARCA:GLD), has returned 22.27% over the past twelve months, climbing from $309.25 on July 2, 2025 to $378.13 on July 2, 2026. That single figure, a full-year total return on the world\u2019s most-watched safe-haven vehicle, is why sell-s"
+      },
+      {
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Amid Caution Over Chip Sector Outlook",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-132222461.html?.tsrc=rss",
+        "time_published": "2026-07-07 13:22",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t"
+      },
       {
         "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday as Chip Stocks Rebound",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125452192.html?.tsrc=rss",
@@ -153,88 +174,95 @@ window.NEWS_DATA = {
         "time_published": "2026-07-01 12:39",
         "source": "Finance",
         "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.2%, and the actively t"
-      },
-      {
-        "title": "Morgan Stanley\u2019s CIO: Chip Stocks Following Rare Earths and Gold As Next \u201cCommodity Boom.\u201d Here\u2019s Why That Should Worry You.",
-        "url": "https://247wallst.com/investing/2026/06/30/morgan-stanleys-cio-chip-stocks-following-rare-earths-and-gold-as-next-commodity-boom-heres-why-that-should-worry-you/?.tsrc=rss",
-        "time_published": "2026-06-30 14:22",
-        "source": "247wallst",
-        "summary": "Morgan Stanley\u2019s Chief Investment Officer and Chief U.S. Equity Strategist Michael Wilson appeared on CNBC this morning with a framing that should give every AI-chip investor pause. The 2026 semiconductor rally, in his read, looks like the next leg of a commodity rotation set off by Fed money printi"
-      },
-      {
-        "title": "Exchange-Traded Funds Mixed, Equity Futures Lower Pre-Bell Ahead of Key Economic Reports",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130043691.html?.tsrc=rss",
-        "time_published": "2026-06-30 13:00",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up marginally, and the active"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid Hopes for Renewed US-Iran Diplomacy",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125624922.html?.tsrc=rss",
-        "time_published": "2026-06-29 12:56",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1%, and the actively trade"
       }
     ],
     "spx": [
       {
-        "title": "Nasdaq Futures Lag After Samsung Selloff Hits AI Chip Trade: Why SPCX, MU, SNDK, RIVN, WMT Are In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stock-market-today-dow-nasdaq-sp500-futures-spcx-mu-sndk-rivn-wmt-stocks/cZmlX39R7mS?.tsrc=rss",
-        "time_published": "2026-07-07 08:43",
+        "title": "Hedging Is Disappearing. It\u2019s a Huge Market Risk.",
+        "url": "https://finance.yahoo.com/m/62c234ef-282b-35df-910f-0f997d2b0413/hedging-is-disappearing.-it%E2%80%99s.html?.tsrc=rss",
+        "time_published": "2026-07-08 05:30",
+        "source": "Finance",
+        "summary": "Investor positioning is so optimistic that earnings disappointments could trigger a massive stock reversal."
+      },
+      {
+        "title": "Nasdaq, S&P 500 Futures Climb Ahead Of Fed Minutes, Shrugging Off Iran Concerns: FCEL, TE, NVTS, MU Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-climb-ahead-of-fed-minutes-shrugging-off-iran-concerns/cZmVBc6R7Zs?.tsrc=rss",
+        "time_published": "2026-07-08 01:43",
         "source": "Stocktwits",
-        "summary": "Stocktwits data showed retail sentiment remained \u2018bullish\u2019 around QQQ, and improved to \u2018extremely bullish\u2019 on SPY."
+        "summary": "U.S. forces carried out a \"series of powerful strikes\" against Iran late Tuesday after the Middle Eastern country struck three commercial ships passing through the Strait of Hormuz."
       },
       {
-        "title": "S&P 500, Nasdaq End Higher On Support From Strong Tech Gains Led By Nvidia, Dow Hits Record Highs \u2014 MSFT, NVDA, LMT, AVGO, SPCX In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-higher-on-support-from-strong-tech-gains-led-by-nvidia-dow-hits-record-highs-msft-nvda-lmt-avgo-spcx-in-focus/cZm1YfaR7lU?.tsrc=rss",
-        "time_published": "2026-07-06 21:24",
+        "title": "Nasdaq Slides Nearly 2% As Higher Treasury Yields, Soaring Oil Prices Pressure Tech And Chip Stocks \u2014 META, AMZN, SPCX, MSFT In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-slides-nearly-2-as-higher-treasury-yields-soaring-oil-prices-pressure-tech-and-chip-stocks-meta-amzn-spcx-msft-in-focus/cZmlDzSR7ZV?.tsrc=rss",
+        "time_published": "2026-07-07 21:43",
         "source": "Stocktwits",
-        "summary": "Shares of Microsoft fell almost 1% after the company said it\u2019s cutting 4,800 jobs, or 2.1% of its global workforce."
+        "summary": "The U.S. Treasury Department revoked a license allowing Iran to sell its oil worldwide following an attack on a Qatari natural gas shipment."
       },
       {
-        "title": "Top Wall Street Strategist: The S&P 500 Could Hit As High As 8,800 This Year, But a 10-20% Drop May Come First",
-        "url": "https://247wallst.com/investing/2026/07/06/top-wall-street-strategist-the-sp-500-could-hit-as-high-as-8800-this-year-but-a-10-20-drop-may-come-first/?.tsrc=rss",
-        "time_published": "2026-07-06 20:27",
-        "source": "247wallst",
-        "summary": "Fundstrat\u2019s Tom Lee laid out a roadmap for where he saw the market going for the rest of the year on a CNBC Squawk Box interview on July 6, 2026, arguing the S&P 500 can grind to 8,000 by year-end, with upside to 8,400 to 8,800, but that would likely come only after surviving a ... Top Wall Street S"
-      },
-      {
-        "title": "Microsoft Is Cutting 4,800 Jobs to Feed the AI Machine. Should You Still Own It?",
-        "url": "https://247wallst.com/investing/2026/07/06/microsoft-is-cutting-4800-jobs-to-feed-the-ai-machine-should-you-still-own-it/?.tsrc=rss",
-        "time_published": "2026-07-06 19:58",
-        "source": "247wallst",
-        "summary": "Microsoft (NASDAQ:MSFT) looks mispriced, and the discomfort is the whole point. The company is cutting roughly 4,800 jobs, about 2.1% of its workforce, while telling investors it will spend roughly $190 billion on capex in calendar 2026 to feed AI and Azure. Microsoft is the closest thing the S&P 50"
-      },
-      {
-        "title": "\u201cDiversification Means Always Having to Say You\u2019re Sorry\"",
-        "url": "http://www.etf.com/sections/conferences/diversification-means-always-having-say-youre-sorry?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-07-06 19:49",
+        "title": "John West: Perfect Market Timing Is Still a Losing Bet",
+        "url": "http://www.etf.com/sections/conferences/john-west-perfect-market-timing-still-losing-bet?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-07-07 21:14",
         "source": "Etf",
-        "summary": "There\u2019s a common misconception that true portfolio diversification means always having to apologize for something being down in the portfolio. It\u2019s an idea that industry veteran Carolyn Barnette tackles head on from Basis Northwest, as well as common stumbling blocks for advisors, the effectiveness"
+        "summary": "It\u2019s easy for investors to get caught up in trying to time the perfect entry and exit point in markets. However, even with perfect clarity and timing, it\u2019s a strategy that leaves them on the losing side in the long-term according to John West, Co-Founder of Flatrock Wealth Partners."
       },
       {
-        "title": "AI Crushed Software Stocks. IGV Is Betting the \u2018SaaSpocalypse\u2019 Is Overblown",
-        "url": "https://247wallst.com/personal-finance/2026/07/06/ai-crushed-software-stocks-igv-is-betting-the-saaspocalypse-is-overblown/?.tsrc=rss",
-        "time_published": "2026-07-06 19:45",
+        "title": "Trump Just Made An Obscure Pentagon Office Bigger Than The Marine Corps. Here Are 5 Stocks For This $1.5 Trillion Defense Opportunity",
+        "url": "https://247wallst.com/investing/2026/07/07/trump-just-made-an-obscure-pentagon-office-bigger-than-the-marine-corps-here-are-5-stocks-for-this-1-5-trillion-defense-opportunity/?.tsrc=rss",
+        "time_published": "2026-07-07 20:57",
         "source": "247wallst",
-        "summary": "The iShares Expanded Tech-Software Sector ETF (BATS:IGV) is down 10.5% year to date while the S&P 500 is up 10.8% and the Technology Select Sector SPDR is up 26%. That gap reflects the market pricing software as if the AI thesis has turned against it. Own IGV and you are betting the \u201cSaaSpocalypse\u201d"
+        "summary": "Buried inside President Trump\u2019s Fiscal Year 2027 defense budget request sits a line item that dwarfs almost every other increase in the document. The Defense Autonomous Warfare Group (DAWG), a Pentagon office that stood up quietly late last year with an initial budget of roughly $225 to $226 million"
       },
       {
-        "title": "AI\u2019s Next Act Isn\u2019t Chatbots. It\u2019s Robots, and BOTZ Is the Bet",
-        "url": "https://247wallst.com/personal-finance/2026/07/06/ais-next-act-isnt-chatbots-its-robots-and-botz-is-the-bet/?.tsrc=rss",
-        "time_published": "2026-07-06 19:30",
+        "title": "Goldman\u2019s Top Strategist Sees a Dangerous Amount of Leverage Piling Up",
+        "url": "https://247wallst.com/investing/2026/07/07/goldmans-top-strategist-sees-a-dangerous-amount-of-leverage-piling-up/?.tsrc=rss",
+        "time_published": "2026-07-07 18:45",
         "source": "247wallst",
-        "summary": "The pitch for the Global X Robotics & Artificial Intelligence ETF (NASDAQ:BOTZ) has quietly changed. For years BOTZ was sold as a niche automation bet, a fund for people who wanted factory-floor exposure without picking Japanese conglomerates one at a time. Now, with generative AI running out of par"
+        "summary": "Ben Snider, Chief U.S. Equity Strategist at Goldman Sachs, went on CNBC to say something that should register with anyone who has been happily riding this market higher. The character of this market is shifting midyear, and the driver is a substantial increase in a substantial increase in leverage a"
       },
       {
-        "title": "$300 a Month at 25 Beats $800 a Month at 40. Most People Start Too Late.",
-        "url": "https://247wallst.com/personal-finance/2026/07/06/300-a-month-at-25-beats-800-a-month-at-40-most-people-start-too-late/?.tsrc=rss",
-        "time_published": "2026-07-06 19:25",
+        "title": "Yardeni: AI is the real deal, not a bubble; targets S&P 500 at 8,250 by year-end",
+        "url": "https://247wallst.com/investing/2026/07/07/yardeni-ai-is-the-real-deal-not-a-bubble-targets-sp-500-at-8250-by-year-end/?.tsrc=rss",
+        "time_published": "2026-07-07 17:14",
         "source": "247wallst",
-        "summary": "The math on retirement saving punishes late starters in ways most people underestimate. A 25-year-old who sets aside $300 a month and earns a 7% average annual return finishes at age 65 with roughly $787,000, having contributed $144,000 of their own money. A 40-year-old who tries to catch up by putt"
+        "summary": "Ed Yardeni is holding firm through the AI bubble debate. On Squawk Box, the veteran strategist and president of Yardeni Research argued that the current market rally rests on earnings, and he reiterated an aggressive S&P 500 target of 8250 by the end of 2026. The benchmark closed last week at 744.78"
+      },
+      {
+        "title": "July Is the S&P 500's Best Month: These 5 Tech Stocks Beat the Market",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/july-p-500s-best-month-155013209.html?.tsrc=rss",
+        "time_published": "2026-07-07 15:50",
+        "source": "Finance",
+        "summary": "July has historically been the U.S. stock market\u2019s best month. The S&P 500 \u2014 as tracked by the SPDR S&P 500 ETF Trust (NYSE:SPY) \u2014 rose 2.56% on average over the past 20 years in July, the strongest average return of any month. The index finished July higher 80% of the time and has closed green in e"
       }
     ],
     "oil": [
+      {
+        "title": "Update: WTI Oil Rises Following Iranian Attacks on Ships in the Strait of Hormuz",
+        "url": "https://finance.yahoo.com/energy/articles/wti-oil-rises-following-iranian-193453489.html?.tsrc=rss",
+        "time_published": "2026-07-07 19:34",
+        "source": "Finance",
+        "summary": "(Updates prices in the second paragraph) West Texas Intermediate (WTI) crude oil rose on Tuesday"
+      },
+      {
+        "title": "Sector Update: Energy Stocks Edge Higher Pre-Bell Tuesday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-132258248.html?.tsrc=rss",
+        "time_published": "2026-07-07 13:22",
+        "source": "Finance",
+        "summary": "Energy stocks were edging higher pre-bell Tuesday, with the State Street Energy Select Sector SPDR E"
+      },
+      {
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Amid Caution Over Chip Sector Outlook",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-132222461.html?.tsrc=rss",
+        "time_published": "2026-07-07 13:22",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t"
+      },
+      {
+        "title": "Oil Rises Following Iranian Attacks on Ships in the Strait of Hormuz",
+        "url": "https://finance.yahoo.com/energy/articles/oil-rises-following-iranian-attacks-125102431.html?.tsrc=rss",
+        "time_published": "2026-07-07 12:51",
+        "source": "Finance",
+        "summary": "Oil prices rose early on Tuesday following Iranian attacks on ships moving through the Strait of Hor"
+      },
       {
         "title": "Update: WTI Oil Edges Lower as it Sticks Near a Four-Month Low as Supply Continues to Return to Normal",
         "url": "https://finance.yahoo.com/energy/articles/wti-oil-edges-lower-sticks-184012192.html?.tsrc=rss",
@@ -262,34 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-06 12:45",
         "source": "Finance",
         "summary": "Oil prices eased early Monday, staying near pre-war levels as tankers continue to move through the S"
-      },
-      {
-        "title": "Best ETF Areas of June",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/best-etf-areas-june-120000507.html?.tsrc=rss",
-        "time_published": "2026-07-06 12:00",
-        "source": "Finance",
-        "summary": "Biotech, China, insurance and healthcare ETFs led June gains as strong earnings, AI optimism and easing geopolitical fears lifted markets."
-      },
-      {
-        "title": "Update: Oil Steady at Prewar Levels as Ships Continue to Moving Through Strait of Hormuz",
-        "url": "https://finance.yahoo.com/energy/articles/oil-steady-prewar-levels-ships-182655323.html?.tsrc=rss",
-        "time_published": "2026-07-03 18:26",
-        "source": "Finance",
-        "summary": "(Updates prices in the second paragraph.) Oil prices were mostly steady midafternoon Friday, hove"
-      },
-      {
-        "title": "Oil Steady at Prewar Levels as Ships Continue to Moving Through Strait of Hormuz",
-        "url": "https://finance.yahoo.com/energy/articles/oil-steady-prewar-levels-ships-125223538.html?.tsrc=rss",
-        "time_published": "2026-07-03 12:52",
-        "source": "Finance",
-        "summary": "Oil prices eased early Friday, hovering near four-month lows on expectations that the U.S. and Iran"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Edge Higher Pre-Bell Thursday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-132514190.html?.tsrc=rss",
-        "time_published": "2026-07-02 13:25",
-        "source": "Finance",
-        "summary": "Energy stocks were edging higher pre-bell Thursday, with the State Street Energy Select Sector SPDR"
       }
     ]
   }

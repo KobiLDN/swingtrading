@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-07-07T09:59:32Z",
+  "generated": "2026-07-08T08:44:21Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-07-06",
-  "decision": "WAIT",
-  "confidence": "MEDIUM",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
+  "date": "2026-07-07",
+  "decision": "SELL",
+  "confidence": "LOW",
+  "entry": "108.92",
+  "stop_loss": "111.25",
+  "target_1": "105.00",
+  "target_2": "103.93",
+  "risk_reward": "1.68 (target 1), 2.14 (target 2)",
   "score": "5/10",
-  "analysis": "Price at 104.35 sits in a no\u2011man\u2019s land between the long\u2011term EMA200 (103.92) and the far\u2011above EMA50 (121.57), leading to a neutral trend designation. The bearish engulfing pattern from the last five candles signals fresh selling pressure, yet the RSI at 31.08 is deep into oversold territory, hinting at exhaustion. MACD remains bearish (line below signal, negative histogram), which aligns with the immediate price weakness but contradicts the potential for a mean\u2011reversion bounce off the EMA200.  \n\nConspicuous chart patterns are absent from the given data, but the proximity of price to the EMA200 (just 0.43 points above) creates a critical decision zone. If the EMA200 holds, a double\u2011bottom or support\u2011test pattern could emerge; if broken, the next logical support is the psychological 100.00 level. Resistance nearest overhead is likely the prior swing high near 109.00, followed by 112.00 and eventually the steep EMA50 at 121.57.  \n\nThe RSI oversold condition does not yet confirm with MACD, which is still pointing lower. This lack of confluence argues against an immediate buy. Meanwhile, the bearish engulfing candle and negative MACD histogram discourage a sell given the proximity to major support. The signal score of 5/10 accurately reflects this indecision.  \n\nGiven the conflicting signals\u2014oversold RSI vs. bearish price action and MACD\u2014the prudent approach is to wait for a clear catalyst. A break and close below the EMA200 would confirm a bearish breakdown, while a bullish reversal candle (e.g., hammer) at support would set up a long entry. Neither is present now.",
-  "invalidation": "This WAIT stance is invalidated if price closes decisively above 109.00 (bullish breakout) or below 103.00 (bearish breakdown with sustained momentum).",
+  "analysis": "Price at 108.92 sits below the EMA50 (121.07) but above the EMA200 (103.93), confirming a neutral trend with short-term bearish bias. The Bearish Engulfing pattern on the last candle signals a potential reversal lower, especially after a prior downtrend. RSI at 38.97 is neutral but below 50, indicating bearish momentum, while MACD remains bearish with the line below the signal and a negative histogram. These indicators align with a short-term sell setup, though the overall trend is not strongly bearish, limiting confidence.  \n\nNo clear additional chart patterns (triangles, flags, etc.) are evident from the given data, but the price is approaching the EMA200, a major support level. The nearest support is the round number 105.00, followed by the EMA200 at 103.93 and psychological 100.00. Resistance lies at 110.00 (round), 112.00, and 115.00. The bearish engulfing suggests a move toward these supports, with the EMA200 as a key target.  \n\nThe best trade setup is a short entry at current price, with a stop above the bearish engulfing candle\u2019s high (estimated at 111.25 based on ATR). Targets are set at 105.00 (first) and 103.93 (second). The risk-reward ratio is acceptable for target 2 (1:2.14) but marginal for target 1. Given the neutral trend and moderate signal score, confidence is low; this is a speculative short based on short-term bearish momentum.  \n\nRisk assessment: The primary risk is a false breakdown or a bounce from the EMA200 support, which could reverse the trade. The ATR of 4.65 implies daily volatility of about 4.3%, so the stop at 111.25 (2.1% above entry) is tight but reasonable. If price fails to break below 105.00, the trade may stall. Overall, the setup is valid but not high-conviction.",
+  "invalidation": "A daily close above 111.25 (the bearish engulfing high) would cancel the short setup and suggest a reversal higher.",
   "support_levels": [
-    103.92,
-    100.0,
-    95.0
+    105.0,
+    103.93,
+    100.0
   ],
   "resistance_levels": [
-    109.0,
+    110.0,
     112.0,
-    121.57
+    115.0
   ]
 };
