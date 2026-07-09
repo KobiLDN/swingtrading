@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-07-07
-**Generated:** 2026-07-08T08:43:19Z
+**Date:** 2026-07-08
+**Generated:** 2026-07-09T09:56:04Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 740.0, 733.47, 730.0 |
-| **Resistance** | 750.0, 757.41, 760.0 |
+| **Score** | 5/10 |
+| **Support** | 733.94, 730.0, 723.29 |
+| **Resistance** | 755.0, 765.0, 770.0 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong uptrend confirmed by price well above both the EMA50 (733.47) and EMA200 (700.93). The MACD remains bullish with the line above the signal line and a positive histogram, supporting the prevailing trend. However, the RSI at 54.74 is neutral, indicating no overbought or oversold momentum, and the absence of divergence leaves the trend intact but without strong directional conviction.
+The pre-calculated trend label is STRONG UPTREND, confirmed by price at 745.4 trading well above both the EMA 50 (733.94) and EMA 200 (701.31). The EMA 50 is significantly above the EMA 200, indicating a healthy bullish structure. However, the immediate price action shows a Bearish Engulfing candlestick pattern on the daily chart, which introduces short-term selling pressure and suggests a potential pullback or pause in the uptrend. The 5/10 signal score reflects this mixed picture — bullish structure with a bearish reversal signal.
 
-The most notable short-term signal is the Bearish Engulfing candlestick pattern within the last five candles. This pattern suggests potential selling pressure and a possible short-term reversal or pullback, especially after a sustained rally. The signal score of 4/10 reflects this conflict: the underlying trend is bullish, but the immediate price action is bearish. Without additional confirmation (e.g., a breakdown below support or a follow-through bearish candle), entering a trade now carries elevated uncertainty.
+No clear additional chart patterns (flags, triangles, double tops/bottoms) are immediately inferable from the provided data alone. The RSI at 52.92 is neutral, not overbought, which means there is room for the uptrend to continue, but no strong momentum confirmation. The MACD is bullish with the line above the signal and a positive histogram, supporting the uptrend. However, the bearish engulfing candle contradicts this and creates a divergence in short-term signals, reducing conviction.
 
-Key support levels near current price include the round number 740.00, the EMA50 at 733.47, and the psychological 730.00 area. Resistance lies at 750.00 (round number), the ATR-based upper range of 757.41, and 760.00. The risk-reward for a potential short trade is unfavorable against the strong uptrend, while a long entry lacks confirmation after the bearish engulfing. Therefore, the prudent action is to wait for either a clear breakout above the engulfing high (bullish continuation) or a decisive break below the EMA50 (bearish reversal) before committing capital.
+The key support level is the EMA 50 at 733.94, followed by the recent swing low around 730.00. Resistance is likely near the recent high zone around 755.00, with next levels near 765.00 and 770.00. Given the lack of RSI divergence, neutral RSI, and the bearish candle, there is not enough confluence for a high-confidence entry. A buy entry would require the price to recover above the bearish engulfing high or pull back to strong support and show a bullish reversal. A sell entry is not justified against the strong trend.
 
 ---
 
 ## Invalidation
 
-This wait setup is invalidated if price closes above the high of the Bearish Engulfing candle (approx. 750.00) or breaks and holds below the EMA50 (733.47) with increased volume.
+A daily close below 733.94 (EMA 50) would invalidate the bullish trend bias and shift the outlook to neutral or bearish, while a close above 755.00 would cancel the bearish engulfing signal and confirm continuation.
 
 ---
 

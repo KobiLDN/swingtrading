@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-08T08:44:21Z",
+  "generated": "2026-07-09T09:56:46Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "U.S. Dollar Gains Ground Amid Rally In The Oil Markets: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-amid-164043184.html?.tsrc=rss",
+        "time_published": "2026-07-08 16:40",
+        "source": "Finance",
+        "summary": "Rising Treasury yields provided support to the American currency."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Nears $101 Ahead of FOMC Meeting Minutes \u2014 Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073424964.html?.tsrc=rss",
+        "time_published": "2026-07-08 07:34",
+        "source": "Finance",
+        "summary": "Policy and growth divergence across major economies bolstered the US Dollar ahead of today\u2019s FOMC meeting minutes as DXY traded at $101. EUR/USD held blue trendline support at $1.1418 and GBP/USD tested resistance at $1.3360. Latest technical outlook for major pairs."
+      },
       {
         "title": "U.S. Dollar Gains Ground As Oil Rallies: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-oil-171007581.html?.tsrc=rss",
@@ -43,23 +57,44 @@ window.NEWS_DATA = {
         "time_published": "2026-05-17 10:30",
         "source": "Finance",
         "summary": "Investing.com -- The British pound faced sudden selling pressure on Thursday evening as intensifying domestic political headlines triggered a surge in foreign exchange risk premiums."
-      },
-      {
-        "title": "UK borrowing costs hit 28-year-high as City braces for Burnham challenge",
-        "url": "https://uk.finance.yahoo.com/news/uk-borrowing-costs-hit-28-114359877.html?.tsrc=rss",
-        "time_published": "2026-05-15 11:43",
-        "source": "Uk",
-        "summary": "The pound is also on track for its worst week since 2024 amid growing concern over political instability."
-      },
-      {
-        "title": "U.K. PM Starmer Is in Danger. Why the Timing of His Exit Matters for Markets.",
-        "url": "https://finance.yahoo.com/m/32c73408-1ffc-3c74-9272-9eb494eb1e0b/u.k.-pm-starmer-is-in-danger..html?.tsrc=rss",
-        "time_published": "2026-05-12 13:24",
-        "source": "Finance",
-        "summary": "Even if Starmer\u2019s premiership survives this, his days look numbered, and the prospect of yet another leadership change is spooking the U.K.\u2019s government debt market."
       }
     ],
     "eurusd": [
+      {
+        "title": "U.S. Dollar Gains Ground Amid Rally In The Oil Markets: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-amid-164043184.html?.tsrc=rss",
+        "time_published": "2026-07-08 16:40",
+        "source": "Finance",
+        "summary": "Rising Treasury yields provided support to the American currency."
+      },
+      {
+        "title": "Dollar Climbs on Escalation of Middle East Hostilities",
+        "url": "https://www.barchart.com/story/news/3186572/dollar-climbs-on-escalation-of-middle-east-hostilities?.tsrc=rss",
+        "time_published": "2026-07-08 14:37",
+        "source": "Barchart",
+        "summary": "The dollar index (DXY00 ) is up by +0.09% today. The dollar is supported by today\u2019s equity market slump, which has boosted liquidity demand for the currency. Also, higher crude oil prices today have pushed up inflation expectations and could persuade the Fed to keep monetary policy tight, a supporti"
+      },
+      {
+        "title": "1 Trade to Make Now as U.S.-Iran Ceasefire Talks Deteriorate",
+        "url": "https://www.barchart.com/story/news/3186094/1-trade-to-make-now-as-u-s-iran-ceasefire-talks-deteriorate?.tsrc=rss",
+        "time_published": "2026-07-08 14:11",
+        "source": "Barchart",
+        "summary": "September Euro currency futures present a selling opportunity on more price weakness."
+      },
+      {
+        "title": "Middle East Conflict Drives Safe-Haven Flows to US Dollar",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/middle-east-conflict-drives-safe-134635182.html?.tsrc=rss",
+        "time_published": "2026-07-08 13:46",
+        "source": "Finance",
+        "summary": "The US dollar continues to move on rates, and with the attack on Iran last night, the USD rally isn\u2019t a big surprise."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Nears $101 Ahead of FOMC Meeting Minutes \u2014 Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073424964.html?.tsrc=rss",
+        "time_published": "2026-07-08 07:34",
+        "source": "Finance",
+        "summary": "Policy and growth divergence across major economies bolstered the US Dollar ahead of today\u2019s FOMC meeting minutes as DXY traded at $101. EUR/USD held blue trendline support at $1.1418 and GBP/USD tested resistance at $1.3360. Latest technical outlook for major pairs."
+      },
       {
         "title": "U.S. Dollar Gains Ground As Oil Rallies: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-oil-171007581.html?.tsrc=rss",
@@ -80,45 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-07-07 05:55",
         "source": "Finance",
         "summary": "With strong U.S. fundamentals, fiscal deficits, and reserve-currency status, the Dollar gained ground amid shifting risk sentiment. DXY held steady at $100.93, EUR/USD defended blue trendline support, and GBP/USD maintained bullish structure above $1.3380. Full technical analysis inside."
-      },
-      {
-        "title": "Dollar Gains on Strength in US Services Activity",
-        "url": "https://www.barchart.com/story/news/3143371/dollar-gains-on-strength-in-us-services-activity?.tsrc=rss",
-        "time_published": "2026-07-06 14:39",
-        "source": "Barchart",
-        "summary": "The dollar index (DXY00 ) today is up by +0.22%. The dollar is moving higher today on the as-expected Jun ISM services index report. The dollar also found support amid yen weakness after Japanese authorities failed to intervene in the forex market to support the yen while US markets were..."
-      },
-      {
-        "title": "BofA highlights FX intervention impact on reserves and central bank balance sheets",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/bofa-highlights-fx-intervention-impact-084721714.html?.tsrc=rss",
-        "time_published": "2026-07-04 08:47",
-        "source": "Finance",
-        "summary": "Investing.com -- Foreign exchange intervention remains an infrequent but powerful policy tool in major economies, according to BofA, with recent episodes involving the Japanese yen and Swiss franc highlighting how official actions can ripple across global markets, reserve holdings and U.S. Treasury"
-      },
-      {
-        "title": "Africa's Largest Centralized Exchange Integrates Hyperliquid Perps",
-        "url": "https://www.bankless.com/read/news/africas-largest-centralized-exchange-integrates-hyperliquid-perps?.tsrc=rss",
-        "time_published": "2026-07-02 18:46",
-        "source": "Bankless",
-        "summary": "VALR will become the first major regulated exchange to natively integrate Hyperliquid, sourcing onchain liquidity for 200+ perps markets."
-      },
-      {
-        "title": "U.S. bond yields  tick up on hawkish Warsh rhetoric; payrolls awaited",
-        "url": "https://finance.yahoo.com/economy/policy/articles/euro-bond-yields-tick-hawkish-065704201.html?.tsrc=rss",
-        "time_published": "2026-07-02 06:57",
-        "source": "Finance",
-        "summary": "Investing.com - U.S. Treasury and eurozone government bond yields edged upward on Thursday as fixed-income markets adjusted to resolute messaging from top central bankers at the European Central Bank\u2019s annual forum in Sintra, Portugal, which dampened aggressive expectations for near-term monetary ea"
-      },
-      {
-        "title": "Dollar Rises With T-note Yields",
-        "url": "https://www.barchart.com/story/news/3084887/dollar-rises-with-t-note-yields?.tsrc=rss",
-        "time_published": "2026-07-01 19:34",
-        "source": "Barchart",
-        "summary": "The dollar index (DXY00 ) on Wednesday rose by +0.19%. The dollar moved higher on Wednesday as T-note yields rose after Fed Chair Warsh provided no guidance on interest rates at a meeting of central bankers in Portugal. The dollar also found support after the euro weakened following the Eurozone..."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday as Trump Declares US-Iran Agreement Over",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130428931.html?.tsrc=rss",
+        "time_published": "2026-07-08 13:04",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.5%, and the actively t"
+      },
       {
         "title": "The Precious Metals Trade Has Gone Into Reverse",
         "url": "http://www.etf.com/sections/features/precious-metals-trade-has-gone-reverse?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
@@ -167,74 +174,109 @@ window.NEWS_DATA = {
         "time_published": "2026-07-02 09:46",
         "source": "Finance",
         "summary": "June is on track to be silver\u2019s worst month in nearly 15 years. The metal \u2014 tracked by the iShares Silver Trust \u2014 tumbled more than 20% on the mont, its steepest monthly decline since September 2011, based on monthly..."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Ahead of Fed Chair Warsh's International Debut",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-123900903.html?.tsrc=rss",
-        "time_published": "2026-07-01 12:39",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.2%, and the actively t"
       }
     ],
     "spx": [
       {
-        "title": "Hedging Is Disappearing. It\u2019s a Huge Market Risk.",
-        "url": "https://finance.yahoo.com/m/62c234ef-282b-35df-910f-0f997d2b0413/hedging-is-disappearing.-it%E2%80%99s.html?.tsrc=rss",
-        "time_published": "2026-07-08 05:30",
-        "source": "Finance",
-        "summary": "Investor positioning is so optimistic that earnings disappointments could trigger a massive stock reversal."
-      },
-      {
-        "title": "Nasdaq, S&P 500 Futures Climb Ahead Of Fed Minutes, Shrugging Off Iran Concerns: FCEL, TE, NVTS, MU Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-climb-ahead-of-fed-minutes-shrugging-off-iran-concerns/cZmVBc6R7Zs?.tsrc=rss",
-        "time_published": "2026-07-08 01:43",
+        "title": "Dow, Nasdaq, S&P 500 Futures Climb Amid US-Iran Tensions, Fed Inflation Worries: WULF, CMPS, ANET, PENG Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dow-nasdaq-sp500-futures-climb-amid-us-iran-tensions-fed-inflation-worries/cZmo02NR7Vg?.tsrc=rss",
+        "time_published": "2026-07-09 01:38",
         "source": "Stocktwits",
-        "summary": "U.S. forces carried out a \"series of powerful strikes\" against Iran late Tuesday after the Middle Eastern country struck three commercial ships passing through the Strait of Hormuz."
+        "summary": "U.S. stock futures edged higher in the overnight session on Wednesday as markets assessed risks from the U.S.-Iran war and the Federal Reserve\u2019s inflation concerns."
       },
       {
-        "title": "Nasdaq Slides Nearly 2% As Higher Treasury Yields, Soaring Oil Prices Pressure Tech And Chip Stocks \u2014 META, AMZN, SPCX, MSFT In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-slides-nearly-2-as-higher-treasury-yields-soaring-oil-prices-pressure-tech-and-chip-stocks-meta-amzn-spcx-msft-in-focus/cZmlDzSR7ZV?.tsrc=rss",
-        "time_published": "2026-07-07 21:43",
+        "title": "Dow Ends Lower To Record Worst Day In Nearly A Month As US-Iran Jitters Push Oil Prices \u2014 TSLA, NVDA, BE, AAPL, WBD  In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dow-ends-lower-to-record-worst-day-in-nearly-a-month-as-us-iran-jitters-push-oil-prices-tsla-nvda-be-aapl-wbd-in-focus/cZmn5ZFR7VB?.tsrc=rss",
+        "time_published": "2026-07-08 22:00",
         "source": "Stocktwits",
-        "summary": "The U.S. Treasury Department revoked a license allowing Iran to sell its oil worldwide following an attack on a Qatari natural gas shipment."
+        "summary": "President Donald Trump said a ceasefire with Iran may be over, and \"it will get much worse\" if Iran continues to bomb ships."
       },
       {
-        "title": "John West: Perfect Market Timing Is Still a Losing Bet",
-        "url": "http://www.etf.com/sections/conferences/john-west-perfect-market-timing-still-losing-bet?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-07-07 21:14",
-        "source": "Etf",
-        "summary": "It\u2019s easy for investors to get caught up in trying to time the perfect entry and exit point in markets. However, even with perfect clarity and timing, it\u2019s a strategy that leaves them on the losing side in the long-term according to John West, Co-Founder of Flatrock Wealth Partners."
-      },
-      {
-        "title": "Trump Just Made An Obscure Pentagon Office Bigger Than The Marine Corps. Here Are 5 Stocks For This $1.5 Trillion Defense Opportunity",
-        "url": "https://247wallst.com/investing/2026/07/07/trump-just-made-an-obscure-pentagon-office-bigger-than-the-marine-corps-here-are-5-stocks-for-this-1-5-trillion-defense-opportunity/?.tsrc=rss",
-        "time_published": "2026-07-07 20:57",
+        "title": "JEPI vs. JEPQ: Which Is the Better Buy in July?",
+        "url": "https://247wallst.com/investing/2026/07/08/jepi-vs-jepq-which-is-the-better-buy-in-july/?.tsrc=rss",
+        "time_published": "2026-07-08 15:31",
         "source": "247wallst",
-        "summary": "Buried inside President Trump\u2019s Fiscal Year 2027 defense budget request sits a line item that dwarfs almost every other increase in the document. The Defense Autonomous Warfare Group (DAWG), a Pentagon office that stood up quietly late last year with an initial budget of roughly $225 to $226 million"
+        "summary": "The battle between JPMorgan\u2019s two flagship covered-call income ETFs comes down to a simple trade-off: JPMorgan Equity Premium Income ETF (NYSEARCA:JEPI) offers the smoother ride, while JPMorgan Nasdaq Equity Premium Income ETF (NASDAQ:JEPQ) delivers the fatter distributions. In July 2026, that trade"
       },
       {
-        "title": "Goldman\u2019s Top Strategist Sees a Dangerous Amount of Leverage Piling Up",
-        "url": "https://247wallst.com/investing/2026/07/07/goldmans-top-strategist-sees-a-dangerous-amount-of-leverage-piling-up/?.tsrc=rss",
-        "time_published": "2026-07-07 18:45",
+        "title": "This Undervalued $40 Billion Company Is Ready To Soar",
+        "url": "https://247wallst.com/investing/2026/07/08/this-undervalued-40-billion-company-is-ready-to-soar/?.tsrc=rss",
+        "time_published": "2026-07-08 15:27",
         "source": "247wallst",
-        "summary": "Ben Snider, Chief U.S. Equity Strategist at Goldman Sachs, went on CNBC to say something that should register with anyone who has been happily riding this market higher. The character of this market is shifting midyear, and the driver is a substantial increase in a substantial increase in leverage a"
+        "summary": "$40 billion. That is the market capitalization of Celestica (NYSE:CLS), a company that raised its revenue guidance from $17.0 billion to $19 billion recently (now trading right around 2-times sales). This move came alongside the company\u2019s Q1 2026 report on April 27, 2026. Management now expects to a"
       },
       {
-        "title": "Yardeni: AI is the real deal, not a bubble; targets S&P 500 at 8,250 by year-end",
-        "url": "https://247wallst.com/investing/2026/07/07/yardeni-ai-is-the-real-deal-not-a-bubble-targets-sp-500-at-8250-by-year-end/?.tsrc=rss",
-        "time_published": "2026-07-07 17:14",
+        "title": "This $6.9 Billion ETF Delivers Consistent Dividends Without Eroding Share Price Like Covered Calls",
+        "url": "https://247wallst.com/investing/etf/2026/07/08/this-6-9-billion-etf-delivers-consistent-dividends-without-eroding-share-price-like-covered-calls/?.tsrc=rss",
+        "time_published": "2026-07-08 15:09",
         "source": "247wallst",
-        "summary": "Ed Yardeni is holding firm through the AI bubble debate. On Squawk Box, the veteran strategist and president of Yardeni Research argued that the current market rally rests on earnings, and he reiterated an aggressive S&P 500 target of 8250 by the end of 2026. The benchmark closed last week at 744.78"
+        "summary": "The NEOS S&P 500 High Income ETF (CBOE:SPYI) has become one of the largest derivative-income funds in the U.S., paying monthly distributions that annualize to roughly 12% on a share price around $53. Income investors buy SPYI for S&P 500 exposure that writes them a check every month rather than one"
       },
       {
-        "title": "July Is the S&P 500's Best Month: These 5 Tech Stocks Beat the Market",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/july-p-500s-best-month-155013209.html?.tsrc=rss",
-        "time_published": "2026-07-07 15:50",
+        "title": "Unstable Peace Talks Send Pre-Markets Lower",
+        "url": "https://finance.yahoo.com/economy/policy/articles/unstable-peace-talks-send-pre-141300435.html?.tsrc=rss",
+        "time_published": "2026-07-08 14:13",
         "source": "Finance",
-        "summary": "July has historically been the U.S. stock market\u2019s best month. The S&P 500 \u2014 as tracked by the SPDR S&P 500 ETF Trust (NYSE:SPY) \u2014 rose 2.56% on average over the past 20 years in July, the strongest average return of any month. The index finished July higher 80% of the time and has closed green in e"
+        "summary": "Both the U.S. and Iran see an end to this conflict as necessary to their economic well-being, but coming to terms is proving difficult."
+      },
+      {
+        "title": "4 ETF Winners of June Likely to Gain in July",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/4-etf-winners-june-likely-140000383.html?.tsrc=rss",
+        "time_published": "2026-07-08 14:00",
+        "source": "Finance",
+        "summary": "These ETF gainers of June may keep climbing in July as dovish Fed hopes, strong earnings and easing geopolitical risks support markets."
+      },
+      {
+        "title": "The Nasdaq 100 Now Controls a Quarter of Every Growth ETF Dollar",
+        "url": "https://247wallst.com/investing/2026/07/08/the-nasdaq-100-now-controls-a-quarter-of-every-growth-etf-dollar/?.tsrc=rss",
+        "time_published": "2026-07-08 13:30",
+        "source": "247wallst",
+        "summary": "On a recent Animal Spirits podcast titled \u201cTalk Your Book: How SpaceX Got Into the Nasdaq 100,\u201d Invesco\u2019s Paul Schroeder dropped a statistic that should stop any growth investor mid-scroll. The Nasdaq 100, which you probably know through Invesco QQQ Trust (NASDAQ:QQQ) and its cheaper sibling Invesco"
       }
     ],
     "oil": [
+      {
+        "title": "Update: WTI Oil Rises as Iran-US Fighting Resumes, Trump Says Ceasefire Is Over",
+        "url": "https://finance.yahoo.com/energy/articles/wti-oil-rises-iran-us-193512060.html?.tsrc=rss",
+        "time_published": "2026-07-08 19:35",
+        "source": "Finance",
+        "summary": "(Updates prices in the second paragraph and adds EIA data in the final paragraph.) West Texas Int"
+      },
+      {
+        "title": "Market Minute 7-8-26- Stocks Swoon as Iran Ceasefire Unravels",
+        "url": "https://finance.yahoo.com/markets/articles/market-minute-7-8-26-141500064.html?.tsrc=rss",
+        "time_published": "2026-07-08 14:15",
+        "source": "Finance",
+        "summary": "Stocks are swooning, while crude oil is surging amid worries the US-Iran ceasefire is unraveling. Treasury yields and the US dollar are rising modestly, while gold and silver are falling. Cryptocurrencies are broadly weaker as well."
+      },
+      {
+        "title": "4 ETF Winners of June Likely to Gain in July",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/4-etf-winners-june-likely-140000383.html?.tsrc=rss",
+        "time_published": "2026-07-08 14:00",
+        "source": "Finance",
+        "summary": "These ETF gainers of June may keep climbing in July as dovish Fed hopes, strong earnings and easing geopolitical risks support markets."
+      },
+      {
+        "title": "Sector Update: Energy Stocks Advance Pre-Bell Wednesday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-132248040.html?.tsrc=rss",
+        "time_published": "2026-07-08 13:22",
+        "source": "Finance",
+        "summary": "Energy stocks were advancing pre-bell Wednesday, with the State Street Energy Select Sector SPDR ETF"
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday as Trump Declares US-Iran Agreement Over",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130428931.html?.tsrc=rss",
+        "time_published": "2026-07-08 13:04",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.5%, and the actively t"
+      },
+      {
+        "title": "Oil Rises More Than 5% as Iran-US Fighting Resumes, Trump Says Ceasefire Is Over",
+        "url": "https://finance.yahoo.com/energy/articles/oil-rises-more-5-iran-124137054.html?.tsrc=rss",
+        "time_published": "2026-07-08 12:41",
+        "source": "Finance",
+        "summary": "Oil prices surged early Wednesday as the U.S. and Iran traded attacks, with President Trump saying t"
+      },
       {
         "title": "Update: WTI Oil Rises Following Iranian Attacks on Ships in the Strait of Hormuz",
         "url": "https://finance.yahoo.com/energy/articles/wti-oil-rises-following-iranian-193453489.html?.tsrc=rss",
@@ -248,48 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-07 13:22",
         "source": "Finance",
         "summary": "Energy stocks were edging higher pre-bell Tuesday, with the State Street Energy Select Sector SPDR E"
-      },
-      {
-        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Amid Caution Over Chip Sector Outlook",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-132222461.html?.tsrc=rss",
-        "time_published": "2026-07-07 13:22",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t"
-      },
-      {
-        "title": "Oil Rises Following Iranian Attacks on Ships in the Strait of Hormuz",
-        "url": "https://finance.yahoo.com/energy/articles/oil-rises-following-iranian-attacks-125102431.html?.tsrc=rss",
-        "time_published": "2026-07-07 12:51",
-        "source": "Finance",
-        "summary": "Oil prices rose early on Tuesday following Iranian attacks on ships moving through the Strait of Hor"
-      },
-      {
-        "title": "Update: WTI Oil Edges Lower as it Sticks Near a Four-Month Low as Supply Continues to Return to Normal",
-        "url": "https://finance.yahoo.com/energy/articles/wti-oil-edges-lower-sticks-184012192.html?.tsrc=rss",
-        "time_published": "2026-07-06 18:40",
-        "source": "Finance",
-        "summary": "(Adds closing WTI price in the second paragraph.) West Texas Intermediate (WTI) crude oil prices"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Decline Premarket Monday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132822878.html?.tsrc=rss",
-        "time_published": "2026-07-06 13:28",
-        "source": "Finance",
-        "summary": "Energy stocks were declining premarket Monday, with the State Street Energy Select Sector SPDR ETF ("
-      },
-      {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday as Chip Stocks Rebound",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125452192.html?.tsrc=rss",
-        "time_published": "2026-07-06 12:54",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
-      },
-      {
-        "title": "Oil Sticks Near a Four-Month Low as Supply Continues to Return to Normal",
-        "url": "https://finance.yahoo.com/energy/articles/oil-sticks-near-four-month-124510186.html?.tsrc=rss",
-        "time_published": "2026-07-06 12:45",
-        "source": "Finance",
-        "summary": "Oil prices eased early Monday, staying near pre-war levels as tankers continue to move through the S"
       }
     ]
   }

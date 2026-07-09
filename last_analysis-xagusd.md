@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
-**Date:** 2026-07-07
-**Generated:** 2026-07-08T08:43:37Z
+**Date:** 2026-07-08
+**Generated:** 2026-07-09T09:56:24Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,25 +11,29 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 52.03, 49.6, 47.17 |
-| **Resistance** | 56.89, 59.32, 61.46 |
+| **Score** | 5/10 |
+| **Support** | 52.0, 50.38, 48.0 |
+| **Resistance** | N/A |
 
 ---
 
 ## Analysis
 
-Price at 54.46 is well below both the EMA50 (62.32) and EMA200 (61.46), confirming a strong bearish bias. The trend is clearly negative, and the moving averages are likely sloping downward, reinforcing that the path of least resistance is lower. No textbook chart patterns (triangles, flags, double tops/bottoms) are evident from the given data, though the presence of both a Shooting Star and a Morning Star within the last five candles indicates recent volatility and indecision. The Shooting Star suggests a potential rejection of higher prices, while the Morning Star hints at a bullish reversal — contradictory signals that warrant caution.
-
-The RSI at 38.15 is neutral, not yet oversold, leaving room for further downside. The MACD, however, shows a bullish crossover with a positive histogram (+0.19), which could be a short-term momentum shift. This divergence between the bearish price trend (below EMAs) and the bullish MACD reduces confidence in a clear directional trade. The overall signal score of 4/10 reflects this low confluence and conflicting evidence. Given the lack of a clean setup with favorable risk/reward, standing aside is the most prudent course.
-
-Best trade setup is absent; chasing a counter-trend bounce with no clear support or resistance levels near current price is risky. A short sell would require a confirmed break below recent lows (near 52.03 based on ATR) or a failed rally
+DECISION: WAIT  
+CONFIDENCE: MEDIUM  
+ENTRY: N/A  
+STOP_LOSS: N/A  
+TARGET_1: N/A  
+TARGET_2: N/A  
+RISK_REWARD: N/A  
+SCORE: 5/10  
+SUPPORT_LEVELS: 52.00, 50.38, 48.
 
 ---
 

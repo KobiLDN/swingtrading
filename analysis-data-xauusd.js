@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-07-08T08:42:50Z",
+  "generated": "2026-07-09T09:55:46Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10",
-  "analysis": "The strong downtrend is clearly confirmed by price trading well below both the EMA50 (4296.19) and EMA200 (4523.08). With a signal score of only 2/10 and the RSI in neutral territory (44.12), there is no oversold condition to suggest a reversal. The Doji candlestick pattern over the last five sessions indicates indecision, which could be a pause within the downtrend rather than a reversal signal. While the MACD has turned bullish (line above signal) and shows a positive histogram, this is the only mildly bullish divergence against an otherwise bearish backdrop. Such a divergence often leads to a short-term bounce rather than a full trend change, especially when the broader trend is strongly negative.  \n\nNo additional chart patterns such as triangles, flags, or double tops/bottoms can be inferred from the given data. The Doji alone is insufficient to build a reliable reversal pattern. Key resistance lies at the round number 4200, followed by the EMA50 at 4296, and then 4350. Support is nearby at the psychological 4100 level, with further supports at 4050 and 4000. Given the ATR of 77 pips, any trade would require a wide stop-loss, resulting in an unfavourable risk\u2011reward ratio in the current conflicted environment.  \n\nThe RSI and MACD do not agree with the trend: RSI is neutral, offering no confirmation, while MACD is bullish \u2013 a contradiction to the strong downtrend. This lack of confluence reduces confidence in any directional bias. The best course of action is to wait for a clearer signal, such as a decisive break below 4100 that would reaffirm the downtrend, or a strong rejection at resistance that provides a lower\u2011risk sell entry. Attempting to trade into this conflicting setup carries excessive risk, especially with a low signal score.  \n\nIn summary, the technical picture is dominated by a strong downtrend, but the MACD bullish crossover and Doji indecision create a short\u2011term uncertainty. The risk\u2011reward is unattractive, and confidence is low. Waiting for price to either confirm the downtrend with a break of support or to form a clean pattern near resistance is the most prudent approach for a swing trader.",
-  "invalidation": "A sustained move above the EMA50 at 4296 would invalidate the current bearish bias and signal a potential trend change, while a breakdown below 4100 would confirm the downtrend and open a new short opportunity.",
+  "score": "5/10",
+  "analysis": "The daily chart confirms a strong downtrend, with price trading well below both the 50\u2011 and 200\u2011period EMAs (4254.92 and 4512.29). This alignment supports the bearish bias, but the divergence between the price trend and the MACD indicator introduces caution. The MACD has crossed above its signal line with a positive histogram, a typically bullish signal that could indicate early momentum shifts or a corrective bounce. However, the RSI at 44.92 is neutral, failing to confirm either oversold conditions or clear bearish strength, and no divergence is present.  \n\nThe candlestick patterns over the last five sessions\u2014Doji followed by two Evening Stars\u2014are heavily bearish, suggesting failed rallies and persistent selling pressure at higher levels. This bearish price action directly contradicts the MACD\u2019s bullish crossover, creating a conflicting signal. The overall signal score of 5/10 reflects this indecision. Without a clear convergence of indicators, entering a trade now carries elevated risk of whipsaw or false breakout.  \n\nKey support lies near the ATR\u2011derived level of 4034 (current price minus one ATR) and the psychological 4000 round number. Resistance is first at 4188 (current price plus one ATR), then the 50\u2011EMA at 4254, and finally 4300. The proximity of price to support suggests limited downside potential before a bounce, yet the bearish candlestick patterns argue for further weakness. Until a stronger signal emerges\u2014either a decisive break of support or a bullish reversal pattern\u2014the prudent approach is to wait on the sidelines.",
+  "invalidation": "This wait\u2011and\u2011see setup is invalidated if price closes above 4200 (confirming a short\u2011term reversal) or below 4000 (confirming continuation of the downtrend with new momentum).",
   "support_levels": [
-    4100.0,
-    4050.0,
-    4000.0
+    4034.0,
+    4000.0,
+    3900.0
   ],
   "resistance_levels": [
-    4200.0,
-    4296.0,
-    4350.0
+    4188.0,
+    4254.0,
+    4300.0
   ]
 };

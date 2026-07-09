@@ -1,27 +1,25 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-07-08T08:42:05Z",
+  "generated": "2026-07-09T09:55:11Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-07-08",
-  "decision": "BUY",
-  "confidence": "MEDIUM",
-  "entry": "1.3368",
-  "stop_loss": "1.3300",
-  "target_1": "1.3411",
-  "target_2": "1.3450",
-  "risk_reward": "1.21 (for T2); 0.63 (for T1)",
-  "score": "7/10",
-  "analysis": "The price is currently above the EMA50 (1.33427) but below the EMA200 (1.34107), placing the market in a short-term bullish bias within a longer-term neutral-to-bearish structure. However, the recent Bullish Engulfing candle following a Doji signals a potential reversal after a period of indecision. This classic two-candle pattern, combined with the RSI bullish divergence (price made a lower low while RSI formed a higher low), suggests increasing upside momentum. The MACD is also bullish, with the MACD line above the signal line and rising histogram bars, confirming the short-term shift in momentum. Together, these indicators provide a confluence for a long trade despite the overall neutral trend designation.\n\nNo major chart patterns like triangles or flags are obvious from the given data, but the clean Bullish Engulfing pattern at current levels acts as a powerful reversal signal. Near-term support is found at the EMA50 (1.3343) and the round number 1.3300, while resistance sits at the EMA200 (1.3411), followed by 1.3450 (prior swing high) and the psychological 1.3500 level. The ATR of 63 pips indicates typical daily volatility; the proposed stop at 1.3300 (68 pips below entry) respects this by being placed just below the nearest major support, providing room to avoid noise while protecting against a failed breakout.\n\nThe trade setup is a buy at the current price of 1.3368, targeting the first resistance at the EMA200 (1.3411) for a 43-pip gain, with a secondary target at 1.3450 for an 82-pip gain. The risk of 68 pips yields a risk-reward ratio of 0.63 for T1 and 1.21 for T2, which is acceptable given the strong signal score of 7/10 and the confluence of bullish divergence, candlestick pattern, and MACD. Risk is medium due to the neutral long-term trend and the proximity of resistance, but the short-term evidence favors a bullish move.",
-  "invalidation": "This bullish setup is invalidated if price closes below 1.3300 (the swing low area) or breaks below the Bullish Engulfing candle\u2019s low, as that would negate the reversal signal and expose the market to further downside.",
+  "date": "2026-07-09",
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "4/10 confirmed",
+  "analysis": "The EMA structure shows a bullish bias with price (1.34125) above both the EMA 50 (1.33471) and EMA 200 (1.34071). However, the price is only marginally above the EMA 200, which acts as dynamic support. The recent price action does not strongly confirm the EMA trend because the Evening Star candlestick pattern over the last five candles suggests a potential bearish reversal from a local high. This pattern weakens the bullish conviction, especially when price is hugging the EMA 200 rather than accelerating away from it.\n\nNo clear additional chart patterns (triangles, flags, double tops/bottoms) are evident on the daily timeframe. The price appears to be in a narrow consolidation zone near the EMA 200, which could indicate indecision. Key resistance is at 1.34500 (prior swing high) and then 1.35000 (psychological level). Support is at the EMA 200 (1.34071), followed by the EMA 50 (1.33471) and 1.33000 (prior support zone).\n\nRSI at 62.72 is neutral and does not confirm strong bullish momentum, while MACD is bullish with the line above the signal and a positive histogram. This divergence between RSI neutrality and MACD bullishness reduces confluence. The Evening Star pattern adds a bearish warning, making the overall signal score of 4/10 appropriate. The lack of strong alignment between trend, momentum, and candlestick patterns suggests waiting for clearer confirmation.",
+  "invalidation": "N/A",
   "support_levels": [
-    1.3343,
-    1.33,
-    1.326
+    1.33
   ],
   "resistance_levels": [
-    1.3411,
     1.345,
-    1.35
+    1.35,
+    1.355
   ]
 };
