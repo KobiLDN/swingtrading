@@ -1,41 +1,27 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-09T09:21:09Z",
-  "date": "2026-07-09",
-  "price": 1.34125,
-  "atr": 0.00611,
-  "atr_pips": 61,
+  "generated": "2026-07-10T09:18:45Z",
+  "date": "2026-07-10",
+  "price": 1.34141,
+  "atr": 0.00603,
+  "atr_pips": 60,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33471,
-  "ema200": 1.34071,
-  "rsi": 62.72,
-  "macd_line": 0.001621,
-  "macd_signal": -0.00064,
-  "macd_hist": 0.002261,
+  "ema50": 1.33496,
+  "ema200": 1.34052,
+  "rsi": 62.92,
+  "macd_line": 0.002057,
+  "macd_signal": -0.000105,
+  "macd_hist": 0.002162,
   "trend": "BULLISH BIAS",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-07-05",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    }
-  ],
-  "score": 4,
+  "patterns": [],
+  "score": 1,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-01",
-      "open": 1.3236,
-      "high": 1.33453,
-      "low": 1.32205,
-      "close": 1.33013
-    },
     {
       "date": "2026-04-02",
       "open": 1.33011,
@@ -727,7 +713,14 @@
       "open": 1.3389,
       "high": 1.343,
       "low": 1.3382,
-      "close": 1.34125
+      "close": 1.34092
+    },
+    {
+      "date": "2026-07-10",
+      "open": 1.34089,
+      "high": 1.34517,
+      "low": 1.34016,
+      "close": 1.34141
     }
   ]
 }

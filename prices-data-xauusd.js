@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-07-09T09:21:10Z",
-  "date": "2026-07-09",
-  "price": 4111.52,
-  "atr": 76.67,
-  "atr_pips": 77,
+  "generated": "2026-07-10T09:18:46Z",
+  "date": "2026-07-10",
+  "price": 4101.19,
+  "atr": 75.38,
+  "atr_pips": 75,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4254.92,
-  "ema200": 4512.29,
-  "rsi": 44.92,
-  "macd_line": -38.809207,
-  "macd_signal": -53.861575,
-  "macd_hist": 15.052368,
+  "ema50": 4249.37,
+  "ema200": 4516.16,
+  "rsi": 44.16,
+  "macd_line": -36.481603,
+  "macd_signal": -50.230927,
+  "macd_hist": 13.749324,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-05",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-07-06",
       "name": "Evening Star",
@@ -41,13 +35,6 @@ window.PRICES_DATA_XAUUSD = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-01",
-      "open": 4683.78,
-      "high": 4792.52,
-      "low": 4657.93,
-      "close": 4768.03
-    },
     {
       "date": "2026-04-02",
       "open": 4767.95,
@@ -737,9 +724,16 @@ window.PRICES_DATA_XAUUSD = {
     {
       "date": "2026-07-09",
       "open": 4077.44,
-      "high": 4116.41,
+      "high": 4137.7,
       "low": 4054.06,
-      "close": 4111.52
+      "close": 4123.64
+    },
+    {
+      "date": "2026-07-10",
+      "open": 4123.75,
+      "high": 4133.94,
+      "low": 4095.17,
+      "close": 4101.19
     }
   ]
 };
