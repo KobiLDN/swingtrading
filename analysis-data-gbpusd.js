@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-07-09T09:55:11Z",
+  "generated": "2026-07-10T09:50:39Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,10 +11,12 @@ window.ANALYSIS_DATA_GBPUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10 confirmed",
-  "analysis": "The EMA structure shows a bullish bias with price (1.34125) above both the EMA 50 (1.33471) and EMA 200 (1.34071). However, the price is only marginally above the EMA 200, which acts as dynamic support. The recent price action does not strongly confirm the EMA trend because the Evening Star candlestick pattern over the last five candles suggests a potential bearish reversal from a local high. This pattern weakens the bullish conviction, especially when price is hugging the EMA 200 rather than accelerating away from it.\n\nNo clear additional chart patterns (triangles, flags, double tops/bottoms) are evident on the daily timeframe. The price appears to be in a narrow consolidation zone near the EMA 200, which could indicate indecision. Key resistance is at 1.34500 (prior swing high) and then 1.35000 (psychological level). Support is at the EMA 200 (1.34071), followed by the EMA 50 (1.33471) and 1.33000 (prior support zone).\n\nRSI at 62.72 is neutral and does not confirm strong bullish momentum, while MACD is bullish with the line above the signal and a positive histogram. This divergence between RSI neutrality and MACD bullishness reduces confluence. The Evening Star pattern adds a bearish warning, making the overall signal score of 4/10 appropriate. The lack of strong alignment between trend, momentum, and candlestick patterns suggests waiting for clearer confirmation.",
-  "invalidation": "N/A",
+  "score": "1/10",
+  "analysis": "The EMA alignment shows a bullish bias with price (1.34141) above both the 50-period EMA (1.33496) and the 200-period EMA (1.34052). However, the price is only marginally above the 200 EMA, indicating a weak bullish foothold. The MACD is bullish with the line above the signal and a positive histogram, but the RSI at 62.92 is neutral and lacks overbought or oversold extremes, offering no strong momentum confirmation. The signal score of 1/10 suggests very low conviction, and no candlestick patterns or divergences are present to reinforce a trade.\n\nNo clear chart patterns (triangles, flags, double tops/bottoms) are inferred from the provided data. The price is hovering near the 200 EMA, which often acts as a dynamic support/resistance level. Key resistance is around 1.3450 (recent swing high area) and 1.3500 (psychological level). Support lies at the 200 EMA (1.34052) and the 50 EMA (1.33496). The tight proximity to the 200 EMA increases the risk of a false breakout or reversal.\n\nThe RSI and MACD show mild bullish agreement, but the neutral RSI and the price\u2019s proximity to the 200 EMA reduce confluence. The ATR of 60 pips suggests moderate volatility, but without a clear entry trigger or pattern, the risk of entering a low-conviction trade is high. The best setup would be to wait for a decisive break above 1.3450 with volume or a pullback to the 200 EMA with a bullish reversal pattern.",
+  "invalidation": "A close below the 200 EMA (1.34052) would invalidate the bullish bias and suggest a potential trend shift to bearish.",
   "support_levels": [
+    1.34052,
+    1.33496,
     1.33
   ],
   "resistance_levels": [

@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-07-08
-**Generated:** 2026-07-09T09:56:04Z
+**Date:** 2026-07-09
+**Generated:** 2026-07-10T09:51:31Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 733.94, 730.0, 723.29 |
-| **Resistance** | 755.0, 765.0, 770.0 |
+| **Score** | 4/10 confirmed |
+| **Support** | 745.0, 740.0, 734.64 |
+| **Resistance** | 755.0, 760.0, 765.0 |
 
 ---
 
 ## Analysis
 
-The pre-calculated trend label is STRONG UPTREND, confirmed by price at 745.4 trading well above both the EMA 50 (733.94) and EMA 200 (701.31). The EMA 50 is significantly above the EMA 200, indicating a healthy bullish structure. However, the immediate price action shows a Bearish Engulfing candlestick pattern on the daily chart, which introduces short-term selling pressure and suggests a potential pullback or pause in the uptrend. The 5/10 signal score reflects this mixed picture — bullish structure with a bearish reversal signal.
+The price at 751.71 sits well above both the EMA50 (734.64) and EMA200 (702.24), confirming the strong uptrend indicated by the trend label. However, the presence of both a Bearish Engulfing and a Morning Star within the last five candles creates conflicting short-term signals. The Bearish Engulfing warns of a potential reversal from recent highs, while the Morning Star suggests a bullish recovery after a dip. This ambiguity undermines the reliability of the current trend continuation, especially given the low signal score of 4/10.  
 
-No clear additional chart patterns (flags, triangles, double tops/bottoms) are immediately inferable from the provided data alone. The RSI at 52.92 is neutral, not overbought, which means there is room for the uptrend to continue, but no strong momentum confirmation. The MACD is bullish with the line above the signal and a positive histogram, supporting the uptrend. However, the bearish engulfing candle contradicts this and creates a divergence in short-term signals, reducing conviction.
+No clear additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the provided data. The RSI at 57.12 is neutral, showing neither overbought nor oversold conditions, and the MACD remains bullish with the line above the signal and a positive histogram. While the MACD aligns with the uptrend, the RSI’s neutrality offers no extra conviction. The lack of RSI divergence further supports the absence of an imminent trend reversal, but the candlestick conflict prevents a high-confidence entry.  
 
-The key support level is the EMA 50 at 733.94, followed by the recent swing low around 730.00. Resistance is likely near the recent high zone around 755.00, with next levels near 765.00 and 770.00. Given the lack of RSI divergence, neutral RSI, and the bearish candle, there is not enough confluence for a high-confidence entry. A buy entry would require the price to recover above the bearish engulfing high or pull back to strong support and show a bullish reversal. A sell entry is not justified against the strong trend.
+Key support levels near the current price are the recent swing low around 745.00, the 740.00 round number, and the EMA50 at 734.64. Resistance stands at 755.00 (recent highs), 760.00 (psychological level), and 765.00 (extended target). The best trade setup is to wait for a clearer directional signal—either a decisive break above 755.00 with volume or a pullback to the EMA50 (734.64) that holds and forms a bullish reversal pattern. The risk is elevated due to the mixed signals and low score, making a premature entry imprudent.
 
 ---
 
 ## Invalidation
 
-A daily close below 733.94 (EMA 50) would invalidate the bullish trend bias and shift the outlook to neutral or bearish, while a close above 755.00 would cancel the bearish engulfing signal and confirm continuation.
+A close below the EMA50 at
 
 ---
 

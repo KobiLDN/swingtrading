@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-07-08T08:44:21Z",
+  "generated": "2026-07-10T09:52:07Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-07-07",
-  "decision": "SELL",
+  "date": "2026-07-09",
+  "decision": "WAIT",
   "confidence": "LOW",
-  "entry": "108.92",
-  "stop_loss": "111.25",
-  "target_1": "105.00",
-  "target_2": "103.93",
-  "risk_reward": "1.68 (target 1), 2.14 (target 2)",
-  "score": "5/10",
-  "analysis": "Price at 108.92 sits below the EMA50 (121.07) but above the EMA200 (103.93), confirming a neutral trend with short-term bearish bias. The Bearish Engulfing pattern on the last candle signals a potential reversal lower, especially after a prior downtrend. RSI at 38.97 is neutral but below 50, indicating bearish momentum, while MACD remains bearish with the line below the signal and a negative histogram. These indicators align with a short-term sell setup, though the overall trend is not strongly bearish, limiting confidence.  \n\nNo clear additional chart patterns (triangles, flags, etc.) are evident from the given data, but the price is approaching the EMA200, a major support level. The nearest support is the round number 105.00, followed by the EMA200 at 103.93 and psychological 100.00. Resistance lies at 110.00 (round), 112.00, and 115.00. The bearish engulfing suggests a move toward these supports, with the EMA200 as a key target.  \n\nThe best trade setup is a short entry at current price, with a stop above the bearish engulfing candle\u2019s high (estimated at 111.25 based on ATR). Targets are set at 105.00 (first) and 103.93 (second). The risk-reward ratio is acceptable for target 2 (1:2.14) but marginal for target 1. Given the neutral trend and moderate signal score, confidence is low; this is a speculative short based on short-term bearish momentum.  \n\nRisk assessment: The primary risk is a false breakdown or a bounce from the EMA200 support, which could reverse the trade. The ATR of 4.65 implies daily volatility of about 4.3%, so the stop at 111.25 (2.1% above entry) is tight but reasonable. If price fails to break below 105.00, the trade may stall. Overall, the setup is valid but not high-conviction.",
-  "invalidation": "A daily close above 111.25 (the bearish engulfing high) would cancel the short setup and suggest a reversal higher.",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "2/10",
+  "analysis": "Price at 109.01 sits between the EMA50 (120.26, bearish slope) and EMA200 (103.90, bullish slope), confirming the neutral trend designation. The recent Doji candle reflects indecision after a period of decline, while the RSI at 40.48 is in neutral territory but not oversold, offering no clear reversal signal. The MACD shows a bullish cross (line above signal) with a positive histogram (+0.72), but this is a nascent or weak signal given the low signal score of 2/10. Without strong momentum or price confirmation, the MACD alone is not enough to justify entry.  \n\nNo additional chart patterns (triangles, flags, or double tops/bottoms) are evident from the limited candlestick data. Key support lies at the EMA200 (103.90) and the psychological 100 level, while resistance is at the EMA50 (120.26) and the 125 area. The Doji could indicate a potential pause, but the lack of RSI divergence or a clear trend shift makes any trade premature. Confluence between RSI and MACD is mixed \u2014 the MACD leans bullish while the RSI is neutral and below 50, highlighting disagreement.  \n\nThe best action is to wait for a clearer catalyst, such as a decisive break above the EMA50 (bullish) or a breakdown below the EMA200 (bearish), accompanied by stronger volume or momentum. The current 2/10 score reflects the weak setup: price is trapped between key moving averages, momentum is tepid, and candlestick patterns show hesitation. A higher-confidence trade would require a confirmed trend (e.g., price above EMA50 with RSI > 50 and rising MACD histogram) or an oversold RSI with a bullish divergence.",
+  "invalidation": "A decisive close above 120.26 (EMA50) or below 103.90 (EMA200) would invalidate the wait stance and prompt a reassessment of trend direction.",
   "support_levels": [
-    105.0,
-    103.93,
-    100.0
+    103.9,
+    100.0,
+    95.0
   ],
   "resistance_levels": [
-    110.0,
-    112.0,
-    115.0
+    120.26,
+    125.0,
+    130.0
   ]
 };

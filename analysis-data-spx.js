@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-07-09T09:56:04Z",
+  "generated": "2026-07-10T09:51:31Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The pre-calculated trend label is STRONG UPTREND, confirmed by price at 745.4 trading well above both the EMA 50 (733.94) and EMA 200 (701.31). The EMA 50 is significantly above the EMA 200, indicating a healthy bullish structure. However, the immediate price action shows a Bearish Engulfing candlestick pattern on the daily chart, which introduces short-term selling pressure and suggests a potential pullback or pause in the uptrend. The 5/10 signal score reflects this mixed picture \u2014 bullish structure with a bearish reversal signal.\n\nNo clear additional chart patterns (flags, triangles, double tops/bottoms) are immediately inferable from the provided data alone. The RSI at 52.92 is neutral, not overbought, which means there is room for the uptrend to continue, but no strong momentum confirmation. The MACD is bullish with the line above the signal and a positive histogram, supporting the uptrend. However, the bearish engulfing candle contradicts this and creates a divergence in short-term signals, reducing conviction.\n\nThe key support level is the EMA 50 at 733.94, followed by the recent swing low around 730.00. Resistance is likely near the recent high zone around 755.00, with next levels near 765.00 and 770.00. Given the lack of RSI divergence, neutral RSI, and the bearish candle, there is not enough confluence for a high-confidence entry. A buy entry would require the price to recover above the bearish engulfing high or pull back to strong support and show a bullish reversal. A sell entry is not justified against the strong trend.",
-  "invalidation": "A daily close below 733.94 (EMA 50) would invalidate the bullish trend bias and shift the outlook to neutral or bearish, while a close above 755.00 would cancel the bearish engulfing signal and confirm continuation.",
+  "score": "4/10 confirmed",
+  "analysis": "The price at 751.71 sits well above both the EMA50 (734.64) and EMA200 (702.24), confirming the strong uptrend indicated by the trend label. However, the presence of both a Bearish Engulfing and a Morning Star within the last five candles creates conflicting short-term signals. The Bearish Engulfing warns of a potential reversal from recent highs, while the Morning Star suggests a bullish recovery after a dip. This ambiguity undermines the reliability of the current trend continuation, especially given the low signal score of 4/10.  \n\nNo clear additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the provided data. The RSI at 57.12 is neutral, showing neither overbought nor oversold conditions, and the MACD remains bullish with the line above the signal and a positive histogram. While the MACD aligns with the uptrend, the RSI\u2019s neutrality offers no extra conviction. The lack of RSI divergence further supports the absence of an imminent trend reversal, but the candlestick conflict prevents a high-confidence entry.  \n\nKey support levels near the current price are the recent swing low around 745.00, the 740.00 round number, and the EMA50 at 734.64. Resistance stands at 755.00 (recent highs), 760.00 (psychological level), and 765.00 (extended target). The best trade setup is to wait for a clearer directional signal\u2014either a decisive break above 755.00 with volume or a pullback to the EMA50 (734.64) that holds and forms a bullish reversal pattern. The risk is elevated due to the mixed signals and low score, making a premature entry imprudent.",
+  "invalidation": "A close below the EMA50 at",
   "support_levels": [
-    733.94,
-    730.0,
-    723.29
+    745.0,
+    740.0,
+    734.64
   ],
   "resistance_levels": [
     755.0,
-    765.0,
-    770.0
+    760.0,
+    765.0
   ]
 };
