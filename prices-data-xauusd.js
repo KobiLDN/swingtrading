@@ -1,61 +1,27 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-07-10T09:18:46Z",
-  "date": "2026-07-10",
-  "price": 4101.19,
-  "atr": 75.38,
-  "atr_pips": 75,
+  "generated": "2026-07-13T08:48:30Z",
+  "date": "2026-07-13",
+  "price": 4073.54,
+  "atr": 67.16,
+  "atr_pips": 67,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4249.37,
-  "ema200": 4516.16,
-  "rsi": 44.16,
-  "macd_line": -36.481603,
-  "macd_signal": -50.230927,
-  "macd_hist": 13.749324,
+  "ema50": 4232.93,
+  "ema200": 4508.36,
+  "rsi": 41.13,
+  "macd_line": -32.298092,
+  "macd_signal": -41.242101,
+  "macd_hist": 8.944009,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-07-06",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-07-07",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    }
-  ],
-  "score": 5,
-  "verdict": "WATCH",
+  "patterns": [],
+  "score": 1,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-02",
-      "open": 4767.95,
-      "high": 4798.54,
-      "low": 4555.07,
-      "close": 4675.34
-    },
-    {
-      "date": "2026-04-03",
-      "open": 4675.28,
-      "high": 4677.02,
-      "low": 4665.07,
-      "close": 4676.49
-    },
-    {
-      "date": "2026-04-04",
-      "open": 4676.43,
-      "high": 4676.82,
-      "low": 4676.01,
-      "close": 4676.51
-    },
     {
       "date": "2026-04-05",
       "open": 4676.43,
@@ -732,8 +698,29 @@ window.PRICES_DATA_XAUUSD = {
       "date": "2026-07-10",
       "open": 4123.75,
       "high": 4133.94,
-      "low": 4095.17,
-      "close": 4101.19
+      "low": 4076.64,
+      "close": 4119.32
+    },
+    {
+      "date": "2026-07-11",
+      "open": 4119.46,
+      "high": 4120.42,
+      "low": 4106.62,
+      "close": 4111.53
+    },
+    {
+      "date": "2026-07-12",
+      "open": 4111.44,
+      "high": 4111.74,
+      "low": 4111.36,
+      "close": 4111.54
+    },
+    {
+      "date": "2026-07-13",
+      "open": 4111.45,
+      "high": 4112.97,
+      "low": 4044.82,
+      "close": 4073.54
     }
   ]
 };
