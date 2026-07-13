@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-07-10
-**Generated:** 2026-07-10T09:50:56Z
+**Date:** 2026-07-13
+**Generated:** 2026-07-13T09:45:35Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 4/10 |
-| **Support** | 1.14, 1.135, 1.13 |
-| **Resistance** | 1.1499, 1.155, 1.1619 |
+| **Support** | 1.14, 1.137, 1.13 |
+| **Resistance** | 1.149, 1.155, 1.1623 |
 
 ---
 
 ## Analysis
 
-The broader trend remains firmly bearish, as price (1.14323) trades well below both the 50‑day EMA (1.14994) and the 200‑day EMA (1.16189). The “STRONG DOWNTREND” label is consistent with this structure, and the recent candlestick sequence—Doji, Evening Star, Morning Star, Shooting Star—reflects heightened indecision rather than a clear directional impulse. Without a decisive break above the nearest EMA resistance, the path of least resistance is still to the downside.  
+The daily chart for EUR/USD shows a clear structural downtrend with price trading well below both the 50-period EMA (1.14901) and the 200-period EMA (1.1623), confirming the "STRONG DOWNTREND" classification. However, recent price action has produced two bullish reversal candlestick patterns—a Morning Star and a Bullish Engulfing—within the last five candles, suggesting a potential short-term bounce. Despite these patterns, the overall trend remains bearish, and the price has not yet broken above any key moving average to signal a trend change.
 
-The MACD has turned bullish (line above signal) with a positive histogram, suggesting a potential loss of downward momentum. However, the RSI at 45.42 is neutral and not confirming any oversold reversal, nor is there any divergence. The bullish MACD crossover in a strong downtrend often signals a short‑term pullback or consolidation rather than a trend reversal. Given the mixed signals (MACD up, trend down, candlestick chaos) and a low signal score of 4/10, the risk/reward for any entry is currently unfavourable.  
+The RSI at 48.38 is neutral, offering no overbought or oversold extremes, while the MACD is bullish (line above signal) with a rising histogram. This divergence between the bearish trend and the bullish MACD indicates weakening downside momentum but not necessarily a reversal. Without a clear RSI divergence or a confirmed breakout above resistance, the confluence is weak. The low signal score of 4/10 reflects this mixed picture, where the bullish patterns are offset by the dominant downtrend.
 
-Key support lies near the psychological 1.1400 round number, followed by 1.1350 and 1.1300. Resistance is clustered around the 50‑day EMA at 1.1499, then 1.1550 (prior swing area) and the 200‑day EMA at 1.1619. The ATR of 46 pips indicates that any move against the trend could be swift, making it dangerous to chase either side without confirmation. A prudent approach is to wait for price to either break below 1.1400 with momentum (which would reinforce the downtrend) or to reclaim the 50‑day EMA (which would suggest a trend change may be underway).
+Given the lack of a clear, high-probability setup, the best course is to wait for either a confirmed breakout above the 1.1490 resistance (EMA 50) to validate a bullish reversal, or a failure of the bounce followed by a breakdown below the recent low near 1.1370 to re-enter a short position. Entering a long now would carry high risk due to the strong downtrend, while a short trade would be premature given the bullish reversal signals. Patience is warranted until the market offers a cleaner signal.
 
 ---
 
 ## Invalidation
 
-A close above 1.1500 (the 50‑day EMA region) would weaken the bearish bias and potentially open the door for a long setup, invalidating the wait‑and‑see stance.
+This wait-and-see approach is invalidated if price breaks decisively above 1.1490 (EMA 50) with strong volume, or if it falls below 1.1370, confirming the continuation of the downtrend.
 
 ---
 

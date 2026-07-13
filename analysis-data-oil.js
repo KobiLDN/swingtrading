@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-07-10T09:52:07Z",
+  "generated": "2026-07-13T09:47:03Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_OIL = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10",
-  "analysis": "Price at 109.01 sits between the EMA50 (120.26, bearish slope) and EMA200 (103.90, bullish slope), confirming the neutral trend designation. The recent Doji candle reflects indecision after a period of decline, while the RSI at 40.48 is in neutral territory but not oversold, offering no clear reversal signal. The MACD shows a bullish cross (line above signal) with a positive histogram (+0.72), but this is a nascent or weak signal given the low signal score of 2/10. Without strong momentum or price confirmation, the MACD alone is not enough to justify entry.  \n\nNo additional chart patterns (triangles, flags, or double tops/bottoms) are evident from the limited candlestick data. Key support lies at the EMA200 (103.90) and the psychological 100 level, while resistance is at the EMA50 (120.26) and the 125 area. The Doji could indicate a potential pause, but the lack of RSI divergence or a clear trend shift makes any trade premature. Confluence between RSI and MACD is mixed \u2014 the MACD leans bullish while the RSI is neutral and below 50, highlighting disagreement.  \n\nThe best action is to wait for a clearer catalyst, such as a decisive break above the EMA50 (bullish) or a breakdown below the EMA200 (bearish), accompanied by stronger volume or momentum. The current 2/10 score reflects the weak setup: price is trapped between key moving averages, momentum is tepid, and candlestick patterns show hesitation. A higher-confidence trade would require a confirmed trend (e.g., price above EMA50 with RSI > 50 and rising MACD histogram) or an oversold RSI with a bullish divergence.",
-  "invalidation": "A decisive close above 120.26 (EMA50) or below 103.90 (EMA200) would invalidate the wait stance and prompt a reassessment of trend direction.",
+  "score": "2/10 (confirmed)",
+  "analysis": "The current price of USO at 108.7 sits in a no\u2011man\u2019s\u2011land between the EMA50 (119.81) and the EMA200 (104.16). The EMA50 is well above price, suggesting near\u2011term bearish pressure, while the EMA200 provides a longer\u2011term floor. This configuration, combined with the \u201cNEUTRAL\u201d trend label, indicates a market in transition with no clear directional conviction. The Doji candlestick on the daily chart reinforces indecision, as buyers and sellers failed to establish control during the session.  \n\nThe RSI at 40.15 is neutral but leaning toward oversold, which could imply waning selling momentum. However, the MACD shows a bullish signal (line above signal and positive histogram), hinting at a possible short\u2011term bounce. This divergence between the bearish price structure (below EMA50) and the bullish MACD creates conflicting signals. The overall signal score of 2/10 reflects the lack of strong, aligned confirmations\u2014most indicators are weak or contradictory.  \n\nNear\u2011term support is anchored by the EMA200 at 104.16, followed by the psychological 100.00 level. Resistance is clustered around 110.00 (a recent minor high), then 115.00, and finally the EMA50 at 119.81. With the ATR of 4.6, any move to these levels would require a substantial daily swing, increasing risk for premature entries. The low confidence in the current setup argues against taking a position until price either breaks decisively above the EMA50 or retests and holds the EMA200 with a bullish reversal pattern.",
+  "invalidation": "Any trade placed here would be invalidated by a clear breakout above 119.81 with sustained volume (bullish) or a breakdown below 104.16 (bearish); until then, the market offers no reliable edge.",
   "support_levels": [
-    103.9,
+    104.16,
     100.0,
-    95.0
+    97.5
   ],
   "resistance_levels": [
-    120.26,
-    125.0,
-    130.0
+    110.0,
+    115.0,
+    119.81
   ]
 };

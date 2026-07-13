@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-10T09:52:08Z",
+  "generated": "2026-07-13T09:47:04Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Dollar Firms Amid Sticky Inflation \u2013 GBP/USD and EUR/USD Next Move?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081728366.html?.tsrc=rss",
+        "time_published": "2026-07-10 08:17",
+        "source": "Finance",
+        "summary": "The US Dollar remained firm amid sticky core inflation and monetary policy divergence. DXY held at $100.79 inside a blue ascending channel while EUR/USD held $1.1440 support and GBP/USD defended $1.3422 resistance zone. Technical setups and trade ideas inside."
+      },
       {
         "title": "US Dollar Price Forecast: Dollar Reacts to FOMC Minutes on Policy Divergence \u2014 GBP/USD and EUR/USD Next Move?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-075105683.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-06-19 00:55",
         "source": "Finance",
         "summary": "(Bloomberg) -- The pound is set to face growing pressure as its recovery from the post-Brexit selloff has made it the most overvalued currency among major peers, according to Goldman Sachs Group Inc.Most Read from BloombergRead the 14-Point Draft Memorandum Between the US and IranModi Warns of \u2018Shor"
-      },
-      {
-        "title": "Fed and BoE to Hold Fire as Markets Search for the Next Signal",
-        "url": "https://finance.yahoo.com/economy/policy/articles/fed-boe-hold-fire-markets-154917738.html?.tsrc=rss",
-        "time_published": "2026-06-17 15:49",
-        "source": "Finance",
-        "summary": "With rates set to remain unchanged this week on both sides of the Atlantic, investors are asking what will drive the next move: stubborn inflation, softer labour markets or changing central bank playbooks?"
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Dollar Firms Amid Sticky Inflation \u2013 GBP/USD and EUR/USD Next Move?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081728366.html?.tsrc=rss",
+        "time_published": "2026-07-10 08:17",
+        "source": "Finance",
+        "summary": "The US Dollar remained firm amid sticky core inflation and monetary policy divergence. DXY held at $100.79 inside a blue ascending channel while EUR/USD held $1.1440 support and GBP/USD defended $1.3422 resistance zone. Technical setups and trade ideas inside."
+      },
       {
         "title": "European Parliament clears path for digital euro talks",
         "url": "https://www.electronicpaymentsinternational.com/news/european-parliament-clears-path-for-digital-euro-talks/?.tsrc=rss",
@@ -108,17 +115,24 @@ window.NEWS_DATA = {
         "time_published": "2026-07-08 13:46",
         "source": "Finance",
         "summary": "The US dollar continues to move on rates, and with the attack on Iran last night, the USD rally isn\u2019t a big surprise."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Nears $101 Ahead of FOMC Meeting Minutes \u2014 Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073424964.html?.tsrc=rss",
-        "time_published": "2026-07-08 07:34",
-        "source": "Finance",
-        "summary": "Policy and growth divergence across major economies bolstered the US Dollar ahead of today\u2019s FOMC meeting minutes as DXY traded at $101. EUR/USD held blue trendline support at $1.1418 and GBP/USD tested resistance at $1.3360. Latest technical outlook for major pairs."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "SLV vs. SIVR: Same Silver, Lower Fee, So Which Physical Silver ETF Should You Actually Hold?",
+        "url": "https://247wallst.com/investing/etf/2026/07/11/slv-vs-sivr-same-silver-lower-fee-so-which-physical-silver-etf-should-you-actually-hold/?.tsrc=rss",
+        "time_published": "2026-07-11 16:15",
+        "source": "247wallst",
+        "summary": "Two physical silver ETFs hold the exact same bullion, track the same price, and share the same tax trap, yet one charges nearly twice as much as the other. Before you assume the answer is obvious, there is a specific type of investor for whom the pricier fund is actually the smarter choice."
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Amid Renewed US-Iran Tensions Ahead of Q2 Earnings Season",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130717862.html?.tsrc=rss",
+        "time_published": "2026-07-10 13:07",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr"
+      },
       {
         "title": "Silver and Copper Are Outpacing Gold in 2026 and After Following Industrial Metals These 3 ETFs Show How Smart Money Is Playing the Trend",
         "url": "https://247wallst.com/investing/etf/2026/07/09/silver-and-copper-are-outpacing-gold-in-2026-and-after-following-industrial-metals-these-3-etfs-show-how-smart-money-is-playing-the-trend/?.tsrc=rss",
@@ -160,81 +174,95 @@ window.NEWS_DATA = {
         "time_published": "2026-07-07 13:22",
         "source": "Finance",
         "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t"
-      },
-      {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday as Chip Stocks Rebound",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125452192.html?.tsrc=rss",
-        "time_published": "2026-07-06 12:54",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
-      },
-      {
-        "title": "America\u2019s 250th Birthday Just Set a Silver World Record \u2014 Literally",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/america-250th-birthday-just-set-213109191.html?.tsrc=rss",
-        "time_published": "2026-07-05 21:31",
-        "source": "Finance",
-        "summary": "America\u2019s 250th birthday just got a little heavier. Texas Precious Metals has officially earned the Guinness World Records title for the world\u2019s heaviest silver coin after unveiling a 2,500-troy-ounce, 0.9999 pure silver commemorative coin weighing approximately 200 pounds. Created to..."
       }
     ],
     "spx": [
       {
-        "title": "These Precious Metals ETFs Beat The S&P 500 Over The Past Year \u2014 Can The Rally Survive The Iran Whiplash?",
-        "url": "https://stocktwits.com/news-articles/markets/equity/these-precious-metals-etfs-beat-the-sp500-over-the-past-year/cZmAMRFR7FW?.tsrc=rss",
-        "time_published": "2026-07-10 05:15",
+        "title": "Nasdaq, S&P 500 Futures Slip As Iran Tensions Rattle Markets Again: Why MU, TSLA, BATL, SKHYV, MSFT, TSM, SLS Are In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-slip-iran-tensions-rattle-markets-again-why-mu-tsla-batl-skhyv-msft-tsm-sls-are-in-focus/cZmzj6qR7op?.tsrc=rss",
+        "time_published": "2026-07-13 08:42",
         "source": "Stocktwits",
-        "summary": "The World Bank projects that its precious metals price index will rise by 42% in 2026, but decline by 8% in 2027."
+        "summary": "Stocktwits data showed retail sentiment remained \u2018bullish\u2019 around SPY and \u2018neutral\u2019 on QQQ."
       },
       {
-        "title": "Dow, Nasdaq, S&P 500 Futures Retreat After Chip-Led Gains At Close: META, ONDS, FUBO, FRMI Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-nasdaq-sp500-futures-retreat-after-chip-led-gains-at-close/cZmAFbyR7F3?.tsrc=rss",
-        "time_published": "2026-07-10 01:30",
+        "title": "Avoid This Hidden Risk of Index Funds",
+        "url": "https://www.fool.com/investing/2026/07/13/avoid-this-hidden-risk-of-index-funds/?.tsrc=rss",
+        "time_published": "2026-07-13 05:20",
+        "source": "Fool",
+        "summary": "Investing in index funds is a good way to gain exposure to a broad range of stocks, but it's not without risk."
+      },
+      {
+        "title": "Nasdaq, S&P 500, Dow Futures Fall After Trump Directs Strikes \u2018To Hold Iranian Forces Accountable\u2019: NVDA, SLS, MRK, SKHYV, QS Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-fall-after-trump-directs-strikes-to-hold-iranian-forces-accountable/cZmz7lkR7o7?.tsrc=rss",
+        "time_published": "2026-07-13 01:33",
         "source": "Stocktwits",
-        "summary": "U.S. President Donald Trump told reporters on board Air Force One that Iran \u201cbadly\u201d wants to make a deal after America had \u201cjust hit [Iran] very hard.\u201d"
+        "summary": "U.S. Central Command said that American forces had begun launching further strikes against Iran to thwart their ability \u201cto attack civilian mariners and commercial ships freely transiting the Strait of Hormuz.\u201d"
       },
       {
-        "title": "Convert Your IRA While the Market Is Crashing and the IRS Basically Gives You a Discount",
-        "url": "https://247wallst.com/personal-finance/2026/07/09/convert-your-ira-while-the-market-is-crashing-and-the-irs-basically-gives-you-a-discount/?.tsrc=rss",
-        "time_published": "2026-07-09 22:47",
+        "title": "Stop Settling for VYM. This Fund Yields More, Costs 0.06%, and Beat the S&P",
+        "url": "https://247wallst.com/investing/2026/07/12/stop-settling-for-vym-this-fund-yields-more-costs-0-06-and-beat-the-sp/?.tsrc=rss",
+        "time_published": "2026-07-12 14:09",
         "source": "247wallst",
-        "summary": "If you have a traditional IRA and you watched your balance drop earlier this year, the IRS quietly handed you a coupon. When your account value falls, you can convert those same shares to a Roth IRA and pay income tax on the depressed value, not the peak. Every dollar of recovery after the conversio"
+        "summary": "Dividend-focused investors have made Vanguard High Dividend Yield ETF (NYSEARCA:VYM) one of the largest yield-tilted funds available, with $78.33B in assets and 618 holdings spanning U.S. large-cap dividend payers. VYM\u2019s appeal is straightforward: broad diversification, a very low fee, and a portfol"
       },
       {
-        "title": "S&P 500, Nasdaq, Dow End Higher Led By Chipmaker Stocks As Investors Look Past US-Iran Hostility \u2014 ORCL, SBUX, WULF, PANW, FATE In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-higher-led-by-chipmaker-stocks-as-investors-look-past-us-iran-hostility/cZmY9vSR7nz?.tsrc=rss",
-        "time_published": "2026-07-09 21:28",
-        "source": "Stocktwits",
-        "summary": "The United States carried out a second consecutive day of new military operations against Iran."
-      },
-      {
-        "title": "Your Fund May Carry An Unearned Price",
-        "url": "https://www.trefis.com/articles/606424/your-fund-may-carry-an-unearned-price/2026-07-09?.tsrc=rss",
-        "time_published": "2026-07-09 21:14",
-        "source": "Trefis",
-        "summary": "Some funds are trading far above their own historical valuations without delivering the performance to justify it; check your holdings against this list."
-      },
-      {
-        "title": "Top Wall Street Strategist: Tech Earnings Are the \u201cBest I\u2019ve Seen in My Career.\u201d Here\u2019s the Catch.",
-        "url": "https://247wallst.com/investing/2026/07/09/top-wall-street-strategist-tech-earnings-are-the-best-ive-seen-in-my-career-heres-the-catch/?.tsrc=rss",
-        "time_published": "2026-07-09 18:47",
+        "title": "The Maximum Social Security Check Is $5,108 a Month. Here\u2019s How Much Invested It Takes to Match It.",
+        "url": "https://247wallst.com/personal-finance/2026/07/12/the-maximum-social-security-check-is-5108-a-month-heres-how-much-invested-it-takes-to-match-it/?.tsrc=rss",
+        "time_published": "2026-07-12 13:34",
         "source": "247wallst",
-        "summary": "Emily Roland, Co-Chief Investment Strategist at Manulife John Hancock Investment Management, delivered a two-sided message on CNBC this morning: the fundamentals underpinning technology stocks are the strongest she has ever seen, yet the concentration those returns have created is rewriting the risk"
+        "summary": "The maximum Social Security retirement benefit in 2026 is $5,181 a month, a figure that only a tiny slice of workers ever actually collect. It requires paying the maximum FICA tax for 35 years and waiting until age 70 to claim. For the rare beneficiary who qualifies, the check amounts to $62,172 per"
       },
       {
-        "title": "U.S. Stock Market \u2018About As Expensive As It\u2019s Ever Been\u2019 \u2014 Here\u2019s How to Retirement Plan Around It",
-        "url": "https://247wallst.com/investing/2026/07/09/u-s-stock-market-about-as-expensive-as-its-ever-been-heres-how-to-retirement-plan-around-it/?.tsrc=rss",
-        "time_published": "2026-07-09 18:39",
+        "title": "This Covered Call ETF Just Proved Double Digit Income Doesn\u2019t Mean NAV Bleed",
+        "url": "https://247wallst.com/investing/2026/07/11/this-covered-call-etf-just-proved-double-digit-income-doesnt-mean-nav-bleed/?.tsrc=rss",
+        "time_published": "2026-07-11 15:39",
         "source": "247wallst",
-        "summary": "Robert Brokamp, the certified financial planner who hosts the Declare Your Financial Independence segment on Motley Fool Money, used his July 4th installment to remind listeners that the return assumption baked into their retirement calculator may be quietly setting them up for disappointment. His w"
+        "summary": "SPYI has paid double-digit yields every single month since inception while its share price keeps climbing, and that combination raises an uncomfortable question about where the money is actually coming from."
       },
       {
-        "title": "What ICLN's Concentrated Holdings Say About This Dip",
-        "url": "https://www.trefis.com/articles/606416/what-iclns-concentrated-holdings-say-about-this-dip/2026-07-09?.tsrc=rss",
-        "time_published": "2026-07-09 16:54",
-        "source": "Trefis",
-        "summary": "This clean energy fund's history shows that buying a discount often means enduring more downside first."
+        "title": "The Retirement Budget Most People Build Is Backward",
+        "url": "https://247wallst.com/personal-finance/2026/07/11/the-retirement-budget-most-people-build-is-backward/?.tsrc=rss",
+        "time_published": "2026-07-11 14:15",
+        "source": "247wallst",
+        "summary": "Most retirement budgets start with the wrong question. The instinct is to ask, \u201cWhat yield do I need so the nest egg covers the bills?\u201d Higher yield shrinks the required capital, so the math seduces you toward 8%, 10%, or 12% strategies. Punch in the numbers, write down the smaller portfolio target,"
+      },
+      {
+        "title": "The S&P 500 Isn\u2019t What You Think It Is Anymore \u2014 Here\u2019s the Uncomfortable Truth",
+        "url": "https://247wallst.com/investing/2026/07/11/the-sp-500-isnt-what-you-think-it-is-anymore-heres-the-uncomfortable-truth/?.tsrc=rss",
+        "time_published": "2026-07-11 12:58",
+        "source": "247wallst",
+        "summary": "The S&P 500 has long been synonymous with broad diversification, but the math behind today's index tells a very different story about where your money actually ends up."
       }
     ],
     "oil": [
+      {
+        "title": "Update: WTI Oil Falls as Renewed Iran-US Fighting Keeps Persian Gulf Supply Disrupted",
+        "url": "https://finance.yahoo.com/energy/articles/wti-oil-falls-renewed-iran-190458783.html?.tsrc=rss",
+        "time_published": "2026-07-10 19:04",
+        "source": "Finance",
+        "summary": "(Updates prices in the second paragraph.) West Texas Intermediate (WTI) crude oil closed lower Fr"
+      },
+      {
+        "title": "Sector Update: Energy Stocks Advance Pre-Bell Friday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-132323160.html?.tsrc=rss",
+        "time_published": "2026-07-10 13:23",
+        "source": "Finance",
+        "summary": "Energy stocks were advancing pre-bell Friday, with the State Street Energy Select Sector SPDR ETF (X"
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Amid Renewed US-Iran Tensions Ahead of Q2 Earnings Season",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130717862.html?.tsrc=rss",
+        "time_published": "2026-07-10 13:07",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr"
+      },
+      {
+        "title": "Oil Rises as Renewed Fighting Between Iran and the US Keeps Persian Gulf Supply Shut In",
+        "url": "https://finance.yahoo.com/energy/articles/oil-rises-renewed-fighting-between-125333101.html?.tsrc=rss",
+        "time_published": "2026-07-10 12:53",
+        "source": "Finance",
+        "summary": "Oil moved higher early Friday as fighting between the U.S. and Iran continues, while some ships cont"
+      },
       {
         "title": "Sector Update: Energy Stocks Decline Pre-Bell Thursday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-pre-132850811.html?.tsrc=rss",
@@ -262,34 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-08 19:35",
         "source": "Finance",
         "summary": "(Updates prices in the second paragraph and adds EIA data in the final paragraph.) West Texas Int"
-      },
-      {
-        "title": "Market Minute 7-8-26- Stocks Swoon as Iran Ceasefire Unravels",
-        "url": "https://finance.yahoo.com/markets/articles/market-minute-7-8-26-141500064.html?.tsrc=rss",
-        "time_published": "2026-07-08 14:15",
-        "source": "Finance",
-        "summary": "Stocks are swooning, while crude oil is surging amid worries the US-Iran ceasefire is unraveling. Treasury yields and the US dollar are rising modestly, while gold and silver are falling. Cryptocurrencies are broadly weaker as well."
-      },
-      {
-        "title": "4 ETF Winners of June Likely to Gain in July",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/4-etf-winners-june-likely-140000383.html?.tsrc=rss",
-        "time_published": "2026-07-08 14:00",
-        "source": "Finance",
-        "summary": "These ETF gainers of June may keep climbing in July as dovish Fed hopes, strong earnings and easing geopolitical risks support markets."
-      },
-      {
-        "title": "Sector Update: Energy Stocks Advance Pre-Bell Wednesday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-132248040.html?.tsrc=rss",
-        "time_published": "2026-07-08 13:22",
-        "source": "Finance",
-        "summary": "Energy stocks were advancing pre-bell Wednesday, with the State Street Energy Select Sector SPDR ETF"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday as Trump Declares US-Iran Agreement Over",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130428931.html?.tsrc=rss",
-        "time_published": "2026-07-08 13:04",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.5%, and the actively t"
       }
     ]
   }

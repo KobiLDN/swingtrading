@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-07-10
-**Generated:** 2026-07-10T09:51:12Z
+**Date:** 2026-07-13
+**Generated:** 2026-07-13T09:46:10Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 4080.0, 4000.0, 3950.0 |
-| **Resistance** | 4150.0, 4249.0, 4300.0 |
+| **Score** | 1/10 |
+| **Support** | 4000.0, 3950.0, 3900.0 |
+| **Resistance** | 4100.0, 4150.0, 4232.93 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong downtrend, with price trading well below both the EMA50 (4249.37) and EMA200 (4516.16). The price action confirms this bearish structure, as each rally has been met with lower highs. However, the MACD has recently turned bullish (line above signal) with a positive histogram, suggesting a possible short-term momentum shift. The RSI at 44.16 is neutral, not oversold, and no divergence is present, which limits the reliability of any trend reversal signal. The presence of two consecutive Evening Star candlestick patterns (bearish reversals) within the last five candles adds a strong bearish bias, indicating that any recent upward movement is being rejected at resistance.
+The daily chart shows a strong downtrend confirmed by price trading well below both the EMA 50 (4232.93) and EMA 200 (4508.36). Price action aligns with the EMA structure, as each rally has been met with lower highs and lower lows. The current price of 4073.54 is near the lower end of the recent range, but no clear reversal pattern or support test has been confirmed. The absence of any candlestick patterns in the last five candles suggests indecision rather than a decisive move.
 
-Given the conflicting signals—a bearish trend and bearish candlestick patterns versus a bullish MACD crossover—the overall picture is unclear. The MACD bullish cross could be a dead-cat bounce or a false signal within a persistent downtrend. Without a clear confluence of indicators, entering a trade now carries high uncertainty. The ATR of 75 points implies wide potential swings, increasing the risk of being stopped out prematurely regardless of direction. Key support near 4080 (prior swing low) and 4000 (psychological round number) may offer buying interest, but the downtrend suggests these levels are more likely to break than hold. Resistance at 4150 (recent high) and the EMA50 at 4249.37 are likely selling zones.
+The RSI at 41.13 is neutral and not oversold, indicating there is still room for further downside before a potential bounce. The MACD shows a bullish crossover (line above signal) with a positive histogram, which is a short-term divergence against the dominant downtrend. This creates a conflicting signal: the trend is strongly bearish, but momentum is attempting to turn higher. Without a clear price confirmation or a higher low structure, this MACD signal alone is not sufficient to justify a counter-trend long.
 
-The best trade setup would be a short entry on a bounce to a resistance level (e.g., 4150 or 4249), but current price is too close to potential support and lacks a confirmed retest. Conversely, a long trade would require a clear reversal pattern above a key resistance, which is absent. Therefore, waiting for a cleaner setup—either a bearish continuation confirmed by a break below support, or a bullish reversal with RSI oversold and a bullish candlestick pattern—is prudent. The signal score of 5/10 remains unchanged due to the mixed technical evidence.
+No additional chart patterns such as flags, triangles, or double tops/bottoms are evident on the daily timeframe. The nearest support is the psychological 4000.00 level, followed by 3950.00 and 3900.00. Resistance sits at 4100.00 (recent minor high), then 4150.00, and the EMA 50 at 4232.93. The risk/reward for a short entry is poor at current levels given the proximity to support, while a long entry lacks trend confirmation and a clear bullish catalyst.
 
 ---
 
 ## Invalidation
 
-This wait scenario would be invalidated if price breaks decisively above the EMA50 (4249.37) with strong momentum, or if a bullish reversal pattern forms at current support with RSI moving above 50, prompting a reassessment of trend direction.
+A decisive break and daily close above 4100.00 would shift the short-term bias to neutral and invalidate the bearish continuation setup, while a break below 4000.00 would confirm further downside and potentially create a sell setup.
 
 ---
 
