@@ -1,21 +1,21 @@
 {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-07-13T08:48:32Z",
-  "date": "2026-07-10",
-  "price": 108.7,
-  "atr": 4.6,
+  "generated": "2026-07-14T07:46:47Z",
+  "date": "2026-07-13",
+  "price": 117.79,
+  "atr": 5.01,
   "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 119.81,
-  "ema200": 104.16,
-  "rsi": 40.15,
-  "macd_line": -5.778417,
-  "macd_signal": -6.653674,
-  "macd_hist": 0.875258,
+  "ema50": 119.73,
+  "ema200": 104.48,
+  "rsi": 52.39,
+  "macd_line": -4.691869,
+  "macd_signal": -6.261314,
+  "macd_hist": 1.569445,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
@@ -24,18 +24,17 @@
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
+    },
+    {
+      "date": "2026-07-13",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 2,
+  "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-02-17",
-      "open": 76.21,
-      "high": 76.48,
-      "low": 75.18,
-      "close": 75.73
-    },
     {
       "date": "2026-02-18",
       "open": 77.92,
@@ -728,6 +727,13 @@
       "high": 110.9,
       "low": 107.49,
       "close": 108.7
+    },
+    {
+      "date": "2026-07-13",
+      "open": 111.89,
+      "high": 119.04,
+      "low": 111.71,
+      "close": 117.79
     }
   ]
 }

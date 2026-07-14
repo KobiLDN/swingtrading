@@ -1,34 +1,34 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-13T08:48:29Z",
-  "date": "2026-07-13",
-  "price": 1.34001,
-  "atr": 0.00543,
+  "generated": "2026-07-14T07:46:44Z",
+  "date": "2026-07-14",
+  "price": 1.33609,
+  "atr": 0.00542,
   "atr_pips": 54,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33549,
-  "ema200": 1.34218,
-  "rsi": 60.44,
-  "macd_line": 0.002474,
-  "macd_signal": 0.001095,
-  "macd_hist": 0.001379,
+  "ema50": 1.33531,
+  "ema200": 1.34231,
+  "rsi": 53.07,
+  "macd_line": 0.001888,
+  "macd_signal": 0.001185,
+  "macd_hist": 0.000703,
   "trend": "NEUTRAL",
   "divergence": "None",
-  "patterns": [],
-  "score": 1,
-  "verdict": "NO TRADE",
-  "candles": [
+  "patterns": [
     {
-      "date": "2026-04-05",
-      "open": 1.32061,
-      "high": 1.32153,
-      "low": 1.31381,
-      "close": 1.31911
-    },
+      "date": "2026-07-13",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
+    }
+  ],
+  "score": 5,
+  "verdict": "WATCH",
+  "candles": [
     {
       "date": "2026-04-06",
       "open": 1.31909,
@@ -719,8 +719,15 @@ window.PRICES_DATA = {
       "date": "2026-07-13",
       "open": 1.3396,
       "high": 1.34122,
-      "low": 1.33686,
-      "close": 1.34001
+      "low": 1.33428,
+      "close": 1.33464
+    },
+    {
+      "date": "2026-07-14",
+      "open": 1.33458,
+      "high": 1.33697,
+      "low": 1.33408,
+      "close": 1.33609
     }
   ]
 };

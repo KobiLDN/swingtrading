@@ -1,18 +1,6 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-07-13T08:48:32Z",
+  "generated": "2026-07-14T07:46:48Z",
   "events": [
-    {
-      "date": "2026-07-14",
-      "time": "04:45",
-      "currency": "GBP",
-      "event": "BOE Gov Bailey Speaks",
-      "impact": "high",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "today": false,
-      "past": false
-    },
     {
       "date": "2026-07-14",
       "time": "08:30",
@@ -22,7 +10,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.2%",
       "previous": "0.2%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -34,7 +22,7 @@ window.CALENDAR_DATA = {
       "forecast": "2.8%",
       "previous": "2.9%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -46,7 +34,7 @@ window.CALENDAR_DATA = {
       "forecast": "-0.1%",
       "previous": "0.5%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -58,7 +46,7 @@ window.CALENDAR_DATA = {
       "forecast": "3.8%",
       "previous": "4.2%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -70,7 +58,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -82,7 +70,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -91,7 +79,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "Core PPI m/m",
       "impact": "high",
-      "forecast": "0.3%",
+      "forecast": "0.4%",
       "previous": "0.4%",
       "actual": "",
       "today": false,
@@ -127,7 +115,7 @@ window.CALENDAR_DATA = {
       "currency": "GBP",
       "event": "GDP m/m",
       "impact": "high",
-      "forecast": "0.1%",
+      "forecast": "0.0%",
       "previous": "-0.1%",
       "actual": "",
       "today": false,
