@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-07-13
-**Generated:** 2026-07-13T09:46:10Z
+**Date:** 2026-07-14
+**Generated:** 2026-07-14T08:25:27Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,26 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 1/10 |
-| **Support** | 4000.0, 3950.0, 3900.0 |
-| **Resistance** | 4100.0, 4150.0, 4232.93 |
+| **Support** | 4000.0, 3953.0, 3900.0 |
+| **Resistance** | 4100.0, 4222.0, 4300.0 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong downtrend confirmed by price trading well below both the EMA 50 (4232.93) and EMA 200 (4508.36). Price action aligns with the EMA structure, as each rally has been met with lower highs and lower lows. The current price of 4073.54 is near the lower end of the recent range, but no clear reversal pattern or support test has been confirmed. The absence of any candlestick patterns in the last five candles suggests indecision rather than a decisive move.
+The daily chart is in a strong downtrend, with price trading well below both the 50-period EMA (4222.01) and 200-period EMA (4504.06). Price action clearly confirms the EMA trend, as each rally has been met with lower highs and the instrument continues to print lower lows. No additional chart patterns such as flags, triangles, or double tops/bottoms are evident from the last five candles, and the absence of any candlestick reversal signals further reinforces the absence of a clear inflection point.  
 
-The RSI at 41.13 is neutral and not oversold, indicating there is still room for further downside before a potential bounce. The MACD shows a bullish crossover (line above signal) with a positive histogram, which is a short-term divergence against the dominant downtrend. This creates a conflicting signal: the trend is strongly bearish, but momentum is attempting to turn higher. Without a clear price confirmation or a higher low structure, this MACD signal alone is not sufficient to justify a counter-trend long.
+The RSI at 38.27 is in neutral territory, not yet oversold, and shows no divergence, meaning momentum is not signalling a reversal. The MACD, however, is bullish with the line above the signal line and a positive histogram (+0.91). This creates a short-term disagreement with the dominant downtrend—a bullish MACD crossover often precedes a corrective bounce in a bear trend. Such bounces can be sharp but are typically short-lived and risky to trade against the larger trend. The signal score of 1/10 reflects this conflict: the trend is strongly bearish, but the MACD is offering a counter‑trend impulse.  
 
-No additional chart patterns such as flags, triangles, or double tops/bottoms are evident on the daily timeframe. The nearest support is the psychological 4000.00 level, followed by 3950.00 and 3900.00. Resistance sits at 4100.00 (recent minor high), then 4150.00, and the EMA 50 at 4232.93. The risk/reward for a short entry is poor at current levels given the proximity to support, while a long entry lacks trend confirmation and a clear bullish catalyst.
+Key support nearest to current price is the psychological 4000 level, followed by the ATR-based projection of 3953 (4023.86 – 69.57) and then 3900. Resistance is first at 4100 (a round number and potential prior swing low), then the 50‑EMA at 4222, and finally 4300. Without a confirmed pattern or a clear reversal candlestick, the risk of entering either direction is elevated. A short entry would be premature given the early MACD bullish signal, while a long entry would be swimming against a powerful downtrend with no confirmed support turn.  
+
+The best course is to wait for either a clear retest of the 50‑EMA (or a lower high) that fails, confirming a continuation short, or a strong bullish engulfing candle that breaks above a key resistance level to signal a potential trend reversal. Until then, the conflicting indicators and low score keep the risk/reward profile unfavourable for a swing trade.
 
 ---
 
 ## Invalidation
 
-A decisive break and daily close above 4100.00 would shift the short-term bias to neutral and invalidate the bearish continuation setup, while a break below 4000.00 would confirm further downside and potentially create a sell setup.
+A daily close above the 50‑EMA (4222) would invalidate the bearish bias and suggest a potential trend change, while a break below 4000 would confirm the downtrend continuation and possibly open a short setup.
 
 ---
 

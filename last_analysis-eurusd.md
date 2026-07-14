@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-07-13
-**Generated:** 2026-07-13T09:45:35Z
+**Date:** 2026-07-14
+**Generated:** 2026-07-14T08:25:10Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 1.14, 1.137, 1.13 |
-| **Resistance** | 1.149, 1.155, 1.1623 |
+| **Score** | 5/10 confirmed |
+| **Support** | 1.135, 1.13, 1.125 |
+| **Resistance** | 1.14841, 1.155, 1.16199 |
 
 ---
 
 ## Analysis
 
-The daily chart for EUR/USD shows a clear structural downtrend with price trading well below both the 50-period EMA (1.14901) and the 200-period EMA (1.1623), confirming the "STRONG DOWNTREND" classification. However, recent price action has produced two bullish reversal candlestick patterns—a Morning Star and a Bullish Engulfing—within the last five candles, suggesting a potential short-term bounce. Despite these patterns, the overall trend remains bearish, and the price has not yet broken above any key moving average to signal a trend change.
+The price at 1.13922 is trading well below both the EMA 50 (1.14841) and EMA 200 (1.16199), confirming the pre-calculated "STRONG DOWNTREND" label. The EMA cascade remains bearish, with the shorter EMA beneath the longer one, and price has not shown any sustained recovery toward these moving averages. The recent Evening Star candlestick pattern (last 5 candles) further reinforces bearish momentum, suggesting selling pressure remains intact after a potential minor bounce failed.
 
-The RSI at 48.38 is neutral, offering no overbought or oversold extremes, while the MACD is bullish (line above signal) with a rising histogram. This divergence between the bearish trend and the bullish MACD indicates weakening downside momentum but not necessarily a reversal. Without a clear RSI divergence or a confirmed breakout above resistance, the confluence is weak. The low signal score of 4/10 reflects this mixed picture, where the bullish patterns are offset by the dominant downtrend.
+However, the MACD is showing a bullish signal (line above signal) with a positive histogram, indicating a possible short-term momentum shift or a bearish pullback within the downtrend. RSI at 39.47 is neutral but still in bearish territory (below 50), offering no clear divergence. These conflicting signals — bearish trend/pattern versus early bullish MACD crossover — suggest the market is indecisive, with potential for a corrective rally or continued decline. No additional chart patterns (triangles, flags, double tops/bottoms) are clearly visible on the daily timeframe near current price.
 
-Given the lack of a clear, high-probability setup, the best course is to wait for either a confirmed breakout above the 1.1490 resistance (EMA 50) to validate a bullish reversal, or a failure of the bounce followed by a breakdown below the recent low near 1.1370 to re-enter a short position. Entering a long now would carry high risk due to the strong downtrend, while a short trade would be premature given the bullish reversal signals. Patience is warranted until the market offers a cleaner signal.
+Key support lies near 1.13500 (psychological round number and potential prior swing low), with further levels at 1.13000 and 1.12500. Resistance is clustered at the EMA 50 (1.14841), then 1.15500, and the EMA 200 (1.16199). The risk of entering a short here is elevated given MACD bullish divergence, while a long is premature until price reclaims at least the EMA 50. The 5/10 signal score accurately reflects this ambiguity — no high-conviction setup exists.
 
 ---
 
 ## Invalidation
 
-This wait-and-see approach is invalidated if price breaks decisively above 1.1490 (EMA 50) with strong volume, or if it falls below 1.1370, confirming the continuation of the downtrend.
+A daily close above the EMA 50 (1.14841) would invalidate the bearish bias suggested by the Evening Star and strong downtrend, while a breakdown below 1.13500 would strengthen the bearish case and warrant a short entry.
 
 ---
 

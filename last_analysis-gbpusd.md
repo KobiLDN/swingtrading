@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-13
-**Generated:** 2026-07-13T09:45:20Z
+**Date:** 2026-07-14
+**Generated:** 2026-07-14T08:24:42Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,29 +17,27 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 1/10 |
-| **Support** | 1.3355, 1.33, 1.325 |
-| **Resistance** | 1.3422, 1.345, 1.35 |
+| **Score** | 5/10 |
+| **Support** | 1.33531, 1.33, 1.325 |
+| **Resistance** | 1.34231, 1.345, 1.35 |
 
 ---
 
 ## Analysis
 
-The trend is classified as NEUTRAL, and price action does not confirm a clear directional bias. Price at 1.34001 sits between the EMA 50 (1.33549) and EMA 200 (1.34218), with the EMA 200 acting as overhead resistance. The EMA 50 is below the EMA 200, which is a bearish alignment in the longer-term context, but the current price is above the EMA 50, suggesting short-term bullish momentum is trying to challenge the longer-term bearish structure. However, the price has not yet broken above the EMA 200, so the trend remains unresolved.
+The trend is currently classified as NEUTRAL, and price action does not confirm a decisive EMA trend. Price (1.33609) is marginally above the EMA 50 (1.33531) but remains well below the EMA 200 (1.34231), indicating a lack of clear directional momentum. The EMA 200 is acting as a significant overhead resistance, and the price has not yet shown a convincing breakout or breakdown from this zone. The Evening Star candlestick pattern over the last five candles suggests a potential bearish reversal, but this is not yet confirmed by a follow-through move below the EMA 50.
 
-No candlestick patterns or chart patterns (triangles, flags, double tops/bottoms) are detected in the last five candles, indicating a lack of clear structural setup. The RSI at 60.44 is neutral and shows no divergence, while the MACD is bullish with the line above the signal and a positive histogram. This MACD/RSI combination suggests mild bullish momentum, but the RSI is not overbought and the MACD histogram is small, indicating weak conviction. The signal score of 1/10 reflects the absence of a high-probability pattern or strong confluence.
+No clear additional chart patterns such as triangles, flags, or double tops/bottoms are immediately inferable from the given data. The proximity of price to the EMA 50 and EMA 200 creates a tight range, which could be forming a compression zone or a potential head-and-shoulders pattern, but the data is insufficient to confirm. Key support is at the EMA 50 (1.33531), with further support near 1.33000 and 1.32500. Resistance is strong at the EMA 200 (1.34231), followed by 1.34500 and 1.35000.
 
-Key support is at the EMA 50 (1.3355) and the psychological 1.3300 level. Resistance is at the EMA 200 (1.3422) and the round number 1.3450. The price is trapped between these two EMAs, which often leads to choppy, directionless movement. Without a breakout above 1.3422 or a breakdown below 1.3355, the risk/reward is poor for a swing trade. The ATR of 54 pips indicates moderate volatility, but the lack of a clear catalyst or pattern makes an entry premature.
+RSI at 53.07 is neutral and shows no divergence, offering no directional bias. MACD is bullish (line above signal) with a positive histogram, which conflicts with the bearish Evening Star pattern. This divergence between a bullish momentum indicator and a bearish candlestick pattern reduces confidence in either direction. The signal score of 5/10 reflects this mixed outlook, and I maintain that score as it accurately captures the lack of clear confluence.
 
-The single best trade setup would be a confirmed breakout above 1.3422 with a daily close, targeting 1.3500, or a breakdown below 1.3355 targeting 1.3300. However, no such breakout or breakdown is present. The MACD bullish signal is weak and not supported by a strong RSI reading or price action confirmation. The signal score of 1/10 is appropriate given the lack of confluence and the neutral trend.
-
-Risk assessment: The primary risk is a false breakout in either direction due to low momentum. The price is in a no-man’s land between key EMAs, making stop-loss placement difficult. A trade now would require a tight stop, risking being stopped out by noise. The absence of candlestick patterns or divergences further reduces the probability of a sustained move.
+The single best trade setup right now is to WAIT. The conflicting signals — bullish MACD versus bearish Evening Star, neutral RSI, and price trapped between EMAs — create an unfavorable risk/reward environment. A breakout above the EMA 200 (1.34231) with strong volume would turn the trend bullish, while a breakdown below the EMA 50 (1.33531) would confirm the bearish reversal. Until one of these occurs, the market is in a no-trade zone.
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if the price remains between 1.3355 and 1.3422 without a decisive daily close outside that range, as it confirms continued indecision.
+This setup is invalidated if price breaks and closes above the EMA 200 (1.34231) or below the EMA 50 (1.33531) with sustained momentum, as either move would resolve the current neutral phase and provide a clear directional bias.
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-07-10
-**Generated:** 2026-07-13T09:46:25Z
+**Date:** 2026-07-13
+**Generated:** 2026-07-14T08:25:46Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,20 +12,20 @@
 |-------|-------|
 | **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | 754.95 |
-| **Stop Loss** | 745.72 |
-| **Target 1** | 764.18 |
-| **Target 2** | 773.41 |
-| **Risk/Reward** | 1:1 (T1), 2:1 (T2) |
-| **Score** | 6/10 (revised from 4/10 based on bullish confluence) |
-| **Support** | 745.72, 735.43, 702.27 |
-| **Resistance** | 760.0, 764.18, 773.41 |
+| **Entry** | 749.17 |
+| **Stop Loss** | 740.00 |
+| **Target 1** | 755.00 |
+| **Target 2** | 760.00 |
+| **Risk/Reward** | 1.18 |
+| **Score** | 5/10 |
+| **Support** | 740.0, 735.97, 730.0 |
+| **Resistance** | 750.0, 755.0, 760.0 |
 
 ---
 
 ## Analysis
 
-The price action firmly confirms the strong uptrend, with SPY trading well above both the 50-period EMA (735.43) and 200-period EMA (702.27). The Morning Star candlestick pattern over the last five sessions is a classic bullish reversal signal, indicating that selling pressure has been exhausted and buyers are regaining control. This pattern aligns with the MACD, which remains bullish (
+The price action confirms the EMA-driven strong uptrend, with SPY trading well above both the 50-period (735.97) and 200-period (702.45) EMAs. The recent Morning Star candlestick pattern (a bullish reversal formation) aligns with the ongoing trend, suggesting a resumption of upward momentum after a brief pullback. No additional chart patterns such as triangles or flags are evident, but the Morning Star itself provides a clear structural low. Key support levels near the current price are the round number 740.00, the EMA50 at 735.97, and the 730.00 area. On the upside, resistance is likely at the psychological 750.00 level, followed by 755
 
 ---
 

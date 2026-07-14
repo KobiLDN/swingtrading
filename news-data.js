@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-13T09:47:04Z",
+  "generated": "2026-07-14T08:26:54Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "Forex Forecasts \u2013 Greenback Momentum Tests Key Support and Moving Averages",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-forecasts-greenback-momentum-tests-124446625.html?.tsrc=rss",
+        "time_published": "2026-07-13 12:44",
+        "source": "Finance",
+        "summary": "With the strikes over the weekend in Iran, it\u2019s not a surprise to see choppy action to start the week in the currency markets."
+      },
+      {
+        "title": "US Dollar Price Forecast: Risk Sentiment Shifts After FOMC Minutes \u2014 GBP/USD and EUR/USD Outlook?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-risk-065540281.html?.tsrc=rss",
+        "time_published": "2026-07-13 06:55",
+        "source": "Finance",
+        "summary": "With strong U.S. fundamentals, fiscal deficits, and reserve-currency status, the Dollar responded to FOMC minutes amid shifting risk sentiment. DXY held steady at $101.07, EUR/USD defended blue trendline support, and GBP/USD maintained bullish structure above $1.3388. Full technical analysis inside."
+      },
       {
         "title": "US Dollar Price Forecast: Dollar Firms Amid Sticky Inflation \u2013 GBP/USD and EUR/USD Next Move?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081728366.html?.tsrc=rss",
@@ -43,23 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-07-07 05:55",
         "source": "Finance",
         "summary": "With strong U.S. fundamentals, fiscal deficits, and reserve-currency status, the Dollar gained ground amid shifting risk sentiment. DXY held steady at $100.93, EUR/USD defended blue trendline support, and GBP/USD maintained bullish structure above $1.3380. Full technical analysis inside."
-      },
-      {
-        "title": "Africa's Largest Centralized Exchange Integrates Hyperliquid Perps",
-        "url": "https://www.bankless.com/read/news/africas-largest-centralized-exchange-integrates-hyperliquid-perps?.tsrc=rss",
-        "time_published": "2026-07-02 18:46",
-        "source": "Bankless",
-        "summary": "VALR will become the first major regulated exchange to natively integrate Hyperliquid, sourcing onchain liquidity for 200+ perps markets."
-      },
-      {
-        "title": "Goldman Says UK\u2019s Sterling Now the Most Overvalued G10 Currency",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/goldman-says-uk-sterling-now-005542153.html?.tsrc=rss",
-        "time_published": "2026-06-19 00:55",
-        "source": "Finance",
-        "summary": "(Bloomberg) -- The pound is set to face growing pressure as its recovery from the post-Brexit selloff has made it the most overvalued currency among major peers, according to Goldman Sachs Group Inc.Most Read from BloombergRead the 14-Point Draft Memorandum Between the US and IranModi Warns of \u2018Shor"
       }
     ],
     "eurusd": [
+      {
+        "title": "Forex Forecasts \u2013 Greenback Momentum Tests Key Support and Moving Averages",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-forecasts-greenback-momentum-tests-124446625.html?.tsrc=rss",
+        "time_published": "2026-07-13 12:44",
+        "source": "Finance",
+        "summary": "With the strikes over the weekend in Iran, it\u2019s not a surprise to see choppy action to start the week in the currency markets."
+      },
+      {
+        "title": "US Dollar Price Forecast: Risk Sentiment Shifts After FOMC Minutes \u2014 GBP/USD and EUR/USD Outlook?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-risk-065540281.html?.tsrc=rss",
+        "time_published": "2026-07-13 06:55",
+        "source": "Finance",
+        "summary": "With strong U.S. fundamentals, fiscal deficits, and reserve-currency status, the Dollar responded to FOMC minutes amid shifting risk sentiment. DXY held steady at $101.07, EUR/USD defended blue trendline support, and GBP/USD maintained bullish structure above $1.3388. Full technical analysis inside."
+      },
       {
         "title": "US Dollar Price Forecast: Dollar Firms Amid Sticky Inflation \u2013 GBP/USD and EUR/USD Next Move?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081728366.html?.tsrc=rss",
@@ -101,24 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-07-08 14:37",
         "source": "Barchart",
         "summary": "The dollar index (DXY00 ) is up by +0.09% today. The dollar is supported by today\u2019s equity market slump, which has boosted liquidity demand for the currency. Also, higher crude oil prices today have pushed up inflation expectations and could persuade the Fed to keep monetary policy tight, a supporti"
-      },
-      {
-        "title": "1 Trade to Make Now as U.S.-Iran Ceasefire Talks Deteriorate",
-        "url": "https://www.barchart.com/story/news/3186094/1-trade-to-make-now-as-u-s-iran-ceasefire-talks-deteriorate?.tsrc=rss",
-        "time_published": "2026-07-08 14:11",
-        "source": "Barchart",
-        "summary": "September Euro currency futures present a selling opportunity on more price weakness."
-      },
-      {
-        "title": "Middle East Conflict Drives Safe-Haven Flows to US Dollar",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/middle-east-conflict-drives-safe-134635182.html?.tsrc=rss",
-        "time_published": "2026-07-08 13:46",
-        "source": "Finance",
-        "summary": "The US dollar continues to move on rates, and with the attack on Iran last night, the USD rally isn\u2019t a big surprise."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Renewed US-Iran Conflict Lifts Oil Prices",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125221407.html?.tsrc=rss",
+        "time_published": "2026-07-13 12:52",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.4%, and the actively t"
+      },
       {
         "title": "SLV vs. SIVR: Same Silver, Lower Fee, So Which Physical Silver ETF Should You Actually Hold?",
         "url": "https://247wallst.com/investing/etf/2026/07/11/slv-vs-sivr-same-silver-lower-fee-so-which-physical-silver-etf-should-you-actually-hold/?.tsrc=rss",
@@ -167,74 +174,95 @@ window.NEWS_DATA = {
         "time_published": "2026-07-07 20:05",
         "source": "247wallst",
         "summary": "The Number Gold\u2019s proxy in the equity market, SPDR Gold Shares (NYSEARCA:GLD), has returned 22.27% over the past twelve months, climbing from $309.25 on July 2, 2025 to $378.13 on July 2, 2026. That single figure, a full-year total return on the world\u2019s most-watched safe-haven vehicle, is why sell-s"
-      },
-      {
-        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Amid Caution Over Chip Sector Outlook",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-132222461.html?.tsrc=rss",
-        "time_published": "2026-07-07 13:22",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t"
       }
     ],
     "spx": [
       {
-        "title": "Nasdaq, S&P 500 Futures Slip As Iran Tensions Rattle Markets Again: Why MU, TSLA, BATL, SKHYV, MSFT, TSM, SLS Are In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-slip-iran-tensions-rattle-markets-again-why-mu-tsla-batl-skhyv-msft-tsm-sls-are-in-focus/cZmzj6qR7op?.tsrc=rss",
-        "time_published": "2026-07-13 08:42",
+        "title": "S&P 500, Nasdaq, Dow End Lower As US-Iran War Fear Remerges \u2014 PSKY, META, GOOGL, INTC, NFLX In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-lower-as-us-iran-war-fear-remerges-meta-skhvy-crcl-ba-dal-in-focus/cZmC5BQR7YA?.tsrc=rss",
+        "time_published": "2026-07-13 22:36",
         "source": "Stocktwits",
-        "summary": "Stocktwits data showed retail sentiment remained \u2018bullish\u2019 around SPY and \u2018neutral\u2019 on QQQ."
+        "summary": "President Donald Trump said the U.S. would resume a blockade of Iranian ships transiting the Strait of Hormuz."
       },
       {
-        "title": "Avoid This Hidden Risk of Index Funds",
-        "url": "https://www.fool.com/investing/2026/07/13/avoid-this-hidden-risk-of-index-funds/?.tsrc=rss",
-        "time_published": "2026-07-13 05:20",
-        "source": "Fool",
-        "summary": "Investing in index funds is a good way to gain exposure to a broad range of stocks, but it's not without risk."
+        "title": "The Hidden Price Of A High Yield",
+        "url": "https://www.trefis.com/articles/606861/the-hidden-price-of-a-high-yield/2026-07-13?.tsrc=rss",
+        "time_published": "2026-07-13 21:10",
+        "source": "Trefis",
+        "summary": "These funds deliver a steady income stream, but the total return they leave on the table is a cost every holder should see."
       },
       {
-        "title": "Nasdaq, S&P 500, Dow Futures Fall After Trump Directs Strikes \u2018To Hold Iranian Forces Accountable\u2019: NVDA, SLS, MRK, SKHYV, QS Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-fall-after-trump-directs-strikes-to-hold-iranian-forces-accountable/cZmz7lkR7o7?.tsrc=rss",
-        "time_published": "2026-07-13 01:33",
-        "source": "Stocktwits",
-        "summary": "U.S. Central Command said that American forces had begun launching further strikes against Iran to thwart their ability \u201cto attack civilian mariners and commercial ships freely transiting the Strait of Hormuz.\u201d"
-      },
-      {
-        "title": "Stop Settling for VYM. This Fund Yields More, Costs 0.06%, and Beat the S&P",
-        "url": "https://247wallst.com/investing/2026/07/12/stop-settling-for-vym-this-fund-yields-more-costs-0-06-and-beat-the-sp/?.tsrc=rss",
-        "time_published": "2026-07-12 14:09",
+        "title": "The \u2018Boring\u2019 Dividend ETF Everyone Ignored Just Crushed the S&P 500 This Year",
+        "url": "https://247wallst.com/investing/etf/2026/07/13/the-boring-dividend-etf-everyone-ignored-just-crushed-the-sp-500-this-year/?.tsrc=rss",
+        "time_published": "2026-07-13 20:05",
         "source": "247wallst",
-        "summary": "Dividend-focused investors have made Vanguard High Dividend Yield ETF (NYSEARCA:VYM) one of the largest yield-tilted funds available, with $78.33B in assets and 618 holdings spanning U.S. large-cap dividend payers. VYM\u2019s appeal is straightforward: broad diversification, a very low fee, and a portfol"
+        "summary": "While everyone chased AI darlings, a quiet dividend ETF sat ignored for three years and just staged a comeback that has income investors asking whether the whole playbook needs to change."
       },
       {
-        "title": "The Maximum Social Security Check Is $5,108 a Month. Here\u2019s How Much Invested It Takes to Match It.",
-        "url": "https://247wallst.com/personal-finance/2026/07/12/the-maximum-social-security-check-is-5108-a-month-heres-how-much-invested-it-takes-to-match-it/?.tsrc=rss",
-        "time_published": "2026-07-12 13:34",
+        "title": "JEPI Is Falling While the S&P 500 Soars. Is That Fat 8% Yield Actually a Trap?",
+        "url": "https://247wallst.com/investing/etf/2026/07/13/jepi-is-falling-while-the-sp-500-soars-is-that-fat-8-yield-actually-a-trap/?.tsrc=rss",
+        "time_published": "2026-07-13 19:05",
         "source": "247wallst",
-        "summary": "The maximum Social Security retirement benefit in 2026 is $5,181 a month, a figure that only a tiny slice of workers ever actually collect. It requires paying the maximum FICA tax for 35 years and waiting until age 70 to claim. For the rare beneficiary who qualifies, the check amounts to $62,172 per"
+        "summary": "JEPI's 8% yield lands in your checking account every month like clockwork, but price-only holders watching the S&P sprint higher are quietly paying a price that never shows up on the fact sheet."
       },
       {
-        "title": "This Covered Call ETF Just Proved Double Digit Income Doesn\u2019t Mean NAV Bleed",
-        "url": "https://247wallst.com/investing/2026/07/11/this-covered-call-etf-just-proved-double-digit-income-doesnt-mean-nav-bleed/?.tsrc=rss",
-        "time_published": "2026-07-11 15:39",
+        "title": "Visa\u2019s $700 Billion Payments Empire Faces New Disruption Risks",
+        "url": "https://247wallst.com/investing/2026/07/13/visas-700-billion-payments-empire-faces-new-disruption-risks/?.tsrc=rss",
+        "time_published": "2026-07-13 18:30",
         "source": "247wallst",
-        "summary": "SPYI has paid double-digit yields every single month since inception while its share price keeps climbing, and that combination raises an uncomfortable question about where the money is actually coming from."
+        "summary": "Visa processed nearly 70 billion transactions in a single quarter, yet something beneath those blockbuster numbers is quietly shrinking the bottom line. Four consecutive quarters of nine-figure litigation charges tell one story, but stablecoins, real-time rails, and digital wallets are writing anoth"
       },
       {
-        "title": "The Retirement Budget Most People Build Is Backward",
-        "url": "https://247wallst.com/personal-finance/2026/07/11/the-retirement-budget-most-people-build-is-backward/?.tsrc=rss",
-        "time_published": "2026-07-11 14:15",
-        "source": "247wallst",
-        "summary": "Most retirement budgets start with the wrong question. The instinct is to ask, \u201cWhat yield do I need so the nest egg covers the bills?\u201d Higher yield shrinks the required capital, so the math seduces you toward 8%, 10%, or 12% strategies. Punch in the numbers, write down the smaller portfolio target,"
+        "title": "When The Market Dropped, XLU ETF Held Its Ground",
+        "url": "https://www.trefis.com/articles/606841/when-the-market-dropped-xlu-etf-held-its-ground/2026-07-13?.tsrc=rss",
+        "time_published": "2026-07-13 18:13",
+        "source": "Trefis",
+        "summary": "True diversification goes beyond owning different stocks to provide a cushion when the market gets rough."
       },
       {
-        "title": "The S&P 500 Isn\u2019t What You Think It Is Anymore \u2014 Here\u2019s the Uncomfortable Truth",
-        "url": "https://247wallst.com/investing/2026/07/11/the-sp-500-isnt-what-you-think-it-is-anymore-heres-the-uncomfortable-truth/?.tsrc=rss",
-        "time_published": "2026-07-11 12:58",
+        "title": "Jim Cramer Says Buy IBM Right Now: Here Is Why Arvind Krishna Has This Stock Undervalued",
+        "url": "https://247wallst.com/investing/2026/07/13/jim-cramer-says-buy-ibm-right-now-here-is-why-arvind-krishna-has-this-stock-undervalued/?.tsrc=rss",
+        "time_published": "2026-07-13 16:10",
         "source": "247wallst",
-        "summary": "The S&P 500 has long been synonymous with broad diversification, but the math behind today's index tells a very different story about where your money actually ends up."
+        "summary": "Jim Cramer sees a high-quality AI infrastructure operator hiding inside a stock the market still treats like a relic, but the bears have a leverage argument worth hearing before you pull the trigger."
+      },
+      {
+        "title": "Buy, Sell or Hold: My View On Microsoft As AI Capex Costs Rise",
+        "url": "https://247wallst.com/investing/2026/07/13/buy-sell-or-hold-my-view-on-microsoft-as-ai-capex-costs-rise/?.tsrc=rss",
+        "time_published": "2026-07-13 14:42",
+        "source": "247wallst",
+        "summary": "Microsoft has fallen 20% this year while its AI business accelerates at a triple-digit clip and its commercial backlog swells past half a trillion dollars, which raises an uncomfortable question about whether the market is punishing the wrong variable."
       }
     ],
     "oil": [
+      {
+        "title": "Market Minute 7-13-26- Oil Pops, While Korean Stocks Plunge",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/market-minute-7-13-26-142000665.html?.tsrc=rss",
+        "time_published": "2026-07-13 14:20",
+        "source": "Finance",
+        "summary": "Crude oil prices are on the move higher again, putting pressure on equities and precious metals. Treasuries are also modestly lower, while the dollar is flat."
+      },
+      {
+        "title": "Sector Update: Energy Stocks Higher Early Monday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-early-135532974.html?.tsrc=rss",
+        "time_published": "2026-07-13 13:55",
+        "source": "Finance",
+        "summary": "Energy stocks were higher in early trading Monday, with the State Street Energy Select Sector SPDR E"
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Renewed US-Iran Conflict Lifts Oil Prices",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125221407.html?.tsrc=rss",
+        "time_published": "2026-07-13 12:52",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.4%, and the actively t"
+      },
+      {
+        "title": "Commodities- Why Strong Trucking Demand Reinforces My Bullish Stance",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/commodities-why-strong-trucking-demand-050100257.html?.tsrc=rss",
+        "time_published": "2026-07-13 05:01",
+        "source": "Finance",
+        "summary": "What do you get when trucking prices jump? You get an increase in heavy duty truck orders \u2013 and that is what we\u2019re seeing. Here\u2019s why that means we remain commodity bulls, writes Peter Boockvar, editor of The Boock Report."
+      },
       {
         "title": "Update: WTI Oil Falls as Renewed Iran-US Fighting Keeps Persian Gulf Supply Disrupted",
         "url": "https://finance.yahoo.com/energy/articles/wti-oil-falls-renewed-iran-190458783.html?.tsrc=rss",
@@ -262,34 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-10 12:53",
         "source": "Finance",
         "summary": "Oil moved higher early Friday as fighting between the U.S. and Iran continues, while some ships cont"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Decline Pre-Bell Thursday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-pre-132850811.html?.tsrc=rss",
-        "time_published": "2026-07-09 13:28",
-        "source": "Finance",
-        "summary": "Energy stocks were declining pre-bell Thursday, with the State Street Energy Select Sector SPDR ETF"
-      },
-      {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Chip Stocks Rebound Despite US-Iran Tensions",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131219951.html?.tsrc=rss",
-        "time_published": "2026-07-09 13:12",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra"
-      },
-      {
-        "title": "Oil Prices Rise on Renewed Fighting Between the US and Iran",
-        "url": "https://finance.yahoo.com/energy/articles/oil-prices-rise-renewed-fighting-124128291.html?.tsrc=rss",
-        "time_published": "2026-07-09 12:41",
-        "source": "Finance",
-        "summary": "Oil rose for a third day early Thursday as renewed fighting between the U.S. and Iran threatens to k"
-      },
-      {
-        "title": "Update: WTI Oil Rises as Iran-US Fighting Resumes, Trump Says Ceasefire Is Over",
-        "url": "https://finance.yahoo.com/energy/articles/wti-oil-rises-iran-us-193512060.html?.tsrc=rss",
-        "time_published": "2026-07-08 19:35",
-        "source": "Finance",
-        "summary": "(Updates prices in the second paragraph and adds EIA data in the final paragraph.) West Texas Int"
       }
     ]
   }
