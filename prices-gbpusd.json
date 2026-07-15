@@ -1,21 +1,21 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-14T07:46:44Z",
-  "date": "2026-07-14",
-  "price": 1.33609,
-  "atr": 0.00542,
-  "atr_pips": 54,
+  "generated": "2026-07-15T07:50:24Z",
+  "date": "2026-07-15",
+  "price": 1.34052,
+  "atr": 0.00578,
+  "atr_pips": 58,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33531,
-  "ema200": 1.34231,
-  "rsi": 53.07,
-  "macd_line": 0.001888,
-  "macd_signal": 0.001185,
-  "macd_hist": 0.000703,
+  "ema50": 1.33563,
+  "ema200": 1.34201,
+  "rsi": 58.87,
+  "macd_line": 0.002285,
+  "macd_signal": 0.001444,
+  "macd_hist": 0.000841,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
@@ -29,13 +29,6 @@
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-06",
-      "open": 1.31909,
-      "high": 1.32677,
-      "low": 1.31805,
-      "close": 1.32374
-    },
     {
       "date": "2026-04-07",
       "open": 1.32371,
@@ -725,9 +718,16 @@
     {
       "date": "2026-07-14",
       "open": 1.33458,
-      "high": 1.33697,
+      "high": 1.34382,
       "low": 1.33408,
-      "close": 1.33609
+      "close": 1.33916
+    },
+    {
+      "date": "2026-07-15",
+      "open": 1.33914,
+      "high": 1.34203,
+      "low": 1.33784,
+      "close": 1.34052
     }
   ]
 }

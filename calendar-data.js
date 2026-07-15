@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-07-14T07:46:48Z",
+  "generated": "2026-07-15T07:50:26Z",
   "events": [
     {
       "date": "2026-07-14",
@@ -10,8 +10,8 @@ window.CALENDAR_DATA = {
       "forecast": "0.2%",
       "previous": "0.2%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-14",
@@ -22,8 +22,8 @@ window.CALENDAR_DATA = {
       "forecast": "2.8%",
       "previous": "2.9%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-14",
@@ -34,8 +34,8 @@ window.CALENDAR_DATA = {
       "forecast": "-0.1%",
       "previous": "0.5%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-14",
@@ -46,8 +46,8 @@ window.CALENDAR_DATA = {
       "forecast": "3.8%",
       "previous": "4.2%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-14",
@@ -58,8 +58,8 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-14",
@@ -70,8 +70,8 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-15",
@@ -79,10 +79,10 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "Core PPI m/m",
       "impact": "high",
-      "forecast": "0.4%",
+      "forecast": "0.3%",
       "previous": "0.4%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -94,7 +94,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.0%",
       "previous": "1.1%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -106,7 +106,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
