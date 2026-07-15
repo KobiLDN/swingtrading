@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-07-14T08:24:42Z",
+  "generated": "2026-07-15T08:31:36Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -12,15 +12,15 @@ window.ANALYSIS_DATA = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The trend is currently classified as NEUTRAL, and price action does not confirm a decisive EMA trend. Price (1.33609) is marginally above the EMA 50 (1.33531) but remains well below the EMA 200 (1.34231), indicating a lack of clear directional momentum. The EMA 200 is acting as a significant overhead resistance, and the price has not yet shown a convincing breakout or breakdown from this zone. The Evening Star candlestick pattern over the last five candles suggests a potential bearish reversal, but this is not yet confirmed by a follow-through move below the EMA 50.\n\nNo clear additional chart patterns such as triangles, flags, or double tops/bottoms are immediately inferable from the given data. The proximity of price to the EMA 50 and EMA 200 creates a tight range, which could be forming a compression zone or a potential head-and-shoulders pattern, but the data is insufficient to confirm. Key support is at the EMA 50 (1.33531), with further support near 1.33000 and 1.32500. Resistance is strong at the EMA 200 (1.34231), followed by 1.34500 and 1.35000.\n\nRSI at 53.07 is neutral and shows no divergence, offering no directional bias. MACD is bullish (line above signal) with a positive histogram, which conflicts with the bearish Evening Star pattern. This divergence between a bullish momentum indicator and a bearish candlestick pattern reduces confidence in either direction. The signal score of 5/10 reflects this mixed outlook, and I maintain that score as it accurately captures the lack of clear confluence.\n\nThe single best trade setup right now is to WAIT. The conflicting signals \u2014 bullish MACD versus bearish Evening Star, neutral RSI, and price trapped between EMAs \u2014 create an unfavorable risk/reward environment. A breakout above the EMA 200 (1.34231) with strong volume would turn the trend bullish, while a breakdown below the EMA 50 (1.33531) would confirm the bearish reversal. Until one of these occurs, the market is in a no-trade zone.",
-  "invalidation": "This setup is invalidated if price breaks and closes above the EMA 200 (1.34231) or below the EMA 50 (1.33531) with sustained momentum, as either move would resolve the current neutral phase and provide a clear directional bias.",
+  "analysis": "The EMA structure presents a conflicting picture. Price at 1.34052 is above the EMA 50 (1.33563), which suggests short-term bullish momentum. However, it remains below the EMA 200 (1.34201), a key long-term trend filter. This places the pair in a neutral zone between the two moving averages, with the EMA 200 acting as dynamic resistance just 15 pips above current price. The trend label of NEUTRAL is appropriate, as price has neither convincingly broken above the 200-day EMA nor fallen back below the 50-day EMA.\n\nThe most significant bearish signal is the Evening Star candlestick pattern formed over the last five candles. This three-candle reversal pattern at the top of a short-term rally suggests selling pressure is emerging near the EMA 200 resistance. The RSI at 58.87 is neutral and shows no divergence, offering no strong confirmation either way. The MACD is bullish with the line above the signal line and a positive histogram, which conflicts with the bearish candlestick pattern. This divergence between a bullish momentum oscillator and a bearish price pattern reduces confidence in a clear directional bias.\n\nKey support is the EMA 50 at 1.3356, followed by the recent swing low near 1.3300. Resistance is the EMA 200 at 1.3420, then the psychological 1.3450 level, and further out 1.3500. The proximity of price to the EMA 200 (1.34201) makes this a critical decision zone. A break above with a daily close would turn the trend bullish, while a rejection could lead to a retest of the 50-day EMA. Given the conflicting signals\u2014bullish MACD vs. bearish candlestick pattern, and price trapped between two key EMAs\u2014the prudent action is to wait for a clearer catalyst or a confirmed breakout.",
+  "invalidation": "This setup is invalidated if price closes decisively above 1.3425 (above the EMA 200 with follow-through) or if it breaks and holds below the EMA 50 at 1.3356, as either move would resolve the current neutral zone and provide a clearer directional signal.",
   "support_levels": [
-    1.33531,
+    1.3356,
     1.33,
-    1.325
+    1.324
   ],
   "resistance_levels": [
-    1.34231,
+    1.342,
     1.345,
     1.35
   ]

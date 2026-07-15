@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-07-13
-**Generated:** 2026-07-14T08:26:53Z
+**Date:** 2026-07-14
+**Generated:** 2026-07-15T08:33:39Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,35 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 115.0, 112.0, 110.0 |
-| **Resistance** | 119.73, 122.0, 125.0 |
+| **Decision** | BUY |
+| **Confidence** | MEDIUM |
+| **Entry** | 120.17 |
+| **Stop Loss** | 115.26 |
+| **Target 1** | 125.08 |
+| **Target 2** | 130.00 |
+| **Risk/Reward** | 1:1.96 |
+| **Score** | 6/10 |
+| **Support** | 119.75, 117.5, 115.0 |
+| **Resistance** | 122.0, 125.0, 128.5 |
 
 ---
 
 ## Analysis
 
-The price at 117.79 sits below the 50-period EMA (119.73) but well above the 200-period EMA (104.48), creating a neutral trend context. The Morning Star candlestick pattern over the last five candles suggests a potential bullish reversal, yet the price has not confirmed this by reclaiming the 50 EMA. The MACD is bullish with the line above the signal and a positive histogram, which aligns with the reversal pattern, but the RSI at 52.39 is neutral and provides no overbought/oversold confirmation. The overall signal score of 4/10 reflects this mixed picture—bullish hints from patterns and MACD are offset by a lack of trend confirmation and neutral momentum.
+Trend confirmation is strong. Price at 120.17 is above both the EMA 50 (119.75) and EMA 200 (104.72), with the EMA 50 well above the EMA 200, confirming a sustained uptrend. The recent price action shows a Doji followed by a Morning Star candlestick pattern, which is a bullish reversal signal after a brief pause. This suggests buyers have regained control near the EMA 50 support, reinforcing the trend continuation bias.
 
-No clear chart patterns such as triangles or flags are evident from the given data, but the Morning Star itself is a meaningful reversal structure. Key resistance is the 50 EMA at 119.73, followed by round numbers at 122.00 and 125.00. Support lies near the recent low implied by the Morning Star pattern around 115.00, then 112.00 and 110.00. The ATR of 5.01 indicates wide daily swings, increasing the risk of false breakouts. Without a confirmed move above the 50 EMA, the risk of a failed reversal is elevated, and the reward potential from current levels is limited relative to the stop-loss distance.
+No clear triangle, flag, or double top/bottom patterns are immediately evident on the daily chart. However, the price is consolidating just above the EMA 50, which often acts as dynamic support in a strong uptrend. The nearest resistance is the recent swing high near 122.00, followed by psychological resistance at 125.00 and 128.50. Support is layered at the EMA 50 (119.75), then 117.50 (prior consolidation low), and 115.00 (next major demand zone).
 
-Given the neutral trend and the need for confirmation, the prudent action is to wait. A buy setup
+RSI at 54.98 is neutral, leaving room for further upside without being overbought. MACD is bullish with the line above the signal and a positive histogram, confirming upward momentum. Both indicators agree with the trend, and there is no bearish divergence. The Morning Star pattern adds confluence for a long entry. The signal score is revised upward from 4/10 to 6/10 due to the bullish candlestick pattern and strong trend structure, though the neutral RSI and moderate ATR keep confidence from being high.
+
+RISK ASSESSMENT:
+The primary risk is a false breakout or a deeper pullback below the EMA 50. ATR of 4.91 indicates moderate daily volatility, so a stop loss placed 4.91 points below entry (115.26) is reasonable to avoid noise. If price closes below 115.00, the uptrend would be compromised. The reward-to-risk ratio of nearly 2:1 is attractive, but traders should monitor for any sudden reversal or bearish divergence on lower timeframes.
 
 ---
 
 ## Invalidation
 
-N/A
+A daily close below 115.00 (below the EMA 50 and recent support zone) would invalidate this bullish setup and signal a potential trend reversal.
 
 ---
 

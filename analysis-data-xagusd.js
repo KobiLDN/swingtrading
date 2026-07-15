@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-07-14T08:26:09Z",
+  "generated": "2026-07-15T08:32:59Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_XAGUSD = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The price of SLV at 52.16 sits deep below both the EMA50 (60.98) and EMA200 (61.38), confirming a strong downtrend. The EMA structure itself is bearish, with the shorter-term average well below the longer-term one, and price action has consistently respected this downtrend. The recent candlestick patterns\u2014a Doji followed by an Evening Star\u2014reinforce bearish pressure and suggest sellers regained control after a brief pause. However, the MACD has turned bullish (line above signal) with a positive histogram, hinting at potential underlying momentum shift that conflicts with the dominant trend.  \n\nNo clear chart patterns like triangles or flags are evident from the given data, but the price action near support zones (e.g., 50.00) may form a consolidation area. The RSI at 35.35 is neutral, not oversold, leaving room for further downside. The MACD bullish signal is a counter-trend indication, but without any RSI divergence or price confirmation of a reversal, it remains a weak contrarian cue. The overall signal score of 5/10 correctly captures this indecision between trend and momentum.  \n\nGiven the strong downtrend and the bearish candlestick pattern, the bias remains to the downside. Yet the MACD bullish crossover argues for potential short-term buying pressure, creating a conflicting setup. Entering a short now risks a squeeze if the MACD gains traction, while a long trade goes against the prevailing trend. The best course is to wait for either a clear breakdown below 50.00 (triggering continuation shorts) or a decisive close above the Evening Star\u2019s high (near 54.00) to confirm a reversal. Until then, the risk/reward is unbalanced due to wide ATR (2.31) and no clear entry trigger.",
-  "invalidation": "A daily close above 54.00 would invalidate the bearish Evening Star signal and shift the bias neutral, while a breakdown below 50.00 would confirm further downside.",
+  "analysis": "The price at 53.17 sits well below both the EMA50 (60.68) and EMA200 (61.46), confirming a strong downtrend. However, the RSI at 38.74 shows a bullish divergence (price making lower lows while RSI forms higher lows), and the MACD has crossed above its signal line with a positive histogram, indicating early momentum to the upside. These counter-trend signals suggest a potential reversal, but the candlestick pattern\u2014a Doji followed by an Evening Star\u2014points to continued bearish pressure in the very near term. The overall picture is mixed: the trend is decisively down, but leading indicators are flashing bullish warnings.\n\nNo clear chart patterns like flags or double bottoms are evident from the given data, but the price is hovering near a potential support zone around 52.00 (a psychological level) and the ATR-based lower bound near 51.00. Resistance is distant, with the nearest significant level at 55.00, followed by 58.00 and the EMA50 at 60.68. The RSI and MACD do not agree with the prevailing trend; they are diverging from it, which often precedes a trend change but requires confirmation. The bearish Evening Star pattern undermines the bullish signal from the indicators, creating a low-conviction setup.\n\nGiven the conflicting signals, the single best trade is to wait for clearer confirmation. A buy would require a bullish reversal candlestick (e.g., a hammer or bullish engulfing) and a close above the recent swing high near 55.00 to confirm the divergence. A sell would be premature because the MACD and RSI are already hinting at exhaustion of the downtrend. The signal score of 7/10 is too optimistic given the bearish candlestick; I revise it to 5/10, reflecting the high uncertainty. Patience is warranted until price action aligns with one side of the argument.",
+  "invalidation": "This wait setup is invalidated if price breaks decisively below 52.00 (confirming continued downtrend) or closes above 55.00 (confirming the bullish reversal).",
   "support_levels": [
-    50.0,
-    48.5,
-    46.0
+    52.0,
+    51.0,
+    50.0
   ],
   "resistance_levels": [
-    54.0,
-    56.0,
-    60.98
+    55.0,
+    58.0,
+    60.68
   ]
 };
