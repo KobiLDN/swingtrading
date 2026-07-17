@@ -1,7 +1,49 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-15T08:33:41Z",
+  "generated": "2026-07-17T08:26:25Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "U.S. Dollar Moves Higher As Retail Sales Meet Estimates: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-retail-163721084.html?.tsrc=rss",
+        "time_published": "2026-07-16 16:37",
+        "source": "Finance",
+        "summary": "The American currency gains ground, supported by rising Treasury yields."
+      },
+      {
+        "title": "US Dollar Price Forecast: Retail Sales Could Decide DXY What\u2019s Next for GBP/USD and EUR/USD?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-retail-073019273.html?.tsrc=rss",
+        "time_published": "2026-07-16 07:30",
+        "source": "Finance",
+        "summary": "U.S. retail sales and jobless claims could reshape Fed rate expectations. See the latest outlook for DXY, EUR/USD and GBP/USD."
+      },
+      {
+        "title": "Cocoa Prices Edge Higher Ahead of Q2 Cocoa Grindings Reports",
+        "url": "https://www.barchart.com/story/news/3302448/cocoa-prices-edge-higher-ahead-of-q2-cocoa-grindings-reports?.tsrc=rss",
+        "time_published": "2026-07-15 18:31",
+        "source": "Barchart",
+        "summary": "September ICE NY cocoa (CCU26 ) on Wednesday closed up +77 (+1.33%), and September ICE London cocoa #7 (CAU26 ) closed up +34 (+0.79%). Cocoa prices settled higher on Wednesday as they consolidated below last week\u2019s significant highs. Gains in London cocoa were limited on Wednesday due to the streng"
+      },
+      {
+        "title": "U.S. Dollar Retreats As Producer Prices Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-retreats-producer-prices-165205557.html?.tsrc=rss",
+        "time_published": "2026-07-15 16:52",
+        "source": "Finance",
+        "summary": "The American currency pulled back as PPI report missed analyst estimates."
+      },
+      {
+        "title": "As the Dollar Weakens, Make This 1 Trade Here",
+        "url": "https://www.barchart.com/story/news/3298293/as-the-dollar-weakens-make-this-1-trade-here?.tsrc=rss",
+        "time_published": "2026-07-15 14:28",
+        "source": "Barchart",
+        "summary": "September British pound futures present a buying opportunity on more price strength."
+      },
+      {
+        "title": "US Dollar Price Forecast: Cooling Inflation Challenges DXY \u2013 Are GBP/USD and EUR/USD Ready to Rally?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-cooling-074423945.html?.tsrc=rss",
+        "time_published": "2026-07-15 07:44",
+        "source": "Finance",
+        "summary": "Softer U.S. inflation reshapes Fed expectations as DXY consolidates below $101.22. See the latest outlook for EUR/USD and GBP/USD."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Eyes $103 Ahead of US CPI and Fed Signals; EUR/USD and GBP/USD Consolidate",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-052758577.html?.tsrc=rss",
@@ -15,52 +57,52 @@ window.NEWS_DATA = {
         "time_published": "2026-07-13 12:44",
         "source": "Finance",
         "summary": "With the strikes over the weekend in Iran, it\u2019s not a surprise to see choppy action to start the week in the currency markets."
-      },
-      {
-        "title": "US Dollar Price Forecast: Risk Sentiment Shifts After FOMC Minutes \u2014 GBP/USD and EUR/USD Outlook?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-risk-065540281.html?.tsrc=rss",
-        "time_published": "2026-07-13 06:55",
-        "source": "Finance",
-        "summary": "With strong U.S. fundamentals, fiscal deficits, and reserve-currency status, the Dollar responded to FOMC minutes amid shifting risk sentiment. DXY held steady at $101.07, EUR/USD defended blue trendline support, and GBP/USD maintained bullish structure above $1.3388. Full technical analysis inside."
-      },
-      {
-        "title": "US Dollar Price Forecast: Dollar Firms Amid Sticky Inflation \u2013 GBP/USD and EUR/USD Next Move?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081728366.html?.tsrc=rss",
-        "time_published": "2026-07-10 08:17",
-        "source": "Finance",
-        "summary": "The US Dollar remained firm amid sticky core inflation and monetary policy divergence. DXY held at $100.79 inside a blue ascending channel while EUR/USD held $1.1440 support and GBP/USD defended $1.3422 resistance zone. Technical setups and trade ideas inside."
-      },
-      {
-        "title": "US Dollar Price Forecast: Dollar Reacts to FOMC Minutes on Policy Divergence \u2014 GBP/USD and EUR/USD Next Move?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-075105683.html?.tsrc=rss",
-        "time_published": "2026-07-09 07:51",
-        "source": "Finance",
-        "summary": "As the US Dollar benefits from deep capital markets and safe-haven status, it held firm following FOMC minutes with DXY at $100.85. EUR/USD defended $1.1440 support while GBP/USD tested $1.3418 resistance. Actionable trade ideas inside."
-      },
-      {
-        "title": "U.S. Dollar Gains Ground Amid Rally In The Oil Markets: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-amid-164043184.html?.tsrc=rss",
-        "time_published": "2026-07-08 16:40",
-        "source": "Finance",
-        "summary": "Rising Treasury yields provided support to the American currency."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Nears $101 Ahead of FOMC Meeting Minutes \u2014 Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073424964.html?.tsrc=rss",
-        "time_published": "2026-07-08 07:34",
-        "source": "Finance",
-        "summary": "Policy and growth divergence across major economies bolstered the US Dollar ahead of today\u2019s FOMC meeting minutes as DXY traded at $101. EUR/USD held blue trendline support at $1.1418 and GBP/USD tested resistance at $1.3360. Latest technical outlook for major pairs."
-      },
-      {
-        "title": "U.S. Dollar Gains Ground As Oil Rallies: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-oil-171007581.html?.tsrc=rss",
-        "time_published": "2026-07-07 17:10",
-        "source": "Finance",
-        "summary": "The American currency gained ground as traders focused on recent events in the Strait of Hormuz."
       }
     ],
     "eurusd": [
       {
+        "title": "U.S. Dollar Moves Higher As Retail Sales Meet Estimates: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-retail-163721084.html?.tsrc=rss",
+        "time_published": "2026-07-16 16:37",
+        "source": "Finance",
+        "summary": "The American currency gains ground, supported by rising Treasury yields."
+      },
+      {
+        "title": "EUR/USD Outlook: Why European Gas Prices Could Become the Euro\u2019s Biggest Driver",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-outlook-why-european-145611942.html?.tsrc=rss",
+        "time_published": "2026-07-16 14:56",
+        "source": "Finance",
+        "summary": "The key risk for euro bulls is that a prolonged energy shock eventually shifts the market\u2019s focus away from higher interest rates and back toward recession risks."
+      },
+      {
+        "title": "EUR/USD, USD/CAD, and AUD/USD Forecasts \u2013 Major Pairs Test Key Moving Average Bounds",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-cad-aud-133246946.html?.tsrc=rss",
+        "time_published": "2026-07-16 13:32",
+        "source": "Finance",
+        "summary": "The US dollar is choppy overall in early trading on Thursday, as markets try to determine their next move."
+      },
+      {
+        "title": "US Dollar Price Forecast: Retail Sales Could Decide DXY What\u2019s Next for GBP/USD and EUR/USD?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-retail-073019273.html?.tsrc=rss",
+        "time_published": "2026-07-16 07:30",
+        "source": "Finance",
+        "summary": "U.S. retail sales and jobless claims could reshape Fed rate expectations. See the latest outlook for DXY, EUR/USD and GBP/USD."
+      },
+      {
+        "title": "U.S. Dollar Retreats As Producer Prices Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-retreats-producer-prices-165205557.html?.tsrc=rss",
+        "time_published": "2026-07-15 16:52",
+        "source": "Finance",
+        "summary": "The American currency pulled back as PPI report missed analyst estimates."
+      },
+      {
+        "title": "US Dollar Price Forecast: Cooling Inflation Challenges DXY \u2013 Are GBP/USD and EUR/USD Ready to Rally?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-cooling-074423945.html?.tsrc=rss",
+        "time_published": "2026-07-15 07:44",
+        "source": "Finance",
+        "summary": "Softer U.S. inflation reshapes Fed expectations as DXY consolidates below $101.22. See the latest outlook for EUR/USD and GBP/USD."
+      },
+      {
         "title": "US Dollar Price Forecast: DXY Eyes $103 Ahead of US CPI and Fed Signals; EUR/USD and GBP/USD Consolidate",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-052758577.html?.tsrc=rss",
         "time_published": "2026-07-14 05:27",
@@ -73,52 +115,24 @@ window.NEWS_DATA = {
         "time_published": "2026-07-13 12:44",
         "source": "Finance",
         "summary": "With the strikes over the weekend in Iran, it\u2019s not a surprise to see choppy action to start the week in the currency markets."
-      },
-      {
-        "title": "US Dollar Price Forecast: Risk Sentiment Shifts After FOMC Minutes \u2014 GBP/USD and EUR/USD Outlook?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-risk-065540281.html?.tsrc=rss",
-        "time_published": "2026-07-13 06:55",
-        "source": "Finance",
-        "summary": "With strong U.S. fundamentals, fiscal deficits, and reserve-currency status, the Dollar responded to FOMC minutes amid shifting risk sentiment. DXY held steady at $101.07, EUR/USD defended blue trendline support, and GBP/USD maintained bullish structure above $1.3388. Full technical analysis inside."
-      },
-      {
-        "title": "US Dollar Price Forecast: Dollar Firms Amid Sticky Inflation \u2013 GBP/USD and EUR/USD Next Move?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081728366.html?.tsrc=rss",
-        "time_published": "2026-07-10 08:17",
-        "source": "Finance",
-        "summary": "The US Dollar remained firm amid sticky core inflation and monetary policy divergence. DXY held at $100.79 inside a blue ascending channel while EUR/USD held $1.1440 support and GBP/USD defended $1.3422 resistance zone. Technical setups and trade ideas inside."
-      },
-      {
-        "title": "European Parliament clears path for digital euro talks",
-        "url": "https://www.electronicpaymentsinternational.com/news/european-parliament-clears-path-for-digital-euro-talks/?.tsrc=rss",
-        "time_published": "2026-07-10 07:41",
-        "source": "Electronicpaymentsinternational",
-        "summary": "The ECB plans a potential full launch of digital euro in 2029."
-      },
-      {
-        "title": "Currencies Forecast \u2013 RBNZ Rate Hike Sparks Kiwi Rally Amid Global Consolidation",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/currencies-forecast-rbnz-rate-hike-123057279.html?.tsrc=rss",
-        "time_published": "2026-07-09 12:30",
-        "source": "Finance",
-        "summary": "The US dollar is a bit mixed in early trading, as we continue to watch rates."
-      },
-      {
-        "title": "US Dollar Price Forecast: Dollar Reacts to FOMC Minutes on Policy Divergence \u2014 GBP/USD and EUR/USD Next Move?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-075105683.html?.tsrc=rss",
-        "time_published": "2026-07-09 07:51",
-        "source": "Finance",
-        "summary": "As the US Dollar benefits from deep capital markets and safe-haven status, it held firm following FOMC minutes with DXY at $100.85. EUR/USD defended $1.1440 support while GBP/USD tested $1.3418 resistance. Actionable trade ideas inside."
-      },
-      {
-        "title": "U.S. Dollar Gains Ground Amid Rally In The Oil Markets: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-amid-164043184.html?.tsrc=rss",
-        "time_published": "2026-07-08 16:40",
-        "source": "Finance",
-        "summary": "Rising Treasury yields provided support to the American currency."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Semiconductor Stock Weakness",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-125642172.html?.tsrc=rss",
+        "time_published": "2026-07-16 12:56",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.3%, and the actively t"
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Economic Reports",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125305699.html?.tsrc=rss",
+        "time_published": "2026-07-15 12:53",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra"
+      },
       {
         "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Ahead of Warsh Testimony",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-130421454.html?.tsrc=rss",
@@ -160,81 +174,102 @@ window.NEWS_DATA = {
         "time_published": "2026-07-09 13:12",
         "source": "Finance",
         "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday as Trump Declares US-Iran Agreement Over",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130428931.html?.tsrc=rss",
-        "time_published": "2026-07-08 13:04",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.5%, and the actively t"
-      },
-      {
-        "title": "The Precious Metals Trade Has Gone Into Reverse",
-        "url": "http://www.etf.com/sections/features/precious-metals-trade-has-gone-reverse?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-07-08 02:29",
-        "source": "Etf",
-        "summary": "The year-to-date losses look mild, but the fall from the January peaks tells a very different story."
       }
     ],
     "spx": [
       {
-        "title": "Dow, S&P 500, Nasdaq Futures Edge Higher On Cooling Inflation Signs, Strong Big Bank Earnings: IBM, APLD, SKYH, NBIS in Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-higher-on-cooling-inflation-signs-strong-big-bank-earnings/cZZ28svR7qU?.tsrc=rss",
-        "time_published": "2026-07-15 02:46",
+        "title": "Nasdaq, Dow, S&P 500 Futures Slip As Chip Selloff Overshadows Strong Earnings Season: NFLX, SNDK, SPCX, MRVL Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-s-and-p-500-futures-slip-as-chip-selloff-overshadows-strong-earnings-season/cZZ7beBR7tP?.tsrc=rss",
+        "time_published": "2026-07-17 01:36",
         "source": "Stocktwits",
-        "summary": "According to data from the Bureau of Labor Statistics (BLS), the Consumer Price Index (CPI) for June rose 3.5% year-on-year, below market expectations."
+        "summary": "U.S. markets bled amid rising AI concerns after Taiwan Semiconductor Manufacturing massively hiked its capital expenditures for 2026."
       },
       {
-        "title": "How Much SanDisk (SNDK) Are You Really Betting On?",
-        "url": "https://www.trefis.com/articles/607072/how-much-sandisk-sndk-are-you-really-betting-on/2026-07-14?.tsrc=rss",
-        "time_published": "2026-07-15 01:29",
-        "source": "Trefis",
-        "summary": "Your quiet, diversified funds may have made a concentrated bet on one high-flying stock without you ever knowing."
-      },
-      {
-        "title": "S&P 500, Nasdaq End Higher On Support From Chipmakers, Cybersecurity Stocks And Soft Inflation Data \u2014 NVDA, GS, SKHY, VZ, LCID In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-higher-as-consumer-price-inflation-eases/cZZRBCFR7qq?.tsrc=rss",
-        "time_published": "2026-07-14 21:43",
+        "title": "S&P 500, Nasdaq, Dow End Lower As Chip Stocks Slide On TSMC Capex Concerns \u2014 TSM, MU, NVDA, UNH, GOOGL In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-lower-as-chip-stocks-slide-on-tsmc-capex-concerns-tsm-mu-nvda-unh-googl-in-focus/cZZEFzQR7s6?.tsrc=rss",
+        "time_published": "2026-07-16 21:31",
         "source": "Stocktwits",
-        "summary": "The consumer price index in June fell 0.4% on the month, bringing the annual inflation rate to 3.5%."
+        "summary": "TSMC\u2019s higher spending outlook raised concerns about near-term margins and returns in the ongoing AI infrastructure buildout."
       },
       {
-        "title": "ETF Share Class: Everyone\u2019s Filing but No One\u2019s Launching",
-        "url": "http://www.etf.com/sections/conferences/etf-share-class-everyones-filing-no-ones-launching?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-07-14 20:45",
-        "source": "Etf",
-        "summary": "ETF share class uptake remains slow, despite a plethora of filings. While part of the issue comes down to incomplete plumbing, could mutual fund history predict what\u2019s really in store for ETFs? Morningstar\u2019s Ben Johnson weighs in on the current state of play for the ETF share class."
-      },
-      {
-        "title": "June CPI Shakes Up 2026 Rate Hike Odds",
-        "url": "https://finance.yahoo.com/economy/policy/articles/june-cpi-shakes-2026-rate-185700608.html?.tsrc=rss",
-        "time_published": "2026-07-14 18:57",
-        "source": "Finance",
-        "summary": "June's softer-than-expected CPI reading is a vital variable that keeps new Fed Chair Kevin Warsh from being forced to choke off market liquidity with aggressive rate hikes."
-      },
-      {
-        "title": "SPYI vs. JEPI: Which Monthly \u2018Paycheck\u2019 ETF Actually Wins When the Market Gets Ugly?",
-        "url": "https://247wallst.com/investing/etf/2026/07/14/spyi-vs-jepi-which-monthly-paycheck-etf-actually-wins-when-the-market-gets-ugly/?.tsrc=rss",
-        "time_published": "2026-07-14 14:00",
+        "title": "Analyst: \u2018We\u2019re In One Of The Most Dangerous Times In History\u2019 For Passive Investors",
+        "url": "https://247wallst.com/investing/2026/07/16/analyst-were-in-one-of-the-most-dangerous-times-in-history-for-passive-investors/?.tsrc=rss",
+        "time_published": "2026-07-16 20:13",
         "source": "247wallst",
-        "summary": "The NEOS S&P 500 High Income ETF (BATS:SPYI) crossed roughly $10 billion in assets under management in June. That makes it one of the largest derivative-income vehicles in the US and forces a real question for anyone using the JPMorgan Equity Premium Income ETF (NYSEARCA:JEPI) as their monthly paych"
+        "summary": "A seasoned portfolio analyst argues that buy-and-hold investors face a threat more insidious than a sudden crash, and the quiet math behind today's 60/40 portfolios is what should keep them up at night."
       },
       {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Ahead of Warsh Testimony",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-130421454.html?.tsrc=rss",
-        "time_published": "2026-07-14 13:04",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra"
+        "title": "ICI\u2019s Weinberg: An Insider's View of ETF Industry Priorities",
+        "url": "http://www.etf.com/sections/conferences/icis-weinberg-insiders-view-etf-industry-priorities?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-07-16 19:39",
+        "source": "Etf",
+        "summary": "The flood of ETF launches seems unending, with the industry smashing through AUM and trading records once again this year. With so many ETFs trading, ICI\u2019s Josh Weinberg offers an inside look at what the hottest topics and trends were at the 2026 ICI ETF Conference this year."
       },
       {
-        "title": "Which Hot Funds Have Staying Power?",
-        "url": "https://www.trefis.com/articles/607071/which-hot-funds-have-staying-power/2026-07-14?.tsrc=rss",
-        "time_published": "2026-07-14 12:44",
-        "source": "Trefis",
-        "summary": "A hot year is easy to find, but very few funds can sustain top-quartile performance over the long haul."
+        "title": "Small Caps Are Beating the S&P 500 by the Widest Margin Since 2003.  These ETFs Let You Ride the Rally",
+        "url": "https://247wallst.com/investing/etf/2026/07/16/small-caps-are-beating-the-sp-500-by-the-widest-margin-since-2003-these-etfs-let-you-ride-the-rally/?.tsrc=rss",
+        "time_published": "2026-07-16 16:23",
+        "source": "247wallst",
+        "summary": "Small-cap stocks are staging their most dominant run against the S&P 500 in over two decades, and three ETFs are competing for the best seat at the table. Which one actually comes out ahead may surprise you."
+      },
+      {
+        "title": "Marvell Crashed Below $200: This Wall Street Firm Thinks It Doubles From Here",
+        "url": "https://247wallst.com/investing/2026/07/16/marvell-crashed-below-200-this-wall-street-firm-thinks-it-doubles-from-here/?.tsrc=rss",
+        "time_published": "2026-07-16 16:07",
+        "source": "247wallst",
+        "summary": "Marvell shed a third of its value in a single month while its AI data center business posted record revenue and management flagged an all-time high in design wins. One Wall Street analyst just set a target that would roughly double the stock, and the reasoning centers on a program most investors hav"
+      },
+      {
+        "title": "Intel Is Down 17% Over 1 Month: This Wall Street Analyst Thinks Doubles From Here",
+        "url": "https://247wallst.com/investing/2026/07/16/intel-is-down-17-over-1-month-this-wall-street-analyst-thinks-doubles-from-here/?.tsrc=rss",
+        "time_published": "2026-07-16 15:12",
+        "source": "247wallst",
+        "summary": "Intel shed nearly 20% in a month while most of Wall Street shrugged and called the stock fairly valued. One HSBC analyst just broke from the crowd in a dramatic way, and his reasoning centers on a part of Intel's business the rest of the Street has largely ignored."
+      },
+      {
+        "title": "XYLD Versus SPY: The 28% Price Return Gap Nobody Discusses",
+        "url": "https://247wallst.com/investing/etf/2026/07/16/xyld-versus-spy-the-28-price-return-gap-nobody-discusses/?.tsrc=rss",
+        "time_published": "2026-07-16 14:31",
+        "source": "247wallst",
+        "summary": "XYLD hands you a monthly check and calls it income, but buried in the fine print is a tradeoff that bull market investors keep learning the expensive way."
       }
     ],
     "oil": [
+      {
+        "title": "Sector Update: Energy Stocks Edge Higher Premarket Thursday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-132744423.html?.tsrc=rss",
+        "time_published": "2026-07-16 13:27",
+        "source": "Finance",
+        "summary": "Energy stocks were edging higher premarket Thursday, with the State Street Energy Select Sector SPDR"
+      },
+      {
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Semiconductor Stock Weakness",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-125642172.html?.tsrc=rss",
+        "time_published": "2026-07-16 12:56",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.3%, and the actively t"
+      },
+      {
+        "title": "Update: WTI Oil Edges Up to a Fresh Month High as Middle East Fighting Intensifies",
+        "url": "https://finance.yahoo.com/energy/articles/wti-oil-edges-fresh-month-193820077.html?.tsrc=rss",
+        "time_published": "2026-07-15 19:38",
+        "source": "Finance",
+        "summary": "(Updates prices in the second paragraph and and EIA storage data in the final paragraph.) West Te"
+      },
+      {
+        "title": "Sector Update: Energy Stocks Edge Higher Premarket Wednesday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-132258459.html?.tsrc=rss",
+        "time_published": "2026-07-15 13:22",
+        "source": "Finance",
+        "summary": "Energy stocks were edging higher premarket Wednesday, with the State Street Energy Select Sector SPD"
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Economic Reports",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125305699.html?.tsrc=rss",
+        "time_published": "2026-07-15 12:53",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra"
+      },
       {
         "title": "Update: WTI Oil Extends Rally as US-Iran Fighting Threatens Persian Gulf Supply",
         "url": "https://finance.yahoo.com/energy/articles/wti-oil-extends-rally-us-192750599.html?.tsrc=rss",
@@ -255,41 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-14 13:26",
         "source": "Finance",
         "summary": "Energy stocks were edging higher pre-bell Tuesday, with the State Street Energy Select Sector SPDR E"
-      },
-      {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Ahead of Warsh Testimony",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-130421454.html?.tsrc=rss",
-        "time_published": "2026-07-14 13:04",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra"
-      },
-      {
-        "title": "Market Minute 7-13-26- Oil Pops, While Korean Stocks Plunge",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/market-minute-7-13-26-142000665.html?.tsrc=rss",
-        "time_published": "2026-07-13 14:20",
-        "source": "Finance",
-        "summary": "Crude oil prices are on the move higher again, putting pressure on equities and precious metals. Treasuries are also modestly lower, while the dollar is flat."
-      },
-      {
-        "title": "Sector Update: Energy Stocks Higher Early Monday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-higher-early-135532974.html?.tsrc=rss",
-        "time_published": "2026-07-13 13:55",
-        "source": "Finance",
-        "summary": "Energy stocks were higher in early trading Monday, with the State Street Energy Select Sector SPDR E"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Renewed US-Iran Conflict Lifts Oil Prices",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125221407.html?.tsrc=rss",
-        "time_published": "2026-07-13 12:52",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.4%, and the actively t"
-      },
-      {
-        "title": "Commodities- Why Strong Trucking Demand Reinforces My Bullish Stance",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/commodities-why-strong-trucking-demand-050100257.html?.tsrc=rss",
-        "time_published": "2026-07-13 05:01",
-        "source": "Finance",
-        "summary": "What do you get when trucking prices jump? You get an increase in heavy duty truck orders \u2013 and that is what we\u2019re seeing. Here\u2019s why that means we remain commodity bulls, writes Peter Boockvar, editor of The Boock Report."
       }
     ]
   }

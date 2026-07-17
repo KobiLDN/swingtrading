@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-07-15T08:33:39Z",
+  "generated": "2026-07-17T08:26:24Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-07-14",
-  "decision": "BUY",
-  "confidence": "MEDIUM",
-  "entry": "120.17",
-  "stop_loss": "115.26",
-  "target_1": "125.08",
-  "target_2": "130.00",
-  "risk_reward": "1:1.96",
-  "score": "6/10",
-  "analysis": "Trend confirmation is strong. Price at 120.17 is above both the EMA 50 (119.75) and EMA 200 (104.72), with the EMA 50 well above the EMA 200, confirming a sustained uptrend. The recent price action shows a Doji followed by a Morning Star candlestick pattern, which is a bullish reversal signal after a brief pause. This suggests buyers have regained control near the EMA 50 support, reinforcing the trend continuation bias.\n\nNo clear triangle, flag, or double top/bottom patterns are immediately evident on the daily chart. However, the price is consolidating just above the EMA 50, which often acts as dynamic support in a strong uptrend. The nearest resistance is the recent swing high near 122.00, followed by psychological resistance at 125.00 and 128.50. Support is layered at the EMA 50 (119.75), then 117.50 (prior consolidation low), and 115.00 (next major demand zone).\n\nRSI at 54.98 is neutral, leaving room for further upside without being overbought. MACD is bullish with the line above the signal and a positive histogram, confirming upward momentum. Both indicators agree with the trend, and there is no bearish divergence. The Morning Star pattern adds confluence for a long entry. The signal score is revised upward from 4/10 to 6/10 due to the bullish candlestick pattern and strong trend structure, though the neutral RSI and moderate ATR keep confidence from being high.\n\nRISK ASSESSMENT:\nThe primary risk is a false breakout or a deeper pullback below the EMA 50. ATR of 4.91 indicates moderate daily volatility, so a stop loss placed 4.91 points below entry (115.26) is reasonable to avoid noise. If price closes below 115.00, the uptrend would be compromised. The reward-to-risk ratio of nearly 2:1 is attractive, but traders should monitor for any sudden reversal or bearish divergence on lower timeframes.",
-  "invalidation": "A daily close below 115.00 (below the EMA 50 and recent support zone) would invalidate this bullish setup and signal a potential trend reversal.",
+  "date": "2026-07-16",
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "4/10 (confirmed)",
+  "analysis": "The price action at 119.3 sits just below the EMA50 (119.79), creating a neutral-to-slightly-bearish bias on the short-term trend. The long-term EMA200 at 104.7 remains well below, confirming a structural uptrend, but the absence of a clear directional push leaves the market in a consolidation zone. The Morning Star candlestick pattern is a bullish reversal signal, yet the subsequent Doji introduces indecision, suggesting the pattern has not yet been confirmed by follow-through buying. The RSI at 53.42 is firmly neutral, offering no momentum edge, while the MACD remains bullish with the line above the signal line and a positive histogram, providing a lone bullish divergence from the broader neutral picture.  \n\nThe signal score of 4/10 reflects this conflicting mix: the Morning Star and MACD lean bullish, but the Doji, neutral RSI, and price below key EMA50 cap conviction. No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the limited data. Key support lies near 118.0 (recent swing low within the Morning Star formation), with deeper supports at 115.0 and 112.0. Resistance is clustered at 119.8 (EMA50), then 121.0 and 123.0 round numbers. The lack of a clear breakout or breakdown, combined with low conviction, does not warrant a trade entry.  \n\nA bullish setup would require price to close decisively above the EMA50 (119.8) with expanding volume, followed by a retest of that level. A bearish setup would need a break below 118.0 with a corresponding MACD crossover to the downside. Currently, neither condition is met, and the risk of whipsaw is elevated given the high ATR (4.66). Waiting for a clearer catalyst or a retest of a defined level is the prudent course.",
+  "invalidation": "A close below 118.0 would invalidate the Morning Star\u2019s bullish potential and shift the bias to bearish, while a close above 119.8 would confirm a short-term uptrend and make a buy setup actionable.",
   "support_levels": [
-    119.75,
-    117.5,
-    115.0
+    118.0,
+    115.0,
+    112.0
   ],
   "resistance_levels": [
-    122.0,
-    125.0,
-    128.5
+    119.8,
+    121.0,
+    123.0
   ]
 };
