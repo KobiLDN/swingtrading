@@ -1,30 +1,24 @@
 {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-07-16T07:55:28Z",
-  "date": "2026-07-15",
-  "price": 52.21,
-  "atr": 2.25,
+  "generated": "2026-07-17T07:52:31Z",
+  "date": "2026-07-16",
+  "price": 50.39,
+  "atr": 2.24,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 60.35,
-  "ema200": 61.48,
-  "rsi": 36.77,
-  "macd_line": -2.711979,
-  "macd_signal": -2.972369,
-  "macd_hist": 0.26039,
+  "ema50": 59.96,
+  "ema200": 61.45,
+  "rsi": 33.3,
+  "macd_line": -2.793794,
+  "macd_signal": -2.936654,
+  "macd_hist": 0.14286,
   "trend": "STRONG DOWNTREND",
   "divergence": "BULLISH",
   "patterns": [
-    {
-      "date": "2026-07-09",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-07-13",
       "name": "Evening Star",
@@ -35,13 +29,6 @@
   "score": 8,
   "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-02-20",
-      "open": 73.11,
-      "high": 76.68,
-      "low": 72.25,
-      "close": 76.62
-    },
     {
       "date": "2026-02-23",
       "open": 78.4,
@@ -734,6 +721,13 @@
       "high": 52.9,
       "low": 51.19,
       "close": 52.21
+    },
+    {
+      "date": "2026-07-16",
+      "open": 50.91,
+      "high": 51.08,
+      "low": 50.02,
+      "close": 50.39
     }
   ]
 }
