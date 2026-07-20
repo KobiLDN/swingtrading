@@ -47,7 +47,7 @@ ASSET_SLUGS = {
 }
 
 API_KEY        = os.environ.get('OPENROUTER_API_KEY', '')
-MODEL          = 'deepseek/deepseek-chat'
+MODEL          = 'deepseek/deepseek-v4-flash'
 OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
 
 SYMBOL = os.environ.get('ASSET', 'GBP/USD')
