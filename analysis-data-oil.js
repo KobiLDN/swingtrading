@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-07-20T12:18:16Z",
+  "generated": "2026-07-20T18:31:40Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-07-17",
-  "decision": "BUY (on pullback to EMA50)",
+  "date": "2026-07-20",
+  "decision": "WAIT",
   "confidence": "MEDIUM",
-  "entry": "119.96",
-  "stop_loss": "117.00",
-  "target_1": "125.00",
-  "target_2": "130.00",
-  "risk_reward": "1.70 (T1) / 3.39 (T2)",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
   "score": "4/10",
-  "analysis": "The price at 123.96 is well above both the EMA50 (119.96) and EMA200 (104.78), confirming the strong uptrend. The recent Morning Star candlestick pattern signals a bullish reversal from a pullback, while the following Doji suggests temporary indecision but does not negate the upward bias. Price action aligns with the EMA trend, and the pullback to the EMA50 area (which acted as support) reinforces the trend structure.\n\nNo clear triangles or flags are evident, but the Morning Star pattern itself is a reliable reversal formation. It appears within the uptrend, likely marking a higher low. The Doji after the Morning Star could indicate consolidation before continuation. Key support is the EMA50 at 119.96, with the recent swing low near 118.00 as secondary support. Resistance lies at the psychological 125.00 level, followed by the ATR-based extension at 128.69 and the round 130.00.\n\nRSI at 58.51 is neutral, leaving room for further upside without overbought conditions. The MACD is bullish with the line above the signal and a positive histogram, confirming the trend momentum. Both indicators agree with the uptrend, though the RSI\u2019s lack of strong momentum tempers conviction. The signal score of 4/10 reflects this moderate confluence.\n\nThe best trade setup is a buy on a pullback to the EMA50 support at 119.96. This entry offers a clear risk/reward: a stop at 117.00 (below the recent low) limits risk to 2.96 points, while targets at 125.00 and 130.00 provide 5.04 and 10.04 points of profit respectively. Risk is moderate given the high ATR (4.73), so position sizing should be conservative. The strong trend and support confluence make this a viable swing trade.",
-  "invalidation": "A daily close below the EMA50 (119.96) or a break below 117.00 would cancel the bullish setup, signaling a potential trend reversal or deeper correction.",
+  "analysis": "The daily USO chart confirms a strong uptrend with price well above both the EMA50 (120.17) and EMA200 (104.90). The MACD remains bullish, and the RSI at 60.04 is neutral\u2014neither overbought nor diverging\u2014so the momentum indicators align with the prevailing trend. However, the candlestick pattern of a Doji followed by a Morning Star typically signals a bullish reversal after a decline, yet the price is already in a strong uptrend. This creates ambiguity: the pattern may indicate a continuation after a minor pullback, but the low signal score (4/10) suggests limited conviction.\n\nAdditional chart patterns are not clearly identifiable from the given data. The Morning Star could be interpreted as a pause-and-resume pattern in the context of an uptrend, but without a prior downtrend or clear support test, its reliability is reduced. The neutral RSI and high ATR (4.54) imply that volatility is elevated, and the price could stall or retrace without a clear directional catalyst.\n\nGiven the conflicting cues\u2014strong trend versus a low-confidence reversal pattern\u2014the prudent action is to wait for either a confirmed pullback to a key support level (e.g., the EMA50 near 120.17) or a stronger bullish trigger (e.g., a decisive breakout above recent highs). Entering at current levels offers an unfavorable risk/reward because the stop-loss would need to be placed below the Morning Star\u2019s low, which is not clearly defined, and the upside target lacks a clear recent resistance level. A wait-and-see approach avoids chasing price and allows the market to provide a higher-probability entry.",
+  "invalidation": "This wait setup is invalidated if price closes above 130.00 with strong volume, confirming a continuation breakout, or if it falls below the EMA50 (120.17), which would weaken the uptrend and potentially shift the bias",
   "support_levels": [
-    119.96,
-    118.0,
-    104.78
+    120.17,
+    115.0,
+    110.0
   ],
   "resistance_levels": [
-    125.0,
-    128.69,
-    130.0
+    130.0,
+    135.0,
+    140.0
   ]
 };

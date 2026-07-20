@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-07-20T12:17:28Z",
+  "generated": "2026-07-20T18:31:08Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-07-17",
+  "date": "2026-07-20",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10 confirmed",
-  "analysis": "The trend is classified as a strong uptrend based on the EMA structure (price above both 50 and 200 EMAs), and price at 743.29 is above the 50 EMA (738.05) and well above the 200 EMA (705.01). However, price action does not fully confirm the EMA trend with conviction. The recent candlestick patterns show a Morning Star (bullish reversal) followed by an Evening Star (bearish reversal), indicating indecision and potential exhaustion at current levels. The price is hovering near the 50 EMA, which is a critical dynamic support, but the lack of a clean breakout or sustained momentum above 745 suggests the uptrend is stalling.\n\nNo clear chart patterns such as triangles, flags, or double tops/bottoms are immediately inferable from the given data. The presence of both a Morning Star and Evening Star within the last five candles suggests a choppy, range-bound environment rather than a clean continuation or reversal pattern. The nearest support is the 50 EMA at 738.05, followed by the psychological 730 area and the 200 EMA at 705.01. Resistance is likely near the recent high around 750, then 760 and 770.\n\nThe RSI at 48.42 is neutral, showing no overbought or oversold condition, and there is no divergence. The MACD is bearish with the line below the signal line and a negative histogram, which conflicts with the strong uptrend designation. This divergence between the EMA trend (bullish) and MACD (bearish) creates a mixed signal. The signal score of 5/10 accurately reflects this lack of confluence. Without a clear alignment of indicators, entering a trade now carries elevated risk of whipsaw.\n\nGiven the conflicting signals \u2014 strong uptrend in EMAs but bearish MACD, neutral RSI, and mixed candlestick patterns \u2014 the best course is to wait for a clearer setup. A buy would require price to reclaim above 745 with MACD turning positive, while a sell would need a decisive break below the 50 EMA (738.05) with confirmation. The current environment is not favorable for a high-confidence swing trade.",
-  "invalidation": "This wait setup is invalidated if price breaks and closes above 750 with strong volume, or breaks and closes below 738 with MACD accelerating lower.",
+  "score": "4/10",
+  "analysis": "The price at 744.53 sits well above both the EMA50 (738.3) and EMA200 (705.71), confirming the prevailing strong uptrend. However, the recent candlestick sequence\u2014a Morning Star followed by an Evening Star within five candles\u2014signals sharp indecision and a potential reversal pattern. The Morning Star initially suggested bullish exhaustion, but the subsequent Evening Star indicates a bearish rejection at higher levels, creating a possible short-term top. This mixed message undermines the reliability of the trend alone.\n\nThe RSI at 49.42 is neutral, offering no momentum clue, while the MACD is bearish (line below signal, negative histogram), showing declining momentum that contradicts the price trend. This divergence between price (still near highs) and momentum (weakening) is a classic warning of a potential pullback or consolidation. The low signal score of 4/10 further reflects the poor alignment of indicators.\n\nKey support is the EMA50 at 738.30, a critical level for trend continuation. A break below that would expose the 730 area and then the 720 zone. Resistance is undefined from the given data, but nearby psychological levels at 745 and 750 may act as barriers; the ATR-based upper band around 752.81 is a logical resistance target. Without a clear catalyst or confirmation from either a decisive break above resistance or a breakdown below support, the risk/reward is too uncertain for an entry. The strong uptrend argues against shorting, yet the bearish signals argue against buying.",
+  "invalidation": "A decisive daily close above 753.00 (above ATR resistance) would negate the bearish divergence and re-establish a buying bias, while a close below 738.30 (EMA50) would confirm the reversal and open a sell setup.",
   "support_levels": [
-    738.05,
+    738.3,
     730.0,
-    705.01
+    720.0
   ],
   "resistance_levels": [
+    745.0,
     750.0,
-    760.0,
-    770.0
+    752.81
   ]
 };

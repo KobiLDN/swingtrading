@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
 **Date:** 2026-07-20
-**Generated:** 2026-07-20T12:15:59Z
+**Generated:** 2026-07-20T18:30:08Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | BUY |
-| **Confidence** | HIGH |
-| **Entry** | 1.34695 |
-| **Stop Loss** | 1.34095 |
-| **Target 1** | 1.3530 |
-| **Target 2** | 1.3590 |
-| **Risk/Reward** | 1:2.0 |
-| **Score** | 8/10 |
-| **Support** | 1.34181, 1.33795, 1.335 |
-| **Resistance** | 1.35, 1.355, 1.36 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 3/10 confirmed |
+| **Support** | 1.34178, 1.33782, 1.335 |
+| **Resistance** | 1.345, 1.35, 1.355 |
 
 ---
 
 ## Analysis
 
-Price action strongly confirms the bullish EMA trend. The price is trading well above both the 50-period (1.33795) and 200-period (1.34181) EMAs, establishing a clear bullish structure. The recent Morning Star candlestick pattern, preceded by a Doji, is a powerful reversal signal that indicates the pullback found strong support near the 200 EMA and buyers have successfully regained control. This pattern provides a high-probability entry point in the direction of the prevailing trend.
+The EMA structure shows a bullish bias with price (1.34373) trading above both the 50-period EMA (1.33782) and the 200-period EMA (1.34178). However, the price is only marginally above the 200 EMA, and the 50 EMA remains below the 200 EMA — a “golden cross” has not yet occurred. This indicates the trend is improving but not yet firmly established. The recent Doji candlestick pattern suggests indecision, and the price is stalling near the 1.3450 resistance zone, which has acted as a ceiling in prior sessions. No clear chart patterns like flags or triangles are evident; the price action appears to be consolidating in a narrow range.
 
-The RSI and MACD are in perfect confluence with the bullish trend. The MACD is bullish with the line above the signal line and a positive histogram, confirming accelerating upside momentum. The RSI at 60.31 is in neutral territory, which is ideal for a swing trade as it leaves substantial room for the move to develop before reaching overbought conditions. The absence of any bearish divergence further validates the strength of the current advance.
+RSI at 56.48 is neutral and provides no overbought/oversold edge, while MACD is bullish with the line above the signal and a positive histogram. This MACD reading agrees with the bullish bias but lacks strong momentum acceleration. The absence of RSI divergence further reduces conviction. The signal score of 3/10 reflects low confluence: the trend is weak, the Doji signals hesitation, and the price is at a resistance level without a confirmed breakout.
 
-The single best trade setup is a long position at the current market price of 1.34695, riding the momentum of the Morning Star breakout. The logical stop loss is placed at 1.34095, just below the 200 EMA and the low of the reversal pattern, representing a 60-pip risk in line with the current ATR. The first target is set at 1.3530 (1x ATR extension), with a secondary target at 1.3590 (2x ATR extension), offering a favorable 1:2 risk-to-reward ratio on the full swing.
-
-The initial signal score of 5/10 appears conservative given the strong technical alignment. The confluence of a bullish EMA structure, a textbook Morning Star reversal pattern, bullish MACD momentum, and a neutral RSI with room to run significantly elevates the probability of a successful trade. The score is revised to 8/10, reflecting this high-probability setup, with the only minor caveat being the proximity to the psychological 1.3500 resistance level.
+Given the proximity to resistance (1.3450), the lack of a clear breakout, and the low signal score, the prudent action is to wait. A long entry would require a confirmed daily close above 1.3450 with expanding momentum, while a short entry would need a breakdown below the 200 EMA at 1.34178. Neither condition is met currently. The risk-reward is unfavorable for a blind entry at this level.
 
 ---
 
 ## Invalidation
 
-A daily close below the 200 EMA at 1.34181 would break the bullish structure and invalidate this setup.
+A daily close below 1.34178 (200 EMA) would invalidate the bullish bias and shift the outlook to neutral or bearish.
 
 ---
 

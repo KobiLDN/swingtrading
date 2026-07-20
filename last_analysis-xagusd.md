@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
-**Date:** 2026-07-17
-**Generated:** 2026-07-20T12:17:45Z
+**Date:** 2026-07-20
+**Generated:** 2026-07-20T18:31:23Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 50.78 |
-| **Stop Loss** | 51.50 |
-| **Target 1** | 49.50 |
-| **Target 2** | 48.00 |
-| **Risk/Reward** | 1.78 (T1) / 3.86 (T2) |
-| **Score** | 5/10 |
-| **Support** | 50.0, 49.0, 48.5 |
-| **Resistance** | 51.2, 52.0, 53.0 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 2/10 |
+| **Support** | 50.0, 49.16, 48.0 |
+| **Resistance** | 53.32, 55.0, 59.27 |
 
 ---
 
 ## Analysis
 
-The price action confirms the EMA-driven strong downtrend, as SLV trades well below both the 50-period (59.60) and 200-period (61.33) EMAs, with no recent attempt to reclaim either. The Evening Star candlestick pattern over the last five candles reinforces a bearish reversal after a minor bounce, suggesting that sellers are regaining control. No additional chart patterns like triangles or flags are evident, but the persistent lower highs and lower lows define a clear downtrend channel. Near-term support is likely at the psychological 50.00 level, followed by the 49.00 area where prior consolidation occurred; resistance sits just above at 51.20 (the Evening Star’s high) and then 52.00 (a prior swing low turned resistance).
+The price at 51.24 sits well below both the EMA50 (59.27) and EMA200 (61.30), confirming the strong downtrend. The price action has not shown any signs of reversing this trend; the recent Doji candle reflects indecision but lacks the momentum or volume to suggest a trend change. Without any bullish price structure such as higher lows or a base pattern, the dominant bearish alignment remains intact, and any short-term bounces are likely to be sold into.
 
-The RSI at 34.72 is neutral but close to oversold territory, indicating that momentum is weak but not yet exhausted. The MACD shows a bullish cross with a positive histogram, which conflicts with the bearish trend and candlestick signal. This lack of confluence reduces confidence and explains the 5/10 score. However, in a strong downtrend, the MACD bullish signal often represents a counter-trend bounce that quickly fades, making it a secondary consideration. The Evening Star provides a timely short entry around current price, with a tight stop above the pattern’s high to manage risk.
+The MACD has turned bullish with the line above the signal line and a positive histogram, which could indicate early momentum shift. However, the RSI at 36.44 is neutral and not oversold, and there is no RSI divergence to support a reversal. The MACD bullish crossover in a strong downtrend often results in a brief pullback or sideways consolidation before the trend resumes. The signal score of 2/10 reflects the very low probability of a successful long trade under these conditions.
 
-The best trade setup is a short sell at 50.78, betting on a continuation of the downtrend. The risk is defined by the stop at 51.50 (0.72 points), while the first target at 49.50 offers a 1.28-point gain, yielding a risk
+Key support near current price is the round number 50.00 and the ATR-based lower band at 49.16 (51.24 - 2.08). Resistance lies at 53.32 (51.24 + 2.08), then the 55.00 psychological level, and finally the EMA50 at 59.27. The absence of any clear double bottom, flag, or triangle pattern reinforces the lack of a reliable setup. The best trade is to wait for either a deep retest of support with a bullish reversal pattern, or a confirmed breakdown below 49.00 to add to shorts. At present, the risk of entering counter-trend is high, and the reward potential is undefined.
 
 ---
 
 ## Invalidation
 
-N/A
+A sustained break and close above the EMA50 (59.27) would invalidate the bearish bias and potentially shift the trend to neutral.
 
 ---
 

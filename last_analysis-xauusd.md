@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
 **Date:** 2026-07-20
-**Generated:** 2026-07-20T12:17:14Z
+**Generated:** 2026-07-20T18:30:56Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,32 +12,32 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 4024.14 |
-| **Stop Loss** | 4100.00 |
-| **Target 1** | 3960.00 |
-| **Target 2** | 3895.00 |
-| **Risk/Reward** | 1:1.9 |
-| **Score** | 6/10 |
-| **Support** | 3960.0, 3895.0, 3820.0 |
-| **Resistance** | 4100.0, 4178.95, 4250.0 |
+| **Entry** | 4006.2 |
+| **Stop Loss** | 4070.3 |
+| **Target 1** | 3942.0 |
+| **Target 2** | 3878.0 |
+| **Risk/Reward** | 1:1.5 |
+| **Score** | 7/10 |
+| **Support** | 3942.0, 3878.0, 3800.0 |
+| **Resistance** | 4070.3, 4178.3, 4240.0 |
 
 ---
 
 ## Analysis
 
-The trend is unequivocally bearish. Price at 4024.14 sits far below both the EMA 50 (4178.95) and EMA 200 (4448.15), confirming a strong downtrend. The price action aligns with this: the recent Evening Star candlestick pattern (bearish reversal) appeared after a minor bounce, reinforcing that sellers remain in control. The Morning Star pattern that preceded it was a short-lived corrective bounce, now invalidated by the subsequent bearish candle. No clear triangles, flags, or double tops/bottoms are present; the structure is a series of lower highs and lower lows, consistent with a trending decline.
+The trend is unequivocally bearish. Price at 4006.2 is trading well below both the EMA 50 (4178.25) and EMA 200 (4447.97), confirming a strong downtrend. The Evening Star candlestick pattern on the daily chart, occurring after a brief consolidation, signals a resumption of selling pressure. The ATR of 64 points indicates high volatility, which supports the potential for a sharp continuation move lower. No clear reversal patterns (double bottom, bullish flag) are present; instead, the structure suggests a persistent bearish channel.
 
-RSI at 41.99 is neutral but leans bearish, as it remains below 50 with no divergence. MACD is bearish with the line below the signal line and a negative histogram, confirming downside momentum. There is no bullish divergence to suggest a reversal. The confluence of RSI neutrality (not oversold) and MACD bearishness supports continuation of the downtrend rather than a bounce. The signal score of 5/10 is conservative due to the lack of an oversold extreme, but the trend strength and pattern alignment justify a slight upgrade to 6/10 for a sell.
+The RSI at 39.83 is neutral but not oversold, leaving room for further downside. Critically, the RSI divergence is labeled bullish, which introduces a note of caution—this divergence suggests that momentum is slowing at lower prices, potentially warning of a reversal. However, the MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend. The divergence is a conflicting signal, but in a strong trend, divergence alone is often a poor reversal trigger without price confirmation. The MACD and price action currently outweigh the divergence signal.
 
-The best trade setup is a short from current price, targeting the next support zone near 3960 (prior swing low and psychological round number), with a secondary target at 3895 (next major support from early 2026). Stop-loss is placed above the recent resistance at 4100, which aligns with the prior minor high and offers a reasonable risk buffer. The risk-reward ratio of 1:1.9 is acceptable for a swing trade in a strong trend.
+The single best trade setup is a continuation sell at current price, targeting the next support zone near 3942 (a prior swing low and psychological round number) and then 3878 (the next major support from early 2026). The stop loss is placed above the recent swing high at 4070.3, which also aligns with the lower boundary of the Evening Star pattern. The risk-reward ratio of 1:1.5 is acceptable given the strong trend, though the bullish RSI divergence caps confidence at MEDIUM.
 
-RISK ASSESSMENT: The primary risk is a sudden short-covering rally or a bullish catalyst (e.g., geopolitical or central bank news) that pushes price back above 4100. The ATR of 63 pts means daily swings are large, so position sizing must account for volatility. The lack of an oversold RSI leaves room for further downside, but also means a bounce could occur at any time. The trade is valid only as long as price remains below the EMA 50 and the 4100 resistance.
+Risk assessment: The primary risk is a sudden reversal driven by the bullish RSI divergence, which could trigger a sharp bounce toward the EMA 50 at 4178. Additionally, the high ATR means stop losses may be hit by intraday volatility. Position size should be reduced to account for this uncertainty. The original signal score of 8/10 is revised down to 7/10 due to the conflicting divergence.
 
 ---
 
 ## Invalidation
 
-A daily close above 4100.00 would break the immediate resistance and signal a potential trend shift, invalidating the short setup.
+This setup is invalidated if price breaks and closes above 4070.3, as that would negate the Evening Star pattern and suggest the divergence is gaining traction.
 
 ---
 
