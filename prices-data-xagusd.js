@@ -1,41 +1,34 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-07-20T08:40:30Z",
-  "date": "2026-07-17",
-  "price": 50.78,
-  "atr": 2.17,
+  "generated": "2026-07-20T18:27:45Z",
+  "date": "2026-07-20",
+  "price": 51.24,
+  "atr": 2.08,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 59.6,
-  "ema200": 61.33,
-  "rsi": 34.72,
-  "macd_line": -2.794945,
-  "macd_signal": -2.908312,
-  "macd_hist": 0.113367,
+  "ema50": 59.27,
+  "ema200": 61.3,
+  "rsi": 36.44,
+  "macd_line": -2.7273,
+  "macd_signal": -2.87211,
+  "macd_hist": 0.14481,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-07-13",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
+      "date": "2026-07-20",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 2,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-02-24",
-      "open": 78.23,
-      "high": 79.94,
-      "low": 77.94,
-      "close": 79.08
-    },
     {
       "date": "2026-02-25",
       "open": 81.86,
@@ -728,6 +721,13 @@ window.PRICES_DATA_XAGUSD = {
       "high": 50.82,
       "low": 49.61,
       "close": 50.78
+    },
+    {
+      "date": "2026-07-20",
+      "open": 51.21,
+      "high": 51.69,
+      "low": 50.98,
+      "close": 51.24
     }
   ]
 };

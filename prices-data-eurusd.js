@@ -1,21 +1,21 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-07-20T08:40:28Z",
+  "generated": "2026-07-20T18:27:44Z",
   "date": "2026-07-20",
-  "price": 1.14415,
-  "atr": 0.00435,
-  "atr_pips": 43,
+  "price": 1.14177,
+  "atr": 0.00449,
+  "atr_pips": 45,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.1476,
-  "ema200": 1.16047,
-  "rsi": 50.19,
-  "macd_line": -0.000753,
-  "macd_signal": -0.001456,
-  "macd_hist": 0.000703,
+  "ema50": 1.14751,
+  "ema200": 1.16045,
+  "rsi": 45.19,
+  "macd_line": -0.000943,
+  "macd_signal": -0.001494,
+  "macd_hist": 0.000551,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -24,10 +24,16 @@ window.PRICES_DATA_EURUSD = {
       "name": "Inverted Hammer",
       "signal": "BULLISH REVERSAL",
       "strength": 3
+    },
+    {
+      "date": "2026-07-20",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 3,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
     {
       "date": "2026-04-12",
@@ -726,8 +732,8 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-07-20",
       "open": 1.14319,
       "high": 1.14496,
-      "low": 1.14237,
-      "close": 1.14415
+      "low": 1.14033,
+      "close": 1.14177
     }
   ]
 };

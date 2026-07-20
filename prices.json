@@ -1,21 +1,21 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-20T08:40:27Z",
+  "generated": "2026-07-20T18:27:43Z",
   "date": "2026-07-20",
-  "price": 1.34695,
-  "atr": 0.006,
-  "atr_pips": 60,
+  "price": 1.34373,
+  "atr": 0.00617,
+  "atr_pips": 62,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33795,
-  "ema200": 1.34181,
-  "rsi": 60.31,
-  "macd_line": 0.003941,
-  "macd_signal": 0.003158,
-  "macd_hist": 0.000783,
+  "ema50": 1.33782,
+  "ema200": 1.34178,
+  "rsi": 56.48,
+  "macd_line": 0.003684,
+  "macd_signal": 0.003107,
+  "macd_hist": 0.000577,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
@@ -24,16 +24,10 @@
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
-    },
-    {
-      "date": "2026-07-20",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 3,
+  "verdict": "NO TRADE",
   "candles": [
     {
       "date": "2026-04-12",
@@ -732,8 +726,8 @@
       "date": "2026-07-20",
       "open": 1.34512,
       "high": 1.34804,
-      "low": 1.34401,
-      "close": 1.34695
+      "low": 1.34153,
+      "close": 1.34373
     }
   ]
 }

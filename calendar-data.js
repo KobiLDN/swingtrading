@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-07-20T08:40:31Z",
+  "generated": "2026-07-20T18:27:46Z",
   "events": [
     {
       "date": "2026-07-21",
@@ -7,7 +7,7 @@ window.CALENDAR_DATA = {
       "currency": "GBP",
       "event": "Claimant Count Change",
       "impact": "high",
-      "forecast": "28.3K",
+      "forecast": "29.4K",
       "previous": "31.2K",
       "actual": "",
       "today": false,
