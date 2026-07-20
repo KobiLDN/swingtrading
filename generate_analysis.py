@@ -47,7 +47,7 @@ ASSET_SLUGS = {
 }
 
 API_KEY        = os.environ.get('OPENROUTER_API_KEY', '')
-MODEL          = 'deepseek/deepseek-v4-flash'
+MODEL          = 'deepseek/deepseek-chat'
 OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
 
 SYMBOL = os.environ.get('ASSET', 'GBP/USD')
@@ -180,7 +180,10 @@ def call_openrouter(prompt):
     if 'error' in data:
         raise ValueError(f"OpenRouter error: {data['error']}")
 
-    return data['choices'][0]['message']['content']
+    content = data['choices'][0]['message']['content']
+    if not content:
+        raise ValueError(f"OpenRouter returned empty content. Full response: {data}")
+    return content
 
 
 # ── Parse response ─────────────────────────────────────────────────────────────
