@@ -1,55 +1,40 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-17T07:52:29Z",
-  "date": "2026-07-17",
-  "price": 1.34673,
-  "atr": 0.0066,
-  "atr_pips": 66,
+  "generated": "2026-07-20T08:40:27Z",
+  "date": "2026-07-20",
+  "price": 1.34695,
+  "atr": 0.006,
+  "atr_pips": 60,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33702,
-  "ema200": 1.34237,
-  "rsi": 60.47,
-  "macd_line": 0.004007,
-  "macd_signal": 0.002471,
-  "macd_hist": 0.001536,
+  "ema50": 1.33795,
+  "ema200": 1.34181,
+  "rsi": 60.31,
+  "macd_line": 0.003941,
+  "macd_signal": 0.003158,
+  "macd_hist": 0.000783,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-07-13",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
+      "date": "2026-07-19",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-07-20",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-09",
-      "open": 1.33952,
-      "high": 1.3458,
-      "low": 1.33817,
-      "close": 1.34369
-    },
-    {
-      "date": "2026-04-10",
-      "open": 1.34367,
-      "high": 1.34802,
-      "low": 1.34097,
-      "close": 1.34624
-    },
-    {
-      "date": "2026-04-11",
-      "open": 1.34621,
-      "high": 1.34634,
-      "low": 1.34492,
-      "close": 1.3457
-    },
     {
       "date": "2026-04-12",
       "open": 1.34567,
@@ -726,8 +711,29 @@ window.PRICES_DATA_GBPUSD = {
       "date": "2026-07-17",
       "open": 1.34799,
       "high": 1.34845,
-      "low": 1.34573,
-      "close": 1.34673
+      "low": 1.34245,
+      "close": 1.34523
+    },
+    {
+      "date": "2026-07-18",
+      "open": 1.34528,
+      "high": 1.34544,
+      "low": 1.34469,
+      "close": 1.34507
+    },
+    {
+      "date": "2026-07-19",
+      "open": 1.34505,
+      "high": 1.34646,
+      "low": 1.34358,
+      "close": 1.34514
+    },
+    {
+      "date": "2026-07-20",
+      "open": 1.34512,
+      "high": 1.34804,
+      "low": 1.34401,
+      "close": 1.34695
     }
   ]
 };
