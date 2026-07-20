@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-07-16
-**Generated:** 2026-07-17T08:25:38Z
+**Date:** 2026-07-17
+**Generated:** 2026-07-20T12:17:28Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,33 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 742.32, 737.83, 730.0 |
-| **Resistance** | 755.0, 760.0, 770.0 |
+| **Score** | 5/10 confirmed |
+| **Support** | 738.05, 730.0, 705.01 |
+| **Resistance** | 750.0, 760.0, 770.0 |
 
 ---
 
 ## Analysis
 
-The trend is confirmed as a strong uptrend with price (750.72) well above both the EMA 50 (737.83) and EMA 200 (704.28). The bullish MACD crossover and positive histogram support the upward momentum. However, the RSI at 54.39 is neutral, indicating no overbought or oversold pressure, which reduces urgency for a directional trade. The signal score of 5/10 reflects mixed signals, particularly the conflicting candlestick patterns (Morning Star and Evening Star within the last five candles), suggesting recent indecision and potential for a short-term pullback or consolidation.
+The trend is classified as a strong uptrend based on the EMA structure (price above both 50 and 200 EMAs), and price at 743.29 is above the 50 EMA (738.05) and well above the 200 EMA (705.01). However, price action does not fully confirm the EMA trend with conviction. The recent candlestick patterns show a Morning Star (bullish reversal) followed by an Evening Star (bearish reversal), indicating indecision and potential exhaustion at current levels. The price is hovering near the 50 EMA, which is a critical dynamic support, but the lack of a clean breakout or sustained momentum above 745 suggests the uptrend is stalling.
 
-No clear chart patterns like triangles, flags, or double tops/bottoms are evident from the given data. The proximity to the recent high near 755–760 suggests resistance may form there, while the EMA 50 at 737.83 acts as strong dynamic support. The MACD and RSI do not fully agree: MACD is bullish, but RSI is neutral and not confirming strong momentum. This divergence in momentum indicators, combined with the conflicting candlestick signals, argues against entering a new position at current levels.
+No clear chart patterns such as triangles, flags, or double tops/bottoms are immediately inferable from the given data. The presence of both a Morning Star and Evening Star within the last five candles suggests a choppy, range-bound environment rather than a clean continuation or reversal pattern. The nearest support is the 50 EMA at 738.05, followed by the psychological 730 area and the 200 EMA at 705.01. Resistance is likely near the recent high around 750, then 760 and 770.
 
-Given the lack of a clear, high-conviction setup, the best action is to wait for either a pullback to the EMA 50 support (737.83) for a potential long entry, or a decisive breakout above 755–760 with strong volume to confirm continuation. The current price offers an unfavorable risk/reward for a fresh swing trade due to the proximity to resistance and the mixed short-term signals.
+The RSI at 48.42 is neutral, showing no overbought or oversold condition, and there is no divergence. The MACD is bearish with the line below the signal line and a negative histogram, which conflicts with the strong uptrend designation. This divergence between the EMA trend (bullish) and MACD (bearish) creates a mixed signal. The signal score of 5/10 accurately reflects this lack of confluence. Without a clear alignment of indicators, entering a trade now carries elevated risk of whipsaw.
+
+Given the conflicting signals — strong uptrend in EMAs but bearish MACD, neutral RSI, and mixed candlestick patterns — the best course is to wait for a clearer setup. A buy would require price to reclaim above 745 with MACD turning positive, while a sell would need a decisive break below the 50 EMA (738.05) with confirmation. The current environment is not favorable for a high-confidence swing trade.
 
 ---
 
 ## Invalidation
 
-A close below the EMA 50 (737.83) would invalidate the bullish trend bias and suggest a deeper correction or trend change.
+This wait setup is invalidated if price breaks and closes above 750 with strong volume, or breaks and closes below 738 with MACD accelerating lower.
 
 ---
 

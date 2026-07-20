@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-07-16
-**Generated:** 2026-07-17T08:26:24Z
+**Date:** 2026-07-17
+**Generated:** 2026-07-20T12:18:16Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 4/10 (confirmed) |
-| **Support** | 118.0, 115.0, 112.0 |
-| **Resistance** | 119.8, 121.0, 123.0 |
+| **Decision** | BUY (on pullback to EMA50) |
+| **Confidence** | MEDIUM |
+| **Entry** | 119.96 |
+| **Stop Loss** | 117.00 |
+| **Target 1** | 125.00 |
+| **Target 2** | 130.00 |
+| **Risk/Reward** | 1.70 (T1) / 3.39 (T2) |
+| **Score** | 4/10 |
+| **Support** | 119.96, 118.0, 104.78 |
+| **Resistance** | 125.0, 128.69, 130.0 |
 
 ---
 
 ## Analysis
 
-The price action at 119.3 sits just below the EMA50 (119.79), creating a neutral-to-slightly-bearish bias on the short-term trend. The long-term EMA200 at 104.7 remains well below, confirming a structural uptrend, but the absence of a clear directional push leaves the market in a consolidation zone. The Morning Star candlestick pattern is a bullish reversal signal, yet the subsequent Doji introduces indecision, suggesting the pattern has not yet been confirmed by follow-through buying. The RSI at 53.42 is firmly neutral, offering no momentum edge, while the MACD remains bullish with the line above the signal line and a positive histogram, providing a lone bullish divergence from the broader neutral picture.  
+The price at 123.96 is well above both the EMA50 (119.96) and EMA200 (104.78), confirming the strong uptrend. The recent Morning Star candlestick pattern signals a bullish reversal from a pullback, while the following Doji suggests temporary indecision but does not negate the upward bias. Price action aligns with the EMA trend, and the pullback to the EMA50 area (which acted as support) reinforces the trend structure.
 
-The signal score of 4/10 reflects this conflicting mix: the Morning Star and MACD lean bullish, but the Doji, neutral RSI, and price below key EMA50 cap conviction. No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the limited data. Key support lies near 118.0 (recent swing low within the Morning Star formation), with deeper supports at 115.0 and 112.0. Resistance is clustered at 119.8 (EMA50), then 121.0 and 123.0 round numbers. The lack of a clear breakout or breakdown, combined with low conviction, does not warrant a trade entry.  
+No clear triangles or flags are evident, but the Morning Star pattern itself is a reliable reversal formation. It appears within the uptrend, likely marking a higher low. The Doji after the Morning Star could indicate consolidation before continuation. Key support is the EMA50 at 119.96, with the recent swing low near 118.00 as secondary support. Resistance lies at the psychological 125.00 level, followed by the ATR-based extension at 128.69 and the round 130.00.
 
-A bullish setup would require price to close decisively above the EMA50 (119.8) with expanding volume, followed by a retest of that level. A bearish setup would need a break below 118.0 with a corresponding MACD crossover to the downside. Currently, neither condition is met, and the risk of whipsaw is elevated given the high ATR (4.66). Waiting for a clearer catalyst or a retest of a defined level is the prudent course.
+RSI at 58.51 is neutral, leaving room for further upside without overbought conditions. The MACD is bullish with the line above the signal and a positive histogram, confirming the trend momentum. Both indicators agree with the uptrend, though the RSI’s lack of strong momentum tempers conviction. The signal score of 4/10 reflects this moderate confluence.
+
+The best trade setup is a buy on a pullback to the EMA50 support at 119.96. This entry offers a clear risk/reward: a stop at 117.00 (below the recent low) limits risk to 2.96 points, while targets at 125.00 and 130.00 provide 5.04 and 10.04 points of profit respectively. Risk is moderate given the high ATR (4.73), so position sizing should be conservative. The strong trend and support confluence make this a viable swing trade.
 
 ---
 
 ## Invalidation
 
-A close below 118.0 would invalidate the Morning Star’s bullish potential and shift the bias to bearish, while a close above 119.8 would confirm a short-term uptrend and make a buy setup actionable.
+A daily close below the EMA50 (119.96) or a break below 117.00 would cancel the bullish setup, signaling a potential trend reversal or deeper correction.
 
 ---
 

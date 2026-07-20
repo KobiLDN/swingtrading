@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-17T08:26:25Z",
+  "generated": "2026-07-20T12:18:17Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "British Pound Rises as Burnham to Become U.K. Prime Minister",
+        "url": "https://finance.yahoo.com/m/05816488-5e37-39e1-8d18-719a3b0968f8/british-pound-rises-as.html?.tsrc=rss",
+        "time_published": "2026-07-20 09:38",
+        "source": "Finance",
+        "summary": "Sterling rose as Andy Burnham was set to become the U.K.'s prime minister Monday.  It completes a surprisingly smooth transition of power from Keir Starmer who announced his resignation as prime minister last month, Commerzbank's Thu Lan Nguyen said in a note.  The market appears to be betting that"
+      },
+      {
+        "title": "US Dollar Price Forecast: Retail Sales Boost DXY \u2013 What\u2019s Next for GBP/USD and EUR/USD?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-retail-071325852.html?.tsrc=rss",
+        "time_published": "2026-07-17 07:13",
+        "source": "Finance",
+        "summary": "Strong U.S. retail sales and resilient jobless claims reinforce the Fed\u2019s cautious stance. Explore the latest outlook for DXY, EUR/USD and GBP/USD."
+      },
       {
         "title": "U.S. Dollar Moves Higher As Retail Sales Meet Estimates: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-retail-163721084.html?.tsrc=rss",
@@ -43,23 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-07-15 07:44",
         "source": "Finance",
         "summary": "Softer U.S. inflation reshapes Fed expectations as DXY consolidates below $101.22. See the latest outlook for EUR/USD and GBP/USD."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes $103 Ahead of US CPI and Fed Signals; EUR/USD and GBP/USD Consolidate",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-052758577.html?.tsrc=rss",
-        "time_published": "2026-07-14 05:27",
-        "source": "Finance",
-        "summary": "Meta: US dollar remains supported by hawkish Federal Reserve expectations, with traders focused on US CPI data and Fed commentary for the next directional move."
-      },
-      {
-        "title": "Forex Forecasts \u2013 Greenback Momentum Tests Key Support and Moving Averages",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-forecasts-greenback-momentum-tests-124446625.html?.tsrc=rss",
-        "time_published": "2026-07-13 12:44",
-        "source": "Finance",
-        "summary": "With the strikes over the weekend in Iran, it\u2019s not a surprise to see choppy action to start the week in the currency markets."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Retail Sales Boost DXY \u2013 What\u2019s Next for GBP/USD and EUR/USD?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-retail-071325852.html?.tsrc=rss",
+        "time_published": "2026-07-17 07:13",
+        "source": "Finance",
+        "summary": "Strong U.S. retail sales and resilient jobless claims reinforce the Fed\u2019s cautious stance. Explore the latest outlook for DXY, EUR/USD and GBP/USD."
+      },
       {
         "title": "U.S. Dollar Moves Higher As Retail Sales Meet Estimates: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-retail-163721084.html?.tsrc=rss",
@@ -108,17 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-07-14 05:27",
         "source": "Finance",
         "summary": "Meta: US dollar remains supported by hawkish Federal Reserve expectations, with traders focused on US CPI data and Fed commentary for the next directional move."
-      },
-      {
-        "title": "Forex Forecasts \u2013 Greenback Momentum Tests Key Support and Moving Averages",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-forecasts-greenback-momentum-tests-124446625.html?.tsrc=rss",
-        "time_published": "2026-07-13 12:44",
-        "source": "Finance",
-        "summary": "With the strikes over the weekend in Iran, it\u2019s not a surprise to see choppy action to start the week in the currency markets."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday as Investors Retreat From Chipmaker Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130030829.html?.tsrc=rss",
+        "time_published": "2026-07-17 13:00",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.7%, and the actively t"
+      },
       {
         "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Semiconductor Stock Weakness",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-125642172.html?.tsrc=rss",
@@ -167,74 +174,102 @@ window.NEWS_DATA = {
         "time_published": "2026-07-10 01:54",
         "source": "247wallst",
         "summary": "The industrial metals trade has quietly become the most interesting corner of the commodity market, and the choice between iShares Silver Trust (NYSEARCA:SLV), United States Copper Index Fund (NYSEARCA:CPER), and SPDR S&P Metals & Mining ETF (NYSEARCA:XME) carries real performance consequences. Over"
-      },
-      {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Chip Stocks Rebound Despite US-Iran Tensions",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131219951.html?.tsrc=rss",
-        "time_published": "2026-07-09 13:12",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra"
       }
     ],
     "spx": [
       {
-        "title": "Nasdaq, Dow, S&P 500 Futures Slip As Chip Selloff Overshadows Strong Earnings Season: NFLX, SNDK, SPCX, MRVL Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-s-and-p-500-futures-slip-as-chip-selloff-overshadows-strong-earnings-season/cZZ7beBR7tP?.tsrc=rss",
-        "time_published": "2026-07-17 01:36",
+        "title": "Nasdaq, Dow, S&P 500 Futures Edge Higher Ahead Of Key Earnings Week Even As Middle East Tensions Continue: DJT, NVDA, SLS, PANW Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-s-and-p-500-futures-edge-higher-ahead-of-key-earnings-week-even-as-middle-east-tensions-continue/cZZLNV8R7Ml?.tsrc=rss",
+        "time_published": "2026-07-20 01:35",
         "source": "Stocktwits",
-        "summary": "U.S. markets bled amid rising AI concerns after Taiwan Semiconductor Manufacturing massively hiked its capital expenditures for 2026."
+        "summary": "Alphabet, Tesla, and Intel are among the key companies reporting their second-quarter results later this week."
       },
       {
-        "title": "S&P 500, Nasdaq, Dow End Lower As Chip Stocks Slide On TSMC Capex Concerns \u2014 TSM, MU, NVDA, UNH, GOOGL In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-lower-as-chip-stocks-slide-on-tsmc-capex-concerns-tsm-mu-nvda-unh-googl-in-focus/cZZEFzQR7s6?.tsrc=rss",
-        "time_published": "2026-07-16 21:31",
-        "source": "Stocktwits",
-        "summary": "TSMC\u2019s higher spending outlook raised concerns about near-term margins and returns in the ongoing AI infrastructure buildout."
+        "title": "Warren Buffett Looks for Value in Today\u2019s Market But Comes Up Empty: \u2018Everybody Is Preferring Gambling\u2019",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-looks-value-today-203119733.html?.tsrc=rss",
+        "time_published": "2026-07-19 20:31",
+        "source": "Finance",
+        "summary": "Legendary investor Warren Buffett is no longer the CEO of Berkshire Hathaway Inc, but remains active as Executive Chairman at providing investment ideas for the conglomerate and new CEO Greg Abel. These days, Buffett says its tough to find value..."
       },
       {
-        "title": "Analyst: \u2018We\u2019re In One Of The Most Dangerous Times In History\u2019 For Passive Investors",
-        "url": "https://247wallst.com/investing/2026/07/16/analyst-were-in-one-of-the-most-dangerous-times-in-history-for-passive-investors/?.tsrc=rss",
-        "time_published": "2026-07-16 20:13",
+        "title": "Active Funds Can\u2019t Beat the S&P 500? This One Didn\u2019t Get the Memo",
+        "url": "https://247wallst.com/investing/etf/2026/07/19/active-funds-cant-beat-the-sp-500-this-one-didnt-get-the-memo/?.tsrc=rss",
+        "time_published": "2026-07-19 16:36",
         "source": "247wallst",
-        "summary": "A seasoned portfolio analyst argues that buy-and-hold investors face a threat more insidious than a sudden crash, and the quiet math behind today's 60/40 portfolios is what should keep them up at night."
+        "summary": "Most active large-cap funds quietly bleed investors through bloated fees and closet indexing, but T. Rowe Price built TCAF to break that pattern entirely. Whether it actually does depends on a tradeoff most investors never stop to consider."
       },
       {
-        "title": "ICI\u2019s Weinberg: An Insider's View of ETF Industry Priorities",
-        "url": "http://www.etf.com/sections/conferences/icis-weinberg-insiders-view-etf-industry-priorities?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-07-16 19:39",
-        "source": "Etf",
-        "summary": "The flood of ETF launches seems unending, with the industry smashing through AUM and trading records once again this year. With so many ETFs trading, ICI\u2019s Josh Weinberg offers an inside look at what the hottest topics and trends were at the 2026 ICI ETF Conference this year."
-      },
-      {
-        "title": "Small Caps Are Beating the S&P 500 by the Widest Margin Since 2003.  These ETFs Let You Ride the Rally",
-        "url": "https://247wallst.com/investing/etf/2026/07/16/small-caps-are-beating-the-sp-500-by-the-widest-margin-since-2003-these-etfs-let-you-ride-the-rally/?.tsrc=rss",
-        "time_published": "2026-07-16 16:23",
+        "title": "DIA\u2019s 10-Year Shortfall: How a 186.7% Return Masks a $128K Hidden Cost",
+        "url": "https://247wallst.com/investing/etf/2026/07/18/dias-10-year-shortfall-how-a-186-7-return-masks-a-128k-hidden-cost/?.tsrc=rss",
+        "time_published": "2026-07-18 23:38",
         "source": "247wallst",
-        "summary": "Small-cap stocks are staging their most dominant run against the S&P 500 in over two decades, and three ETFs are competing for the best seat at the table. Which one actually comes out ahead may surprise you."
+        "summary": "Buying DIA because the Dow sounds like America's safest bet felt reasonable a decade ago, but the fund's own return record quietly reveals a cost that never appears on any fact sheet."
       },
       {
-        "title": "Marvell Crashed Below $200: This Wall Street Firm Thinks It Doubles From Here",
-        "url": "https://247wallst.com/investing/2026/07/16/marvell-crashed-below-200-this-wall-street-firm-thinks-it-doubles-from-here/?.tsrc=rss",
-        "time_published": "2026-07-16 16:07",
+        "title": "Pok\u00e9mon Cards Beat the S&P 500 by 2.5x, But the Math Is a Lie",
+        "url": "https://247wallst.com/investing/2026/07/18/pokemon-cards-beat-the-sp-500-by-2-5x-but-the-math-is-a-lie/?.tsrc=rss",
+        "time_published": "2026-07-18 21:45",
         "source": "247wallst",
-        "summary": "Marvell shed a third of its value in a single month while its AI data center business posted record revenue and management flagged an all-time high in design wins. One Wall Street analyst just set a target that would roughly double the stock, and the reasoning centers on a program most investors hav"
+        "summary": "A viral clip claims collectibles crush the stock market using 20 years of returns, but a financial advisor spotted a flaw in the comparison so fundamental he called it a math crime. The numbers only hold up if you never ask where they came from."
       },
       {
-        "title": "Intel Is Down 17% Over 1 Month: This Wall Street Analyst Thinks Doubles From Here",
-        "url": "https://247wallst.com/investing/2026/07/16/intel-is-down-17-over-1-month-this-wall-street-analyst-thinks-doubles-from-here/?.tsrc=rss",
-        "time_published": "2026-07-16 15:12",
+        "title": "Equal-Weight Strategy RSP Could Outrun SPY if This Macro Shift Continues",
+        "url": "https://247wallst.com/investing/etf/2026/07/18/equal-weight-strategy-rsp-could-outrun-spy-if-this-macro-shift-continues/?.tsrc=rss",
+        "time_published": "2026-07-18 21:11",
         "source": "247wallst",
-        "summary": "Intel shed nearly 20% in a month while most of Wall Street shrugged and called the stock fairly valued. One HSBC analyst just broke from the crowd in a dramatic way, and his reasoning centers on a part of Intel's business the rest of the Street has largely ignored."
+        "summary": "RSP is beating SPY for the first time in years, but two specific signals will determine whether equal-weight strategies keep their edge or surrender it back to the mega-caps before year end."
       },
       {
-        "title": "XYLD Versus SPY: The 28% Price Return Gap Nobody Discusses",
-        "url": "https://247wallst.com/investing/etf/2026/07/16/xyld-versus-spy-the-28-price-return-gap-nobody-discusses/?.tsrc=rss",
-        "time_published": "2026-07-16 14:31",
+        "title": "Buy, Sell, or Hold: Ken Griffin\u2019s 3 Mega-Cap Picks at Current Valuations",
+        "url": "https://247wallst.com/investing/2026/07/18/buy-sell-or-hold-ken-griffins-3-mega-cap-picks-at-current-valuations/?.tsrc=rss",
+        "time_published": "2026-07-18 17:30",
         "source": "247wallst",
-        "summary": "XYLD hands you a monthly check and calls it income, but buried in the fine print is a tradeoff that bull market investors keep learning the expensive way."
+        "summary": "Ken Griffin's Citadel holds Microsoft, Amazon, and Apple as mega-cap anchors, but current valuations tell three very different stories about where conviction is warranted and where a painful re-rating may be coming."
+      },
+      {
+        "title": "There\u2019s an ETF That Promises You Can\u2019t Lose Money. What\u2019s the Catch?",
+        "url": "https://247wallst.com/investing/etf/2026/07/18/theres-an-etf-that-promises-you-cant-lose-money-whats-the-catch/?.tsrc=rss",
+        "time_published": "2026-07-18 16:32",
+        "source": "247wallst",
+        "summary": "BlackRock built an ETF that promises to shield you from every dollar of stock market losses, and investors are buying it without reading the fine print that quietly changes everything about that guarantee."
       }
     ],
     "oil": [
+      {
+        "title": "Update: WTI Oil Rises as Fresh Middle East Fighting Keeps the Strait of Hormuz Closed",
+        "url": "https://finance.yahoo.com/energy/articles/wti-oil-rises-fresh-middle-192146758.html?.tsrc=rss",
+        "time_published": "2026-07-17 19:21",
+        "source": "Finance",
+        "summary": "(Updates prices in the second paragraph.) West Texas Intermediate (WTI) crude oil closed at a fiv"
+      },
+      {
+        "title": "Don\u2019t Chase the 40% Gain: Why USO Is a Trade, but XLE Is an Investment",
+        "url": "https://247wallst.com/investing/2026/07/17/dont-chase-the-40-gain-why-uso-is-a-trade-but-xle-is-an-investment/?.tsrc=rss",
+        "time_published": "2026-07-17 15:45",
+        "source": "247wallst",
+        "summary": "USO has crushed energy stocks by 40 points this year, and the gap looks like proof that owning oil futures beats owning oil companies. A closer look at what drives that lead reveals a very different story about which bet survives contact with time."
+      },
+      {
+        "title": "Sector Update: Energy Stocks Advance Premarket Friday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132531632.html?.tsrc=rss",
+        "time_published": "2026-07-17 13:25",
+        "source": "Finance",
+        "summary": "Energy stocks were advancing premarket Friday, with the State Street Energy Select Sector SPDR ETF ("
+      },
+      {
+        "title": "Oil Rises as Fresh Middle East Fighting Keeps the Strait of Hormuz Closed",
+        "url": "https://finance.yahoo.com/energy/articles/oil-rises-fresh-middle-east-130718974.html?.tsrc=rss",
+        "time_published": "2026-07-17 13:07",
+        "source": "Finance",
+        "summary": "Oil traded higher early on Friday as fresh fighting between the US and Iran kept the Strait of Hormu"
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday as Investors Retreat From Chipmaker Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130030829.html?.tsrc=rss",
+        "time_published": "2026-07-17 13:00",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.7%, and the actively t"
+      },
       {
         "title": "Sector Update: Energy Stocks Edge Higher Premarket Thursday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-132744423.html?.tsrc=rss",
@@ -255,41 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-15 19:38",
         "source": "Finance",
         "summary": "(Updates prices in the second paragraph and and EIA storage data in the final paragraph.) West Te"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Edge Higher Premarket Wednesday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-132258459.html?.tsrc=rss",
-        "time_published": "2026-07-15 13:22",
-        "source": "Finance",
-        "summary": "Energy stocks were edging higher premarket Wednesday, with the State Street Energy Select Sector SPD"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Economic Reports",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125305699.html?.tsrc=rss",
-        "time_published": "2026-07-15 12:53",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra"
-      },
-      {
-        "title": "Update: WTI Oil Extends Rally as US-Iran Fighting Threatens Persian Gulf Supply",
-        "url": "https://finance.yahoo.com/energy/articles/wti-oil-extends-rally-us-192750599.html?.tsrc=rss",
-        "time_published": "2026-07-14 19:27",
-        "source": "Finance",
-        "summary": "(Updates prices in the second paragraph.) West Texas Intermediate (WTI) crude oil rose for a seco"
-      },
-      {
-        "title": "Truce or No Truce: Buy MLP ETFs Amid Iran War for Higher Income",
-        "url": "https://finance.yahoo.com/energy/articles/truce-no-truce-buy-mlp-150000574.html?.tsrc=rss",
-        "time_published": "2026-07-14 15:00",
-        "source": "Finance",
-        "summary": "Iran tensions keep oil elevated, boosting the appeal of high-yield MLP ETFs. AMZA, AMLP and MLPI offer income with resilient midstream exposure."
-      },
-      {
-        "title": "Sector Update: Energy Stocks Edge Higher Pre-Bell Tuesday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-132632806.html?.tsrc=rss",
-        "time_published": "2026-07-14 13:26",
-        "source": "Finance",
-        "summary": "Energy stocks were edging higher pre-bell Tuesday, with the State Street Energy Select Sector SPDR E"
       }
     ]
   }

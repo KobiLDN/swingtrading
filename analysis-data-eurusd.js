@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-07-17T08:25:07Z",
+  "generated": "2026-07-20T12:16:16Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-07-17",
+  "date": "2026-07-20",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_EURUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The daily chart shows a strong downtrend with price firmly below both the EMA50 (1.14814) and EMA200 (1.16131). However, the MACD has turned bullish (line above signal) with a positive histogram, suggesting a short-term momentum shift. The RSI is neutral at 51.36, offering no overbought or oversold confirmation. The candlestick patterns over the last five sessions include both a bearish Evening Star and a bullish Engulfing, indicating indecision and potential for a reversal but also a lack of clear directional conviction. The overall signal score of 4/10 reflects this conflicting picture.\n\nNo additional chart patterns like triangles, flags, or double tops/bottoms can be reliably inferred from the given data. The nearest resistance is the EMA50 at 1.1481, followed by the round number 1.1500 and the 1.1550 level. Support is likely around the 1.1400 psychological level, then 1.1350 and 1.1300. Price is currently consolidating near the lower end of this range, with the ATR of 47 pips indicating moderate daily volatility.\n\nThe RSI and MACD do not agree with the strong downtrend; the MACD is bullish while the trend is bearish, creating a divergence. This lack of confluence reduces trade reliability. The best course of action is to wait for a clearer signal\u2014either a confirmed break below 1.1400 to continue the downtrend or a sustained move above 1.1481 with bullish RSI momentum to consider a counter-trend long. Given the mixed signals and low score, entering a trade now would carry high risk of whipsaw.",
-  "invalidation": "This wait-and-see approach would be invalidated if price closes decisively above 1.1500 (suggesting a trend reversal) or below 1.1350 (confirming continued bearish momentum), which would then warrant a re-evaluation for a directional trade.",
+  "score": "3/10",
+  "analysis": "The daily chart confirms a strong downtrend with price (1.14415) trading below both the 50\u2011period EMA (1.1476) and the 200\u2011period EMA (1.16047). The trend is clearly bearish, and the EMA alignment provides no reversal signal from the moving averages themselves. The inverted hammer candlestick within the last five bars hints at a potential short\u2011term rejection of lower prices, but this single pattern lacks confirmation from volume or subsequent price action. No additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the given data.\n\nThe RSI at 50.19 is neutral, offering no divergence or directional bias. The MACD, however, is bullish (line above signal line, rising histogram), which conflicts with the prevailing downtrend. This divergence between a bearish price structure and a bullish momentum oscillator suggests that the selling pressure may be waning, but it is not yet strong enough to warrant a counter\u2011trend entry. The overall signal score of 3/10 reflects low confluence among indicators, making any trade setup highly uncertain.\n\nGiven the strong downtrend, the low signal score, and the conflicting MACD signal, the prudent approach is to wait for clearer confirmation. A sustained break above the 50\u2011period EMA (1.1476) would be needed to consider a bullish reversal, while a continuation below the recent swing low near 1.1400 would reinforce the bearish trend. Without a high\u2011probability setup, entering a trade now would expose the position to elevated risk, especially with the ATR at 43 pips indicating reasonably wide daily ranges.",
+  "invalidation": "If price fails to hold above the inverted hammer\u2019s low and breaks below 1.1400, the bearish trend resumes, negating any reversal signal and keeping the wait\u2011and\u2011see stance intact.",
   "support_levels": [
-    1.14,
+    1.1398,
     1.135,
     1.13
   ],
   "resistance_levels": [
-    1.1481,
+    1.1476,
     1.15,
-    1.155
+    1.1605
   ]
 };
