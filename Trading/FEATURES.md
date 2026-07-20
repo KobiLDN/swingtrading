@@ -67,3 +67,13 @@
 - **EUR/USD + Silver assets, 6-asset dashboard finalised** — GBP/USD, EUR/USD, XAU/USD, Silver, SPX (SPY), WTI (USO); EUR/USD uses direct Twelve Data symbol; Silver and WTI both required ETF proxies after their direct symbols (`XAG/USD`, `WTI/USD`, `USOIL`) all 404'd on the free tier — switched to `SLV` (iShares Silver Trust) and `USO` (US Oil Fund) respectively, same pattern as SPY for SPX; full pipeline + news + per-asset explainer coverage for both
 
 - **STRICT branch/push rules codified** — `Trading/BRANCHES.md` rewritten: all work must land on the dev branch (`claude/friendly-dijkstra-lBUrd`) first and get checked on its Cloudflare preview URL; pushing to `main` (live) requires asking Kobi first every time; same rules mirrored at the top of `Trading/AGENTS.md`; GitHub Actions bots are the only exception (their daily data commits go straight to main)
+
+- **News feed switched to Yahoo Finance RSS** — Alpha Vantage `NEWS_SENTIMENT` returning 403; `update_news.py` rewritten to use Yahoo Finance RSS (no API key, always populated); per-asset ticker map (GBP/USD→GBPUSD=X, EUR/USD→EURUSD=X, XAU→GC=F, Silver→SLV, SPX→SPY, WTI→USO); calendar week-window widened to always fetch current + next week regardless of day
+
+- **Trend label accuracy fix** — `update_prices.py` classifier expanded from 4 cases to 9; now factors price position relative to both EMAs, not just EMA50 vs EMA200 relationship; correctly shows BEARISH BIAS when price is below both EMAs even if EMA50 > EMA200
+
+- **Header brand left-aligned** — `styles/site.css` `.header-inner` margin removed so brand/nav sit at left edge, consistent with sidebar layout
+
+- **Liang Wenfeng trader profile** — DeepSeek founder / High-Flyer Capital quant hedge fund; card added to Traders page under Quant Pioneer; stats, philosophy, and swing trading lesson included
+
+- **Analysis workflow null-content guard** — `generate_analysis.py` raises descriptive error on empty OpenRouter response instead of crashing with `TypeError` in `parse_response`
