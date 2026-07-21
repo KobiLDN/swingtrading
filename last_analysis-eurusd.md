@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-07-20
-**Generated:** 2026-07-20T18:30:20Z
+**Date:** 2026-07-21
+**Generated:** 2026-07-21T08:43:38Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,37 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | SELL |
 | **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 confirmed |
+| **Entry** | 1.14229 |
+| **Stop Loss** | 1.1480 |
+| **Target 1** | 1.1380 |
+| **Target 2** | 1.1340 |
+| **Risk/Reward** | 1:1.46 (based on T2) |
+| **Score** | 5/10 |
 | **Support** | 1.14, 1.135, 1.13 |
-| **Resistance** | 1.1475, 1.155, 1.1605 |
+| **Resistance** | 1.1473 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong downtrend, confirmed by price trading well below both the EMA50 (1.14751) and EMA200 (1.16045). The RSI at 45.19 is neutral, not oversold, suggesting the selling pressure is still present but not extreme. However, the MACD line has crossed above its signal line with a positive histogram, indicating a short-term bullish momentum shift. This creates a conflict between the dominant downtrend and a nascent bullish signal.
-
-The candlestick patterns add further complexity: an Inverted Hammer (potential bullish reversal) followed by an Evening Star (bearish reversal) within the last five candles. The Evening Star typically forms after an uptrend, but here it appears after the Inverted Hammer, suggesting the attempted bounce failed and sellers regained control. This pattern is more bearish overall, leaning against the MACD bullish cross. The signal score of 5/10 reflects this mixed picture—no clear alignment between trend, momentum, and price action.
-
-Given the conflicting signals, entering a trade now carries elevated risk. A sell would go against the MACD bullish cross, while a buy would fight the strong downtrend and the Evening Star pattern. The best course is to wait for more clarity—either a decisive break above EMA50 (1.1475) to confirm a reversal, or a breakdown below 1.1400 support to reassert the downtrend. Until then, the risk/reward is unfavorable.
+DECISION: SELL  
+CONFIDENCE: LOW  
+ENTRY: 1.14229  
+STOP_LOSS: 1.1480  
+TARGET_1: 1.1380  
+TARGET_2: 1.1340  
+RISK_REWARD: 1:1.46 (based on T2)  
+SCORE: 5/10  
+SUPPORT_LEVELS: 1.1400, 1.1350, 1.1300  
+RESISTANCE_LEVELS: 1.1473, 
 
 ---
 
 ## Invalidation
 
-A daily close above the EMA50 (1.1475) would invalidate the current downtrend bias and suggest a potential trend reversal.
+N/A
 
 ---
 

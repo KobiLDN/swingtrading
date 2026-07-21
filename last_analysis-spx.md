@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
 **Date:** 2026-07-20
-**Generated:** 2026-07-20T18:31:08Z
+**Generated:** 2026-07-21T08:45:31Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 738.3, 730.0, 720.0 |
-| **Resistance** | 745.0, 750.0, 752.81 |
+| **Score** | 4/10 confirmed |
+| **Support** | 738.21, 730.0, 705.69 |
+| **Resistance** | 750.0, 755.0, 760.0 |
 
 ---
 
 ## Analysis
 
-The price at 744.53 sits well above both the EMA50 (738.3) and EMA200 (705.71), confirming the prevailing strong uptrend. However, the recent candlestick sequence—a Morning Star followed by an Evening Star within five candles—signals sharp indecision and a potential reversal pattern. The Morning Star initially suggested bullish exhaustion, but the subsequent Evening Star indicates a bearish rejection at higher levels, creating a possible short-term top. This mixed message undermines the reliability of the trend alone.
+The EMA structure confirms a strong uptrend, with price (742.09) above both the 50 EMA (738.21) and 200 EMA (705.69). However, price is only marginally above the 50 EMA, indicating the trend is losing immediate momentum. The recent candlestick pattern sequence—Morning Star followed by Evening Star—suggests a failed bullish reversal attempt, leaving the chart in a neutral-to-bearish short-term posture. No clear triangle, flag, or double top/bottom pattern is evident; the price is simply oscillating near the 50 EMA without a decisive breakout.
 
-The RSI at 49.42 is neutral, offering no momentum clue, while the MACD is bearish (line below signal, negative histogram), showing declining momentum that contradicts the price trend. This divergence between price (still near highs) and momentum (weakening) is a classic warning of a potential pullback or consolidation. The low signal score of 4/10 further reflects the poor alignment of indicators.
+RSI at 47.52 is neutral and below 50, which aligns with the MACD’s bearish cross (line below signal) and negative histogram. This divergence between the strong uptrend (EMAs) and the momentum oscillators (RSI, MACD) creates a conflicting signal. The signal score of 4/10 reflects this ambiguity: the trend is bullish, but near-term momentum is bearish, and the recent Evening Star warns of potential downside. Without a clear confluence, entering a trade now carries elevated risk of a false breakout or whipsaw.
 
-Key support is the EMA50 at 738.30, a critical level for trend continuation. A break below that would expose the 730 area and then the 720 zone. Resistance is undefined from the given data, but nearby psychological levels at 745 and 750 may act as barriers; the ATR-based upper band around 752.81 is a logical resistance target. Without a clear catalyst or confirmation from either a decisive break above resistance or a breakdown below support, the risk/reward is too uncertain for an entry. The strong uptrend argues against shorting, yet the bearish signals argue against buying.
+Key support is the 50 EMA at 738.21, followed by the psychological 730 area and the 200 EMA at 705.69. Resistance lies at 750 (round number), then 755 and 760. The best trade setup would be a short entry only if price breaks and closes below 738.21 with increasing volume, or a long entry if price reclaims above 750 with strong momentum. Currently, neither trigger is met.
 
 ---
 
 ## Invalidation
 
-A decisive daily close above 753.00 (above ATR resistance) would negate the bearish divergence and re-establish a buying bias, while a close below 738.30 (EMA50) would confirm the reversal and open a sell setup.
+This wait setup is invalidated if price closes decisively above 750 (turning bullish) or below 738.21 (turning bearish), providing a clear directional bias.
 
 ---
 

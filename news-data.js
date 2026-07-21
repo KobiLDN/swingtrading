@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-20T18:31:41Z",
+  "generated": "2026-07-21T08:46:01Z",
   "assets": {
     "gbpusd": [
       {
@@ -61,6 +61,13 @@ window.NEWS_DATA = {
     ],
     "eurusd": [
       {
+        "title": "Where are Europe's households most indebted? Not where you would think",
+        "url": "https://www.euronews.com/2026/07/21/where-are-europes-households-most-indebted-not-where-you-would-think?.tsrc=rss",
+        "time_published": "2026-07-21 07:41",
+        "source": "Euronews",
+        "summary": "Europe's household debt map reveals a surprising north-south divide. Discover the latest Eurostat figures and the 10 most indebted countries.View on euronews"
+      },
+      {
         "title": "US Dollar Price Forecast: Inflation Risks Lift DXY \u2013 Can GBP/USD and EUR/USD Hold Up?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-inflation-082315469.html?.tsrc=rss",
         "time_published": "2026-07-20 08:23",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-15 16:52",
         "source": "Finance",
         "summary": "The American currency pulled back as PPI report missed analyst estimates."
-      },
-      {
-        "title": "US Dollar Price Forecast: Cooling Inflation Challenges DXY \u2013 Are GBP/USD and EUR/USD Ready to Rally?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-cooling-074423945.html?.tsrc=rss",
-        "time_published": "2026-07-15 07:44",
-        "source": "Finance",
-        "summary": "Softer U.S. inflation reshapes Fed expectations as DXY consolidates below $101.22. See the latest outlook for EUR/USD and GBP/USD."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "How Much CVS Stock Are You Really Betting On?",
-        "url": "https://www.trefis.com/articles/607972/how-much-cvs-stock-are-you-really-betting-on/2026-07-20?.tsrc=rss",
-        "time_published": "2026-07-20 16:56",
-        "source": "Trefis",
-        "summary": "You may not have bought this single stock, but your funds quietly made it one of your biggest positions."
-      },
-      {
-        "title": "The Russell 2000 Is Outpacing the S&P 500 in 2026. Is It Too Late to Buy Small-Cap ETFs?",
-        "url": "https://247wallst.com/investing/etf/2026/07/20/the-russell-2000-is-outpacing-the-sp-500-in-2026-is-it-too-late-to-buy-small-cap-etfs/?.tsrc=rss",
-        "time_published": "2026-07-20 16:30",
-        "source": "247wallst",
-        "summary": "Small-cap stocks have surged back into the spotlight after years of trailing large caps, and investors are now wrestling with a familiar dilemma: chase the rally or wait for a pullback that may never come."
-      },
-      {
-        "title": "Zacks Investment Ideas feature highlights: QQQ, SPY, Micron, Western Digital, SanDisk and Marvell",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-145100077.html?.tsrc=rss",
-        "time_published": "2026-07-20 14:51",
-        "source": "Finance",
-        "summary": "Tech stocks face rare market divergence and sharp volatility as Micron and other AI names slide, while one fund manager sees improving risk-reward."
-      },
-      {
-        "title": "Forget SPY. Its Momentum Cousin Is Crushing the Index With 26% Returns This Year, for Only 0.13%",
-        "url": "https://247wallst.com/investing/2026/07/20/forget-spy-its-momentum-cousin-is-crushing-the-index-with-26-returns-this-year-for-only-0-13/?.tsrc=rss",
-        "time_published": "2026-07-20 14:38",
-        "source": "247wallst",
-        "summary": "Millions of investors default to the same S&P 500 fund without realizing a rules-based cousin, built from the exact same stock universe and costing pennies more, has been running circles around it in 2026. The gap is large enough to change how you think about your core equity position."
-      },
-      {
-        "title": "The Dollar\u2019s \u201cDemise\u201d Is Back in the Headlines. Before a Retiree Panics and Piles Into Gold, Here\u2019s What a Weaker Dollar Actually Does to a Social Security Check.",
-        "url": "https://247wallst.com/personal-finance/social-security/2026/07/20/the-dollars-demise-is-back-in-the-headlines-before-a-retiree-panics-and-piles-into-gold-heres-what-a-weaker-dollar-actually-does-to-a-social-security-check/?.tsrc=rss",
-        "time_published": "2026-07-20 14:02",
-        "source": "247wallst",
-        "summary": "Cable news says the dollar is finished, and suddenly gold coins feel like a life raft for a retirement built on Social Security. But the threat to that monthly check is hiding somewhere most retirees never think to look."
-      },
-      {
-        "title": "A $10,000 Investment in Bank of America When Brian Moynihan Became CEO Is Worth This Much Today",
-        "url": "https://247wallst.com/investing/2026/07/20/a-10000-investment-in-bank-of-america-when-brian-moynihan-became-ceo-is-worth-this-much-today/?.tsrc=rss",
-        "time_published": "2026-07-20 13:10",
-        "source": "247wallst",
-        "summary": "Brian Moynihan took over Bank of America in 2010 with a burning balance sheet, billions in pending lawsuits, and a penny-a-quarter dividend. Whether the long rebuilding act rewarded patient shareholders or punished them depends entirely on when you started counting."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Key Earnings Reports",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130719851.html?.tsrc=rss",
-        "time_published": "2026-07-20 13:07",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
-      },
-      {
-        "title": "Nasdaq, Dow, S&P 500 Futures Edge Higher Ahead Of Key Earnings Week Even As Middle East Tensions Continue: DJT, NVDA, SLS, PANW Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-s-and-p-500-futures-edge-higher-ahead-of-key-earnings-week-even-as-middle-east-tensions-continue/cZZLNV8R7Ml?.tsrc=rss",
-        "time_published": "2026-07-20 01:35",
+        "title": "Nasdaq, S&P 500 Futures Rise As Chip Rally Counters Iran Jitters Ahead Of Big Tech Earnings: Why IREN, ACHR, TSLA, BA Stocks Are Drawing Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-s-and-p-500-futures-rise-as-chip-rally-counters-iran-jitters-ahead-of-big-tech-earnings/cZZ1tCdR7HO?.tsrc=rss",
+        "time_published": "2026-07-21 01:43",
         "source": "Stocktwits",
-        "summary": "Alphabet, Tesla, and Intel are among the key companies reporting their second-quarter results later this week."
+        "summary": "Chip stocks staged a comeback on Monday, gaining at the close after a sharp selloff last week."
+      },
+      {
+        "title": "Cash In Your SPYV Gain, Or Let It Ride?",
+        "url": "https://www.trefis.com/articles/607966/cash-in-your-spyv-gain-or-let-it-ride/2026-07-20?.tsrc=rss",
+        "time_published": "2026-07-21 00:38",
+        "source": "Trefis",
+        "summary": "The fund is trading near its high, but acting on that feeling might be the costliest move you can make."
+      },
+      {
+        "title": "Why XLK Investors Pay Twice for the Same Mega-Cap Exposure",
+        "url": "https://247wallst.com/investing/etf/2026/07/20/why-xlk-investors-pay-twice-for-the-same-mega-cap-exposure/?.tsrc=rss",
+        "time_published": "2026-07-20 23:51",
+        "source": "247wallst",
+        "summary": "XLK's expense ratio looks almost free, but the fee that will actually hurt your portfolio never appears on the factsheet. Before you add another tech position, check what you are quietly paying twice for."
+      },
+      {
+        "title": "Buying This ILF Dip Has A Price",
+        "url": "https://www.trefis.com/articles/607984/buying-this-ilf-dip-has-a-price/2026-07-20?.tsrc=rss",
+        "time_published": "2026-07-20 21:50",
+        "source": "Trefis",
+        "summary": "The fund's history shows that buying a drop has often paid off, but not without some serious bumps along the way."
+      },
+      {
+        "title": "S&P 500, Dow End Lower As Oil Prices Rise Amid US-Iran Crisis \u2014 PSKY, GOOGL, IREN, AMD, NVDA, AVGO In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-oil-prices-rise-amid-us-iran-crisis/cZZiiqPR7H7?.tsrc=rss",
+        "time_published": "2026-07-20 21:38",
+        "source": "Stocktwits",
+        "summary": "U.S. crude futures closed higher at $83.23 a barrel, while international benchmark Brent settled at $89.22."
+      },
+      {
+        "title": "Are You Paying A Fair Price For What's Inside VOO?",
+        "url": "https://www.trefis.com/articles/607981/are-you-paying-a-fair-price-for-whats-inside-voo/2026-07-20?.tsrc=rss",
+        "time_published": "2026-07-20 21:36",
+        "source": "Trefis",
+        "summary": "The popular index fund trades at a premium to its own history, but the real question is whether the growth of its biggest holdings actually earns that price."
+      },
+      {
+        "title": "Are You Paying For Skill Or Just The Market?",
+        "url": "https://www.trefis.com/articles/607979/are-you-paying-for-skill-or-just-the-market/2026-07-20?.tsrc=rss",
+        "time_published": "2026-07-20 21:09",
+        "source": "Trefis",
+        "summary": "A handful of funds deliver returns well beyond what the market's own movement would suggest; here are the leaders."
+      },
+      {
+        "title": "When The Stock Market Fell JEPI ETF Outperformed",
+        "url": "https://www.trefis.com/articles/607978/when-the-stock-market-fell-jepi-etf-did-not/2026-07-20?.tsrc=rss",
+        "time_published": "2026-07-20 21:00",
+        "source": "Trefis",
+        "summary": "A fund that actually holds its ground when stocks are falling is what real portfolio diversification looks like."
       }
     ],
     "oil": [

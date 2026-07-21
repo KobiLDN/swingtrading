@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-07-20
-**Generated:** 2026-07-20T18:30:56Z
+**Date:** 2026-07-21
+**Generated:** 2026-07-21T08:45:20Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 4006.2 |
-| **Stop Loss** | 4070.3 |
-| **Target 1** | 3942.0 |
-| **Target 2** | 3878.0 |
-| **Risk/Reward** | 1:1.5 |
-| **Score** | 7/10 |
-| **Support** | 3942.0, 3878.0, 3800.0 |
-| **Resistance** | 4070.3, 4178.3, 4240.0 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 5/10 |
+| **Support** | 4000.0, 3950.0, 3900.0 |
+| **Resistance** | 4100.0, 4174.0, 4200.0 |
 
 ---
 
 ## Analysis
 
-The trend is unequivocally bearish. Price at 4006.2 is trading well below both the EMA 50 (4178.25) and EMA 200 (4447.97), confirming a strong downtrend. The Evening Star candlestick pattern on the daily chart, occurring after a brief consolidation, signals a resumption of selling pressure. The ATR of 64 points indicates high volatility, which supports the potential for a sharp continuation move lower. No clear reversal patterns (double bottom, bullish flag) are present; instead, the structure suggests a persistent bearish channel.
+The daily chart confirms a strong downtrend with price well below both the EMA50 (4174.02) and EMA200 (4445.72). This EMA alignment leaves no doubt about the bearish bias. However, the recent price action shows a Doji followed by a Bullish Engulfing pattern, hinting at short-term buying pressure. Combined with a bullish MACD crossover (line above signal) and a positive histogram, there is a minor divergence between momentum and price trend. The RSI at 47.62 is neutral, not oversold, so the bounce lacks extreme sentiment backing.
 
-The RSI at 39.83 is neutral but not oversold, leaving room for further downside. Critically, the RSI divergence is labeled bullish, which introduces a note of caution—this divergence suggests that momentum is slowing at lower prices, potentially warning of a reversal. However, the MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend. The divergence is a conflicting signal, but in a strong trend, divergence alone is often a poor reversal trigger without price confirmation. The MACD and price action currently outweigh the divergence signal.
+No additional chart patterns such as triangles or flags are clearly identifiable from the given data. The key near-term resistance lies at the round 4100 level and the EMA50 at 4174, which likely cap any rally. Support below current price includes the psychological 4000 mark, then 3950 and 3900 as potential prior swing lows. Given that the down‐trend is strong and the bullish signals are still nascent and not yet confirmed by price breaking above any major resistance, the risk of a false breakout is high.
 
-The single best trade setup is a continuation sell at current price, targeting the next support zone near 3942 (a prior swing low and psychological round number) and then 3878 (the next major support from early 2026). The stop loss is placed above the recent swing high at 4070.3, which also aligns with the lower boundary of the Evening Star pattern. The risk-reward ratio of 1:1.5 is acceptable given the strong trend, though the bullish RSI divergence caps confidence at MEDIUM.
-
-Risk assessment: The primary risk is a sudden reversal driven by the bullish RSI divergence, which could trigger a sharp bounce toward the EMA 50 at 4178. Additionally, the high ATR means stop losses may be hit by intraday volatility. Position size should be reduced to account for this uncertainty. The original signal score of 8/10 is revised down to 7/10 due to the conflicting divergence.
+The RSI and MACD do not align with the dominant downtrend; the MACD is bullish while the trend is bearish. This lack of confluence underscores the need for caution. The current signal score of 5/10 reflects this neutrality. As a swing trader, the single best setup is to wait for either a confirmed bearish continuation (e.g., a failed bounce near 4100 or 4174) or a clean break above the EMA50 that would shift the bias. Entering a counter‑trend buy now would require a very tight stop and still carry elevated risk.
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if price breaks and closes above 4070.3, as that would negate the Evening Star pattern and suggest the divergence is gaining traction.
+A sustained break and daily close above the EMA50 (4174.02) would invalidate the strong downtrend bias and shift the outlook to neutral or bullish.
 
 ---
 
