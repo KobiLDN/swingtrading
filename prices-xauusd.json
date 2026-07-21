@@ -1,41 +1,40 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-07-20T18:27:44Z",
-  "date": "2026-07-20",
-  "price": 4006.2,
-  "atr": 64.06,
-  "atr_pips": 64,
+  "generated": "2026-07-21T08:07:30Z",
+  "date": "2026-07-21",
+  "price": 4068.4,
+  "atr": 65.58,
+  "atr_pips": 66,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4178.25,
-  "ema200": 4447.97,
-  "rsi": 39.83,
-  "macd_line": -46.138388,
-  "macd_signal": -44.319459,
-  "macd_hist": -1.818929,
+  "ema50": 4174.02,
+  "ema200": 4445.72,
+  "rsi": 47.62,
+  "macd_line": -40.413714,
+  "macd_signal": -43.511523,
+  "macd_hist": 3.097809,
   "trend": "STRONG DOWNTREND",
-  "divergence": "BULLISH",
+  "divergence": "None",
   "patterns": [
     {
-      "date": "2026-07-16",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
+      "date": "2026-07-20",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-07-21",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
-  "score": 8,
-  "verdict": "BUY/SELL",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-12",
-      "open": 4750.46,
-      "high": 4756.19,
-      "low": 4749.84,
-      "close": 4750.5
-    },
     {
       "date": "2026-04-13",
       "open": 4750.44,
@@ -727,7 +726,14 @@
       "open": 4010.53,
       "high": 4039.42,
       "low": 3983.43,
-      "close": 4006.2
+      "close": 4008.3
+    },
+    {
+      "date": "2026-07-21",
+      "open": 4008.18,
+      "high": 4085.13,
+      "low": 3999.74,
+      "close": 4068.4
     }
   ]
 }

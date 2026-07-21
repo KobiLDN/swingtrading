@@ -1,21 +1,21 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-07-20T18:27:45Z",
+  "generated": "2026-07-21T08:07:31Z",
   "date": "2026-07-20",
-  "price": 744.53,
-  "atr": 8.28,
+  "price": 742.09,
+  "atr": 8.41,
   "atr_pips": 8,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 738.3,
-  "ema200": 705.71,
-  "rsi": 49.42,
-  "macd_line": 2.254936,
-  "macd_signal": 2.773808,
-  "macd_hist": -0.518872,
+  "ema50": 738.21,
+  "ema200": 705.69,
+  "rsi": 47.52,
+  "macd_line": 2.060295,
+  "macd_signal": 2.73488,
+  "macd_hist": -0.674585,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
@@ -730,10 +730,10 @@ window.PRICES_DATA_SPX = {
     },
     {
       "date": "2026-07-20",
-      "open": 747.07,
-      "high": 748.7,
-      "low": 743.58,
-      "close": 744.53
+      "open": 747.06,
+      "high": 748.73,
+      "low": 741.51,
+      "close": 742.09
     }
   ]
 };
