@@ -1,21 +1,21 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-07-21T08:07:30Z",
-  "date": "2026-07-21",
-  "price": 1.14229,
-  "atr": 0.0043,
-  "atr_pips": 43,
+  "generated": "2026-07-22T08:08:24Z",
+  "date": "2026-07-22",
+  "price": 1.14078,
+  "atr": 0.00423,
+  "atr_pips": 42,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.14729,
-  "ema200": 1.15998,
-  "rsi": 46.59,
-  "macd_line": -0.000935,
-  "macd_signal": -0.001386,
-  "macd_hist": 0.000452,
+  "ema50": 1.14694,
+  "ema200": 1.15973,
+  "rsi": 44.0,
+  "macd_line": -0.001173,
+  "macd_signal": -0.001375,
+  "macd_hist": 0.000203,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -35,13 +35,6 @@ window.PRICES_DATA_EURUSD = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-13",
-      "open": 1.1688,
-      "high": 1.17654,
-      "low": 1.16652,
-      "close": 1.17595
-    },
     {
       "date": "2026-04-14",
       "open": 1.17593,
@@ -731,9 +724,16 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-07-21",
       "open": 1.14144,
-      "high": 1.14277,
-      "low": 1.14093,
-      "close": 1.14229
+      "high": 1.1429,
+      "low": 1.13976,
+      "close": 1.13979
+    },
+    {
+      "date": "2026-07-22",
+      "open": 1.13981,
+      "high": 1.14183,
+      "low": 1.1398,
+      "close": 1.14078
     }
   ]
 };
