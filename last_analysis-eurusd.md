@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-07-21
-**Generated:** 2026-07-21T08:43:38Z
+**Date:** 2026-07-22
+**Generated:** 2026-07-22T08:46:12Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,37 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | LOW |
-| **Entry** | 1.14229 |
-| **Stop Loss** | 1.1480 |
-| **Target 1** | 1.1380 |
-| **Target 2** | 1.1340 |
-| **Risk/Reward** | 1:1.46 (based on T2) |
+| **Decision** | WAIT |
+| **Confidence** | HIGH |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 1.14, 1.135, 1.13 |
-| **Resistance** | 1.1473 |
+| **Support** | 1.136, 1.13, 1.12 |
+| **Resistance** | 1.1469, 1.15, 1.1597 |
 
 ---
 
 ## Analysis
 
-DECISION: SELL  
-CONFIDENCE: LOW  
-ENTRY: 1.14229  
-STOP_LOSS: 1.1480  
-TARGET_1: 1.1380  
-TARGET_2: 1.1340  
-RISK_REWARD: 1:1.46 (based on T2)  
-SCORE: 5/10  
-SUPPORT_LEVELS: 1.1400, 1.1350, 1.1300  
-RESISTANCE_LEVELS: 1.1473, 
+The daily chart for EUR/USD presents a classic conflict between the primary trend and early momentum signals. Price at 1.14078 is firmly below both the EMA 50 (1.14694) and EMA 200 (1.15973), confirming the "Strong Downtrend" label. The price action respects this bearish structure, making lower highs and lower lows. However, the recent price action shows a potential deceleration of the sell-off, suggesting the downtrend may be maturing.
+
+The technical indicators are sending highly mixed messages. The MACD has generated a bullish crossover with a positive histogram, signaling that bearish momentum is waning. Conversely, the RSI at 44.0 is neutral and does not confirm an oversold bounce, nor does it show any divergence. The candlestick patterns are particularly contradictory: the presence of an Evening Star (a bearish reversal) followed by an Inverted Hammer (a potential bullish reversal) within the last five candles highlights a market struggling for direction, lacking a clear catalyst to break the impasse.
+
+Given this conflicting confluence, the most prudent swing trading decision is to wait. Entering a sell position risks catching the early stages of a momentum shift indicated by the MACD. Entering a buy position means fighting the established strong downtrend without oversold RSI confirmation or a clear breakout above resistance. The 5/10 signal score accurately reflects this ambiguity. A swing trader should prioritize setups with aligned signals and a clear risk/reward profile, which is currently absent.
+
+The market is likely in a consolidation phase. A decisive break above the EMA 50 (1.1469) would provide a bullish trigger, while a breakdown below the recent swing low near 1.1360 would confirm the downtrend's resumption. Until one of these levels is broken with conviction, the risk of a false move remains elevated, making patience the highest-probability play.
 
 ---
 
 ## Invalidation
 
-N/A
+A decisive break above the EMA 50 (1.1469) would invalidate the bearish bias, while a breakdown below 1.1360 would invalidate the potential for a bullish reversal.
 
 ---
 

@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-07-21T08:46:01Z",
+  "generated": "2026-07-22T08:51:45Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "U.S. Dollar Gains Ground As Oil Prices Test New Highs: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-oil-164603715.html?.tsrc=rss",
+        "time_published": "2026-07-21 16:46",
+        "source": "Finance",
+        "summary": "Rising demand for safe-haven assets provided support to the American currency."
+      },
+      {
+        "title": "Ditch the Dollar and Make This 1 Trade Instead",
+        "url": "https://www.barchart.com/story/news/3384632/ditch-the-dollar-and-make-this-1-trade-instead?.tsrc=rss",
+        "time_published": "2026-07-21 14:19",
+        "source": "Barchart",
+        "summary": "September British pound futures present a buying opportunity on more price strength."
+      },
       {
         "title": "British Pound Rises as Burnham to Become U.K. Prime Minister",
         "url": "https://finance.yahoo.com/m/05816488-5e37-39e1-8d18-719a3b0968f8/british-pound-rises-as.html?.tsrc=rss",
@@ -43,23 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-07-15 18:31",
         "source": "Barchart",
         "summary": "September ICE NY cocoa (CCU26 ) on Wednesday closed up +77 (+1.33%), and September ICE London cocoa #7 (CAU26 ) closed up +34 (+0.79%). Cocoa prices settled higher on Wednesday as they consolidated below last week\u2019s significant highs. Gains in London cocoa were limited on Wednesday due to the streng"
-      },
-      {
-        "title": "U.S. Dollar Retreats As Producer Prices Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-retreats-producer-prices-165205557.html?.tsrc=rss",
-        "time_published": "2026-07-15 16:52",
-        "source": "Finance",
-        "summary": "The American currency pulled back as PPI report missed analyst estimates."
-      },
-      {
-        "title": "As the Dollar Weakens, Make This 1 Trade Here",
-        "url": "https://www.barchart.com/story/news/3298293/as-the-dollar-weakens-make-this-1-trade-here?.tsrc=rss",
-        "time_published": "2026-07-15 14:28",
-        "source": "Barchart",
-        "summary": "September British pound futures present a buying opportunity on more price strength."
       }
     ],
     "eurusd": [
+      {
+        "title": "U.S. Dollar Gains Ground As Oil Prices Test New Highs: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-oil-164603715.html?.tsrc=rss",
+        "time_published": "2026-07-21 16:46",
+        "source": "Finance",
+        "summary": "Rising demand for safe-haven assets provided support to the American currency."
+      },
       {
         "title": "Where are Europe's households most indebted? Not where you would think",
         "url": "https://www.euronews.com/2026/07/21/where-are-europes-households-most-indebted-not-where-you-would-think?.tsrc=rss",
@@ -108,17 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-07-16 07:30",
         "source": "Finance",
         "summary": "U.S. retail sales and jobless claims could reshape Fed rate expectations. See the latest outlook for DXY, EUR/USD and GBP/USD."
-      },
-      {
-        "title": "U.S. Dollar Retreats As Producer Prices Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-retreats-producer-prices-165205557.html?.tsrc=rss",
-        "time_published": "2026-07-15 16:52",
-        "source": "Finance",
-        "summary": "The American currency pulled back as PPI report missed analyst estimates."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Semiconductor Recovery Supports Markets",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130338886.html?.tsrc=rss",
+        "time_published": "2026-07-21 13:03",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4%, and the actively tra"
+      },
       {
         "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Key Earnings Reports",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130719851.html?.tsrc=rss",
@@ -167,74 +174,109 @@ window.NEWS_DATA = {
         "time_published": "2026-07-11 16:15",
         "source": "247wallst",
         "summary": "Two physical silver ETFs hold the exact same bullion, track the same price, and share the same tax trap, yet one charges nearly twice as much as the other. Before you assume the answer is obvious, there is a specific type of investor for whom the pricier fund is actually the smarter choice."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Amid Renewed US-Iran Tensions Ahead of Q2 Earnings Season",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130717862.html?.tsrc=rss",
-        "time_published": "2026-07-10 13:07",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr"
       }
     ],
     "spx": [
       {
-        "title": "Nasdaq, S&P 500 Futures Rise As Chip Rally Counters Iran Jitters Ahead Of Big Tech Earnings: Why IREN, ACHR, TSLA, BA Stocks Are Drawing Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-s-and-p-500-futures-rise-as-chip-rally-counters-iran-jitters-ahead-of-big-tech-earnings/cZZ1tCdR7HO?.tsrc=rss",
-        "time_published": "2026-07-21 01:43",
-        "source": "Stocktwits",
-        "summary": "Chip stocks staged a comeback on Monday, gaining at the close after a sharp selloff last week."
-      },
-      {
-        "title": "Cash In Your SPYV Gain, Or Let It Ride?",
-        "url": "https://www.trefis.com/articles/607966/cash-in-your-spyv-gain-or-let-it-ride/2026-07-20?.tsrc=rss",
-        "time_published": "2026-07-21 00:38",
+        "title": "Your SPLG Position Is Stretched, What's Next?",
+        "url": "https://www.trefis.com/articles/608209/your-splg-position-is-stretched-whats-next/2026-07-21?.tsrc=rss",
+        "time_published": "2026-07-22 00:01",
         "source": "Trefis",
-        "summary": "The fund is trading near its high, but acting on that feeling might be the costliest move you can make."
+        "summary": "The large-cap fund's price is well above its trend, but the advance was narrow, raising a tough question for holders."
       },
       {
-        "title": "Why XLK Investors Pay Twice for the Same Mega-Cap Exposure",
-        "url": "https://247wallst.com/investing/etf/2026/07/20/why-xlk-investors-pay-twice-for-the-same-mega-cap-exposure/?.tsrc=rss",
-        "time_published": "2026-07-20 23:51",
+        "title": "What Are You Really Paying For Inside VOO?",
+        "url": "https://www.trefis.com/articles/608204/what-are-you-really-paying-for-inside-voo/2026-07-21?.tsrc=rss",
+        "time_published": "2026-07-21 22:16",
+        "source": "Trefis",
+        "summary": "The popular index fund asks a higher price than its recent past, but the powerful growth of its biggest holdings makes a strong case for the premium."
+      },
+      {
+        "title": "S&P 500, Dow Snap Three-Day Losses, Nasdaq Ends Best Day In Three Weeks As Earnings Take Centerstage \u2014 GOOGL, AAPL, AMD, TSLA, DIS In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-snap-three-day-losses-nasdaq-ends-best-day-in-three-weeks-earnings-take-centerstage/cZZS8knR7vC?.tsrc=rss",
+        "time_published": "2026-07-21 22:02",
+        "source": "Stocktwits",
+        "summary": "The Philadelphia Semiconductor Index jumped over 5%, its best single-day gain in a month, as bargain buyers piled onto semiconductor stocks."
+      },
+      {
+        "title": "Netflix \u201cIs Not a Broken Company\u201d and Trades At Just 19x Earnings. Jim Cramer Says Start Buying",
+        "url": "https://247wallst.com/investing/2026/07/21/netflix-is-not-a-broken-company-and-trades-at-just-19x-earnings-jim-cramer-says-start-buying/?.tsrc=rss",
+        "time_published": "2026-07-21 21:43",
         "source": "247wallst",
-        "summary": "XLK's expense ratio looks almost free, but the fee that will actually hurt your portfolio never appears on the factsheet. Before you add another tech position, check what you are quietly paying twice for."
+        "summary": "Netflix just posted a beat on earnings and its biggest buyback quarter ever, yet the stock cratered anyway. Jim Cramer thinks that disconnect has created a rare opening, but his buy strategy comes with a pointed warning about what comes next."
       },
       {
-        "title": "Buying This ILF Dip Has A Price",
-        "url": "https://www.trefis.com/articles/607984/buying-this-ilf-dip-has-a-price/2026-07-20?.tsrc=rss",
-        "time_published": "2026-07-20 21:50",
+        "title": "How Much UNH Are You Really Betting On?",
+        "url": "https://www.trefis.com/articles/608205/how-much-unh-are-you-really-betting-on/2026-07-21?.tsrc=rss",
+        "time_published": "2026-07-21 20:24",
         "source": "Trefis",
-        "summary": "The fund's history shows that buying a drop has often paid off, but not without some serious bumps along the way."
+        "summary": "You probably own a lot more of this one high-flying health insurer than you realize, tucked away inside your favorite funds."
       },
       {
-        "title": "S&P 500, Dow End Lower As Oil Prices Rise Amid US-Iran Crisis \u2014 PSKY, GOOGL, IREN, AMD, NVDA, AVGO In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-oil-prices-rise-amid-us-iran-crisis/cZZiiqPR7H7?.tsrc=rss",
-        "time_published": "2026-07-20 21:38",
-        "source": "Stocktwits",
-        "summary": "U.S. crude futures closed higher at $83.23 a barrel, while international benchmark Brent settled at $89.22."
+        "title": "MAGS Delivered 181% Since Launch, But Equal-Weighted Tech Concentration Is Now a Liability",
+        "url": "https://247wallst.com/investing/etf/2026/07/21/mags-delivered-181-since-launch-but-equal-weighted-tech-concentration-is-now-a-liability/?.tsrc=rss",
+        "time_published": "2026-07-21 19:34",
+        "source": "247wallst",
+        "summary": "The Roundhill Magnificent Seven ETF has crushed the broad market since its launch, but equal-weighting seven mega-cap giants cuts both ways, and 2026 is exposing exactly how badly that math can unravel when the group stops moving together."
       },
       {
-        "title": "Are You Paying A Fair Price For What's Inside VOO?",
-        "url": "https://www.trefis.com/articles/607981/are-you-paying-a-fair-price-for-whats-inside-voo/2026-07-20?.tsrc=rss",
-        "time_published": "2026-07-20 21:36",
-        "source": "Trefis",
-        "summary": "The popular index fund trades at a premium to its own history, but the real question is whether the growth of its biggest holdings actually earns that price."
+        "title": "VEA Is Crushing SPY This Year, but the Decade-Long Scorecard Tells a Different Story",
+        "url": "https://247wallst.com/investing/etf/2026/07/21/vea-is-crushing-spy-this-year-but-the-decade-long-scorecard-tells-a-different-story/?.tsrc=rss",
+        "time_published": "2026-07-21 18:34",
+        "source": "247wallst",
+        "summary": "VEA has quietly outpaced the S&P 500 over the past year, and the gap is widening in 2026, but a longer look at the scoreboard raises a question every U.S.-heavy investor needs to sit with before adding international exposure."
       },
       {
-        "title": "Are You Paying For Skill Or Just The Market?",
-        "url": "https://www.trefis.com/articles/607979/are-you-paying-for-skill-or-just-the-market/2026-07-20?.tsrc=rss",
-        "time_published": "2026-07-20 21:09",
-        "source": "Trefis",
-        "summary": "A handful of funds deliver returns well beyond what the market's own movement would suggest; here are the leaders."
-      },
-      {
-        "title": "When The Stock Market Fell JEPI ETF Outperformed",
-        "url": "https://www.trefis.com/articles/607978/when-the-stock-market-fell-jepi-etf-did-not/2026-07-20?.tsrc=rss",
-        "time_published": "2026-07-20 21:00",
-        "source": "Trefis",
-        "summary": "A fund that actually holds its ground when stocks are falling is what real portfolio diversification looks like."
+        "title": "Buy Alphabet at $350 Because Wall Street\u2019s Former Fear is Now Officially Dead",
+        "url": "https://247wallst.com/investing/2026/07/21/buy-alphabet-at-350-because-wall-streets-former-fear-is-now-officially-dead/?.tsrc=rss",
+        "time_published": "2026-07-21 16:47",
+        "source": "247wallst",
+        "summary": "Wall Street spent two years convinced that ChatGPT would gut Google Search, and Alphabet's latest numbers tell a completely different story. The case for buying at $350 hinges on whether investors are reading those numbers correctly."
       }
     ],
     "oil": [
+      {
+        "title": "Trump Wanted Gas Prices Lower \u2018Immediately.\u2019 They\u2019re Back Above $4 as Iran Conflict Escalates",
+        "url": "https://finance.yahoo.com/energy/articles/trump-wanted-gas-prices-lower-003109142.html?.tsrc=rss",
+        "time_published": "2026-07-22 00:31",
+        "source": "Finance",
+        "summary": "Despite President Donald Trump\u2019s previous demand for gasoline retailers to \"get their prices down immediately,\" the U.S. national average for regular gasoline surged back to $4.00 a gallon on Monday as military strikes between the U.S. and Iran escalated once..."
+      },
+      {
+        "title": "Update: WTI Oil Rises Again as Fighting Between US and Iran Keeps Tankers Trapped in Persian Gulf",
+        "url": "https://finance.yahoo.com/energy/articles/wti-oil-rises-again-fighting-194035210.html?.tsrc=rss",
+        "time_published": "2026-07-21 19:40",
+        "source": "Finance",
+        "summary": "(Updates prices in the second paragraph.) West Texas Intermediate (WTI) crude oil rose on Tuesday"
+      },
+      {
+        "title": "Top-Performing ETF Areas of Last Week",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-performing-etf-areas-last-140000900.html?.tsrc=rss",
+        "time_published": "2026-07-21 14:00",
+        "source": "Finance",
+        "summary": "Middle East tensions, AI-driven tech weakness and stock-specific swings fueled big moves in leveraged ETFs. Here's a look at last week's top performers."
+      },
+      {
+        "title": "Oil Rises Again as Fighting Between US and Iran Keeps Tankers Trapped in Persian Gulf",
+        "url": "https://finance.yahoo.com/energy/articles/oil-rises-again-fighting-between-132323100.html?.tsrc=rss",
+        "time_published": "2026-07-21 13:23",
+        "source": "Finance",
+        "summary": "Oil prices rose early on Tuesday, climbing for a third straight session as fighting between Iran and"
+      },
+      {
+        "title": "Sector Update: Energy Stocks Edge Higher Premarket Tuesday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-132317646.html?.tsrc=rss",
+        "time_published": "2026-07-21 13:23",
+        "source": "Finance",
+        "summary": "Energy stocks were edging higher premarket Tuesday, with the State Street Energy Select Sector SPDR"
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Semiconductor Recovery Supports Markets",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130338886.html?.tsrc=rss",
+        "time_published": "2026-07-21 13:03",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4%, and the actively tra"
+      },
       {
         "title": "Best-Performing Leveraged ETF Areas of Last Week",
         "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-leveraged-etf-areas-160000451.html?.tsrc=rss",
@@ -248,48 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-20 13:24",
         "source": "Finance",
         "summary": "Energy stocks were leaning lower premarket Monday, with the State Street Energy Select Sector SPDR E"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Key Earnings Reports",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130719851.html?.tsrc=rss",
-        "time_published": "2026-07-20 13:07",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
-      },
-      {
-        "title": "Update: WTI Oil Rises as Fresh Middle East Fighting Keeps the Strait of Hormuz Closed",
-        "url": "https://finance.yahoo.com/energy/articles/wti-oil-rises-fresh-middle-192146758.html?.tsrc=rss",
-        "time_published": "2026-07-17 19:21",
-        "source": "Finance",
-        "summary": "(Updates prices in the second paragraph.) West Texas Intermediate (WTI) crude oil closed at a fiv"
-      },
-      {
-        "title": "Don\u2019t Chase the 40% Gain: Why USO Is a Trade, but XLE Is an Investment",
-        "url": "https://247wallst.com/investing/2026/07/17/dont-chase-the-40-gain-why-uso-is-a-trade-but-xle-is-an-investment/?.tsrc=rss",
-        "time_published": "2026-07-17 15:45",
-        "source": "247wallst",
-        "summary": "USO has crushed energy stocks by 40 points this year, and the gap looks like proof that owning oil futures beats owning oil companies. A closer look at what drives that lead reveals a very different story about which bet survives contact with time."
-      },
-      {
-        "title": "Sector Update: Energy Stocks Advance Premarket Friday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132531632.html?.tsrc=rss",
-        "time_published": "2026-07-17 13:25",
-        "source": "Finance",
-        "summary": "Energy stocks were advancing premarket Friday, with the State Street Energy Select Sector SPDR ETF ("
-      },
-      {
-        "title": "Oil Rises as Fresh Middle East Fighting Keeps the Strait of Hormuz Closed",
-        "url": "https://finance.yahoo.com/energy/articles/oil-rises-fresh-middle-east-130718974.html?.tsrc=rss",
-        "time_published": "2026-07-17 13:07",
-        "source": "Finance",
-        "summary": "Oil traded higher early on Friday as fresh fighting between the US and Iran kept the Strait of Hormu"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday as Investors Retreat From Chipmaker Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130030829.html?.tsrc=rss",
-        "time_published": "2026-07-17 13:00",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.7%, and the actively t"
       }
     ]
   }

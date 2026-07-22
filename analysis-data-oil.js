@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-07-20T18:31:40Z",
+  "generated": "2026-07-22T08:51:44Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-07-20",
-  "decision": "WAIT",
+  "date": "2026-07-21",
+  "decision": "BUY",
   "confidence": "MEDIUM",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The daily USO chart confirms a strong uptrend with price well above both the EMA50 (120.17) and EMA200 (104.90). The MACD remains bullish, and the RSI at 60.04 is neutral\u2014neither overbought nor diverging\u2014so the momentum indicators align with the prevailing trend. However, the candlestick pattern of a Doji followed by a Morning Star typically signals a bullish reversal after a decline, yet the price is already in a strong uptrend. This creates ambiguity: the pattern may indicate a continuation after a minor pullback, but the low signal score (4/10) suggests limited conviction.\n\nAdditional chart patterns are not clearly identifiable from the given data. The Morning Star could be interpreted as a pause-and-resume pattern in the context of an uptrend, but without a prior downtrend or clear support test, its reliability is reduced. The neutral RSI and high ATR (4.54) imply that volatility is elevated, and the price could stall or retrace without a clear directional catalyst.\n\nGiven the conflicting cues\u2014strong trend versus a low-confidence reversal pattern\u2014the prudent action is to wait for either a confirmed pullback to a key support level (e.g., the EMA50 near 120.17) or a stronger bullish trigger (e.g., a decisive breakout above recent highs). Entering at current levels offers an unfavorable risk/reward because the stop-loss would need to be placed below the Morning Star\u2019s low, which is not clearly defined, and the upside target lacks a clear recent resistance level. A wait-and-see approach avoids chasing price and allows the market to provide a higher-probability entry.",
-  "invalidation": "This wait setup is invalidated if price closes above 130.00 with strong volume, confirming a continuation breakout, or if it falls below the EMA50 (120.17), which would weaken the uptrend and potentially shift the bias",
+  "entry": "128.85",
+  "stop_loss": "124.29",
+  "target_1": "133.41",
+  "target_2": "137.97",
+  "risk_reward": "1:1.5",
+  "score": "4/10 confirmed",
+  "analysis": "The trend is confirmed as a strong uptrend. Price at 128.85 is well above both the EMA 50 (120.51) and EMA 200 (104.93), and the EMA 50 is above the EMA 200, indicating a healthy bullish alignment. The recent candlestick pattern sequence \u2014 Doji, Morning Star, Doji \u2014 suggests a potential consolidation after a bullish reversal, with the Morning Star signaling a prior bounce off support. Price action is holding near the highs, which supports continuation rather than reversal.\n\nNo clear triangle, flag, or double top/bottom patterns are immediately visible on the daily chart based on the given data. However, the presence of two Doji candles within five bars around the current price level (128.85) could indicate indecision or a brief pause before the next leg higher. The nearest support is the recent swing low near 124.29 (also near the ATR-based stop level), followed by the EMA 50 at 120.51. Resistance is likely at the prior high around 133.41, then 137.97, and psychological resistance near 142.50.\n\nRSI at 63.29 is neutral and not overbought, leaving room for further upside without immediate exhaustion. MACD is bullish with the line above the signal and a positive histogram (+3.03), confirming upward momentum. Both indicators agree with the strong uptrend. The signal score of 4/10 is low due to the Doji indecision and neutral RSI, but the underlying trend and MACD support a buy bias. The risk-reward ratio of 1:1.5 is acceptable for a swing trade, though not exceptional.",
+  "invalidation": "A daily close below 124.29 (the ATR-based stop and recent swing low) would invalidate this setup, signaling a potential trend reversal or deeper pullback.",
   "support_levels": [
-    120.17,
-    115.0,
-    110.0
+    124.29,
+    120.51,
+    116.0
   ],
   "resistance_levels": [
-    130.0,
-    135.0,
-    140.0
+    133.41,
+    137.97,
+    142.5
   ]
 };

@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-21
-**Generated:** 2026-07-21T08:41:42Z
+**Date:** 2026-07-22
+**Generated:** 2026-07-22T08:41:21Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,23 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 3/10 |
-| **Support** | 1.3418, 1.3381, 1.3322 |
-| **Resistance** | 1.3501, 1.3561, 1.3621 |
+| **Score** | 4/10 |
+| **Support** | 1.33779, 1.335, 1.33 |
+| **Resistance** | 1.34171, 1.345, 1.35 |
 
 ---
 
 ## Analysis
 
-Price at 1.34412 is above both the 50-period EMA (1.33805) and the 200-period EMA (1.34175), confirming a superficial bullish bias. However, the EMA50 is below the EMA200, forming a “death cross” configuration that typically warns of underlying bearish momentum. The Doji candlestick pattern over the last five sessions signals indecision, while the MACD is bullish (line above signal) and the histogram is positive, but the RSI at 56.78 is neutral and lacks any divergence. The overall signal score is a low 3/10, reflecting weak conviction across the indicators.
+The daily chart shows a neutral trend with price hovering just above the EMA50 (1.33779) but well below the EMA200 (1.34171). The EMA50/200 spread is bearish (50 below 200), yet price action has not decisively broken either level. The recent candlestick pattern—a Doji followed by an Evening Star—suggests a potential bearish reversal after a short-lived uptrend, but confirmation is lacking. The MACD remains bearish (line below signal, negative histogram), while the RSI is neutral at 49.21, offering no clear momentum edge. The signal score of 4/10 reflects this ambiguity.
 
-No clear chart patterns such as flags, triangles
+No clear chart patterns like triangles or flags are evident from the given data, but the Evening Star could imply a local top near the 1.3420–1.3440 zone. Key support is the EMA50 at 1.33779, a break of which would open the path toward 1.3350 (psychological) and 1.3300. Resistance sits at the EMA200 (1.34171), followed by 1.3450 and 1.3500. The RSI and MACD do not strongly align: MACD leans bearish, but RSI is flat, indicating indecision rather than a clear directional push.
+
+Given the conflicting signals—bearish candlestick pattern and MACD versus neutral RSI and price hugging the EMA50—the risk/reward is unattractive for an immediate entry. A short would require a confirmed breakdown below 1.33779, while a long would need a strong close above 1.34171. Both scenarios lack sufficient momentum or volume cues. Therefore, the prudent action is to wait for a clearer catalyst, such as a decisive break of the EMA50 or a retest of the EMA200 with rejection.
 
 ---
 
 ## Invalidation
 
-N/A
+This wait-and-see stance is invalidated if price closes decisively above 1.3420 (breaking the Evening Star high) or below 1.3370 (breaking the Doji low), which would then favor a long or short trade respectively.
 
 ---
 
