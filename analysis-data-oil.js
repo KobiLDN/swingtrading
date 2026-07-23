@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-07-22T08:51:44Z",
+  "generated": "2026-07-23T08:44:59Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "decision": "BUY",
   "confidence": "MEDIUM",
-  "entry": "128.85",
-  "stop_loss": "124.29",
-  "target_1": "133.41",
-  "target_2": "137.97",
+  "entry": "131.68",
+  "stop_loss": "127.15",
+  "target_1": "136.20",
+  "target_2": "140.75",
   "risk_reward": "1:1.5",
-  "score": "4/10 confirmed",
-  "analysis": "The trend is confirmed as a strong uptrend. Price at 128.85 is well above both the EMA 50 (120.51) and EMA 200 (104.93), and the EMA 50 is above the EMA 200, indicating a healthy bullish alignment. The recent candlestick pattern sequence \u2014 Doji, Morning Star, Doji \u2014 suggests a potential consolidation after a bullish reversal, with the Morning Star signaling a prior bounce off support. Price action is holding near the highs, which supports continuation rather than reversal.\n\nNo clear triangle, flag, or double top/bottom patterns are immediately visible on the daily chart based on the given data. However, the presence of two Doji candles within five bars around the current price level (128.85) could indicate indecision or a brief pause before the next leg higher. The nearest support is the recent swing low near 124.29 (also near the ATR-based stop level), followed by the EMA 50 at 120.51. Resistance is likely at the prior high around 133.41, then 137.97, and psychological resistance near 142.50.\n\nRSI at 63.29 is neutral and not overbought, leaving room for further upside without immediate exhaustion. MACD is bullish with the line above the signal and a positive histogram (+3.03), confirming upward momentum. Both indicators agree with the strong uptrend. The signal score of 4/10 is low due to the Doji indecision and neutral RSI, but the underlying trend and MACD support a buy bias. The risk-reward ratio of 1:1.5 is acceptable for a swing trade, though not exceptional.",
-  "invalidation": "A daily close below 124.29 (the ATR-based stop and recent swing low) would invalidate this setup, signaling a potential trend reversal or deeper pullback.",
+  "score": "6/10",
+  "analysis": "Trend confirmation is strong. Price at 131.68 is well above both the EMA 50 (120.95) and EMA 200 (105.21), confirming a sustained uptrend. The recent candlestick patterns\u2014a Morning Star followed by a Doji\u2014suggest a bullish reversal and subsequent consolidation near the high, which often precedes continuation. The ATR of 4.53 indicates healthy volatility, supporting swing movement.\n\nNo clear triangle or flag pattern is evident, but the price action shows a series of higher highs and higher lows consistent with a trending channel. The nearest support is the recent swing low around 127.15, which aligns with the lower end of the current consolidation zone. Resistance is likely at the prior high near 136.20, with a secondary target at 140.75 based on the measured move from the Morning Star breakout.\n\nRSI at 65.8 is neutral and not overbought, leaving room for further upside. MACD is bullish with the line above the signal and a positive histogram, confirming momentum. Both indicators agree with the trend, though the lack of RSI divergence and the moderate signal score (4/10) suggest this is not an extreme setup. The score is revised to 6/10 due to the confluence of trend, candlestick pattern, and indicator alignment, tempered by the Doji\u2019s indecision.\n\nRisk assessment: The primary risk is a false breakout or reversal from the Doji, which could lead to a pullback toward the EMA 50 at 120.95. The stop-loss at 127.15 provides a 3.4% risk, which is reasonable given the ATR. The reward-to-risk ratio of 1:1.5 is acceptable for a swing trade, but traders should monitor for a decisive close above 132.50 to confirm the Morning Star\u2019s bullish intent.",
+  "invalidation": "A daily close below 127.15 would break the recent swing low and invalidate the bullish setup, signaling a potential trend reversal or deeper correction.",
   "support_levels": [
-    124.29,
-    120.51,
-    116.0
+    127.15,
+    120.95,
+    105.21
   ],
   "resistance_levels": [
-    133.41,
-    137.97,
-    142.5
+    136.2,
+    140.75,
+    145.3
   ]
 };

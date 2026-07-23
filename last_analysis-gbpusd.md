@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-22
-**Generated:** 2026-07-22T08:41:21Z
+**Date:** 2026-07-23
+**Generated:** 2026-07-23T08:42:37Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | SELL |
 | **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 1.33779, 1.335, 1.33 |
-| **Resistance** | 1.34171, 1.345, 1.35 |
+| **Entry** | 1.33750 |
+| **Stop Loss** | 1.34000 |
+| **Target 1** | 1.33400 |
+| **Target 2** | 1.33000 |
+| **Risk/Reward** | 1:1.4 |
+| **Score** | 4/10 confirmed |
+| **Support** | 1.335, 1.3315, 1.328 |
+| **Resistance** | 1.3378, 1.3428, 1.345 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a neutral trend with price hovering just above the EMA50 (1.33779) but well below the EMA200 (1.34171). The EMA50/200 spread is bearish (50 below 200), yet price action has not decisively broken either level. The recent candlestick pattern—a Doji followed by an Evening Star—suggests a potential bearish reversal after a short-lived uptrend, but confirmation is lacking. The MACD remains bearish (line below signal, negative histogram), while the RSI is neutral at 49.21, offering no clear momentum edge. The signal score of 4/10 reflects this ambiguity.
+The daily chart shows a strong downtrend confirmed by price trading below both the EMA50 (1.33777) and EMA200 (1.34281). The current price is almost exactly at the EMA50, which acts as immediate resistance. The MACD remains bearish with the line below the signal line and a negative histogram, while the RSI at 48.66 is neutral, providing no divergence or oversold signal to contradict the trend. The recent candlestick cluster—a Doji, Evening Star, followed by two more Dojis—indicates indecision after a potential reversal signal, but the overall downtrend context suggests this is a bearish consolidation or a pause before further downside.  
 
-No clear chart patterns like triangles or flags are evident from the given data, but the Evening Star could imply a local top near the 1.3420–1.3440 zone. Key support is the EMA50 at 1.33779, a break of which would open the path toward 1.3350 (psychological) and 1.3300. Resistance sits at the EMA200 (1.34171), followed by 1.3450 and 1.3500. The RSI and MACD do not strongly align: MACD leans bearish, but RSI is flat, indicating indecision rather than a clear directional push.
+The Evening Star pattern (which would have appeared around the 1.3440 area) failed to produce a sustained bounce, and the subsequent Dojis near the EMA50 reinforce the resistance level. A short trade here capitalizes on the likelihood that the EMA50 holds as resistance and the downtrend resumes. The ATR of 60 pips provides a reasonable stop distance; a stop above 1.34000 (just above the recent Doji highs) limits risk. Targets are set at the next support levels: 1.3340 (near the prior swing low) and 1.3300 (a psychological round number).  
 
-Given the conflicting signals—bearish candlestick pattern and MACD versus neutral RSI and price hugging the EMA50—the risk/reward is unattractive for an immediate entry. A short would require a confirmed breakdown below 1.33779, while a long would need a strong close above 1.34171. Both scenarios lack sufficient momentum or volume cues. Therefore, the prudent action is to wait for a clearer catalyst, such as a decisive break of the EMA50 or a retest of the EMA200 with rejection.
+The low score of 4/10 reflects the neutral RSI and the ambiguous candlestick pattern, which could also signal a potential consolidation or reversal. However, the trend, MACD, and EMA alignment all favor bears. The best trade setup is a sell on the EMA50 rejection, as it offers a clean entry with a defined risk point. Volume is not provided, but the lack of a bullish catalyst (no divergence, no momentum shift) supports the bearish bias.
 
 ---
 
 ## Invalidation
 
-This wait-and-see stance is invalidated if price closes decisively above 1.3420 (breaking the Evening Star high) or below 1.3370 (breaking the Doji low), which would then favor a long or short trade respectively.
+A daily close above 1.34000 (the stop level) would invalidate the setup, as it would break above the EMA50 and the recent Doji highs, signaling a potential trend reversal or range expansion.
 
 ---
 

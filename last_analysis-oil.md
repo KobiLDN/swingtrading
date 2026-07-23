@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-07-21
-**Generated:** 2026-07-22T08:51:44Z
+**Date:** 2026-07-22
+**Generated:** 2026-07-23T08:44:59Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,32 @@
 |-------|-------|
 | **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | 128.85 |
-| **Stop Loss** | 124.29 |
-| **Target 1** | 133.41 |
-| **Target 2** | 137.97 |
+| **Entry** | 131.68 |
+| **Stop Loss** | 127.15 |
+| **Target 1** | 136.20 |
+| **Target 2** | 140.75 |
 | **Risk/Reward** | 1:1.5 |
-| **Score** | 4/10 confirmed |
-| **Support** | 124.29, 120.51, 116.0 |
-| **Resistance** | 133.41, 137.97, 142.5 |
+| **Score** | 6/10 |
+| **Support** | 127.15, 120.95, 105.21 |
+| **Resistance** | 136.2, 140.75, 145.3 |
 
 ---
 
 ## Analysis
 
-The trend is confirmed as a strong uptrend. Price at 128.85 is well above both the EMA 50 (120.51) and EMA 200 (104.93), and the EMA 50 is above the EMA 200, indicating a healthy bullish alignment. The recent candlestick pattern sequence — Doji, Morning Star, Doji — suggests a potential consolidation after a bullish reversal, with the Morning Star signaling a prior bounce off support. Price action is holding near the highs, which supports continuation rather than reversal.
+Trend confirmation is strong. Price at 131.68 is well above both the EMA 50 (120.95) and EMA 200 (105.21), confirming a sustained uptrend. The recent candlestick patterns—a Morning Star followed by a Doji—suggest a bullish reversal and subsequent consolidation near the high, which often precedes continuation. The ATR of 4.53 indicates healthy volatility, supporting swing movement.
 
-No clear triangle, flag, or double top/bottom patterns are immediately visible on the daily chart based on the given data. However, the presence of two Doji candles within five bars around the current price level (128.85) could indicate indecision or a brief pause before the next leg higher. The nearest support is the recent swing low near 124.29 (also near the ATR-based stop level), followed by the EMA 50 at 120.51. Resistance is likely at the prior high around 133.41, then 137.97, and psychological resistance near 142.50.
+No clear triangle or flag pattern is evident, but the price action shows a series of higher highs and higher lows consistent with a trending channel. The nearest support is the recent swing low around 127.15, which aligns with the lower end of the current consolidation zone. Resistance is likely at the prior high near 136.20, with a secondary target at 140.75 based on the measured move from the Morning Star breakout.
 
-RSI at 63.29 is neutral and not overbought, leaving room for further upside without immediate exhaustion. MACD is bullish with the line above the signal and a positive histogram (+3.03), confirming upward momentum. Both indicators agree with the strong uptrend. The signal score of 4/10 is low due to the Doji indecision and neutral RSI, but the underlying trend and MACD support a buy bias. The risk-reward ratio of 1:1.5 is acceptable for a swing trade, though not exceptional.
+RSI at 65.8 is neutral and not overbought, leaving room for further upside. MACD is bullish with the line above the signal and a positive histogram, confirming momentum. Both indicators agree with the trend, though the lack of RSI divergence and the moderate signal score (4/10) suggest this is not an extreme setup. The score is revised to 6/10 due to the confluence of trend, candlestick pattern, and indicator alignment, tempered by the Doji’s indecision.
+
+Risk assessment: The primary risk is a false breakout or reversal from the Doji, which could lead to a pullback toward the EMA 50 at 120.95. The stop-loss at 127.15 provides a 3.4% risk, which is reasonable given the ATR. The reward-to-risk ratio of 1:1.5 is acceptable for a swing trade, but traders should monitor for a decisive close above 132.50 to confirm the Morning Star’s bullish intent.
 
 ---
 
 ## Invalidation
 
-A daily close below 124.29 (the ATR-based stop and recent swing low) would invalidate this setup, signaling a potential trend reversal or deeper pullback.
+A daily close below 127.15 would break the recent swing low and invalidate the bullish setup, signaling a potential trend reversal or deeper correction.
 
 ---
 
