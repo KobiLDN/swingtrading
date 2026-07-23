@@ -1,22 +1,22 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-22T08:08:24Z",
-  "date": "2026-07-22",
-  "price": 1.33799,
-  "atr": 0.00615,
-  "atr_pips": 62,
+  "generated": "2026-07-23T08:11:19Z",
+  "date": "2026-07-23",
+  "price": 1.33754,
+  "atr": 0.00598,
+  "atr_pips": 60,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33779,
-  "ema200": 1.34171,
-  "rsi": 49.21,
-  "macd_line": 0.00244,
-  "macd_signal": 0.002944,
-  "macd_hist": -0.000503,
-  "trend": "NEUTRAL",
+  "ema50": 1.33777,
+  "ema200": 1.34281,
+  "rsi": 48.66,
+  "macd_line": 0.001948,
+  "macd_signal": 0.00274,
+  "macd_hist": -0.000792,
+  "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
@@ -30,18 +30,23 @@ window.PRICES_DATA = {
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-07-22",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-07-23",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-14",
-      "open": 1.3507,
-      "high": 1.35892,
-      "low": 1.34979,
-      "close": 1.35669
-    },
     {
       "date": "2026-04-15",
       "open": 1.35665,
@@ -732,8 +737,15 @@ window.PRICES_DATA = {
       "date": "2026-07-22",
       "open": 1.33746,
       "high": 1.33949,
-      "low": 1.33684,
-      "close": 1.33799
+      "low": 1.33553,
+      "close": 1.33761
+    },
+    {
+      "date": "2026-07-23",
+      "open": 1.3376,
+      "high": 1.33937,
+      "low": 1.33679,
+      "close": 1.33754
     }
   ]
 };

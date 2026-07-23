@@ -1,30 +1,24 @@
 window.PRICES_DATA_OIL = {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-07-22T08:08:27Z",
-  "date": "2026-07-21",
-  "price": 128.85,
-  "atr": 4.56,
+  "generated": "2026-07-23T08:11:22Z",
+  "date": "2026-07-22",
+  "price": 131.68,
+  "atr": 4.53,
   "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 120.51,
-  "ema200": 104.93,
-  "rsi": 63.29,
-  "macd_line": 0.705382,
-  "macd_signal": -2.320939,
-  "macd_hist": 3.026321,
+  "ema50": 120.95,
+  "ema200": 105.21,
+  "rsi": 65.8,
+  "macd_line": 1.649072,
+  "macd_signal": -1.526937,
+  "macd_hist": 3.176009,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-15",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-07-20",
       "name": "Morning Star",
@@ -41,13 +35,6 @@ window.PRICES_DATA_OIL = {
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-02-26",
-      "open": 78.15,
-      "high": 81.24,
-      "low": 78.04,
-      "close": 79.77
-    },
     {
       "date": "2026-02-27",
       "open": 82.0,
@@ -737,9 +724,16 @@ window.PRICES_DATA_OIL = {
     {
       "date": "2026-07-21",
       "open": 128.92,
-      "high": 129.38,
-      "low": 127.53,
+      "high": 129.4,
+      "low": 127.5,
       "close": 128.85
+    },
+    {
+      "date": "2026-07-22",
+      "open": 131.42,
+      "high": 132.91,
+      "low": 130.59,
+      "close": 131.68
     }
   ]
 };

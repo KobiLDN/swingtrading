@@ -1,21 +1,21 @@
 {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-07-22T08:08:26Z",
-  "date": "2026-07-21",
-  "price": 53.08,
-  "atr": 2.11,
+  "generated": "2026-07-23T08:11:21Z",
+  "date": "2026-07-22",
+  "price": 53.92,
+  "atr": 2.1,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 59.02,
-  "ema200": 61.17,
-  "rsi": 42.98,
-  "macd_line": -2.512454,
-  "macd_signal": -2.803497,
-  "macd_hist": 0.291043,
+  "ema50": 58.82,
+  "ema200": 61.23,
+  "rsi": 45.69,
+  "macd_line": -2.232238,
+  "macd_signal": -2.689245,
+  "macd_hist": 0.457008,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -24,18 +24,23 @@
       "name": "Inverted Hammer",
       "signal": "BULLISH REVERSAL",
       "strength": 3
+    },
+    {
+      "date": "2026-07-22",
+      "name": "Shooting Star",
+      "signal": "BEARISH REVERSAL",
+      "strength": 3
+    },
+    {
+      "date": "2026-07-22",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 2,
+  "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-02-26",
-      "open": 78.76,
-      "high": 80.57,
-      "low": 72.52,
-      "close": 80.45
-    },
     {
       "date": "2026-02-27",
       "open": 83.25,
@@ -728,6 +733,13 @@
       "high": 53.52,
       "low": 52.66,
       "close": 53.08
+    },
+    {
+      "date": "2026-07-22",
+      "open": 53.78,
+      "high": 55.08,
+      "low": 53.78,
+      "close": 53.92
     }
   ]
 }
