@@ -1,30 +1,24 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-23T08:11:19Z",
-  "date": "2026-07-23",
-  "price": 1.33754,
-  "atr": 0.00598,
-  "atr_pips": 60,
+  "generated": "2026-07-24T08:07:34Z",
+  "date": "2026-07-24",
+  "price": 1.33317,
+  "atr": 0.00627,
+  "atr_pips": 63,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33777,
-  "ema200": 1.34281,
-  "rsi": 48.66,
-  "macd_line": 0.001948,
-  "macd_signal": 0.00274,
-  "macd_hist": -0.000792,
+  "ema50": 1.33736,
+  "ema200": 1.34206,
+  "rsi": 44.31,
+  "macd_line": 0.000842,
+  "macd_signal": 0.002283,
+  "macd_hist": -0.001441,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-19",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-07-21",
       "name": "Evening Star",
@@ -36,24 +30,11 @@
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
-    },
-    {
-      "date": "2026-07-23",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-15",
-      "open": 1.35665,
-      "high": 1.35785,
-      "low": 1.35447,
-      "close": 1.35617
-    },
     {
       "date": "2026-04-16",
       "open": 1.35613,
@@ -744,8 +725,15 @@
       "date": "2026-07-23",
       "open": 1.3376,
       "high": 1.33937,
-      "low": 1.33679,
-      "close": 1.33754
+      "low": 1.33003,
+      "close": 1.3315
+    },
+    {
+      "date": "2026-07-24",
+      "open": 1.3315,
+      "high": 1.33442,
+      "low": 1.33071,
+      "close": 1.33317
     }
   ]
 }

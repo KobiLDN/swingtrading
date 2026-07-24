@@ -1,21 +1,21 @@
 {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-07-23T08:11:21Z",
-  "date": "2026-07-22",
-  "price": 53.92,
-  "atr": 2.1,
+  "generated": "2026-07-24T08:07:36Z",
+  "date": "2026-07-23",
+  "price": 52.06,
+  "atr": 2.11,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 58.82,
-  "ema200": 61.23,
-  "rsi": 45.69,
-  "macd_line": -2.232238,
-  "macd_signal": -2.689245,
-  "macd_hist": 0.457008,
+  "ema50": 58.55,
+  "ema200": 61.21,
+  "rsi": 41.03,
+  "macd_line": -2.135632,
+  "macd_signal": -2.578523,
+  "macd_hist": 0.442891,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -36,18 +36,17 @@
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-07-23",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-02-27",
-      "open": 83.25,
-      "high": 85.27,
-      "low": 82.36,
-      "close": 84.99
-    },
     {
       "date": "2026-03-02",
       "open": 81.17,
@@ -740,6 +739,13 @@
       "high": 55.08,
       "low": 53.78,
       "close": 53.92
+    },
+    {
+      "date": "2026-07-23",
+      "open": 52.09,
+      "high": 52.46,
+      "low": 51.77,
+      "close": 52.06
     }
   ]
 }
