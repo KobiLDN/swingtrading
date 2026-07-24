@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-07-22
-**Generated:** 2026-07-22T08:46:12Z
+**Date:** 2026-07-24
+**Generated:** 2026-07-24T08:39:26Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | HIGH |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 1.136, 1.13, 1.12 |
-| **Resistance** | 1.1469, 1.15, 1.1597 |
+| **Decision** | SELL |
+| **Confidence** | MEDIUM |
+| **Entry** | 1.13868 |
+| **Stop Loss** | 1.14300 |
+| **Target 1** | 1.13435 |
+| **Target 2** | 1.13000 |
+| **Risk/Reward** | 1:1.5 |
+| **Score** | 4/10 |
+| **Support** | 1.13435, 1.13, 1.1255 |
+| **Resistance** | 1.14629, 1.15, 1.1589 |
 
 ---
 
 ## Analysis
 
-The daily chart for EUR/USD presents a classic conflict between the primary trend and early momentum signals. Price at 1.14078 is firmly below both the EMA 50 (1.14694) and EMA 200 (1.15973), confirming the "Strong Downtrend" label. The price action respects this bearish structure, making lower highs and lower lows. However, the recent price action shows a potential deceleration of the sell-off, suggesting the downtrend may be maturing.
+The daily chart shows a strong downtrend confirmed by price trading well below both the EMA 50 (1.14629) and EMA 200 (1.1589). The current price of 1.13868 is 76 pips below the 50-day EMA and over 200 pips below the 200-day EMA, aligning with the pre-calculated trend label. The Evening Star candlestick pattern over the last five candles adds bearish reversal confirmation, suggesting sellers have regained control after a potential short-term bounce.
 
-The technical indicators are sending highly mixed messages. The MACD has generated a bullish crossover with a positive histogram, signaling that bearish momentum is waning. Conversely, the RSI at 44.0 is neutral and does not confirm an oversold bounce, nor does it show any divergence. The candlestick patterns are particularly contradictory: the presence of an Evening Star (a bearish reversal) followed by an Inverted Hammer (a potential bullish reversal) within the last five candles highlights a market struggling for direction, lacking a clear catalyst to break the impasse.
+No clear chart patterns like triangles or flags are evident, but the price structure shows a series of lower highs and lower lows, consistent with a sustained downtrend. The nearest support is the recent swing low near 1.13435, followed by the psychological 1.13000 level. Resistance sits at the EMA 50 (1.14629) and then the 1.15000 round number, with the EMA 200 (1.1589) as the major overhead barrier.
 
-Given this conflicting confluence, the most prudent swing trading decision is to wait. Entering a sell position risks catching the early stages of a momentum shift indicated by the MACD. Entering a buy position means fighting the established strong downtrend without oversold RSI confirmation or a clear breakout above resistance. The 5/10 signal score accurately reflects this ambiguity. A swing trader should prioritize setups with aligned signals and a clear risk/reward profile, which is currently absent.
+RSI at 41.22 is neutral but leans bearish, not yet oversold, leaving room for further downside. MACD is bearish with the line below the signal and a negative histogram, confirming momentum aligns with the downtrend. There is no RSI divergence to suggest a reversal, so both oscillators agree with the bearish bias. The signal score of 4/10 reflects moderate confidence due to the neutral RSI and lack of extreme oversold conditions.
 
-The market is likely in a consolidation phase. A decisive break above the EMA 50 (1.1469) would provide a bullish trigger, while a breakdown below the recent swing low near 1.1360 would confirm the downtrend's resumption. Until one of these levels is broken with conviction, the risk of a false move remains elevated, making patience the highest-probability play.
+The best trade setup is a short entry at current price with a tight stop above the recent minor high near 1.14300. Targets are set at the prior support 1.13435 (T1) and the psychological 1.13000 (T2), offering a 1:1.5 risk-reward ratio. This setup capitalizes on the continuation of the strong downtrend and the bearish candlestick pattern.
 
 ---
 
 ## Invalidation
 
-A decisive break above the EMA 50 (1.1469) would invalidate the bearish bias, while a breakdown below 1.1360 would invalidate the potential for a bullish reversal.
+A daily close above 1.14300 (the recent minor swing high) would invalidate this bearish setup, as it would break the immediate downtrend structure and suggest a potential reversal or consolidation.
 
 ---
 

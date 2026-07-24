@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-07-23T08:44:59Z",
+  "generated": "2026-07-24T08:40:55Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-07-22",
-  "decision": "BUY",
+  "date": "2026-07-23",
+  "decision": "WAIT",
   "confidence": "MEDIUM",
-  "entry": "131.68",
-  "stop_loss": "127.15",
-  "target_1": "136.20",
-  "target_2": "140.75",
-  "risk_reward": "1:1.5",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
   "score": "6/10",
-  "analysis": "Trend confirmation is strong. Price at 131.68 is well above both the EMA 50 (120.95) and EMA 200 (105.21), confirming a sustained uptrend. The recent candlestick patterns\u2014a Morning Star followed by a Doji\u2014suggest a bullish reversal and subsequent consolidation near the high, which often precedes continuation. The ATR of 4.53 indicates healthy volatility, supporting swing movement.\n\nNo clear triangle or flag pattern is evident, but the price action shows a series of higher highs and higher lows consistent with a trending channel. The nearest support is the recent swing low around 127.15, which aligns with the lower end of the current consolidation zone. Resistance is likely at the prior high near 136.20, with a secondary target at 140.75 based on the measured move from the Morning Star breakout.\n\nRSI at 65.8 is neutral and not overbought, leaving room for further upside. MACD is bullish with the line above the signal and a positive histogram, confirming momentum. Both indicators agree with the trend, though the lack of RSI divergence and the moderate signal score (4/10) suggest this is not an extreme setup. The score is revised to 6/10 due to the confluence of trend, candlestick pattern, and indicator alignment, tempered by the Doji\u2019s indecision.\n\nRisk assessment: The primary risk is a false breakout or reversal from the Doji, which could lead to a pullback toward the EMA 50 at 120.95. The stop-loss at 127.15 provides a 3.4% risk, which is reasonable given the ATR. The reward-to-risk ratio of 1:1.5 is acceptable for a swing trade, but traders should monitor for a decisive close above 132.50 to confirm the Morning Star\u2019s bullish intent.",
-  "invalidation": "A daily close below 127.15 would break the recent swing low and invalidate the bullish setup, signaling a potential trend reversal or deeper correction.",
+  "analysis": "The trend is undeniably strong, with price at 139.49 well above both the EMA 50 (121.68) and EMA 200 (105.71). The EMA alignment confirms a sustained uptrend, and the MACD remains bullish with the line above the signal and a positive histogram (+3.62). However, the RSI at 71.58 is in overbought territory, which introduces caution. While overbought does not automatically mean a reversal, it does reduce the probability of immediate continuation without a pullback or consolidation. The candlestick patterns show a mix of bullish (Morning Star) and indecisive (Doji, Shooting Star) signals, suggesting recent price action is choppy near highs rather than cleanly trending.\n\nNo clear chart patterns like flags, triangles, or double tops/bottoms are evident from the given data. The price appears to be in a steep, almost vertical ascent, which often leads to exhaustion or a sharp correction. The lack of RSI divergence is mildly supportive of trend continuation, but the overbought reading combined with the mixed candlestick patterns argues against entering a new long position at current levels. A better entry would be on a pullback toward the EMA 50 (121.68) or a confirmed breakout above the nearest resistance zone near 144.45.\n\nThe single best trade setup right now is to wait for a pullback or consolidation before entering long. The risk of buying at an overbought extreme with no clear support just below price is elevated. A stop-loss below the recent swing low (approximately 134.53) would be wide, and the reward-to-risk ratio is unfavorable at current price. Patience is warranted until price either retraces to a better support level or breaks decisively above resistance with renewed momentum.",
+  "invalidation": "A daily close below 134.53 (recent swing low) would invalidate the bullish momentum and suggest a deeper correction or trend change, making any long entry premature.",
   "support_levels": [
-    127.15,
-    120.95,
-    105.21
+    134.53,
+    129.0,
+    121.68
   ],
   "resistance_levels": [
-    136.2,
-    140.75,
-    145.3
+    144.45,
+    150.0,
+    155.0
   ]
 };

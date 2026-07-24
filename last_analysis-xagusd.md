@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
-**Date:** 2026-07-22
-**Generated:** 2026-07-23T08:44:23Z
+**Date:** 2026-07-23
+**Generated:** 2026-07-24T08:40:40Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,29 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 confirmed |
-| **Support** | 53.0, 52.5, 52.0 |
-| **Resistance** | 54.5, 55.0, 56.0 |
+| **Score** | 5/10 |
+| **Support** | 50.0, 48.0, 45.0 |
+| **Resistance** | 54.0, 56.0, 58.55 |
 
 ---
 
 ## Analysis
 
-The price action is firmly below both the EMA50 (58.82) and EMA200 (61.23), confirming the STRONG DOWNTREND indicated by the trend label. The RSI at 45.69 is neutral, not oversold, leaving room for further downside. However, the MACD has turned bullish with the line above the signal line and a positive histogram, suggesting a short-term momentum shift. This divergence between price trend and momentum is a key conflict. The candlestick patterns over the last five candles include a Morning Star, a classic bullish reversal pattern, which often signals a potential bottom after a decline. Yet the presence of an Inverted Hammer and a Shooting Star within the same window indicates indecision and mixed sentiment, lowering the reliability of the Morning Star. The overall signal score of 4/10 reflects this low conviction.
+The price at 52.06 sits well below both the EMA50 (58.55) and EMA200 (61.21), confirming the strong downtrend indicated by the trend label. Price action has not broken above any key moving average, and the series of candlestick patterns—Inverted Hammer, Shooting Star, Morning Star, and Doji—reflects indecision rather than a clear directional shift. No obvious chart patterns like flags or double tops/bottoms are evident from the given data, but the proximity to the round number 50.00 suggests a potential psychological support zone.  
 
-Given the interplay of patterns, the Morning Star could be the start of a counter-trend bounce, but the dominant downtrend and the neutral RSI argue against aggressive counter-trend trading. The nearest support levels are around 53.00 (psychological round number) and 52.50 (likely the low of the Morning Star’s first candle). Resistance is clustered at 54.50 (a prior swing high) and 55.00–56.00, with the EMA50 at 58.82 acting as a major overhead barrier. The MACD bullishness alone is insufficient to override the structural downtrend, especially when the RSI is not oversold. Therefore, the prudent approach is to wait for either a confirmed breakout above the first resistance (54.50) or a clear breakdown below support to confirm the next directional move.
+The RSI at 41.03 is neutral and not oversold, offering no strong reversal signal. However, the MACD is bullish with the line above the signal line and a positive histogram, indicating short-term upward momentum. This creates a divergence between the bearish trend and the bullish MACD, often a precursor to a bounce or consolidation. Yet, without RSI confirmation or a price break above resistance, this divergence alone is insufficient for a reliable long entry.  
+
+Given the conflicting signals—strong downtrend vs. nascent MACD bullishness—and a signal score of 5/10, the best trade setup is to wait. A short position would risk catching a potential bounce, while a long position lacks trend confirmation and has poor risk/reward with resistance at 54.00 and 56.00. The risk is elevated because the trend is firmly bearish, and any counter-trend move could be short-lived.
 
 ---
 
 ## Invalidation
 
-A break below the Morning Star’s low (estimated near 52.50) would cancel the bullish reversal signal and reinforce the downtrend, while a sustained move above 54.50 would shift the bias to a short-term bullish stance.
+A decisive close above the EMA50 (58.55) would invalidate the downtrend bias and shift the outlook to neutral or bullish, while a break below 50.00 would confirm continued bearish momentum.
 
 ---
 
