@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-07-24
-**Generated:** 2026-07-24T08:39:38Z
+**Date:** 2026-07-27
+**Generated:** 2026-07-27T10:08:27Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,27 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 4000.0, 3950.0, 3900.0 |
-| **Resistance** | 4100.0, 4163.0, 4200.0 |
+| **Score** | 2/10 confirmed |
+| **Support** | 4030.0, 4000.0, 3950.0 |
+| **Resistance** | 4152.71, 4200.0, 4250.0 |
 
 ---
 
 ## Analysis
 
-The daily chart for XAU/USD shows a strong downtrend confirmed by price trading well below the EMA50 (4163.11) and EMA200 (4455.15). The trend is clearly bearish, and the recent price action has not yet broken above any key moving averages to suggest a reversal. However, the last two candles—a Doji followed by a Bullish Engulfing pattern—hint at potential short-term buying interest, which could indicate a pause or minor bounce within the larger downtrend. The MACD has turned bullish with the line crossing above the signal line and a positive histogram, suggesting downward momentum may be weakening. The RSI at 45.71 is neutral, not oversold, so there is no extreme condition to fuel a strong reversal.
+The pre-calculated indicators clearly define a **strong downtrend** on the daily chart, with price at 4092.84 trading well below both the EMA 50 (4152.71) and EMA 200 (4446.33). This bearish alignment is confirmed by the price action, which has been making lower highs and lower lows over recent weeks. However, the current price is attempting to stabilize near the 4090 area, and the presence of a **Doji** candlestick in the last five sessions suggests indecision and a potential pause in the sell-off. No clear chart patterns such as flags, triangles, or double tops/bottoms are evident; the structure remains a straightforward downtrend with no reversal formation yet.
 
-No additional chart patterns such as triangles, flags, or double tops/bottoms are evident near current price. The nearest support levels are psychological round numbers: 4000, followed by 3950 and 3900. On the upside, immediate resistance lies at 4100 (a round number and prior minor swing area), then the EMA50 at 4163, and finally 4200. The confluence between the MACD bullish signal and the candlestick patterns suggests a possible short-term bounce, but the overall downtrend remains dominant. The RSI does not confirm a trend reversal, as it is still below 50, and there is no divergence to add conviction.
+The RSI at 51.11 is neutral, not confirming either overbought or oversold conditions, and there is no divergence to signal a trend reversal. The MACD, however, shows a **bullish crossover** (line above signal) with a positive histogram of +10.40, which contradicts the strong downtrend. This divergence between the bearish EMA trend and the bullish MACD suggests that downward momentum may be weakening, but it is not yet strong enough to confirm a trend reversal. The overall signal score of 2/10 reflects this low-conviction environment.
 
-The single best trade setup at this time is to wait. The signal score of 5/10 reflects a mixed picture: the bearish trend is clear, but the intraday bullish signals are not strong enough to justify a counter-trend buy with a good risk/reward, nor is there a clear entry for a sell given the potential for a bounce. A cautious approach is warranted. For a swing trader, it is better to either wait for the price to retest a resistance level (e.g., near 4163) to consider a short entry, or for a confirmed break above 4100 with volume to consider a bullish reversal. Until then, the risk of entering against the trend is too high.
+Key support levels near current price are 4030.00 (recent swing low), 4000.00 (psychological round number), and 3950.00 (next major support from prior structure). Resistance levels are the EMA 50 at 4152.71, followed by 4200.00 and 4250.00. The price is sandwiched between these levels, with no clear breakout or breakdown imminent. Given the conflicting signals (strong downtrend vs. bullish MACD, neutral RSI, and a Doji), the risk of entering a trade now is elevated.
+
+The single best trade setup is **no trade** at this moment. A swing trader should wait for either a confirmed breakdown below 4030.00 to re-enter shorts with a better risk/reward, or a decisive close above the EMA 50 (4152.71) to consider a counter-trend long. Until then, the market lacks a clear, high-probability entry point.
 
 ---
 
 ## Invalidation
 
-This waiting stance is invalidated if price breaks decisively above the EMA50 (4163.11) with strong momentum, or if it breaks below the recent support at 4000, confirming the continuation of the downtrend.
+This wait-and-see stance is invalidated if price closes decisively above 4152.71 (EMA 50) or below 4030.00 (recent swing low), which would provide a clearer directional bias.
 
 ---
 

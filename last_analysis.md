@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-24
-**Generated:** 2026-07-24T08:38:57Z
+**Date:** 2026-07-27
+**Generated:** 2026-07-27T10:07:12Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,28 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | WAIT |
 | **Confidence** | LOW |
-| **Entry** | 1.33317 |
-| **Stop Loss** | 1.33750 |
-| **Target 1** | 1.32700 |
-| **Target 2** | 1.32300 |
-| **Risk/Reward** | 1.42 (for T1), 2.35 (for T2) |
-| **Score** | 4/10 |
-| **Support** | 1.33, 1.327, 1.323 |
-| **Resistance** | 1.3374, 1.3421, 1.345 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 3/10 |
+| **Support** | 1.33, 1.325, 1.32 |
+| **Resistance** | 1.33684, 1.34054, 1.345 |
 
 ---
 
 ## Analysis
 
-Price
+The daily chart confirms a strong downtrend with price (1.33339) trading below both the 50-period EMA (1.33684) and the 200-period EMA (1.34054). The EMA alignment is bearish, and the MACD remains below its signal line with a negative histogram, reinforcing downside momentum. However, the RSI at 44.85 is neutral—not oversold—suggesting room for further decline before a potential reversal. The inverted hammer candlestick pattern appearing within the last five candles introduces a possible bullish reversal signal, but in the context of a strong downtrend, it often requires confirmation from a subsequent bullish candle or a break above the hammer’s high. Without such confirmation, the pattern alone is insufficient to shift the bias.
+
+No clear chart patterns such as triangles, flags, or double tops/bottoms are evident from the given data. The nearest support levels are psychological and technical: 1.3300 (round number and potential prior swing low), followed by 1.3250 and 1.3200. On the upside, resistance is clustered around the EMAs: first at 1.33684 (50 EMA), then 1.34054 (200 EMA), and finally 1.3450 (a prior resistance zone). The RSI and MACD do not provide confluence for a reversal; the RSI is neutral while the MACD is bearish, so they agree with the downtrend rather than the inverted hammer. The low signal score (3/10) reflects this lack of alignment.
+
+Given the strong downtrend, bearish MACD, and neutral RSI, the inverted hammer alone does not justify a long entry. A short entry would be counter-trend if placed near resistance, but the current price is already below the EMAs and not at a clear resistance level. The risk of a false reversal or continued decline is high. Therefore, the prudent action is to wait for either a confirmed bullish reversal (e.g., a close above the inverted hammer’s high or a break above the 50 EMA) or a retest of resistance with renewed bearish momentum before considering a sell. The ATR of 56 pips indicates moderate daily volatility, so any trade would need a stop-loss of at least 1.5x ATR (84 pips) to avoid noise, which further reduces the appeal of an immediate entry.
 
 ---
 
 ## Invalidation
 
-N/A
+This wait-and-see stance is invalidated if price closes decisively above the 50 EMA (1.33684) with strong volume, as that would signal a potential trend reversal and warrant a reassessment for a long setup.
 
 ---
 
