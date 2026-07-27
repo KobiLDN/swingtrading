@@ -1,61 +1,34 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-07-24T08:07:35Z",
-  "date": "2026-07-24",
-  "price": 4045.99,
-  "atr": 67.09,
-  "atr_pips": 67,
+  "generated": "2026-07-27T09:30:37Z",
+  "date": "2026-07-27",
+  "price": 4092.84,
+  "atr": 63.06,
+  "atr_pips": 63,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4163.11,
-  "ema200": 4455.15,
-  "rsi": 45.71,
-  "macd_line": -27.528445,
-  "macd_signal": -36.144972,
-  "macd_hist": 8.616527,
+  "ema50": 4152.71,
+  "ema200": 4446.33,
+  "rsi": 51.11,
+  "macd_line": -18.723456,
+  "macd_signal": -29.125328,
+  "macd_hist": 10.401873,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-07-20",
+      "date": "2026-07-26",
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
-    },
-    {
-      "date": "2026-07-21",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 2,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-16",
-      "open": 4790.93,
-      "high": 4838.06,
-      "low": 4779.94,
-      "close": 4789.69
-    },
-    {
-      "date": "2026-04-17",
-      "open": 4789.64,
-      "high": 4887.93,
-      "low": 4769.05,
-      "close": 4830.61
-    },
-    {
-      "date": "2026-04-18",
-      "open": 4830.45,
-      "high": 4834.38,
-      "low": 4830.45,
-      "close": 4834.1
-    },
     {
       "date": "2026-04-19",
       "open": 4833.99,
@@ -731,9 +704,30 @@
     {
       "date": "2026-07-24",
       "open": 4049.28,
-      "high": 4053.34,
+      "high": 4080.69,
       "low": 4022.09,
-      "close": 4045.99
+      "close": 4053.47
+    },
+    {
+      "date": "2026-07-25",
+      "open": 4053.38,
+      "high": 4056.11,
+      "low": 4053.34,
+      "close": 4056.01
+    },
+    {
+      "date": "2026-07-26",
+      "open": 4055.92,
+      "high": 4057.62,
+      "low": 4055.08,
+      "close": 4056.01
+    },
+    {
+      "date": "2026-07-27",
+      "open": 4055.92,
+      "high": 4116.43,
+      "low": 4012.26,
+      "close": 4092.84
     }
   ]
 }

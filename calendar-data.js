@@ -1,65 +1,113 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-07-24T08:07:38Z",
+  "generated": "2026-07-27T09:30:39Z",
   "events": [
     {
-      "date": "2026-07-21",
-      "time": "02:00",
-      "currency": "GBP",
-      "event": "Claimant Count Change",
+      "date": "2026-07-29",
+      "time": "14:00",
+      "currency": "USD",
+      "event": "Federal Funds Rate",
       "impact": "high",
-      "forecast": "29.4K",
-      "previous": "31.2K",
+      "forecast": "3.75%",
+      "previous": "3.75%",
       "actual": "",
       "today": false,
-      "past": true
+      "past": false
     },
     {
-      "date": "2026-07-22",
-      "time": "02:00",
-      "currency": "GBP",
-      "event": "CPI y/y",
-      "impact": "high",
-      "forecast": "2.7%",
-      "previous": "2.8%",
-      "actual": "",
-      "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-07-23",
-      "time": "08:15",
-      "currency": "EUR",
-      "event": "Main Refinancing Rate",
-      "impact": "high",
-      "forecast": "2.40%",
-      "previous": "2.40%",
-      "actual": "",
-      "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-07-23",
-      "time": "08:15",
-      "currency": "EUR",
-      "event": "Monetary Policy Statement",
+      "date": "2026-07-29",
+      "time": "14:00",
+      "currency": "USD",
+      "event": "FOMC Statement",
       "impact": "high",
       "forecast": "",
       "previous": "",
       "actual": "",
       "today": false,
-      "past": true
+      "past": false
     },
     {
-      "date": "2026-07-23",
-      "time": "08:45",
-      "currency": "EUR",
-      "event": "ECB Press Conference",
+      "date": "2026-07-29",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "FOMC Press Conference",
       "impact": "high",
       "forecast": "",
       "previous": "",
       "actual": "",
       "today": false,
-      "past": true
+      "past": false
+    },
+    {
+      "date": "2026-07-30",
+      "time": "07:00",
+      "currency": "GBP",
+      "event": "BOE Monetary Policy Report",
+      "impact": "high",
+      "forecast": "",
+      "previous": "",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-07-30",
+      "time": "07:00",
+      "currency": "GBP",
+      "event": "Monetary Policy Summary",
+      "impact": "high",
+      "forecast": "",
+      "previous": "",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-07-30",
+      "time": "07:00",
+      "currency": "GBP",
+      "event": "MPC Official Bank Rate Votes",
+      "impact": "high",
+      "forecast": "2-0-7",
+      "previous": "2-0-7",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-07-30",
+      "time": "07:00",
+      "currency": "GBP",
+      "event": "Official Bank Rate",
+      "impact": "high",
+      "forecast": "3.75%",
+      "previous": "3.75%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-07-30",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Advance GDP q/q",
+      "impact": "high",
+      "forecast": "2.3%",
+      "previous": "2.0%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-07-30",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Core PCE Price Index m/m",
+      "impact": "high",
+      "forecast": "0.1%",
+      "previous": "0.3%",
+      "actual": "",
+      "today": false,
+      "past": false
     }
   ]
 };
