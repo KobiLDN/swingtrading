@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-07-27T09:30:38Z",
-  "date": "2026-07-24",
-  "price": 52.59,
-  "atr": 2.05,
+  "generated": "2026-07-28T08:14:35Z",
+  "date": "2026-07-27",
+  "price": 52.93,
+  "atr": 1.96,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 58.32,
-  "ema200": 61.03,
-  "rsi": 42.82,
-  "macd_line": -1.993327,
-  "macd_signal": -2.461484,
-  "macd_hist": 0.468156,
+  "ema50": 58.11,
+  "ema200": 61.11,
+  "rsi": 44.0,
+  "macd_line": -1.831997,
+  "macd_signal": -2.335587,
+  "macd_hist": 0.50359,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-20",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
-    },
     {
       "date": "2026-07-22",
       "name": "Shooting Star",
@@ -53,13 +47,6 @@ window.PRICES_DATA_XAGUSD = {
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-03",
-      "open": 74.21,
-      "high": 76.14,
-      "low": 71.68,
-      "close": 74.68
-    },
     {
       "date": "2026-03-04",
       "open": 76.34,
@@ -752,6 +739,13 @@ window.PRICES_DATA_XAGUSD = {
       "high": 53.33,
       "low": 52.3,
       "close": 52.59
+    },
+    {
+      "date": "2026-07-27",
+      "open": 53.04,
+      "high": 53.33,
+      "low": 52.57,
+      "close": 52.93
     }
   ]
 };

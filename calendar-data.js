@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-07-27T09:30:39Z",
+  "generated": "2026-07-28T08:14:36Z",
   "events": [
     {
       "date": "2026-07-29",
@@ -87,11 +87,23 @@ window.CALENDAR_DATA = {
     },
     {
       "date": "2026-07-30",
+      "time": "07:30",
+      "currency": "GBP",
+      "event": "BOE Gov Bailey Speaks",
+      "impact": "high",
+      "forecast": "",
+      "previous": "",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-07-30",
       "time": "08:30",
       "currency": "USD",
       "event": "Advance GDP q/q",
       "impact": "high",
-      "forecast": "2.3%",
+      "forecast": "2.0%",
       "previous": "2.0%",
       "actual": "",
       "today": false,
@@ -103,7 +115,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "Core PCE Price Index m/m",
       "impact": "high",
-      "forecast": "0.1%",
+      "forecast": "0.2%",
       "previous": "0.3%",
       "actual": "",
       "today": false,
