@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-07-27
-**Generated:** 2026-07-27T10:07:29Z
+**Date:** 2026-07-28
+**Generated:** 2026-07-28T08:48:07Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 1.137, 1.135, 1.13 |
-| **Resistance** | 1.1454, 1.148, 1.1576 |
+| **Score** | 4/10 confirmed |
+| **Support** | 1.132, 1.128, 1.124 |
+| **Resistance** | 1.14494, 1.15, 1.15731 |
 
 ---
 
 ## Analysis
 
-The price at 1.13975 sits decisively below both the EMA50 (1.14539) and EMA200 (1.15755), confirming the strong downtrend indicated by the trend signal. However, a Morning Star candlestick pattern has formed within the last five candles, which is a classic bullish reversal pattern often seen at the end of a downtrend. This creates a significant conflict: the broader trend is bearish, but price action is printing a potential reversal signal.
+The daily chart shows a strong downtrend with price (1.13681) trading well below both the 50 EMA (1.14494) and 200 EMA (1.15731). Price action confirms the EMA alignment, as each rally has been capped by the 50 EMA, reinforcing the bearish bias. The recent formation of a Morning Star candlestick pattern (a bullish reversal) along with a Doji suggests a potential short-term bounce, but the pattern appears within a persistent downtrend, making its reliability questionable. Without additional confirmation, such as a break above the 50 EMA or a bullish MACD crossover, the reversal signal is not yet actionable.
 
-The RSI at 44.85 is neutral and offers no confirmation of either a continuation or reversal, while the MACD remains bearish with the line below the signal line and a negative histogram. Neither indicator shows divergence or extreme readings. The lack of oversold conditions on the RSI weakens the credibility of the Morning Star as a true reversal, as strong bottoms typically occur from oversold territory. The signal score of 5/10 reflects this indecisive mix of bearish structure and a bullish candlestick pattern.
+No clear chart patterns like triangles, flags, or double tops/bottoms are evident from the given data. The nearest support is likely around the recent low of the Morning Star pattern near 1.1320, with further support at 1.1280 and 1.1240. Resistance is stacked at 1.14494 (50 EMA), 1.1500 (psychological), and 1.15731 (200 EMA). The RSI at 38.89 is neutral but still below 50, aligning with the downtrend, while the MACD is bearish with a negative histogram, both agreeing with the prevailing trend. The confluence of these indicators points to continued downside risk, outweighing the isolated bullish candle pattern.
 
-Given the absence of clear confluence between trend, momentum, and pattern, the most prudent action is to wait for confirmation. A buy would be counter-trend with only one pattern supporting it, while a sell would ignore the potential reversal. Key support levels nearby are 1.1370 (possible recent swing low), 1.1350 (round number), and 1.1300 (psychological level). Resistance lies at 1.1454 (EMA50), 1.1480 (prior consolidation zone), and 1.1576 (EMA200). The ATR of 42 pips suggests a move beyond these levels is required to establish a new directional bias.
+Given the 4/10 signal score and the lack of a high-confidence setup, the prudent action is to wait for either a confirmed breakdown below recent support (to re-enter short) or a bullish break above the 50 EMA (to consider a long). The Morning Star alone does not provide sufficient evidence to counter the strong downtrend, and the risk of a false reversal is elevated.
 
 ---
 
 ## Invalidation
 
-A break below 1.1350 would cancel the bullish implication of the Morning Star and reaffirm the strong downtrend, while a close above 1.1454 (EMA50) would provide the confirmation needed to consider a long trade.
+A decisive daily close above the 50 EMA (1.14494) would invalidate the bearish bias and suggest a trend change, while a close below 1.1300 would confirm continuation of the downtrend.
 
 ---
 

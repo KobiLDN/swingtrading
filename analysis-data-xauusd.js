@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-07-27T10:08:27Z",
+  "generated": "2026-07-28T08:50:26Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10 confirmed",
-  "analysis": "The pre-calculated indicators clearly define a **strong downtrend** on the daily chart, with price at 4092.84 trading well below both the EMA 50 (4152.71) and EMA 200 (4446.33). This bearish alignment is confirmed by the price action, which has been making lower highs and lower lows over recent weeks. However, the current price is attempting to stabilize near the 4090 area, and the presence of a **Doji** candlestick in the last five sessions suggests indecision and a potential pause in the sell-off. No clear chart patterns such as flags, triangles, or double tops/bottoms are evident; the structure remains a straightforward downtrend with no reversal formation yet.\n\nThe RSI at 51.11 is neutral, not confirming either overbought or oversold conditions, and there is no divergence to signal a trend reversal. The MACD, however, shows a **bullish crossover** (line above signal) with a positive histogram of +10.40, which contradicts the strong downtrend. This divergence between the bearish EMA trend and the bullish MACD suggests that downward momentum may be weakening, but it is not yet strong enough to confirm a trend reversal. The overall signal score of 2/10 reflects this low-conviction environment.\n\nKey support levels near current price are 4030.00 (recent swing low), 4000.00 (psychological round number), and 3950.00 (next major support from prior structure). Resistance levels are the EMA 50 at 4152.71, followed by 4200.00 and 4250.00. The price is sandwiched between these levels, with no clear breakout or breakdown imminent. Given the conflicting signals (strong downtrend vs. bullish MACD, neutral RSI, and a Doji), the risk of entering a trade now is elevated.\n\nThe single best trade setup is **no trade** at this moment. A swing trader should wait for either a confirmed breakdown below 4030.00 to re-enter shorts with a better risk/reward, or a decisive close above the EMA 50 (4152.71) to consider a counter-trend long. Until then, the market lacks a clear, high-probability entry point.",
-  "invalidation": "This wait-and-see stance is invalidated if price closes decisively above 4152.71 (EMA 50) or below 4030.00 (recent swing low), which would provide a clearer directional bias.",
+  "score": "5/10",
+  "analysis": "The daily chart of XAU/USD shows a strong downtrend, with price trading well below both the EMA 50 (4147.84) and EMA 200 (4443.54). This bearish alignment is the dominant structural signal. However, the MACD has recently turned bullish (line above signal) with a positive histogram, suggesting a potential loss of downside momentum or a short-term bounce. The RSI at 45.54 is neutral, offering no clear directional bias, and no divergence is present. The candlestick patterns over the last five candles include a Doji and an Evening Star, which are bearish reversal/continuation patterns, indicating that any upward attempt may be fading.  \n\nThe conflicting signals create an ambiguous environment: the trend is decisively bearish, but the MACD hints at a possible counter-trend move, while the candlestick patterns warn of further downside. Without a clear confluence among trend, momentum, and price action, entering a trade now carries elevated risk. The signal score of 5/10 reflects this neutrality. Key resistance lies at the EMA 50 (4147) and the psychological 4100 level, while support is near the round 4000 mark, followed by 3950 and 3900.  \n\nGiven the lack of a high-probability setup, the prudent course is to wait for either a confirmed breakdown below 4000 (which would reinforce the downtrend) or a decisive close above the EMA 50 (which would suggest a trend reversal). Until one of these conditions is met, the risk of a false signal or whipsaw remains too high for a",
+  "invalidation": "N/A",
   "support_levels": [
-    4030.0,
     4000.0,
-    3950.0
+    3950.0,
+    3900.0
   ],
   "resistance_levels": [
-    4152.71,
-    4200.0,
-    4250.0
+    4100.0,
+    4147.0,
+    4200.0
   ]
 };

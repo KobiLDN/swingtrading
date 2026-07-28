@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-07-24T08:40:25Z",
+  "generated": "2026-07-28T08:51:00Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-07-23",
-  "decision": "SELL",
+  "date": "2026-07-27",
+  "decision": "WAIT",
   "confidence": "MEDIUM",
-  "entry": "738.18",
-  "stop_loss": "743.50",
-  "target_1": "730.00",
-  "target_2": "722.00",
-  "risk_reward": "1:1.3",
-  "score": "6/10 (revised upward due to bearish candlestick confluence)",
-  "analysis": "The price is trading at 738.18, virtually at the EMA 50 (738.92), which is acting as dynamic resistance. Although the EMA 50 is still above the EMA 200 (707.26), indicating a long-term uptrend, the short-term price action has stalled and reversed from the EMA 50. The Shooting Star and Evening Star candlestick patterns in the last five candles are powerful bearish reversal signals, especially when appearing at a key moving average. This suggests a failed breakout or rejection at resistance, confirming a short-term bearish bias.\n\nThe RSI at 44.56 is in neutral territory but tilting bearish, while the MACD is clearly bearish with the line below the signal line and a negative histogram (-1.18). This provides bearish confluence with the candlestick patterns. No bullish divergence exists to counter the bearish momentum. The price is also below both the EMA 50 and the key 740 level, reinforcing a short-term downtrend. The ATR of 8.28 gives room for a reasonable stop above the recent swing high near 743.50.\n\nKey support below is the 730.00 psychological level, followed by the 722.00 area (prior consolidation zone) and the EMA 200 at 707.26. Resistance sits at the EMA 50 (738.92), then 745.00, and finally 750.00. The trade setup is a short entry at current price with a stop above recent highs, targeting a move back toward the 730 support area and then 722. I have revised the signal score upward to 6/10 because the candlestick confirmation at resistance adds weight beyond the raw 4/10 indicator score.\n\nRISK ASSESSMENT: The primary risk is that the EMA 50 holds as support and price reverses upward, driven by the still-positive long-term EMA alignment (50 above 200). A close above 740 with volume would negate the bearish setup. The stop-loss is placed above the recent swing high to account for ATR noise.",
-  "invalidation": "A daily close above 740.00 (especially if accompanied by a bullish engulfing candle) would cancel this short setup.",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "4/10",
+  "analysis": "The long-term trend remains strongly bullish with price above both the EMA50 (738.93) and EMA200 (708.10), confirming the overall uptrend. However, short-term price action has turned bearish with the appearance of a Shooting Star followed by an Evening Star within the last five candles, signaling a potential reversal from recent highs. The MACD is bearish (line below signal) with a negative histogram, aligning with the candlestick patterns to suggest weakening momentum. RSI at 45.38 is neutral and does not indicate oversold conditions, leaving room for further downside before a bounce. Price is currently testing the EMA50 as immediate support; a break below this level would confirm a short-term trend shift and likely accelerate selling toward the next support zone near 730.  \n\nThe signal score of 4/10 reflects the conflicting signals between the strong uptrend and the bearish short-term indicators. Without a clear catalyst or volume confirmation, entering a trade now carries elevated risk. A long entry would require price to hold",
+  "invalidation": "N/A",
   "support_levels": [
+    738.93,
     730.0,
-    722.0,
-    707.26
+    725.0
   ],
   "resistance_levels": [
-    738.92,
     745.0,
-    750.0
+    750.0,
+    755.0
   ]
 };

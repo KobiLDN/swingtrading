@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-07-23
-**Generated:** 2026-07-24T08:40:55Z
+**Date:** 2026-07-27
+**Generated:** 2026-07-28T08:51:54Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 6/10 |
-| **Support** | 134.53, 129.0, 121.68 |
-| **Resistance** | 144.45, 150.0, 155.0 |
+| **Score** | 5/10 |
+| **Support** | 122.36, 120.0, 118.0 |
+| **Resistance** | 125.0, 128.0, 130.0 |
 
 ---
 
 ## Analysis
 
-The trend is undeniably strong, with price at 139.49 well above both the EMA 50 (121.68) and EMA 200 (105.71). The EMA alignment confirms a sustained uptrend, and the MACD remains bullish with the line above the signal and a positive histogram (+3.62). However, the RSI at 71.58 is in overbought territory, which introduces caution. While overbought does not automatically mean a reversal, it does reduce the probability of immediate continuation without a pullback or consolidation. The candlestick patterns show a mix of bullish (Morning Star) and indecisive (Doji, Shooting Star) signals, suggesting recent price action is choppy near highs rather than cleanly trending.
+The daily chart shows a strong uptrend with price well above both the EMA50 (122.36) and EMA200 (106.30). However, the recent candlestick sequence—Doji, Shooting Star, Morning Star, Hanging Man, Evening Star—reveals significant indecision and a shift toward bearish reversal patterns in the last three candles. The Evening Star at the current price level suggests potential exhaustion of buying momentum, while the Hanging Man reinforces overhead supply. Despite the MACD remaining bullish (line above signal, positive histogram), the RSI at 52.46 is neutral and lacks overbought confirmation, offering no clear directional edge.
 
-No clear chart patterns like flags, triangles, or double tops/bottoms are evident from the given data. The price appears to be in a steep, almost vertical ascent, which often leads to exhaustion or a sharp correction. The lack of RSI divergence is mildly supportive of trend continuation, but the overbought reading combined with the mixed candlestick patterns argues against entering a new long position at current levels. A better entry would be on a pullback toward the EMA 50 (121.68) or a confirmed breakout above the nearest resistance zone near 144.45.
+The signal score of 5/10 reflects this ambiguity: the trend is technically intact, but the price action is flashing warning signs. No clear chart patterns like flags or triangles are evident; the cluster of reversal candles near the current level could form a short-term top if confirmed. Key support is the EMA50 at 122.36, followed by the round number 120.00 and the prior swing low near 118.00. Resistance is less defined but likely near the recent high around 125.00, then 128.00 and 130.00 (based on ATR extension). Without a clean breakout or a pullback to a support level, the risk-reward is unfavorable for either a buy or sell entry.
 
-The single best trade setup right now is to wait for a pullback or consolidation before entering long. The risk of buying at an overbought extreme with no clear support just below price is elevated. A stop-loss below the recent swing low (approximately 134.53) would be wide, and the reward-to-risk ratio is unfavorable at current price. Patience is warranted until price either retraces to a better support level or breaks decisively above resistance with renewed momentum.
+Given the conflicting signals—strong trend versus bearish candlestick patterns—the prudent approach is to wait for confirmation. A decisive break above 125.00 with strong volume would reassert bullish momentum, while a close below the EMA50 (122.36) would signal a trend weakening and open the door for a short trade. Until then, the setup lacks clarity.
 
 ---
 
 ## Invalidation
 
-A daily close below 134.53 (recent swing low) would invalidate the bullish momentum and suggest a deeper correction or trend change, making any long entry premature.
+This wait setup is invalidated if price closes above 125.00 with a bullish engulfing candle or breaks below 122.36 with a bearish follow-through, providing a clear directional bias.
 
 ---
 
