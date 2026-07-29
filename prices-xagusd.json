@@ -1,21 +1,21 @@
 {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-07-28T08:14:35Z",
-  "date": "2026-07-27",
-  "price": 52.93,
-  "atr": 1.96,
+  "generated": "2026-07-29T08:20:02Z",
+  "date": "2026-07-28",
+  "price": 51.7,
+  "atr": 1.94,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 58.11,
-  "ema200": 61.11,
-  "rsi": 44.0,
-  "macd_line": -1.831997,
-  "macd_signal": -2.335587,
-  "macd_hist": 0.50359,
+  "ema50": 57.86,
+  "ema200": 61.04,
+  "rsi": 40.74,
+  "macd_line": -1.78284,
+  "macd_signal": -2.225037,
+  "macd_hist": 0.442197,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -44,16 +44,9 @@
       "strength": 3
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-04",
-      "open": 76.34,
-      "high": 77.06,
-      "low": 74.41,
-      "close": 75.34
-    },
     {
       "date": "2026-03-05",
       "open": 74.94,
@@ -746,6 +739,13 @@
       "high": 53.33,
       "low": 52.57,
       "close": 52.93
+    },
+    {
+      "date": "2026-07-28",
+      "open": 51.61,
+      "high": 52.01,
+      "low": 51.19,
+      "close": 51.7
     }
   ]
 }

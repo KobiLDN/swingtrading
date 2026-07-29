@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-07-28T08:14:36Z",
+  "generated": "2026-07-29T08:20:04Z",
   "events": [
     {
       "date": "2026-07-29",
@@ -10,7 +10,7 @@ window.CALENDAR_DATA = {
       "forecast": "3.75%",
       "previous": "3.75%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -22,7 +22,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -34,7 +34,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -103,7 +103,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "Advance GDP q/q",
       "impact": "high",
-      "forecast": "2.0%",
+      "forecast": "2.1%",
       "previous": "2.0%",
       "actual": "",
       "today": false,

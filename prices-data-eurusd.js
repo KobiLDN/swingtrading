@@ -1,47 +1,34 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-07-28T08:14:34Z",
-  "date": "2026-07-28",
-  "price": 1.13681,
-  "atr": 0.00403,
-  "atr_pips": 40,
+  "generated": "2026-07-29T08:20:00Z",
+  "date": "2026-07-29",
+  "price": 1.1397,
+  "atr": 0.00411,
+  "atr_pips": 41,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.14494,
-  "ema200": 1.15731,
-  "rsi": 38.89,
-  "macd_line": -0.001971,
-  "macd_signal": -0.001687,
-  "macd_hist": -0.000283,
+  "ema50": 1.1448,
+  "ema200": 1.15718,
+  "rsi": 46.25,
+  "macd_line": -0.001669,
+  "macd_signal": -0.00166,
+  "macd_hist": -9e-06,
   "trend": "STRONG DOWNTREND",
-  "divergence": "None",
+  "divergence": "BULLISH",
   "patterns": [
     {
       "date": "2026-07-26",
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
-    },
-    {
-      "date": "2026-07-28",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 8,
+  "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-04-20",
-      "open": 1.1741,
-      "high": 1.17901,
-      "low": 1.17299,
-      "close": 1.17877
-    },
     {
       "date": "2026-04-21",
       "open": 1.17874,
@@ -731,9 +718,16 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-07-28",
       "open": 1.13681,
-      "high": 1.13805,
-      "low": 1.1362,
-      "close": 1.13681
+      "high": 1.14054,
+      "low": 1.13542,
+      "close": 1.13866
+    },
+    {
+      "date": "2026-07-29",
+      "open": 1.13866,
+      "high": 1.14037,
+      "low": 1.13821,
+      "close": 1.1397
     }
   ]
 };

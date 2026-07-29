@@ -1,30 +1,24 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-07-28T08:14:33Z",
-  "date": "2026-07-28",
-  "price": 1.32986,
-  "atr": 0.00558,
-  "atr_pips": 56,
+  "generated": "2026-07-29T08:19:59Z",
+  "date": "2026-07-29",
+  "price": 1.33013,
+  "atr": 0.00548,
+  "atr_pips": 55,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33639,
-  "ema200": 1.34041,
-  "rsi": 41.17,
-  "macd_line": -0.00117,
-  "macd_signal": 0.000581,
-  "macd_hist": -0.001751,
+  "ema50": 1.33612,
+  "ema200": 1.34022,
+  "rsi": 41.72,
+  "macd_line": -0.001502,
+  "macd_signal": 0.000154,
+  "macd_hist": -0.001657,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-24",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
-    },
     {
       "date": "2026-07-27",
       "name": "Bearish Engulfing",
@@ -41,13 +35,6 @@ window.PRICES_DATA_GBPUSD = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-20",
-      "open": 1.34911,
-      "high": 1.35438,
-      "low": 1.34764,
-      "close": 1.35344
-    },
     {
       "date": "2026-04-21",
       "open": 1.35345,
@@ -737,9 +724,16 @@ window.PRICES_DATA_GBPUSD = {
     {
       "date": "2026-07-28",
       "open": 1.32886,
-      "high": 1.33066,
-      "low": 1.32848,
-      "close": 1.32986
+      "high": 1.33107,
+      "low": 1.32733,
+      "close": 1.32906
+    },
+    {
+      "date": "2026-07-29",
+      "open": 1.329,
+      "high": 1.33076,
+      "low": 1.32807,
+      "close": 1.33013
     }
   ]
 };

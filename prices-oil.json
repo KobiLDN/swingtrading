@@ -1,30 +1,24 @@
 {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-07-28T08:14:36Z",
-  "date": "2026-07-27",
-  "price": 124.76,
-  "atr": 5.53,
+  "generated": "2026-07-29T08:20:03Z",
+  "date": "2026-07-28",
+  "price": 120.49,
+  "atr": 5.59,
   "atr_pips": 6,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 122.36,
+  "ema50": 122.29,
   "ema200": 106.3,
-  "rsi": 52.46,
-  "macd_line": 3.416034,
-  "macd_signal": 0.890533,
-  "macd_hist": 2.525501,
-  "trend": "STRONG UPTREND",
+  "rsi": 48.37,
+  "macd_line": 2.745162,
+  "macd_signal": 1.261459,
+  "macd_hist": 1.483703,
+  "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-21",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-07-23",
       "name": "Shooting Star",
@@ -53,13 +47,6 @@
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-04",
-      "open": 90.22,
-      "high": 91.59,
-      "low": 89.11,
-      "close": 91.56
-    },
     {
       "date": "2026-03-05",
       "open": 94.46,
@@ -750,8 +737,15 @@
       "date": "2026-07-27",
       "open": 128.66,
       "high": 128.66,
-      "low": 124.7,
+      "low": 124.58,
       "close": 124.76
+    },
+    {
+      "date": "2026-07-28",
+      "open": 123.67,
+      "high": 124.55,
+      "low": 118.49,
+      "close": 120.49
     }
   ]
 }
