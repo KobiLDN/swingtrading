@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-07-28T08:51:36Z",
+  "generated": "2026-07-30T09:10:00Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-07-27",
+  "date": "2026-07-29",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_XAGUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10 confirmed",
-  "analysis": "The trend remains strongly bearish, with price at 52.93 trading well below both the EMA 50 (58.11) and EMA 200 (61.11). Price action confirms the downtrend, as each rally attempt has been met with lower highs and the current price is near multi-month lows. The presence of a Shooting Star and Inverted Hammer in the last five candles suggests intraday volatility but no clear reversal pattern that would override the dominant downtrend. No additional chart patterns like flags or double bottoms are evident; the structure appears to be a persistent decline with minor consolidation.\n\nThe RSI at 44.0 is neutral, not oversold, leaving room for further downside. The MACD is bullish (line above signal) with a positive histogram of +0.5036, which is a divergence from the price downtrend. This creates a conflict: the MACD suggests early momentum shifting, but the price and EMAs remain firmly bearish. Without a clear RSI divergence or a confirmed bullish candlestick pattern (the Morning Star is isolated and not yet validated by follow-through), the MACD signal alone is insufficient to justify a long entry. The signal score of 4/10 accurately reflects this mixed, low-conviction environment.\n\nGiven the strong downtrend, the best trade setup would be a short entry only if price breaks below the recent swing low near 51.00 with volume, targeting the next support at 49.50. However, the MACD bullish cross warns of a potential bounce, making a short entry risky here. A long trade is not justified because the trend is down, RSI is not oversold, and price is far below key EMAs. Therefore, waiting for either a clear breakdown with momentum or a confirmed reversal above 54.50 (near-term resistance) is prudent.",
-  "invalidation": "A daily close above 54.50 would invalidate the bearish bias and suggest a potential trend reversal, while a close below 51.00 would confirm continued downside and open a short opportunity.",
+  "score": "3/10",
+  "analysis": "The pre-calculated indicators confirm a strong downtrend, with price at 51.77 well below both the EMA50 (57.62) and EMA200 (61.04). The RSI at 41.0 is neutral, not oversold, and shows no divergence, indicating that bearish momentum has eased but not reversed. The MACD, however, is bullish with the signal line above the MACD line and a positive histogram (+0.405), suggesting a short-term upward momentum shift. This creates a conflict between the dominant trend and a potential counter-trend bounce.\n\nThe candlestick patterns over the last five candles\u2014Doji, Inverted Hammer, Doji\u2014reflect indecision and possible exhaustion of selling pressure. An Inverted Hammer at the bottom of a downtrend can signal a reversal, but it requires confirmation from a bullish follow-through candle. Without such confirmation, the pattern remains speculative. The overall signal score of 3/10 underscores the low probability of a reliable trade setup at this juncture.\n\nKey support levels near current price are the psychological 50.00 round number, the ATR-based level around 49.80 (51.77 - 1.96), and 48.50 as a prior swing low area. Resistance lies at 52.50 (recent minor high), 53.70 (ATR-based projection), and the far-off EMA50 at 57.62. The MACD bullishness could drive a test of the first resistance, but the strong downtrend and low score argue against entering a long position prematurely. A short trade would be risky given the MACD\u2019s positive bias and the indecisive candlestick patterns.\n\nGiven the conflicting signals and low confidence, the prudent action is to wait for a clearer catalyst. A confirmed break above 52.50 with volume would improve the odds of a bounce toward 53.70, while a breakdown below 50.00 would reinforce the downtrend and open the door for a short entry. Until then, the risk-reward is unfavorable.",
+  "invalidation": "This wait-and-see stance is invalidated if price closes decisively above 52.50 (triggering a potential long setup) or below 50.00 (confirming continued downtrend and a short opportunity).",
   "support_levels": [
-    51.0,
-    49.5,
-    48.0
+    50.0,
+    49.8,
+    48.5
   ],
   "resistance_levels": [
-    54.5,
-    56.0,
-    58.11
+    52.5,
+    53.7,
+    55.0
   ]
 };

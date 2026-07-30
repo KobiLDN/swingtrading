@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-28
-**Generated:** 2026-07-28T08:47:57Z
+**Date:** 2026-07-30
+**Generated:** 2026-07-30T08:44:27Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,32 +12,32 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.32986 |
-| **Stop Loss** | 1.33639 |
-| **Target 1** | 1.32428 |
-| **Target 2** | 1.31870 |
+| **Entry** | 1.33449 |
+| **Stop Loss** | 1.34042 |
+| **Target 1** | 1.32856 |
+| **Target 2** | 1.32263 |
 | **Risk/Reward** | 1:1.5 |
-| **Score** | 5/10 |
-| **Support** | 1.32428, 1.3187, 1.312 |
-| **Resistance** | 1.33639, 1.34041, 1.345 |
+| **Score** | 5/10 confirmed |
+| **Support** | 1.33, 1.3245, 1.32 |
+| **Resistance** | 1.33631, 1.34109, 1.345 |
 
 ---
 
 ## Analysis
 
-The trend is confirmed as a strong downtrend, with price at 1.32986 trading well below both the EMA 50 (1.33639) and EMA 200 (1.34041). Price action aligns with the EMA structure, as the pair has consistently failed to reclaim these moving averages, reinforcing bearish momentum. The recent candlestick patterns—Inverted Hammer, Bearish Engulfing, and Evening Star—suggest a failed bounce and renewed selling pressure, particularly the Evening Star formation indicating a potential reversal lower after a brief upward correction.
+The trend is confirmed as a strong downtrend, with price trading below both the EMA 50 (1.33631) and EMA 200 (1.34109). The bearish candlestick patterns—Bearish Engulfing and Evening Star—over the last five candles reinforce selling pressure, despite a lone Morning Star that failed to reverse the broader decline. Price action aligns with the EMA structure, as each rally has been met with lower highs, consistent with a downtrend continuation.
 
-No clear additional chart patterns like triangles or flags are evident on the daily timeframe, but the price is approaching a prior support zone near 1.32428, which could act as a pivot. The RSI at 41.17 is neutral but leaning bearish, not yet oversold, leaving room for further downside. The MACD remains bearish with the line below the signal and a negative histogram, confirming the downtrend’s persistence. There is no RSI divergence, so the bearish momentum is intact without warning signs of exhaustion.
+No clear triangle, flag, or double top/bottom patterns are evident on the daily chart. However, the recent price action suggests a potential descending channel or series of lower swing highs, with resistance near the EMA 50 and support around 1.3300 (psychological round number). The nearest resistance is the EMA 50 at 1.33631, followed by the EMA 200 at 1.34109. Support lies at 1.3300, then 1.3245 (prior swing low), and 1.3200.
 
-The single best trade setup is a short from current price, targeting the next support levels. Entry at 1.32986 offers a favorable risk-reward with a stop loss just above the EMA 50 at 1.33639, which acts as immediate resistance. Target 1 is set at 1.32428 (prior swing low), and Target 2 at 1.31870 (next major support). The risk-reward ratio of 1:1.5 is acceptable given the trend strength, though the 5/10 signal score reflects the neutral RSI and lack of strong divergence, limiting conviction.
+RSI at 48.21 is neutral but leaning bearish, as it remains below 50. MACD is bearish with the line below the signal and a negative histogram, confirming downward momentum. There is no RSI divergence, so both indicators agree with the downtrend without warning of an imminent reversal. The confluence of bearish EMA alignment, MACD, and candlestick patterns supports a sell bias.
 
-Risk assessment: The primary risk is a false breakdown or a sharp reversal if the price reclaims the EMA 50. The ATR of 56 pips suggests moderate daily volatility, so the stop loss is placed within reasonable distance. The trade relies on continued bearish momentum, which could be undermined by unexpected bullish news or a shift in market sentiment. Position sizing should account for the medium confidence level.
+The single best trade setup is a short entry at current price (1.33449) with a stop loss above the EMA 50 (1.34042) to allow for minor retracement. Targets are based on ATR (59 pips) projections: T1 at 1.32856 (1x ATR below entry) and T2 at 1.32263 (2x ATR). The risk-reward ratio is 1:1.5, acceptable for a swing trade. However, the neutral RSI and moderate signal score (5/10) cap confidence at medium.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.33639 (EMA 50) would invalidate the bearish setup, signaling a potential trend reversal or consolidation.
+N/A
 
 ---
 

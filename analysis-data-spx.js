@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-07-28T08:51:00Z",
+  "generated": "2026-07-30T09:09:37Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-07-27",
-  "decision": "WAIT",
+  "date": "2026-07-29",
+  "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
+  "entry": "729.46",
+  "stop_loss": "738.62",
+  "target_1": "720.00",
+  "target_2": "705.91",
+  "risk_reward": "1.10",
   "score": "4/10",
-  "analysis": "The long-term trend remains strongly bullish with price above both the EMA50 (738.93) and EMA200 (708.10), confirming the overall uptrend. However, short-term price action has turned bearish with the appearance of a Shooting Star followed by an Evening Star within the last five candles, signaling a potential reversal from recent highs. The MACD is bearish (line below signal) with a negative histogram, aligning with the candlestick patterns to suggest weakening momentum. RSI at 45.38 is neutral and does not indicate oversold conditions, leaving room for further downside before a bounce. Price is currently testing the EMA50 as immediate support; a break below this level would confirm a short-term trend shift and likely accelerate selling toward the next support zone near 730.  \n\nThe signal score of 4/10 reflects the conflicting signals between the strong uptrend and the bearish short-term indicators. Without a clear catalyst or volume confirmation, entering a trade now carries elevated risk. A long entry would require price to hold",
-  "invalidation": "N/A",
+  "analysis": "Price action does not confirm the EMA trend. The 50 EMA (738.62) is above the 200 EMA (705.91), indicating a longer-term bullish structure, but price has broken decisively below the 50 EMA and is now trading at 729.46. This creates a bearish crossover in the short-term trend relative to the 50 EMA, while the 200 EMA remains distant support. The Evening Star candlestick pattern over the last five sessions confirms a bearish reversal from the recent failed attempt to reclaim the 50 EMA, reinforcing the current downside momentum.\n\nNo clear triangle, flag, or double top/bottom patterns are evident on the daily chart. However, the price is forming a lower high below the 50 EMA, which suggests a potential descending channel or bear flag in development. The nearest support is the psychological 720.00 level, followed by the 200 EMA at 705.91. Resistance is immediate at the 50 EMA (738.62), then 745.00 and 750.00.\n\nRSI at 38.63 is in neutral-bearish territory, not yet oversold, leaving room for further downside. MACD is bearish with the line below the signal line and a negative histogram, confirming the bearish momentum. There is no RSI divergence to suggest a reversal. The confluence of bearish MACD, a bearish candlestick pattern, and price below the 50 EMA supports a short trade, though the neutral RSI and long-term bullish EMA structure cap confidence.\n\nThe single best trade setup is a short entry at current price (729.46) with a stop loss just above the 50 EMA (738.62) to invalidate the bearish thesis. Targets are set at the 720.00 support (T1) and the 200 EMA at 705.91 (T2). The risk-reward ratio is approximately 1.10, which is marginal but acceptable given the bearish confluence. The score remains 4/10 due to the conflicting long-term trend and neutral RSI.",
+  "invalidation": "A daily close above 738.62 (50 EMA) would invalidate this bearish setup and signal a return to the broader uptrend.",
   "support_levels": [
-    738.93,
-    730.0,
-    725.0
+    720.0,
+    705.91,
+    700.0
   ],
   "resistance_levels": [
+    738.62,
     745.0,
-    750.0,
-    755.0
+    750.0
   ]
 };

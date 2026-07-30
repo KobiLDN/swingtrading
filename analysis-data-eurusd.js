@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-07-28T08:48:07Z",
+  "generated": "2026-07-30T08:44:52Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-07-28",
-  "decision": "WAIT",
-  "confidence": "LOW",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "4/10 confirmed",
-  "analysis": "The daily chart shows a strong downtrend with price (1.13681) trading well below both the 50 EMA (1.14494) and 200 EMA (1.15731). Price action confirms the EMA alignment, as each rally has been capped by the 50 EMA, reinforcing the bearish bias. The recent formation of a Morning Star candlestick pattern (a bullish reversal) along with a Doji suggests a potential short-term bounce, but the pattern appears within a persistent downtrend, making its reliability questionable. Without additional confirmation, such as a break above the 50 EMA or a bullish MACD crossover, the reversal signal is not yet actionable.\n\nNo clear chart patterns like triangles, flags, or double tops/bottoms are evident from the given data. The nearest support is likely around the recent low of the Morning Star pattern near 1.1320, with further support at 1.1280 and 1.1240. Resistance is stacked at 1.14494 (50 EMA), 1.1500 (psychological), and 1.15731 (200 EMA). The RSI at 38.89 is neutral but still below 50, aligning with the downtrend, while the MACD is bearish with a negative histogram, both agreeing with the prevailing trend. The confluence of these indicators points to continued downside risk, outweighing the isolated bullish candle pattern.\n\nGiven the 4/10 signal score and the lack of a high-confidence setup, the prudent action is to wait for either a confirmed breakdown below recent support (to re-enter short) or a bullish break above the 50 EMA (to consider a long). The Morning Star alone does not provide sufficient evidence to counter the strong downtrend, and the risk of a false reversal is elevated.",
-  "invalidation": "A decisive daily close above the 50 EMA (1.14494) would invalidate the bearish bias and suggest a trend change, while a close below 1.1300 would confirm continuation of the downtrend.",
+  "date": "2026-07-30",
+  "decision": "BUY",
+  "confidence": "MEDIUM",
+  "entry": "1.14436",
+  "stop_loss": "1.13980",
+  "target_1": "1.15000",
+  "target_2": "1.15760",
+  "risk_reward": "1:1.2 (target 1) / 1:2.9 (target 2)",
+  "score": "7/10",
+  "analysis": "The daily chart shows a strong downtrend with price well below the EMA200 (1.1576) and just under the EMA50 (1.14505). However, the recent price action has produced a clear Morning Star candlestick pattern, a bullish RSI divergence, and a MACD bullish crossover with rising histogram. These reversal signals contradict the prevailing trend, suggesting a potential short-term bottom. The RSI at 54.25 is neutral, leaving room for upside without being overbought. The confluence of these indicators gives a 7/10 signal score, indicating a moderately strong counter-trend setup.\n\nFrom a pattern perspective, the Morning Star after a prolonged decline often marks a reversal. No clear triangle or flag is visible, but the price is testing the EMA50 as immediate resistance. A break above 1.1450 would confirm the bullish momentum. Key support is the recent low near 1.1380 (likely the Morning Star\u2019s low), with further support at 1.1400 (psychological) and 1.1300. Resistance levels are the EMA50 at 1.1450, the round number 1.1500, and the EMA200 at 1.1576.\n\nThe best trade setup is a long entry at current price, with a stop loss placed below the Morning Star low (1.1398) to limit risk to approximately one ATR (46 pips). The first target is the 1.1500 resistance, offering a 1:1.2 risk-reward, while the second target at the EMA200 provides a more aggressive 1:2.9 reward. Given the strong downtrend, confidence is medium; the trade relies on the reversal signals gaining traction. A conservative approach could wait for a confirmed close above the EMA50, but the current setup offers a favorable entry with defined risk.",
+  "invalidation": "This setup is invalidated if price breaks and closes below 1.1380 (the Morning Star\u2019s low), as that would negate the bullish reversal and signal a continuation of the downtrend.",
   "support_levels": [
-    1.132,
-    1.128,
-    1.124
+    1.14,
+    1.138,
+    1.13
   ],
   "resistance_levels": [
-    1.14494,
+    1.145,
     1.15,
-    1.15731
+    1.1576
   ]
 };
