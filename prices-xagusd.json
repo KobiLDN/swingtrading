@@ -1,36 +1,24 @@
 {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-07-29T08:20:02Z",
-  "date": "2026-07-28",
-  "price": 51.7,
-  "atr": 1.94,
+  "generated": "2026-07-30T08:07:20Z",
+  "date": "2026-07-29",
+  "price": 51.77,
+  "atr": 1.96,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 57.86,
+  "ema50": 57.62,
   "ema200": 61.04,
-  "rsi": 40.74,
-  "macd_line": -1.78284,
-  "macd_signal": -2.225037,
-  "macd_hist": 0.442197,
+  "rsi": 41.0,
+  "macd_line": -1.718426,
+  "macd_signal": -2.123715,
+  "macd_hist": 0.405289,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-22",
-      "name": "Shooting Star",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
-    },
-    {
-      "date": "2026-07-22",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-07-23",
       "name": "Doji",
@@ -42,18 +30,17 @@
       "name": "Inverted Hammer",
       "signal": "BULLISH REVERSAL",
       "strength": 3
+    },
+    {
+      "date": "2026-07-29",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 3,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-05",
-      "open": 74.94,
-      "high": 75.52,
-      "low": 73.01,
-      "close": 74.27
-    },
     {
       "date": "2026-03-06",
       "open": 75.09,
@@ -746,6 +733,13 @@
       "high": 52.01,
       "low": 51.19,
       "close": 51.7
+    },
+    {
+      "date": "2026-07-29",
+      "open": 51.72,
+      "high": 53.55,
+      "low": 51.28,
+      "close": 51.77
     }
   ]
 }
