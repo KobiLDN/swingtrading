@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-07-28
-**Generated:** 2026-07-28T08:50:26Z
+**Date:** 2026-07-31
+**Generated:** 2026-07-31T09:15:35Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,7 +11,7 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
@@ -19,23 +19,23 @@
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
 | **Support** | 4000.0, 3950.0, 3900.0 |
-| **Resistance** | 4100.0, 4147.0, 4200.0 |
+| **Resistance** | 4139.0, 4200.0, 4300.0 |
 
 ---
 
 ## Analysis
 
-The daily chart of XAU/USD shows a strong downtrend, with price trading well below both the EMA 50 (4147.84) and EMA 200 (4443.54). This bearish alignment is the dominant structural signal. However, the MACD has recently turned bullish (line above signal) with a positive histogram, suggesting a potential loss of downside momentum or a short-term bounce. The RSI at 45.54 is neutral, offering no clear directional bias, and no divergence is present. The candlestick patterns over the last five candles include a Doji and an Evening Star, which are bearish reversal/continuation patterns, indicating that any upward attempt may be fading.  
+The daily chart shows a strong downtrend with price (4057.47) well below both the EMA50 (4139.2) and EMA200 (4444.29). This confirms the bearish bias from the trend indicator. However, the MACD has turned bullish (line above signal) with a positive histogram, suggesting a potential short-term momentum shift. The RSI at 47.66 is neutral, neither oversold nor overbought, leaving room for either direction. The candlestick patterns—an Evening Star followed by a Morning Star within the last five candles—indicate conflicting signals, likely reflecting a volatile consolidation phase after a sharp decline.
 
-The conflicting signals create an ambiguous environment: the trend is decisively bearish, but the MACD hints at a possible counter-trend move, while the candlestick patterns warn of further downside. Without a clear confluence among trend, momentum, and price action, entering a trade now carries elevated risk. The signal score of 5/10 reflects this neutrality. Key resistance lies at the EMA 50 (4147) and the psychological 4100 level, while support is near the round 4000 mark, followed by 3950 and 3900.  
+No clear chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. The price is hovering near the 4050–4070 zone, which may act as a temporary pivot. Key support lies at the psychological 4000 level, followed by 3950 and 3900. Resistance is anchored at the EMA50 (4139), then 4200 (recent swing high area), and finally the distant EMA200 (4444). The MACD bullish crossover does not align with the dominant downtrend, creating a divergence in signals that reduces conviction for either a buy or sell.
 
-Given the lack of a high-probability setup, the prudent course is to wait for either a confirmed breakdown below 4000 (which would reinforce the downtrend) or a decisive close above the EMA 50 (which would suggest a trend reversal). Until one of these conditions is met, the risk of a false signal or whipsaw remains too high for a
+Given the conflicting technical evidence—strong downtrend versus nascent bullish MACD, neutral RSI, and mixed candlestick patterns—the prudent approach is to wait for clearer confirmation. A sell setup would require price to fail at resistance (e.g., a bearish rejection near 4139) with a corresponding MACD rollover. A buy setup would need a decisive break above the EMA50 and a sustained RSI above 50. Currently, the risk of a false breakout or continued downside is elevated, making any trade speculative.
 
 ---
 
 ## Invalidation
 
-N/A
+A sustained break above the EMA50 (4139) with daily closes would invalidate the downtrend bias and shift the outlook to neutral or bullish.
 
 ---
 

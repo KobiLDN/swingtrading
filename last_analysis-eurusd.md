@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-07-30
-**Generated:** 2026-07-30T08:44:52Z
+**Date:** 2026-07-31
+**Generated:** 2026-07-31T09:14:13Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,32 @@
 |-------|-------|
 | **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.14436 |
-| **Stop Loss** | 1.13980 |
-| **Target 1** | 1.15000 |
-| **Target 2** | 1.15760 |
-| **Risk/Reward** | 1:1.2 (target 1) / 1:2.9 (target 2) |
-| **Score** | 7/10 |
-| **Support** | 1.14, 1.138, 1.13 |
-| **Resistance** | 1.145, 1.15, 1.1576 |
+| **Entry** | 1.15066 |
+| **Stop Loss** | 1.14559 |
+| **Target 1** | 1.15731 |
+| **Target 2** | 1.16200 |
+| **Risk/Reward** | 1:1.4 (based on T1) |
+| **Score** | 3/10 |
+| **Support** | 1.14559, 1.14, 1.135 |
+| **Resistance** | 1.15731, 1.162, 1.17 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong downtrend with price well below the EMA200 (1.1576) and just under the EMA50 (1.14505). However, the recent price action has produced a clear Morning Star candlestick pattern, a bullish RSI divergence, and a MACD bullish crossover with rising histogram. These reversal signals contradict the prevailing trend, suggesting a potential short-term bottom. The RSI at 54.25 is neutral, leaving room for upside without being overbought. The confluence of these indicators gives a 7/10 signal score, indicating a moderately strong counter-trend setup.
+The EMA structure shows a neutral trend, with price at 1.15066 sitting above the 50 EMA (1.14559) but below the 200 EMA (1.15731). This creates a “death cross” hangover where the shorter-term EMA has not yet crossed above the longer-term EMA, but price is attempting to challenge the 200 EMA from below. The price action confirms a bullish bias in the short term, as the market has rallied from the 50 EMA support and is now testing the 200 EMA resistance. A sustained close above 1.15731 would flip the trend to bullish.
 
-From a pattern perspective, the Morning Star after a prolonged decline often marks a reversal. No clear triangle or flag is visible, but the price is testing the EMA50 as immediate resistance. A break above 1.1450 would confirm the bullish momentum. Key support is the recent low near 1.1380 (likely the Morning Star’s low), with further support at 1.1400 (psychological) and 1.1300. Resistance levels are the EMA50 at 1.1450, the round number 1.1500, and the EMA200 at 1.1576.
+No explicit candlestick patterns were detected, but the price is forming a potential ascending channel or flag-like consolidation above the 50 EMA. The proximity to the 200 EMA suggests a breakout setup rather than a reversal pattern. Key support is the 50 EMA at 1.14559, with further support at 1.14000 (psychological round number) and 1.13500 (prior swing low). Resistance is the 200 EMA at 1.15731, followed by 1.16200 (recent high) and 1.17000 (major resistance).
 
-The best trade setup is a long entry at current price, with a stop loss placed below the Morning Star low (1.1398) to limit risk to approximately one ATR (46 pips). The first target is the 1.1500 resistance, offering a 1:1.2 risk-reward, while the second target at the EMA200 provides a more aggressive 1:2.9 reward. Given the strong downtrend, confidence is medium; the trade relies on the reversal signals gaining traction. A conservative approach could wait for a confirmed close above the EMA50, but the current setup offers a favorable entry with defined risk.
+The RSI at 62.05 is neutral but leaning bullish, and the RSI divergence is explicitly bullish, indicating that momentum is strengthening despite price not yet breaking out. The MACD is bullish with the line above the signal and a positive histogram, confirming upward momentum. Both RSI divergence and MACD agree on a bullish bias, which is a strong confluence for a long trade, even though the overall trend score is low due to the neutral EMA alignment.
+
+The single best trade setup is a buy at current price with a stop below the 50 EMA, targeting the 200 EMA as the first objective. The risk-reward is modest (1:1.4), but the bullish divergence and MACD support make this a reasonable swing trade. The low signal score (3/10) reflects the neutral trend and lack of a confirmed breakout, so position size should be conservative.
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if price breaks and closes below 1.1380 (the Morning Star’s low), as that would negate the bullish reversal and signal a continuation of the downtrend.
+A daily close below 1.14559 (50 EMA) would cancel this setup, as it would indicate a failure of the bullish momentum and a return to bearish pressure.
 
 ---
 

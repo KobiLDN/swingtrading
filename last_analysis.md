@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-30
-**Generated:** 2026-07-30T08:44:27Z
+**Date:** 2026-07-31
+**Generated:** 2026-07-31T09:13:58Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 1.33449 |
-| **Stop Loss** | 1.34042 |
-| **Target 1** | 1.32856 |
-| **Target 2** | 1.32263 |
-| **Risk/Reward** | 1:1.5 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
 | **Score** | 5/10 confirmed |
-| **Support** | 1.33, 1.3245, 1.32 |
-| **Resistance** | 1.33631, 1.34109, 1.345 |
+| **Support** | 1.34082, 1.33705, 1.33 |
+| **Resistance** | 1.345, 1.35, 1.355 |
 
 ---
 
 ## Analysis
 
-The trend is confirmed as a strong downtrend, with price trading below both the EMA 50 (1.33631) and EMA 200 (1.34109). The bearish candlestick patterns—Bearish Engulfing and Evening Star—over the last five candles reinforce selling pressure, despite a lone Morning Star that failed to reverse the broader decline. Price action aligns with the EMA structure, as each rally has been met with lower highs, consistent with a downtrend continuation.
+The EMA structure shows a bullish bias with price (1.34382) above both the 50-period EMA (1.33705) and the 200-period EMA (1.34082). However, the price action does not fully confirm a clean trend continuation. The recent candlestick patterns are mixed and contradictory: a Bearish Engulfing and Evening Star suggest selling pressure, immediately followed by a Morning Star, indicating a potential reversal back up. This whipsaw action near the 200 EMA (1.34082) signals indecision rather than a clear directional push. The price is hovering just above the 200 EMA, a critical level, but has not yet broken decisively higher or lower.
 
-No clear triangle, flag, or double top/bottom patterns are evident on the daily chart. However, the recent price action suggests a potential descending channel or series of lower swing highs, with resistance near the EMA 50 and support around 1.3300 (psychological round number). The nearest resistance is the EMA 50 at 1.33631, followed by the EMA 200 at 1.34109. Support lies at 1.3300, then 1.3245 (prior swing low), and 1.3200.
+No clear chart patterns such as triangles, flags, or double tops/bottoms are immediately inferable from the given data. The proximity of price to the 200 EMA and the recent candlestick volatility suggest a potential consolidation zone forming between 1.3370 (50 EMA) and 1.3450 (near-term resistance). A break above 1.3450 could form a flag-like continuation, while a break below 1.3408 would risk a bearish breakdown. Without a confirmed pattern, the structure remains ambiguous.
 
-RSI at 48.21 is neutral but leaning bearish, as it remains below 50. MACD is bearish with the line below the signal and a negative histogram, confirming downward momentum. There is no RSI divergence, so both indicators agree with the downtrend without warning of an imminent reversal. The confluence of bearish EMA alignment, MACD, and candlestick patterns supports a sell bias.
+RSI at 57.54 is neutral and shows no divergence, offering no strong momentum signal. MACD is bullish with the line above the signal and a positive histogram, which aligns with the EMA trend. However, the MACD histogram is very small (+0.000293), indicating weak momentum. The RSI and MACD do not strongly agree on a decisive move; MACD leans bullish but with low conviction, while RSI is flat. This lack of strong confluence, combined with the mixed candlestick signals, reduces the reliability of any immediate trade.
 
-The single best trade setup is a short entry at current price (1.33449) with a stop loss above the EMA 50 (1.34042) to allow for minor retracement. Targets are based on ATR (59 pips) projections: T1 at 1.32856 (1x ATR below entry) and T2 at 1.32263 (2x ATR). The risk-reward ratio is 1:1.5, acceptable for a swing trade. However, the neutral RSI and moderate signal score (5/10) cap confidence at medium.
+Given the conflicting signals—bullish EMA alignment and MACD versus bearish candlestick patterns and neutral RSI—the risk of a false breakout or whipsaw is elevated. The signal score of 5/10 accurately reflects this uncertainty. Entering a trade now would require assuming a direction without clear confirmation. The best course is to wait for price to either break and hold above 1.3450 (resistance) or break and close below 1.3408 (200 EMA support) with strong momentum before committing.
 
 ---
 
 ## Invalidation
 
-N/A
+This wait-and-see setup is invalidated if price breaks and closes above 1.3450 with strong bullish momentum, or below 1.3400 with a bearish close, as either would provide a clearer directional bias.
 
 ---
 

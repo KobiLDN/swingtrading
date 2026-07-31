@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-07-29
-**Generated:** 2026-07-30T09:11:08Z
+**Date:** 2026-07-30
+**Generated:** 2026-07-31T09:17:10Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 confirmed |
-| **Support** | 125.0, 122.57, 120.0 |
-| **Resistance** | 135.0, 140.0, 145.0 |
+| **Score** | 5/10 |
+| **Support** | 122.76, 120.0, 106.44 |
+| **Resistance** | 130.0, 132.0, 135.0 |
 
 ---
 
 ## Analysis
 
-The EMA structure (50 above 200) and price well above both EMAs confirm a strong uptrend on the daily chart. However, the recent candlestick patterns are highly contradictory: a Shooting Star (bearish reversal), followed by a Morning Star (bullish reversal), then a Hanging Man (bearish), and finally an Evening Star (bearish). This chaotic sequence over just five candles indicates indecision and potential exhaustion near current highs, despite the overall bullish trend. The signal score of 5/10 reflects this mixed picture — the trend is intact, but the short-term price action is unreliable.
+The daily chart displays a clear strong uptrend with price well above both the EMA50 (122.76) and EMA200 (106.44). The MACD remains bullish with the line above the signal line and a positive histogram, confirming upward momentum. However, the RSI at 54.21 is neutral, indicating no overbought condition, which typically supports trend continuation. The primary conflict arises from the candlestick patterns: a Hanging Man, Evening Star, and Shooting Star within the last five candles. These are bearish reversal signals that suggest exhaustion near current levels, especially after a sustained move higher.  
 
-No clear chart patterns like flags, triangles, or double tops/bottoms are evident. The price is in a consolidation zone after a strong rally, with no defined breakout or breakdown structure. Key support is the EMA 50 at 122.57, with psychological support at 125.00 and 120.00 below. Resistance is uncharted near-term, with 135.00 as a round-number target and 140.00 as a potential prior swing high zone. The lack of a clean pattern makes it risky to enter with a defined stop and target.
+Despite the bearish candlestick formations, there is no RSI divergence or breakdown in the EMA structure to confirm a reversal. The price is still making higher highs and higher lows relative to the EMAs, and the MACD histogram is still rising. This creates a mixed picture where the trend is intact but warning signs are present. The signal score of 5/10 reflects this uncertainty. Without a clear catalyst or price confirmation (e.g., a close below the EMA50 or a break of a short-term swing low), entering a trade would be premature. The prudent approach is to wait for a decisive move—either a bullish continuation (e.g., a strong bounce off the EMA50) or a bearish breakdown (e.g., a close below 122.76) that resolves the current indecision.  
 
-RSI at 56.0 is neutral, showing no overbought or oversold condition, and no divergence. MACD is bullish (line above signal, positive histogram), which aligns with the trend. However, the RSI’s neutrality and the MACD’s lack of acceleration suggest momentum is stalling, not strengthening. The confluence is weak — the trend says buy, but the momentum and candlestick signals say wait. The contradictory signals and absence of a clear entry trigger make a WAIT decision the most prudent.
+Key support levels near current price are the EMA50 at 122.76, followed by the round number 120.00, and the long-term EMA200 at 106.44. Resistance levels are less defined but likely cluster around 130.00 (psychological) and 132.00–135.00 (potential prior highs). The ATR of 5.64 indicates average daily volatility, so any move beyond these levels would be significant. Until price action aligns with one of the EMAs or the candlestick signals are invalidated, the best trade is to remain on the sidelines.
 
 ---
 
 ## Invalidation
 
-A decisive daily close above 135.00 with strong volume would invalidate the wait stance and turn the setup bullish; conversely, a close below 125.00 would confirm bearish reversal and shift to a sell setup.
+This wait setup would be invalidated if price closes above 130.00 (bullish breakout) or below 122.76 (bearish breakdown), providing a clear directional bias.
 
 ---
 
