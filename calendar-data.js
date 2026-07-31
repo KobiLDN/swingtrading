@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-07-30T08:07:21Z",
+  "generated": "2026-07-31T08:33:57Z",
   "events": [
     {
       "date": "2026-07-29",
@@ -46,8 +46,8 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-30",
@@ -58,8 +58,8 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-30",
@@ -70,8 +70,8 @@ window.CALENDAR_DATA = {
       "forecast": "2-0-7",
       "previous": "2-0-7",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-30",
@@ -82,20 +82,20 @@ window.CALENDAR_DATA = {
       "forecast": "3.75%",
       "previous": "3.75%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-30",
-      "time": "07:30",
+      "time": "08:00",
       "currency": "GBP",
       "event": "BOE Gov Bailey Speaks",
       "impact": "high",
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-30",
@@ -106,8 +106,8 @@ window.CALENDAR_DATA = {
       "forecast": "2.1%",
       "previous": "2.0%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-07-30",
@@ -118,8 +118,8 @@ window.CALENDAR_DATA = {
       "forecast": "0.2%",
       "previous": "0.3%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     }
   ]
 };

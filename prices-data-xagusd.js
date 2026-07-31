@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-07-30T08:07:20Z",
-  "date": "2026-07-29",
-  "price": 51.77,
-  "atr": 1.96,
+  "generated": "2026-07-31T08:33:56Z",
+  "date": "2026-07-30",
+  "price": 53.5,
+  "atr": 1.95,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 57.62,
-  "ema200": 61.04,
-  "rsi": 41.0,
-  "macd_line": -1.718426,
-  "macd_signal": -2.123715,
-  "macd_hist": 0.405289,
+  "ema50": 57.46,
+  "ema200": 61.22,
+  "rsi": 47.34,
+  "macd_line": -1.51037,
+  "macd_signal": -2.001047,
+  "macd_hist": 0.490677,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-23",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-07-24",
       "name": "Inverted Hammer",
@@ -38,16 +32,9 @@ window.PRICES_DATA_XAGUSD = {
       "strength": 2
     }
   ],
-  "score": 3,
+  "score": 2,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-06",
-      "open": 75.09,
-      "high": 76.97,
-      "low": 74.58,
-      "close": 75.94
-    },
     {
       "date": "2026-03-09",
       "open": 76.43,
@@ -737,9 +724,16 @@ window.PRICES_DATA_XAGUSD = {
     {
       "date": "2026-07-29",
       "open": 51.72,
-      "high": 53.55,
-      "low": 51.28,
+      "high": 53.56,
+      "low": 51.27,
       "close": 51.77
+    },
+    {
+      "date": "2026-07-30",
+      "open": 52.35,
+      "high": 53.55,
+      "low": 52.21,
+      "close": 53.5
     }
   ]
 };
