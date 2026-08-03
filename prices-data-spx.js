@@ -1,34 +1,34 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-07-31T08:33:55Z",
-  "date": "2026-07-30",
-  "price": 741.69,
-  "atr": 8.86,
+  "generated": "2026-08-03T09:21:30Z",
+  "date": "2026-07-31",
+  "price": 747.03,
+  "atr": 9.03,
   "atr_pips": 9,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 738.74,
-  "ema200": 707.63,
-  "rsi": 49.19,
-  "macd_line": -1.37019,
-  "macd_signal": 0.141421,
-  "macd_hist": -1.511611,
+  "ema50": 739.07,
+  "ema200": 707.91,
+  "rsi": 52.99,
+  "macd_line": -0.822009,
+  "macd_signal": -0.051265,
+  "macd_hist": -0.770744,
   "trend": "STRONG UPTREND",
   "divergence": "None",
-  "patterns": [],
-  "score": 1,
+  "patterns": [
+    {
+      "date": "2026-07-31",
+      "name": "Hanging Man",
+      "signal": "BEARISH REVERSAL",
+      "strength": 3
+    }
+  ],
+  "score": 3,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-09",
-      "open": 666.39,
-      "high": 679.92,
-      "low": 662.39,
-      "close": 678.27
-    },
     {
       "date": "2026-03-10",
       "open": 677.72,
@@ -721,6 +721,13 @@ window.PRICES_DATA_SPX = {
       "high": 742.45,
       "low": 734.59,
       "close": 741.69
+    },
+    {
+      "date": "2026-07-31",
+      "open": 744.68,
+      "high": 748.9,
+      "low": 737.68,
+      "close": 747.03
     }
   ]
 };

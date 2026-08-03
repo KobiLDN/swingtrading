@@ -1,30 +1,24 @@
 {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-07-31T08:33:56Z",
-  "date": "2026-07-30",
-  "price": 127.48,
-  "atr": 5.64,
-  "atr_pips": 6,
+  "generated": "2026-08-03T09:21:31Z",
+  "date": "2026-07-31",
+  "price": 129.17,
+  "atr": 5.49,
+  "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 122.76,
-  "ema200": 106.44,
-  "rsi": 54.21,
-  "macd_line": 2.827847,
-  "macd_signal": 1.8356,
-  "macd_hist": 0.992247,
+  "ema50": 123.01,
+  "ema200": 106.49,
+  "rsi": 55.62,
+  "macd_line": 2.880287,
+  "macd_signal": 2.044538,
+  "macd_hist": 0.835749,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-07-24",
-      "name": "Hanging Man",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
-    },
     {
       "date": "2026-07-27",
       "name": "Evening Star",
@@ -41,13 +35,6 @@
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-09",
-      "open": 119.42,
-      "high": 124.07,
-      "low": 98.47,
-      "close": 104.33
-    },
     {
       "date": "2026-03-10",
       "open": 107.13,
@@ -738,8 +725,15 @@
       "date": "2026-07-30",
       "open": 127.12,
       "high": 129.21,
-      "low": 126.96,
+      "low": 126.91,
       "close": 127.48
+    },
+    {
+      "date": "2026-07-31",
+      "open": 130.18,
+      "high": 130.98,
+      "low": 127.95,
+      "close": 129.17
     }
   ]
 }
