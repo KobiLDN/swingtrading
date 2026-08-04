@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-07-31T09:16:51Z",
+  "generated": "2026-08-04T08:53:16Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-07-30",
+  "date": "2026-08-03",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_XAGUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10",
-  "analysis": "The trend is unequivocally bearish, with price at 53.50 trading well below both the EMA 50 (57.46) and EMA 200 (61.22). The EMA configuration (50 below 200) confirms a strong downtrend, and price action has not broken above either moving average, so the trend is intact. The recent candlestick patterns \u2014 an Inverted Hammer followed by a Doji \u2014 suggest a potential short-term exhaustion of selling pressure, but these are low-confidence reversal signals in a strong downtrend and lack volume confirmation. No clear chart patterns like flags, triangles, or double tops/bottoms are evident; the structure appears to be a series of lower highs and lower lows.\n\nRSI at 47.34 is neutral, not oversold, and shows no divergence, so it offers no bullish edge. However, the MACD is bullish (line above signal) with a positive histogram (+0.49), which is a short-term counter-trend signal. This creates a divergence between the bearish EMA trend and the bullish MACD momentum \u2014 a classic \u201ctrend vs. momentum\u201d conflict. In a strong downtrend, such MACD signals often lead to brief bounces or consolidations rather than trend reversals, especially with a low signal score of 2/10. The ATR of 1.95 indicates high volatility, increasing risk.\n\nGiven the bearish trend, neutral RSI, and conflicting MACD, the prudent action is to wait. A counter-trend long would require a confirmed break above the nearest resistance at 55.45 (prior swing low) and ideally above EMA 50 at 57.46. A short entry would be premature without a clear bearish continuation pattern or a retest of resistance. The risk of a false breakout from the Doji/Inverted Hammer is high. The best trade setup is no trade until either the trend aligns with momentum or a clear risk-defined entry appears.",
-  "invalidation": "This wait setup is invalidated if price closes decisively above 55.45 (prior swing high) or below 51.55 (recent swing low), as either would provide a clearer directional bias.",
+  "score": "3/10",
+  "analysis": "The price at 52.46 is well below both the EMA50 (57.07) and EMA200 (61.19), confirming the strong downtrend indicated by the trend label. The Doji candlestick on the last day reflects indecision, but in a persistent downtrend it often acts as a continuation pattern rather than a reversal signal. No additional chart patterns such as flags, triangles, or double tops/bottoms are evident from the given data, though the Doji could hint at a potential pause before further downside if selling pressure resumes.\n\nKey support levels are derived from the ATR(14) of 1.92: the nearest support is at 50.54 (price minus one ATR), followed by 48.62 and 46.70. Resistance levels are 54.38 (price plus one ATR), then the EMA50 at 57.07, and the EMA200 at 61.19. The RSI at 44.36 is neutral, not oversold, leaving room for further declines. The MACD is bullish (line above signal) with a positive histogram, suggesting short-term momentum is improving. However, this divergence between a bullish MACD and a strong downtrend is weak and lacks confirmation from price action or volume. The low signal score of 3/10 reinforces the lack of a clear edge.\n\nGiven the conflicting signals\u2014a strong downtrend with a nascent bullish MACD and a neutral RSI\u2014the prudent action is to wait. A buy would be premature because the trend is still down and price has not yet broken above any key resistance. A sell is risky because the MACD could be signaling an early reversal. The best trade setup is no trade until price either breaks above the EMA50 (confirming a trend change) or fails at resistance and resumes the downtrend with a new low below 50.54. Risk is elevated due to the low signal score and the Doji\u2019s ambiguous nature.",
+  "invalidation": "N/A",
   "support_levels": [
-    51.55,
-    49.8,
-    47.2
+    50.54,
+    48.62,
+    46.7
   ],
   "resistance_levels": [
-    55.45,
-    57.46,
-    61.22
+    54.38,
+    57.07,
+    61.19
   ]
 };

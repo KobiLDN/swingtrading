@@ -1,26 +1,26 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-07-31T09:13:58Z",
+  "generated": "2026-08-04T08:51:18Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-07-31",
-  "decision": "WAIT",
-  "confidence": "LOW",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "5/10 confirmed",
-  "analysis": "The EMA structure shows a bullish bias with price (1.34382) above both the 50-period EMA (1.33705) and the 200-period EMA (1.34082). However, the price action does not fully confirm a clean trend continuation. The recent candlestick patterns are mixed and contradictory: a Bearish Engulfing and Evening Star suggest selling pressure, immediately followed by a Morning Star, indicating a potential reversal back up. This whipsaw action near the 200 EMA (1.34082) signals indecision rather than a clear directional push. The price is hovering just above the 200 EMA, a critical level, but has not yet broken decisively higher or lower.\n\nNo clear chart patterns such as triangles, flags, or double tops/bottoms are immediately inferable from the given data. The proximity of price to the 200 EMA and the recent candlestick volatility suggest a potential consolidation zone forming between 1.3370 (50 EMA) and 1.3450 (near-term resistance). A break above 1.3450 could form a flag-like continuation, while a break below 1.3408 would risk a bearish breakdown. Without a confirmed pattern, the structure remains ambiguous.\n\nRSI at 57.54 is neutral and shows no divergence, offering no strong momentum signal. MACD is bullish with the line above the signal and a positive histogram, which aligns with the EMA trend. However, the MACD histogram is very small (+0.000293), indicating weak momentum. The RSI and MACD do not strongly agree on a decisive move; MACD leans bullish but with low conviction, while RSI is flat. This lack of strong confluence, combined with the mixed candlestick signals, reduces the reliability of any immediate trade.\n\nGiven the conflicting signals\u2014bullish EMA alignment and MACD versus bearish candlestick patterns and neutral RSI\u2014the risk of a false breakout or whipsaw is elevated. The signal score of 5/10 accurately reflects this uncertainty. Entering a trade now would require assuming a direction without clear confirmation. The best course is to wait for price to either break and hold above 1.3450 (resistance) or break and close below 1.3408 (200 EMA support) with strong momentum before committing.",
-  "invalidation": "This wait-and-see setup is invalidated if price breaks and closes above 1.3450 with strong bullish momentum, or below 1.3400 with a bearish close, as either would provide a clearer directional bias.",
+  "date": "2026-08-04",
+  "decision": "SELL",
+  "confidence": "MEDIUM",
+  "entry": "1.34371",
+  "stop_loss": "1.34982",
+  "target_1": "1.33847",
+  "target_2": "1.33400",
+  "risk_reward": "1:1.6",
+  "score": "7/10",
+  "analysis": "The EMA structure shows a bullish bias with price above both the 50-period (1.33847) and 200-period (1.34031) EMAs, but the price action does not fully confirm a strong trend continuation. The recent candlestick patterns\u2014Hanging Man, Bearish Engulfing, and Hammer\u2014indicate indecision and potential exhaustion at the top of the move. The price is stalling near 1.3437 after a prior rally, and the presence of a Bearish Engulfing pattern suggests sellers are stepping in, conflicting with the EMA-based bullish bias.\n\nNo clear triangle, flag, or double top/bottom pattern is visible on the daily chart, but the cluster of reversal candlesticks near current price implies a potential short-term top formation. The nearest resistance is likely around 1.3458 (prior swing high), with further resistance at 1.3500 (psychological level). Support lies at the 200 EMA (1.34031) and the 50 EMA (1.33847), with a deeper support at 1.33400.\n\nThe RSI at 55.63 is neutral but shows bearish divergence, indicating weakening upward momentum despite the price being above EMAs. The MACD remains bullish (line above signal) with a positive histogram, but the divergence and candlestick patterns create a bearish confluence that overrides the MACD\u2019s bullish signal for a short-term trade. The signal score of 8/10 is downgraded to 7/10 due to the conflicting EMA trend and the bearish divergence.\n\nThe single best trade setup is a short entry at current price (1.34371) targeting a retracement to the 50 EMA (1.33847) and possibly the 200 EMA (1.34031) as first target, with a secondary target at 1.33400. The stop loss is placed above the recent swing high at 1.34982 to allow for a false breakout. The risk-reward ratio is approximately 1:1.6, which is acceptable for a swing trade.",
+  "invalidation": "A daily close above 1.35000 would invalidate this bearish setup and signal continued bullish momentum.",
   "support_levels": [
-    1.34082,
-    1.33705,
-    1.33
+    1.34031,
+    1.33847,
+    1.334
   ],
   "resistance_levels": [
-    1.345,
+    1.3458,
     1.35,
     1.355
   ]

@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-07-31
-**Generated:** 2026-07-31T09:13:58Z
+**Date:** 2026-08-04
+**Generated:** 2026-08-04T08:51:18Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 confirmed |
-| **Support** | 1.34082, 1.33705, 1.33 |
-| **Resistance** | 1.345, 1.35, 1.355 |
+| **Decision** | SELL |
+| **Confidence** | MEDIUM |
+| **Entry** | 1.34371 |
+| **Stop Loss** | 1.34982 |
+| **Target 1** | 1.33847 |
+| **Target 2** | 1.33400 |
+| **Risk/Reward** | 1:1.6 |
+| **Score** | 7/10 |
+| **Support** | 1.34031, 1.33847, 1.334 |
+| **Resistance** | 1.3458, 1.35, 1.355 |
 
 ---
 
 ## Analysis
 
-The EMA structure shows a bullish bias with price (1.34382) above both the 50-period EMA (1.33705) and the 200-period EMA (1.34082). However, the price action does not fully confirm a clean trend continuation. The recent candlestick patterns are mixed and contradictory: a Bearish Engulfing and Evening Star suggest selling pressure, immediately followed by a Morning Star, indicating a potential reversal back up. This whipsaw action near the 200 EMA (1.34082) signals indecision rather than a clear directional push. The price is hovering just above the 200 EMA, a critical level, but has not yet broken decisively higher or lower.
+The EMA structure shows a bullish bias with price above both the 50-period (1.33847) and 200-period (1.34031) EMAs, but the price action does not fully confirm a strong trend continuation. The recent candlestick patterns—Hanging Man, Bearish Engulfing, and Hammer—indicate indecision and potential exhaustion at the top of the move. The price is stalling near 1.3437 after a prior rally, and the presence of a Bearish Engulfing pattern suggests sellers are stepping in, conflicting with the EMA-based bullish bias.
 
-No clear chart patterns such as triangles, flags, or double tops/bottoms are immediately inferable from the given data. The proximity of price to the 200 EMA and the recent candlestick volatility suggest a potential consolidation zone forming between 1.3370 (50 EMA) and 1.3450 (near-term resistance). A break above 1.3450 could form a flag-like continuation, while a break below 1.3408 would risk a bearish breakdown. Without a confirmed pattern, the structure remains ambiguous.
+No clear triangle, flag, or double top/bottom pattern is visible on the daily chart, but the cluster of reversal candlesticks near current price implies a potential short-term top formation. The nearest resistance is likely around 1.3458 (prior swing high), with further resistance at 1.3500 (psychological level). Support lies at the 200 EMA (1.34031) and the 50 EMA (1.33847), with a deeper support at 1.33400.
 
-RSI at 57.54 is neutral and shows no divergence, offering no strong momentum signal. MACD is bullish with the line above the signal and a positive histogram, which aligns with the EMA trend. However, the MACD histogram is very small (+0.000293), indicating weak momentum. The RSI and MACD do not strongly agree on a decisive move; MACD leans bullish but with low conviction, while RSI is flat. This lack of strong confluence, combined with the mixed candlestick signals, reduces the reliability of any immediate trade.
+The RSI at 55.63 is neutral but shows bearish divergence, indicating weakening upward momentum despite the price being above EMAs. The MACD remains bullish (line above signal) with a positive histogram, but the divergence and candlestick patterns create a bearish confluence that overrides the MACD’s bullish signal for a short-term trade. The signal score of 8/10 is downgraded to 7/10 due to the conflicting EMA trend and the bearish divergence.
 
-Given the conflicting signals—bullish EMA alignment and MACD versus bearish candlestick patterns and neutral RSI—the risk of a false breakout or whipsaw is elevated. The signal score of 5/10 accurately reflects this uncertainty. Entering a trade now would require assuming a direction without clear confirmation. The best course is to wait for price to either break and hold above 1.3450 (resistance) or break and close below 1.3408 (200 EMA support) with strong momentum before committing.
+The single best trade setup is a short entry at current price (1.34371) targeting a retracement to the 50 EMA (1.33847) and possibly the 200 EMA (1.34031) as first target, with a secondary target at 1.33400. The stop loss is placed above the recent swing high at 1.34982 to allow for a false breakout. The risk-reward ratio is approximately 1:1.6, which is acceptable for a swing trade.
 
 ---
 
 ## Invalidation
 
-This wait-and-see setup is invalidated if price breaks and closes above 1.3450 with strong bullish momentum, or below 1.3400 with a bearish close, as either would provide a clearer directional bias.
+A daily close above 1.35000 would invalidate this bearish setup and signal continued bullish momentum.
 
 ---
 
