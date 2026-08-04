@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-08-03T09:21:32Z",
+  "generated": "2026-08-04T08:19:46Z",
   "events": [
     {
       "date": "2026-08-03",
@@ -10,8 +10,8 @@ window.CALENDAR_DATA = {
       "forecast": "54.0",
       "previous": "53.3",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-08-07",
@@ -31,7 +31,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "Non-Farm Employment Change",
       "impact": "high",
-      "forecast": "88K",
+      "forecast": "85K",
       "previous": "57K",
       "actual": "",
       "today": false,
