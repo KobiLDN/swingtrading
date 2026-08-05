@@ -1,53 +1,34 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-08-04T08:19:43Z",
-  "date": "2026-08-04",
-  "price": 1.34371,
-  "atr": 0.00611,
-  "atr_pips": 61,
+  "generated": "2026-08-05T08:16:52Z",
+  "date": "2026-08-05",
+  "price": 1.34634,
+  "atr": 0.00596,
+  "atr_pips": 60,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33847,
-  "ema200": 1.34031,
-  "rsi": 55.63,
-  "macd_line": 0.002164,
-  "macd_signal": 0.001357,
-  "macd_hist": 0.000807,
+  "ema50": 1.33884,
+  "ema200": 1.34004,
+  "rsi": 58.48,
+  "macd_line": 0.002467,
+  "macd_signal": 0.001601,
+  "macd_hist": 0.000866,
   "trend": "BULLISH BIAS",
   "divergence": "BEARISH",
   "patterns": [
-    {
-      "date": "2026-07-31",
-      "name": "Hanging Man",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
-    },
     {
       "date": "2026-08-03",
       "name": "Bearish Engulfing",
       "signal": "STRONG BEARISH",
       "strength": 4
-    },
-    {
-      "date": "2026-08-04",
-      "name": "Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
     }
   ],
   "score": 8,
   "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-04-27",
-      "open": 1.3513,
-      "high": 1.35762,
-      "low": 1.35062,
-      "close": 1.35336
-    },
     {
       "date": "2026-04-28",
       "open": 1.35333,
@@ -737,9 +718,16 @@ window.PRICES_DATA = {
     {
       "date": "2026-08-04",
       "open": 1.34334,
-      "high": 1.34399,
+      "high": 1.34566,
       "low": 1.34198,
-      "close": 1.34371
+      "close": 1.34542
+    },
+    {
+      "date": "2026-08-05",
+      "open": 1.34536,
+      "high": 1.34702,
+      "low": 1.34447,
+      "close": 1.34634
     }
   ]
 };
