@@ -167,7 +167,7 @@ def call_openrouter(prompt):
         "model": MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.3,
-        "max_tokens":  1500,
+        "max_tokens":  4000,
     }
 
     print(f"Calling OpenRouter ({MODEL}) for {SYMBOL} ...")
