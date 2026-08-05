@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-08-04
-**Generated:** 2026-08-04T08:51:18Z
+**Date:** 2026-08-05
+**Generated:** 2026-08-05T09:36:22Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,32 +12,30 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.34371 |
-| **Stop Loss** | 1.34982 |
-| **Target 1** | 1.33847 |
-| **Target 2** | 1.33400 |
-| **Risk/Reward** | 1:1.6 |
+| **Entry** | 1.34634 |
+| **Stop Loss** | 1.35200 |
+| **Target 1** | 1.34000 |
+| **Target 2** | 1.33884 |
+| **Risk/Reward** | 1.08:1 |
 | **Score** | 7/10 |
-| **Support** | 1.34031, 1.33847, 1.334 |
-| **Resistance** | 1.3458, 1.35, 1.355 |
+| **Support** | 1.34004, 1.33884, 1.335 |
+| **Resistance** | 1.348, 1.35, 1.352 |
 
 ---
 
 ## Analysis
 
-The EMA structure shows a bullish bias with price above both the 50-period (1.33847) and 200-period (1.34031) EMAs, but the price action does not fully confirm a strong trend continuation. The recent candlestick patterns—Hanging Man, Bearish Engulfing, and Hammer—indicate indecision and potential exhaustion at the top of the move. The price is stalling near 1.3437 after a prior rally, and the presence of a Bearish Engulfing pattern suggests sellers are stepping in, conflicting with the EMA-based bullish bias.
+The daily chart shows price trading above both the 50- and 200-period EMAs, confirming a bullish bias in the broader trend. However, the last five candles include a clear Bearish Engulfing pattern at the current level, which often signals a potential reversal or at least a pause in the uptrend. This pattern is reinforced by a bearish RSI divergence—price made a higher high while RSI failed to confirm—indicating weakening momentum despite the neutral RSI reading of 58.48. The MACD remains bullish (line above signal) with a positive histogram, but the divergence suggests the bullish momentum may be fading.
 
-No clear triangle, flag, or double top/bottom pattern is visible on the daily chart, but the cluster of reversal candlesticks near current price implies a potential short-term top formation. The nearest resistance is likely around 1.3458 (prior swing high), with further resistance at 1.3500 (psychological level). Support lies at the 200 EMA (1.34031) and the 50 EMA (1.33847), with a deeper support at 1.33400.
+No clear triangle, flag, or double top/bottom patterns are directly inferable from the given data, but the Bearish Engulfing at a price level near the upper end of the recent range could be part of a developing double top if price fails to break above the prior swing high. Key support lies at the EMA200 (1.34004) and EMA50 (1.33884), while resistance is likely at the psychological 1.3500 level and the recent high around 1.3480. The ATR of 60 pips provides a reasonable stop-loss distance.
 
-The RSI at 55.63 is neutral but shows bearish divergence, indicating weakening upward momentum despite the price being above EMAs. The MACD remains bullish (line above signal) with a positive histogram, but the divergence and candlestick patterns create a bearish confluence that overrides the MACD’s bullish signal for a short-term trade. The signal score of 8/10 is downgraded to 7/10 due to the conflicting EMA trend and the bearish divergence.
-
-The single best trade setup is a short entry at current price (1.34371) targeting a retracement to the 50 EMA (1.33847) and possibly the 200 EMA (1.34031) as first target, with a secondary target at 1.33400. The stop loss is placed above the recent swing high at 1.34982 to allow for a false breakout. The risk-reward ratio is approximately 1:1.6, which is acceptable for a swing trade.
+The RSI and MACD are in disagreement: RSI’s bearish divergence contradicts the MACD’s bullish alignment. This mixed confluence reduces conviction, but the candlestick pattern and divergence are leading indicators that often precede a trend change. Given the high signal score of 8/10 from the pre-calculated system, a short trade with a tight stop is the best setup. The risk-reward is marginal (1.08:1) due to the proximity of support, but the potential for a deeper pullback toward the EMAs justifies the trade.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.35000 would invalidate this bearish setup and signal continued bullish momentum.
+N/A
 
 ---
 

@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-07-31T09:16:01Z",
+  "generated": "2026-08-05T09:37:14Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-07-30",
+  "date": "2026-08-04",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_SPX = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "1/10",
-  "analysis": "The trend is labeled as a strong uptrend based on the EMA structure (price above both 50 and 200 EMAs), but the current price action does not confirm this with momentum. Price at 741.69 is only slightly above the EMA 50 (738.74), and the RSI at 49.19 is neutral, indicating no buying pressure. The MACD is bearish with the line below the signal and a negative histogram, which contradicts the EMA trend and suggests weakening upside momentum. The signal score of 1/10 reflects this lack of confluence \u2014 the trend is technically intact but the short-term indicators are flashing caution.\n\nNo candlestick patterns or clear chart patterns (triangles, flags, double tops/bottoms) are detected in the last five candles, so there is no actionable price structure to trade. The ATR of 8.86 points suggests moderate volatility, but without a pattern or divergence, entering a swing trade here would be speculative. Key support is the EMA 50 at 738.74, with stronger support at the EMA 200 (707.63). Resistance is near the recent high zone around 745\u2013750, but no breakout or breakdown is imminent.\n\nGiven the bearish MACD, neutral RSI, and lack of a clear setup, the best course is to wait. A long entry would require price to reclaim momentum (e.g., RSI above 50 and MACD crossing bullish), while a short entry would need a confirmed breakdown below the EMA 50 with volume. Neither condition is met now.",
-  "invalidation": "This wait setup is invalidated if price closes decisively above 745.00 with RSI > 55 and MACD crossing bullish, or breaks below 738.74 with RSI < 40 and MACD accelerating downward \u2014 either would create a new actionable signal.",
+  "score": "2/10",
+  "analysis": "Price action confirms the EMA-defined uptrend, with SPY trading well above both the 50-day (741.03) and 200-day (708.81) EMAs. However, the recent Hanging Man candlestick pattern introduces a bearish reversal warning, especially given its position near the top of the move. The low signal score of 2/10 reflects the tension between the strong trend and this bearish signal. No additional chart patterns (triangles, flags, etc.) are evident from the given data.  \n\nThe RSI at 66 is neutral, not overbought, leaving room for further upside, but it also does not confirm the bearish candlestick. The MACD remains bullish with the line above the signal and a positive histogram, indicating momentum is still upward. This creates a divergence between price pattern (bearish) and momentum (bullish), which often resolves with a pause or shallow pullback rather than a trend reversal.  \n\nGiven the conflicting signals and the low signal score, the best trade setup is to wait for confirmation. A short entry would require a break below the Hanging Man\u2019s low (likely near 765\u2013767) to confirm a reversal, while a long entry is unattractive due to the bearish pattern. The primary risk is a sharp reversal from the Hanging Man, which could drive a pullback toward the 50-day EMA near 741. However, the strong uptrend may resume after a minor correction.",
+  "invalidation": "A close above the Hanging Man\u2019s high (approx. 772\u2013773) would invalidate the bearish pattern and signal a continuation of the uptrend.",
   "support_levels": [
-    738.74,
-    730.0,
-    707.63
+    761.0,
+    751.0,
+    741.0
   ],
   "resistance_levels": [
-    745.0,
-    750.0,
-    760.0
+    775.0,
+    780.0,
+    785.0
   ]
 };

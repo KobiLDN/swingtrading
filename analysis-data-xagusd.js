@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-08-04T08:53:16Z",
+  "generated": "2026-08-05T09:37:33Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_XAGUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "3/10",
-  "analysis": "The price at 52.46 is well below both the EMA50 (57.07) and EMA200 (61.19), confirming the strong downtrend indicated by the trend label. The Doji candlestick on the last day reflects indecision, but in a persistent downtrend it often acts as a continuation pattern rather than a reversal signal. No additional chart patterns such as flags, triangles, or double tops/bottoms are evident from the given data, though the Doji could hint at a potential pause before further downside if selling pressure resumes.\n\nKey support levels are derived from the ATR(14) of 1.92: the nearest support is at 50.54 (price minus one ATR), followed by 48.62 and 46.70. Resistance levels are 54.38 (price plus one ATR), then the EMA50 at 57.07, and the EMA200 at 61.19. The RSI at 44.36 is neutral, not oversold, leaving room for further declines. The MACD is bullish (line above signal) with a positive histogram, suggesting short-term momentum is improving. However, this divergence between a bullish MACD and a strong downtrend is weak and lacks confirmation from price action or volume. The low signal score of 3/10 reinforces the lack of a clear edge.\n\nGiven the conflicting signals\u2014a strong downtrend with a nascent bullish MACD and a neutral RSI\u2014the prudent action is to wait. A buy would be premature because the trend is still down and price has not yet broken above any key resistance. A sell is risky because the MACD could be signaling an early reversal. The best trade setup is no trade until price either breaks above the EMA50 (confirming a trend change) or fails at resistance and resumes the downtrend with a new low below 50.54. Risk is elevated due to the low signal score and the Doji\u2019s ambiguous nature.",
-  "invalidation": "N/A",
+  "score": "2/10",
+  "analysis": "The price is entrenched in a strong downtrend, trading well below both the 50\u2011period EMA (56.94) and the 200\u2011period EMA (61.23). This confirms the bearish EMA alignment, and the 2/10 signal score underscores the lack of a robust trade setup. The recent Doji candlestick hints at indecision, but without a confirming bullish reversal pattern, it remains a pause rather than a turn.\n\nThe MACD has turned bullish (line above signal) with a positive histogram, suggesting short\u2011term momentum may be shifting upward. However, the RSI is neutral at 49.36, showing no overbought/oversold extremes or divergence. This creates a divergence between the bearish price trend and the bullish MACD signal, which often leads to choppy price action rather than a clear directional move. No additional chart patterns (triangles, flags, etc.) are evident.\n\nGiven the conflicting signals and the low score, the best course is to wait for a higher\u2011probability setup. A long entry would be fighting the dominant downtrend, while a short entry would contradict the MACD\u2019s early bullish tilt. The risk/reward is unclear without a defined entry trigger. Levels to watch are support near 53.00 (psychological) and resistance at 55.00 (recent congestion) and the 50\u2011EMA at 56.94.",
+  "invalidation": "A decisive break above 55.00 or below 53.00 would provide a clearer direction, invalidating the current wait stance.",
   "support_levels": [
-    50.54,
-    48.62,
-    46.7
+    53.0,
+    52.5,
+    52.0
   ],
   "resistance_levels": [
-    54.38,
-    57.07,
-    61.19
+    55.0,
+    56.94,
+    58.0
   ]
 };

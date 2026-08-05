@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-08-04
-**Generated:** 2026-08-04T08:51:58Z
+**Date:** 2026-08-05
+**Generated:** 2026-08-05T09:36:43Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 confirmed |
-| **Support** | 1.14, 1.135 |
-| **Resistance** | 1.16, 1.165 |
+| **Decision** | SELL |
+| **Confidence** | MEDIUM |
+| **Entry** | 1.15392 |
+| **Stop Loss** | 1.15700 |
+| **Target 1** | 1.14699 |
+| **Target 2** | 1.14200 |
+| **Risk/Reward** | 2.24 (to T1) |
+| **Score** | 5/10 |
+| **Support** | 1.14699, 1.142, 1.138 |
+| **Resistance** | 1.15617, 1.16, 1.165 |
 
 ---
 
 ## Analysis
 
-Price at 1.15107 sits between the EMA50 (1.14662) and EMA200 (1.15654), with the EMA50 acting as dynamic support and the EMA200 as resistance. The trend is labeled NEUTRAL, which aligns with price meandering between these two key moving averages. No clear directional bias is confirmed by the EMA cross or price action alone — the flat or slightly upward slope of the EMAs suggests indecision rather than strong momentum.  
+Price sits in a neutral zone between the EMA50 (1.14699) and EMA200 (1.15617), with the short‑term bias slightly up (price above EMA50) but the longer‑term structure still bearish (price below EMA200). The recent candlestick pattern—a Doji followed by an Evening Star—signals exhaustion of the short‑term upward push and a potential reversal downward. This is further supported by price hovering just below the key EMA200 resistance, which has historically acted as a dynamic ceiling.
 
-The candlestick patterns are cautionary: two Doji candles followed by an Evening Star indicate exhaustion of the recent bullish move and potential reversal. RSI is neutral at 61.29, lacking overbought/oversold extremes or divergence, while MACD is bullish (line above signal) but with a histogram that shows only modest positive reading (+0.001436). This MACD bullishness is not strongly supported by RSI or price action, suggesting the move may be losing steam.  
+The MACD remains bullish (line above signal) and the histogram is positive, but the RSI at 65.13 is not overbought, leaving room for a bearish turn. There is no clear divergence, and the overall signal score of 5/10 reflects the mixed nature of the indicators. The bearish price action at resistance, combined with the proximity to a major moving average, argues for a short entry rather than a long one.
 
-No clear chart patterns (triangles, flags, double tops/bottoms) are evident on the daily timeframe near current price. The Evening Star pattern does hint at a bearish reversal, but without a confirmed trend to reverse, its reliability is reduced. The signal score of 5/10 appropriately reflects this ambiguity — neither the bullish MACD nor the bearish candlestick pattern is dominant enough to justify a trade entry.  
+The trade setup is a sell at the current price, with a stop loss placed above the EMA200 resistance (1.15700) to protect against a breakout. The first target is the EMA50 support at 1.14699, offering a reward‑to‑risk ratio of about 2.24:1. A second target of 1.14200 aligns with a prior sideways consolidation zone. If the price breaks decisively above 1.15617, the bearish thesis is invalidated, and the trade should be closed.
 
-Given the conflicting signals — a neutral trend, a potential bearish reversal pattern, and a mildly bullish MACD — the prudent course is to wait for a clearer catalyst. A break above the EMA200 (1.15654) or below the EMA50 (1.14662) with volume would provide the directional confirmation needed for a higher-confidence trade.
+Risk is moderate: the ATR of 47 pips suggests normal volatility, and the stop loss is tight relative to that, but the neutral trend and conflicting MACD signal cap confidence. Traders should monitor the daily close to ensure the Evening Star pattern is confirmed.
 
 ---
 
 ## Invalidation
 
-If price closes above 1.15654 (EMA200) or breaks and holds below 1.14662 (EMA50), the neutral zone is invalidated and a new directional bias may emerge.
+A daily close above 1.15617 would negate the bearish setup and indicate a sustained breakout above the EMA200.
 
 ---
 

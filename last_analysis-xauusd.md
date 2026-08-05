@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-08-04
-**Generated:** 2026-08-04T08:52:34Z
+**Date:** 2026-08-05
+**Generated:** 2026-08-05T09:36:55Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,27 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 3/10 |
-| **Support** | 4020.0, 3985.0, 3950.0 |
-| **Resistance** | 4125.99, 4150.0, 4200.0 |
+| **Score** | 4/10 |
+| **Support** | 4127.93, 4100.0, 4050.0 |
+| **Resistance** | 4200.0, 4250.0, 4425.88 |
 
 ---
 
 ## Analysis
 
-Price action is not confirming the EMA trend. The 50 EMA (4125.99) and 200 EMA (4428.4) are both well above current price, establishing a clear downtrend on the daily chart. However, price has recently pulled back toward the 50 EMA from extreme lows, and the “Morning Star” candlestick pattern suggests a potential short-term bullish reversal. This divergence between the longer-term bearish EMAs and the short-term bullish candlestick formation creates a conflicting picture, reducing trade reliability.
+The daily chart shows a mixed picture. Price at 4166.61 sits above the 50 EMA (4127.93) but far below the 200 EMA (4425.88), indicating a short-term bullish bias within a longer-term bearish structure. The trend indicator is neutral, reflecting the lack of a clear directional commitment. The Morning Star candlestick pattern over the last five candles is a bullish reversal signal, and the MACD is bullish (line above signal, positive histogram), supporting short-term upward momentum. However, the RSI at 60.38 is neutral and not yet overbought, leaving room for further upside but lacking strong conviction.
 
-RSI is neutral at 49.59 with no divergence, offering no strong directional bias. MACD, however, is bullish with the line above the signal line and a positive histogram (+5.04), indicating upward momentum. This MACD bullishness agrees with the Morning Star pattern but disagrees with the dominant downtrend defined by the EMAs. Without RSI confirmation, the MACD signal alone is weak for a swing trade against the major trend.
+No additional chart patterns like triangles or flags are evident from the given data. The pre-calculated signal score of 4/10 already captures the low confidence due to conflicting timeframes. The Morning Star is promising, but it needs confirmation — a follow-through above the recent high. Key support lies at the 50 EMA (4127.93) and the round number 4100. Resistance is clustered at 4200 (psychological level) and 4250, with the major barrier at the 200 EMA (4425.88). The ATR of 65 points suggests moderate daily volatility, but the risk-reward for a long entry is poor without a clear break above resistance.
 
-No additional chart patterns (triangles, flags, double tops/bottoms) are clearly identifiable from the provided data. Key resistance levels are the 50 EMA at 4125.99 and the round number 4150.00; support lies near recent swing lows around 4020.00 and 3985.00. The current price at 4068.01 sits in a no-man’s land between these levels, offering poor risk/reward for either direction.
-
-The best trade setup would be a sell near resistance if price fails to break above the 50 EMA and shows bearish reversal confirmation (e.g., a bearish engulfing or shooting star). However, with a signal score of 4/10 and conflicting indicators, the prudent action is to wait for price to either push above the 50 EMA (invalidating the downtrend) or reject it and resume the decline. Forcing a trade now would carry disproportionate risk given the lack of confluence.
+The RSI and MACD show partial confluence: MACD is bullish, but RSI is neutral and not diverging, so the momentum is mild. The lack of a strong trend (neutral) and the low signal score argue against entering a trade now. A better approach is to wait for price to either break above 4200 with volume or pull back to the 50 EMA support for a higher-probability long setup. Alternatively, a failure to sustain above the 50 EMA could lead to a short opportunity, but the Morning Star counters that view. Hence, patience is warranted.
 
 ---
 
 ## Invalidation
 
-A daily close above the 50 EMA (4125.99) would invalidate the dominant downtrend bias and shift the outlook to neutral/bullish.
+This wait-and-see stance is invalidated if price closes decisively below the 50 EMA (4127.93) or above 4200 with strong momentum, triggering a potential trade entry.
 
 ---
 
