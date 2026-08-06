@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-08-05T09:37:14Z",
+  "generated": "2026-08-06T08:52:14Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_SPX = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10",
-  "analysis": "Price action confirms the EMA-defined uptrend, with SPY trading well above both the 50-day (741.03) and 200-day (708.81) EMAs. However, the recent Hanging Man candlestick pattern introduces a bearish reversal warning, especially given its position near the top of the move. The low signal score of 2/10 reflects the tension between the strong trend and this bearish signal. No additional chart patterns (triangles, flags, etc.) are evident from the given data.  \n\nThe RSI at 66 is neutral, not overbought, leaving room for further upside, but it also does not confirm the bearish candlestick. The MACD remains bullish with the line above the signal and a positive histogram, indicating momentum is still upward. This creates a divergence between price pattern (bearish) and momentum (bullish), which often resolves with a pause or shallow pullback rather than a trend reversal.  \n\nGiven the conflicting signals and the low signal score, the best trade setup is to wait for confirmation. A short entry would require a break below the Hanging Man\u2019s low (likely near 765\u2013767) to confirm a reversal, while a long entry is unattractive due to the bearish pattern. The primary risk is a sharp reversal from the Hanging Man, which could drive a pullback toward the 50-day EMA near 741. However, the strong uptrend may resume after a minor correction.",
-  "invalidation": "A close above the Hanging Man\u2019s high (approx. 772\u2013773) would invalidate the bearish pattern and signal a continuation of the uptrend.",
+  "score": "2/10 (confirmed)",
+  "analysis": "The trend is undeniably strong, with price at 769.79 well above both the EMA 50 (742.16) and EMA 200 (709.93). The MACD is bullish with the line above the signal and a positive histogram, confirming upward momentum. However, the RSI at 64.74 is neutral and not overbought, which leaves room for further upside but also lacks the extreme conviction needed for a high-confidence entry. The primary concern is the Hanging Man candlestick pattern on the last candle, which is a bearish reversal signal in an uptrend, especially after a significant run-up. This pattern suggests potential exhaustion and a possible pullback, conflicting with the otherwise bullish indicators.\n\nNo clear additional chart patterns like triangles, flags, or double tops/bottoms are evident from the given data. The price is trading in a relatively open space above the EMA 50, with the nearest support being the EMA 50 itself at 742.16, followed by the EMA 200 at 709.93. Resistance is likely near the recent high around 779.30, with psychological resistance at 789.00 and 800.00. The signal score of 2/10 is appropriately low due to the bearish candlestick pattern overriding the otherwise positive trend and momentum signals.\n\nThe RSI and MACD show some confluence with the trend (both bullish), but the RSI divergence is absent, meaning no hidden weakness. However, the Hanging Man pattern introduces a bearish divergence in price action versus momentum, creating a mixed picture. The best trade setup here is to wait for confirmation. A break above the Hanging Man\u2019s high (around 779.30) would invalidate the bearish signal and could be a buy entry. Conversely, a close below the Hanging Man\u2019s low (around 760.28) would confirm a reversal and could be a short entry. Given the strong uptrend, a short is risky, so waiting for a clear signal is prudent.",
+  "invalidation": "A close above 779.30 would invalidate the bearish Hanging Man signal and confirm trend continuation, while a close below 760.28 would confirm a bearish reversal and trigger a potential short setup.",
   "support_levels": [
-    761.0,
-    751.0,
-    741.0
+    760.28,
+    742.16,
+    709.93
   ],
   "resistance_levels": [
-    775.0,
-    780.0,
-    785.0
+    779.3,
+    789.0,
+    800.0
   ]
 };

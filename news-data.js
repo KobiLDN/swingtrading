@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-05T09:38:21Z",
+  "generated": "2026-08-06T08:52:59Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "EUR/USD, USD/CHF, and GBP/USD Short-Term Forecast for 05/08/2026",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-chf-gbp-135942600.html?.tsrc=rss",
+        "time_published": "2026-08-05 13:59",
+        "source": "Finance",
+        "summary": "The currency markets have no major announcements to focus on today, so ranges are likely to be watched by most."
+      },
+      {
+        "title": "US Dollar Price Forecast: NFP Week Keeps DXY, EUR/USD and GBP/USD in Focus",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-nfp-064558902.html?.tsrc=rss",
+        "time_published": "2026-08-05 06:45",
+        "source": "Finance",
+        "summary": "The US dollar trades cautiously ahead of Friday\u2019s Nonfarm Payrolls report as investors assess Fed rate expectations, cooling labor market data, and the outlook for EUR/USD, GBP/USD, and the DXY."
+      },
       {
         "title": "US Dollar Price Forecast: U.S. Data in Focus as DXY, EUR/USD and GBP/USD Test Key Levels",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-u-070935176.html?.tsrc=rss",
@@ -43,23 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-07-29 05:52",
         "source": "Finance",
         "summary": "The U.S. dollar, EUR/USD and GBP/USD are in focus on Fed Decision Day as investors await the Fed\u2019s policy statement and Chair Kevin Warsh\u2019s guidance."
-      },
-      {
-        "title": "Forex Forecasts \u2013 US Dollar Flexes Strength Across EUR/USD, GBP/USD, and USD/CHF",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-forecasts-us-dollar-flexes-131610240.html?.tsrc=rss",
-        "time_published": "2026-07-28 13:16",
-        "source": "Finance",
-        "summary": "The US dollar continues to flex its muscles early on Tuesday."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed, GDP and PCE Data in Focus \u2013 What\u2019s Next for DXY, GBP/USD and EUR/USD?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-084156178.html?.tsrc=rss",
-        "time_published": "2026-07-28 08:41",
-        "source": "Finance",
-        "summary": "The Fed meeting, GDP, PCE inflation and payrolls could drive major forex moves this week. Explore the latest outlook for DXY, EUR/USD and GBP/USD."
       }
     ],
     "eurusd": [
+      {
+        "title": "EUR/USD, USD/CHF, and GBP/USD Short-Term Forecast for 05/08/2026",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-chf-gbp-135942600.html?.tsrc=rss",
+        "time_published": "2026-08-05 13:59",
+        "source": "Finance",
+        "summary": "The currency markets have no major announcements to focus on today, so ranges are likely to be watched by most."
+      },
+      {
+        "title": "US Dollar Price Forecast: NFP Week Keeps DXY, EUR/USD and GBP/USD in Focus",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-nfp-064558902.html?.tsrc=rss",
+        "time_published": "2026-08-05 06:45",
+        "source": "Finance",
+        "summary": "The US dollar trades cautiously ahead of Friday\u2019s Nonfarm Payrolls report as investors assess Fed rate expectations, cooling labor market data, and the outlook for EUR/USD, GBP/USD, and the DXY."
+      },
       {
         "title": "US Dollar Price Forecast: U.S. Data in Focus as DXY, EUR/USD and GBP/USD Test Key Levels",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-u-070935176.html?.tsrc=rss",
@@ -96,64 +110,15 @@ window.NEWS_DATA = {
         "summary": "The U.S. dollar steadies after the Fed held rates unchanged as markets shift focus to PCE inflation, EUR/USD, GBP/USD and the Bank of England meeting."
       },
       {
-        "title": "Ahead of FOMC Meeting Results, Make This 1 Trade Now",
-        "url": "https://www.barchart.com/story/news/3528389/ahead-of-fomc-meeting-results-make-this-1-trade-now?.tsrc=rss",
-        "time_published": "2026-07-29 15:00",
-        "source": "Barchart",
-        "summary": "December Euro currency futures present a selling opportunity on more price weakness."
-      },
-      {
         "title": "Forex Forecasts \u2013 Fed Decision Threatens Volatility Across USD Pairs",
         "url": "https://finance.yahoo.com/markets/currencies/articles/forex-forecasts-fed-decision-threatens-130424220.html?.tsrc=rss",
         "time_published": "2026-07-29 13:04",
         "source": "Finance",
         "summary": "The Federal Reserve is in play on Wednesday, and this will be the main story it seems."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Decision Day Puts DXY, EUR/USD and GBP/USD in Focus",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-055212090.html?.tsrc=rss",
-        "time_published": "2026-07-29 05:52",
-        "source": "Finance",
-        "summary": "The U.S. dollar, EUR/USD and GBP/USD are in focus on Fed Decision Day as investors await the Fed\u2019s policy statement and Chair Kevin Warsh\u2019s guidance."
       }
     ],
     "xauusd": [],
     "xagusd": [
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Strait of Hormuz Re-Opening Hopes",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131439491.html?.tsrc=rss",
-        "time_published": "2026-08-04 13:14",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3% and the actively trad"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid US-Iran Truce Hopes",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130651670.html?.tsrc=rss",
-        "time_published": "2026-08-03 13:06",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Amazon Earnings Offset Apple Weakness",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130636476.html?.tsrc=rss",
-        "time_published": "2026-07-31 13:06",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Tech Earnings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131132369.html?.tsrc=rss",
-        "time_published": "2026-07-30 13:11",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.7%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed's Interest Rate Announcement",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-123842313.html?.tsrc=rss",
-        "time_published": "2026-07-29 12:38",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t"
-      },
       {
         "title": "Bullish on Silver? This 2X ETF Doubles Your Bet and Your Risk",
         "url": "https://247wallst.com/investing/etf/2026/07/28/bullish-on-silver-this-2x-etf-doubles-your-bet-and-your-risk/?.tsrc=rss",
@@ -162,21 +127,91 @@ window.NEWS_DATA = {
         "summary": "Silver has soared to record highs and then collapsed by more than half, and one leveraged ETF is designed to magnify every move in both directions. Before you consider doubling down on silver's next rally, there is a hidden structural cost that could quietly drain your position even when the metal t"
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Renewed Pressure on Semiconductor Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130015574.html?.tsrc=rss",
-        "time_published": "2026-07-28 13:00",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.02%, and the actively tr"
+        "title": "SLV vs. SIVR: Same Silver, Lower Fee, So Which Physical Silver ETF Should You Actually Hold?",
+        "url": "https://247wallst.com/investing/etf/2026/07/11/slv-vs-sivr-same-silver-lower-fee-so-which-physical-silver-etf-should-you-actually-hold/?.tsrc=rss",
+        "time_published": "2026-07-11 16:15",
+        "source": "247wallst",
+        "summary": "Two physical silver ETFs hold the exact same bullion, track the same price, and share the same tax trap, yet one charges nearly twice as much as the other. Before you assume the answer is obvious, there is a specific type of investor for whom the pricier fund is actually the smarter choice."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday as Oil Prices Fall",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130512818.html?.tsrc=rss",
-        "time_published": "2026-07-27 13:05",
+        "title": "Silver and Copper Are Outpacing Gold in 2026 and After Following Industrial Metals These 3 ETFs Show How Smart Money Is Playing the Trend",
+        "url": "https://247wallst.com/investing/etf/2026/07/09/silver-and-copper-are-outpacing-gold-in-2026-and-after-following-industrial-metals-these-3-etfs-show-how-smart-money-is-playing-the-trend/?.tsrc=rss",
+        "time_published": "2026-07-10 01:54",
+        "source": "247wallst",
+        "summary": "The industrial metals trade has quietly become the most interesting corner of the commodity market, and the choice between iShares Silver Trust (NYSEARCA:SLV), United States Copper Index Fund (NYSEARCA:CPER), and SPDR S&P Metals & Mining ETF (NYSEARCA:XME) carries real performance consequences. Over"
+      },
+      {
+        "title": "Platinum and Palladium Have Been Left Behind in the Precious Metals Rally and These 3 ETFs Could Be the Next Catch Up Trade",
+        "url": "https://247wallst.com/investing/etf/2026/07/09/platinum-and-palladium-have-been-left-behind-in-the-precious-metals-rally-and-these-3-etfs-could-be-the-next-catch-up-trade-2/?.tsrc=rss",
+        "time_published": "2026-07-09 15:41",
+        "source": "247wallst",
+        "summary": "Gold and silver stole the precious metals story over the past year. Platinum and palladium sat it out. That gap sets up the choice between three physically-backed trusts: abrdn Platinum ETF Trust (NYSEARCA:PPLT), abrdn Palladium ETF Trust (NYSEARCA:PALL), and GraniteShares Platinum Trust (NYSEARCA:P"
+      },
+      {
+        "title": "The Precious Metals Trade Has Gone Into Reverse",
+        "url": "http://www.etf.com/sections/features/precious-metals-trade-has-gone-reverse?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-07-08 02:29",
+        "source": "Etf",
+        "summary": "The year-to-date losses look mild, but the fall from the January peaks tells a very different story."
+      },
+      {
+        "title": "A $1,000 Gold Rally? Why Analysts Are Repricing Safe Havens",
+        "url": "https://247wallst.com/investing/2026/07/07/a-1000-gold-rally-why-analysts-are-repricing-safe-havens/?.tsrc=rss",
+        "time_published": "2026-07-07 20:05",
+        "source": "247wallst",
+        "summary": "The Number Gold\u2019s proxy in the equity market, SPDR Gold Shares (NYSEARCA:GLD), has returned 22.27% over the past twelve months, climbing from $309.25 on July 2, 2025 to $378.13 on July 2, 2026. That single figure, a full-year total return on the world\u2019s most-watched safe-haven vehicle, is why sell-s"
+      },
+      {
+        "title": "America\u2019s 250th Birthday Just Set a Silver World Record \u2014 Literally",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/america-250th-birthday-just-set-213109191.html?.tsrc=rss",
+        "time_published": "2026-07-05 21:31",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.9%, and the actively tra"
+        "summary": "America\u2019s 250th birthday just got a little heavier. Texas Precious Metals has officially earned the Guinness World Records title for the world\u2019s heaviest silver coin after unveiling a 2,500-troy-ounce, 0.9999 pure silver commemorative coin weighing approximately 200 pounds. Created to..."
+      },
+      {
+        "title": "Silver's Worst Month Since 2011: Why Wall Street's Favorite Trade Unraveled",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/silvers-worst-month-since-2011-094604065.html?.tsrc=rss",
+        "time_published": "2026-07-02 09:46",
+        "source": "Finance",
+        "summary": "June is on track to be silver\u2019s worst month in nearly 15 years. The metal \u2014 tracked by the iShares Silver Trust \u2014 tumbled more than 20% on the mont, its steepest monthly decline since September 2011, based on monthly..."
       }
     ],
     "spx": [
+      {
+        "title": "What Determines Applied Materials\u2019 Resilience on Aug 13 Earnings",
+        "url": "https://247wallst.com/investing/2026/08/05/what-determines-applied-materials-resilience-on-aug-13-earnings/?.tsrc=rss",
+        "time_published": "2026-08-06 03:58",
+        "source": "247wallst",
+        "summary": "Applied Materials has doubled in a year, analysts see another 18% upside, and the crowd gives a 92.5% chance of a beat. So why does history suggest the earnings day itself could turn into a trap?"
+      },
+      {
+        "title": "Alphabet Post-Earnings Rebound is On: Buy at $363?",
+        "url": "https://247wallst.com/investing/2026/08/05/alphabet-post-earnings-rebound-is-on-buy-at-363/?.tsrc=rss",
+        "time_published": "2026-08-06 03:54",
+        "source": "247wallst",
+        "summary": "Alphabet just delivered a 24% revenue surge and a 210% free cash flow collapse in the same quarter, and the stock is rallying anyway. The bull and bear cases have never been more directly at war with each other."
+      },
+      {
+        "title": "VNQ Returned 62.61% in 10 Years. SPY Returned 253.49%. Here\u2019s the Hidden Cost Nobody Talks About",
+        "url": "https://247wallst.com/investing/etf/2026/08/05/vnq-returned-62-61-in-10-years-spy-returned-253-49-heres-the-hidden-cost-nobody-talks-about/?.tsrc=rss",
+        "time_published": "2026-08-06 03:45",
+        "source": "247wallst",
+        "summary": "VNQ's 0.13% expense ratio looks like a bargain until you see what the IRS quietly collects every quarter, and it has nothing to do with management fees."
+      },
+      {
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131015495.html?.tsrc=rss",
+        "time_published": "2026-08-05 13:10",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad"
+      },
+      {
+        "title": "What Happens When Stock Implied Volatility Outpaces the SPY",
+        "url": "https://finance.yahoo.com/markets/options/articles/happens-stock-implied-volatility-outpaces-124208065.html?.tsrc=rss",
+        "time_published": "2026-08-05 12:42",
+        "source": "Finance",
+        "summary": "Individual stocks are sporting unusually high IV relative to the SPY"
+      },
       {
         "title": "The Dow Just Gained 1000 Points for the 27th Day Ever. 25 of These Days Happened Under Donald Trump.",
         "url": "https://247wallst.com/investing/2026/08/04/the-dow-just-gained-1000-points-for-the-27th-day-ever-25-of-these-days-happened-under-donald-trump/?.tsrc=rss",
@@ -197,44 +232,16 @@ window.NEWS_DATA = {
         "time_published": "2026-08-04 15:14",
         "source": "247wallst",
         "summary": "Corning just handed investors one of the steepest single-stock declines in its peer group, yet at least one major Wall Street bank is responding by raising its price target to levels that would shock most bears right now."
-      },
-      {
-        "title": "Here's Why You Should Buy Quality ETFs Now",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-buy-quality-etfs-143700764.html?.tsrc=rss",
-        "time_published": "2026-08-04 14:37",
-        "source": "Finance",
-        "summary": "Quality ETFs are back in focus as strong earnings, sector rotation and market volatility favor companies with resilient fundamentals over AI momentum plays."
-      },
-      {
-        "title": "Market Minute 8-4-26- Stocks Up, Oil Down - Day 2",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/market-minute-8-4-26-141500450.html?.tsrc=rss",
-        "time_published": "2026-08-04 14:15",
-        "source": "Finance",
-        "summary": "Equities are running again after a solid \u201cup\u201d day yesterday. Oil is falling, while gold and silver are rising. The dollar and Treasuries are mostly flat."
-      },
-      {
-        "title": "What SCHD's Own History Suggests About Its Price Today",
-        "url": "https://www.trefis.com/articles/610023/what-schds-own-history-suggests-about-its-price-today/2026-08-04?.tsrc=rss",
-        "time_published": "2026-08-04 13:32",
-        "source": "Trefis",
-        "summary": "The popular dividend fund is more expensive than its own recent past, but the earnings inside haven't kept pace."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Strait of Hormuz Re-Opening Hopes",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131439491.html?.tsrc=rss",
-        "time_published": "2026-08-04 13:14",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3% and the actively trad"
-      },
-      {
-        "title": "What IJR's Own History Says About Its Price Today",
-        "url": "https://www.trefis.com/articles/609832/what-ijrs-own-history-says-about-its-price-today/2026-08-04?.tsrc=rss",
-        "time_published": "2026-08-04 10:45",
-        "source": "Trefis",
-        "summary": "This popular small-cap fund is trading at a premium to its own history, forcing a hard look at whether the growth inside is enough to justify the price."
       }
     ],
     "oil": [
+      {
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131015495.html?.tsrc=rss",
+        "time_published": "2026-08-05 13:10",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad"
+      },
       {
         "title": "Market Minute 8-4-26- Stocks Up, Oil Down - Day 2",
         "url": "https://finance.yahoo.com/markets/stocks/articles/market-minute-8-4-26-141500450.html?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-31 13:06",
         "source": "Finance",
         "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Tech Earnings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131132369.html?.tsrc=rss",
-        "time_published": "2026-07-30 13:11",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.7%, and the actively tra"
       }
     ]
   }

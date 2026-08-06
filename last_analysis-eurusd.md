@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-08-05
-**Generated:** 2026-08-05T09:36:43Z
+**Date:** 2026-08-06
+**Generated:** 2026-08-06T08:51:12Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,32 +12,32 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.15392 |
-| **Stop Loss** | 1.15700 |
-| **Target 1** | 1.14699 |
-| **Target 2** | 1.14200 |
-| **Risk/Reward** | 2.24 (to T1) |
+| **Entry** | 1.15452 |
+| **Stop Loss** | 1.15850 |
+| **Target 1** | 1.14735 |
+| **Target 2** | 1.14400 |
+| **Risk/Reward** | 1.80:1 |
 | **Score** | 5/10 |
-| **Support** | 1.14699, 1.142, 1.138 |
-| **Resistance** | 1.15617, 1.16, 1.165 |
+| **Support** | 1.15, 1.14735, 1.145 |
+| **Resistance** | 1.15705, 1.16, 1.162 |
 
 ---
 
 ## Analysis
 
-Price sits in a neutral zone between the EMA50 (1.14699) and EMA200 (1.15617), with the short‑term bias slightly up (price above EMA50) but the longer‑term structure still bearish (price below EMA200). The recent candlestick pattern—a Doji followed by an Evening Star—signals exhaustion of the short‑term upward push and a potential reversal downward. This is further supported by price hovering just below the key EMA200 resistance, which has historically acted as a dynamic ceiling.
+The daily chart shows price trapped between the 50 EMA (1.14735) and 200 EMA (1.15705), with the trend labeled neutral. While the MACD indicates bullish momentum (line above signal, histogram positive), the RSI at 64.76 is neutral but not yet overbought, leaving room for either direction. The most significant signal comes from the candlestick pattern: the formation of a Doji followed by an Evening Star within the last five candles is a classic bearish reversal pattern, especially when it occurs near the 200 EMA resistance. This pattern suggests that buying pressure is exhausting and sellers may be stepping in.
 
-The MACD remains bullish (line above signal) and the histogram is positive, but the RSI at 65.13 is not overbought, leaving room for a bearish turn. There is no clear divergence, and the overall signal score of 5/10 reflects the mixed nature of the indicators. The bearish price action at resistance, combined with the proximity to a major moving average, argues for a short entry rather than a long one.
+The price action does not confirm a clear trend; it is above the 50 EMA (short-term bullish) but below the 200 EMA (long-term bearish). The Evening Star at the upper boundary of this range acts as a potential turning point. No additional chart patterns like triangles or flags are evident, but the proximity to the 200 EMA creates a natural resistance zone. The MACD and RSI do not align with the bearish candlestick pattern—the MACD is still bullish and the RSI is neutral—creating a mixed picture. However, the bearish reversal pattern is a strong short-term signal that often precedes a pullback, especially when combined with a definable stop above the 200 EMA.
 
-The trade setup is a sell at the current price, with a stop loss placed above the EMA200 resistance (1.15700) to protect against a breakout. The first target is the EMA50 support at 1.14699, offering a reward‑to‑risk ratio of about 2.24:1. A second target of 1.14200 aligns with a prior sideways consolidation zone. If the price breaks decisively above 1.15617, the bearish thesis is invalidated, and the trade should be closed.
+The single best trade setup is a sell at the current price, targeting the 50 EMA (T1) and a further extension toward 1.14400 (T2). The stop loss is placed just above the 200 EMA at 1.15850, allowing for minor false breaks while keeping the risk contained. The risk-reward ratio to the first target is nearly 1.8:1, which is attractive given the pattern’s reliability. The neutral trend and conflicting indicators cap confidence at medium, but the candlestick pattern provides a clear tactical edge.
 
-Risk is moderate: the ATR of 47 pips suggests normal volatility, and the stop loss is tight relative to that, but the neutral trend and conflicting MACD signal cap confidence. Traders should monitor the daily close to ensure the Evening Star pattern is confirmed.
+Risk assessment: The main risk is a bullish breakout above the 200 EMA, which would invalidate the bearish setup and could lead to a sustained move higher. The ATR of 46 pips makes the 40-pip stop reasonable but not overly wide. Additionally, the backdrop of a bullish MACD means momentum could reassert itself, so the trade requires strict adherence to the stop. The 5/10 signal score reflects this uncertainty, but the defined risk and reward make the sell the most actionable opportunity.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.15617 would negate the bearish setup and indicate a sustained breakout above the EMA200.
+N/A
 
 ---
 

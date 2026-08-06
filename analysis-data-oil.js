@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-08-05T09:38:20Z",
+  "generated": "2026-08-06T08:52:58Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_OIL = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "3/10",
-  "analysis": "The price at 115.78 sits between the EMA50 (122.69) and EMA200 (106.58), confirming a neutral trend. The shooting star candlestick pattern suggests a potential bearish reversal, but the overall signal score is low (3/10), indicating weak conviction. Price action does not confirm a clear trend\u2014it remains below the short-term EMA50 while above the long-term EMA200, creating a range-bound environment. No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data, though the shooting star implies a local top near recent highs.\n\nRSI at 43.71 is neutral and below 50, aligning with the bearish MACD (line below signal, negative histogram). This confluence points to short-term downside momentum, but the lack of RSI divergence or oversold conditions reduces urgency. The MACD bearishness is consistent with the shooting star, yet the neutral trend and low signal score suggest the move may be limited. Key support near the ATR-derived level of 109.89 and the EMA200 at 106.58 provide a floor, while resistance at the ATR high of 121.67 and the EMA50 at 122.69 cap upside.\n\nThe best trade setup is to wait for a clearer directional signal. A short entry would require a confirmed break below 110.00 with increasing volume, targeting the EMA200. A long entry would need a decisive close above 122.69. Currently, the risk/reward is unfavorable due to the neutral trend and mixed signals. The shooting star alone is insufficient to justify a trade given the low confidence and lack of trend confirmation.",
-  "invalidation": "A daily close above the EMA50 (122.69) would invalidate the bearish bias and shift the outlook to bullish.",
+  "score": "2/10",
+  "analysis": "Price at 114.88 is trading well below the EMA 50 (122.39) but above the EMA 200 (106.68), creating a neutral-to-bearish bias. The EMA 50 is declining while the EMA 200 is still rising, indicating a potential death cross setup. The Shooting Star candlestick pattern within the last five bars suggests bearish rejection near recent highs, but the overall price action lacks a clear trend \u2014 it is range-bound between the two EMAs. No additional chart patterns like triangles, flags, or double tops/bottoms are evident, reinforcing the indecisive structure.\n\nRSI at 43.02 is neutral but leaning bearish, with no divergence to signal a reversal. MACD is bearish (line below signal, negative histogram), confirming downward momentum. However, the MACD histogram is flattening slightly, which could hint at slowing bearish pressure. The confluence between RSI and MACD is bearish, but the lack of a strong trend and the proximity to the EMA 200 support (106.68) prevent a high-conviction short entry. The signal score of 2/10 reflects weak setup quality.\n\nKey support is the EMA 200 at 106.68, followed by psychological round numbers at 100.00 and 95.00. Resistance is the EMA 50 at 122.39, then 125.00 and 130.00. The current price is closer to support than resistance, but the bearish momentum and Shooting Star pattern suggest a retest of the EMA 200 is possible. Without a confirmed breakout or breakdown, the risk/reward is unfavorable for a swing trade.",
+  "invalidation": "N/A",
   "support_levels": [
-    109.89,
-    106.58,
-    105.0
+    106.68,
+    100.0,
+    95.0
   ],
   "resistance_levels": [
-    121.67,
-    122.69,
-    125.0
+    122.39,
+    125.0,
+    130.0
   ]
 };

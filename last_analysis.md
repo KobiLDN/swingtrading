@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-08-05
-**Generated:** 2026-08-05T09:36:22Z
+**Date:** 2026-08-06
+**Generated:** 2026-08-06T08:50:49Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 1.34634 |
-| **Stop Loss** | 1.35200 |
-| **Target 1** | 1.34000 |
-| **Target 2** | 1.33884 |
-| **Risk/Reward** | 1.08:1 |
-| **Score** | 7/10 |
-| **Support** | 1.34004, 1.33884, 1.335 |
-| **Resistance** | 1.348, 1.35, 1.352 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 5/10 confirmed |
+| **Support** | 1.34109, 1.33916, 1.335 |
+| **Resistance** | 1.35, 1.355, 1.36 |
 
 ---
 
 ## Analysis
 
-The daily chart shows price trading above both the 50- and 200-period EMAs, confirming a bullish bias in the broader trend. However, the last five candles include a clear Bearish Engulfing pattern at the current level, which often signals a potential reversal or at least a pause in the uptrend. This pattern is reinforced by a bearish RSI divergence—price made a higher high while RSI failed to confirm—indicating weakening momentum despite the neutral RSI reading of 58.48. The MACD remains bullish (line above signal) with a positive histogram, but the divergence suggests the bullish momentum may be fading.
+The daily chart shows a bullish bias with price (1.34643) trading above both the EMA 50 (1.33916) and EMA 200 (1.34109), confirming a medium-term uptrend. However, the recent price action reveals a Bearish Engulfing candlestick pattern within the last five candles, indicating potential short-term selling pressure or exhaustion. This pattern conflicts with the bullish EMA alignment, creating a mixed signal that warrants caution rather than immediate entry.
 
-No clear triangle, flag, or double top/bottom patterns are directly inferable from the given data, but the Bearish Engulfing at a price level near the upper end of the recent range could be part of a developing double top if price fails to break above the prior swing high. Key support lies at the EMA200 (1.34004) and EMA50 (1.33884), while resistance is likely at the psychological 1.3500 level and the recent high around 1.3480. The ATR of 60 pips provides a reasonable stop-loss distance.
+No clear additional chart patterns (triangles, flags, double tops/bottoms) are evident near current price. The RSI at 58.33 is neutral, lacking overbought/oversold extremes or divergence, which offers no strong directional edge. The MACD remains bullish with the line above the signal and a positive histogram (+0.000800), but the histogram is flattening, suggesting momentum may be waning. The confluence between RSI and MACD is weak—MACD supports the trend, but RSI neutrality and the bearish candlestick pattern reduce conviction.
 
-The RSI and MACD are in disagreement: RSI’s bearish divergence contradicts the MACD’s bullish alignment. This mixed confluence reduces conviction, but the candlestick pattern and divergence are leading indicators that often precede a trend change. Given the high signal score of 8/10 from the pre-calculated system, a short trade with a tight stop is the best setup. The risk-reward is marginal (1.08:1) due to the proximity of support, but the potential for a deeper pullback toward the EMAs justifies the trade.
+Given the signal score of 5/10, the conflicting signals (bullish EMA vs. bearish engulfing, neutral RSI, and flattening MACD histogram) make a clear trade setup risky. The best approach is to wait for price to either break above the recent high (near 1.35000 resistance) with strong momentum, or pull back to test the EMA 200 (1.34109) support and show a bullish reversal pattern. Entering now would expose the trade to potential false breakouts or deeper corrections.
 
 ---
 
 ## Invalidation
 
-N/A
+A daily close below the EMA 200 (1.34109) would invalidate the bullish bias and shift the outlook to neutral or bearish.
 
 ---
 
