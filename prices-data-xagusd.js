@@ -1,26 +1,26 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-08-05T08:16:54Z",
-  "date": "2026-08-04",
-  "price": 53.84,
-  "atr": 1.91,
+  "generated": "2026-08-06T08:14:59Z",
+  "date": "2026-08-05",
+  "price": 56.07,
+  "atr": 1.98,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 56.94,
-  "ema200": 61.23,
-  "rsi": 49.36,
-  "macd_line": -1.128024,
-  "macd_signal": -1.644356,
-  "macd_hist": 0.516333,
+  "ema50": 56.91,
+  "ema200": 60.88,
+  "rsi": 56.21,
+  "macd_line": -0.781405,
+  "macd_signal": -1.471765,
+  "macd_hist": 0.69036,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-07-29",
+      "date": "2026-08-05",
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
@@ -29,13 +29,6 @@ window.PRICES_DATA_XAGUSD = {
   "score": 2,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-03-12",
-      "open": 78.53,
-      "high": 78.54,
-      "low": 76.36,
-      "close": 76.48
-    },
     {
       "date": "2026-03-13",
       "open": 76.07,
@@ -725,9 +718,16 @@ window.PRICES_DATA_XAGUSD = {
     {
       "date": "2026-08-04",
       "open": 53.97,
-      "high": 54.27,
+      "high": 54.28,
       "low": 53.58,
       "close": 53.84
+    },
+    {
+      "date": "2026-08-05",
+      "open": 56.1,
+      "high": 56.74,
+      "low": 55.8,
+      "close": 56.07
     }
   ]
 };
