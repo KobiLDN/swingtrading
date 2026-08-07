@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-08-06
-**Generated:** 2026-08-06T08:51:33Z
+**Date:** 2026-08-07
+**Generated:** 2026-08-07T07:38:21Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,33 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | BUY |
-| **Confidence** | LOW |
-| **Entry** | 4266.68 |
-| **Stop Loss** | 4195.00 |
-| **Target 1** | 4337.00 |
-| **Target 2** | 4408.00 |
-| **Risk/Reward** | 1:1 (T1) / 1:2 (T2) |
-| **Score** | 4/10 |
-| **Support** | 4200.0, 4136.43, 4100.0 |
-| **Resistance** | 4300.0, 4350.0, 4435.31 |
+| **Confidence** | MEDIUM |
+| **Entry** | 4297.11 |
+| **Stop Loss** | 4225.00 |
+| **Target 1** | 4370.00 |
+| **Target 2** | 4445.00 |
+| **Risk/Reward** | 1:1.5 (based on T1) |
+| **Score** | 6/10 |
+| **Support** | 4250.0, 4220.0, 4141.79 |
+| **Resistance** | 4370.0, 4445.86, 4500.0 |
 
 ---
 
 ## Analysis
 
-Price action currently sits above the EMA 50 (4136.43) but below the EMA 200 (4435.31), confirming a neutral trend where short-term bullish momentum is present but long-term resistance remains overhead. The recent Morning Star candlestick pattern over the last five days signals a potential bullish reversal, and the MACD is bullish with the line above the signal line and a positive histogram, indicating increasing momentum. However, the RSI at 67.57 is neutral and not yet overbought, leaving room for further upside.
+The daily chart shows a neutral trend with price currently trading at 4297.11, well above the EMA 50 (4141.79) but still below the EMA 200 (4445.86). This creates a “death cross” recovery scenario where price is attempting to reclaim the longer-term moving average. The bullish candlestick patterns (Morning Star and Bullish Engulfing) over the last five candles provide strong short-term reversal confirmation, suggesting momentum is shifting upward from a recent low.
 
-No additional chart patterns such as triangles or flags are evident from the given data, but the Morning Star itself is a reliable reversal pattern. Key support near 4200 (psychological round number) aligns with the likely low of the pattern, while the EMA 50 at 4136 provides deeper support. Resistance is seen at 4300 (round number), 4350, and the EMA 200 at 4435, which is the major long-term barrier.
+RSI at 69.18 is in neutral territory, not yet overbought, leaving room for further upside. MACD is bullish with the line above the signal line and a positive histogram (+29.38), confirming increasing bullish momentum. There is no RSI divergence, so the move is supported by price action. The confluence of bullish candlestick patterns and MACD strength outweighs the neutral RSI reading, supporting a long bias.
 
-The RSI and MACD show confluence in the short-term bullish bias, but the neutral overall trend (price between the EMAs) and the low signal score (4/10) keep confidence low. The best trade setup is a cautiously entered long position, using the ATR (71 pts) to set a stop loss below the recent swing low near 4200. Targets are set at 1:1 and 1:2 risk-reward ratios based on ATR, aiming for the first resistance at 4337 and the next at 4408. The risk assessment notes that the neutral trend and proximity to the EMA 200 resistance limit upside potential, so strict risk management is required.
+Key support is at 4250 (recent swing low area) and 4220 (below the Morning Star low). Resistance is at 4370 (prior reaction high) and the EMA 200 at 4445.86, which is a major structural barrier. The ATR of 72 pts suggests a reasonable stop distance of about 72-75 pts below entry, placing the stop at 4225 to allow for normal volatility while invalidating the bullish reversal if broken.
+
+The initial signal score of 4/10 is revised upward to 6/10 because the candlestick patterns and MACD alignment add conviction, though the neutral trend and distance from EMA 200 cap the score. The best trade is a buy on a pullback or at current price with a tight stop, targeting the EMA 200 as the primary objective.
 
 ---
 
 ## Invalidation
 
-A daily close below 4200.00 would break the Morning Star low and invalidate the bullish setup, likely leading to a retest of the EMA 50.
+A daily close below 4220 (the low of the Morning Star pattern) would cancel this bullish setup and signal a return to bearish pressure.
 
 ---
 

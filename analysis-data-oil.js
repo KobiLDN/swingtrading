@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-08-06T08:52:58Z",
+  "generated": "2026-08-07T07:39:48Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_OIL = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10",
-  "analysis": "Price at 114.88 is trading well below the EMA 50 (122.39) but above the EMA 200 (106.68), creating a neutral-to-bearish bias. The EMA 50 is declining while the EMA 200 is still rising, indicating a potential death cross setup. The Shooting Star candlestick pattern within the last five bars suggests bearish rejection near recent highs, but the overall price action lacks a clear trend \u2014 it is range-bound between the two EMAs. No additional chart patterns like triangles, flags, or double tops/bottoms are evident, reinforcing the indecisive structure.\n\nRSI at 43.02 is neutral but leaning bearish, with no divergence to signal a reversal. MACD is bearish (line below signal, negative histogram), confirming downward momentum. However, the MACD histogram is flattening slightly, which could hint at slowing bearish pressure. The confluence between RSI and MACD is bearish, but the lack of a strong trend and the proximity to the EMA 200 support (106.68) prevent a high-conviction short entry. The signal score of 2/10 reflects weak setup quality.\n\nKey support is the EMA 200 at 106.68, followed by psychological round numbers at 100.00 and 95.00. Resistance is the EMA 50 at 122.39, then 125.00 and 130.00. The current price is closer to support than resistance, but the bearish momentum and Shooting Star pattern suggest a retest of the EMA 200 is possible. Without a confirmed breakout or breakdown, the risk/reward is unfavorable for a swing trade.",
-  "invalidation": "N/A",
+  "score": "0/10",
+  "analysis": "The current price of 118.87 rests below the 50-day EMA (122.25) but well above the 200-day EMA (106.78), placing the chart in a technically neutral zone with no clear directional bias. Price action does not confirm the EMA trend \u2014 while the 50 EMA is still above the 200 EMA (bullish alignment), the price itself has lost upward momentum and is failing to reclaim the shorter-term moving average. The lack of any candlestick patterns over the past five sessions further confirms a directionless, consolidative environment rather than an actionable breakout or reversal.\n\nThe RSI at 47.03 is neutral and bears no divergence, while the MACD is in a confirmed bearish crossover with negative histogram readings. This creates a mild bearish confluence in momentum, but the divergence between a still-bullish EMA structure and declining short-term momentum keeps the signal mixed. No clear triangles, flags, or double tops/bottoms are visible on the daily timeframe; the price appears to be drifting sideways within a medium-term range defined by the 200-day EMA as support and the 50-day EMA as resistance.\n\nGiven the 0/10 signal score, the lack of pattern confirmation, and the absence of any catalyst from the indicators, there is no high-probability trade setup here. A swing trade requires a clear edge in risk/reward or a defined structure; neither exists today. The ATR of 5.57 points suggests daily swings remain wide, but without a directional trigger, entering now would be speculative rather than systematic.",
+  "invalidation": "Any decisive break above the 50-day EMA (122.25) with increasing volume or a breakdown below the 200-day EMA (106.78) would create a new directional setup, invalidating the current wait stance.",
   "support_levels": [
-    106.68,
-    100.0,
-    95.0
+    113.3,
+    106.78,
+    100.0
   ],
   "resistance_levels": [
-    122.39,
+    122.25,
     125.0,
-    130.0
+    128.5
   ]
 };

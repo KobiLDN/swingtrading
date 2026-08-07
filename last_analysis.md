@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-08-06
-**Generated:** 2026-08-06T08:50:49Z
+**Date:** 2026-08-07
+**Generated:** 2026-08-07T07:37:23Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,33 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 confirmed |
-| **Support** | 1.34109, 1.33916, 1.335 |
+| **Support** | 1.3411, 1.3394, 1.335 |
 | **Resistance** | 1.35, 1.355, 1.36 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a bullish bias with price (1.34643) trading above both the EMA 50 (1.33916) and EMA 200 (1.34109), confirming a medium-term uptrend. However, the recent price action reveals a Bearish Engulfing candlestick pattern within the last five candles, indicating potential short-term selling pressure or exhaustion. This pattern conflicts with the bullish EMA alignment, creating a mixed signal that warrants caution rather than immediate entry.
+The daily chart shows price at 1.3455, trading above both the EMA50 (1.33937) and EMA200 (1.34114), which gives a superficial bullish bias. However, the EMA50 is actually below the EMA200, indicating a bearish cross in the moving averages—this undermines the strength of the uptrend. The MACD remains bullish with the line above the signal and a positive histogram, suggesting momentum is still upward, but the RSI at 56.89 is neutral and provides no clear directional edge.  
 
-No clear additional chart patterns (triangles, flags, double tops/bottoms) are evident near current price. The RSI at 58.33 is neutral, lacking overbought/oversold extremes or divergence, which offers no strong directional edge. The MACD remains bullish with the line above the signal and a positive histogram (+0.000800), but the histogram is flattening, suggesting momentum may be waning. The confluence between RSI and MACD is weak—MACD supports the trend, but RSI neutrality and the bearish candlestick pattern reduce conviction.
+The most significant near-term signal is the Bearish Engulfing candlestick pattern within the last five candles. This is a classic bearish reversal pattern, especially when it appears after a prolonged move higher. It conflicts with the still-positive MACD and the price position above the EMAs, creating a mixed technical picture. No additional chart patterns (triangles, flags, etc.) are evident from the given data.  
 
-Given the signal score of 5/10, the conflicting signals (bullish EMA vs. bearish engulfing, neutral RSI, and flattening MACD histogram) make a clear trade setup risky. The best approach is to wait for price to either break above the recent high (near 1.35000 resistance) with strong momentum, or pull back to test the EMA 200 (1.34109) support and show a bullish reversal pattern. Entering now would expose the trade to potential false breakouts or deeper corrections.
+Key support lies at the EMA200 (1.3411) and the EMA50 (1.3394), with further support near 1.3350 (a prior swing low). Resistance is psychological at 1.3500, then 1.3550 and 1.3600. The ATR of 56 pips suggests moderate daily volatility, but the conflicting signals—bullish MACD vs. bearish engulfing and bearish EMA alignment—warrant caution. The signal score of 5/10 reflects this indecision.  
+
+Given the lack of confluence between trend-following indicators and the bearish reversal pattern, the prudent action is to wait for a clearer catalyst. A break below the EMA200 would confirm bearish momentum, while a close above the bearish engulfing high would negate the reversal and favor longs. Until then, risk is elevated and the reward potential is unclear.
 
 ---
 
 ## Invalidation
 
-A daily close below the EMA 200 (1.34109) would invalidate the bullish bias and shift the outlook to neutral or bearish.
+N/A
 
 ---
 
