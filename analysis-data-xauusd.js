@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-08-07T07:38:21Z",
+  "generated": "2026-08-10T07:59:28Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-08-07",
-  "decision": "BUY",
+  "date": "2026-08-10",
+  "decision": "WAIT",
   "confidence": "MEDIUM",
-  "entry": "4297.11",
-  "stop_loss": "4225.00",
-  "target_1": "4370.00",
-  "target_2": "4445.00",
-  "risk_reward": "1:1.5 (based on T1)",
-  "score": "6/10",
-  "analysis": "The daily chart shows a neutral trend with price currently trading at 4297.11, well above the EMA 50 (4141.79) but still below the EMA 200 (4445.86). This creates a \u201cdeath cross\u201d recovery scenario where price is attempting to reclaim the longer-term moving average. The bullish candlestick patterns (Morning Star and Bullish Engulfing) over the last five candles provide strong short-term reversal confirmation, suggesting momentum is shifting upward from a recent low.\n\nRSI at 69.18 is in neutral territory, not yet overbought, leaving room for further upside. MACD is bullish with the line above the signal line and a positive histogram (+29.38), confirming increasing bullish momentum. There is no RSI divergence, so the move is supported by price action. The confluence of bullish candlestick patterns and MACD strength outweighs the neutral RSI reading, supporting a long bias.\n\nKey support is at 4250 (recent swing low area) and 4220 (below the Morning Star low). Resistance is at 4370 (prior reaction high) and the EMA 200 at 4445.86, which is a major structural barrier. The ATR of 72 pts suggests a reasonable stop distance of about 72-75 pts below entry, placing the stop at 4225 to allow for normal volatility while invalidating the bullish reversal if broken.\n\nThe initial signal score of 4/10 is revised upward to 6/10 because the candlestick patterns and MACD alignment add conviction, though the neutral trend and distance from EMA 200 cap the score. The best trade is a buy on a pullback or at current price with a tight stop, targeting the EMA 200 as the primary objective.",
-  "invalidation": "A daily close below 4220 (the low of the Morning Star pattern) would cancel this bullish setup and signal a return to bearish pressure.",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "5/10",
+  "analysis": "The price action shows a clear conflict between shorter-term bullish momentum and longer-term bearish structure. While price is well above the EMA50 (4166.62), indicating intermediate strength, it remains below the EMA200 (4473.44), which defines the broader downtrend. The RSI at 72.37 is overbought, suggesting that the recent rally may be extended and vulnerable to a pullback. The MACD is still bullish with a positive histogram, but the overbought RSI reduces the reliability of this signal. The candlestick patterns are mixed\u2014bullish engulfing and morning star indicate buying pressure, but the shooting star warns of potential exhaustion near resistance.  \n\nThe absence of clear RSI divergence and the neutral trend classification (neither confirmed bull nor bear) point to a consolidation phase. Key support lies at the 4290 area (current price minus ATR) and the EMA50 at 4166, while resistance is near the EMA200 at 4473 and the psychological 4400 level. Given the proximity to strong resistance and overbought conditions, the risk of a false breakout or sharp reversal is elevated. The mixed pattern sequence also fails to provide a clean entry signal.  \n\nA trade setup would require either a decisive break above 4473 with volume (to confirm a trend reversal) or a rejection from that level with a bearish pattern (to short). Currently, neither condition is met. The 7/10 signal score from the provided indicators appears optimistic given the overbought RSI and neutral trend, so I revise it to 5/10, reflecting a low-probability environment for a high-conviction swing trade.",
+  "invalidation": "A clear break above 4473 with sustained buying or a daily close below 4290 would shift the bias and potentially create a tradeable setup, but until then, waiting is the prudent approach.",
   "support_levels": [
-    4250.0,
-    4220.0,
-    4141.79
+    4290.0,
+    4166.0,
+    4100.0
   ],
   "resistance_levels": [
-    4370.0,
-    4445.86,
+    4420.0,
+    4473.0,
     4500.0
   ]
 };

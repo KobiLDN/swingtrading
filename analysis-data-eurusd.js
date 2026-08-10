@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-08-07T07:38:10Z",
+  "generated": "2026-08-10T07:59:14Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-08-07",
-  "decision": "WAIT",
+  "date": "2026-08-10",
+  "decision": "BUY",
   "confidence": "MEDIUM",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The price at 1.15226 is trading above the EMA 50 (1.14746) but below the EMA 200 (1.15793), placing the market in a neutral zone between these two key moving averages. While the EMA 200 slopes downward (bearish), the EMA 50 is flat to slightly rising, creating a zone of indecision. The trend label of NEUTRAL is accurate, as price does not confirm a clear bullish or bearish EMA alignment \u2014 there is no stacked order of price above EMA 50 above EMA 200 (bullish) nor the reverse (bearish). The recent price action has stalled near the EMA 200, which acts as dynamic resistance.\n\nThe Evening Star candlestick pattern forming over the last 5 candles is a bearish reversal signal, occurring near the EMA 200 resistance. This adds a cautionary note against chasing the recent bounce. No obvious flags, triangles, or double tops/bottoms are visible; the structure appears to be a range-bound chop between the EMA 50 support and EMA 200 resistance.\n\nRSI at 59.81 is neutral, showing no overbought/oversold extremes and no divergence. MACD is bullish, with the line above the signal line and a positive histogram (+0.001013). However, MACD\u2019s bullish signal is weak in the context of the Evening Star and rejection at the EMA 200. There is no confluence: RSI is neutral, MACD is mildly bullish, but price action shows bearish reversal potential. This divergence in signals reduces reliability.\n\nGiven the conflicting signals \u2014 bullish MACD vs. bearish candlestick pattern vs. neutral RSI vs. neutral EMA alignment \u2014 the single best trade setup is no trade. Entering a position now would require fighting either the bearish candlestick pattern (if buying) or the positive MACD (if selling). A wait-and-see approach is warranted until price either breaks and holds above 1.1580 (triggering a bullish bias) or breaks below 1.1475 (confirming bearish momentum).",
-  "invalidation": "If price closes above 1.1580 with strong momentum (e.g., a bullish engulfing candle or a break-and-retest above EMA 200), the neutral-to-bearish bias would be invalidated and a buy setup would become viable.",
+  "entry": "1.15551",
+  "stop_loss": "1.15000",
+  "target_1": "1.15924",
+  "target_2": "1.16350",
+  "risk_reward": "1:1.78",
+  "score": "6/10",
+  "analysis": "The EMA structure shows price (1.15551) trading above the 50 EMA (1.14853) but below the 200 EMA (1.15924), confirming a neutral trend with a slight bullish bias. The recent Bullish Engulfing candlestick pattern, followed by a Doji, suggests buying pressure emerged near support and is now consolidating. This aligns with the MACD being bullish (line above signal) and the histogram showing positive momentum (+0.000795), indicating that upward momentum is building despite the neutral RSI (63.59).  \n\nNo clear triangle, flag, or double top/bottom patterns are evident on the daily chart. However, the price action near the 200 EMA (1.15924) creates a potential resistance zone. The nearest support is the 50 EMA at 1.14853, which acted as a springboard for the recent bullish engulfing candle. The RSI is neutral and not overbought, leaving room for further upside, and the MACD agrees with the nascent bullish momentum.  \n\nThe single best trade setup is a long entry at current price, targeting a retest of the 200 EMA (1.15924) as T1, with an extended target at 1.16350 (prior swing high). The stop loss is placed below the 50 EMA at 1.15000 to allow for minor pullbacks while protecting against a trend reversal. The risk-reward ratio of 1:1.78 is acceptable for a swing trade, and the signal score is revised up to 6/10 due to the confluence of the bullish engulfing pattern and MACD confirmation.  \n\nRisk assessment: The primary risk is that the 200 EMA acts as strong resistance, causing a rejection and a return to the 50 EMA or lower. Additionally, the neutral RSI and lack of divergence mean momentum is not yet explosive. Position size should be moderate, and a trailing stop could be considered once T1 is reached.",
+  "invalidation": "N/A",
   "support_levels": [
-    1.14746,
-    1.142,
-    1.1375
+    1.14853,
+    1.145,
+    1.14
   ],
   "resistance_levels": [
-    1.15793,
-    1.162,
+    1.15924,
+    1.1635,
     1.168
   ]
 };
