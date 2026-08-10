@@ -1,61 +1,52 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-08-07T06:59:50Z",
-  "date": "2026-08-07",
-  "price": 4297.11,
-  "atr": 71.87,
-  "atr_pips": 72,
+  "generated": "2026-08-10T07:10:16Z",
+  "date": "2026-08-10",
+  "price": 4355.28,
+  "atr": 65.15,
+  "atr_pips": 65,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4141.79,
-  "ema200": 4445.86,
-  "rsi": 69.18,
-  "macd_line": 30.295099,
-  "macd_signal": 0.916531,
-  "macd_hist": 29.378568,
+  "ema50": 4166.62,
+  "ema200": 4473.44,
+  "rsi": 72.37,
+  "macd_line": 64.646616,
+  "macd_signal": 28.848986,
+  "macd_hist": 35.79763,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-03",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-08-07",
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-08-09",
+      "name": "Shooting Star",
+      "signal": "BEARISH REVERSAL",
+      "strength": 3
+    },
+    {
+      "date": "2026-08-10",
+      "name": "Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
+    },
+    {
+      "date": "2026-08-10",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 7,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-30",
-      "open": 4543.89,
-      "high": 4646.88,
-      "low": 4539.67,
-      "close": 4621.32
-    },
-    {
-      "date": "2026-05-01",
-      "open": 4622.38,
-      "high": 4659.81,
-      "low": 4561.35,
-      "close": 4614.83
-    },
-    {
-      "date": "2026-05-02",
-      "open": 4613.88,
-      "high": 4615.74,
-      "low": 4612.4,
-      "close": 4613.27
-    },
     {
       "date": "2026-05-03",
       "open": 4613.25,
@@ -731,9 +722,30 @@
     {
       "date": "2026-08-07",
       "open": 4240.67,
-      "high": 4297.59,
+      "high": 4371.01,
       "low": 4230.24,
-      "close": 4297.11
+      "close": 4342.63
+    },
+    {
+      "date": "2026-08-08",
+      "open": 4342.39,
+      "high": 4342.92,
+      "low": 4341.6,
+      "close": 4342.24
+    },
+    {
+      "date": "2026-08-09",
+      "open": 4342.26,
+      "high": 4342.73,
+      "low": 4342.16,
+      "close": 4342.19
+    },
+    {
+      "date": "2026-08-10",
+      "open": 4342.29,
+      "high": 4359.58,
+      "low": 4313.51,
+      "close": 4355.28
     }
   ]
 }
