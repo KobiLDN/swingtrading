@@ -1,7 +1,28 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-10T08:00:18Z",
+  "generated": "2026-08-11T07:24:47Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "U.S. Dollar Moves Higher As Oil Rallies 5%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-oil-163435131.html?.tsrc=rss",
+        "time_published": "2026-08-10 16:34",
+        "source": "Finance",
+        "summary": "The American currency gains ground, supported by rising Treasury yields."
+      },
+      {
+        "title": "EUR/USD, GBP/USD, and USD/CAD \u2013 Short-Term Forecast for 10/8/2026",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-gbp-usd-usd-135647672.html?.tsrc=rss",
+        "time_published": "2026-08-10 13:56",
+        "source": "Finance",
+        "summary": "The US dollar is trying to turn things around early on Monday."
+      },
+      {
+        "title": "US Dollar Price Forecast: Jobs Data Weaken DXY \u2013 Will CPI Lift EUR/USD and GBP/USD?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-jobs-080330349.html?.tsrc=rss",
+        "time_published": "2026-08-10 08:03",
+        "source": "Finance",
+        "summary": "Weak U.S. payrolls pressure the dollar as markets turn to July CPI for fresh Fed clues, while EUR/USD and GBP/USD test major resistance."
+      },
       {
         "title": "U.S. Dollar Retreats As Non Farm Payrolls Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-retreats-non-farm-163958695.html?.tsrc=rss",
@@ -36,30 +57,30 @@ window.NEWS_DATA = {
         "time_published": "2026-08-05 06:45",
         "source": "Finance",
         "summary": "The US dollar trades cautiously ahead of Friday\u2019s Nonfarm Payrolls report as investors assess Fed rate expectations, cooling labor market data, and the outlook for EUR/USD, GBP/USD, and the DXY."
-      },
-      {
-        "title": "US Dollar Price Forecast: U.S. Data in Focus as DXY, EUR/USD and GBP/USD Test Key Levels",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-u-070935176.html?.tsrc=rss",
-        "time_published": "2026-08-04 07:09",
-        "source": "Finance",
-        "summary": "The U.S. dollar steadies ahead of JOLTS job openings and ISM Services PMI, while EUR/USD and GBP/USD react to key economic data and central bank expectations."
-      },
-      {
-        "title": "US Dollar Price Forecast: NFP Week Puts DXY, EUR/USD and GBP/USD in Focus",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-nfp-085644640.html?.tsrc=rss",
-        "time_published": "2026-08-03 08:56",
-        "source": "Finance",
-        "summary": "US Dollar Index, EUR/USD and GBP/USD await NFP, JOLTS, ADP and ISM Services PMI as traders assess the Fed\u2019s next move after last week\u2019s rate hold."
-      },
-      {
-        "title": "US Dollar Price Forecast: Dollar Retreats as ECB and BoE Hold Policy Steady; EUR/USD and GBP/USD Rally",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-072706213.html?.tsrc=rss",
-        "time_published": "2026-07-31 07:27",
-        "source": "Finance",
-        "summary": "The U.S. dollar weakens after the Federal Reserve held interest rates steady, while EUR/USD and GBP/USD strengthen as markets assess global policy divergence."
       }
     ],
     "eurusd": [
+      {
+        "title": "U.S. Dollar Moves Higher As Oil Rallies 5%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-oil-163435131.html?.tsrc=rss",
+        "time_published": "2026-08-10 16:34",
+        "source": "Finance",
+        "summary": "The American currency gains ground, supported by rising Treasury yields."
+      },
+      {
+        "title": "EUR/USD, GBP/USD, and USD/CAD \u2013 Short-Term Forecast for 10/8/2026",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-gbp-usd-usd-135647672.html?.tsrc=rss",
+        "time_published": "2026-08-10 13:56",
+        "source": "Finance",
+        "summary": "The US dollar is trying to turn things around early on Monday."
+      },
+      {
+        "title": "US Dollar Price Forecast: Jobs Data Weaken DXY \u2013 Will CPI Lift EUR/USD and GBP/USD?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-jobs-080330349.html?.tsrc=rss",
+        "time_published": "2026-08-10 08:03",
+        "source": "Finance",
+        "summary": "Weak U.S. payrolls pressure the dollar as markets turn to July CPI for fresh Fed clues, while EUR/USD and GBP/USD test major resistance."
+      },
       {
         "title": "U.S. Dollar Retreats As Non Farm Payrolls Drop: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-retreats-non-farm-163958695.html?.tsrc=rss",
@@ -94,31 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-08-05 13:59",
         "source": "Finance",
         "summary": "The currency markets have no major announcements to focus on today, so ranges are likely to be watched by most."
-      },
-      {
-        "title": "US Dollar Price Forecast: NFP Week Keeps DXY, EUR/USD and GBP/USD in Focus",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-nfp-064558902.html?.tsrc=rss",
-        "time_published": "2026-08-05 06:45",
-        "source": "Finance",
-        "summary": "The US dollar trades cautiously ahead of Friday\u2019s Nonfarm Payrolls report as investors assess Fed rate expectations, cooling labor market data, and the outlook for EUR/USD, GBP/USD, and the DXY."
-      },
-      {
-        "title": "US Dollar Price Forecast: U.S. Data in Focus as DXY, EUR/USD and GBP/USD Test Key Levels",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-u-070935176.html?.tsrc=rss",
-        "time_published": "2026-08-04 07:09",
-        "source": "Finance",
-        "summary": "The U.S. dollar steadies ahead of JOLTS job openings and ISM Services PMI, while EUR/USD and GBP/USD react to key economic data and central bank expectations."
-      },
-      {
-        "title": "US Dollar Price Forecast: NFP Week Puts DXY, EUR/USD and GBP/USD in Focus",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-nfp-085644640.html?.tsrc=rss",
-        "time_published": "2026-08-03 08:56",
-        "source": "Finance",
-        "summary": "US Dollar Index, EUR/USD and GBP/USD await NFP, JOLTS, ADP and ISM Services PMI as traders assess the Fed\u2019s next move after last week\u2019s rate hold."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
+        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-equity-131805100.html?.tsrc=rss",
+        "time_published": "2026-08-10 13:18",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr"
+      },
       {
         "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Strong Tech Results",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131928036.html?.tsrc=rss",
@@ -167,74 +174,88 @@ window.NEWS_DATA = {
         "time_published": "2026-07-30 13:11",
         "source": "Finance",
         "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.7%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed's Interest Rate Announcement",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-123842313.html?.tsrc=rss",
-        "time_published": "2026-07-29 12:38",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t"
       }
     ],
     "spx": [
       {
-        "title": "VOO Is About to Become the First $1 Trillion ETF, and SPY Holders Are Paying 3x More for the Same Index",
-        "url": "https://247wallst.com/investing/2026/08/08/voo-is-about-to-become-the-first-1-trillion-etf-and-spy-holders-are-paying-3x-more-for-the-same-index/?.tsrc=rss",
-        "time_published": "2026-08-08 18:08",
-        "source": "247wallst",
-        "summary": "VOO is closing in on a milestone no ETF has ever reached, and the race to a trillion dollars quietly exposes a structural flaw that SPY holders have been paying for since 1993."
-      },
-      {
-        "title": "ISPY\u2019s 0.56% Fee Hides a $38,000 Decade-Long Performance Gap Against SPY",
-        "url": "https://247wallst.com/investing/etf/2026/08/07/ispys-0-56-fee-hides-a-38000-decade-long-performance-gap-against-spy/?.tsrc=rss",
-        "time_published": "2026-08-08 03:15",
-        "source": "247wallst",
-        "summary": "ISPY markets a generous yield, but the real cost of that income does not appear anywhere on the fund's marketing page. Before you chase the payout, you need to see what the strategy quietly takes back."
-      },
-      {
-        "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear \u2014 SEZL, SPCX, RDW, PLTR, TTD In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-ends-at-record-high-clocks-strongest-week-since-april-as-poor-jobs-data-calms-rate-hike-fear-sezl-spcx-rdw-pltr-ttd-in-focus/cZof1R8RJ9w?.tsrc=rss",
-        "time_published": "2026-08-07 21:24",
+        "title": "S&P500, Nasdaq, Dow Futures Unchanged After Ending Session Mildly Lower As  Investors Brace For Key Inflation Data  \u2014 SPCX, TSLA, INTC, NFLX, PLTR In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p500-nasdaq-dow-futures-unchanged/cZok3PvRJfL?.tsrc=rss",
+        "time_published": "2026-08-10 23:02",
         "source": "Stocktwits",
-        "summary": "Nonfarm payrolls fell 23,000 last month, following substantial downward revisions to the prior two months, Bureau of Labor Statistics data showed on Friday."
+        "summary": "Intel\u2019s stock dropped 4%, weighing on the Nasdaq after announcing a $15 billion stock offering."
       },
       {
-        "title": "The 20 Most Actively Traded ETFs",
-        "url": "http://www.etf.com/sections/features/20-most-actively-traded-etfs?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-08-07 19:46",
-        "source": "Etf",
-        "summary": "VOO is the only trillion-dollar ETF, but it barely cracks the top 10 by daily volume."
-      },
-      {
-        "title": "The Economy Lost Jobs, Wall Street Threw a Party: What Moved Markets This Week",
-        "url": "https://finance.yahoo.com/economy/articles/economy-lost-jobs-wall-street-194002543.html?.tsrc=rss",
-        "time_published": "2026-08-07 19:40",
-        "source": "Finance",
-        "summary": "The American economy shed 23,000 nonfarm payrolls in July. Wall Street answered with its best week since April. That is not a contradiction. It turns on the fact that has defined 2026 and that many investors still find uncomfortable: the Federal Reserve\u2019s next move was supposed to be up. A shrinking"
-      },
-      {
-        "title": "These New Drugs Could Fuel Fresh Highs for Biotech and Pharma Stocks",
-        "url": "https://finance.yahoo.com/m/bdadf47a-cff5-37db-9b42-755f6e090009/these-new-drugs-could-fuel.html?.tsrc=rss",
-        "time_published": "2026-08-07 15:30",
-        "source": "Finance",
-        "summary": "Positive readouts in cancer and cardiac drug trials could keep the rally going. Sizing up the stakes for Merck, Moderna, Summit Therapeutics, and more."
-      },
-      {
-        "title": "Jobs Numbers -23K for July, -103K in Previous Revisions",
-        "url": "https://finance.yahoo.com/economy/articles/jobs-numbers-23k-july-103k-142700474.html?.tsrc=rss",
-        "time_published": "2026-08-07 14:27",
-        "source": "Finance",
-        "summary": "Headline -23K new jobs was more than -100K below the +83K analysts were expecting."
-      },
-      {
-        "title": "Want $2,000 a Month From SPYI? Here\u2019s the Exact Investment It Takes, and the Catch at That Size",
-        "url": "https://247wallst.com/investing/etf/2026/08/07/want-2000-a-month-from-spyi-heres-the-exact-investment-it-takes-and-the-catch-at-that-size/?.tsrc=rss",
-        "time_published": "2026-08-07 13:53",
+        "title": "VYM\u2019s 2.2% Yield Hides $141,000 in Decade-Long Underperformance Versus the S&P 500",
+        "url": "https://247wallst.com/investing/etf/2026/08/10/vyms-2-2-yield-hides-141000-in-decade-long-underperformance-versus-the-sp-500/?.tsrc=rss",
+        "time_published": "2026-08-10 22:05",
         "source": "247wallst",
-        "summary": "Turning SPYI into a $2,000 monthly paycheck requires a commitment most investors underestimate, and the fund's own structure quietly works against anyone who treats that income as guaranteed."
+        "summary": "A retiree who chose VYM for its reliable quarterly deposits may have traded away a surprising fortune without realizing it, and the expense ratio has almost nothing to do with it."
+      },
+      {
+        "title": "SPY Charges 4.7x More Than Its Own Issuer\u2019s Copy of the Same 500 Stocks",
+        "url": "https://247wallst.com/investing/2026/08/10/spy-charges-4-7x-more-than-its-own-issuers-copy-of-the-same-500-stocks/?.tsrc=rss",
+        "time_published": "2026-08-10 19:08",
+        "source": "247wallst",
+        "summary": "State Street, the issuer of the world's most famous S&P 500 ETF, quietly sells a second version of the same fund at a dramatically lower cost. Before your next contribution lands, here is what the fee structure buried in the fine print actually costs you over time."
+      },
+      {
+        "title": "The SECURE 2.0 Rollover That Turns Leftover 529 Money Into Tax-Free Retirement Gold",
+        "url": "https://247wallst.com/personal-finance/2026/08/10/the-secure-2-0-rollover-that-turns-leftover-529-money-into-tax-free-retirement-gold/?.tsrc=rss",
+        "time_published": "2026-08-10 18:07",
+        "source": "247wallst",
+        "summary": "Most families with leftover 529 money face a painful choice between a tax penalty and a missed opportunity, but a little-known SECURE 2.0 provision opens a third path that almost nobody in the personal finance community talks about."
+      },
+      {
+        "title": "Wary Bulls Can Take Advantage Of This Spread On The S&P 500",
+        "url": "https://finance.yahoo.com/m/064ef031-8819-3582-9c65-7f5c6041b68a/wary-bulls-can-take-advantage.html?.tsrc=rss",
+        "time_published": "2026-08-10 18:03",
+        "source": "Finance",
+        "summary": "Weary bulls have a bull call spread as one option on the State Street SPDR S&P 500 exchange traded fund."
+      },
+      {
+        "title": "Trump Media (DJT) Stock Is Sliding Today: What\u2019s Behind the Drop?",
+        "url": "https://247wallst.com/investing/2026/08/10/trump-media-djt-stock-is-sliding-today-whats-behind-the-drop/?.tsrc=rss",
+        "time_published": "2026-08-10 17:59",
+        "source": "247wallst",
+        "summary": "DJT shares are taking another hit while the broader market climbs, and the pile of political and regulatory pressure building against Trump Media suggests today's drop may be the least of shareholders' worries."
+      },
+      {
+        "title": "DraftKings After Earnings: Buy, Hold, or Run?",
+        "url": "https://247wallst.com/investing/2026/08/10/draftkings-after-earnings-buy-hold-or-run/?.tsrc=rss",
+        "time_published": "2026-08-10 14:00",
+        "source": "247wallst",
+        "summary": "DraftKings just posted its worst margin quarter in years while simultaneously launching a business growing five times faster than its core sportsbook ever did. One of those stories is going to dominate the next 90 days, and the NFL season will decide which."
+      },
+      {
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
+        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-equity-131805100.html?.tsrc=rss",
+        "time_published": "2026-08-10 13:18",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr"
       }
     ],
     "oil": [
+      {
+        "title": "Market Minute 8-10-26- Oil, Intel, Meta News Moving Markets",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/market-minute-8-10-26-141500102.html?.tsrc=rss",
+        "time_published": "2026-08-10 14:15",
+        "source": "Finance",
+        "summary": "Stocks are slipping in early trading, while crude oil is rising and gold and silver are mixed. Treasuries are unchanged and the dollar is ticking higher."
+      },
+      {
+        "title": "Sector Update: Energy Stocks Advance Premarket Monday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132844961.html?.tsrc=rss",
+        "time_published": "2026-08-10 13:28",
+        "source": "Finance",
+        "summary": "Energy stocks were advancing premarket Monday, with The State Street Energy Select Sector SPDR ETF ("
+      },
+      {
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
+        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-equity-131805100.html?.tsrc=rss",
+        "time_published": "2026-08-10 13:18",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr"
+      },
       {
         "title": "Sector Update: Energy Stocks Decline Premarket Friday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132559908.html?.tsrc=rss",
@@ -269,27 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-05 13:10",
         "source": "Finance",
         "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad"
-      },
-      {
-        "title": "Market Minute 8-4-26- Stocks Up, Oil Down - Day 2",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/market-minute-8-4-26-141500450.html?.tsrc=rss",
-        "time_published": "2026-08-04 14:15",
-        "source": "Finance",
-        "summary": "Equities are running again after a solid \u201cup\u201d day yesterday. Oil is falling, while gold and silver are rising. The dollar and Treasuries are mostly flat."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Strait of Hormuz Re-Opening Hopes",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131439491.html?.tsrc=rss",
-        "time_published": "2026-08-04 13:14",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3% and the actively trad"
-      },
-      {
-        "title": "Market Minute 8-3-26- Markets Rally on Another Peace Push",
-        "url": "https://finance.yahoo.com/markets/articles/market-minute-8-3-26-141500808.html?.tsrc=rss",
-        "time_published": "2026-08-03 14:15",
-        "source": "Finance",
-        "summary": "Stocks are jumping and oil is slumping after yet another peach push in the Middle East. Gold and silver are mixed, Treasuries are up a bit, and the dollar is modestly lower."
       }
     ]
   }

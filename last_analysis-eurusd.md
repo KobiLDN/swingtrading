@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-08-10
-**Generated:** 2026-08-10T07:59:14Z
+**Date:** 2026-08-11
+**Generated:** 2026-08-11T07:23:25Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | BUY |
-| **Confidence** | MEDIUM |
-| **Entry** | 1.15551 |
-| **Stop Loss** | 1.15000 |
-| **Target 1** | 1.15924 |
-| **Target 2** | 1.16350 |
-| **Risk/Reward** | 1:1.78 |
-| **Score** | 6/10 |
-| **Support** | 1.14853, 1.145, 1.14 |
-| **Resistance** | 1.15924, 1.1635, 1.168 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 5/10 |
+| **Support** | 1.15, 1.14869, 1.145 |
+| **Resistance** | 1.15934, 1.16, 1.165 |
 
 ---
 
 ## Analysis
 
-The EMA structure shows price (1.15551) trading above the 50 EMA (1.14853) but below the 200 EMA (1.15924), confirming a neutral trend with a slight bullish bias. The recent Bullish Engulfing candlestick pattern, followed by a Doji, suggests buying pressure emerged near support and is now consolidating. This aligns with the MACD being bullish (line above signal) and the histogram showing positive momentum (+0.000795), indicating that upward momentum is building despite the neutral RSI (63.59).  
+The daily chart shows a neutral trend, with price (1.15361) trading above the EMA50 (1.14869) but below the EMA200 (1.15934). The EMA50/200 alignment remains bearish, as the shorter-term average is below the longer-term one, indicating no clear directional bias. Price action over the last five candles includes a Bullish Engulfing pattern followed by a Doji, suggesting a potential reversal attempt that is now meeting indecision near the EMA200 resistance. Without a clean breakout above the EMA200, the trend cannot be confirmed as bullish.
 
-No clear triangle, flag, or double top/bottom patterns are evident on the daily chart. However, the price action near the 200 EMA (1.15924) creates a potential resistance zone. The nearest support is the 50 EMA at 1.14853, which acted as a springboard for the recent bullish engulfing candle. The RSI is neutral and not overbought, leaving room for further upside, and the MACD agrees with the nascent bullish momentum.  
+The RSI at 59.02 is neutral and shows no divergence, while the MACD is bullish with the line above the signal line and a positive histogram. This provides mild bullish momentum, but it is not yet supported by a structural trend shift. The absence of any clear chart patterns (triangles, flags, double tops/bottoms) further reduces conviction. The nearest key levels are the EMA200 at 1.15934 as resistance and the EMA50 at 1.14869 as support, with psychological round numbers at 1.1600 and 1.1500 nearby.
 
-The single best trade setup is a long entry at current price, targeting a retest of the 200 EMA (1.15924) as T1, with an extended target at 1.16350 (prior swing high). The stop loss is placed below the 50 EMA at 1.15000 to allow for minor pullbacks while protecting against a trend reversal. The risk-reward ratio of 1:1.78 is acceptable for a swing trade, and the signal score is revised up to 6/10 due to the confluence of the bullish engulfing pattern and MACD confirmation.  
-
-Risk assessment: The primary risk is that the 200 EMA acts as strong resistance, causing a rejection and a return to the 50 EMA or lower. Additionally, the neutral RSI and lack of divergence mean momentum is not yet explosive. Position size should be moderate, and a trailing stop could be considered once T1 is reached.
+Given the mixed signals—bullish candlestick and MACD versus neutral trend and significant overhead resistance—the risk/reward is unattractive for a buy at current levels. A sell setup is not justified because the price is still above the EMA50 and the MACD is bullish. The prudent approach is to wait for a clearer catalyst, such as a decisive break above 1.15934 (with a daily close) to confirm a bullish trend, or a rejection at resistance that leads to a breakdown below 1.14869. The signal score of 5/10 is unchanged, reflecting the lack of confluence.
 
 ---
 
 ## Invalidation
 
-N/A
+This wait setup is invalidated if price closes above 1.15934 or below 1.14869, as either would provide a directional bias that warrants a trade.
 
 ---
 
