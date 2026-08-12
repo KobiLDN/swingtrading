@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-08-11T07:24:12Z",
+  "generated": "2026-08-12T07:47:55Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-08-10",
-  "decision": "BUY",
-  "confidence": "MEDIUM",
-  "entry": "59.41",
-  "stop_loss": "57.44",
-  "target_1": "61.50",
-  "target_2": "63.00",
-  "risk_reward": "1:1.7 (based on T1)",
-  "score": "6/10",
-  "analysis": "1. **Trend confirmation**: Price at 59.41 is trading above the EMA 50 (56.99) but below the EMA 200 (60.37), creating a neutral trend zone. The recent price action shows a bounce from the 58.00 area, and the Morning Star candlestick pattern (a bullish reversal signal) suggests momentum is shifting upward. However, until price reclaims the EMA 200 at 60.37, the trend remains unresolved. The Doji preceding the Morning Star indicates indecision that resolved bullishly, supporting a short-term long bias.\n\n2. **Additional chart patterns**: The Morning Star pattern on the daily chart is a clear bullish reversal formation, especially after a brief pullback. No clear triangles, flags, or double tops/bottoms are evident, but the price is forming a higher low near 58.00, which could be the start of a bullish flag or ascending channel if it breaks above 60.37. The proximity to the EMA 200 (60.37) makes this a potential resistance-to-support pivot zone.\n\n3. **Key support and resistance**: Immediate support is at 58.00 (recent swing low), followed by the EMA 50 at 56.99, and then 55.50 (prior support). Resistance is at the EMA 200 (60.37), then 61.50 (prior high), and 63.00 (psychological round number). A break above 60.37 would open the path to 61.50.\n\n4. **RSI and MACD confluence**: RSI at 64.54 is neutral but trending upward, not overbought, leaving room for further upside. MACD is bullish with the line above the signal line and a positive histogram (+1.0467), confirming upward momentum. There is no RSI divergence, so the bullish MACD and neutral RSI align with a cautious long bias. The signal score of 4/10 seems conservative given the bullish candlestick and MACD; I revise it to 6/10 due to the Morning Star and MACD confluence, though the EMA 200 overhead caps confidence.\n\n5. **Single best trade setup**: The best setup is a long entry at current price (59.41) with a stop below the recent swing low (57.44, just under 58.00 support) to allow for volatility. Target 1 is 61.50 (above EMA 200 and prior resistance), and Target 2 is 63.00. The risk-reward to T1 is 1:1.7, acceptable for a swing trade.\n\n6. **Risk assessment**: The primary risk is rejection at the EMA 200 (60.37), which could lead to a false breakout or a return to support. The ATR of 1.97 means daily swings of ~2 points are normal, so the stop at 57.44 is about 1.97 points below entry (1 ATR), which is tight but reasonable. If price fails to break 60.37, the trade could stall or reverse. Overall risk is moderate given the neutral trend and overhead resistance.",
-  "invalidation": "This setup is invalidated if price closes below 57.44 (the stop-loss level) or fails to break above 60.37 within 3-5 sessions, indicating the Morning Star failed and bearish pressure resumed.",
+  "date": "2026-08-11",
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "5/10",
+  "analysis": "The current price of 58.55 sits above the EMA50 (57.05) but below the EMA200 (60.39), creating a neutral trend classification. The bullish MACD cross and positive histogram suggest short-term upward momentum, while the RSI at 61.17 is neutral and not overbought, leaving room for further gains. The appearance of a Morning Star within the last five candles is a strong bullish reversal pattern, indicating that selling pressure was exhausted and buyers have stepped in. However, the signal score of 5/10 reflects the lack of full trend confirmation, as the EMA200 remains a significant overhead resistance.\n\nNo additional chart patterns such as triangles, flags, or double tops/bottoms are clearly present on the daily chart based on the given data. The price action is currently in a recovery phase after a likely decline, but the proximity to the EMA200 (60.39) presents a critical barrier. A breakout above this level would shift the trend to bullish, while a failure could lead to a pullback. The key support levels are the EMA50 at 57.05, the ATR-based floor near 56.63, and the psychological round number 56.00. Resistance is clustered around the EMA200 at 60.39, with the ATR upper band at 60.47 and further resistance at 61.00.\n\nThe RSI and MACD do not yet fully agree with a sustained bullish trend. The MACD is bullish, but the RSI is neutral, and the price is still below the EMA200. The confluence is partial\u2014short-term momentum favors bulls, but the longer-term trend is not confirmed. The Morning Star provides a tactical edge, but entering at current price (58.55) offers a poor risk/reward ratio of roughly 1:1 to the first major resistance (60.39). A more prudent approach is to wait for a retest of the EMA50 support (57.05) before considering a long entry, which would improve the risk/reward profile. Alternatively, a confirmed break above 60.39 with high volume would signal a trend shift and present a strong buy opportunity.",
+  "invalidation": "The current wait-and-see stance is invalidated if price closes decisively above 60.39 with strong volume, triggering a bullish trend, or if price breaks below 56.00, confirming a failed reversal and opening the door for a short trade.",
   "support_levels": [
-    58.0,
-    56.99,
-    55.5
+    57.05,
+    56.63,
+    56.0
   ],
   "resistance_levels": [
-    60.37,
-    61.5,
-    63.0
+    60.39,
+    60.47,
+    61.0
   ]
 };

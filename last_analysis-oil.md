@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-08-10
-**Generated:** 2026-08-11T07:24:47Z
+**Date:** 2026-08-11
+**Generated:** 2026-08-12T07:48:37Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 3/10 |
-| **Support** | 122.23, 120.35, 117.0 |
-| **Resistance** | 126.0, 128.0, 130.0 |
+| **Support** | 122.44, 118.0, 108.02 |
+| **Resistance** | 130.0, 133.0, 135.5 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong uptrend confirmed by price trading well above both the EMA50 (122.23) and EMA200 (107.46). However, the recent price action has produced a Shooting Star candlestick pattern, a classic bearish reversal signal that suggests exhaustion after a rally. The MACD is bearish with the line below the signal line and a negative histogram, indicating weakening momentum. The RSI at 53.65 is neutral and shows no divergence, offering no clear directional bias. The signal score of 3/10 reflects the conflicting nature of these indicators: a strong trend versus bearish short-term signals.
+The EMA structure remains bullish — price at 127.61 sits above both the EMA 50 (122.44) and EMA 200 (108.02), confirming the strong uptrend in the moving averages. However, the price action over the last five candles shows a Shooting Star pattern near current levels, which is a bearish reversal candlestick. This creates a conflict between the underlying trend direction and short-term price action momentum.
 
-Additional chart patterns are not explicitly provided, but the Shooting Star at current levels could imply a potential short-term top. Key support is the EMA50 at 122.23, which has acted as dynamic support during the uptrend. Below that, the ATR-based level of 120.35 and the round number 117.00 provide further downside reference. Resistance is likely near the Shooting Star’s high around 126.00, followed by psychological levels at 128.00 and 130.00. The RSI and MACD do not agree with the trend; the MACD is bearish while the trend is bullish, creating a divergence in momentum that often precedes a pullback or consolidation.
+Additional chart pattern inference: No clear continuation patterns such as flags or pennants are visible. However, the Shooting Star near the recent highs suggests a potential short-term top or resistance zone. The lack of a double top or bottom further reinforces the indecisive nature of the current setup. Key support is the EMA 50 at 122.44, with secondary support near 118.00 (a prior swing low) and the EMA 200 at 108.02 as major floor. Resistance is likely around 130.00 psychological level, followed by 133.00 and 135.50 from prior price clusters.
 
-Given the conflicting signals, the single best trade setup is to wait for confirmation. A bearish trade would require a break below the EMA50 (122.23) to confirm a reversal, while a bullish trade would need a strong close above the Shooting Star’s high (around 126.00) to negate the bearish pattern. The current risk/reward is unclear because the trend is still intact but the short-term signals are deteriorating. Entering now would be premature, as the Shooting Star and bearish MACD suggest a potential decline, but the strong uptrend warns against selling without a clear breakdown.
+RSI at 55.06 is neutral, showing no overbought or oversold condition and no divergence. MACD is bearish — line below signal line with a negative histogram (-0.224132), indicating waning upward momentum. This divergence between the trending EMAs (bullish) and the MACD (bearish) creates a mixed signal. The combination of a Shooting Star, neutral RSI, and bearish MACD with a low overall signal score of 3/10 argues against entering a long position at this price. A short is also not advisable given the strong EMA trend. Thus, the prudent action is to wait for further confirmation — either a breakout above resistance with bullish MACD cross or a breakdown below EMA 50 with bearish continuation.
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if price closes above the Shooting Star’s high (approximately 126.00) with strong volume, confirming trend continuation, or if price breaks and holds below the EMA50 (122.23) to confirm a bearish reversal.
+This WAIT setup is invalidated if price closes above 130.00 with strong volume and a bullish MACD crossover, or if price breaks and holds below 122.44 (EMA 50) with follow-through selling.
 
 ---
 

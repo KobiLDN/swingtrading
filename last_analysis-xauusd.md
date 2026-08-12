@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-08-11
-**Generated:** 2026-08-11T07:23:35Z
+**Date:** 2026-08-12
+**Generated:** 2026-08-12T07:46:54Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,33 +11,33 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 (revised down from 7/10) |
-| **Support** | 4295.0, 4250.0, 4175.64 |
-| **Resistance** | 4400.0, 4472.38, 4520.0 |
+| **Score** | 5/10 |
+| **Support** | 4334.04, 4266.77, 4184.66 |
+| **Resistance** | 4471.72, 4538.99, 4600.0 |
 
 ---
 
 ## Analysis
 
-The trend is technically neutral, as price (4363.21) sits between the EMA 50 (4175.64) and EMA 200 (4472.38). While the recent bullish engulfing and morning star patterns suggest short-term upward momentum, the presence of a shooting star within the same 5-candle window indicates fading buying pressure near the upper range. Price action does not confirm a clean trend — it is oscillating within a wide consolidation band, with the EMA 200 acting as a heavy overhead magnet/resistance.
+The daily chart shows price (4401.31) trapped between the 50-period EMA (4184.66) below and the 200-period EMA (4471.72) above. This EMA placement confirms the neutral trend label – price is above the shorter-term average but below the longer-term average, indicating a tug-of-war between short-term bullish momentum and longer-term bearish pressure. The RSI at 72.89 is deep in overbought territory, which historically warns of a potential pullback or consolidation, especially when the market is not in a strong uptrend. The MACD remains bullish (line above signal, positive histogram), suggesting that upward momentum is still present, but the overbought RSI and the proximity to the 200-EMA resistance create a conflicting signal.
 
-The RSI at 70.26 is overbought, which typically warns of a pullback or consolidation, especially in a neutral trend. However, the MACD histogram is positive and expanding (+34.8), showing bullish momentum. This creates a divergence between momentum (bullish) and oscillator positioning (overbought). The lack of RSI divergence means the overbought condition is not yet a reversal signal, but it does reduce the risk/reward of chasing longs at current levels.
+The candlestick patterns over the last five sessions include both a Shooting Star (bearish reversal) and a Morning Star (bullish reversal). Without the exact sequence, this pairing implies a volatile, indecisive market that has already experienced a false move in both directions. The Shooting Star likely formed near a local high, then prices dropped, only to be followed by a Morning Star that caught the low. This back-and-forth action reinforces the neutral stance and suggests that neither bulls nor bears have seized control. The pre-calculated signal score of 7/10 appears too optimistic given the overbought RSI and the mixed candle patterns; a more conservative score of 5/10 better reflects the current ambiguity.
 
-Key resistance is immediate at 4400 (psychological round number) and then the EMA 200 at 4472.38 — a formidable barrier. Support sits at 4295 (recent swing low) and 4250, with the EMA 50 at 4175.64 as a major floor. Given the neutral trend, overbought RSI, and proximity to strong resistance, the best setup is not a fresh entry but a wait for either a pullback to support (4295-4250) for a long, or a confirmed break above 4472 with volume for a trend continuation.
+Key support and resistance levels are derived from the EMAs, ATR, and round numbers. Immediate resistance is the 200-EMA at 4471.72, followed by 4538.99 (current price + 2×ATR) and the psychological 4600.00. On the downside, the first support is 4334.04 (price – 1×ATR), then 4266.77 (price – 2×ATR), and finally the 50-EMA at 4184.66. With no clear breakout above or below these levels, the risk/reward for any directional trade is skewed unfavorably. The RSI and MACD do not agree with the trend – the MACD points to continued buying, but the RSI signals exhaustion, and the neutral trendline offers no confirmation.  
 
-Risk assessment: The ATR of 68 points means daily swings are large. Entering now would expose the trade to a potential 100+ point reversal if the shooting star plays out. The risk/reward is unfavorable — upside to 4400 is only ~37 points, while downside to 4295 is ~68 points. The signal score is downgraded to 5/10 because the bullish candlestick patterns are contradicted by the overbought RSI and the neutral EMA structure.
+Given the mixed signals, the best course is to wait for a definitive catalyst. A short trade would require a bearish reversal below the Morning Star’s low, while a long trade would need a clean break above the 200-EMA with RSI cooling off. The current setup lacks confluence, so entering a trade now would be speculative rather than systematic. Patience is warranted until price action resolves the neutral zone.
 
 ---
 
 ## Invalidation
 
-A daily close below 4295.00 would invalidate any bullish bias and confirm a deeper pullback toward the EMA 50 at 4175.64.
+A decisive break above 4472 or below 4185 would resolve the current neutral trend and provide a clear directional bias.
 
 ---
 

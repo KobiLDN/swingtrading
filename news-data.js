@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-11T07:24:47Z",
+  "generated": "2026-08-12T07:48:39Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "Forex Market Forecast \u2013 Euro, Pound, and Yen Test Support as US Yields Drift",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-market-forecast-euro-pound-133208907.html?.tsrc=rss",
+        "time_published": "2026-08-11 13:32",
+        "source": "Finance",
+        "summary": "Currency markets are testing support areas in early Tuesday trading. At this point, the interest rates in America continue to play a big part."
+      },
+      {
+        "title": "US Dollar Price Forecast: Will CPI Revive DXY as EUR/USD and GBP/USD Test Resistance?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-cpi-080528660.html?.tsrc=rss",
+        "time_published": "2026-08-11 08:05",
+        "source": "Finance",
+        "summary": "DXY, EUR/USD and GBP/USD trade near key technical levels as markets await U.S. CPI for fresh clues on inflation and the Fed\u2019s September policy outlook."
+      },
       {
         "title": "U.S. Dollar Moves Higher As Oil Rallies 5%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-oil-163435131.html?.tsrc=rss",
@@ -31,13 +45,6 @@ window.NEWS_DATA = {
         "summary": "The American currency is under pressure as traders reduce bets on hawkish Fed."
       },
       {
-        "title": "UK\u2019s Nephos to attest Agant\u2019s GBPA stablecoin reserves",
-        "url": "https://www.internationalaccountingbulletin.com/news/uks-nephos-to-attest-agants-gbpa-stablecoin-reserves/?.tsrc=rss",
-        "time_published": "2026-08-07 08:57",
-        "source": "Internationalaccountingbulletin",
-        "summary": "Nephos will offer independent ISAE 3000 proof of reserves and attestation services for GBPA."
-      },
-      {
         "title": "US Dollar Price Forecast: NFP Countdown Keeps DXY, EUR/USD and GBP/USD in Focus",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-nfp-081652466.html?.tsrc=rss",
         "time_published": "2026-08-07 08:16",
@@ -50,16 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-08-05 13:59",
         "source": "Finance",
         "summary": "The currency markets have no major announcements to focus on today, so ranges are likely to be watched by most."
-      },
-      {
-        "title": "US Dollar Price Forecast: NFP Week Keeps DXY, EUR/USD and GBP/USD in Focus",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-nfp-064558902.html?.tsrc=rss",
-        "time_published": "2026-08-05 06:45",
-        "source": "Finance",
-        "summary": "The US dollar trades cautiously ahead of Friday\u2019s Nonfarm Payrolls report as investors assess Fed rate expectations, cooling labor market data, and the outlook for EUR/USD, GBP/USD, and the DXY."
       }
     ],
     "eurusd": [
+      {
+        "title": "Forex Market Forecast \u2013 Euro, Pound, and Yen Test Support as US Yields Drift",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-market-forecast-euro-pound-133208907.html?.tsrc=rss",
+        "time_published": "2026-08-11 13:32",
+        "source": "Finance",
+        "summary": "Currency markets are testing support areas in early Tuesday trading. At this point, the interest rates in America continue to play a big part."
+      },
+      {
+        "title": "US Dollar Price Forecast: Will CPI Revive DXY as EUR/USD and GBP/USD Test Resistance?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-cpi-080528660.html?.tsrc=rss",
+        "time_published": "2026-08-11 08:05",
+        "source": "Finance",
+        "summary": "DXY, EUR/USD and GBP/USD trade near key technical levels as markets await U.S. CPI for fresh clues on inflation and the Fed\u2019s September policy outlook."
+      },
       {
         "title": "U.S. Dollar Moves Higher As Oil Rallies 5%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-oil-163435131.html?.tsrc=rss",
@@ -101,24 +115,24 @@ window.NEWS_DATA = {
         "time_published": "2026-08-07 08:16",
         "source": "Finance",
         "summary": "US Dollar Price Forecast: DXY trades near key support ahead of Friday\u2019s U.S. Nonfarm Payrolls report, while EUR/USD tests resistance and GBP/USD consolidates after recent gains."
-      },
-      {
-        "title": "Some Losses for the Dollar Ahead of the NFP",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/losses-dollar-ahead-nfp-174711178.html?.tsrc=rss",
-        "time_published": "2026-08-06 17:47",
-        "source": "Finance",
-        "summary": "Apparent deescalation in the Gulf and lower expectations for the Fed to hike twice have been negative for the US dollar."
-      },
-      {
-        "title": "EUR/USD, USD/CHF, and GBP/USD Short-Term Forecast for 05/08/2026",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-chf-gbp-135942600.html?.tsrc=rss",
-        "time_published": "2026-08-05 13:59",
-        "source": "Finance",
-        "summary": "The currency markets have no major announcements to focus on today, so ranges are likely to be watched by most."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Amid Stalled US-Iran Talks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-130332588.html?.tsrc=rss",
+        "time_published": "2026-08-11 13:03",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2% and the actively trad"
+      },
+      {
+        "title": "Best-Performing ETF Areas of Last Week",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-etf-areas-last-120000689.html?.tsrc=rss",
+        "time_published": "2026-08-11 12:00",
+        "source": "Finance",
+        "summary": "Gold, space, defense and silver-mining ETFs soared last week as weak jobs data eased Fed rate-hike fears and boosted risk appetite."
+      },
       {
         "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
         "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-equity-131805100.html?.tsrc=rss",
@@ -160,136 +174,122 @@ window.NEWS_DATA = {
         "time_published": "2026-08-03 13:06",
         "source": "Finance",
         "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Amazon Earnings Offset Apple Weakness",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130636476.html?.tsrc=rss",
-        "time_published": "2026-07-31 13:06",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Tech Earnings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131132369.html?.tsrc=rss",
-        "time_published": "2026-07-30 13:11",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.7%, and the actively tra"
       }
     ],
     "spx": [
       {
-        "title": "S&P500, Nasdaq, Dow Futures Unchanged After Ending Session Mildly Lower As  Investors Brace For Key Inflation Data  \u2014 SPCX, TSLA, INTC, NFLX, PLTR In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p500-nasdaq-dow-futures-unchanged/cZok3PvRJfL?.tsrc=rss",
-        "time_published": "2026-08-10 23:02",
+        "title": "Don\u2019t Mourn the Fed Put. Make This Trade Before Jackson Hole Instead.",
+        "url": "https://finance.yahoo.com/m/b681983a-5df7-31df-b240-4bd851cf7406/don%E2%80%99t-mourn-the-fed-put.-make.html?.tsrc=rss",
+        "time_published": "2026-08-12 05:30",
+        "source": "Finance",
+        "summary": "Buying call options that expire soon after the central bank\u2019s late-August symposium is a simple bet that stock prices will keep rising."
+      },
+      {
+        "title": "S&P500, Nasdaq, Dow Futures Rangebound As Investors Await Key Inflation Data To Judge Rate Hike Possibilities  \u2014 ORCL, AAPL, NVDA, CURLF In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p500-nasdaq-dow-futures-rangebound-investors-await-key-inflation-data/cZoFmoDRJXo?.tsrc=rss",
+        "time_published": "2026-08-12 00:07",
         "source": "Stocktwits",
-        "summary": "Intel\u2019s stock dropped 4%, weighing on the Nasdaq after announcing a $15 billion stock offering."
+        "summary": "Investors await the July consumer price index that\u2019s due at 8:30 a.m. ET on Wednesday."
       },
       {
-        "title": "VYM\u2019s 2.2% Yield Hides $141,000 in Decade-Long Underperformance Versus the S&P 500",
-        "url": "https://247wallst.com/investing/etf/2026/08/10/vyms-2-2-yield-hides-141000-in-decade-long-underperformance-versus-the-sp-500/?.tsrc=rss",
-        "time_published": "2026-08-10 22:05",
+        "title": "JEPQ\u2019s 10.9% Yield Hides $2,900 Annual Tax Bill Most Retirees Never See",
+        "url": "https://247wallst.com/investing/etf/2026/08/11/jepqs-10-9-yield-hides-2900-annual-tax-bill-most-retirees-never-see/?.tsrc=rss",
+        "time_published": "2026-08-11 22:05",
         "source": "247wallst",
-        "summary": "A retiree who chose VYM for its reliable quarterly deposits may have traded away a surprising fortune without realizing it, and the expense ratio has almost nothing to do with it."
+        "summary": "JEPQ's monthly distributions look like a retirement dream until the IRS opens its cut, and most holders collecting that 10.9% yield have never calculated what the tax treatment on those payments actually costs them each year."
       },
       {
-        "title": "SPY Charges 4.7x More Than Its Own Issuer\u2019s Copy of the Same 500 Stocks",
-        "url": "https://247wallst.com/investing/2026/08/10/spy-charges-4-7x-more-than-its-own-issuers-copy-of-the-same-500-stocks/?.tsrc=rss",
-        "time_published": "2026-08-10 19:08",
+        "title": "SPYI\u2019s 11.7% Yield Hides $2,927.50 Annual Fee Gap Versus SPY",
+        "url": "https://247wallst.com/investing/etf/2026/08/11/spyis-11-7-yield-hides-2927-50-annual-fee-gap-versus-spy/?.tsrc=rss",
+        "time_published": "2026-08-11 21:45",
         "source": "247wallst",
-        "summary": "State Street, the issuer of the world's most famous S&P 500 ETF, quietly sells a second version of the same fund at a dramatically lower cost. Before your next contribution lands, here is what the fee structure buried in the fine print actually costs you over time."
+        "summary": "A $500,000 Roth IRA position in a high-yield S&P 500 ETF can look like a tax-free income machine, but the fee structure and options strategy quietly work against the very advantage a Roth already gives you for free."
       },
       {
-        "title": "The SECURE 2.0 Rollover That Turns Leftover 529 Money Into Tax-Free Retirement Gold",
-        "url": "https://247wallst.com/personal-finance/2026/08/10/the-secure-2-0-rollover-that-turns-leftover-529-money-into-tax-free-retirement-gold/?.tsrc=rss",
-        "time_published": "2026-08-10 18:07",
+        "title": "This 5.3% Monthly Payer Only Buys Stocks That Raised Dividends 10 Straight Years, It\u2019s Up 18.5% in 2026",
+        "url": "https://247wallst.com/investing/2026/08/11/this-5-3-monthly-payer-only-buys-stocks-that-raised-dividends-10-straight-years-its-up-18-5-in-2026/?.tsrc=rss",
+        "time_published": "2026-08-11 20:48",
         "source": "247wallst",
-        "summary": "Most families with leftover 529 money face a painful choice between a tax penalty and a missed opportunity, but a little-known SECURE 2.0 provision opens a third path that almost nobody in the personal finance community talks about."
+        "summary": "High-yield ETFs built purely on yield rankings carry a hidden flaw that only shows up when it's too late, and one fund uses a decade-long dividend track record as a filter before yield ever enters the picture."
       },
       {
-        "title": "Wary Bulls Can Take Advantage Of This Spread On The S&P 500",
-        "url": "https://finance.yahoo.com/m/064ef031-8819-3582-9c65-7f5c6041b68a/wary-bulls-can-take-advantage.html?.tsrc=rss",
-        "time_published": "2026-08-10 18:03",
+        "title": "Coupang Keeps Falling: Why One Analyst Expects the Amazon of South Korea to Jump Nearly 100%",
+        "url": "https://247wallst.com/investing/2026/08/11/coupang-keeps-falling-why-one-analyst-expects-the-amazon-of-south-korea-to-jump-nearly-100/?.tsrc=rss",
+        "time_published": "2026-08-11 16:30",
+        "source": "247wallst",
+        "summary": "A $410 million regulatory fine, a massive data breach, and a currency collapse sent Coupang to near 52-week lows while its peers barely flinched. One top analyst sees that punishment as a setup, not a sentence."
+      },
+      {
+        "title": "Bank ETFs: An Overlooked Winner of AI Boom",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bank-etfs-overlooked-winner-ai-160000456.html?.tsrc=rss",
+        "time_published": "2026-08-11 16:00",
         "source": "Finance",
-        "summary": "Weary bulls have a bull call spread as one option on the State Street SPDR S&P 500 exchange traded fund."
+        "summary": "AI infrastructure spending is fueling broader commercial loan demand, creating a potential growth opportunity for bank ETFs beyond data center financing."
       },
       {
-        "title": "Trump Media (DJT) Stock Is Sliding Today: What\u2019s Behind the Drop?",
-        "url": "https://247wallst.com/investing/2026/08/10/trump-media-djt-stock-is-sliding-today-whats-behind-the-drop/?.tsrc=rss",
-        "time_published": "2026-08-10 17:59",
-        "source": "247wallst",
-        "summary": "DJT shares are taking another hit while the broader market climbs, and the pile of political and regulatory pressure building against Trump Media suggests today's drop may be the least of shareholders' worries."
-      },
-      {
-        "title": "DraftKings After Earnings: Buy, Hold, or Run?",
-        "url": "https://247wallst.com/investing/2026/08/10/draftkings-after-earnings-buy-hold-or-run/?.tsrc=rss",
-        "time_published": "2026-08-10 14:00",
-        "source": "247wallst",
-        "summary": "DraftKings just posted its worst margin quarter in years while simultaneously launching a business growing five times faster than its core sportsbook ever did. One of those stories is going to dominate the next 90 days, and the NFL season will decide which."
-      },
-      {
-        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
-        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-equity-131805100.html?.tsrc=rss",
-        "time_published": "2026-08-10 13:18",
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Amid Stalled US-Iran Talks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-130332588.html?.tsrc=rss",
+        "time_published": "2026-08-11 13:03",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr"
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2% and the actively trad"
       }
     ],
     "oil": [
       {
-        "title": "Market Minute 8-10-26- Oil, Intel, Meta News Moving Markets",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/market-minute-8-10-26-141500102.html?.tsrc=rss",
-        "time_published": "2026-08-10 14:15",
-        "source": "Finance",
-        "summary": "Stocks are slipping in early trading, while crude oil is rising and gold and silver are mixed. Treasuries are unchanged and the dollar is ticking higher."
+        "title": "Trump Says Hormuz Deal Could Come Within 48 Hours: Do Prediction Markets Back Him Up?",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/08/60955568/trump-says-hormuz-deal-could-come-within-48-hours-do-prediction-markets-back-him-up?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-08-05 15:08",
+        "source": "Benzinga",
+        "summary": "President Donald Trump said Tuesday night that Strait of Hormuz negotiations are \u201cmoving along very nicely\u201d and promised an answer within 48 hours. Traders on Polymarket are pricing a wide gap between hearing an announcement and seeing ships move. What..."
       },
       {
-        "title": "Sector Update: Energy Stocks Advance Premarket Monday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132844961.html?.tsrc=rss",
-        "time_published": "2026-08-10 13:28",
-        "source": "Finance",
-        "summary": "Energy stocks were advancing premarket Monday, with The State Street Energy Select Sector SPDR ETF ("
+        "title": "After Wild Ride, ETF Investors Pump the Brakes on Energy Funds",
+        "url": "https://www.thedailyupside.com/etf/thematics-sectors/after-wild-ride-etf-investors-pump-the-brakes-on-energy-funds/?.tsrc=rss",
+        "time_published": "2026-07-29 04:03",
+        "source": "Thedailyupside",
+        "summary": "The Iran war and the spread of data centers have boosted the performance of energy ETFs, but uncertainty may be creeping in."
       },
       {
-        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
-        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-equity-131805100.html?.tsrc=rss",
-        "time_published": "2026-08-10 13:18",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr"
+        "title": "Trump Criticized Biden for Draining America\u2019s Oil Reserves. They\u2019re Now at a 43-Year Low Amidst a Middle East War.",
+        "url": "https://247wallst.com/investing/2026/07/28/trump-criticized-biden-for-draining-americas-oil-reserves-theyre-now-at-a-43-year-low-amidst-a-middle-east-war/?.tsrc=rss",
+        "time_published": "2026-07-28 16:42",
+        "source": "247wallst",
+        "summary": "Donald Trump spent his 2024 campaign hammering Biden for emptying America's emergency oil stockpile, pledging to refill it the moment he took office. Now a shooting war in the Middle East is testing whether that promise was ever realistic."
       },
       {
-        "title": "Sector Update: Energy Stocks Decline Premarket Friday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-132559908.html?.tsrc=rss",
-        "time_published": "2026-08-07 13:25",
+        "title": "Michael Burry's Chilling Warning as $100 Oil Collides With AI Debt Explosion: 'Not Sure How Much Longer'",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burrys-chilling-warning-100-143119536.html?.tsrc=rss",
+        "time_published": "2026-07-26 14:31",
         "source": "Finance",
-        "summary": "Energy stocks were declining premarket Friday, with the State Street Energy Select Sector SPDR ETF ("
+        "summary": "Michael Burry is warning about a market collision: rising oil prices, an artificial intelligence debt binge and mounting pressure in long-duration Treasuries. \"Watch the long bonds,\" Burry wrote on X Thursday. He cited AI\u2019s \"debt explosion,\" rising inflation volatility, a..."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Strong Tech Results",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131928036.html?.tsrc=rss",
-        "time_published": "2026-08-07 13:19",
+        "title": "Hormuz Tensions Deepen: Energy ETFs in Focus",
+        "url": "https://finance.yahoo.com/energy/articles/hormuz-tensions-deepen-energy-etfs-142100638.html?.tsrc=rss",
+        "time_published": "2026-07-23 14:21",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra"
+        "summary": "Oil surges on Hormuz tensions. Check out these U.S. energy ETFs that could benefit from the latest crude rally."
       },
       {
-        "title": "MoneyMasters Podcast 8-6-26- Anas Alhajji on Hormuz Risks, LNG, and SPR Myths",
-        "url": "https://finance.yahoo.com/energy/articles/moneymasters-podcast-8-6-26-163200635.html?.tsrc=rss",
-        "time_published": "2026-08-06 16:32",
+        "title": "Did Congress Waste Warsh Hearings on AI While Inflation Runs Hot? Cato Blasts Focus on 'Trendy Topics'",
+        "url": "https://finance.yahoo.com/economy/policy/articles/did-congress-waste-warsh-hearings-100107236.html?.tsrc=rss",
+        "time_published": "2026-07-23 10:01",
         "source": "Finance",
-        "summary": "At the 2026 MoneyShow Masters Symposium Las Vegas, I interviewed Anas Alhajji of Energy Outlook Advisors about major energy-market drivers \u2013 including tensions tied to the Middle East conflict and Bab el-Mandeb."
+        "summary": "New Federal Reserve Chairman Kevin Warsh faced Congress last week for the first time, but a Cato Institute economist says lawmakers may have squandered their best chance to press him before rates move. In a commentary published Monday, Cato\u2019s Jai..."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132120169.html?.tsrc=rss",
-        "time_published": "2026-08-06 13:21",
+        "title": "Top-Performing ETF Areas of Last Week",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/top-performing-etf-areas-last-140000900.html?.tsrc=rss",
+        "time_published": "2026-07-21 14:00",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1% and the actively trad"
+        "summary": "Middle East tensions, AI-driven tech weakness and stock-specific swings fueled big moves in leveraged ETFs. Here's a look at last week's top performers."
       },
       {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131015495.html?.tsrc=rss",
-        "time_published": "2026-08-05 13:10",
+        "title": "Best-Performing Leveraged ETF Areas of Last Week",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-leveraged-etf-areas-160000451.html?.tsrc=rss",
+        "time_published": "2026-07-20 16:00",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad"
+        "summary": "Middle East tensions, AI-driven tech weakness and stock-specific swings fueled big moves in leveraged ETFs. Here's a look at last week's top performers."
       }
     ]
   }
