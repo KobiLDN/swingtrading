@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-08-11T06:47:50Z",
+  "generated": "2026-08-12T07:08:12Z",
   "events": [
     {
       "date": "2026-08-12",
@@ -10,7 +10,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.2%",
       "previous": "0.0%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -22,7 +22,7 @@ window.CALENDAR_DATA = {
       "forecast": "2.5%",
       "previous": "2.6%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -34,7 +34,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.1%",
       "previous": "-0.4%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -46,7 +46,7 @@ window.CALENDAR_DATA = {
       "forecast": "3.4%",
       "previous": "3.5%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -55,7 +55,7 @@ window.CALENDAR_DATA = {
       "currency": "GBP",
       "event": "GDP m/m",
       "impact": "high",
-      "forecast": "-0.1%",
+      "forecast": "0.0%",
       "previous": "0.1%",
       "actual": "",
       "today": false,

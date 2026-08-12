@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-08-11T06:47:47Z",
-  "date": "2026-08-11",
-  "price": 4363.21,
-  "atr": 68.18,
-  "atr_pips": 68,
+  "generated": "2026-08-12T07:08:09Z",
+  "date": "2026-08-12",
+  "price": 4401.31,
+  "atr": 67.27,
+  "atr_pips": 67,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4175.64,
-  "ema200": 4472.38,
-  "rsi": 70.26,
-  "macd_line": 72.938443,
-  "macd_signal": 38.11,
-  "macd_hist": 34.828442,
+  "ema50": 4184.66,
+  "ema200": 4471.72,
+  "rsi": 72.89,
+  "macd_line": 79.750433,
+  "macd_signal": 46.495542,
+  "macd_hist": 33.254891,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-07",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
-    },
     {
       "date": "2026-08-09",
       "name": "Shooting Star",
@@ -41,13 +35,6 @@ window.PRICES_DATA_XAUUSD = {
   "score": 7,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-04",
-      "open": 4613.24,
-      "high": 4629.39,
-      "low": 4503.72,
-      "close": 4523.6
-    },
     {
       "date": "2026-05-05",
       "open": 4523.13,
@@ -738,8 +725,15 @@ window.PRICES_DATA_XAUUSD = {
       "date": "2026-08-11",
       "open": 4389.83,
       "high": 4434.79,
-      "low": 4360.72,
-      "close": 4363.21
+      "low": 4356.49,
+      "close": 4367.72
+    },
+    {
+      "date": "2026-08-12",
+      "open": 4368.15,
+      "high": 4415.01,
+      "low": 4363.38,
+      "close": 4401.31
     }
   ]
 };
