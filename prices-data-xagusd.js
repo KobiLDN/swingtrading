@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-08-12T07:08:11Z",
-  "date": "2026-08-11",
-  "price": 58.55,
-  "atr": 1.92,
+  "generated": "2026-08-13T07:12:18Z",
+  "date": "2026-08-12",
+  "price": 59.06,
+  "atr": 1.88,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 57.05,
-  "ema200": 60.39,
-  "rsi": 61.17,
-  "macd_line": 0.508912,
-  "macd_signal": -0.536772,
-  "macd_hist": 1.045684,
+  "ema50": 57.13,
+  "ema200": 60.35,
+  "rsi": 62.42,
+  "macd_line": 0.747788,
+  "macd_signal": -0.27986,
+  "macd_hist": 1.027648,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-05",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-08-06",
       "name": "Morning Star",
@@ -35,13 +29,6 @@ window.PRICES_DATA_XAGUSD = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-19",
-      "open": 61.9,
-      "high": 65.74,
-      "low": 60.85,
-      "close": 65.68
-    },
     {
       "date": "2026-03-20",
       "open": 64.68,
@@ -734,6 +721,13 @@ window.PRICES_DATA_XAGUSD = {
       "high": 58.99,
       "low": 58.16,
       "close": 58.55
+    },
+    {
+      "date": "2026-08-12",
+      "open": 59.58,
+      "high": 59.95,
+      "low": 58.79,
+      "close": 59.06
     }
   ]
 };

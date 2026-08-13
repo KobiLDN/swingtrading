@@ -1,30 +1,24 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-08-12T07:08:08Z",
-  "date": "2026-08-12",
-  "price": 1.35083,
-  "atr": 0.00521,
-  "atr_pips": 52,
+  "generated": "2026-08-13T07:12:16Z",
+  "date": "2026-08-13",
+  "price": 1.34798,
+  "atr": 0.0053,
+  "atr_pips": 53,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34148,
-  "ema200": 1.34453,
-  "rsi": 62.68,
-  "macd_line": 0.003482,
-  "macd_signal": 0.002902,
-  "macd_hist": 0.000581,
+  "ema50": 1.34169,
+  "ema200": 1.34502,
+  "rsi": 56.83,
+  "macd_line": 0.003168,
+  "macd_signal": 0.002939,
+  "macd_hist": 0.00023,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-08",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-08-10",
       "name": "Morning Star",
@@ -39,21 +33,26 @@ window.PRICES_DATA_GBPUSD = {
     },
     {
       "date": "2026-08-12",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
+      "name": "Shooting Star",
+      "signal": "BEARISH REVERSAL",
+      "strength": 3
+    },
+    {
+      "date": "2026-08-12",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
+    },
+    {
+      "date": "2026-08-13",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-05",
-      "open": 1.35313,
-      "high": 1.35779,
-      "low": 1.35146,
-      "close": 1.35386
-    },
     {
       "date": "2026-05-06",
       "open": 1.35386,
@@ -743,9 +742,16 @@ window.PRICES_DATA_GBPUSD = {
     {
       "date": "2026-08-12",
       "open": 1.3508,
-      "high": 1.35117,
-      "low": 1.3502,
-      "close": 1.35083
+      "high": 1.35402,
+      "low": 1.34881,
+      "close": 1.34956
+    },
+    {
+      "date": "2026-08-13",
+      "open": 1.34952,
+      "high": 1.35008,
+      "low": 1.3475,
+      "close": 1.34798
     }
   ]
 };
