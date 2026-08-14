@@ -1,47 +1,40 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-08-13T07:12:16Z",
-  "date": "2026-08-13",
-  "price": 1.15193,
-  "atr": 0.00417,
-  "atr_pips": 42,
+  "generated": "2026-08-14T07:08:32Z",
+  "date": "2026-08-14",
+  "price": 1.15433,
+  "atr": 0.00411,
+  "atr_pips": 41,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.14898,
-  "ema200": 1.15994,
-  "rsi": 54.87,
-  "macd_line": 0.002696,
-  "macd_signal": 0.002784,
-  "macd_hist": -8.8e-05,
+  "ema50": 1.14923,
+  "ema200": 1.16122,
+  "rsi": 59.64,
+  "macd_line": 0.002692,
+  "macd_signal": 0.002778,
+  "macd_hist": -8.6e-05,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-09",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-08-11",
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
+    },
+    {
+      "date": "2026-08-14",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 3,
+  "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-05-06",
-      "open": 1.16933,
-      "high": 1.1796,
-      "low": 1.1692,
-      "close": 1.17489
-    },
     {
       "date": "2026-05-07",
       "open": 1.17489,
@@ -731,9 +724,16 @@
     {
       "date": "2026-08-13",
       "open": 1.15251,
-      "high": 1.15315,
+      "high": 1.15455,
       "low": 1.1512,
-      "close": 1.15193
+      "close": 1.15291
+    },
+    {
+      "date": "2026-08-14",
+      "open": 1.15297,
+      "high": 1.15469,
+      "low": 1.15267,
+      "close": 1.15433
     }
   ]
 }
