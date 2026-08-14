@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-08-11
-**Generated:** 2026-08-12T07:47:15Z
+**Date:** 2026-08-13
+**Generated:** 2026-08-14T07:46:14Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | WAIT |
 | **Confidence** | MEDIUM |
-| **Entry** | 770.56 |
-| **Stop Loss** | 778.81 |
-| **Target 1** | 758.00 |
-| **Target 2** | 746.49 |
-| **Risk/Reward** | 1:1.5 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
 | **Score** | 6/10 |
-| **Support** | 758.0, 746.49, 713.31 |
-| **Resistance** | 778.81, 785.0, 800.0 |
+| **Support** | 769.88, 748.7, 716.35 |
+| **Resistance** | 785.88, 790.0, 800.0 |
 
 ---
 
 ## Analysis
 
-The trend structure remains strongly bullish with price well above both the 50 EMA (746.49) and 200 EMA (713.31). However, the immediate price action is showing clear signs of exhaustion. The appearance of a Bearish Engulfing pattern followed by an Evening Star within the last five candles is a potent reversal signal, especially after a prolonged uptrend. Price is currently at 770.56, and the RSI at 63.34 is neutral but the bearish RSI divergence indicates that momentum is fading even as price makes new highs. This divergence between price and momentum is a classic warning of a potential trend reversal or at least a significant pullback.
+The trend on SPY is undeniably strong, with price firmly above both the 50- and 200-period EMAs, and the MACD still in bullish territory. However, the pre-calculated signals reveal a critical divergence: RSI shows bearish divergence despite a neutral reading, and the last five candles have produced two distinct bearish reversal patterns—a Bearish Engulfing and an Evening Star. These patterns, especially when combined with divergence, suggest that the current uptrend may be losing momentum and that a short-term pullback or reversal is increasingly likely. The signal score of 8/10 appears overly optimistic given these warning signs, so I have revised it down to 6/10 to reflect the conflicting nature of the data.
 
-The MACD remains bullish with the line above the signal and a positive histogram, which provides some counter-trend strength. However, the histogram is relatively small (+2.91) compared to the ATR of 8.25, suggesting the bullish momentum is weak relative to recent volatility. The confluence of bearish candlestick patterns and bearish RSI divergence against a still-bullish MACD creates a mixed picture, but the candlestick signals are often leading indicators. The signal score of 8/10 appears inflated given these contradictions; I would revise it down to 6/10 to reflect the higher risk of a false signal in a strong uptrend.
+The price action does confirm the EMA uptrend in the broader sense, but the recent candlestick patterns indicate that sellers are stepping in at these elevated levels. No additional chart patterns like triangles or flags are immediately inferable from the provided data, but the Evening Star and Bearish Engulfing themselves are powerful reversal signals. Key support levels are derived from the ATR (14) and the EMAs: 769.88 (price minus one ATR), 748.70 (EMA50), and 716.35 (EMA200). Resistance levels are 785.88 (price plus one ATR), followed by round numbers 790 and 800, which may act as psychological barriers.
 
-Key support levels are the recent swing low near 758.00, followed by the 50 EMA at 746.49. Resistance is the recent high at 778.81, which also aligns with the ATR-based stop-loss level. The best trade setup here is a short position targeting a pullback to the 50 EMA, as the bearish reversal patterns suggest a retracement is imminent. The risk-reward is acceptable at 1:1.5, but the strong underlying trend means this is a counter-trend trade and should be managed with tight discipline.
+The RSI and MACD are not in full agreement with the trend. The MACD is still bullish, but the histogram is positive and could be slowing. The bearish RSI divergence warns that the recent price highs are not supported by underlying momentum, creating a classic non-confirmation that often precedes a decline. Until the price either breaks above the recent high to invalidate the divergence or breaks below the bearish engulfing low to confirm the reversal, the safest course is to wait. A short entry would be tempting but carries high risk in a strong uptrend, and a buy entry is unsupported by the reversal patterns. Therefore, the single best trade setup is to remain on the sidelines and wait for a clearer signal—either a confirmed breakdown below the bearish engulfing low or a bullish reassertion above the resistance zone.
 
 ---
 
 ## Invalidation
 
-This short setup is invalidated if price closes above 778.81, breaking the recent high and negating the bearish reversal patterns.
+This wait setup is invalidated if SPY closes above the recent swing high (near 785.88 or the high of the Evening Star pattern) on strong volume, confirming the uptrend resumption and negating the bearish divergence and reversal patterns.
 
 ---
 
