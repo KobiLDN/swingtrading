@@ -1,61 +1,46 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-08-14T07:08:32Z",
-  "date": "2026-08-14",
-  "price": 1.15433,
-  "atr": 0.00411,
-  "atr_pips": 41,
+  "generated": "2026-08-17T06:33:31Z",
+  "date": "2026-08-17",
+  "price": 1.15897,
+  "atr": 0.00424,
+  "atr_pips": 42,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.14923,
-  "ema200": 1.16122,
-  "rsi": 59.64,
-  "macd_line": 0.002692,
-  "macd_signal": 0.002778,
-  "macd_hist": -8.6e-05,
+  "ema50": 1.15026,
+  "ema200": 1.15967,
+  "rsi": 66.51,
+  "macd_line": 0.00311,
+  "macd_signal": 0.002921,
+  "macd_hist": 0.000189,
   "trend": "NEUTRAL",
-  "divergence": "None",
+  "divergence": "BEARISH",
   "patterns": [
-    {
-      "date": "2026-08-11",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-08-14",
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-08-16",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-08-17",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 7,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-07",
-      "open": 1.17489,
-      "high": 1.17783,
-      "low": 1.17242,
-      "close": 1.17243
-    },
-    {
-      "date": "2026-05-08",
-      "open": 1.17243,
-      "high": 1.17881,
-      "low": 1.17233,
-      "close": 1.17842
-    },
-    {
-      "date": "2026-05-09",
-      "open": 1.17847,
-      "high": 1.1793,
-      "low": 1.17579,
-      "close": 1.1787
-    },
     {
       "date": "2026-05-10",
       "open": 1.17867,
@@ -731,9 +716,30 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-08-14",
       "open": 1.15297,
-      "high": 1.15469,
+      "high": 1.15853,
       "low": 1.15267,
-      "close": 1.15433
+      "close": 1.15705
+    },
+    {
+      "date": "2026-08-15",
+      "open": 1.15702,
+      "high": 1.15722,
+      "low": 1.15659,
+      "close": 1.15691
+    },
+    {
+      "date": "2026-08-16",
+      "open": 1.15689,
+      "high": 1.15858,
+      "low": 1.15123,
+      "close": 1.15666
+    },
+    {
+      "date": "2026-08-17",
+      "open": 1.15671,
+      "high": 1.15927,
+      "low": 1.15644,
+      "close": 1.15897
     }
   ]
 };

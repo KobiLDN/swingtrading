@@ -1,23 +1,23 @@
 {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-08-14T07:08:33Z",
-  "date": "2026-08-13",
-  "price": 777.88,
-  "atr": 7.9,
+  "generated": "2026-08-17T06:33:32Z",
+  "date": "2026-08-14",
+  "price": 776.34,
+  "atr": 7.58,
   "atr_pips": 8,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 748.7,
-  "ema200": 716.35,
-  "rsi": 67.36,
-  "macd_line": 8.256124,
-  "macd_signal": 5.692246,
-  "macd_hist": 2.563878,
+  "ema50": 749.79,
+  "ema200": 717.19,
+  "rsi": 65.7,
+  "macd_line": 8.514573,
+  "macd_signal": 6.256711,
+  "macd_hist": 2.257862,
   "trend": "STRONG UPTREND",
-  "divergence": "BEARISH",
+  "divergence": "None",
   "patterns": [
     {
       "date": "2026-08-11",
@@ -32,16 +32,9 @@
       "strength": 5
     }
   ],
-  "score": 8,
-  "verdict": "BUY/SELL",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-03-23",
-      "open": 658.07,
-      "high": 662.62,
-      "low": 653.94,
-      "close": 655.38
-    },
     {
       "date": "2026-03-24",
       "open": 651.32,
@@ -734,6 +727,13 @@
       "high": 779.37,
       "low": 774.11,
       "close": 777.88
+    },
+    {
+      "date": "2026-08-14",
+      "open": 778.54,
+      "high": 778.8,
+      "low": 775.43,
+      "close": 776.34
     }
   ]
 }

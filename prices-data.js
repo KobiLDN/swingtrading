@@ -1,48 +1,24 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-08-14T07:08:31Z",
-  "date": "2026-08-14",
-  "price": 1.35057,
-  "atr": 0.00518,
-  "atr_pips": 52,
+  "generated": "2026-08-17T06:33:30Z",
+  "date": "2026-08-17",
+  "price": 1.35541,
+  "atr": 0.00499,
+  "atr_pips": 50,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34207,
-  "ema200": 1.34646,
-  "rsi": 60.97,
-  "macd_line": 0.003217,
-  "macd_signal": 0.003003,
-  "macd_hist": 0.000213,
+  "ema50": 1.34353,
+  "ema200": 1.34554,
+  "rsi": 67.02,
+  "macd_line": 0.00381,
+  "macd_signal": 0.003363,
+  "macd_hist": 0.000447,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-10",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-08-11",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
-    {
-      "date": "2026-08-12",
-      "name": "Shooting Star",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
-    },
-    {
-      "date": "2026-08-12",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-08-13",
       "name": "Evening Star",
@@ -54,32 +30,29 @@ window.PRICES_DATA = {
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-08-15",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-08-16",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
+    },
+    {
+      "date": "2026-08-17",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-05-07",
-      "open": 1.35934,
-      "high": 1.36316,
-      "low": 1.35509,
-      "close": 1.35509
-    },
-    {
-      "date": "2026-05-08",
-      "open": 1.35509,
-      "high": 1.3638,
-      "low": 1.35465,
-      "close": 1.36294
-    },
-    {
-      "date": "2026-05-09",
-      "open": 1.36298,
-      "high": 1.36349,
-      "low": 1.36256,
-      "close": 1.363
-    },
     {
       "date": "2026-05-10",
       "open": 1.36297,
@@ -755,9 +728,30 @@ window.PRICES_DATA = {
     {
       "date": "2026-08-14",
       "open": 1.34871,
-      "high": 1.35086,
+      "high": 1.35613,
       "low": 1.34834,
-      "close": 1.35057
+      "close": 1.35341
+    },
+    {
+      "date": "2026-08-15",
+      "open": 1.35337,
+      "high": 1.35422,
+      "low": 1.3524,
+      "close": 1.35334
+    },
+    {
+      "date": "2026-08-16",
+      "open": 1.3533,
+      "high": 1.35442,
+      "low": 1.35096,
+      "close": 1.35358
+    },
+    {
+      "date": "2026-08-17",
+      "open": 1.35362,
+      "high": 1.35585,
+      "low": 1.35308,
+      "close": 1.35541
     }
   ]
 };
