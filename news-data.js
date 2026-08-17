@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-14T07:46:42Z",
+  "generated": "2026-08-17T07:17:58Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "Dollar Mostly Flat After Inflation Meets Expectations",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-mostly-flat-inflation-meets-102438035.html?.tsrc=rss",
+        "time_published": "2026-08-14 10:24",
+        "source": "Finance",
+        "summary": "The US dollar has held around familiar areas with July\u2019s inflation matching the consensus precisely."
+      },
+      {
+        "title": "US Dollar Price Forecast: Softer PPI Boosts Fed Cut Bets \u2013 Can EUR/USD and GBP/USD Rally?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-softer-070021827.html?.tsrc=rss",
+        "time_published": "2026-08-14 07:00",
+        "source": "Finance",
+        "summary": "Softer U.S. inflation strengthens Fed easing expectations as DXY holds key support while EUR/USD and GBP/USD test important resistance levels."
+      },
       {
         "title": "US Dollar Price Forecast: Can PPI Revive DXY as EUR/USD and GBP/USD Retreat?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ppi-073806684.html?.tsrc=rss",
@@ -43,24 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-08-10 16:34",
         "source": "Finance",
         "summary": "The American currency gains ground, supported by rising Treasury yields."
-      },
-      {
-        "title": "EUR/USD, GBP/USD, and USD/CAD \u2013 Short-Term Forecast for 10/8/2026",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-gbp-usd-usd-135647672.html?.tsrc=rss",
-        "time_published": "2026-08-10 13:56",
-        "source": "Finance",
-        "summary": "The US dollar is trying to turn things around early on Monday."
-      },
-      {
-        "title": "US Dollar Price Forecast: Jobs Data Weaken DXY \u2013 Will CPI Lift EUR/USD and GBP/USD?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-jobs-080330349.html?.tsrc=rss",
-        "time_published": "2026-08-10 08:03",
-        "source": "Finance",
-        "summary": "Weak U.S. payrolls pressure the dollar as markets turn to July CPI for fresh Fed clues, while EUR/USD and GBP/USD test major resistance."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Softer PPI Boosts Fed Cut Bets \u2013 Can EUR/USD and GBP/USD Rally?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-softer-070021827.html?.tsrc=rss",
+        "time_published": "2026-08-14 07:00",
+        "source": "Finance",
+        "summary": "Softer U.S. inflation strengthens Fed easing expectations as DXY holds key support while EUR/USD and GBP/USD test important resistance levels."
+      },
+      {
         "title": "US Dollar Price Forecast: Can PPI Revive DXY as EUR/USD and GBP/USD Retreat?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ppi-073806684.html?.tsrc=rss",
         "time_published": "2026-08-13 07:38",
@@ -108,17 +115,31 @@ window.NEWS_DATA = {
         "time_published": "2026-08-10 13:56",
         "source": "Finance",
         "summary": "The US dollar is trying to turn things around early on Monday."
-      },
-      {
-        "title": "US Dollar Price Forecast: Jobs Data Weaken DXY \u2013 Will CPI Lift EUR/USD and GBP/USD?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-jobs-080330349.html?.tsrc=rss",
-        "time_published": "2026-08-10 08:03",
-        "source": "Finance",
-        "summary": "Weak U.S. payrolls pressure the dollar as markets turn to July CPI for fresh Fed clues, while EUR/USD and GBP/USD test major resistance."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Investors Are Betting Big on Gold Again, but Silver Is Still the Better Buy",
+        "url": "https://247wallst.com/investing/2026/08/14/investors-are-betting-big-on-gold-again-but-silver-is-still-the-better-buy/?.tsrc=rss",
+        "time_published": "2026-08-14 15:47",
+        "source": "247wallst",
+        "summary": "Gold just posted a 10% surge in a single month and fund flows into miners are hitting year-long highs, but one overlooked metal has quietly tripled gold's returns over the same period and has a demand story that gold simply cannot match."
+      },
+      {
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday Amid Retail Sales Data",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131348296.html?.tsrc=rss",
+        "time_published": "2026-08-14 13:13",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra"
+      },
+      {
+        "title": "SIL- Your Profit Play for the Next Leg of the Silver Bull Market",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/sil-profit-play-next-leg-050100582.html?.tsrc=rss",
+        "time_published": "2026-08-14 05:01",
+        "source": "Finance",
+        "summary": "Silver has been on one heck of a rollercoaster ride. But buckle up, Buttercup! The ride ain\u2019t over yet \u2013 and that\u2019s why you should consider the Global X Silver Miners ETF (SIL), advises Sean Brodrick, editor at Weiss Rating Daily."
+      },
       {
         "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Producer Inflation Data Release",
         "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131321660.html?.tsrc=rss",
@@ -153,88 +174,74 @@ window.NEWS_DATA = {
         "time_published": "2026-08-11 12:00",
         "source": "Finance",
         "summary": "Gold, space, defense and silver-mining ETFs soared last week as weak jobs data eased Fed rate-hike fears and boosted risk appetite."
-      },
-      {
-        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
-        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-lower-equity-131805100.html?.tsrc=rss",
-        "time_published": "2026-08-10 13:18",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Strong Tech Results",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131928036.html?.tsrc=rss",
-        "time_published": "2026-08-07 13:19",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.3%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132120169.html?.tsrc=rss",
-        "time_published": "2026-08-06 13:21",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1% and the actively trad"
       }
     ],
     "spx": [
       {
-        "title": "Wall Street Declared Active Funds Dead. Nobody Told the Growth Fund of America, AGTHX",
-        "url": "https://247wallst.com/investing/2026/08/13/wall-street-declared-active-funds-dead-nobody-told-the-growth-fund-of-america-agthx/?.tsrc=rss",
-        "time_published": "2026-08-13 18:55",
+        "title": "\u201cThat Ain\u2019t Okay:\u201d Dave Ramsey Blasts Couple With $150,000 in Cash and a $60,000 Car Loan",
+        "url": "https://247wallst.com/personal-finance/2026/08/16/that-aint-okay-dave-ramsey-blasts-couple-with-150000-in-cash-and-a-60000-car-loan/?.tsrc=rss",
+        "time_published": "2026-08-16 23:57",
         "source": "247wallst",
-        "summary": "Index funds were supposed to have buried active management for good, yet one $360 billion mutual fund keeps writing checks to private AI companies that indexers cannot even touch. The question is whether the portfolio earns that privilege or just gets lucky timing."
+        "summary": "A caller with a paid-off house, a six-figure salary, and six figures in savings thought he was doing everything right. Dave Ramsey told him that kind of financial comfort can quietly cost a fortune."
       },
       {
-        "title": "Pantheon Drops Surprising Fed Call After July CPI",
-        "url": "https://finance.yahoo.com/economy/policy/articles/pantheon-drops-surprising-fed-call-192252600.html?.tsrc=rss",
-        "time_published": "2026-08-13 19:22",
-        "source": "Finance",
-        "summary": "One inflation trend could keep policymakers on the sidelines"
-      },
-      {
-        "title": "US Stock Futures Rangebound After S&P 500 Ends At Record Highs As Data Shows Cooling Inflation \u2014 WDAY, SNDK, AMD, DELL, HTZ In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-futures-rangebound-after-s-and-p-500-ends-at-record-highs-as-data-shows-cooling-inflation-wday-sndk-amd-dell-htz-in-focus/cZoqpLeRJLz?.tsrc=rss",
-        "time_published": "2026-08-13 22:59",
-        "source": "Stocktwits",
-        "summary": "The producer price index rose 4.7% in July 2025 after a 5.5% annual increase in June."
-      },
-      {
-        "title": "Fidelity\u2019s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It",
-        "url": "https://247wallst.com/investing/2026/08/13/fidelitys-contrafund-fcntx-bet-against-the-crowd-and-got-enormous-doing-it/?.tsrc=rss",
-        "time_published": "2026-08-13 21:50",
+        "title": "High Dividend ETFs Are Beating the S&P 500 by 9 Points in 2026 and These 3 Pay Up to 4 Percent While Doing It",
+        "url": "https://247wallst.com/investing/2026/08/16/high-dividend-etfs-are-beating-the-sp-500-by-9-points-in-2026-and-these-3-pay-up-to-4-percent-while-doing-it/?.tsrc=rss",
+        "time_published": "2026-08-16 14:46",
         "source": "247wallst",
-        "summary": "Fidelity Contrafund built a legendary reputation by zigging while Wall Street zagged, but managing $157.8 billion forces some uncomfortable questions about whether a fund this massive can still bet against the crowd without becoming it."
+        "summary": "After a decade of chasing growth, dividend investors are finally having their moment in 2026, but not all high-yield ETFs are winning the same way or for the same reasons."
       },
       {
-        "title": "The 60/40 Portfolio Was Declared Dead. American Balanced Fund, ABALX, Never Got the Memo",
-        "url": "https://247wallst.com/investing/2026/08/13/the-60-40-portfolio-was-declared-dead-american-balanced-fund-abalx-never-got-the-memo/?.tsrc=rss",
-        "time_published": "2026-08-13 20:50",
+        "title": "JEPQ vs. SPYI: Nearly Identical Yields, and One ETF Charges You Twice the Fee",
+        "url": "https://247wallst.com/investing/etf/2026/08/15/jepq-vs-spyi-nearly-identical-yields-and-one-etf-charges-you-twice-the-fee/?.tsrc=rss",
+        "time_published": "2026-08-15 22:45",
         "source": "247wallst",
-        "summary": "While Wall Street pundits spent years writing the obituary for the balanced portfolio, one 90-year-old fund kept quietly compounding through rate shocks, drawdowns, and the critics. Here is why the death notice may have been premature."
+        "summary": "Two ETFs with nearly identical monthly payouts are built on completely different engines, and choosing the wrong one based on yield alone could cost you far more than the fee difference suggests."
       },
       {
-        "title": "There\u2019s a Good Chance Vanguard\u2019s VINIX Is in Your 401(k) and You\u2019ve Never Heard of It",
-        "url": "https://247wallst.com/investing/2026/08/13/theres-a-good-chance-vanguards-vinix-is-in-your-401k-and-youve-never-heard-of-it/?.tsrc=rss",
-        "time_published": "2026-08-13 20:11",
+        "title": "DIVO or JEPI: Which Monthly Dividend Actually Protects Your Principal?",
+        "url": "https://247wallst.com/investing/2026/08/15/divo-or-jepi-which-monthly-dividend-actually-protects-your-principal/?.tsrc=rss",
+        "time_published": "2026-08-15 18:23",
         "source": "247wallst",
-        "summary": "One of the biggest S&P 500 funds on the planet holds hundreds of billions in retirement savings, yet most of the people who own it have never seen its ticker and cannot buy a single share on their own."
+        "summary": "Both DIVO and JEPI hand you a monthly paycheck funded by covered calls on blue-chip stocks, but one of them has been quietly compounding your principal while the other trades that growth away for a fatter yield."
       },
       {
-        "title": "Meta Remains a Deeply Discounted Giant: Wall Street Expects 30% Gains, One Analyst Expects 100%",
-        "url": "https://247wallst.com/investing/2026/08/13/meta-remains-a-deeply-discounted-giant-wall-street-expects-30-gains-one-analyst-expects-100/?.tsrc=rss",
-        "time_published": "2026-08-13 16:36",
-        "source": "247wallst",
-        "summary": "Wall Street is nearly unanimous that Meta is a screaming buy, yet the stock keeps sliding while one analyst eyes a price target that sounds almost reckless. The story behind that gap is more complicated than a simple earnings miss."
-      },
-      {
-        "title": "The Broad Market ETF That Belongs in Almost Every Passive Investor's Portfolio",
-        "url": "https://www.fool.com/investing/2026/08/13/broad-market-etf-belong-passive-investor-voo/?.tsrc=rss",
-        "time_published": "2026-08-13 15:50",
+        "title": "Which Is the Better ETF, State Street's Broad Market Exposure Through SPY or Invesco's Tech-Focused QQQ?",
+        "url": "https://www.fool.com/coverage/etfs/2026/08/15/which-is-the-better-etf-state-street-s-broad-market-exposure-through-spy-or-invesco-s-tech-focused-qqq/?.tsrc=rss",
+        "time_published": "2026-08-15 17:41",
         "source": "Fool",
-        "summary": "Simpler isn't just easier, it's also almost always better."
+        "summary": "QQQ delivered higher returns while SPY sports lower fees and a higher dividend yield."
+      },
+      {
+        "title": "Social Security Pays the Average Couple $3,120 a Month. Here\u2019s the Portfolio It Takes to Match It.",
+        "url": "https://247wallst.com/personal-finance/2026/08/15/social-security-pays-the-average-couple-3120-a-month-heres-the-portfolio-it-takes-to-match-it-2/?.tsrc=rss",
+        "time_published": "2026-08-15 17:32",
+        "source": "247wallst",
+        "summary": "Most retirement plans treat Social Security as a bonus, but pricing out what it actually takes to replace that monthly check from a private portfolio reveals just how much government backing most households are quietly depending on."
+      },
+      {
+        "title": "5 Monthly Dividend ETFs Paying 7 to 14 Percent to Ride Into 2027",
+        "url": "https://247wallst.com/investing/2026/08/15/5-monthly-dividend-etfs-paying-7-to-14-percent-to-ride-into-2027/?.tsrc=rss",
+        "time_published": "2026-08-15 17:11",
+        "source": "247wallst",
+        "summary": "Five monthly paying ETFs are pulling income from covered calls, preferred stock, and junk bond coupons at yields that dwarf the 10-year Treasury, but the engine behind each payout changes everything about which one belongs in your portfolio."
+      },
+      {
+        "title": "Two Funds Promise 20% Income From the S&P 500. One Caps Your Upside, One Doesn\u2019t, and It Charges Less",
+        "url": "https://247wallst.com/investing/2026/08/14/two-funds-promise-20-income-from-the-sp-500-one-caps-your-upside-one-doesnt-and-it-charges-less/?.tsrc=rss",
+        "time_published": "2026-08-14 21:35",
+        "source": "247wallst",
+        "summary": "Two ETFs are racing to deliver 20% annual income from the S&P 500, but they take fundamentally different bets to get there, and the gap between them is costing some investors real money."
       }
     ],
     "oil": [
+      {
+        "title": "'Economic Isolation' for Iran? ETFs to Gain/Lose",
+        "url": "https://finance.yahoo.com/economy/policy/articles/economic-isolation-iran-etfs-gain-140000350.html?.tsrc=rss",
+        "time_published": "2026-08-14 14:00",
+        "source": "Finance",
+        "summary": "Iran faces new economic pressure. See which ETFs could gain or lose from higher oil, defense spending and inflation risks."
+      },
       {
         "title": "Oil Is Up 86% in 2026. The 4% Toll-Collector Fund Beats Chasing Crude",
         "url": "https://247wallst.com/investing/2026/08/13/oil-is-up-86-in-2026-the-4-toll-collector-fund-beats-chasing-crude/?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-23 10:01",
         "source": "Finance",
         "summary": "New Federal Reserve Chairman Kevin Warsh faced Congress last week for the first time, but a Cato Institute economist says lawmakers may have squandered their best chance to press him before rates move. In a commentary published Monday, Cato\u2019s Jai..."
-      },
-      {
-        "title": "Top-Performing ETF Areas of Last Week",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/top-performing-etf-areas-last-140000900.html?.tsrc=rss",
-        "time_published": "2026-07-21 14:00",
-        "source": "Finance",
-        "summary": "Middle East tensions, AI-driven tech weakness and stock-specific swings fueled big moves in leveraged ETFs. Here's a look at last week's top performers."
       }
     ]
   }

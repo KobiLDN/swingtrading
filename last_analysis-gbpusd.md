@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-08-14
-**Generated:** 2026-08-14T07:45:06Z
+**Date:** 2026-08-17
+**Generated:** 2026-08-17T07:11:34Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | BUY |
-| **Confidence** | MEDIUM |
-| **Entry** | 1.35057 |
-| **Stop Loss** | 1.34539 |
-| **Target 1** | 1.35575 |
-| **Target 2** | 1.36100 |
-| **Risk/Reward** | 1:1.5 |
-| **Score** | 6/10 |
-| **Support** | 1.34646, 1.34207, 1.335 |
-| **Resistance** | 1.35575, 1.361, 1.37 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 4/10 |
+| **Support** | 1.35, 1.3455, 1.3435 |
+| **Resistance** | 1.36, 1.365, 1.37 |
 
 ---
 
 ## Analysis
 
-The trend is confirmed bullish. Price at 1.35057 is trading above both the EMA 50 (1.34207) and EMA 200 (1.34646), with the EMA 200 acting as a dynamic support floor. The EMA 50 is also above the EMA 200, forming a bullish alignment. Price action shows a series of candlestick patterns including multiple Morning Stars and Evening Stars, indicating indecision but an overall upward bias as the most recent pattern is a bullish Morning Star. The current price is near the upper end of recent range, suggesting momentum may continue.
+The price at 1.35541 sits well above both the EMA 50 (1.34353) and EMA 200 (1.34554), confirming a bullish bias in the daily trend. However, the price is now extended roughly 120 pips above the EMA 200, which introduces risk of mean reversion. The candlestick sequence shows conflicting signals—an Evening Star followed by a Morning Star, then a Doji, Bullish Engulfing, and another Morning Star—indicating indecision and potential exhaustion after the recent rally. The RSI at 67.02 is neutral but approaching overbought territory, while MACD remains bullish with a positive histogram, though momentum is not accelerating sharply.  
 
-No clear triangle, flag, or double top/bottom patterns are immediately evident on the daily chart from the given data. However, the clustering of candlestick reversals (Morning Star followed by Evening Star, then another Morning Star) suggests a potential ascending broadening formation or a volatile consolidation near resistance. The key near-term resistance is likely around 1.35575 (a prior swing high implied by the target), while support sits at the EMA 200 (1.34646) and the EMA 50 (1.34207).
+No clear chart patterns like triangles, flags, or double tops/bottoms are evident on the daily timeframe. The recent price action suggests a possible consolidation zone forming between 1.3500 (near-term psychological support) and 1.3600 (round number resistance). The signal score of 4/10 reflects the mixed candlestick signals and lack of a clean, high-probability entry despite the bullish trend.  
 
-RSI at 60.97 is neutral and not overbought, leaving room for further upside. MACD is bullish with the line above the signal and a positive histogram, confirming the trend. There is no RSI divergence, so the momentum is aligned with price. The confluence of EMA trend, MACD, and neutral RSI supports a bullish bias, though the mixed candlestick patterns and moderate signal score (5/10) warrant caution.
+RSI and MACD both lean bullish, but the RSI is not yet overbought, and MACD histogram is positive but flat, indicating waning upside momentum. There is no RSI divergence to warn of a reversal, but the lack of strong momentum confluence reduces conviction. The best trade setup would be a pullback to the EMA 50/200 zone near 1.3435-1.3455 with a bullish reversal candlestick, but that is not present now.  
 
-The best trade setup is a buy at current price with a stop loss just below the EMA 200 (1.34646) to allow for a minor pullback. Target 1 is set at 1.35575 (approximately 52 pips, matching ATR), and Target 2 at 1.36100 (a psychological round number and potential resistance). The risk-reward is 1:1.5, which is acceptable for a swing trade. The score is revised to 6/10 due to the strong trend alignment and lack of divergence, offset by the mixed candlestick signals.
+Given the extended price, mixed candlestick signals, and neutral RSI, the risk of a short-term pullback is elevated. Entering a buy here offers poor risk-reward due to proximity to resistance at 1.3600, while a sell would counter the dominant trend. Waiting for a clearer setup—either a pullback to support or a breakout above 1.3600 with confirmation—is prudent.
 
 ---
 
 ## Invalidation
 
-A daily close below the EMA 200 at 1.34646 would invalidate this bullish setup and signal a trend reversal.
+A daily close below 1.3500 would invalidate the bullish bias and suggest a deeper correction toward the EMA 200.
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-08-14
-**Generated:** 2026-08-14T07:45:48Z
+**Date:** 2026-08-17
+**Generated:** 2026-08-17T07:12:22Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,32 +12,33 @@
 |-------|-------|
 | **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | 4334.33 |
-| **Stop Loss** | 4263.92 |
-| **Target 1** | 4410.00 |
-| **Target 2** | 4484.97 |
-| **Risk/Reward** | 1:1.08 (based on T1) |
-| **Score** | 7/10 |
-| **Support** | 4300.0, 4263.92, 4197.12 |
-| **Resistance** | 4410.0, 4484.97, 4550.0 |
+| **Entry** | 4396.32 |
+| **Stop Loss** | 4334.33 |
+| **Target 1** | 4460.31 |
+| **Target 2** | 4522.30 |
+| **Risk/Reward** | 1:2.03 |
+| **Score** | 6/10 |
+| **Support** | 4334.33, 4219.52, 4157.53 |
+| **Resistance** | 4460.31, 4522.3, 4584.29 |
 
 ---
 
 ## Analysis
 
-Price action is currently trading above the EMA 50 (4197.12) but below the EMA 200 (4484.97), which creates a bearish cross configuration (death cross potential) and keeps the broader trend neutral. However, the Morning Star candlestick pattern over the last five candles signals a bullish reversal from a recent low, suggesting short-term buying momentum. The RSI at 62.97 is neutral and not overbought, but the bearish RSI divergence warns that upside momentum may be waning relative to price. MACD remains bullish with the line above the signal and a positive histogram, confirming that bullish momentum is still intact in the short term.  
+The overall trend is classified as NEUTRAL, with price currently trading between the EMA 50 (4219.52) and EMA 200 (4460.31). However, price action shows a clear bullish bias in the short term. The recent formation of a Morning Star candlestick pattern, preceded by a Doji, signals a potential reversal from a local low. Price has bounced off the EMA 50 support zone and is now pushing upward, confirming that the EMA 50 is acting as dynamic support. The MACD is bullish, with the line above the signal and a positive histogram, indicating increasing upward momentum. The RSI at 68.37 is neutral but approaching overbought territory, suggesting room for further upside before exhaustion.
 
-No obvious triangle, flag, or double top/bottom patterns are clearly defined on the daily chart near current price. The most notable structure is the price action holding above the 4263.92 area (approximate recent swing low and below ATR stop level) and attempting to reclaim the 4400-4410 zone as resistance-turned-support. The key resistance levels are the EMA 200 at 4484.97 and the psychological 4410 handle, which aligns with prior price congestion. Support is at 4300 (round number) and the EMA 50 at 4197.12.  
+No clear chart patterns like triangles or flags are evident on the daily timeframe, but the Morning Star pattern is a strong reversal signal. Key support is at the EMA 50 (4219.52) and the recent swing low near 4334.33 (which aligns with a prior consolidation zone). Resistance is clear at the EMA 200 (4460.31), which has acted as a ceiling in recent price action. A break above this level would open the door to the next resistance near 4522.30 (prior swing high). The RSI and MACD are in confluence, both supporting a bullish move, though the RSI is not yet overbought, leaving room for continuation.
 
-The RSI and MACD show mixed signals: MACD is bullish and supports a buy, while the bearish RSI divergence acts as a cautionary note, capping confidence. The Morning Star pattern is a strong bullish reversal signal (score 8/10 standalone), but the bearish divergence and neutral EMAs reduce the signal score to 7/10. The best trade is a modest long entry at current price (4334), stop below the recent swing low (4263.92 = 4334 - 70 ATR), targeting first the 4410 resistance and then the EMA 200 at 4484.97.  
+The single best trade setup is a long entry at current price (4396.32) with a stop loss placed below the recent swing low and EMA 50 at 4334.33. The first target is the EMA 200 at 4460.31, and the second target is the next resistance at 4522.30. This gives a risk-reward ratio of approximately 1:2.03, which is favorable. The signal score is revised upward to 6/10 due to the confluence of the Morning Star pattern, bullish MACD, and price holding above the EMA 50, despite the neutral overall trend.
 
-Risk is moderate: the ATR of 70 points gives a stop distance of about 1% of price. The bearish divergence could trigger a reversal before reaching targets, and the neutral EMA alignment means any failure to hold above 4300 would invalidate the bullish case. The reward-to-risk to T1 is roughly 1:1, which is acceptable for a swing trade but not exceptional.
+RISK ASSESSMENT:
+The primary risk is that the overall trend remains neutral and the EMA 200 resistance holds, leading to a false breakout or a return to the range. The ATR of 62 points means daily swings are large, so the stop loss is set wide enough to avoid being stopped out by noise. A break below the EMA 50 and the 4334.33 support level would invalidate the bullish setup and suggest a return to bearish or sideways conditions.
 
 ---
 
 ## Invalidation
 
-N/A
+A daily close below 4334.33 (the recent swing low and EMA 50 zone) would cancel this bullish setup.
 
 ---
 
