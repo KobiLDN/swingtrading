@@ -1,30 +1,24 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-08-17T06:33:30Z",
-  "date": "2026-08-17",
-  "price": 1.35541,
-  "atr": 0.00499,
+  "generated": "2026-08-18T06:25:09Z",
+  "date": "2026-08-18",
+  "price": 1.35275,
+  "atr": 0.00495,
   "atr_pips": 50,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34353,
+  "ema50": 1.34384,
   "ema200": 1.34554,
-  "rsi": 67.02,
-  "macd_line": 0.00381,
-  "macd_signal": 0.003363,
-  "macd_hist": 0.000447,
+  "rsi": 61.93,
+  "macd_line": 0.003601,
+  "macd_signal": 0.003393,
+  "macd_hist": 0.000207,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-13",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-08-14",
       "name": "Morning Star",
@@ -48,18 +42,23 @@ window.PRICES_DATA_GBPUSD = {
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Bearish Engulfing",
+      "signal": "STRONG BEARISH",
+      "strength": 4
+    },
+    {
+      "date": "2026-08-18",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-10",
-      "open": 1.36297,
-      "high": 1.36379,
-      "low": 1.35511,
-      "close": 1.35648
-    },
     {
       "date": "2026-05-11",
       "open": 1.35669,
@@ -749,9 +748,16 @@ window.PRICES_DATA_GBPUSD = {
     {
       "date": "2026-08-17",
       "open": 1.35362,
-      "high": 1.35585,
+      "high": 1.3572,
       "low": 1.35308,
-      "close": 1.35541
+      "close": 1.35407
+    },
+    {
+      "date": "2026-08-18",
+      "open": 1.35416,
+      "high": 1.35543,
+      "low": 1.35225,
+      "close": 1.35275
     }
   ]
 };

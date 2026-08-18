@@ -1,23 +1,23 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-08-17T06:33:31Z",
-  "date": "2026-08-17",
-  "price": 1.15897,
-  "atr": 0.00424,
+  "generated": "2026-08-18T06:25:09Z",
+  "date": "2026-08-18",
+  "price": 1.15696,
+  "atr": 0.00422,
   "atr_pips": 42,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15026,
-  "ema200": 1.15967,
-  "rsi": 66.51,
-  "macd_line": 0.00311,
-  "macd_signal": 0.002921,
-  "macd_hist": 0.000189,
+  "ema50": 1.15049,
+  "ema200": 1.15944,
+  "rsi": 61.94,
+  "macd_line": 0.00297,
+  "macd_signal": 0.002919,
+  "macd_hist": 5.1e-05,
   "trend": "NEUTRAL",
-  "divergence": "BEARISH",
+  "divergence": "None",
   "patterns": [
     {
       "date": "2026-08-14",
@@ -33,21 +33,20 @@ window.PRICES_DATA_EURUSD = {
     },
     {
       "date": "2026-08-17",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
+    },
+    {
+      "date": "2026-08-17",
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
     }
   ],
-  "score": 7,
+  "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-10",
-      "open": 1.17867,
-      "high": 1.18088,
-      "low": 1.17451,
-      "close": 1.17759
-    },
     {
       "date": "2026-05-11",
       "open": 1.17621,
@@ -737,9 +736,16 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-08-17",
       "open": 1.15671,
-      "high": 1.15927,
+      "high": 1.16161,
       "low": 1.15644,
-      "close": 1.15897
+      "close": 1.15801
+    },
+    {
+      "date": "2026-08-18",
+      "open": 1.15796,
+      "high": 1.15862,
+      "low": 1.15676,
+      "close": 1.15696
     }
   ]
 };
