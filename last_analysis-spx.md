@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-08-14
-**Generated:** 2026-08-17T07:15:02Z
+**Date:** 2026-08-17
+**Generated:** 2026-08-18T20:37:19Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,35 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | SELL |
 | **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 confirmed |
-| **Support** | 768.76, 749.79, 717.19 |
-| **Resistance** | 784.0, 792.0, 800.0 |
+| **Entry** | 772.67 |
+| **Stop Loss** | 780.01 |
+| **Target 1** | 765.33 |
+| **Target 2** | 758.00 |
+| **Risk/Reward** | 1:1 (T1) |
+| **Score** | 5/10 |
+| **Support** | 765.33, 758.0, 750.68 |
+| **Resistance** | 780.0, 785.0, 790.0 |
 
 ---
 
 ## Analysis
 
-Price at 776.34 sits well above both the EMA 50 (749.79) and EMA 200 (717.19), confirming the strong uptrend defined by the EMAs. However, the recent candlestick patterns—Bearish Engulfing and Evening Star—flash a short-term reversal warning within this uptrend. These are high-probability bearish signals when they occur after an extended move, and they introduce a conflict with the otherwise bullish MACD and trend structure. The trend is intact, but momentum is showing signs of exhaustion at current levels.
+The daily trend is undeniably strong, with price well above both the 50- and 200-period EMAs, confirming a bullish structure. However, the emergence of a Bearish Engulfing and an Evening Star within the last five candles signals a potential exhaustion of buying pressure near the current high. These reversal patterns carry weight in swing trading, especially when they appear after a sustained rally. The RSI at 61.78 is neutral—not overbought—so there is still room for a pullback without violating the overall uptrend. The MACD remains bullish with the line above the signal and a positive histogram, which creates a conflict: momentum is still positive, but price action is flashing a warning.
 
-No clear chart patterns like triangles, flags, or double tops/bottoms are evident from the last five candles alone. The price is probing a potential resistance zone near 776–784, which aligns with prior swing highs and round-number psychology. Support beneath lies at 768.76 (recent swing low) and then the EMA 50 at 749.79, which provides a significant cushion. The RSI at 65.7 is neutral and neither overbought nor divergent, but the bearish candlestick patterns outweigh the MACD’s bullish signal in the short term.
+Additional chart patterns are inferred from the candlestick formations: the Evening Star is a classic three-bar top pattern, and the preceding Bearish Engulfing reinforces the likelihood of a short-term peak. No distinct triangle, flag, or double top/bottom is directly provided, but the combination of these reversal candles often marks a local top, suggesting a potential flag or pennant failure. Key support near current price is based on the ATR (14) of 7.34: the first downside target aligns with a 1-ATR move to ~765.33, followed by the 2-ATR level at ~758.00. The 50-EMA at 750.68 serves as a major support floor. Resistance above is anchored at the recent highs around 780 (a round number and plausible swing high), with further resistance at 785 and 790.
 
-The MACD remains bullish with the histogram positive, but the Bearish Engulfing and Evening Star indicate that buyers may be losing control. This creates a non-confluence: the trend says buy, but price action says sell. The signal score of 5/10 reflects this standoff. Entering a long now risks a fakeout, while entering a short fights the powerful uptrend. The prudent move is to wait for either a confirmed breakdown below 768.76 (triggering a short) or a bullish engulfing pattern that negates the bearish candles (triggering a long).
-
-RISK ASSESSMENT:  
-The primary risk is a sharp reversal from the bearish candlestick patterns, which could target the EMA 50 at 749.79. However, fighting the strong uptrend with a short has high risk of a squeeze. Current volatility (ATR 7.58) is moderate, so any trade requires a stop-loss of at least 7–8 points. The risk/reward is unclear until a clear breakout or breakdown occurs. Waiting is the most disciplined action given the conflicting signals.
+The best trade setup here is a counter-trend short with a tight stop, exploiting the bearish reversal patterns while acknowledging the conflicting bullish MACD. The risk is elevated because the underlying trend is strongly upward, and the MACD has not yet turned down. A smaller position size is recommended. The signal score remains 5/10 as the bullish technical backdrop offsets the bearish price action, leaving the setup neutral.
 
 ---
 
 ## Invalidation
 
-A close above the Evening Star high (approximately 784.00) would invalidate the bearish reversal setup and confirm trend continuation, making a long trade viable.
+This setup is invalidated if price breaks and closes above 780.01, confirming that the bearish reversal patterns were false and the uptrend remains intact.
 
 ---
 

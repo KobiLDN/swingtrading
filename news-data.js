@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-17T07:17:58Z",
+  "generated": "2026-08-18T20:42:56Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Minutes Loom as EUR/USD and GBP/USD Test Resistance",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-063532680.html?.tsrc=rss",
+        "time_published": "2026-08-18 06:35",
+        "source": "Finance",
+        "summary": "DXY remains under pressure as Fed pause expectations rise, while EUR/USD and GBP/USD stay supported by comparatively hawkish ECB and BoE outlooks."
+      },
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Fade as EUR/USD and GBP/USD Rally",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073820762.html?.tsrc=rss",
+        "time_published": "2026-08-17 07:38",
+        "source": "Finance",
+        "summary": "DXY comes under pressure as Fed hike expectations fade, while EUR/USD and GBP/USD strengthen on narrowing policy divergence and domestic data."
+      },
       {
         "title": "Dollar Mostly Flat After Inflation Meets Expectations",
         "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-mostly-flat-inflation-meets-102438035.html?.tsrc=rss",
@@ -43,23 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-08-11 13:32",
         "source": "Finance",
         "summary": "Currency markets are testing support areas in early Tuesday trading. At this point, the interest rates in America continue to play a big part."
-      },
-      {
-        "title": "US Dollar Price Forecast: Will CPI Revive DXY as EUR/USD and GBP/USD Test Resistance?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-cpi-080528660.html?.tsrc=rss",
-        "time_published": "2026-08-11 08:05",
-        "source": "Finance",
-        "summary": "DXY, EUR/USD and GBP/USD trade near key technical levels as markets await U.S. CPI for fresh clues on inflation and the Fed\u2019s September policy outlook."
-      },
-      {
-        "title": "U.S. Dollar Moves Higher As Oil Rallies 5%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-oil-163435131.html?.tsrc=rss",
-        "time_published": "2026-08-10 16:34",
-        "source": "Finance",
-        "summary": "The American currency gains ground, supported by rising Treasury yields."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Minutes Loom as EUR/USD and GBP/USD Test Resistance",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-063532680.html?.tsrc=rss",
+        "time_published": "2026-08-18 06:35",
+        "source": "Finance",
+        "summary": "DXY remains under pressure as Fed pause expectations rise, while EUR/USD and GBP/USD stay supported by comparatively hawkish ECB and BoE outlooks."
+      },
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Fade as EUR/USD and GBP/USD Rally",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073820762.html?.tsrc=rss",
+        "time_published": "2026-08-17 07:38",
+        "source": "Finance",
+        "summary": "DXY comes under pressure as Fed hike expectations fade, while EUR/USD and GBP/USD strengthen on narrowing policy divergence and domestic data."
+      },
       {
         "title": "US Dollar Price Forecast: Softer PPI Boosts Fed Cut Bets \u2013 Can EUR/USD and GBP/USD Rally?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-softer-070021827.html?.tsrc=rss",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-11 08:05",
         "source": "Finance",
         "summary": "DXY, EUR/USD and GBP/USD trade near key technical levels as markets await U.S. CPI for fresh clues on inflation and the Fed\u2019s September policy outlook."
-      },
-      {
-        "title": "U.S. Dollar Moves Higher As Oil Rallies 5%: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-higher-oil-163435131.html?.tsrc=rss",
-        "time_published": "2026-08-10 16:34",
-        "source": "Finance",
-        "summary": "The American currency gains ground, supported by rising Treasury yields."
-      },
-      {
-        "title": "EUR/USD, GBP/USD, and USD/CAD \u2013 Short-Term Forecast for 10/8/2026",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-gbp-usd-usd-135647672.html?.tsrc=rss",
-        "time_published": "2026-08-10 13:56",
-        "source": "Finance",
-        "summary": "The US dollar is trying to turn things around early on Monday."
       }
     ],
     "xauusd": [],
@@ -127,114 +127,121 @@ window.NEWS_DATA = {
         "summary": "Gold just posted a 10% surge in a single month and fund flows into miners are hitting year-long highs, but one overlooked metal has quietly tripled gold's returns over the same period and has a demand story that gold simply cannot match."
       },
       {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday Amid Retail Sales Data",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131348296.html?.tsrc=rss",
-        "time_published": "2026-08-14 13:13",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, and the actively tra"
-      },
-      {
-        "title": "SIL- Your Profit Play for the Next Leg of the Silver Bull Market",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/sil-profit-play-next-leg-050100582.html?.tsrc=rss",
-        "time_published": "2026-08-14 05:01",
-        "source": "Finance",
-        "summary": "Silver has been on one heck of a rollercoaster ride. But buckle up, Buttercup! The ride ain\u2019t over yet \u2013 and that\u2019s why you should consider the Global X Silver Miners ETF (SIL), advises Sean Brodrick, editor at Weiss Rating Daily."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Producer Inflation Data Release",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131321660.html?.tsrc=rss",
-        "time_published": "2026-08-13 13:13",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2%, and the actively tra"
-      },
-      {
-        "title": "CDE- A Standout Silver Play that Delivered a Record Quarter",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/cde-standout-silver-play-delivered-050100820.html?.tsrc=rss",
-        "time_published": "2026-08-13 05:01",
-        "source": "Finance",
-        "summary": "I still think it\u2019s too early to say the silver and gold price corrections are over. That said, I don\u2019t think we are likely to see new lows. Meanwhile, Coeur Mining Inc. (CDE) is a precious metals producer that\u2019s firing on all cylinders, suggests Peter Krauth, editor of Silver Stock Investor."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Gain Pre-Bell Wednesday Amid In-Line Consumer Inflation Data, Tech Gains",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131639194.html?.tsrc=rss",
-        "time_published": "2026-08-12 13:16",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2%, and the actively tra"
-      },
-      {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Amid Stalled US-Iran Talks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-130332588.html?.tsrc=rss",
-        "time_published": "2026-08-11 13:03",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.2% and the actively trad"
-      },
-      {
         "title": "Best-Performing ETF Areas of Last Week",
         "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-etf-areas-last-120000689.html?.tsrc=rss",
         "time_published": "2026-08-11 12:00",
         "source": "Finance",
         "summary": "Gold, space, defense and silver-mining ETFs soared last week as weak jobs data eased Fed rate-hike fears and boosted risk appetite."
+      },
+      {
+        "title": "Bullish on Silver? This 2X ETF Doubles Your Bet and Your Risk",
+        "url": "https://247wallst.com/investing/etf/2026/07/28/bullish-on-silver-this-2x-etf-doubles-your-bet-and-your-risk/?.tsrc=rss",
+        "time_published": "2026-07-28 18:35",
+        "source": "247wallst",
+        "summary": "Silver has soared to record highs and then collapsed by more than half, and one leveraged ETF is designed to magnify every move in both directions. Before you consider doubling down on silver's next rally, there is a hidden structural cost that could quietly drain your position even when the metal t"
+      },
+      {
+        "title": "SLV vs. SIVR: Same Silver, Lower Fee, So Which Physical Silver ETF Should You Actually Hold?",
+        "url": "https://247wallst.com/investing/etf/2026/07/11/slv-vs-sivr-same-silver-lower-fee-so-which-physical-silver-etf-should-you-actually-hold/?.tsrc=rss",
+        "time_published": "2026-07-11 16:15",
+        "source": "247wallst",
+        "summary": "Two physical silver ETFs hold the exact same bullion, track the same price, and share the same tax trap, yet one charges nearly twice as much as the other. Before you assume the answer is obvious, there is a specific type of investor for whom the pricier fund is actually the smarter choice."
+      },
+      {
+        "title": "Silver and Copper Are Outpacing Gold in 2026 and After Following Industrial Metals These 3 ETFs Show How Smart Money Is Playing the Trend",
+        "url": "https://247wallst.com/investing/etf/2026/07/09/silver-and-copper-are-outpacing-gold-in-2026-and-after-following-industrial-metals-these-3-etfs-show-how-smart-money-is-playing-the-trend/?.tsrc=rss",
+        "time_published": "2026-07-10 01:54",
+        "source": "247wallst",
+        "summary": "The industrial metals trade has quietly become the most interesting corner of the commodity market, and the choice between iShares Silver Trust (NYSEARCA:SLV), United States Copper Index Fund (NYSEARCA:CPER), and SPDR S&P Metals & Mining ETF (NYSEARCA:XME) carries real performance consequences. Over"
+      },
+      {
+        "title": "Platinum and Palladium Have Been Left Behind in the Precious Metals Rally and These 3 ETFs Could Be the Next Catch Up Trade",
+        "url": "https://247wallst.com/investing/etf/2026/07/09/platinum-and-palladium-have-been-left-behind-in-the-precious-metals-rally-and-these-3-etfs-could-be-the-next-catch-up-trade-2/?.tsrc=rss",
+        "time_published": "2026-07-09 15:41",
+        "source": "247wallst",
+        "summary": "Gold and silver stole the precious metals story over the past year. Platinum and palladium sat it out. That gap sets up the choice between three physically-backed trusts: abrdn Platinum ETF Trust (NYSEARCA:PPLT), abrdn Palladium ETF Trust (NYSEARCA:PALL), and GraniteShares Platinum Trust (NYSEARCA:P"
+      },
+      {
+        "title": "The Precious Metals Trade Has Gone Into Reverse",
+        "url": "http://www.etf.com/sections/features/precious-metals-trade-has-gone-reverse?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-07-08 02:29",
+        "source": "Etf",
+        "summary": "The year-to-date losses look mild, but the fall from the January peaks tells a very different story."
+      },
+      {
+        "title": "A $1,000 Gold Rally? Why Analysts Are Repricing Safe Havens",
+        "url": "https://247wallst.com/investing/2026/07/07/a-1000-gold-rally-why-analysts-are-repricing-safe-havens/?.tsrc=rss",
+        "time_published": "2026-07-07 20:05",
+        "source": "247wallst",
+        "summary": "The Number Gold\u2019s proxy in the equity market, SPDR Gold Shares (NYSEARCA:GLD), has returned 22.27% over the past twelve months, climbing from $309.25 on July 2, 2025 to $378.13 on July 2, 2026. That single figure, a full-year total return on the world\u2019s most-watched safe-haven vehicle, is why sell-s"
       }
     ],
     "spx": [
       {
-        "title": "\u201cThat Ain\u2019t Okay:\u201d Dave Ramsey Blasts Couple With $150,000 in Cash and a $60,000 Car Loan",
-        "url": "https://247wallst.com/personal-finance/2026/08/16/that-aint-okay-dave-ramsey-blasts-couple-with-150000-in-cash-and-a-60000-car-loan/?.tsrc=rss",
-        "time_published": "2026-08-16 23:57",
+        "title": "Billionaire Joel Greenblatt\u2019s 5 Biggest Moves This Quarter Reveal a Surprising Defensive Shift",
+        "url": "https://247wallst.com/investing/2026/08/18/billionaire-joel-greenblatts-5-biggest-moves-this-quarter-reveal-a-surprising-defensive-shift/?.tsrc=rss",
+        "time_published": "2026-08-18 15:12",
         "source": "247wallst",
-        "summary": "A caller with a paid-off house, a six-figure salary, and six figures in savings thought he was doing everything right. Dave Ramsey told him that kind of financial comfort can quietly cost a fortune."
+        "summary": "Joel Greenblatt built Gotham Asset Management on concentrated value bets, so his latest 13F filing caught analysts off guard with moves that look less like a stock-picker's conviction and more like someone quietly bracing for impact."
       },
       {
-        "title": "High Dividend ETFs Are Beating the S&P 500 by 9 Points in 2026 and These 3 Pay Up to 4 Percent While Doing It",
-        "url": "https://247wallst.com/investing/2026/08/16/high-dividend-etfs-are-beating-the-sp-500-by-9-points-in-2026-and-these-3-pay-up-to-4-percent-while-doing-it/?.tsrc=rss",
-        "time_published": "2026-08-16 14:46",
-        "source": "247wallst",
-        "summary": "After a decade of chasing growth, dividend investors are finally having their moment in 2026, but not all high-yield ETFs are winning the same way or for the same reasons."
+        "title": "Stock Market Today: Nasdaq Hit Hard By Chip Names; Sandisk, Micron Slide As Biotech Soars (Live Coverage)",
+        "url": "https://finance.yahoo.com/m/fdb8b55e-c80b-38c5-bab0-70133d76c05f/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+        "time_published": "2026-08-18 19:25",
+        "source": "Finance",
+        "summary": "Stock Market Today: The Nasdaq sinks Tuesday as Treasury yields rise. Nvidia stock, Micron and Sandisk skid."
       },
       {
-        "title": "JEPQ vs. SPYI: Nearly Identical Yields, and One ETF Charges You Twice the Fee",
-        "url": "https://247wallst.com/investing/etf/2026/08/15/jepq-vs-spyi-nearly-identical-yields-and-one-etf-charges-you-twice-the-fee/?.tsrc=rss",
-        "time_published": "2026-08-15 22:45",
+        "title": "Why Does the JEPI ETF Pay Less Than It Did in January When Its Sister Fund Pays More?",
+        "url": "https://247wallst.com/investing/etf/2026/08/18/why-does-the-jepi-etf-pay-less-than-it-did-in-january-when-its-sister-fund-pays-more/?.tsrc=rss",
+        "time_published": "2026-08-18 20:00",
         "source": "247wallst",
-        "summary": "Two ETFs with nearly identical monthly payouts are built on completely different engines, and choosing the wrong one based on yield alone could cost you far more than the fee difference suggests."
+        "summary": "JEPI and JEPQ share the same manager, the same strategy, and the same market conditions, yet their monthly payouts have moved in opposite directions all year. The reason has nothing to do with JPMorgan and everything to do with what the options market thinks will happen next."
       },
       {
-        "title": "DIVO or JEPI: Which Monthly Dividend Actually Protects Your Principal?",
-        "url": "https://247wallst.com/investing/2026/08/15/divo-or-jepi-which-monthly-dividend-actually-protects-your-principal/?.tsrc=rss",
-        "time_published": "2026-08-15 18:23",
+        "title": "Most of the SPYI ETF\u2019s 12% Payout Is Your Own Money Coming Back. The IRS Waits Until You Sell.",
+        "url": "https://247wallst.com/investing/etf/2026/08/18/most-of-the-spyi-etfs-12-payout-is-your-own-money-coming-back-the-irs-waits-until-you-sell/?.tsrc=rss",
+        "time_published": "2026-08-18 18:55",
         "source": "247wallst",
-        "summary": "Both DIVO and JEPI hand you a monthly paycheck funded by covered calls on blue-chip stocks, but one of them has been quietly compounding your principal while the other trades that growth away for a fatter yield."
+        "summary": "SPYI's eye-catching monthly payouts hide a tax mechanic that quietly rewrites your cost basis every single distribution, and investors who spend the checks without tracking the paperwork could face a surprise reckoning the year they finally sell."
       },
       {
-        "title": "Which Is the Better ETF, State Street's Broad Market Exposure Through SPY or Invesco's Tech-Focused QQQ?",
-        "url": "https://www.fool.com/coverage/etfs/2026/08/15/which-is-the-better-etf-state-street-s-broad-market-exposure-through-spy-or-invesco-s-tech-focused-qqq/?.tsrc=rss",
-        "time_published": "2026-08-15 17:41",
-        "source": "Fool",
-        "summary": "QQQ delivered higher returns while SPY sports lower fees and a higher dividend yield."
+        "title": "The Top 5% of Americans Are Outspending Their Own Paychecks. That's the Risk to Watch.",
+        "url": "https://finance.yahoo.com/economy/articles/top-5-americans-outspending-own-180048553.html?.tsrc=rss",
+        "time_published": "2026-08-18 18:00",
+        "source": "Finance",
+        "summary": "America\u2019s consumer may be less divided than investors think. But one group is still behaving very differently from everyone else: the richest 5% of households. Bank of America\u2019s latest data show spending growth has increasingly converged across income groups. Lower-income..."
       },
       {
-        "title": "Social Security Pays the Average Couple $3,120 a Month. Here\u2019s the Portfolio It Takes to Match It.",
-        "url": "https://247wallst.com/personal-finance/2026/08/15/social-security-pays-the-average-couple-3120-a-month-heres-the-portfolio-it-takes-to-match-it-2/?.tsrc=rss",
-        "time_published": "2026-08-15 17:32",
+        "title": "Forget the 4 Percent Rule: These 3 ETFs Pay Up to 12 Percent So You Never Have to Sell a Share",
+        "url": "https://247wallst.com/investing/2026/08/18/forget-the-4-percent-rule-these-3-etfs-pay-up-to-12-percent-so-you-never-have-to-sell-a-share/?.tsrc=rss",
+        "time_published": "2026-08-18 17:17",
         "source": "247wallst",
-        "summary": "Most retirement plans treat Social Security as a bonus, but pricing out what it actually takes to replace that monthly check from a private portfolio reveals just how much government backing most households are quietly depending on."
+        "summary": "Selling shares to fund retirement works fine until a market crash forces you to liquidate at the worst possible moment. Three covered-call ETFs offer a completely different income strategy, but picking the wrong one for your situation could cost you more than the yield is worth."
       },
       {
-        "title": "5 Monthly Dividend ETFs Paying 7 to 14 Percent to Ride Into 2027",
-        "url": "https://247wallst.com/investing/2026/08/15/5-monthly-dividend-etfs-paying-7-to-14-percent-to-ride-into-2027/?.tsrc=rss",
-        "time_published": "2026-08-15 17:11",
-        "source": "247wallst",
-        "summary": "Five monthly paying ETFs are pulling income from covered calls, preferred stock, and junk bond coupons at yields that dwarf the 10-year Treasury, but the engine behind each payout changes everything about which one belongs in your portfolio."
+        "title": "New Reports Show Cooling Economy, Bond Yields Climb",
+        "url": "https://finance.yahoo.com/economy/articles/reports-show-cooling-economy-bond-143700395.html?.tsrc=rss",
+        "time_published": "2026-08-18 14:37",
+        "source": "Finance",
+        "summary": "Housing Starts, Building Permits, Imports and Exports came in light of expectations this morning."
       },
       {
-        "title": "Two Funds Promise 20% Income From the S&P 500. One Caps Your Upside, One Doesn\u2019t, and It Charges Less",
-        "url": "https://247wallst.com/investing/2026/08/14/two-funds-promise-20-income-from-the-sp-500-one-caps-your-upside-one-doesnt-and-it-charges-less/?.tsrc=rss",
-        "time_published": "2026-08-14 21:35",
+        "title": "Top Analyst Sees the S&P 500 at 10,000. He Says He Can\u2019t Find a Reason It Won\u2019t Happen",
+        "url": "https://247wallst.com/investing/2026/08/18/top-analyst-sees-the-sp-500-at-10000-he-says-he-cant-find-a-reason-it-wont-happen/?.tsrc=rss",
+        "time_published": "2026-08-18 13:50",
         "source": "247wallst",
-        "summary": "Two ETFs are racing to deliver 20% annual income from the S&P 500, but they take fundamentally different bets to get there, and the gap between them is costing some investors real money."
+        "summary": "A top Wall Street analyst sees the S&P 500 hitting 10,000 within 18 months and says he cannot find a single reason it will not happen. The earnings data actually backs part of his case, but the part that matters most for your portfolio is the part he left out."
       }
     ],
     "oil": [
+      {
+        "title": "U.S. SPR Falls Fast: What Does it Mean for Oil & Energy ETFs?",
+        "url": "https://finance.yahoo.com/energy/articles/u-spr-falls-fast-does-143300701.html?.tsrc=rss",
+        "time_published": "2026-08-18 14:33",
+        "source": "Finance",
+        "summary": "The U.S. SPR falls below 300M million barrels. Could shrinking reserves and oil-supply risks reshape the outlook for oil and energy ETFs?"
+      },
       {
         "title": "'Economic Isolation' for Iran? ETFs to Gain/Lose",
         "url": "https://finance.yahoo.com/economy/policy/articles/economic-isolation-iran-etfs-gain-140000350.html?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-23 14:21",
         "source": "Finance",
         "summary": "Oil surges on Hormuz tensions. Check out these U.S. energy ETFs that could benefit from the latest crude rally."
-      },
-      {
-        "title": "Did Congress Waste Warsh Hearings on AI While Inflation Runs Hot? Cato Blasts Focus on 'Trendy Topics'",
-        "url": "https://finance.yahoo.com/economy/policy/articles/did-congress-waste-warsh-hearings-100107236.html?.tsrc=rss",
-        "time_published": "2026-07-23 10:01",
-        "source": "Finance",
-        "summary": "New Federal Reserve Chairman Kevin Warsh faced Congress last week for the first time, but a Cato Institute economist says lawmakers may have squandered their best chance to press him before rates move. In a commentary published Monday, Cato\u2019s Jai..."
       }
     ]
   }

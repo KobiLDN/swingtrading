@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-08-17T07:11:34Z",
+  "generated": "2026-08-18T20:25:00Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The price at 1.35541 sits well above both the EMA 50 (1.34353) and EMA 200 (1.34554), confirming a bullish bias in the daily trend. However, the price is now extended roughly 120 pips above the EMA 200, which introduces risk of mean reversion. The candlestick sequence shows conflicting signals\u2014an Evening Star followed by a Morning Star, then a Doji, Bullish Engulfing, and another Morning Star\u2014indicating indecision and potential exhaustion after the recent rally. The RSI at 67.02 is neutral but approaching overbought territory, while MACD remains bullish with a positive histogram, though momentum is not accelerating sharply.  \n\nNo clear chart patterns like triangles, flags, or double tops/bottoms are evident on the daily timeframe. The recent price action suggests a possible consolidation zone forming between 1.3500 (near-term psychological support) and 1.3600 (round number resistance). The signal score of 4/10 reflects the mixed candlestick signals and lack of a clean, high-probability entry despite the bullish trend.  \n\nRSI and MACD both lean bullish, but the RSI is not yet overbought, and MACD histogram is positive but flat, indicating waning upside momentum. There is no RSI divergence to warn of a reversal, but the lack of strong momentum confluence reduces conviction. The best trade setup would be a pullback to the EMA 50/200 zone near 1.3435-1.3455 with a bullish reversal candlestick, but that is not present now.  \n\nGiven the extended price, mixed candlestick signals, and neutral RSI, the risk of a short-term pullback is elevated. Entering a buy here offers poor risk-reward due to proximity to resistance at 1.3600, while a sell would counter the dominant trend. Waiting for a clearer setup\u2014either a pullback to support or a breakout above 1.3600 with confirmation\u2014is prudent.",
-  "invalidation": "A daily close below 1.3500 would invalidate the bullish bias and suggest a deeper correction toward the EMA 200.",
+  "score": "5/10",
+  "analysis": "The price is trading at 1.35275, comfortably above both the EMA50 (1.34384) and EMA200 (1.34554), confirming a bullish bias in the daily trend. However, the recent candlestick sequence shows a clear shift from bullish patterns (Morning Star, Bullish Engulfing) to bearish reversal patterns (Bearish Engulfing, Evening Star) over the last few candles. This divergence between the EMA trend and short-term price action suggests waning momentum despite the underlying bullish structure.\n\nRSI at 61.93 remains in neutral territory with no divergence, offering no strong confirmation for either direction. MACD is still in a bullish formation (line above signal, positive histogram), but the histogram value is very small (+0.000207), indicating that bullish momentum is fading. The signal score of 5/10 reflects this mixed picture \u2014 the trend is technically up, but the immediate setup lacks clear entry triggers.\n\nKey support lies at the EMA200 (1.3455) and EMA50 (1.3438), with a secondary level at 1.3400 round number. Resistance is untested near 1.3550 (likely a prior swing high) and 1.3580\u20131.3620 zone. Given the ATR of 50 pips and the presence of bearish reversal candles, the risk of a short-term pullback is elevated, while a bullish continuation would require a clean break above recent highs. The best course is to wait for either a retest of the EMA support area with bullish confirmation (e.g., a bullish engulfing candle) or a decisive break above resistance to re-enter long.",
+  "invalidation": "A sustained move below 1.3455 (EMA200) would invalidate the bullish bias and likely trigger a deeper correction, while a move above 1.3550 with strong volume would re-establish the uptrend as actionable.",
   "support_levels": [
-    1.35,
     1.3455,
-    1.3435
+    1.3438,
+    1.34
   ],
   "resistance_levels": [
-    1.36,
-    1.365,
-    1.37
+    1.355,
+    1.358,
+    1.362
   ]
 };

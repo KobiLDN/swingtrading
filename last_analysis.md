@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-08-17
-**Generated:** 2026-08-17T07:11:34Z
+**Date:** 2026-08-18
+**Generated:** 2026-08-18T20:25:00Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,33 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 1.35, 1.3455, 1.3435 |
-| **Resistance** | 1.36, 1.365, 1.37 |
+| **Score** | 5/10 |
+| **Support** | 1.3455, 1.3438, 1.34 |
+| **Resistance** | 1.355, 1.358, 1.362 |
 
 ---
 
 ## Analysis
 
-The price at 1.35541 sits well above both the EMA 50 (1.34353) and EMA 200 (1.34554), confirming a bullish bias in the daily trend. However, the price is now extended roughly 120 pips above the EMA 200, which introduces risk of mean reversion. The candlestick sequence shows conflicting signals—an Evening Star followed by a Morning Star, then a Doji, Bullish Engulfing, and another Morning Star—indicating indecision and potential exhaustion after the recent rally. The RSI at 67.02 is neutral but approaching overbought territory, while MACD remains bullish with a positive histogram, though momentum is not accelerating sharply.  
+The price is trading at 1.35275, comfortably above both the EMA50 (1.34384) and EMA200 (1.34554), confirming a bullish bias in the daily trend. However, the recent candlestick sequence shows a clear shift from bullish patterns (Morning Star, Bullish Engulfing) to bearish reversal patterns (Bearish Engulfing, Evening Star) over the last few candles. This divergence between the EMA trend and short-term price action suggests waning momentum despite the underlying bullish structure.
 
-No clear chart patterns like triangles, flags, or double tops/bottoms are evident on the daily timeframe. The recent price action suggests a possible consolidation zone forming between 1.3500 (near-term psychological support) and 1.3600 (round number resistance). The signal score of 4/10 reflects the mixed candlestick signals and lack of a clean, high-probability entry despite the bullish trend.  
+RSI at 61.93 remains in neutral territory with no divergence, offering no strong confirmation for either direction. MACD is still in a bullish formation (line above signal, positive histogram), but the histogram value is very small (+0.000207), indicating that bullish momentum is fading. The signal score of 5/10 reflects this mixed picture — the trend is technically up, but the immediate setup lacks clear entry triggers.
 
-RSI and MACD both lean bullish, but the RSI is not yet overbought, and MACD histogram is positive but flat, indicating waning upside momentum. There is no RSI divergence to warn of a reversal, but the lack of strong momentum confluence reduces conviction. The best trade setup would be a pullback to the EMA 50/200 zone near 1.3435-1.3455 with a bullish reversal candlestick, but that is not present now.  
-
-Given the extended price, mixed candlestick signals, and neutral RSI, the risk of a short-term pullback is elevated. Entering a buy here offers poor risk-reward due to proximity to resistance at 1.3600, while a sell would counter the dominant trend. Waiting for a clearer setup—either a pullback to support or a breakout above 1.3600 with confirmation—is prudent.
+Key support lies at the EMA200 (1.3455) and EMA50 (1.3438), with a secondary level at 1.3400 round number. Resistance is untested near 1.3550 (likely a prior swing high) and 1.3580–1.3620 zone. Given the ATR of 50 pips and the presence of bearish reversal candles, the risk of a short-term pullback is elevated, while a bullish continuation would require a clean break above recent highs. The best course is to wait for either a retest of the EMA support area with bullish confirmation (e.g., a bullish engulfing candle) or a decisive break above resistance to re-enter long.
 
 ---
 
 ## Invalidation
 
-A daily close below 1.3500 would invalidate the bullish bias and suggest a deeper correction toward the EMA 200.
+A sustained move below 1.3455 (EMA200) would invalidate the bullish bias and likely trigger a deeper correction, while a move above 1.3550 with strong volume would re-establish the uptrend as actionable.
 
 ---
 

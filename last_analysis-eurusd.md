@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-08-14
-**Generated:** 2026-08-14T07:45:25Z
+**Date:** 2026-08-18
+**Generated:** 2026-08-18T20:27:24Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 1.14923, 1.145 |
-| **Resistance** | 1.16122, 1.165 |
+| **Score** | 5/10 |
+| **Support** | 1.15049, 1.146, 1.142 |
+| **Resistance** | 1.15944, 1.165, 1.17 |
 
 ---
 
 ## Analysis
 
-The daily chart shows price at 1.15433, sandwiched between the 50 EMA (1.14923) and 200 EMA (1.16122), which confirms the neutral trend label. The 50 EMA is below the 200 EMA, indicating a bearish structure over the longer term, but price has recently bounced from the 50 EMA support, forming a Doji and Morning Star pattern over the last five candles. This candlestick formation suggests a potential bullish reversal, but the MACD remains bearish with the line below the signal and a negative histogram, albeit very small (–0.000086). The RSI at 59.64 is neutral and shows no divergence, offering no clear directional bias.  
+Price at 1.15696 sits between the EMA50 (1.15049) and EMA200 (1.15944), a classic no-trade zone. Although the recent candlestick patterns (Morning Star, Inverted Hammer) hint at bullish momentum, the EMA200 overhead acts as a firm resistance that has not yet been broken. The MACD is barely bullish, with a histogram value of only +0.000051, indicating very weak momentum, while the RSI at 61.94 is neutral and provides no clear directional edge. Without a decisive close above the EMA200 or a strong rejection at support, the risk-reward profile is unattractive.
 
-No additional chart patterns like triangles or flags are evident from the given data. The mixed signals – a bullish candlestick pattern against a bearish MACD and neutral RSI – create a low-conviction environment. The price is near the 50 EMA support, but the 200 EMA resistance above is a strong barrier. The overall signal score of 4/10 reflects this lack of confluence. The ATR of 41 pips indicates moderate volatility, but the conflicting indicators suggest that any breakout could be short-lived.  
+No clear chart patterns (triangles, flags, double tops/bottoms) are evident from the given data, reinforcing the neutral, range-bound environment. The nearest support is the EMA50, roughly 65 pips below, and the nearest resistance is the EMA200, only about 25 pips above. A long trade from current price would risk more than the potential reward if targeting the EMA200, and a short trade would conflict with the bullish candlestick signals. The signal score of 5/10 reflects the lack of confluence between the neutral trend and the marginally bullish indicators.
 
-The best trade setup is to wait for a clearer signal. A long entry would require a decisive break above the 200 EMA (1.16122) with bullish MACD confirmation, while a short entry would need a drop below the 50 EMA (1.14923) and a bearish continuation. Currently, neither condition is met, and the Morning Star pattern could be a false signal if the MACD remains weak. Therefore, patience is advised until one of these levels is broken with corresponding momentum.
+Given the tight range and conflicting signals, the prudent approach is to wait for price to either break and hold above 1.15944 (triggering a bullish bias) or fall back below the EMA50 (opening a bearish setup). Until then, the odds of a false breakout or whipsaw are too high to justify a trade.
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if price breaks and closes below the 50 EMA (1.14923) or above the 200 EMA (1.16122) without a corresponding MACD crossover or divergence.
+This wait-and-see stance is invalidated if price closes decisively above 1.1600 (confirmation of breakout) or below 1.1490 (breakdown of support), at which point a directional trade would become actionable.
 
 ---
 

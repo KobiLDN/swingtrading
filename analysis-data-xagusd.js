@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-08-17T07:17:42Z",
+  "generated": "2026-08-18T20:37:39Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-08-14",
+  "date": "2026-08-17",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_XAGUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "1/10 confirmed",
-  "analysis": "The trend is officially NEUTRAL, with price currently at 58.48, wedged between the EMA 50 at 57.22 (support) and the EMA 200 at 60.14 (resistance). The price action does not confirm a decisive breakout \u2014 the candle close is below the 200 EMA and above the 50 EMA, which is a classic no-man\u2019s-land for swing traders. The 1/10 signal score accurately reflects the lack of a clear directional bias.\n\nNo candlestick patterns or chart formations (triangles, flags, double tops/bottoms) are detected on the daily chart. The absence of any congestion zones or reversal patterns leaves us without a high-probability entry trigger. Key support nearest to price is the EMA 50 at 57.22, and resistance is the EMA 200 at 60.14. A break and hold above 60.14 would shift the trend bullish, while a breakdown below 57.22 would open downside toward 56.70.\n\nRSI at 59.71 (neutral) and the MACD histogram at +0.8057 (bullish) show mild bullish momentum, but the divergence is absent and the overall RSI level is not extreme. The EMA structure is still bearish (200 > 50), so the MACD bullishness is not yet backed by price structure. There is no strong confluence \u2014 the indicators are slightly positive, but the trend definition and price action do not support entering a swing trade here.\n\nGiven the neutral trend, 1/10 score, lack of patterns, and wide ATR (1.78 \u2014 about 3% of price), the best setup is to wait. Risk is asymmetric \u2014 a false breakout in either direction could lead to a quick reversal. Entering now would require hoping for a trend, which is not supported by the data.",
-  "invalidation": "A daily close above 60.14 with volume, or a daily close below 57.22 with momentum, would convert this into a tradable directional setup. Until then, the neutral stance is invalidated only by a clear breakout of these two levels.",
+  "score": "1/10",
+  "analysis": "The current price of 59.57 sits between the 50-period EMA (57.31) and 200-period EMA (60.20), a classic neutral zone on the daily chart. Price action does not confirm a clear trend \u2013 while the MACD shows a bullish configuration (line above signal, positive histogram), the RSI at 62.67 is neutral and lacks divergence. The overall trend label is NEUTRAL, and the signal score of 1/10 reflects low conviction. No candlestick patterns or chart structures (e.g., triangles, flags, double tops/bottoms) are evident from the last five bars, leaving no immediate edge.  \n\nKey support is the 50 EMA at 57.31, followed by the round 56.00 level and 55.00 as a deeper zone. On the upside, the 200 EMA at 60.20 acts as major resistance, with 61.00 and 62.00 as secondary targets if a breakout occurs. The MACD bullishness alone is insufficient to justify a long entry given the price is still below the long-term EMA and the RSI is not overbought or oversold. A neutral trend with conflicting indicators and a low signal score suggests no reliable setup exists here.  \n\nFor swing trading, waiting for either a decisive break above the 200 EMA (confirming bullish trend) or a pullback to the 50 EMA with bullish reversal confirmation would create a higher-probability entry. The lack of confluence between the neutral RSI, the minor MACD bullishness, and the price between EMAs keeps the risk of false moves elevated.",
+  "invalidation": "N/A",
   "support_levels": [
-    57.22,
-    56.7,
-    55.9
+    57.31,
+    56.0,
+    55.0
   ],
   "resistance_levels": [
-    60.14,
-    61.5,
-    63.0
+    60.2,
+    61.0,
+    62.0
   ]
 };
