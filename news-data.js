@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-18T20:42:56Z",
+  "generated": "2026-08-19T07:07:41Z",
   "assets": {
     "gbpusd": [
       {
@@ -185,11 +185,25 @@ window.NEWS_DATA = {
         "summary": "Joel Greenblatt built Gotham Asset Management on concentrated value bets, so his latest 13F filing caught analysts off guard with moves that look less like a stock-picker's conviction and more like someone quietly bracing for impact."
       },
       {
-        "title": "Stock Market Today: Nasdaq Hit Hard By Chip Names; Sandisk, Micron Slide As Biotech Soars (Live Coverage)",
-        "url": "https://finance.yahoo.com/m/fdb8b55e-c80b-38c5-bab0-70133d76c05f/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-        "time_published": "2026-08-18 19:25",
+        "title": "Volatility Is Falling. It\u2019s a Good Time to Buy Options Again.",
+        "url": "https://finance.yahoo.com/m/0d0ccec4-7f3c-3b73-ac24-b7ce71aa2a5c/volatility-is-falling.-it%E2%80%99s-a.html?.tsrc=rss",
+        "time_published": "2026-08-19 05:30",
         "source": "Finance",
-        "summary": "Stock Market Today: The Nasdaq sinks Tuesday as Treasury yields rise. Nvidia stock, Micron and Sandisk skid."
+        "summary": "The elevated implied volatility levels that have long characterized equity options that expire in one month just collapsed to their lowest levels since January.  For most of the past year, investors have aggressively bought bullish call options, which increase in value when stock prices rise.  The d"
+      },
+      {
+        "title": "A 4X S&P 500 ETN Now Exists. A 10% Market Drop Cuts It Nearly in Half and Investors Are Buying Anyway",
+        "url": "https://247wallst.com/investing/etf/2026/08/18/a-4x-sp-500-etn-now-exists-a-10-market-drop-cuts-it-nearly-in-half-and-investors-are-buying-anyway/?.tsrc=rss",
+        "time_published": "2026-08-18 22:25",
+        "source": "247wallst",
+        "summary": "A four-times leveraged S&P 500 product now trades on a major exchange, and it can vaporize nearly half your money before the market even finishes a bad week. What kind of investor buys it anyway, and how big has it gotten?"
+      },
+      {
+        "title": "US Stocks End Third Session Lower As Higher Treasury Yields, Oil Prices Weigh \u2014 BABA, AAPL, GRRR, KLAR, CRWD In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/us-stocks-end-third-session-lower-as-higher-treasury-yields-oil-prices-weigh/cZYcnUERJjD?.tsrc=rss",
+        "time_published": "2026-08-18 21:35",
+        "source": "Stocktwits",
+        "summary": "The U.S. 30-year Treasury bond yield spiked to a fresh 19-year high on Tuesday."
       },
       {
         "title": "Why Does the JEPI ETF Pay Less Than It Did in January When Its Sister Fund Pays More?",
@@ -218,20 +232,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-18 17:17",
         "source": "247wallst",
         "summary": "Selling shares to fund retirement works fine until a market crash forces you to liquidate at the worst possible moment. Three covered-call ETFs offer a completely different income strategy, but picking the wrong one for your situation could cost you more than the yield is worth."
-      },
-      {
-        "title": "New Reports Show Cooling Economy, Bond Yields Climb",
-        "url": "https://finance.yahoo.com/economy/articles/reports-show-cooling-economy-bond-143700395.html?.tsrc=rss",
-        "time_published": "2026-08-18 14:37",
-        "source": "Finance",
-        "summary": "Housing Starts, Building Permits, Imports and Exports came in light of expectations this morning."
-      },
-      {
-        "title": "Top Analyst Sees the S&P 500 at 10,000. He Says He Can\u2019t Find a Reason It Won\u2019t Happen",
-        "url": "https://247wallst.com/investing/2026/08/18/top-analyst-sees-the-sp-500-at-10000-he-says-he-cant-find-a-reason-it-wont-happen/?.tsrc=rss",
-        "time_published": "2026-08-18 13:50",
-        "source": "247wallst",
-        "summary": "A top Wall Street analyst sees the S&P 500 hitting 10,000 within 18 months and says he cannot find a single reason it will not happen. The earnings data actually backs part of his case, but the part that matters most for your portfolio is the part he left out."
       }
     ],
     "oil": [

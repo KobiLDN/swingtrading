@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-08-18T20:37:19Z",
+  "generated": "2026-08-19T07:06:19Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-08-17",
-  "decision": "SELL",
+  "date": "2026-08-18",
+  "decision": "WAIT",
   "confidence": "LOW",
-  "entry": "772.67",
-  "stop_loss": "780.01",
-  "target_1": "765.33",
-  "target_2": "758.00",
-  "risk_reward": "1:1 (T1)",
-  "score": "5/10",
-  "analysis": "The daily trend is undeniably strong, with price well above both the 50- and 200-period EMAs, confirming a bullish structure. However, the emergence of a Bearish Engulfing and an Evening Star within the last five candles signals a potential exhaustion of buying pressure near the current high. These reversal patterns carry weight in swing trading, especially when they appear after a sustained rally. The RSI at 61.78 is neutral\u2014not overbought\u2014so there is still room for a pullback without violating the overall uptrend. The MACD remains bullish with the line above the signal and a positive histogram, which creates a conflict: momentum is still positive, but price action is flashing a warning.\n\nAdditional chart patterns are inferred from the candlestick formations: the Evening Star is a classic three-bar top pattern, and the preceding Bearish Engulfing reinforces the likelihood of a short-term peak. No distinct triangle, flag, or double top/bottom is directly provided, but the combination of these reversal candles often marks a local top, suggesting a potential flag or pennant failure. Key support near current price is based on the ATR (14) of 7.34: the first downside target aligns with a 1-ATR move to ~765.33, followed by the 2-ATR level at ~758.00. The 50-EMA at 750.68 serves as a major support floor. Resistance above is anchored at the recent highs around 780 (a round number and plausible swing high), with further resistance at 785 and 790.\n\nThe best trade setup here is a counter-trend short with a tight stop, exploiting the bearish reversal patterns while acknowledging the conflicting bullish MACD. The risk is elevated because the underlying trend is strongly upward, and the MACD has not yet turned down. A smaller position size is recommended. The signal score remains 5/10 as the bullish technical backdrop offsets the bearish price action, leaving the setup neutral.",
-  "invalidation": "This setup is invalidated if price breaks and closes above 780.01, confirming that the bearish reversal patterns were false and the uptrend remains intact.",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "1/10",
+  "analysis": "The pre-calculated indicators confirm a strong uptrend with price well above both the EMA50 (751.34) and EMA200 (717.26). The MACD is bullish with a positive histogram, agreeing with the trend. However, the RSI at 56.61 is neutral, showing no overbought or oversold momentum, and no divergence is present. Despite the trend strength, the signal score is at a mere 1/10, indicating extremely low conviction from the set of indicators provided. No candlestick patterns or chart patterns (triangles, flags, etc.) are detected within the last five candles, leaving the chart with no clear entry trigger. The price has extended roughly 16 points above the 50-day EMA, which is more than two ATRs, suggesting a stretched position that could be vulnerable to a mean-reversion pullback.  \n\nKey support levels nearest to current price include the 50-day EMA at 751.34, a psychological round number at 745.00, and the 200-day EMA at 717.26. On the upside, resistance appears near round numbers at 770, 775, and 780, though no obvious technical resistance is defined from recent swings. The confluence of RSI neutrality and MACD bullishness suggests the trend is intact but lacks immediate buying momentum. The low signal score dominates the analysis, making a new long entry unattractive without a pullback to a support zone or a bullish reversal pattern.  \n\nGiven the absence of a high-probability setup, the correct course is to wait. The best trade setup currently is none; a better opportunity would arise after a pullback toward the EMA50 or a break-and-retest of a resistance level with improved RSI/MACD alignment. Risk assessment shows that entering long at this level would expose the trade to a potential 7+ point move against the position (based on ATR) with limited upside if the move has already partially played out.",
+  "invalidation": "This wait-and-see stance is invalidated only if a clear bullish continuation pattern forms at current levels (e.g., a bull flag or engulfing candle) that raises the signal score above 5/10, or if price pulls back to the EMA50 and finds support with a bullish reversal signal.",
   "support_levels": [
-    765.33,
-    758.0,
-    750.68
+    751.34,
+    745.0,
+    717.26
   ],
   "resistance_levels": [
-    780.0,
-    785.0,
-    790.0
+    770.0,
+    775.0,
+    780.0
   ]
 };

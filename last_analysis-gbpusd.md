@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-08-18
-**Generated:** 2026-08-18T20:25:00Z
+**Date:** 2026-08-19
+**Generated:** 2026-08-19T06:59:59Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 1.3455, 1.3438, 1.34 |
-| **Resistance** | 1.355, 1.358, 1.362 |
+| **Score** | 4/10 |
+| **Support** | 1.3508, 1.3458, 1.3443 |
+| **Resistance** | 1.3605, 1.365, 1.37 |
 
 ---
 
 ## Analysis
 
-The price is trading at 1.35275, comfortably above both the EMA50 (1.34384) and EMA200 (1.34554), confirming a bullish bias in the daily trend. However, the recent candlestick sequence shows a clear shift from bullish patterns (Morning Star, Bullish Engulfing) to bearish reversal patterns (Bearish Engulfing, Evening Star) over the last few candles. This divergence between the EMA trend and short-term price action suggests waning momentum despite the underlying bullish structure.
+The daily chart shows price at 1.35568, trading above both the EMA50 (1.34432) and EMA200 (1.3458), which technically confirms a bullish bias. However, the EMA50 remains below the EMA200, indicating the trend is not yet fully established as a golden cross. The price action has been oscillating, with a series of conflicting candlestick patterns over the last five sessions—Doji, Bullish Engulfing, Morning Star, Bearish Engulfing, Evening Star, and another Bullish Engulfing. This sequence reflects indecision and a lack of clear directional momentum, consistent with the low signal score of 4/10.
 
-RSI at 61.93 remains in neutral territory with no divergence, offering no strong confirmation for either direction. MACD is still in a bullish formation (line above signal, positive histogram), but the histogram value is very small (+0.000207), indicating that bullish momentum is fading. The signal score of 5/10 reflects this mixed picture — the trend is technically up, but the immediate setup lacks clear entry triggers.
+The RSI at 66.66 is neutral, not overbought, but also not showing strong bullish conviction. The MACD is bullish with the line above the signal and a positive histogram, which aligns with the upward price bias. However, the absence of RSI divergence and the neutral reading suggest the bullish momentum may be waning. Key support levels are the EMA200 at 1.3458 and the EMA50 at 1.3443, with an intermediate support near 1.3508 (current price minus ATR). Resistance is likely around 1.3605 (price plus ATR) and the psychological 1.3650 area.
 
-Key support lies at the EMA200 (1.3455) and EMA50 (1.3438), with a secondary level at 1.3400 round number. Resistance is untested near 1.3550 (likely a prior swing high) and 1.3580–1.3620 zone. Given the ATR of 50 pips and the presence of bearish reversal candles, the risk of a short-term pullback is elevated, while a bullish continuation would require a clean break above recent highs. The best course is to wait for either a retest of the EMA support area with bullish confirmation (e.g., a bullish engulfing candle) or a decisive break above resistance to re-enter long.
+Given the mixed signals—bullish EMA alignment but bearish EMA crossover structure, conflicting candlestick patterns, neutral RSI, and a low signal score—the risk/reward is unfavorable for a directional trade. A breakout above 1.3605 with strong momentum could trigger a buy, but current conditions warrant patience. The best course is to wait for clearer confirmation, such as a sustained move above resistance or a pullback to support with a bullish reversal pattern.
 
 ---
 
 ## Invalidation
 
-A sustained move below 1.3455 (EMA200) would invalidate the bullish bias and likely trigger a deeper correction, while a move above 1.3550 with strong volume would re-establish the uptrend as actionable.
+A daily close below the EMA200 (1.3458) would invalidate the bullish bias and shift the outlook to bearish.
 
 ---
 
