@@ -1,30 +1,24 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-08-19T06:25:41Z",
-  "date": "2026-08-19",
-  "price": 1.35568,
-  "atr": 0.00485,
-  "atr_pips": 49,
+  "generated": "2026-08-20T06:27:18Z",
+  "date": "2026-08-20",
+  "price": 1.36064,
+  "atr": 0.00514,
+  "atr_pips": 51,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34432,
-  "ema200": 1.3458,
-  "rsi": 66.66,
-  "macd_line": 0.003744,
-  "macd_signal": 0.00347,
-  "macd_hist": 0.000274,
+  "ema50": 1.34515,
+  "ema200": 1.34541,
+  "rsi": 71.95,
+  "macd_line": 0.004488,
+  "macd_signal": 0.003738,
+  "macd_hist": 0.00075,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-15",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-08-16",
       "name": "Bullish Engulfing",
@@ -54,18 +48,17 @@
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-08-20",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 6,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-12",
-      "open": 1.36104,
-      "high": 1.36149,
-      "low": 1.35027,
-      "close": 1.35411
-    },
     {
       "date": "2026-05-13",
       "open": 1.35406,
@@ -755,9 +748,16 @@
     {
       "date": "2026-08-19",
       "open": 1.35321,
-      "high": 1.35571,
+      "high": 1.36294,
       "low": 1.35237,
-      "close": 1.35568
+      "close": 1.36071
+    },
+    {
+      "date": "2026-08-20",
+      "open": 1.3607,
+      "high": 1.36163,
+      "low": 1.35949,
+      "close": 1.36064
     }
   ]
 }

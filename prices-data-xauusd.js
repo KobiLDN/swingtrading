@@ -1,22 +1,22 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-08-19T06:25:42Z",
-  "date": "2026-08-19",
-  "price": 4346.84,
-  "atr": 63.82,
-  "atr_pips": 64,
+  "generated": "2026-08-20T06:27:19Z",
+  "date": "2026-08-20",
+  "price": 4493.38,
+  "atr": 73.52,
+  "atr_pips": 74,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4229.61,
-  "ema200": 4448.08,
-  "rsi": 59.43,
-  "macd_line": 70.885513,
-  "macd_signal": 70.988251,
-  "macd_hist": -0.102738,
-  "trend": "NEUTRAL",
+  "ema50": 4246.54,
+  "ema200": 4426.13,
+  "rsi": 67.12,
+  "macd_line": 88.863433,
+  "macd_signal": 76.814841,
+  "macd_hist": 12.048592,
+  "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
     {
@@ -30,18 +30,17 @@ window.PRICES_DATA_XAUUSD = {
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-08-19",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-05-12",
-      "open": 4735.04,
-      "high": 4773.5,
-      "low": 4641.66,
-      "close": 4715.31
-    },
     {
       "date": "2026-05-13",
       "open": 4715.19,
@@ -731,9 +730,16 @@ window.PRICES_DATA_XAUUSD = {
     {
       "date": "2026-08-19",
       "open": 4335.36,
-      "high": 4362.7,
+      "high": 4524.48,
       "low": 4325.97,
-      "close": 4346.84
+      "close": 4523.25
+    },
+    {
+      "date": "2026-08-20",
+      "open": 4523.14,
+      "high": 4527.83,
+      "low": 4478.48,
+      "close": 4493.38
     }
   ]
 };
