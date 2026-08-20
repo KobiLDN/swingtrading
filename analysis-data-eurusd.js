@@ -1,27 +1,25 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-08-18T20:27:24Z",
+  "generated": "2026-08-20T07:04:50Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-08-18",
+  "date": "2026-08-20",
   "decision": "WAIT",
-  "confidence": "LOW",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "Price at 1.15696 sits between the EMA50 (1.15049) and EMA200 (1.15944), a classic no-trade zone. Although the recent candlestick patterns (Morning Star, Inverted Hammer) hint at bullish momentum, the EMA200 overhead acts as a firm resistance that has not yet been broken. The MACD is barely bullish, with a histogram value of only +0.000051, indicating very weak momentum, while the RSI at 61.94 is neutral and provides no clear directional edge. Without a decisive close above the EMA200 or a strong rejection at support, the risk-reward profile is unattractive.\n\nNo clear chart patterns (triangles, flags, double tops/bottoms) are evident from the given data, reinforcing the neutral, range-bound environment. The nearest support is the EMA50, roughly 65 pips below, and the nearest resistance is the EMA200, only about 25 pips above. A long trade from current price would risk more than the potential reward if targeting the EMA200, and a short trade would conflict with the bullish candlestick signals. The signal score of 5/10 reflects the lack of confluence between the neutral trend and the marginally bullish indicators.\n\nGiven the tight range and conflicting signals, the prudent approach is to wait for price to either break and hold above 1.15944 (triggering a bullish bias) or fall back below the EMA50 (opening a bearish setup). Until then, the odds of a false breakout or whipsaw are too high to justify a trade.",
-  "invalidation": "This wait-and-see stance is invalidated if price closes decisively above 1.1600 (confirmation of breakout) or below 1.1490 (breakdown of support), at which point a directional trade would become actionable.",
+  "confidence": "MEDIUM",
+  "entry": "1.1587 (pending buy on pullback)",
+  "stop_loss": "1.1510",
+  "target_1": "1.1700",
+  "target_2": "1.1800",
+  "risk_reward": "1:1.5 (approx)",
+  "score": "6/10",
+  "analysis": "Price is firmly above both the 50- and 200-period EMAs (1.15185 and 1.15874), confirming a bullish trend. The recent candlestick sequence includes a Morning Star and Bullish Engulfing, which reinforced the upward move, though the two subsequent Doji candles now suggest indecision and a possible loss of momentum near current levels. No additional chart patterns like triangles or flags are evident on the daily chart; the structure appears to be a steady climb with no clear consolidation patterns.\n\nThe RSI at 76.32 is in overbought territory, warning that a short\u2011term pullback or consolidation is likely. However, there is no bearish divergence, so the overbought reading does not yet signal a trend reversal. The MACD remains bullish with the line above the signal and a positive histogram, confirming that upward momentum is still present, albeit possibly slowing. This creates a mixed confluence: the trend and MACD favor buying, but the overbought RSI and Doji candles argue for caution.\n\nThe most prudent setup is to wait for a pullback toward the EMA200 support at 1.1587, where the buying pressure would be reinforced by a major moving average. A buy stop at that level, with a stop loss just below the EMA50 at 1.1510, offers a favorable risk\u2011to\u2011reward ratio of approximately 1:1.5 to the first target at 1.1700 and 1:2.5 to the second target at 1.1800. Attempting to buy at the current price (1.1678) carries elevated risk due to the overbought RSI and the potential for an immediate pullback. A short trade would counter the bullish trend and is not recommended.",
+  "invalidation": "A daily close below the EMA200 (1.15874) or a break below the EMA50 (1.15185) would cancel the bullish setup and shift the outlook to neutral or bearish.",
   "support_levels": [
-    1.15049,
-    1.146,
-    1.142
+    1.165
   ],
   "resistance_levels": [
-    1.15944,
-    1.165,
-    1.17
+    1.17,
+    1.175,
+    1.18
   ]
 };

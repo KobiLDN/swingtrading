@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-19T07:07:41Z",
+  "generated": "2026-08-20T07:09:24Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Near 99.38 as Fed Minutes and UK Inflation Loom; EUR/USD and GBP/USD Hold Firm",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060023874.html?.tsrc=rss",
+        "time_published": "2026-08-19 06:00",
+        "source": "Finance",
+        "summary": "DXY tests critical support as traders await Fed minutes, while ECB rate expectations and UK inflation shape the outlook for EUR/USD and GBP/USD."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Minutes Loom as EUR/USD and GBP/USD Test Resistance",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-063532680.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-08-12 08:14",
         "source": "Finance",
         "summary": "DXY, EUR/USD and GBP/USD trade near key technical levels as markets await U.S. CPI for fresh clues on inflation and the Fed\u2019s September policy outlook."
-      },
-      {
-        "title": "Forex Market Forecast \u2013 Euro, Pound, and Yen Test Support as US Yields Drift",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-market-forecast-euro-pound-133208907.html?.tsrc=rss",
-        "time_published": "2026-08-11 13:32",
-        "source": "Finance",
-        "summary": "Currency markets are testing support areas in early Tuesday trading. At this point, the interest rates in America continue to play a big part."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Near 99.38 as Fed Minutes and UK Inflation Loom; EUR/USD and GBP/USD Hold Firm",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060023874.html?.tsrc=rss",
+        "time_published": "2026-08-19 06:00",
+        "source": "Finance",
+        "summary": "DXY tests critical support as traders await Fed minutes, while ECB rate expectations and UK inflation shape the outlook for EUR/USD and GBP/USD."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Minutes Loom as EUR/USD and GBP/USD Test Resistance",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-063532680.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-11 13:32",
         "source": "Finance",
         "summary": "Currency markets are testing support areas in early Tuesday trading. At this point, the interest rates in America continue to play a big part."
-      },
-      {
-        "title": "US Dollar Price Forecast: Will CPI Revive DXY as EUR/USD and GBP/USD Test Resistance?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-cpi-080528660.html?.tsrc=rss",
-        "time_published": "2026-08-11 08:05",
-        "source": "Finance",
-        "summary": "DXY, EUR/USD and GBP/USD trade near key technical levels as markets await U.S. CPI for fresh clues on inflation and the Fed\u2019s September policy outlook."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Billionaire Joel Greenblatt\u2019s 5 Biggest Moves This Quarter Reveal a Surprising Defensive Shift",
-        "url": "https://247wallst.com/investing/2026/08/18/billionaire-joel-greenblatts-5-biggest-moves-this-quarter-reveal-a-surprising-defensive-shift/?.tsrc=rss",
-        "time_published": "2026-08-18 15:12",
-        "source": "247wallst",
-        "summary": "Joel Greenblatt built Gotham Asset Management on concentrated value bets, so his latest 13F filing caught analysts off guard with moves that look less like a stock-picker's conviction and more like someone quietly bracing for impact."
-      },
-      {
-        "title": "Volatility Is Falling. It\u2019s a Good Time to Buy Options Again.",
-        "url": "https://finance.yahoo.com/m/0d0ccec4-7f3c-3b73-ac24-b7ce71aa2a5c/volatility-is-falling.-it%E2%80%99s-a.html?.tsrc=rss",
-        "time_published": "2026-08-19 05:30",
-        "source": "Finance",
-        "summary": "The elevated implied volatility levels that have long characterized equity options that expire in one month just collapsed to their lowest levels since January.  For most of the past year, investors have aggressively bought bullish call options, which increase in value when stock prices rise.  The d"
-      },
-      {
-        "title": "A 4X S&P 500 ETN Now Exists. A 10% Market Drop Cuts It Nearly in Half and Investors Are Buying Anyway",
-        "url": "https://247wallst.com/investing/etf/2026/08/18/a-4x-sp-500-etn-now-exists-a-10-market-drop-cuts-it-nearly-in-half-and-investors-are-buying-anyway/?.tsrc=rss",
-        "time_published": "2026-08-18 22:25",
-        "source": "247wallst",
-        "summary": "A four-times leveraged S&P 500 product now trades on a major exchange, and it can vaporize nearly half your money before the market even finishes a bad week. What kind of investor buys it anyway, and how big has it gotten?"
-      },
-      {
-        "title": "US Stocks End Third Session Lower As Higher Treasury Yields, Oil Prices Weigh \u2014 BABA, AAPL, GRRR, KLAR, CRWD In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-stocks-end-third-session-lower-as-higher-treasury-yields-oil-prices-weigh/cZYcnUERJjD?.tsrc=rss",
-        "time_published": "2026-08-18 21:35",
+        "title": "US Stock Index Futures Climb As Yields Cool Off Amid Treasury Support \u2014 NVDA, MRNA, MRVL, LOWE In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-index-futures-climb-as-yields-cool-off-amid-treasury-support-nvda-mrna-mrvl-lowe-in-focus/cZYdxACRJlH?.tsrc=rss",
+        "time_published": "2026-08-19 23:15",
         "source": "Stocktwits",
-        "summary": "The U.S. 30-year Treasury bond yield spiked to a fresh 19-year high on Tuesday."
+        "summary": "A rally in 30-year bonds drove yields down by 10 basis points to 5.18%."
       },
       {
-        "title": "Why Does the JEPI ETF Pay Less Than It Did in January When Its Sister Fund Pays More?",
-        "url": "https://247wallst.com/investing/etf/2026/08/18/why-does-the-jepi-etf-pay-less-than-it-did-in-january-when-its-sister-fund-pays-more/?.tsrc=rss",
-        "time_published": "2026-08-18 20:00",
+        "title": "NEOS\u2019s \u2018Boosted\u2019 S&P Fund Pays 17% While the Nasdaq Version Pays 21%",
+        "url": "https://247wallst.com/investing/2026/08/19/neoss-boosted-sp-fund-pays-17-while-the-nasdaq-version-pays-21/?.tsrc=rss",
+        "time_published": "2026-08-19 22:25",
         "source": "247wallst",
-        "summary": "JEPI and JEPQ share the same manager, the same strategy, and the same market conditions, yet their monthly payouts have moved in opposite directions all year. The reason has nothing to do with JPMorgan and everything to do with what the options market thinks will happen next."
+        "summary": "NEOS built its reputation on a flagship S&P 500 income ETF that clears 12% annually, but a pair of younger siblings run the same playbook at a noticeably different intensity, and the tradeoffs are not what most income investors expect."
       },
       {
-        "title": "Most of the SPYI ETF\u2019s 12% Payout Is Your Own Money Coming Back. The IRS Waits Until You Sell.",
-        "url": "https://247wallst.com/investing/etf/2026/08/18/most-of-the-spyi-etfs-12-payout-is-your-own-money-coming-back-the-irs-waits-until-you-sell/?.tsrc=rss",
-        "time_published": "2026-08-18 18:55",
+        "title": "The Market Is in a Bubble. Why I\u2019m Focusing on Quantum Computing Stocks Now.",
+        "url": "https://www.barchart.com/story/news/3937170/the-market-is-in-a-bubble-why-im-focusing-on-quantum-computing-stocks-now?.tsrc=rss",
+        "time_published": "2026-08-19 20:17",
+        "source": "Barchart",
+        "summary": "With the market in a bubble, it is important for investors to study the segments of the AI trade."
+      },
+      {
+        "title": "A Top Strategist Says Buy \u201cAnything but the S&P 500\u201d as Small Caps Quietly Steal the Lead",
+        "url": "https://247wallst.com/investing/2026/08/19/a-top-strategist-says-buy-anything-but-the-sp-500-as-small-caps-quietly-steal-the-lead/?.tsrc=rss",
+        "time_published": "2026-08-19 18:10",
         "source": "247wallst",
-        "summary": "SPYI's eye-catching monthly payouts hide a tax mechanic that quietly rewrites your cost basis every single distribution, and investors who spend the checks without tracking the paperwork could face a surprise reckoning the year they finally sell."
+        "summary": "A top equity strategist is steering clients away from the S&P 500, and the reasoning goes deeper than simple valuation math. The real story is a balance-sheet wound that quietly healed while most investors were looking elsewhere."
       },
       {
-        "title": "The Top 5% of Americans Are Outspending Their Own Paychecks. That's the Risk to Watch.",
-        "url": "https://finance.yahoo.com/economy/articles/top-5-americans-outspending-own-180048553.html?.tsrc=rss",
-        "time_published": "2026-08-18 18:00",
-        "source": "Finance",
-        "summary": "America\u2019s consumer may be less divided than investors think. But one group is still behaving very differently from everyone else: the richest 5% of households. Bank of America\u2019s latest data show spending growth has increasingly converged across income groups. Lower-income..."
-      },
-      {
-        "title": "Forget the 4 Percent Rule: These 3 ETFs Pay Up to 12 Percent So You Never Have to Sell a Share",
-        "url": "https://247wallst.com/investing/2026/08/18/forget-the-4-percent-rule-these-3-etfs-pay-up-to-12-percent-so-you-never-have-to-sell-a-share/?.tsrc=rss",
-        "time_published": "2026-08-18 17:17",
+        "title": "5 Income ETFs to Buy Once and Collect Monthly Checks Forever",
+        "url": "https://247wallst.com/investing/2026/08/19/5-income-etfs-to-buy-once-and-collect-monthly-checks-forever/?.tsrc=rss",
+        "time_published": "2026-08-19 17:20",
         "source": "247wallst",
-        "summary": "Selling shares to fund retirement works fine until a market crash forces you to liquidate at the worst possible moment. Three covered-call ETFs offer a completely different income strategy, but picking the wrong one for your situation could cost you more than the yield is worth."
+        "summary": "Most investors settle for quarterly dividends, but a handful of ETFs cut monthly checks instead, and the differences in how they generate that income could matter far more than the yield number alone."
+      },
+      {
+        "title": "Dollar Cost Averaging Into the SCHG ETF Worked for Ten Years. This Year It Is Buying You Less Than the SPY.",
+        "url": "https://247wallst.com/investing/etf/2026/08/19/dollar-cost-averaging-into-the-schg-etf-worked-for-ten-years-this-year-it-is-buying-you-less-than-the-spy/?.tsrc=rss",
+        "time_published": "2026-08-19 16:35",
+        "source": "247wallst",
+        "summary": "A decade of rewarding a simple monthly habit does not guarantee the next chapter follows the same script, and 2026 is already writing something different for SCHG investors. Where you sit in your personal timeline determines whether this year's numbers are a quiet gift or a warning worth acting on."
+      },
+      {
+        "title": "Two Yields, One SPYI ETF: 12% for the Marketing, 0.47% for the SEC",
+        "url": "https://247wallst.com/investing/etf/2026/08/19/two-yields-one-spyi-etf-12-for-the-marketing-0-47-for-the-sec/?.tsrc=rss",
+        "time_published": "2026-08-19 14:20",
+        "source": "247wallst",
+        "summary": "SPYI publishes two yield figures that look like they belong to completely different funds, and both are calculated correctly. Understanding why reveals something uncomfortable about how income-focused investors are actually reading their returns."
+      },
+      {
+        "title": "GM Sprinted Past Ford After Its $6 Billion Buyback. This Year The Hare Is Napping.",
+        "url": "https://247wallst.com/investing/2026/08/19/gm-sprinted-past-ford-after-its-6-billion-buyback-this-year-the-hare-is-napping/?.tsrc=rss",
+        "time_published": "2026-08-19 13:45",
+        "source": "247wallst",
+        "summary": "GM's relentless buyback machine crushed Ford and the S&P 500 for over a year, but something shifted in 2026 and now the tortoise is quietly pulling ahead. Before you bet on which automaker wins the next lap, the numbers tell a more complicated story than either bull case admits."
       }
     ],
     "oil": [
