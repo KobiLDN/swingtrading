@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-08-20T07:06:10Z",
+  "generated": "2026-08-21T07:04:49Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "1/10",
-  "analysis": "The SPY daily chart confirms a strong uptrend with price well above both the 50\u2011period EMA (752.03) and 200\u2011period EMA (718.08). However, the current price of 769.06 is approximately 2.4 ATRs above the 50 EMA, indicating an extended move that often precedes a pullback or consolidation. The RSI at 57.78 is neutral, showing no overbought condition, but also no momentum surge. The MACD remains bullish with the line above the signal and a positive histogram, yet the histogram value (+0.259) is relatively small, suggesting weakening upside momentum. No candlestick patterns or divergences are present to provide a clear entry trigger.  \n\nThe pre\u2011calculated signal score of 1/10 reflects a very low probability of a favorable risk\u2011reward setup at current levels. Without a confirmed pullback to a key support zone (e.g., the 50 EMA near 752) or a decisive breakout above recent highs with volume, the risk of buying into an overextended price is high. The ATR of 7.07 points means any stop\u2011loss would need to be wide to avoid noise, further reducing the attractiveness of a long entry here.  \n\nGiven the lack of a clear pattern (no flags, triangles, or reversal signals) and the neutral RSI, the most prudent action is to wait. A better opportunity would arise if price retraces to the 50 EMA support (752) or forms a bullish continuation pattern after a shallow pullback. Alternatively, a strong breakout above 776 (price + 1 ATR) with rising RSI could signal a resumption of the trend, but that is not yet confirmed.",
-  "invalidation": "This wait\u2011and\u2011see stance is invalidated if price closes decisively above 776 with RSI above 70 and expanding MACD histogram, or if a sharp pullback to the 50 EMA (752) occurs with a bullish reversal candlestick pattern, providing a low\u2011risk entry.",
+  "analysis": "The overall trend is confirmed as a strong uptrend, with price (762.6) trading well above both the 50-period EMA (752.45) and the 200-period EMA (718.7). However, the price action itself does not show any recent bullish momentum\u2014the last five candles are patternless and the RSI is neutral at 51.74, indicating no clear directional bias. The MACD is bearish (line below signal) with a negative histogram, which directly contradicts the bullish EMA structure. This lack of confluence between the longer-term trend and the short-term momentum indicators suggests the uptrend is stalling or undergoing a consolidation phase.  \n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are detected in the last five candles, and there is no RSI divergence to signal an impending reversal. The nearest support levels are derived from the ATR (14) of 7.07: a price - ATR level at 755.53, followed by the dynamic 50 EMA at 752.45, and a round-number support near 745.00. Resistance is identified at price + ATR (769.67), the psychological 770 level, and 775.00 as a potential extension. These levels are approximate given the absence of recent swing highs/lows in the data.  \n\nThe pre-calculated signal score of 1/10 is extremely low, reflecting the severe bearish divergence in the MACD despite the rising EMAs. For a swing trader, the best action is to wait for a clearer signal. A buy would be premature because the MACD is negative and the RSI is neutral; a sell would be fighting the strong uptrend. The risk of entering now is elevated\u2014a false breakout or a sudden momentum shift could trigger a stop-loss. The most prudent approach is to remain on the sidelines until either the MACD turns bullish (confirming trend continuation) or the price breaks below the 50 EMA (indicating a trend change).",
+  "invalidation": "This wait setup is canceled if the price breaks above 770.00 with a strong bullish MACD crossover, or if the price closes decisively below the 50 EMA at 752.45, producing a new bearish signal.",
   "support_levels": [
-    762.0,
-    755.0,
-    752.03
+    755.53,
+    752.45,
+    745.0
   ],
   "resistance_levels": [
-    776.0,
-    783.0,
-    790.0
+    769.67,
+    770.0,
+    775.0
   ]
 };

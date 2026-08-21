@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-08-20
-**Generated:** 2026-08-20T07:04:50Z
+**Date:** 2026-08-21
+**Generated:** 2026-08-21T07:03:33Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,30 @@
 |-------|-------|
 | **Decision** | WAIT |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.1587 (pending buy on pullback) |
-| **Stop Loss** | 1.1510 |
-| **Target 1** | 1.1700 |
-| **Target 2** | 1.1800 |
-| **Risk/Reward** | 1:1.5 (approx) |
-| **Score** | 6/10 |
-| **Support** | 1.165 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 6/10 confirmed |
+| **Support** | 1.15919, 1.15253, 1.145 |
 | **Resistance** | 1.17, 1.175, 1.18 |
 
 ---
 
 ## Analysis
 
-Price is firmly above both the 50- and 200-period EMAs (1.15185 and 1.15874), confirming a bullish trend. The recent candlestick sequence includes a Morning Star and Bullish Engulfing, which reinforced the upward move, though the two subsequent Doji candles now suggest indecision and a possible loss of momentum near current levels. No additional chart patterns like triangles or flags are evident on the daily chart; the structure appears to be a steady climb with no clear consolidation patterns.
+The trend is labeled bullish bias, and price (1.16919) sits well above both the EMA50 (1.15253) and EMA200 (1.15919), confirming a sustained uptrend. However, the EMA50 remains below the EMA200, which typically signals a bearish cross in the moving averages. This incongruence suggests the rally is recent and not yet structurally confirmed by the longer-term average alignment. The price action over the last five candles shows a mix of bullish and bearish reversal patterns—Morning Star and Bullish Engulfing indicate strong buying, but the Inverted Hammer and Doji at current levels hint at exhaustion and indecision. Without a clear, single pattern, the near-term direction is uncertain.
 
-The RSI at 76.32 is in overbought territory, warning that a short‑term pullback or consolidation is likely. However, there is no bearish divergence, so the overbought reading does not yet signal a trend reversal. The MACD remains bullish with the line above the signal and a positive histogram, confirming that upward momentum is still present, albeit possibly slowing. This creates a mixed confluence: the trend and MACD favor buying, but the overbought RSI and Doji candles argue for caution.
+RSI at 77.53 is deep in overbought territory, warning of a possible pullback or consolidation. The MACD remains bullish (line above signal) with a positive histogram, which normally aligns with the trend but loses conviction when RSI is overstretched. No RSI divergence exists, so the momentum has not yet faded, but the overbought condition alone reduces the probability of an immediate continuation. The signal score of 6/10 reflects this mixed picture: technical structure is bullish, but short-term momentum and pattern analysis favor caution.
 
-The most prudent setup is to wait for a pullback toward the EMA200 support at 1.1587, where the buying pressure would be reinforced by a major moving average. A buy stop at that level, with a stop loss just below the EMA50 at 1.1510, offers a favorable risk‑to‑reward ratio of approximately 1:1.5 to the first target at 1.1700 and 1:2.5 to the second target at 1.1800. Attempting to buy at the current price (1.1678) carries elevated risk due to the overbought RSI and the potential for an immediate pullback. A short trade would counter the bullish trend and is not recommended.
+Key support levels are the EMA200 at 1.15919 and the EMA50 at 1.15253, with a round number near 1.14500 as deeper support. Resistance is clustered around the psychological 1.17000 level, followed by 1.17500 and 1.18000. Given the crowded resistance just above and an overbought RSI, the risk of entering a long position here is elevated. A better trade would be to wait for a pullback toward the EMA200 (1.15919) or a clear breakout above 1.17000 with fresh momentum. Shorting is not advised because the overall trend is still bullish and no bearish reversal pattern (e.g., bearish engulfing, dark cloud cover) has formed at the top.
 
 ---
 
 ## Invalidation
 
-A daily close below the EMA200 (1.15874) or a break below the EMA50 (1.15185) would cancel the bullish setup and shift the outlook to neutral or bearish.
+N/A
 
 ---
 

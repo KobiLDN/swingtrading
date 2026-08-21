@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-20T07:09:24Z",
+  "generated": "2026-08-21T07:05:35Z",
   "assets": {
     "gbpusd": [
       {
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "US Stock Index Futures Climb As Yields Cool Off Amid Treasury Support \u2014 NVDA, MRNA, MRVL, LOWE In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-index-futures-climb-as-yields-cool-off-amid-treasury-support-nvda-mrna-mrvl-lowe-in-focus/cZYdxACRJlH?.tsrc=rss",
-        "time_published": "2026-08-19 23:15",
+        "title": "How Much of Your Portfolio Should Actually Be in FTXL",
+        "url": "https://247wallst.com/investing/etf/2026/08/20/how-much-of-your-portfolio-should-actually-be-in-ftxl/?.tsrc=rss",
+        "time_published": "2026-08-20 21:15",
+        "source": "247wallst",
+        "summary": "Most retirement investors already hold a concentrated chip bet without knowing it, and adding FTXL can quietly double down on the same handful of names. Getting the sizing right separates a smart tilt from a sector gamble that distorts your entire portfolio."
+      },
+      {
+        "title": "US Stock Indices End Lower As Trump\u2019s \u2018Economic Warfare\u2019 Threats Push Yields, Oil Higher \u2014 WMT, CRWV, SBUX, DE, RKLB In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-indices-end-lower-as-trump-s-economic-warfare-threats-push-yields-oil-higher/cZYeR5dRJZA?.tsrc=rss",
+        "time_published": "2026-08-20 21:31",
         "source": "Stocktwits",
-        "summary": "A rally in 30-year bonds drove yields down by 10 basis points to 5.18%."
+        "summary": "President Donald Trump, in a Truth Social post, threatened Iran with \u201ceconomic warfare.\u201d"
       },
       {
-        "title": "NEOS\u2019s \u2018Boosted\u2019 S&P Fund Pays 17% While the Nasdaq Version Pays 21%",
-        "url": "https://247wallst.com/investing/2026/08/19/neoss-boosted-sp-fund-pays-17-while-the-nasdaq-version-pays-21/?.tsrc=rss",
-        "time_published": "2026-08-19 22:25",
+        "title": "Your Active ETF Manager Lost Again, and 87% of Them Have Been Losing for a Decade",
+        "url": "https://247wallst.com/investing/2026/08/20/your-active-etf-manager-lost-again-and-87-of-them-have-been-losing-for-a-decade/?.tsrc=rss",
+        "time_published": "2026-08-20 18:50",
         "source": "247wallst",
-        "summary": "NEOS built its reputation on a flagship S&P 500 income ETF that clears 12% annually, but a pair of younger siblings run the same playbook at a noticeably different intensity, and the tradeoffs are not what most income investors expect."
+        "summary": "The decade-long data on active fund managers is damning enough, but the real problem starts the moment the industry uses that data to sell you something."
       },
       {
-        "title": "The Market Is in a Bubble. Why I\u2019m Focusing on Quantum Computing Stocks Now.",
-        "url": "https://www.barchart.com/story/news/3937170/the-market-is-in-a-bubble-why-im-focusing-on-quantum-computing-stocks-now?.tsrc=rss",
-        "time_published": "2026-08-19 20:17",
-        "source": "Barchart",
-        "summary": "With the market in a bubble, it is important for investors to study the segments of the AI trade."
-      },
-      {
-        "title": "A Top Strategist Says Buy \u201cAnything but the S&P 500\u201d as Small Caps Quietly Steal the Lead",
-        "url": "https://247wallst.com/investing/2026/08/19/a-top-strategist-says-buy-anything-but-the-sp-500-as-small-caps-quietly-steal-the-lead/?.tsrc=rss",
-        "time_published": "2026-08-19 18:10",
+        "title": "We Told You to Forget SCHD. It Just Beat the S&P by 12 Points, Its Biggest Win Ever",
+        "url": "https://247wallst.com/investing/2026/08/20/we-told-you-to-forget-schd-it-just-beat-the-sp-by-12-points-its-biggest-win-ever/?.tsrc=rss",
+        "time_published": "2026-08-20 18:41",
         "source": "247wallst",
-        "summary": "A top equity strategist is steering clients away from the S&P 500, and the reasoning goes deeper than simple valuation math. The real story is a balance-sheet wound that quietly healed while most investors were looking elsewhere."
+        "summary": "We were wrong about SCHD, and the margin of error is impossible to ignore. Here is what actually flipped the script and what it means for every portfolio that followed our advice."
       },
       {
-        "title": "5 Income ETFs to Buy Once and Collect Monthly Checks Forever",
-        "url": "https://247wallst.com/investing/2026/08/19/5-income-etfs-to-buy-once-and-collect-monthly-checks-forever/?.tsrc=rss",
-        "time_published": "2026-08-19 17:20",
-        "source": "247wallst",
-        "summary": "Most investors settle for quarterly dividends, but a handful of ETFs cut monthly checks instead, and the differences in how they generate that income could matter far more than the yield number alone."
+        "title": "Ask Anything: Six Weeks of Investors Putting ETF Questions to AI",
+        "url": "http://www.etf.com/sections/news/ask-anything-six-weeks-investors-putting-etf-questions-ai?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-08-20 18:01",
+        "source": "Etf",
+        "summary": "Five weeks of data from ETF.com\u2019s AI assistant: 568 investors, 1,257 questions, 74% in their own words \u2014 and a clear pattern of screening, comparing and portfolio-building that goes far beyond a search box."
       },
       {
-        "title": "Dollar Cost Averaging Into the SCHG ETF Worked for Ten Years. This Year It Is Buying You Less Than the SPY.",
-        "url": "https://247wallst.com/investing/etf/2026/08/19/dollar-cost-averaging-into-the-schg-etf-worked-for-ten-years-this-year-it-is-buying-you-less-than-the-spy/?.tsrc=rss",
-        "time_published": "2026-08-19 16:35",
+        "title": "Median Stock Portfolio Hits Record $350,000  \u2014 Household Share of Nation Debt Grows to $296,500",
+        "url": "https://247wallst.com/investing/2026/08/20/median-stock-portfolio-hits-record-350000-household-share-of-nation-debt-grows-to-296500/?.tsrc=rss",
+        "time_published": "2026-08-20 16:43",
         "source": "247wallst",
-        "summary": "A decade of rewarding a simple monthly habit does not guarantee the next chapter follows the same script, and 2026 is already writing something different for SCHG investors. Where you sit in your personal timeline determines whether this year's numbers are a quiet gift or a warning worth acting on."
+        "summary": "American households are sitting on record stock wealth while simultaneously absorbing a national debt obligation that has never been larger, and the math between those two numbers is not as comfortable as the market's calm exterior suggests."
       },
       {
-        "title": "Two Yields, One SPYI ETF: 12% for the Marketing, 0.47% for the SEC",
-        "url": "https://247wallst.com/investing/etf/2026/08/19/two-yields-one-spyi-etf-12-for-the-marketing-0-47-for-the-sec/?.tsrc=rss",
-        "time_published": "2026-08-19 14:20",
+        "title": "Warning: The Buffett Portfolio Your OMAH ETF Copies Is Disappearing One 13F at a Time",
+        "url": "https://247wallst.com/investing/etf/2026/08/20/warning-the-buffett-portfolio-your-omah-etf-copies-is-disappearing-one-13f-at-a-time/?.tsrc=rss",
+        "time_published": "2026-08-20 14:35",
         "source": "247wallst",
-        "summary": "SPYI publishes two yield figures that look like they belong to completely different funds, and both are calculated correctly. Understanding why reveals something uncomfortable about how income-focused investors are actually reading their returns."
+        "summary": "Greg Abel's first full quarter running Berkshire's portfolio wiped out sixteen positions in one sweep, and OMAH shareholders are only now finding out what that means for the fund they thought they owned."
       },
       {
-        "title": "GM Sprinted Past Ford After Its $6 Billion Buyback. This Year The Hare Is Napping.",
-        "url": "https://247wallst.com/investing/2026/08/19/gm-sprinted-past-ford-after-its-6-billion-buyback-this-year-the-hare-is-napping/?.tsrc=rss",
-        "time_published": "2026-08-19 13:45",
+        "title": "History Says 2026\u2019s Market Rally Starts in 42 Days, Per JP Morgan Data",
+        "url": "https://247wallst.com/investing/2026/08/20/history-says-2026s-market-rally-starts-in-42-days-per-jp-morgan-data/?.tsrc=rss",
+        "time_published": "2026-08-20 14:13",
         "source": "247wallst",
-        "summary": "GM's relentless buyback machine crushed Ford and the S&P 500 for over a year, but something shifted in 2026 and now the tortoise is quietly pulling ahead. Before you bet on which automaker wins the next lap, the numbers tell a more complicated story than either bull case admits."
+        "summary": "A viral JPMorgan chart promises a powerful Q4 surge in midterm election years, but the historical setup it requires looks nothing like what the market has actually done in 2026, and that contradiction has serious implications for anyone counting on a seasonal rescue."
       }
     ],
     "oil": [

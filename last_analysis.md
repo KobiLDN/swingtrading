@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-08-20
-**Generated:** 2026-08-20T07:00:57Z
+**Date:** 2026-08-21
+**Generated:** 2026-08-21T07:03:19Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,26 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 6/10 |
-| **Support** | 1.355, 1.345, 1.34 |
-| **Resistance** | 1.365, 1.37, 1.375 |
+| **Support** | 1.359, 1.346, 1.34 |
+| **Resistance** | 1.3695, 1.375, 1.38 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a clear bullish bias with price (1.36064) well above both the EMA50 (1.34515) and EMA200 (1.34541). The EMA alignment is strongly bullish, and the MACD remains positive with the histogram at +0.000750, confirming upward momentum. However, the RSI at 71.95 is in overbought territory, which typically warns of a potential pullback or consolidation. No RSI divergence is present, so the trend is not immediately weakening, but the overbought condition reduces the attractiveness of a fresh long entry at current levels.
+The trend is clearly bullish with price well above both the EMA50 (1.34599) and EMA200 (1.346), confirming a strong uptrend. The MACD remains bullish with the histogram positive, and the RSI at 75.31 indicates overbought conditions but without any bearish divergence. This suggests momentum is still intact, though the overbought reading warns of a potential short-term pullback or consolidation. The candlestick patterns over the last five sessions are mixed—Morning Star and Bullish Engulfing (bullish) alternating with Bearish Engulfing and Evening Star (bearish)—reflecting indecision at current levels. No clear chart patterns like triangles or double tops/bottoms are evident from the given data, but the price is testing recent highs, which could act as resistance.
 
-The candlestick sequence over the last few sessions is mixed: a Bullish Engulfing and Morning Star were followed by a Bearish Engulfing and Evening Star, then another Bullish Engulfing and a Doji. This pattern suggests indecision and a tug-of-war between buyers and sellers near the recent highs. No clear continuation or reversal pattern (like a flag or double top) is evident from the provided data, but the presence of both bullish and bearish engulfing candles implies that price may be forming a short-term range or a minor top. The signal score of 6/10 reflects this ambiguity.
+The RSI and MACD are in agreement with the bullish trend, but the overbought RSI reduces the reliability of a fresh long entry at current price. The absence of divergence means the trend is not yet exhausted, but the mixed candlesticks suggest the market is struggling to push higher immediately. Key support lies at the ATR-based level of 1.3590 (current price minus 52 pips), followed by the EMA cluster near 1.3460. Resistance is likely at 1.3695 (current plus ATR) and then psychological levels at 1.3750 and 1.3800. Given the signal score of 6/10, the setup lacks high conviction.
 
-Given the overbought RSI and the mixed candlestick signals, entering a long position now carries elevated risk of a mean-reversion move. A short trade would be counter-trend and unsupported by the MACD and EMA structure. The most prudent approach is to wait for either a pullback to a key support zone (e.g., near the EMA cluster around 1.3450 or the round number 1.3550) to re-enter long with a better risk/reward, or for a confirmed bearish reversal pattern (e.g., a break below the recent swing low) to consider a short. Until then, the setup lacks a clear entry trigger.
+The single best trade setup right now is to wait for a pullback to the support zone near 1.3590–1.3600, where a long entry would offer a better risk/reward with a stop below the EMA50. However, the current overbought RSI and conflicting candlestick patterns do not justify an immediate entry. A break above 1.3695 with strong momentum could also trigger a continuation trade, but that would require confirmation. For now, patience is prudent.
+
+Risk assessment: The primary risk is a sharp reversal from overbought levels, especially if the mixed candlesticks resolve into a bearish pattern. The ATR of 52 pips implies moderate daily volatility, so a stop-loss placed too tight could be triggered by noise. A long trade at current price would have a poor risk/reward because the nearest support is 52 pips away, while resistance is only 52 pips above, offering a 1:1 ratio at best. Waiting for a pullback improves the ratio to at least 2:1. The overall risk is medium due to the strong trend but overbought condition.
 
 ---
 
 ## Invalidation
 
-This wait-and-see stance is invalidated if price breaks above 1.3650 with strong momentum, which would negate the overbought concern and signal trend continuation, or if it drops below 1.3550, confirming a deeper pullback and potentially offering a long entry near support.
+This wait-and-see setup is invalidated if price breaks and closes below the EMA50 (1.3460) or if a bearish divergence forms on the RSI, signaling a trend reversal.
 
 ---
 
