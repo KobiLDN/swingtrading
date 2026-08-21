@@ -1,30 +1,24 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-08-20T06:27:19Z",
-  "date": "2026-08-20",
-  "price": 4493.38,
-  "atr": 73.52,
-  "atr_pips": 74,
+  "generated": "2026-08-21T06:27:55Z",
+  "date": "2026-08-21",
+  "price": 4552.44,
+  "atr": 74.58,
+  "atr_pips": 75,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4246.54,
-  "ema200": 4426.13,
-  "rsi": 67.12,
-  "macd_line": 88.863433,
-  "macd_signal": 76.814841,
-  "macd_hist": 12.048592,
+  "ema50": 4259.59,
+  "ema200": 4460.04,
+  "rsi": 71.65,
+  "macd_line": 97.221061,
+  "macd_signal": 81.22738,
+  "macd_hist": 15.993681,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-16",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-08-17",
       "name": "Morning Star",
@@ -36,18 +30,23 @@
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-08-20",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-08-21",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 6,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-13",
-      "open": 4715.19,
-      "high": 4726.44,
-      "low": 4669.47,
-      "close": 4688.61
-    },
     {
       "date": "2026-05-14",
       "open": 4688.76,
@@ -737,9 +736,16 @@
     {
       "date": "2026-08-20",
       "open": 4523.14,
-      "high": 4527.83,
-      "low": 4478.48,
-      "close": 4493.38
+      "high": 4544.49,
+      "low": 4451.37,
+      "close": 4519.34
+    },
+    {
+      "date": "2026-08-21",
+      "open": 4519.29,
+      "high": 4557.52,
+      "low": 4509.73,
+      "close": 4552.44
     }
   ]
 }

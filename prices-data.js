@@ -1,30 +1,24 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-08-20T06:27:18Z",
-  "date": "2026-08-20",
-  "price": 1.36064,
-  "atr": 0.00514,
-  "atr_pips": 51,
+  "generated": "2026-08-21T06:27:54Z",
+  "date": "2026-08-21",
+  "price": 1.36428,
+  "atr": 0.00525,
+  "atr_pips": 52,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34515,
-  "ema200": 1.34541,
-  "rsi": 71.95,
-  "macd_line": 0.004488,
-  "macd_signal": 0.003738,
-  "macd_hist": 0.00075,
+  "ema50": 1.34599,
+  "ema200": 1.346,
+  "rsi": 75.31,
+  "macd_line": 0.005147,
+  "macd_signal": 0.004051,
+  "macd_hist": 0.001096,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-16",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
-    },
     {
       "date": "2026-08-17",
       "name": "Morning Star",
@@ -48,24 +42,11 @@ window.PRICES_DATA = {
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
-    },
-    {
-      "date": "2026-08-20",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
     }
   ],
   "score": 6,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-13",
-      "open": 1.35406,
-      "high": 1.35504,
-      "low": 1.34869,
-      "close": 1.35243
-    },
     {
       "date": "2026-05-14",
       "open": 1.35242,
@@ -755,9 +736,16 @@ window.PRICES_DATA = {
     {
       "date": "2026-08-20",
       "open": 1.3607,
-      "high": 1.36163,
+      "high": 1.36584,
       "low": 1.35949,
-      "close": 1.36064
+      "close": 1.3631
+    },
+    {
+      "date": "2026-08-21",
+      "open": 1.3631,
+      "high": 1.36552,
+      "low": 1.36274,
+      "close": 1.36428
     }
   ]
 };
