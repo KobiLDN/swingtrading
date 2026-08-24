@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-21T07:05:35Z",
+  "generated": "2026-08-24T07:19:16Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Breaks 99.38 as EUR/USD and GBP/USD Extend Gain",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061736696.html?.tsrc=rss",
+        "time_published": "2026-08-21 06:17",
+        "source": "Finance",
+        "summary": "DXY remains under pressure amid U.S. fiscal concerns, while EUR/USD and GBP/USD extend gains on expectations for tighter ECB and BoE policy."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Near 99.38 as Fed Minutes and UK Inflation Loom; EUR/USD and GBP/USD Hold Firm",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060023874.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-08-12 16:49",
         "source": "Finance",
         "summary": "The American currency is moving higher as traders focus on inflation data."
-      },
-      {
-        "title": "US Dollar Price Forecast: CPI Test Looms as DXY, EUR/USD and GBP/USD Hold Key Levels",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-cpi-081412880.html?.tsrc=rss",
-        "time_published": "2026-08-12 08:14",
-        "source": "Finance",
-        "summary": "DXY, EUR/USD and GBP/USD trade near key technical levels as markets await U.S. CPI for fresh clues on inflation and the Fed\u2019s September policy outlook."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Breaks 99.38 as EUR/USD and GBP/USD Extend Gain",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061736696.html?.tsrc=rss",
+        "time_published": "2026-08-21 06:17",
+        "source": "Finance",
+        "summary": "DXY remains under pressure amid U.S. fiscal concerns, while EUR/USD and GBP/USD extend gains on expectations for tighter ECB and BoE policy."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Near 99.38 as Fed Minutes and UK Inflation Loom; EUR/USD and GBP/USD Hold Firm",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060023874.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-12 08:14",
         "source": "Finance",
         "summary": "DXY, EUR/USD and GBP/USD trade near key technical levels as markets await U.S. CPI for fresh clues on inflation and the Fed\u2019s September policy outlook."
-      },
-      {
-        "title": "Forex Market Forecast \u2013 Euro, Pound, and Yen Test Support as US Yields Drift",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/forex-market-forecast-euro-pound-133208907.html?.tsrc=rss",
-        "time_published": "2026-08-11 13:32",
-        "source": "Finance",
-        "summary": "Currency markets are testing support areas in early Tuesday trading. At this point, the interest rates in America continue to play a big part."
       }
     ],
     "xauusd": [],
@@ -178,6 +178,41 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
+        "title": "This Fund Pays 400% of the S&P\u2019s Dividend and Still Beat Half of Wall Street This Year",
+        "url": "https://247wallst.com/investing/2026/08/22/this-fund-pays-400-of-the-sps-dividend-and-still-beat-half-of-wall-street-this-year/?.tsrc=rss",
+        "time_published": "2026-08-22 18:48",
+        "source": "247wallst",
+        "summary": "SPY's quarterly dividend barely registers as income, but a lesser-known fund holding the exact same 500 companies has quietly rewired the payout structure in a way most income investors have never considered."
+      },
+      {
+        "title": "DIVO Holders Gave Up $79,300 on a $500,000 Position Over Five Years for Downside Comfort",
+        "url": "https://247wallst.com/investing/etf/2026/08/21/divo-holders-gave-up-79300-on-a-500000-position-over-five-years-for-downside-comfort/?.tsrc=rss",
+        "time_published": "2026-08-21 22:05",
+        "source": "247wallst",
+        "summary": "DIVO promises smoother drawdowns and monthly income, but the comfort of a covered-call strategy comes with hidden costs that compound quietly into five-figure territory on a half-million-dollar position over five years."
+      },
+      {
+        "title": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
+        "url": "https://247wallst.com/investing/etf/2026/08/21/spy-has-a-nearly-identical-twin-that-costs-80-percent-less-and-pays-the-same-dividends/?.tsrc=rss",
+        "time_published": "2026-08-21 21:05",
+        "source": "247wallst",
+        "summary": "State Street runs two S&P 500 ETFs that hold the exact same stocks in the exact same weights and pay the exact same dividends, yet most investors park their money in the one that costs significantly more."
+      },
+      {
+        "title": "BofA Sees a Stock Market Setup Starting to Change",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-sees-stock-market-setup-193717505.html?.tsrc=rss",
+        "time_published": "2026-08-21 19:37",
+        "source": "Finance",
+        "summary": "Several hated assets could benefit if consensus starts cracking"
+      },
+      {
+        "title": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
+        "url": "https://247wallst.com/investing/etf/2026/08/21/there-are-two-spy-etfs-now-and-you-probably-own-the-wrong-one/?.tsrc=rss",
+        "time_published": "2026-08-21 14:20",
+        "source": "247wallst",
+        "summary": "State Street quietly renamed a flagship ETF and gave it a ticker that looks almost identical to the world's most famous fund, and the fee difference between the two could reshape how millions of retirement savers think about index investing."
+      },
+      {
         "title": "How Much of Your Portfolio Should Actually Be in FTXL",
         "url": "https://247wallst.com/investing/etf/2026/08/20/how-much-of-your-portfolio-should-actually-be-in-ftxl/?.tsrc=rss",
         "time_published": "2026-08-20 21:15",
@@ -185,53 +220,18 @@ window.NEWS_DATA = {
         "summary": "Most retirement investors already hold a concentrated chip bet without knowing it, and adding FTXL can quietly double down on the same handful of names. Getting the sizing right separates a smart tilt from a sector gamble that distorts your entire portfolio."
       },
       {
-        "title": "US Stock Indices End Lower As Trump\u2019s \u2018Economic Warfare\u2019 Threats Push Yields, Oil Higher \u2014 WMT, CRWV, SBUX, DE, RKLB In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-indices-end-lower-as-trump-s-economic-warfare-threats-push-yields-oil-higher/cZYeR5dRJZA?.tsrc=rss",
-        "time_published": "2026-08-20 21:31",
+        "title": "US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields \u2014 PSKY, MSTR, WMT, TSLA, NVDA In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-indices-end-week-lower-on-pressure-from-elevated-long-duration-treasury-yields-psky/cZY97YMRJVO?.tsrc=rss",
+        "time_published": "2026-08-21 21:48",
         "source": "Stocktwits",
-        "summary": "President Donald Trump, in a Truth Social post, threatened Iran with \u201ceconomic warfare.\u201d"
+        "summary": "The U.S. 30-year Treasury yield climbed for the second straight week."
       },
       {
-        "title": "Your Active ETF Manager Lost Again, and 87% of Them Have Been Losing for a Decade",
-        "url": "https://247wallst.com/investing/2026/08/20/your-active-etf-manager-lost-again-and-87-of-them-have-been-losing-for-a-decade/?.tsrc=rss",
-        "time_published": "2026-08-20 18:50",
+        "title": "DIVO Was the Quality-Income Pick. Its International Twin Yields 5.6% and Beat It by 5 Points",
+        "url": "https://247wallst.com/investing/2026/08/23/divo-was-the-quality-income-pick-its-international-twin-yields-5-6-and-beat-it-by-5-points/?.tsrc=rss",
+        "time_published": "2026-08-23 19:11",
         "source": "247wallst",
-        "summary": "The decade-long data on active fund managers is damning enough, but the real problem starts the moment the industry uses that data to sell you something."
-      },
-      {
-        "title": "We Told You to Forget SCHD. It Just Beat the S&P by 12 Points, Its Biggest Win Ever",
-        "url": "https://247wallst.com/investing/2026/08/20/we-told-you-to-forget-schd-it-just-beat-the-sp-by-12-points-its-biggest-win-ever/?.tsrc=rss",
-        "time_published": "2026-08-20 18:41",
-        "source": "247wallst",
-        "summary": "We were wrong about SCHD, and the margin of error is impossible to ignore. Here is what actually flipped the script and what it means for every portfolio that followed our advice."
-      },
-      {
-        "title": "Ask Anything: Six Weeks of Investors Putting ETF Questions to AI",
-        "url": "http://www.etf.com/sections/news/ask-anything-six-weeks-investors-putting-etf-questions-ai?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-08-20 18:01",
-        "source": "Etf",
-        "summary": "Five weeks of data from ETF.com\u2019s AI assistant: 568 investors, 1,257 questions, 74% in their own words \u2014 and a clear pattern of screening, comparing and portfolio-building that goes far beyond a search box."
-      },
-      {
-        "title": "Median Stock Portfolio Hits Record $350,000  \u2014 Household Share of Nation Debt Grows to $296,500",
-        "url": "https://247wallst.com/investing/2026/08/20/median-stock-portfolio-hits-record-350000-household-share-of-nation-debt-grows-to-296500/?.tsrc=rss",
-        "time_published": "2026-08-20 16:43",
-        "source": "247wallst",
-        "summary": "American households are sitting on record stock wealth while simultaneously absorbing a national debt obligation that has never been larger, and the math between those two numbers is not as comfortable as the market's calm exterior suggests."
-      },
-      {
-        "title": "Warning: The Buffett Portfolio Your OMAH ETF Copies Is Disappearing One 13F at a Time",
-        "url": "https://247wallst.com/investing/etf/2026/08/20/warning-the-buffett-portfolio-your-omah-etf-copies-is-disappearing-one-13f-at-a-time/?.tsrc=rss",
-        "time_published": "2026-08-20 14:35",
-        "source": "247wallst",
-        "summary": "Greg Abel's first full quarter running Berkshire's portfolio wiped out sixteen positions in one sweep, and OMAH shareholders are only now finding out what that means for the fund they thought they owned."
-      },
-      {
-        "title": "History Says 2026\u2019s Market Rally Starts in 42 Days, Per JP Morgan Data",
-        "url": "https://247wallst.com/investing/2026/08/20/history-says-2026s-market-rally-starts-in-42-days-per-jp-morgan-data/?.tsrc=rss",
-        "time_published": "2026-08-20 14:13",
-        "source": "247wallst",
-        "summary": "A viral JPMorgan chart promises a powerful Q4 surge in midterm election years, but the historical setup it requires looks nothing like what the market has actually done in 2026, and that contradiction has serious implications for anyone counting on a seasonal rescue."
+        "summary": "DIVO built a $5.25 billion following by pairing blue-chip dividends with a covered-call overlay, but the same manager running the same strategy on a different continent is quietly making DIVO holders ask uncomfortable questions about where their money should be sitting."
       }
     ],
     "oil": [

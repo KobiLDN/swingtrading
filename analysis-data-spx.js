@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-08-21T07:04:49Z",
+  "generated": "2026-08-24T07:18:03Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "1/10",
-  "analysis": "The overall trend is confirmed as a strong uptrend, with price (762.6) trading well above both the 50-period EMA (752.45) and the 200-period EMA (718.7). However, the price action itself does not show any recent bullish momentum\u2014the last five candles are patternless and the RSI is neutral at 51.74, indicating no clear directional bias. The MACD is bearish (line below signal) with a negative histogram, which directly contradicts the bullish EMA structure. This lack of confluence between the longer-term trend and the short-term momentum indicators suggests the uptrend is stalling or undergoing a consolidation phase.  \n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are detected in the last five candles, and there is no RSI divergence to signal an impending reversal. The nearest support levels are derived from the ATR (14) of 7.07: a price - ATR level at 755.53, followed by the dynamic 50 EMA at 752.45, and a round-number support near 745.00. Resistance is identified at price + ATR (769.67), the psychological 770 level, and 775.00 as a potential extension. These levels are approximate given the absence of recent swing highs/lows in the data.  \n\nThe pre-calculated signal score of 1/10 is extremely low, reflecting the severe bearish divergence in the MACD despite the rising EMAs. For a swing trader, the best action is to wait for a clearer signal. A buy would be premature because the MACD is negative and the RSI is neutral; a sell would be fighting the strong uptrend. The risk of entering now is elevated\u2014a false breakout or a sudden momentum shift could trigger a stop-loss. The most prudent approach is to remain on the sidelines until either the MACD turns bullish (confirming trend continuation) or the price breaks below the 50 EMA (indicating a trend change).",
-  "invalidation": "This wait setup is canceled if the price breaks above 770.00 with a strong bullish MACD crossover, or if the price closes decisively below the 50 EMA at 752.45, producing a new bearish signal.",
+  "score": "0/10",
+  "analysis": "The price action confirms the EMA trend \u2014 SPY is trading well above both the 50-period (752.97) and 200-period (718.07) EMAs, and the trend is explicitly labeled as a strong uptrend. However, the absence of any recent candlestick patterns and the neutral RSI (54.23) suggest a lack of immediate directional conviction. The MACD is bearish, with the line below the signal line and a negative histogram (-0.919), indicating slowing upside momentum. This divergence between the price trend and momentum is a cautionary signal, especially given the already extended price level.\n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are detected from the last five candles, and no RSI divergence exists. The nearest support is the 760.00 round number, followed by the EMA50 at 752.97, and then the EMA200 at 718.07. Resistance is likely at the psychological 770.00 level, with the ATR-based upper band around 772.66, and further resistance near 780.00. The current price sits in a zone without a clear breakout or pullback pattern.\n\nThe RSI and MACD do not agree with the strong uptrend. While the trend is bullish, the MACD bearish cross and neutral RSI suggest that buying at current levels carries elevated risk of a mean-reversion pullback. A short trade would be counter-trend and unsupported by any bearish pattern or divergence. Therefore, there is no single best trade setup with a favorable risk-reward profile. The signal score of 0/10 reflects the lack of confluence and absence of a clear entry trigger.\n\nRisk assessment: Entering a long position now would risk buying into weakening momentum, with a potential stop-loss below the nearest support (760.00) offering a risk of ~5.72 points, while upside targets are uncertain. A short position would be against the dominant uptrend and could be quickly stopped out if momentum resumes. The prudent action is to wait for either a bullish re-confirmation (e.g., MACD turning up, a bullish candlestick pattern, or a pullback to support) or a clear breakdown below key support.",
+  "invalidation": "This WAIT setup is invalidated if price breaks decisively above 773 (ATR-based resistance) with strong volume and a bullish MACD crossover, or if it falls below 752.97 (EMA50) with a bearish candlestick pattern, which would then create a new trade opportunity.",
   "support_levels": [
-    755.53,
-    752.45,
-    745.0
+    760.0,
+    752.97,
+    718.07
   ],
   "resistance_levels": [
-    769.67,
     770.0,
-    775.0
+    772.66,
+    780.0
   ]
 };

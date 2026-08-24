@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-08-21T07:05:34Z",
+  "generated": "2026-08-24T07:19:15Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-08-20",
-  "decision": "BUY",
+  "date": "2026-08-21",
+  "decision": "WAIT",
   "confidence": "MEDIUM",
-  "entry": "134.54",
-  "stop_loss": "130.01",
-  "target_1": "139.07",
-  "target_2": "143.60",
-  "risk_reward": "1:1 (T1), 1:2 (T2)",
-  "score": "6/10",
-  "analysis": "The price action strongly confirms the EMA-based trend, with price well above both the EMA50 (124.18) and EMA200 (109.40), and the EMA50 is firmly above the EMA200\u2014a textbook bullish alignment. The trend is explicitly labeled as \"STRONG UPTREND,\" and the MACD is bullish with a positive histogram, indicating increasing upward momentum. The RSI at 61.49 is neutral, not overbought, leaving room for further upside without immediate exhaustion. No bearish divergences or candlestick patterns are present, so the current move appears to be a healthy continuation.  \n\nNo additional chart patterns (e.g., flags, triangles) are inferred from the given data, but the absence of reversal patterns supports the prevailing trend. Key support nearest to price is the ATR-based level of 130.00 (approximately one ATR below), followed by the EMA50 (124.18) and the EMA200 (109.40). Resistance levels are the round number 135.00, the ATR-based projection of 139.07, and the psychological 140.00. The ATR(14) of 4.53 indicates above-average volatility, which must be respected for stop placement and position sizing.  \n\nThe RSI and MACD are in confluence: the MACD is bullish, and the RSI, while neutral, is trending upward and has not yet reached overbought territory (above 70). This alignment supports the trend continuation thesis. The lack of a candlestick pattern and the given signal score of 0/10 are likely due to a restrictive pattern-based system, but the underlying momentum and trend strength outweigh that shortcoming. The single best trade setup is a long entry at current price, with a stop just below the nearest ATR-based support to allow for normal volatility, and targets based on a 1:1 and 1:2 risk-reward ratio using ATR extensions.",
-  "invalidation": "A daily close below 130.00 (the ATR-based support) or a break below the EMA50 (124.18) would invalidate the bullish setup and signal a trend reversal or significant pullback.",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "0/10",
+  "analysis": "The daily chart of USO exhibits a strong uptrend, with price at 134.64 well above both the EMA50 (124.59) and EMA200 (109.54). The MACD is bullish, with the line above the signal and a positive histogram, confirming upward momentum. However, the RSI at 61.58 is neutral, indicating neither overbought nor oversold conditions, and no divergence is present. The absence of any candlestick patterns over the last five sessions, combined with a signal score of 0/10, suggests a lack of clear, actionable entry signals at current levels. While the trend is robust, the price is approximately 8% above the EMA50, which increases the risk of a mean-reversion pullback before the next leg higher.\n\nKey support levels near current price include the ATR-based low of 130.29 (134.64 - 4.35), followed by the 125.94 level (134.64 - 2\u00d7ATR), and the EMA50 at 124.59. Resistance levels are identified at the psychological 135.00, the ATR-based high of 138.99, and the round number 140.00. The RSI and MACD are in agreement with the bullish trend, but the lack of a pattern-based trigger (score 0/10) means that entering now would rely solely on trend continuation without a favorable risk-reward setup. A buy at current price with a stop at 130.29 would offer a risk of 4.35 points, while the nearest target at 135.00 provides only 0.36 points of reward\u2014an unacceptable risk-reward ratio. A wider target at 140.00 yields a 1.23:1 ratio, still below the typical 2:1 threshold for swing trades.\n\nGiven these conditions, the single best trade setup is to wait for a pullback to a stronger support zone (e.g., near the EMA50 or the 130.29 level) or for a confirmed breakout above 135.00 with increased volume and a bullish candlestick pattern. Until such a setup materializes, the risk of entering at an extended price outweighs the potential reward. The current score of 0/10 reflects the absence of a clear pattern signal, and no revision is warranted.",
+  "invalidation": "A close below the 130.29 support level would invalidate the bullish bias and suggest a potential trend change, cancelling any pending long setup.",
   "support_levels": [
-    130.0,
-    124.18,
-    109.4
+    130.29,
+    125.94,
+    124.59
   ],
   "resistance_levels": [
     135.0,
-    139.07,
+    138.99,
     140.0
   ]
 };

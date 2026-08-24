@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-08-21T07:03:19Z",
+  "generated": "2026-08-24T07:14:55Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-08-21",
+  "date": "2026-08-24",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "6/10",
-  "analysis": "The trend is clearly bullish with price well above both the EMA50 (1.34599) and EMA200 (1.346), confirming a strong uptrend. The MACD remains bullish with the histogram positive, and the RSI at 75.31 indicates overbought conditions but without any bearish divergence. This suggests momentum is still intact, though the overbought reading warns of a potential short-term pullback or consolidation. The candlestick patterns over the last five sessions are mixed\u2014Morning Star and Bullish Engulfing (bullish) alternating with Bearish Engulfing and Evening Star (bearish)\u2014reflecting indecision at current levels. No clear chart patterns like triangles or double tops/bottoms are evident from the given data, but the price is testing recent highs, which could act as resistance.\n\nThe RSI and MACD are in agreement with the bullish trend, but the overbought RSI reduces the reliability of a fresh long entry at current price. The absence of divergence means the trend is not yet exhausted, but the mixed candlesticks suggest the market is struggling to push higher immediately. Key support lies at the ATR-based level of 1.3590 (current price minus 52 pips), followed by the EMA cluster near 1.3460. Resistance is likely at 1.3695 (current plus ATR) and then psychological levels at 1.3750 and 1.3800. Given the signal score of 6/10, the setup lacks high conviction.\n\nThe single best trade setup right now is to wait for a pullback to the support zone near 1.3590\u20131.3600, where a long entry would offer a better risk/reward with a stop below the EMA50. However, the current overbought RSI and conflicting candlestick patterns do not justify an immediate entry. A break above 1.3695 with strong momentum could also trigger a continuation trade, but that would require confirmation. For now, patience is prudent.\n\nRisk assessment: The primary risk is a sharp reversal from overbought levels, especially if the mixed candlesticks resolve into a bearish pattern. The ATR of 52 pips implies moderate daily volatility, so a stop-loss placed too tight could be triggered by noise. A long trade at current price would have a poor risk/reward because the nearest support is 52 pips away, while resistance is only 52 pips above, offering a 1:1 ratio at best. Waiting for a pullback improves the ratio to at least 2:1. The overall risk is medium due to the strong trend but overbought condition.",
-  "invalidation": "This wait-and-see setup is invalidated if price breaks and closes below the EMA50 (1.3460) or if a bearish divergence forms on the RSI, signaling a trend reversal.",
+  "score": "5/10",
+  "analysis": "The trend is strongly bullish, with price well above both the 50- and 200-period EMAs, confirming the uptrend. However, the presence of a bearish Evening Star pattern and an Inverted Hammer within the last five candles signals potential exhaustion near the current high. The RSI is overbought at 73.36, which historically suggests a pullback or consolidation is likely, but no divergence exists to confirm a reversal. The MACD remains bullish with the line above the signal and a positive histogram, indicating momentum is still upward, creating a conflict between short-term bearish candlestick signals and the broader trend structure.\n\nAdditional chart patterns are not explicitly provided, but the Evening Star itself is a strong reversal pattern at the top of a move. Key support levels are the EMA50 at 1.34804 and EMA200 at 1.34557, with a nearby round number at 1.3580 acting as minor support. Resistance lies at recent highs near 1.3650, followed by 1.3700 and 1.3750. The RSI and MACD do not fully agree: the MACD supports the trend, while the RSI warns of overbought conditions. This divergence in timing reduces the reliability of an immediate entry.\n\nThe single best trade setup is to wait for further confirmation. Entering a sell now carries high risk of trend continuation, while buying into overbought conditions with bearish patterns is equally risky. A pullback to the EMA50 (1.3480) or a break below the recent swing low near 1.3580 would provide a clearer entry for a long trade. Alternatively, a confirmed bearish engulfing or a close below the Evening Star\u2019s low would justify a short. Given the conflicting signals, patience is the optimal approach.",
+  "invalidation": "A bullish breakout above 1.3650 with strong momentum would invalidate the bearish reversal scenario, while a clear break below 1.3580 would confirm short-term weakness and open the door for a sell.",
   "support_levels": [
-    1.359,
-    1.346,
-    1.34
+    1.358,
+    1.348,
+    1.3456
   ],
   "resistance_levels": [
-    1.3695,
-    1.375,
-    1.38
+    1.365,
+    1.37,
+    1.375
   ]
 };
