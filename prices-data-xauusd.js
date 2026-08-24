@@ -1,36 +1,24 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-08-21T06:27:55Z",
-  "date": "2026-08-21",
-  "price": 4552.44,
-  "atr": 74.58,
-  "atr_pips": 75,
+  "generated": "2026-08-24T06:36:05Z",
+  "date": "2026-08-24",
+  "price": 4651.15,
+  "atr": 69.18,
+  "atr_pips": 69,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4259.59,
-  "ema200": 4460.04,
-  "rsi": 71.65,
-  "macd_line": 97.221061,
-  "macd_signal": 81.22738,
-  "macd_hist": 15.993681,
+  "ema50": 4302.33,
+  "ema200": 4469.63,
+  "rsi": 75.69,
+  "macd_line": 118.547144,
+  "macd_signal": 97.673883,
+  "macd_hist": 20.873261,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-17",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-08-19",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
-    },
     {
       "date": "2026-08-20",
       "name": "Doji",
@@ -42,32 +30,23 @@ window.PRICES_DATA_XAUUSD = {
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-08-23",
+      "name": "Bearish Engulfing",
+      "signal": "STRONG BEARISH",
+      "strength": 4
+    },
+    {
+      "date": "2026-08-24",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
   "score": 6,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-14",
-      "open": 4688.76,
-      "high": 4717.48,
-      "low": 4645.0,
-      "close": 4651.91
-    },
-    {
-      "date": "2026-05-15",
-      "open": 4651.65,
-      "high": 4664.83,
-      "low": 4512.33,
-      "close": 4540.15
-    },
-    {
-      "date": "2026-05-16",
-      "open": 4539.89,
-      "high": 4540.3,
-      "low": 4537.58,
-      "close": 4537.73
-    },
     {
       "date": "2026-05-17",
       "open": 4537.74,
@@ -743,9 +722,30 @@ window.PRICES_DATA_XAUUSD = {
     {
       "date": "2026-08-21",
       "open": 4519.29,
-      "high": 4557.52,
+      "high": 4631.91,
       "low": 4509.73,
-      "close": 4552.44
+      "close": 4603.92
+    },
+    {
+      "date": "2026-08-22",
+      "open": 4603.83,
+      "high": 4608.84,
+      "low": 4602.75,
+      "close": 4608.15
+    },
+    {
+      "date": "2026-08-23",
+      "open": 4608.18,
+      "high": 4608.4,
+      "low": 4602.36,
+      "close": 4603.7
+    },
+    {
+      "date": "2026-08-24",
+      "open": 4603.63,
+      "high": 4658.96,
+      "low": 4596.86,
+      "close": 4651.15
     }
   ]
 };

@@ -1,41 +1,53 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-08-21T06:27:58Z",
+  "generated": "2026-08-24T06:36:08Z",
   "events": [
     {
-      "date": "2026-08-18",
-      "time": "02:00",
-      "currency": "GBP",
-      "event": "Claimant Count Change",
-      "impact": "high",
-      "forecast": "16.5K",
-      "previous": "6.7K",
-      "actual": "",
-      "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-08-19",
-      "time": "02:00",
-      "currency": "GBP",
-      "event": "CPI y/y",
-      "impact": "high",
-      "forecast": "2.9%",
-      "previous": "2.6%",
-      "actual": "",
-      "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-08-19",
-      "time": "14:00",
+      "date": "2026-08-26",
+      "time": "08:30",
       "currency": "USD",
-      "event": "FOMC Meeting Minutes",
+      "event": "Core PCE Price Index m/m",
+      "impact": "high",
+      "forecast": "0.2%",
+      "previous": "0.1%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-08-26",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Prelim GDP q/q",
+      "impact": "high",
+      "forecast": "1.5%",
+      "previous": "1.5%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-08-28",
+      "time": "10:00",
+      "currency": "USD",
+      "event": "Fed Chairman Warsh Speaks",
       "impact": "high",
       "forecast": "",
       "previous": "",
       "actual": "",
       "today": false,
-      "past": true
+      "past": false
+    },
+    {
+      "date": "2026-08-28",
+      "time": "10:00",
+      "currency": "USD",
+      "event": "Prelim Benchmark Payrolls Revision",
+      "impact": "high",
+      "forecast": "",
+      "previous": "-911K",
+      "actual": "",
+      "today": false,
+      "past": false
     }
   ]
 };

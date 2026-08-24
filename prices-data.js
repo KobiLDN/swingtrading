@@ -1,73 +1,40 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-08-21T06:27:54Z",
-  "date": "2026-08-21",
-  "price": 1.36428,
-  "atr": 0.00525,
-  "atr_pips": 52,
+  "generated": "2026-08-24T06:36:02Z",
+  "date": "2026-08-24",
+  "price": 1.36414,
+  "atr": 0.00484,
+  "atr_pips": 48,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34599,
-  "ema200": 1.346,
-  "rsi": 75.31,
-  "macd_line": 0.005147,
-  "macd_signal": 0.004051,
-  "macd_hist": 0.001096,
-  "trend": "BULLISH BIAS",
+  "ema50": 1.34804,
+  "ema200": 1.34557,
+  "rsi": 73.36,
+  "macd_line": 0.005659,
+  "macd_signal": 0.004803,
+  "macd_hist": 0.000856,
+  "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-08-17",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-08-18",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    },
-    {
-      "date": "2026-08-18",
+      "date": "2026-08-23",
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
     },
     {
-      "date": "2026-08-19",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
+      "date": "2026-08-24",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
-  "score": 6,
+  "score": 7,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-14",
-      "open": 1.35242,
-      "high": 1.35326,
-      "low": 1.33951,
-      "close": 1.34016
-    },
-    {
-      "date": "2026-05-15",
-      "open": 1.34007,
-      "high": 1.34168,
-      "low": 1.33157,
-      "close": 1.33248
-    },
-    {
-      "date": "2026-05-16",
-      "open": 1.33243,
-      "high": 1.33341,
-      "low": 1.33237,
-      "close": 1.33266
-    },
     {
       "date": "2026-05-17",
       "open": 1.33267,
@@ -743,9 +710,30 @@ window.PRICES_DATA = {
     {
       "date": "2026-08-21",
       "open": 1.3631,
-      "high": 1.36552,
-      "low": 1.36274,
-      "close": 1.36428
+      "high": 1.36752,
+      "low": 1.36188,
+      "close": 1.36453
+    },
+    {
+      "date": "2026-08-22",
+      "open": 1.36448,
+      "high": 1.36478,
+      "low": 1.36379,
+      "close": 1.36443
+    },
+    {
+      "date": "2026-08-23",
+      "open": 1.36444,
+      "high": 1.3654,
+      "low": 1.36171,
+      "close": 1.36352
+    },
+    {
+      "date": "2026-08-24",
+      "open": 1.36357,
+      "high": 1.36559,
+      "low": 1.36327,
+      "close": 1.36414
     }
   ]
 };
