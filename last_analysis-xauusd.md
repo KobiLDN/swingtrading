@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-08-24
-**Generated:** 2026-08-24T07:17:45Z
+**Date:** 2026-08-25
+**Generated:** 2026-08-25T07:04:42Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 6/10 |
-| **Support** | 4600.0, 4550.0, 4469.63 |
-| **Resistance** | 4700.0, 4750.0, 4800.0 |
+| **Score** | 5/10 |
+| **Support** | 4600.0, 4550.0, 4471.0 |
+| **Resistance** | 4680.0, 4700.0, 4750.0 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a clear bullish bias with price trading well above both the EMA50 (4302.33) and EMA200 (4469.63). However, the EMA50 remains below the EMA200, indicating that the recent rally has been sharp and the shorter-term average has not yet crossed above the longer-term one. This divergence suggests the trend is strong but potentially overextended. The last five candles display a mix of Doji, Bullish Engulfing, and Bearish Engulfing patterns, reflecting indecision and volatile swings. The most recent candle is a Bullish Engulfing, which hints at continued buying pressure, but the preceding Bearish Engulfing shows that sellers are active near current levels.
+The daily chart confirms a strong bullish trend with price trading well above both the 50 EMA (4316.11) and 200 EMA (4471.65). However, the EMA50 remains below the EMA200, indicating the trend is still in a recovery phase rather than a fully established golden cross. The RSI at 75.75 is in overbought territory, suggesting the rally is extended and a pullback or consolidation is likely. The MACD remains bullish with the line above the signal and a positive histogram, but the absence of bearish divergence means the trend could persist. The candlestick sequence—Bullish Engulfing, Bearish Engulfing, Bullish Engulfing, Doji—reflects increasing indecision and potential exhaustion near the highs. The Doji at the close is a classic reversal warning, especially after a strong move.
 
-The RSI at 75.69 is in overbought territory, warning of a possible pullback or consolidation. No RSI divergence is present, so the momentum is still aligned with the uptrend, but the overbought condition reduces the reliability of a fresh long entry. The MACD remains bullish with the line above the signal line and a positive histogram (+20.87), confirming upward momentum. However, the combination of overbought RSI and choppy candlestick patterns creates a mixed signal: the trend is intact, but the risk of a mean-reversion move is elevated.
+No clear chart patterns like triangles or flags are evident, but the alternating engulfing candles suggest a volatile, possibly ranging market near resistance. Key support levels are the psychological 4600 round number, followed by 4550 (recent swing low area), and the 200 EMA at 4471. Resistance is likely at 4680 (near-term high), 4700 (psychological barrier), and 4750 (potential extension target). The RSI and MACD are not fully aligned: MACD supports the trend, but RSI warns of overextension. This mixed confluence, combined with the Doji, argues against entering a long position at current levels. A short trade would be counter-trend and risky without a confirmed bearish reversal pattern.
 
-Key support levels near current price include the psychological 4600 round number, followed by 4550 (a potential prior swing low) and the EMA200 at 4469.63, which serves as a major dynamic support. On the upside, resistance is likely at 4700 (psychological round number), then 4750 and 4800 as extended targets if the rally continues. Given the overbought RSI and the lack of a clear, low-risk entry point, the prudent approach is to wait for a pullback to a support zone before considering a long position. A short trade would be contrarian to the strong bullish trend and is not supported by the MACD or price structure.
+The best trade setup is to wait for a pullback to a support zone (e.g., 4600 or 4550) where a long entry would offer a better risk/reward ratio, or for a clear bearish reversal (e.g., a bearish engulfing or break below 4600) to consider a short. The original signal score of 7/10 is revised down to 5/10 due to overbought RSI and indecisive candlestick patterns, which increase the probability of a near-term pause or reversal.
 
 ---
 
 ## Invalidation
 
-A break below the 4600 support level or a daily close below the EMA200 (4469.63) would invalidate the bullish bias and signal a deeper correction.
+A break above 4700 with strong momentum would invalidate the wait-and-see approach and signal trend continuation, while a break below 4550 would confirm a deeper correction and potentially shift the bias to bearish.
 
 ---
 

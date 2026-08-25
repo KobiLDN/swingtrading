@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-24T07:19:16Z",
+  "generated": "2026-08-25T07:08:06Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fiscal Risks Weigh on DXY; EUR/USD and GBP/USD Test Key Resistance",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fiscal-075010571.html?.tsrc=rss",
+        "time_published": "2026-08-24 07:50",
+        "source": "Finance",
+        "summary": "DXY remains pressured by U.S. fiscal concerns as EUR/USD and GBP/USD hold firm, although both pairs face major technical resistance."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Breaks 99.38 as EUR/USD and GBP/USD Extend Gain",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061736696.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-08-13 07:38",
         "source": "Finance",
         "summary": "DXY, EUR/USD and GBP/USD test key levels as traders turn to U.S. PPI after softer CPI and assess the latest UK GDP data."
-      },
-      {
-        "title": "U.S. Dollar Gains Ground As Inflation Rate Meets Expectations: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-inflation-164911473.html?.tsrc=rss",
-        "time_published": "2026-08-12 16:49",
-        "source": "Finance",
-        "summary": "The American currency is moving higher as traders focus on inflation data."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Fiscal Risks Weigh on DXY; EUR/USD and GBP/USD Test Key Resistance",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fiscal-075010571.html?.tsrc=rss",
+        "time_published": "2026-08-24 07:50",
+        "source": "Finance",
+        "summary": "DXY remains pressured by U.S. fiscal concerns as EUR/USD and GBP/USD hold firm, although both pairs face major technical resistance."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Breaks 99.38 as EUR/USD and GBP/USD Extend Gain",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061736696.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-12 16:49",
         "source": "Finance",
         "summary": "The American currency is moving higher as traders focus on inflation data."
-      },
-      {
-        "title": "US Dollar Price Forecast: CPI Test Looms as DXY, EUR/USD and GBP/USD Hold Key Levels",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-cpi-081412880.html?.tsrc=rss",
-        "time_published": "2026-08-12 08:14",
-        "source": "Finance",
-        "summary": "DXY, EUR/USD and GBP/USD trade near key technical levels as markets await U.S. CPI for fresh clues on inflation and the Fed\u2019s September policy outlook."
       }
     ],
     "xauusd": [],
@@ -213,11 +213,18 @@ window.NEWS_DATA = {
         "summary": "State Street quietly renamed a flagship ETF and gave it a ticker that looks almost identical to the world's most famous fund, and the fee difference between the two could reshape how millions of retirement savers think about index investing."
       },
       {
-        "title": "How Much of Your Portfolio Should Actually Be in FTXL",
-        "url": "https://247wallst.com/investing/etf/2026/08/20/how-much-of-your-portfolio-should-actually-be-in-ftxl/?.tsrc=rss",
-        "time_published": "2026-08-20 21:15",
+        "title": "S&P 500, Nasdaq End Lower On Chipmaker Weakness, While Traders Position For Nvidia Earnings This Week \u2014 AVGO, INTC, BE, NVDA, PSKY In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-on-chipmaker-weakness/cZYKu7wRJFn?.tsrc=rss",
+        "time_published": "2026-08-24 21:52",
+        "source": "Stocktwits",
+        "summary": "The U.S. Treasury chief threatened economic sanctions against any country doing business with Iran."
+      },
+      {
+        "title": "KLA Corporation: See What Wall Street Sees",
+        "url": "https://247wallst.com/investing/2026/08/24/kla-corporation-see-what-wall-street-sees/?.tsrc=rss",
+        "time_published": "2026-08-24 12:58",
         "source": "247wallst",
-        "summary": "Most retirement investors already hold a concentrated chip bet without knowing it, and adding FTXL can quietly double down on the same handful of names. Getting the sizing right separates a smart tilt from a sector gamble that distorts your entire portfolio."
+        "summary": "KLA Corporation just reported its fifth consecutive earnings beat and raised its outlook, yet the stock sits nearly 40% below its 52-week high. Something is driving that gap, and understanding it separates a value opportunity from a value trap."
       },
       {
         "title": "US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields \u2014 PSKY, MSTR, WMT, TSLA, NVDA In Focus",
@@ -225,13 +232,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-21 21:48",
         "source": "Stocktwits",
         "summary": "The U.S. 30-year Treasury yield climbed for the second straight week."
-      },
-      {
-        "title": "DIVO Was the Quality-Income Pick. Its International Twin Yields 5.6% and Beat It by 5 Points",
-        "url": "https://247wallst.com/investing/2026/08/23/divo-was-the-quality-income-pick-its-international-twin-yields-5-6-and-beat-it-by-5-points/?.tsrc=rss",
-        "time_published": "2026-08-23 19:11",
-        "source": "247wallst",
-        "summary": "DIVO built a $5.25 billion following by pairing blue-chip dividends with a covered-call overlay, but the same manager running the same strategy on a different continent is quietly making DIVO holders ask uncomfortable questions about where their money should be sitting."
       }
     ],
     "oil": [

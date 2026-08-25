@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-08-24T07:18:03Z",
+  "generated": "2026-08-25T07:05:18Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-08-21",
+  "date": "2026-08-24",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "0/10",
-  "analysis": "The price action confirms the EMA trend \u2014 SPY is trading well above both the 50-period (752.97) and 200-period (718.07) EMAs, and the trend is explicitly labeled as a strong uptrend. However, the absence of any recent candlestick patterns and the neutral RSI (54.23) suggest a lack of immediate directional conviction. The MACD is bearish, with the line below the signal line and a negative histogram (-0.919), indicating slowing upside momentum. This divergence between the price trend and momentum is a cautionary signal, especially given the already extended price level.\n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are detected from the last five candles, and no RSI divergence exists. The nearest support is the 760.00 round number, followed by the EMA50 at 752.97, and then the EMA200 at 718.07. Resistance is likely at the psychological 770.00 level, with the ATR-based upper band around 772.66, and further resistance near 780.00. The current price sits in a zone without a clear breakout or pullback pattern.\n\nThe RSI and MACD do not agree with the strong uptrend. While the trend is bullish, the MACD bearish cross and neutral RSI suggest that buying at current levels carries elevated risk of a mean-reversion pullback. A short trade would be counter-trend and unsupported by any bearish pattern or divergence. Therefore, there is no single best trade setup with a favorable risk-reward profile. The signal score of 0/10 reflects the lack of confluence and absence of a clear entry trigger.\n\nRisk assessment: Entering a long position now would risk buying into weakening momentum, with a potential stop-loss below the nearest support (760.00) offering a risk of ~5.72 points, while upside targets are uncertain. A short position would be against the dominant uptrend and could be quickly stopped out if momentum resumes. The prudent action is to wait for either a bullish re-confirmation (e.g., MACD turning up, a bullish candlestick pattern, or a pullback to support) or a clear breakdown below key support.",
-  "invalidation": "This WAIT setup is invalidated if price breaks decisively above 773 (ATR-based resistance) with strong volume and a bullish MACD crossover, or if it falls below 752.97 (EMA50) with a bearish candlestick pattern, which would then create a new trade opportunity.",
+  "analysis": "The broader trend is clearly bullish: price is above both the EMA50 (753.38) and EMA200 (718.84), with the EMA50 well above the EMA200. This confirms the \u201cstrong uptrend\u201d label from a moving-average perspective. However, price action itself is not providing a fresh continuation trigger \u2014 the last five candles show no meaningful candlestick patterns, and there is no breakout or pullback structure to trade. The trend is intact, but the immediate setup is not.\n\nNo additional chart patterns such as triangles, flags, or double tops/bottoms can be inferred from the given data. Price appears to be consolidating near highs, with the nearest support being the EMA50 at 753.38, followed by 747.00 and 740.00. On the upside, resistance is likely near the 770.00 round level, then 780.00 and 800.00. With ATR at 6.7, a daily close below 753.38 would represent a meaningful trend-failure signal.\n\nRSI at 52.14 is neutral and shows no divergence, so it neither confirms nor rejects the uptrend. MACD, however, is bearish \u2014 the MACD line is below the signal line and the histogram is negative at -1.294874. This momentum disagreement with the price trend is a warning sign. The signal score of 0/10 reflects the lack of confluence and the absence of a clean entry trigger.\n\nThe single best trade setup right now is to wait. A long entry would require either a bullish MACD crossover with price reclaiming recent highs, or a controlled pullback into the 753.38\u2013750.00 support zone with a bullish reversal candle and RSI holding above 50. Buying here would offer poor risk/reward because a logical stop below 753.38 is about 10 points away, while the nearest resistance at 770.00 is only about 6.5 points away.",
+  "invalidation": "A daily close below 753.38 would invalidate the bullish trend context and shift the bias toward a deeper correction, making the wait decision obsolete.",
   "support_levels": [
-    760.0,
-    752.97,
-    718.07
+    753.38,
+    747.0,
+    740.0
   ],
   "resistance_levels": [
     770.0,
-    772.66,
-    780.0
+    780.0,
+    800.0
   ]
 };
