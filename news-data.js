@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-25T07:08:06Z",
+  "generated": "2026-08-26T07:16:45Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "USD/JPY and USD/CHF Eye Upside as GBP/USD Rally Fades",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/usd-jpy-usd-chf-eye-132852213.html?.tsrc=rss",
+        "time_published": "2026-08-25 13:28",
+        "source": "Finance",
+        "summary": "USD/JPY and USD/CHF retain upside potential as carry trades support the dollar, while GBP/USD shows exhaustion with 1.36 in focus."
+      },
+      {
+        "title": "US Dollar Price Forecast: Warsh Speech Looms as EUR/USD and GBP/USD Hold Firm",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-085747517.html?.tsrc=rss",
+        "time_published": "2026-08-25 08:57",
+        "source": "Finance",
+        "summary": "DXY attempts to recover as markets await Kevin Warsh\u2019s Jackson Hole speech and PCE inflation, while EUR/USD and GBP/USD hold near key support."
+      },
       {
         "title": "US Dollar Price Forecast: Fiscal Risks Weigh on DXY; EUR/USD and GBP/USD Test Key Resistance",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fiscal-075010571.html?.tsrc=rss",
@@ -43,23 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-08-14 10:24",
         "source": "Finance",
         "summary": "The US dollar has held around familiar areas with July\u2019s inflation matching the consensus precisely."
-      },
-      {
-        "title": "US Dollar Price Forecast: Softer PPI Boosts Fed Cut Bets \u2013 Can EUR/USD and GBP/USD Rally?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-softer-070021827.html?.tsrc=rss",
-        "time_published": "2026-08-14 07:00",
-        "source": "Finance",
-        "summary": "Softer U.S. inflation strengthens Fed easing expectations as DXY holds key support while EUR/USD and GBP/USD test important resistance levels."
-      },
-      {
-        "title": "US Dollar Price Forecast: Can PPI Revive DXY as EUR/USD and GBP/USD Retreat?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ppi-073806684.html?.tsrc=rss",
-        "time_published": "2026-08-13 07:38",
-        "source": "Finance",
-        "summary": "DXY, EUR/USD and GBP/USD test key levels as traders turn to U.S. PPI after softer CPI and assess the latest UK GDP data."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Warsh Speech Looms as EUR/USD and GBP/USD Hold Firm",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-085747517.html?.tsrc=rss",
+        "time_published": "2026-08-25 08:57",
+        "source": "Finance",
+        "summary": "DXY attempts to recover as markets await Kevin Warsh\u2019s Jackson Hole speech and PCE inflation, while EUR/USD and GBP/USD hold near key support."
+      },
       {
         "title": "US Dollar Price Forecast: Fiscal Risks Weigh on DXY; EUR/USD and GBP/USD Test Key Resistance",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fiscal-075010571.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-13 07:38",
         "source": "Finance",
         "summary": "DXY, EUR/USD and GBP/USD test key levels as traders turn to U.S. PPI after softer CPI and assess the latest UK GDP data."
-      },
-      {
-        "title": "U.S. Dollar Gains Ground As Inflation Rate Meets Expectations: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-gains-ground-inflation-164911473.html?.tsrc=rss",
-        "time_published": "2026-08-12 16:49",
-        "source": "Finance",
-        "summary": "The American currency is moving higher as traders focus on inflation data."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "This Fund Pays 400% of the S&P\u2019s Dividend and Still Beat Half of Wall Street This Year",
-        "url": "https://247wallst.com/investing/2026/08/22/this-fund-pays-400-of-the-sps-dividend-and-still-beat-half-of-wall-street-this-year/?.tsrc=rss",
-        "time_published": "2026-08-22 18:48",
-        "source": "247wallst",
-        "summary": "SPY's quarterly dividend barely registers as income, but a lesser-known fund holding the exact same 500 companies has quietly rewired the payout structure in a way most income investors have never considered."
+        "title": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading \u2014 MRNA, SPCX, PSKY, OpenAI In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-rangebound-as-investors-await-nvidia-earnings/cZYNONDRJom?.tsrc=rss",
+        "time_published": "2026-08-26 00:02",
+        "source": "Stocktwits",
+        "summary": "Treasury yields declined, as the benchmark 10-year Treasury note yield dropped by over 7 basis points to reach 4.63%."
       },
       {
-        "title": "DIVO Holders Gave Up $79,300 on a $500,000 Position Over Five Years for Downside Comfort",
-        "url": "https://247wallst.com/investing/etf/2026/08/21/divo-holders-gave-up-79300-on-a-500000-position-over-five-years-for-downside-comfort/?.tsrc=rss",
-        "time_published": "2026-08-21 22:05",
-        "source": "247wallst",
-        "summary": "DIVO promises smoother drawdowns and monthly income, but the comfort of a covered-call strategy comes with hidden costs that compound quietly into five-figure territory on a half-million-dollar position over five years."
+        "title": "Jane Street turns bullish on volatile AI stock",
+        "url": "https://www.thestreet.com/investing/stocks/jane-street-bullish-sandisk-sndk-stock?.tsrc=rss",
+        "time_published": "2026-08-25 18:16",
+        "source": "Thestreet",
+        "summary": "Jane Street increased its AI stock stake by more than 500%, making it one of its biggest holdings."
       },
       {
-        "title": "SPY Has a Nearly Identical Twin That Costs 80 Percent Less and Pays the Same Dividends",
-        "url": "https://247wallst.com/investing/etf/2026/08/21/spy-has-a-nearly-identical-twin-that-costs-80-percent-less-and-pays-the-same-dividends/?.tsrc=rss",
-        "time_published": "2026-08-21 21:05",
+        "title": "Core Compounders Should Do This With Walmart",
+        "url": "https://247wallst.com/investing/2026/08/25/core-compounders-should-do-this-with-walmart/?.tsrc=rss",
+        "time_published": "2026-08-25 16:03",
         "source": "247wallst",
-        "summary": "State Street runs two S&P 500 ETFs that hold the exact same stocks in the exact same weights and pay the exact same dividends, yet most investors park their money in the one that costs significantly more."
+        "summary": "Walmart just slid 6.64% in a week despite beating earnings estimates, and the math on that pullback looks very different depending on whether you buy now or wait for a number closer to $94."
       },
       {
-        "title": "BofA Sees a Stock Market Setup Starting to Change",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-sees-stock-market-setup-193717505.html?.tsrc=rss",
-        "time_published": "2026-08-21 19:37",
+        "title": "Johnson & Johnson Is Near a Record High. Is There Still Room to Run?",
+        "url": "https://247wallst.com/investing/2026/08/25/johnson-johnson-is-near-a-record-high-is-there-still-room-to-run/?.tsrc=rss",
+        "time_published": "2026-08-25 16:00",
+        "source": "247wallst",
+        "summary": "Johnson and Johnson has surged over 54% in a year, cleared a major FDA hurdle, and raised its guidance, yet something about the current setup gives pause before hitting buy."
+      },
+      {
+        "title": "Long-Term Investors Know Exactly What to Do With Nvidia Before Aug. 26 Earnings Drop",
+        "url": "https://247wallst.com/investing/2026/08/25/long-term-investors-know-exactly-what-to-do-with-nvidia-before-aug-26-earnings-drop/?.tsrc=rss",
+        "time_published": "2026-08-25 15:58",
+        "source": "247wallst",
+        "summary": "NVIDIA heads into its August 26 earnings report with Wall Street almost certain it will beat, yet the stock has dropped sharply all week. That contradiction tells long-term investors something important about what to do next."
+      },
+      {
+        "title": "Nuclear Stocks Rebound on an Oversold Bounce: Uranium Energy Jumps 6%, NuScale Power and Oklo Climb 5%",
+        "url": "https://247wallst.com/investing/2026/08/25/nuclear-stocks-rebound-on-an-oversold-bounce-uranium-energy-jumps-6-nuscale-power-and-oklo-climb-5/?.tsrc=rss",
+        "time_published": "2026-08-25 15:14",
+        "source": "247wallst",
+        "summary": "Nuclear stocks are surging while the broad market barely stirs, but the announcements driving the move tell a very different story than the price action suggests."
+      },
+      {
+        "title": "Apple at $310: Little Room to Grow But Still a Buy",
+        "url": "https://247wallst.com/investing/2026/08/25/apple-at-310-little-room-to-grow-but-still-a-buy/?.tsrc=rss",
+        "time_published": "2026-08-25 14:57",
+        "source": "247wallst",
+        "summary": "Apple just pulled back from its 52-week high while retail sentiment sours and analysts argue the valuation leaves no room for error. Here is why that pessimism may be the most reliable entry signal the stock has offered all year."
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Chip Stocks Recover",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130924933.html?.tsrc=rss",
+        "time_published": "2026-08-25 13:09",
         "source": "Finance",
-        "summary": "Several hated assets could benefit if consensus starts cracking"
-      },
-      {
-        "title": "There Are Two SPY ETFs Now, and You Probably Own the Wrong One",
-        "url": "https://247wallst.com/investing/etf/2026/08/21/there-are-two-spy-etfs-now-and-you-probably-own-the-wrong-one/?.tsrc=rss",
-        "time_published": "2026-08-21 14:20",
-        "source": "247wallst",
-        "summary": "State Street quietly renamed a flagship ETF and gave it a ticker that looks almost identical to the world's most famous fund, and the fee difference between the two could reshape how millions of retirement savers think about index investing."
-      },
-      {
-        "title": "S&P 500, Nasdaq End Lower On Chipmaker Weakness, While Traders Position For Nvidia Earnings This Week \u2014 AVGO, INTC, BE, NVDA, PSKY In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-end-lower-on-chipmaker-weakness/cZYKu7wRJFn?.tsrc=rss",
-        "time_published": "2026-08-24 21:52",
-        "source": "Stocktwits",
-        "summary": "The U.S. Treasury chief threatened economic sanctions against any country doing business with Iran."
-      },
-      {
-        "title": "KLA Corporation: See What Wall Street Sees",
-        "url": "https://247wallst.com/investing/2026/08/24/kla-corporation-see-what-wall-street-sees/?.tsrc=rss",
-        "time_published": "2026-08-24 12:58",
-        "source": "247wallst",
-        "summary": "KLA Corporation just reported its fifth consecutive earnings beat and raised its outlook, yet the stock sits nearly 40% below its 52-week high. Something is driving that gap, and understanding it separates a value opportunity from a value trap."
-      },
-      {
-        "title": "US Stock Indices End Week Lower On Pressure From Elevated Long-Duration Treasury Yields \u2014 PSKY, MSTR, WMT, TSLA, NVDA In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/us-stock-indices-end-week-lower-on-pressure-from-elevated-long-duration-treasury-yields-psky/cZY97YMRJVO?.tsrc=rss",
-        "time_published": "2026-08-21 21:48",
-        "source": "Stocktwits",
-        "summary": "The U.S. 30-year Treasury yield climbed for the second straight week."
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
       }
     ],
     "oil": [

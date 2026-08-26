@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-08-25
-**Generated:** 2026-08-25T07:04:11Z
+**Date:** 2026-08-26
+**Generated:** 2026-08-26T07:03:44Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,27 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 1.16, 1.15953, 1.1546 |
-| **Resistance** | 1.17, 1.175, 1.18 |
+| **Score** | 5/10 |
+| **Support** | 1.16228, 1.15956, 1.15512 |
+| **Resistance** | 1.168, 1.17, 1.174 |
 
 ---
 
 ## Analysis
 
-Price is trading above both the EMA50 and EMA200, which supports the broader bullish bias. However, the EMA50 at 1.1546 is below the EMA200 at 1.15953, meaning the moving average structure is not fully aligned with a strong uptrend. Price is also extended roughly 2.7 ATR above the EMA50, suggesting the move may be overstretched in the short term. The daily candlestick pattern shows an Evening Star within the last five candles, a bearish reversal signal that conflicts with the bullish trend bias.
+The daily chart shows a clear bullish bias with price (1.16628) above both the EMA50 (1.15512) and EMA200 (1.15956), confirming the uptrend. However, the last five candles include both an Evening Star and a Bearish Engulfing pattern, which are strong reversal signals at the top of a move. The RSI at 68.39 is neutral but approaching overbought territory, while the MACD remains bullish with a positive histogram. The divergence between the bullish trend and the bearish candlestick patterns creates a conflicted outlook, reflected in the 5/10 signal score.
 
-RSI at 68.77 is approaching overbought but not extreme, and there is no RSI divergence. MACD remains bullish with the line above the signal and a positive histogram, so momentum is still upward. However, the Evening Star and proximity to resistance around 1.1700 suggest the upside may be limited without a pullback first. No clear triangle, flag, or double top/bottom can be inferred from the given data; the dominant pattern is the bearish reversal candle.
+No additional chart patterns like triangles or flags are evident from the given data, but the price is near a potential resistance zone around 1.1680–1.1700 (likely recent highs). Support levels are the EMA200 at 1.15956 and the EMA50 at 1.15512. The ATR of 40 pips suggests a typical daily range of about 40 pips, so current price is roughly 67 pips above the EMA200, which is a moderate distance but not extreme.
 
-The best trade setup is to wait for confirmation. A long entry would be more attractive after a pullback into the 1.1595–1.1600 support zone, ideally with a bullish reversal candle. A breakout above 1.1700 would also justify a continuation long. Shorting the Evening Star is risky because it is counter to the prevailing bullish bias and MACD/RSI have not yet turned bearish. Therefore, no immediate entry is warranted.
+RSI and MACD do not fully agree with the bearish patterns: the RSI is still below 70, indicating room for further upside, and the MACD is bullish. However, the bearish candlestick patterns suggest a potential exhaustion or pullback. As a swing trader, it is prudent to wait for either a confirmation of the reversal (e.g., a break below the EMA200) or a pullback to a support level that offers a better risk/reward entry. The best setup would be to buy on a dip to the EMA200 or EMA50 with a bullish reversal candle, but currently no such entry exists.
+
+Given the mixed signals, the highest probability trade is to wait. The risk of entering a buy at the current price is elevated due to the bearish patterns, and selling against the trend carries its own risk. A neutral stance is appropriate until price action clarifies the next direction.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.1700 would invalidate the bearish reversal scenario and signal renewed bullish momentum; a daily close below 1.1595 would confirm a deeper pullback and shift the bias to neutral/bearish.
+If price breaks above the 1.1680–1.1700 resistance zone with strong bullish momentum, the bearish candlestick patterns are invalidated, and a continuation of the uptrend becomes the dominant scenario.
 
 ---
 
