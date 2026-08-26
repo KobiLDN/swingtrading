@@ -1,21 +1,21 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-08-25T06:27:59Z",
-  "date": "2026-08-25",
-  "price": 1.16575,
-  "atr": 0.00413,
-  "atr_pips": 41,
+  "generated": "2026-08-26T06:30:07Z",
+  "date": "2026-08-26",
+  "price": 1.16628,
+  "atr": 0.00403,
+  "atr_pips": 40,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.1546,
-  "ema200": 1.15953,
-  "rsi": 68.77,
-  "macd_line": 0.004904,
-  "macd_signal": 0.004444,
-  "macd_hist": 0.00046,
+  "ema50": 1.15512,
+  "ema200": 1.15956,
+  "rsi": 68.39,
+  "macd_line": 0.004874,
+  "macd_signal": 0.004552,
+  "macd_hist": 0.000322,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
@@ -24,18 +24,17 @@ window.PRICES_DATA_EURUSD = {
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-08-26",
+      "name": "Bearish Engulfing",
+      "signal": "STRONG BEARISH",
+      "strength": 4
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-18",
-      "open": 1.16246,
-      "high": 1.16607,
-      "low": 1.1609,
-      "close": 1.16564
-    },
     {
       "date": "2026-05-19",
       "open": 1.16559,
@@ -725,9 +724,16 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-08-25",
       "open": 1.16643,
-      "high": 1.16721,
-      "low": 1.16531,
-      "close": 1.16575
+      "high": 1.16796,
+      "low": 1.16515,
+      "close": 1.16747
+    },
+    {
+      "date": "2026-08-26",
+      "open": 1.16752,
+      "high": 1.16783,
+      "low": 1.16606,
+      "close": 1.16628
     }
   ]
 };
