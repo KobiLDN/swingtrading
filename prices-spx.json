@@ -1,41 +1,34 @@
 {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-08-26T06:30:18Z",
-  "date": "2026-08-25",
-  "price": 765.91,
-  "atr": 6.49,
+  "generated": "2026-08-27T17:05:04Z",
+  "date": "2026-08-27",
+  "price": 772.07,
+  "atr": 6.26,
   "atr_pips": 6,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 753.87,
-  "ema200": 718.32,
-  "rsi": 54.2,
-  "macd_line": 4.535387,
-  "macd_signal": 5.898942,
-  "macd_hist": -1.363555,
+  "ema50": 755.05,
+  "ema200": 720.83,
+  "rsi": 59.32,
+  "macd_line": 4.324943,
+  "macd_signal": 5.308529,
+  "macd_hist": -0.983586,
   "trend": "STRONG UPTREND",
   "divergence": "None",
-  "patterns": [],
-  "score": 0,
-  "verdict": "NO TRADE",
+  "patterns": [
+    {
+      "date": "2026-08-26",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
+    }
+  ],
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-02",
-      "open": 646.42,
-      "high": 658.2,
-      "low": 645.11,
-      "close": 655.83
-    },
-    {
-      "date": "2026-04-06",
-      "open": 655.86,
-      "high": 659.72,
-      "low": 655.52,
-      "close": 658.93
-    },
     {
       "date": "2026-04-07",
       "open": 656.65,
@@ -721,6 +714,20 @@
       "high": 766.78,
       "low": 763.05,
       "close": 765.91
+    },
+    {
+      "date": "2026-08-26",
+      "open": 764.73,
+      "high": 767.35,
+      "low": 763.93,
+      "close": 766.08
+    },
+    {
+      "date": "2026-08-27",
+      "open": 768.5,
+      "high": 772.15,
+      "low": 767.16,
+      "close": 772.07
     }
   ]
 }

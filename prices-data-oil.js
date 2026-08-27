@@ -1,41 +1,27 @@
 window.PRICES_DATA_OIL = {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-08-26T06:30:20Z",
-  "date": "2026-08-25",
-  "price": 126.15,
-  "atr": 4.42,
+  "generated": "2026-08-27T17:05:07Z",
+  "date": "2026-08-27",
+  "price": 128.62,
+  "atr": 4.21,
   "atr_pips": 4,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 124.94,
-  "ema200": 109.79,
-  "rsi": 49.61,
-  "macd_line": 2.422491,
-  "macd_signal": 2.128203,
-  "macd_hist": 0.294288,
+  "ema50": 125.17,
+  "ema200": 110.26,
+  "rsi": 52.67,
+  "macd_line": 1.945627,
+  "macd_signal": 2.089063,
+  "macd_hist": -0.143436,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [],
-  "score": 1,
+  "score": 0,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-02",
-      "open": 139.27,
-      "high": 140.0,
-      "low": 131.89,
-      "close": 137.92
-    },
-    {
-      "date": "2026-04-06",
-      "open": 138.51,
-      "high": 140.89,
-      "low": 136.38,
-      "close": 138.94
-    },
     {
       "date": "2026-04-07",
       "open": 141.33,
@@ -718,9 +704,23 @@ window.PRICES_DATA_OIL = {
     {
       "date": "2026-08-25",
       "open": 128.09,
-      "high": 129.7,
+      "high": 129.71,
       "low": 126.09,
       "close": 126.15
+    },
+    {
+      "date": "2026-08-26",
+      "open": 125.47,
+      "high": 129.45,
+      "low": 125.41,
+      "close": 127.35
+    },
+    {
+      "date": "2026-08-27",
+      "open": 128.15,
+      "high": 129.22,
+      "low": 127.53,
+      "close": 128.62
     }
   ]
 };

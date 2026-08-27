@@ -1,21 +1,21 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-08-26T06:30:07Z",
-  "date": "2026-08-26",
-  "price": 1.16628,
-  "atr": 0.00403,
+  "generated": "2026-08-27T17:05:00Z",
+  "date": "2026-08-27",
+  "price": 1.16542,
+  "atr": 0.00402,
   "atr_pips": 40,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15512,
-  "ema200": 1.15956,
-  "rsi": 68.39,
-  "macd_line": 0.004874,
-  "macd_signal": 0.004552,
-  "macd_hist": 0.000322,
+  "ema50": 1.1555,
+  "ema200": 1.16103,
+  "rsi": 65.73,
+  "macd_line": 0.004565,
+  "macd_signal": 0.004543,
+  "macd_hist": 2.2e-05,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
@@ -30,18 +30,17 @@ window.PRICES_DATA_EURUSD = {
       "name": "Bearish Engulfing",
       "signal": "STRONG BEARISH",
       "strength": 4
+    },
+    {
+      "date": "2026-08-27",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-19",
-      "open": 1.16559,
-      "high": 1.16621,
-      "low": 1.15926,
-      "close": 1.16071
-    },
     {
       "date": "2026-05-20",
       "open": 1.16068,
@@ -732,8 +731,15 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-08-26",
       "open": 1.16752,
       "high": 1.16783,
-      "low": 1.16606,
-      "close": 1.16628
+      "low": 1.16421,
+      "close": 1.1654
+    },
+    {
+      "date": "2026-08-27",
+      "open": 1.16539,
+      "high": 1.16599,
+      "low": 1.1637,
+      "close": 1.16542
     }
   ]
 };
