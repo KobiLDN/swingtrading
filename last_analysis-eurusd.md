@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-08-26
-**Generated:** 2026-08-26T07:03:44Z
+**Date:** 2026-08-27
+**Generated:** 2026-08-27T17:36:05Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,26 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 1.16228, 1.15956, 1.15512 |
-| **Resistance** | 1.168, 1.17, 1.174 |
+| **Support** | 1.16103, 1.1555, 1.15 |
+| **Resistance** | 1.16944, 1.17, 1.175 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a clear bullish bias with price (1.16628) above both the EMA50 (1.15512) and EMA200 (1.15956), confirming the uptrend. However, the last five candles include both an Evening Star and a Bearish Engulfing pattern, which are strong reversal signals at the top of a move. The RSI at 68.39 is neutral but approaching overbought territory, while the MACD remains bullish with a positive histogram. The divergence between the bullish trend and the bearish candlestick patterns creates a conflicted outlook, reflected in the 5/10 signal score.
+The daily chart shows price at 1.16542, comfortably above both the EMA50 (1.1555) and EMA200 (1.16103), confirming a bullish bias in the trend. However, the last five candles include an Evening Star, a Bearish Engulfing, and a Doji — a clear cluster of bearish reversal signals that casts doubt on the immediate continuation of the uptrend. The price is currently hovering near the EMA200, which acts as a dynamic support, but the candlestick patterns suggest sellers are gaining traction at these levels. No clear chart patterns like triangles or flags are evident from the given data, but the Evening Star implies a potential short-term top near the 1.1694–1.1700 zone.
 
-No additional chart patterns like triangles or flags are evident from the given data, but the price is near a potential resistance zone around 1.1680–1.1700 (likely recent highs). Support levels are the EMA200 at 1.15956 and the EMA50 at 1.15512. The ATR of 40 pips suggests a typical daily range of about 40 pips, so current price is roughly 67 pips above the EMA200, which is a moderate distance but not extreme.
+The RSI at 65.73 is neutral but approaching overbought territory, while the MACD remains bullish with the line above the signal. However, the histogram is nearly flat (+0.000022), indicating fading momentum. This divergence between strong bearish candlestick patterns and still-bullish EMAs/MACD creates a conflicting picture. The signal score of 5/10 reflects this indecision. The best trade setup right now is to wait for a clearer directional catalyst — either a decisive break below the EMA200 (1.16103) to confirm a bearish reversal, or a bullish breakout above the Evening Star high (around 1.1694) to resume the uptrend.
 
-RSI and MACD do not fully agree with the bearish patterns: the RSI is still below 70, indicating room for further upside, and the MACD is bullish. However, the bearish candlestick patterns suggest a potential exhaustion or pullback. As a swing trader, it is prudent to wait for either a confirmation of the reversal (e.g., a break below the EMA200) or a pullback to a support level that offers a better risk/reward entry. The best setup would be to buy on a dip to the EMA200 or EMA50 with a bullish reversal candle, but currently no such entry exists.
-
-Given the mixed signals, the highest probability trade is to wait. The risk of entering a buy at the current price is elevated due to the bearish patterns, and selling against the trend carries its own risk. A neutral stance is appropriate until price action clarifies the next direction.
+Risk assessment is moderate: a long entry here would face immediate resistance from the bearish patterns, while a short entry would be against the prevailing bullish EMA structure. The ATR of 40 pips suggests typical daily volatility, but the lack of a confirmed breakout makes any trade low-probability. Waiting for price to either reclaim the 1.1700 area or lose the 1.1610 support provides a much better risk/reward setup. Until then, the market is in a neutral zone with conflicting signals.
 
 ---
 
 ## Invalidation
 
-If price breaks above the 1.1680–1.1700 resistance zone with strong bullish momentum, the bearish candlestick patterns are invalidated, and a continuation of the uptrend becomes the dominant scenario.
+This wait-and-see stance is invalidated if price breaks and closes above 1.1700 (bullish continuation) or below 1.1610 (bearish reversal), providing a clear entry trigger.
 
 ---
 

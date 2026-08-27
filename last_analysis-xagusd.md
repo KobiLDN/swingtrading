@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
-**Date:** 2026-08-25
-**Generated:** 2026-08-26T07:16:30Z
+**Date:** 2026-08-27
+**Generated:** 2026-08-27T17:37:34Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,33 +11,33 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 1/10 |
-| **Support** | 60.3, 58.13, 57.0 |
-| **Resistance** | 63.0, 64.14, 65.0 |
+| **Score** | 3/10 confirmed |
+| **Support** | 62.0, 61.15, 60.64 |
+| **Resistance** | 63.0, 64.0, 65.0 |
 
 ---
 
 ## Analysis
 
-The price at 62.32 sits above both the EMA50 (58.13) and EMA200 (60.30), which confirms a bullish bias in terms of price relative to longer-term moving averages. However, the EMA50 remains below the EMA200, indicating that the short-term trend has not yet overtaken the long-term trend—a condition often associated with a bearish cross. This divergence between price action and moving average alignment weakens the conviction of a sustained uptrend. The absence of any candlestick patterns in the last five sessions further suggests a lack of immediate directional impetus.
+Price action is above both the EMA50 (58.45) and EMA200 (60.64), so the broader trend remains bullish. However, the recent Doji candle signals indecision near current levels, and price is not showing strong continuation momentum. The bullish EMA structure is intact, but the immediate price action does not yet confirm a fresh push higher.
 
-No clear chart patterns such as triangles, flags, or double tops/bottoms can be inferred from the given data. The price is trading in a range near the upper end of recent activity, with the ATR of 1.82 indicating moderate volatility. Key support lies at the EMA200 (60.30), followed by the EMA50 (58.13) and the round number 57.00. Resistance is likely near the psychological 63.00 level, with the ATR-based extension at 64.14 and 65.00 as secondary targets. These levels are approximate due to the absence of historical swing points.
+No clear triangle, flag, or double top/bottom can be inferred from the provided data. The Doji within the last five candles suggests a consolidation phase after the recent advance. If price holds above 62.00 and forms a higher low, a bull-flag continuation could develop. A break below 62.00 would weaken the bullish setup and shift focus toward the 61.15 and 60.64 support zone.
 
-The RSI at 65.01 is neutral, showing neither overbought nor oversold conditions, while the MACD is bullish with the line above the signal and a positive histogram. This confluence is mildly supportive of the bullish bias, but the neutral RSI suggests momentum is not strong enough to warrant an aggressive entry. The signal score of 1/10 reflects a very low-probability setup, likely due to the lack of clear patterns, conflicting EMA alignment, and absence of divergence or confirmation from candlestick formations.
+RSI at 65.2 is neutral but elevated, not overbought, and there is no RSI divergence. MACD remains bullish with the line above signal and a positive histogram. These indicators broadly agree with the bullish trend, but they do not provide a high-conviction entry trigger. The low signal score of 3/10 reflects the doji indecision and lack of a confirmed breakout or pullback setup.
 
-Given the low signal score, the conflicting EMA structure, and the neutral RSI, the best trade setup is to wait for a clearer catalyst. Risk is elevated because a breakdown below the EMA200 (60.30) would invalidate the bullish bias and could trigger a sharp move lower. Conversely, a decisive break above 63.00 with volume would improve the setup, but until then, the risk/reward is unfavorable. The current environment favors patience over action.
+The best trade setup right now is to wait. A long entry would be justified either on a pullback into the 61.15–60.64 support zone with a bullish reversal candle, or on a decisive daily close above 63.00. Chasing price at 62.94 after a doji offers poor risk/reward, especially with ATR at 1.79 indicating wide daily ranges.
 
 ---
 
 ## Invalidation
 
-A daily close below the EMA200 at 60.30 would cancel the bullish bias and turn the outlook bearish.
+A daily close below 60.64 (EMA200) would invalidate the bullish bias and cancel the wait-for-long setup; a close above 63.00 would invalidate the pullback plan and require a breakout-based entry instead.
 
 ---
 

@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-08-26T07:03:30Z",
+  "generated": "2026-08-27T17:35:20Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-08-26",
-  "decision": "BUY",
+  "date": "2026-08-27",
+  "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "1.3631",
-  "stop_loss": "1.3580",
-  "target_1": "1.3700",
-  "target_2": "1.3750",
-  "risk_reward": "1.49",
-  "score": "7/10",
-  "analysis": "The price at 1.3631 sits well above both the EMA50 (1.34923) and EMA200 (1.34583), confirming the strong uptrend. The recent candlestick sequence\u2014Evening Star, Bullish Engulfing, and Morning Star\u2014indicates a volatile but ultimately bullish resolution. The Morning Star, a three-bar reversal pattern, suggests that buyers absorbed the earlier bearish pressure and regained control, likely setting the stage for a continuation higher. Although the evening star initially warned of a top, the subsequent bullish patterns have invalidated that signal, reinforcing the trend\u2019s resilience.\n\nThe bearish RSI divergence (price making higher highs while RSI stays neutral at 68.34) introduces a cautionary note, as it often precedes a trend slowdown or reversal. However, in strong uptrends, divergences can persist for extended periods before materializing. The MACD remains bullish (line above signal), but the histogram is very small (+0.000429), indicating waning momentum. This lack of strong MACD confirmation tempers the bullish case, making the setup less robust than the 8/10 signal score suggests. No clear chart patterns like triangles or flags are evident, but the price action around the recent swing low near 1.3580 forms a minor support zone.\n\nThe best trade setup is a long position at the current price, capitalizing on the Morning Star\u2019s bullish reversal within a strong uptrend. The entry is at the market, with a stop-loss placed just below the recent low (1.3580) to protect against a false breakout. The first target is the psychological round number 1.3700, with a secondary target at 1.3750, which aligns with potential resistance from prior highs. The risk-reward ratio of 1.49 is acceptable, though not exceptional. The overall confidence is medium due to the conflicting signals from RSI and MACD, which warrant a cautious approach.",
-  "invalidation": "A close below 1.3580 (the recent swing low) would invalidate the bullish setup, indicating that the Morning Star failed and a deeper correction is underway.",
+  "entry": "1.35965",
+  "stop_loss": "1.36445",
+  "target_1": "1.35480",
+  "target_2": "1.34952",
+  "risk_reward": "1:1 (T1) / 1:2.1 (T2)",
+  "score": "8/10",
+  "analysis": "The daily chart shows a strong uptrend with price well above both the 50- and 200-period EMAs, but recent price action is diverging from this momentum. The last five candles include two bearish reversal patterns (Evening Star, Bearish Engulfing) and a Doji, indicating indecision and potential exhaustion. The Bearish RSI divergence (price making higher highs while RSI makes lower highs) and the MACD bearish crossover (line below signal, histogram negative) both suggest fading upward momentum. These contrarian signals carry weight given the high signal score of 8/10, pointing to a short-term reversal rather than trend continuation.\n\nFrom a pattern perspective, the sequence of engulfing candles and the Doji at the top of the move hints at a possible double top or a broadening formation near current levels, though no clear triangle or flag is confirmed. Key support lies at the 1.35480 level (a prior swing low and the ATR-derived round number), followed by the 50-EMA at 1.34952, and finally the 200-EMA at 1.34712. Resistance is immediate at the psychological 1.36000, then the top of the recent range near 1.36445 (current price + 1 ATR), and a potential extension to 1.37000.\n\nThe RSI (neutral at 60.12) and MACD (bearish) do not agree with the strong uptrend; instead, they align with the bearish divergence and candlestick warnings. This confluence suggests a high-probability short-term pullback, even if the larger trend remains bullish. The trade setup is a short at current price with a stop above the recent highs (1.36445) to account for volatility, targeting first the 1.35480 support (1:1 risk/reward) and then the 50-EMA (1:2.1 risk/reward). While the overall trend is up, the immediate bearish signals justify a counter-trend swing with a defined risk.",
+  "invalidation": "A daily close above 1.36445 would break the recent swing high and invalidate the bearish divergence, forcing a reassessment of the short setup.",
   "support_levels": [
-    1.358,
-    1.3492,
-    1.3458
+    1.3548,
+    1.34952,
+    1.34712
   ],
   "resistance_levels": [
-    1.365,
-    1.37,
-    1.375
+    1.36,
+    1.36445,
+    1.37
   ]
 };

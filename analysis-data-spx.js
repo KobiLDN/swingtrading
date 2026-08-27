@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-08-26T07:16:04Z",
+  "generated": "2026-08-27T17:36:57Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-08-25",
+  "date": "2026-08-27",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_SPX = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "0/10",
-  "analysis": "Price action confirms the EMA-driven strong uptrend, trading well above both the 50-period (753.87) and 200-period (718.32) EMAs. However, the MACD is bearish with the line below the signal line and a negative histogram, indicating waning short-term momentum despite the overall bullish structure. The RSI at 54.2 is neutral, lacking overbought/oversold extremes or divergence, and no candlestick patterns provide a trigger. The signal score of 0/10 reflects the absence of a clear, actionable setup\u2014price is neither pulling back to a key support nor breaking out from a consolidation.\n\nAdditional chart patterns are not inferred from the given data; the last five candles show no formations. Key support nearby is the ATR-based level near 759.42 (price minus ATR), followed by the EMA50 at 753.87, which serves as a dynamic support in the uptrend. Resistance above current price lies at 772.40 (price plus ATR), then round numbers like 775 and 780. Without a clear reversal or continuation pattern, entering a position now would rely on weak momentum signals, making a trade premature.\n\nThe best setup is to wait for either a pullback to the EMA50 (753.87) with a bullish RSI reversal or a MACD crossover back above the signal line. A break above 772.40 with volume could also offer a continuation entry, but no such signal exists today. The risk of entering now is that the bearish MACD may deepen, leading to a decline toward support, while a failed breakout could trap longs. The overall trend remains intact, so patience is warranted.",
-  "invalidation": "This wait-and-see stance is invalidated if price closes decisively above 772.40 with a bullish MACD crossover, or if it pulls back to test the EMA50 with a confirmed bounce and fresh bullish signals.",
+  "score": "5/10",
+  "analysis": "The overall trend is confirmed as a strong uptrend, with price (772.07) well above both the EMA50 (755.05) and EMA200 (720.83). This indicates bullish momentum in the medium to long term. However, the immediate price action shows a mixed picture: a Morning Star candlestick pattern over the last five days suggests a potential bullish reversal from a recent decline, but this pattern\u2019s significance is somewhat diluted because it appears within an existing uptrend rather than at a clear bottom. The MACD (12,26,9) is bearish with the line below the signal line and a negative histogram, signaling weakening upward momentum, while the RSI at 59.32 is neutral and does not confirm either overbought or oversold conditions. The signal score of 5/10 accurately reflects these conflicting signals\u2014bullish from the pattern and trend, but bearish from momentum oscillators.\n\nNo clear additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. Key support levels are the EMA50 at 755.05, followed by the round number 750.00, and the EMA200 at 720.83. Resistance is less defined due to the strong uptrend and lack of recent swing highs; psychological levels at 780.00, 790.00, and 800.00 serve as potential resistance zones. The RSI and MACD do not agree with the strong uptrend: the MACD bearish crossover and negative histogram indicate deteriorating momentum, while the RSI remains neutral. This divergence between price and momentum suggests that the uptrend may be losing steam, and the Morning Star could be a false signal without a corresponding improvement in momentum.\n\nGiven the mixed indicators, the best trade setup is to wait for clearer confirmation. A bullish entry would require the MACD to turn positive (line crossing above signal) or the RSI to break above 70 while price holds above the EMA50. Without such confirmation, the risk of a false breakout or a deeper pullback is elevated. The current risk-reward is unfavorable because stop-loss placement is ambiguous\u2014either too tight (below the Morning Star low, unknown) or too wide (below the EMA50, over 2 ATR away). Therefore, patience is advised until one of the conflicting signals resolves.",
+  "invalidation": "This neutral stance is invalidated if price breaks and closes below the EMA50 (755.05) or if the MACD histogram turns positive while price continues higher, which would provide a clear buy signal.",
   "support_levels": [
-    759.42,
-    753.87,
-    718.32
+    755.05,
+    750.0,
+    720.83
   ],
   "resistance_levels": [
-    772.4,
-    775.0,
-    780.0
+    780.0,
+    790.0,
+    800.0
   ]
 };

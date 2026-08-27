@@ -1,7 +1,28 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-26T07:16:45Z",
+  "generated": "2026-08-27T17:37:50Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Sticky Inflation Lifts DXY as EUR/USD and GBP/USD Pull Back",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-sticky-052741530.html?.tsrc=rss",
+        "time_published": "2026-08-27 05:27",
+        "source": "Finance",
+        "summary": "Sticky U.S. PCE revives Fed hike risk as DXY rebounds, while traders await Warsh\u2019s Jackson Hole signals and EUR/USD and GBP/USD test support."
+      },
+      {
+        "title": "USD/CAD Turns Bullish as GBP/USD, AUD/USD Lose Momentum",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/usd-cad-turns-bullish-gbp-135420588.html?.tsrc=rss",
+        "time_published": "2026-08-26 13:54",
+        "source": "Finance",
+        "summary": "USD/CAD remains bullish above 1.3850 as GBP/USD and AUD/USD show signs of rolling over, putting the US dollar back in focus ahead of Jackson Hole."
+      },
+      {
+        "title": "US Dollar Price Forecast: PCE Test Looms as EUR/USD and GBP/USD Hold Firm",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-pce-075653463.html?.tsrc=rss",
+        "time_published": "2026-08-26 07:56",
+        "source": "Finance",
+        "summary": "DXY remains bearish below 99.41 as traders await U.S. PCE and Kevin Warsh\u2019s Jackson Hole speech, while EUR/USD and GBP/USD hold firm."
+      },
       {
         "title": "USD/JPY and USD/CHF Eye Upside as GBP/USD Rally Fades",
         "url": "https://finance.yahoo.com/markets/currencies/articles/usd-jpy-usd-chf-eye-132852213.html?.tsrc=rss",
@@ -36,30 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-08-19 06:00",
         "source": "Finance",
         "summary": "DXY tests critical support as traders await Fed minutes, while ECB rate expectations and UK inflation shape the outlook for EUR/USD and GBP/USD."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Minutes Loom as EUR/USD and GBP/USD Test Resistance",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-063532680.html?.tsrc=rss",
-        "time_published": "2026-08-18 06:35",
-        "source": "Finance",
-        "summary": "DXY remains under pressure as Fed pause expectations rise, while EUR/USD and GBP/USD stay supported by comparatively hawkish ECB and BoE outlooks."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Fade as EUR/USD and GBP/USD Rally",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073820762.html?.tsrc=rss",
-        "time_published": "2026-08-17 07:38",
-        "source": "Finance",
-        "summary": "DXY comes under pressure as Fed hike expectations fade, while EUR/USD and GBP/USD strengthen on narrowing policy divergence and domestic data."
-      },
-      {
-        "title": "Dollar Mostly Flat After Inflation Meets Expectations",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-mostly-flat-inflation-meets-102438035.html?.tsrc=rss",
-        "time_published": "2026-08-14 10:24",
-        "source": "Finance",
-        "summary": "The US dollar has held around familiar areas with July\u2019s inflation matching the consensus precisely."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Sticky Inflation Lifts DXY as EUR/USD and GBP/USD Pull Back",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-sticky-052741530.html?.tsrc=rss",
+        "time_published": "2026-08-27 05:27",
+        "source": "Finance",
+        "summary": "Sticky U.S. PCE revives Fed hike risk as DXY rebounds, while traders await Warsh\u2019s Jackson Hole signals and EUR/USD and GBP/USD test support."
+      },
+      {
+        "title": "US Dollar Price Forecast: PCE Test Looms as EUR/USD and GBP/USD Hold Firm",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-pce-075653463.html?.tsrc=rss",
+        "time_published": "2026-08-26 07:56",
+        "source": "Finance",
+        "summary": "DXY remains bearish below 99.41 as traders await U.S. PCE and Kevin Warsh\u2019s Jackson Hole speech, while EUR/USD and GBP/USD hold firm."
+      },
       {
         "title": "US Dollar Price Forecast: Warsh Speech Looms as EUR/USD and GBP/USD Hold Firm",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-085747517.html?.tsrc=rss",
@@ -101,24 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-08-17 07:38",
         "source": "Finance",
         "summary": "DXY comes under pressure as Fed hike expectations fade, while EUR/USD and GBP/USD strengthen on narrowing policy divergence and domestic data."
-      },
-      {
-        "title": "US Dollar Price Forecast: Softer PPI Boosts Fed Cut Bets \u2013 Can EUR/USD and GBP/USD Rally?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-softer-070021827.html?.tsrc=rss",
-        "time_published": "2026-08-14 07:00",
-        "source": "Finance",
-        "summary": "Softer U.S. inflation strengthens Fed easing expectations as DXY holds key support while EUR/USD and GBP/USD test important resistance levels."
-      },
-      {
-        "title": "US Dollar Price Forecast: Can PPI Revive DXY as EUR/USD and GBP/USD Retreat?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ppi-073806684.html?.tsrc=rss",
-        "time_published": "2026-08-13 07:38",
-        "source": "Finance",
-        "summary": "DXY, EUR/USD and GBP/USD test key levels as traders turn to U.S. PPI after softer CPI and assess the latest UK GDP data."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "GLD, IBIT and Other ETFs to Play Debasement Trade",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/gld-ibit-other-etfs-play-122900313.html?.tsrc=rss",
+        "time_published": "2026-08-26 12:29",
+        "source": "Finance",
+        "summary": "The dollar's weakness and rising debasement concerns are fueling demand for gold, Bitcoin and other hard assets. Here are five ETFs to watch."
+      },
       {
         "title": "Investors Are Betting Big on Gold Again, but Silver Is Still the Better Buy",
         "url": "https://247wallst.com/investing/2026/08/14/investors-are-betting-big-on-gold-again-but-silver-is-still-the-better-buy/?.tsrc=rss",
@@ -167,71 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-07-08 02:29",
         "source": "Etf",
         "summary": "The year-to-date losses look mild, but the fall from the January peaks tells a very different story."
-      },
-      {
-        "title": "A $1,000 Gold Rally? Why Analysts Are Repricing Safe Havens",
-        "url": "https://247wallst.com/investing/2026/07/07/a-1000-gold-rally-why-analysts-are-repricing-safe-havens/?.tsrc=rss",
-        "time_published": "2026-07-07 20:05",
-        "source": "247wallst",
-        "summary": "The Number Gold\u2019s proxy in the equity market, SPDR Gold Shares (NYSEARCA:GLD), has returned 22.27% over the past twelve months, climbing from $309.25 on July 2, 2025 to $378.13 on July 2, 2026. That single figure, a full-year total return on the world\u2019s most-watched safe-haven vehicle, is why sell-s"
       }
     ],
     "spx": [
       {
-        "title": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading \u2014 MRNA, SPCX, PSKY, OpenAI In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-rangebound-as-investors-await-nvidia-earnings/cZYNONDRJom?.tsrc=rss",
-        "time_published": "2026-08-26 00:02",
-        "source": "Stocktwits",
-        "summary": "Treasury yields declined, as the benchmark 10-year Treasury note yield dropped by over 7 basis points to reach 4.63%."
-      },
-      {
-        "title": "Jane Street turns bullish on volatile AI stock",
-        "url": "https://www.thestreet.com/investing/stocks/jane-street-bullish-sandisk-sndk-stock?.tsrc=rss",
-        "time_published": "2026-08-25 18:16",
-        "source": "Thestreet",
-        "summary": "Jane Street increased its AI stock stake by more than 500%, making it one of its biggest holdings."
-      },
-      {
-        "title": "Core Compounders Should Do This With Walmart",
-        "url": "https://247wallst.com/investing/2026/08/25/core-compounders-should-do-this-with-walmart/?.tsrc=rss",
-        "time_published": "2026-08-25 16:03",
-        "source": "247wallst",
-        "summary": "Walmart just slid 6.64% in a week despite beating earnings estimates, and the math on that pullback looks very different depending on whether you buy now or wait for a number closer to $94."
-      },
-      {
-        "title": "Johnson & Johnson Is Near a Record High. Is There Still Room to Run?",
-        "url": "https://247wallst.com/investing/2026/08/25/johnson-johnson-is-near-a-record-high-is-there-still-room-to-run/?.tsrc=rss",
-        "time_published": "2026-08-25 16:00",
-        "source": "247wallst",
-        "summary": "Johnson and Johnson has surged over 54% in a year, cleared a major FDA hurdle, and raised its guidance, yet something about the current setup gives pause before hitting buy."
-      },
-      {
-        "title": "Long-Term Investors Know Exactly What to Do With Nvidia Before Aug. 26 Earnings Drop",
-        "url": "https://247wallst.com/investing/2026/08/25/long-term-investors-know-exactly-what-to-do-with-nvidia-before-aug-26-earnings-drop/?.tsrc=rss",
-        "time_published": "2026-08-25 15:58",
-        "source": "247wallst",
-        "summary": "NVIDIA heads into its August 26 earnings report with Wall Street almost certain it will beat, yet the stock has dropped sharply all week. That contradiction tells long-term investors something important about what to do next."
-      },
-      {
-        "title": "Nuclear Stocks Rebound on an Oversold Bounce: Uranium Energy Jumps 6%, NuScale Power and Oklo Climb 5%",
-        "url": "https://247wallst.com/investing/2026/08/25/nuclear-stocks-rebound-on-an-oversold-bounce-uranium-energy-jumps-6-nuscale-power-and-oklo-climb-5/?.tsrc=rss",
-        "time_published": "2026-08-25 15:14",
-        "source": "247wallst",
-        "summary": "Nuclear stocks are surging while the broad market barely stirs, but the announcements driving the move tell a very different story than the price action suggests."
-      },
-      {
-        "title": "Apple at $310: Little Room to Grow But Still a Buy",
-        "url": "https://247wallst.com/investing/2026/08/25/apple-at-310-little-room-to-grow-but-still-a-buy/?.tsrc=rss",
-        "time_published": "2026-08-25 14:57",
-        "source": "247wallst",
-        "summary": "Apple just pulled back from its 52-week high while retail sentiment sours and analysts argue the valuation leaves no room for error. Here is why that pessimism may be the most reliable entry signal the stock has offered all year."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Chip Stocks Recover",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130924933.html?.tsrc=rss",
-        "time_published": "2026-08-25 13:09",
+        "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Amid Inflation Data Release",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131226701.html?.tsrc=rss",
+        "time_published": "2026-08-26 13:12",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.5%, and the actively tra"
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1%, and the actively t"
+      },
+      {
+        "title": "Dollar General Advances 5% on Raised Full-Year Outlook, Dollar Tree Slips 3%",
+        "url": "https://247wallst.com/investing/2026/08/27/dollar-general-advances-5-on-a-raised-full-year-outlook-dollar-tree-slips-3/?.tsrc=rss",
+        "time_published": "2026-08-27 17:17",
+        "source": "247wallst",
+        "summary": "Dollar General and Dollar Tree are splitting sharply in the same session, and the direction each name is moving tells a complicated story about whether discount retail is recovering or simply reshuffling its winners."
+      },
+      {
+        "title": "NuScale Power Rises 4%, Oklo Climbs 3% as Risk Appetite Returns, Uranium Energy Ticks Up",
+        "url": "https://247wallst.com/investing/2026/08/27/nuscale-power-rises-4-oklo-climbs-3-as-risk-appetite-returns-uranium-energy-ticks-up/?.tsrc=rss",
+        "time_published": "2026-08-27 15:46",
+        "source": "247wallst",
+        "summary": "Risk appetite is back, and the reactor developers are moving hard while the fuel complex barely flinches. That split tells you something important about what is actually driving NuScale Power and Oklo today."
+      },
+      {
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Ahead of Fed's Jackson Hole Symposium",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131600514.html?.tsrc=rss",
+        "time_published": "2026-08-27 13:16",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.6%, and the actively tra"
+      },
+      {
+        "title": "Abercrombie & Fitch Soars 37% on a $100M Tariff Refund and Raised Guidance, Ross and Kohl\u2019s Hold Steady",
+        "url": "https://247wallst.com/investing/2026/08/26/abercrombie-fitch-soars-37-on-a-100m-tariff-refund-and-raised-guidance-ross-stores-holds-flat/?.tsrc=rss",
+        "time_published": "2026-08-26 15:30",
+        "source": "247wallst",
+        "summary": "A $100 million tariff refund sent Abercrombie surging in a single session while the same catalyst left Kohl's nearly unchanged and Ross investors shrugging. The gap between those reactions reveals something more important than the windfall itself."
+      },
+      {
+        "title": "D-Wave Sinks 8% as Its CFO Retires; Rigetti Slides 5%, IonQ Falls 3%",
+        "url": "https://247wallst.com/investing/2026/08/26/d-wave-sinks-8-as-its-cfo-retires-rigetti-slides-5-ionq-falls-3/?.tsrc=rss",
+        "time_published": "2026-08-26 15:23",
+        "source": "247wallst",
+        "summary": "A retiring CFO sent D-Wave Quantum shares tumbling while peers like IonQ and Rigetti got caught in the crossfire, raising a bigger question about whether a routine leadership change reveals something deeper about the risks of owning pre-profit quantum names."
+      },
+      {
+        "title": "Kohl\u2019s Falls 6% Despite Raised Guidance and a $150M Tariff Refund, Ross and TJX Hold Flat",
+        "url": "https://247wallst.com/investing/2026/08/26/kohls-falls-6-despite-raised-guidance-and-a-150m-tariff-refund-ross-and-tjx-hold-flat/?.tsrc=rss",
+        "time_published": "2026-08-26 13:20",
+        "source": "247wallst",
+        "summary": "Kohl's posted a blowout earnings beat and raised its full-year outlook, yet shares are cratering while rivals Ross and TJX barely flinch. The reason buried inside the margin numbers may explain why investors are refusing to celebrate."
+      },
+      {
+        "title": "Lucid Jumps 7%, Rivian Edges Higher: Is the EV Selloff Finally Exhausted?",
+        "url": "https://247wallst.com/investing/2026/08/27/lucid-jumps-7-rivian-edges-higher-is-the-ev-selloff-finally-exhausted/?.tsrc=rss",
+        "time_published": "2026-08-27 17:10",
+        "source": "247wallst",
+        "summary": "Lucid is surging hard off multi-year lows while Rivian barely twitches on the same tape, and the gap between those two moves tells you exactly what is really driving this afternoon's action in electric vehicle stocks."
       }
     ],
     "oil": [
