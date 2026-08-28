@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-08-27
-**Generated:** 2026-08-27T17:37:49Z
+**Date:** 2026-08-28
+**Generated:** 2026-08-28T18:39:18Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,26 +18,26 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 0/10 |
-| **Support** | 125.17, 123.0, 120.0 |
-| **Resistance** | 130.0, 132.83, 135.0 |
+| **Support** | 125.67, 125.41, 124.0 |
+| **Resistance** | 130.0, 132.0, 134.0 |
 
 ---
 
 ## Analysis
 
-The price action confirms the EMA-based strong uptrend, as USO trades well above both the EMA50 (125.17) and EMA200 (110.26). However, the lack of recent bullish candlestick patterns and the neutral RSI (52.67) suggest momentum is stalling. The MACD is bearish with the line below the signal and a negative histogram, indicating weakening short-term momentum. This creates a divergence between the long-term trend (bullish) and near-term momentum (bearish), which often leads to consolidation or a pullback before the trend resumes.
+The daily chart shows a strong uptrend with price (129.84) well above both the EMA50 (125.41) and EMA200 (110.61). However, the MACD has crossed bearishly (line below signal) and the histogram is negative, indicating weakening upward momentum. The RSI at 54.05 is neutral, providing no overbought or oversold confirmation. The signal score of 0/10 reflects the absence of a clear, high-probability setup.  
 
-No clear chart patterns like flags or triangles are inferable from the given data, but the price is holding near recent highs, which could be forming a narrow range or a simple pullback to the EMA50. Key support is the EMA50 at 125.17, followed by the 123.00 area (a prior swing low) and the psychological 120.00 level. Resistance lies at the round number 130.00, then the ATR-based extension near 132.83, and 135.00 as a potential extreme.
+No additional chart patterns (triangles, flags, etc.) are detected from the given data, and the last five candles show no significant formations. The key support level is the EMA50 at 125.41, with a nearby ATR-based level at 125.67. Resistance is psychological at 130.00, followed by 132.00 and 134.00. The divergence between the strong trend and the bearish MACD suggests a potential consolidation or pullback, making a new entry risky without further confirmation.  
 
-The RSI and MACD do not agree with the strong uptrend; the RSI is neutral rather than overbought, and the MACD is bearish. This lack of confluence reduces confidence in an immediate continuation. The signal score of 0/10 reflects the absence of a clear, high-probability setup. The best trade setup at this time is to wait for either a bullish MACD crossover or a price retest of the EMA50 with supportive RSI action to enter long. Selling is not advisable given the overarching uptrend.
+The RSI and MACD do not align with the trend; the MACD is bearish while the trend is bullish. This lack of confluence argues against taking a long position. A short position is also not justified because the trend remains intact and RSI is neutral. The best course is to wait for either a bullish re-confirmation (e.g., MACD turning up, price holding above EMA50) or a clear breakdown below support.  
 
-Risk assessment is elevated due to the bearish MACD condition. If price breaks below the EMA50 (125.17) on increasing volume, the uptrend could weaken further, potentially targeting the next support at 120.00. Conversely, a breakout above 130.00 with strong momentum could reignite the trend. Until then, the risk/reward of an immediate entry is unfavorable, and patience is warranted.
+Risk assessment: The current setup carries elevated uncertainty due to conflicting signals. A long entry would risk a deeper pullback if momentum continues to fade, while a short entry would counter the dominant uptrend. Patience is advised until a higher-conviction signal emerges.
 
 ---
 
 ## Invalidation
 
-A daily close below the EMA50 (125.17) would invalidate the bullish bias and shift the short-term outlook to neutral or bearish.
+A daily close below the EMA50 (125.41) would invalidate the bullish trend bias and shift the outlook to neutral or bearish.
 
 ---
 

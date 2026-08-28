@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-08-27T17:37:34Z",
+  "generated": "2026-08-28T18:38:47Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-08-27",
-  "decision": "WAIT",
+  "date": "2026-08-28",
+  "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "3/10 confirmed",
-  "analysis": "Price action is above both the EMA50 (58.45) and EMA200 (60.64), so the broader trend remains bullish. However, the recent Doji candle signals indecision near current levels, and price is not showing strong continuation momentum. The bullish EMA structure is intact, but the immediate price action does not yet confirm a fresh push higher.\n\nNo clear triangle, flag, or double top/bottom can be inferred from the provided data. The Doji within the last five candles suggests a consolidation phase after the recent advance. If price holds above 62.00 and forms a higher low, a bull-flag continuation could develop. A break below 62.00 would weaken the bullish setup and shift focus toward the 61.15 and 60.64 support zone.\n\nRSI at 65.2 is neutral but elevated, not overbought, and there is no RSI divergence. MACD remains bullish with the line above signal and a positive histogram. These indicators broadly agree with the bullish trend, but they do not provide a high-conviction entry trigger. The low signal score of 3/10 reflects the doji indecision and lack of a confirmed breakout or pullback setup.\n\nThe best trade setup right now is to wait. A long entry would be justified either on a pullback into the 61.15\u201360.64 support zone with a bullish reversal candle, or on a decisive daily close above 63.00. Chasing price at 62.94 after a doji offers poor risk/reward, especially with ATR at 1.79 indicating wide daily ranges.",
-  "invalidation": "A daily close below 60.64 (EMA200) would invalidate the bullish bias and cancel the wait-for-long setup; a close above 63.00 would invalidate the pullback plan and require a breakout-based entry instead.",
+  "entry": "60.47",
+  "stop_loss": "61.20",
+  "target_1": "58.53",
+  "target_2": "57.50",
+  "risk_reward": "2.66",
+  "score": "7/10",
+  "analysis": "The price action shows a bearish engulfing candle at the EMA200 (60.72), which serves as a strong resistance. While the price is above the EMA50 (58.53), indicating short-term bullish bias, the longer-term trend is neutral with the EMA200 acting as a cap. The RSI divergence is bearish, suggesting weakening momentum, and the candlestick patterns (Doji followed by Bearish Engulfing) reinforce a potential reversal. However, the MACD remains bullish with the line above the signal line and a positive histogram, creating a conflict that lowers confidence.  \n\nKey support is the EMA50 at 58.53, followed by 58.00 and 57.50. Resistance is the EMA200 at 60.72, then 61.00 and 61.50. The bearish divergence and the rejection at the EMA200 provide a compelling short setup, but the MACD bullishness cautions against aggressive positioning. The risk-reward ratio is favorable, with a stop above the recent swing high (estimated near 61.20) and targets at the EMA50 and the next support level.  \n\nGiven the mixed signals, the trade is medium confidence. The signal score is revised down from 8/10 to 7/10 due to the conflicting MACD and the need for confirmation. The bearish engulfing pattern and RSI divergence are the primary drivers for the sell bias, while the MACD suggests potential for a false breakdown.",
+  "invalidation": "If price closes above the bearish engulfing high (approximately 61.00) with strong volume, the short setup is invalidated.",
   "support_levels": [
-    62.0,
-    61.15,
-    60.64
+    58.53,
+    58.0,
+    57.5
   ],
   "resistance_levels": [
-    63.0,
-    64.0,
-    65.0
+    60.72,
+    61.0,
+    61.5
   ]
 };

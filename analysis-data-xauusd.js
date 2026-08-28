@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-08-27T17:36:43Z",
+  "generated": "2026-08-28T18:37:42Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-08-27",
-  "decision": "SELL",
-  "confidence": "LOW",
-  "entry": "4613.04",
-  "stop_loss": "4626.00",
-  "target_1": "4539.00",
-  "target_2": "4489.89",
-  "risk_reward": "5.7:1 (T1) / 9.5:1 (T2)",
-  "score": "4/10",
-  "analysis": "The daily chart shows a clear bullish trend with price well above both the EMA50 (4338.5) and EMA200 (4489.89). However, recent candlestick patterns\u2014a sequence of Bearish Engulfing, Bullish Engulfing, Bearish Engulfing, and an Evening Star\u2014signal potential exhaustion and a bearish reversal at current highs. The RSI at 68.52 is neutral but approaching overbought territory, while the MACD remains bullish with a positive histogram, offering no immediate divergence. This creates a conflict between the underlying trend and short-term price action, reducing conviction.\n\nNo clear chart patterns like triangles or flags are evident, but the repeated bearish engulfing and the Evening Star suggest a possible topping formation near the 4613 level. Key support lies at the ATR-based level of 4539 (4613 - 74), followed by the EMA200 at 4489.89 and the 2x ATR level at 4465. Resistance is clustered just above current price at 4620, 4630, and 4650, representing recent swing highs. The RSI and MACD do not strongly confirm the bearish reversal\u2014they still lean bullish\u2014but the candlestick patterns provide a compelling counter-trend signal.\n\nThe single best trade setup is a short entry at current price, targeting the first support at 4539 and the EMA200 at 4489.89, with a stop above the Evening Star\u2019s high (estimated at 4626). The risk-reward is attractive, but the trade is counter-trend and carries elevated risk. The signal score is revised down to 4/10 due to the conflicting trend and pattern signals, warranting a low confidence level and a smaller position size.",
-  "invalidation": "This short setup is invalidated if price breaks and closes above 4626, confirming the continuation of the bullish trend and negating the bearish reversal patterns.",
+  "date": "2026-08-28",
+  "decision": "WAIT",
+  "confidence": "MEDIUM",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "5/10",
+  "analysis": "The current price at 4474.69 sits between the EMA50 (4343.39) and EMA200 (4483.43), confirming a neutral trend. While price is above the shorter-term EMA, the fact that the EMA50 is below the EMA200 indicates a broader bearish structure, yet the market has not decisively broken above the long-term moving average. The neutral trend label aligns with this indecisive positioning. No additional chart patterns such as triangles, flags, or double tops/bottoms are clearly inferable from the given data, though the presence of both a Bullish Engulfing and a Bearish Engulfing followed by an Evening Star suggests a volatile range-bound environment with failed breakouts.\n\nThe RSI at 54.01 is neutral and shows no divergence, providing no directional edge. The MACD, however, is bearish with the line below the signal line and a negative histogram, indicating downside momentum that conflicts with the price\u2019s position above the EMA50. This lack of confluence between RSI and MACD reinforces the neutral stance and suggests that any move is likely to be short-lived or require further confirmation. The mixed candlestick patterns over the last five days highlight rapid sentiment shifts, typical of a consolidation phase.\n\nGiven the absence of a clear directional bias, the best trade setup currently is to wait for a decisive breakout or breakdown. A breakout above the EMA200 (4483) with strong momentum would open the path towards 4500 and possibly 4520, while a failure and drop below the 4450 support could lead to a test of 4400 and the EMA50. The risk-reward ratio is unfavorable for any immediate entry due to the high noise and low signal clarity. The signal score remains 5/10, reflecting the balanced but inconclusive technical picture.",
+  "invalidation": "Any trade setup would be invalidated if price closes firmly above the EMA200 at 4483.43 with expanding volume or below the 4450 support, as these would break the current neutral consolidation.",
   "support_levels": [
-    4539.0,
-    4489.89,
-    4465.0
+    4450.0,
+    4400.0,
+    4343.39
   ],
   "resistance_levels": [
-    4620.0,
-    4630.0,
-    4650.0
+    4483.43,
+    4500.0,
+    4520.0
   ]
 };

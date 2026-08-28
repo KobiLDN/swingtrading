@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-08-27T17:36:05Z",
+  "generated": "2026-08-28T18:37:24Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_EURUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The daily chart shows price at 1.16542, comfortably above both the EMA50 (1.1555) and EMA200 (1.16103), confirming a bullish bias in the trend. However, the last five candles include an Evening Star, a Bearish Engulfing, and a Doji \u2014 a clear cluster of bearish reversal signals that casts doubt on the immediate continuation of the uptrend. The price is currently hovering near the EMA200, which acts as a dynamic support, but the candlestick patterns suggest sellers are gaining traction at these levels. No clear chart patterns like triangles or flags are evident from the given data, but the Evening Star implies a potential short-term top near the 1.1694\u20131.1700 zone.\n\nThe RSI at 65.73 is neutral but approaching overbought territory, while the MACD remains bullish with the line above the signal. However, the histogram is nearly flat (+0.000022), indicating fading momentum. This divergence between strong bearish candlestick patterns and still-bullish EMAs/MACD creates a conflicting picture. The signal score of 5/10 reflects this indecision. The best trade setup right now is to wait for a clearer directional catalyst \u2014 either a decisive break below the EMA200 (1.16103) to confirm a bearish reversal, or a bullish breakout above the Evening Star high (around 1.1694) to resume the uptrend.\n\nRisk assessment is moderate: a long entry here would face immediate resistance from the bearish patterns, while a short entry would be against the prevailing bullish EMA structure. The ATR of 40 pips suggests typical daily volatility, but the lack of a confirmed breakout makes any trade low-probability. Waiting for price to either reclaim the 1.1700 area or lose the 1.1610 support provides a much better risk/reward setup. Until then, the market is in a neutral zone with conflicting signals.",
-  "invalidation": "This wait-and-see stance is invalidated if price breaks and closes above 1.1700 (bullish continuation) or below 1.1610 (bearish reversal), providing a clear entry trigger.",
+  "score": "5/10 confirmed",
+  "analysis": "The current price of 1.15804 sits between the 50-day EMA (1.15559) and 200-day EMA (1.16075), confirming a neutral trend with no clear directional bias from the moving averages. However, the recent bearish candlestick patterns\u2014an Evening Star followed by a Bearish Engulfing\u2014suggest selling pressure and a potential short-term reversal to the downside. The RSI at 47.58 is neutral, providing no overbought or oversold extremes, while the MACD is bearish (line below signal, negative histogram), which aligns with the bearish candlestick signals but lacks strong momentum confirmation.\n\nKey support is the 50-day EMA at 1.15559, which could act as a pivot level. A break below this would confirm bearish momentum and open the path toward 1.1500 (psychological support) and 1.1450. Resistance lies at the 200-day EMA of 1.16075, followed by 1.1650 and 1.1700. With price currently closer to the 50-day EMA than the 200-day EMA, a short from current levels offers limited downside potential (\u224824 pips to support) and elevated upside risk (\u224827 pips to resistance), yielding an unfavorable risk-reward ratio of roughly 1:0.6 if a stop above the 200-day EMA is used.\n\nThe MACD and RSI show divergence: MACD is bearish but RSI is neutral, indicating that downward momentum is not yet dominant. The bearish candlestick patterns provide a short-term signal, but the overall trend remains neutral until price breaks decisively from the EMA range. Without a clear breakout or a retest of a key level, the setup remains ambiguous and lacks high conviction. Given the moderate signal score of 5/10, the best course is to wait for a clearer trigger\u2014either a retest of the 200-day EMA with a rejection (short) or a sustained break above it (long), or a breakdown below the 50-day EMA (short).",
+  "invalidation": "If price breaks and closes above the 200-day EMA (1.16075) with bullish momentum, the bearish setup is invalidated; conversely, a break below the 50-day EMA (1.15559) would invalidate any neutral bias and confirm a bearish trend.",
   "support_levels": [
-    1.16103,
-    1.1555,
-    1.15
+    1.15559,
+    1.15,
+    1.145
   ],
   "resistance_levels": [
-    1.16944,
-    1.17,
-    1.175
+    1.16075,
+    1.165,
+    1.17
   ]
 };

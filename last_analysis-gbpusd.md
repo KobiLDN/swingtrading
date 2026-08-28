@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-08-27
-**Generated:** 2026-08-27T17:35:20Z
+**Date:** 2026-08-28
+**Generated:** 2026-08-28T18:35:19Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 1.35965 |
-| **Stop Loss** | 1.36445 |
-| **Target 1** | 1.35480 |
-| **Target 2** | 1.34952 |
-| **Risk/Reward** | 1:1 (T1) / 1:2.1 (T2) |
-| **Score** | 8/10 |
-| **Support** | 1.3548, 1.34952, 1.34712 |
-| **Resistance** | 1.36, 1.36445, 1.37 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 5/10 |
+| **Support** | 1.34964, 1.34663, 1.34 |
+| **Resistance** | 1.355, 1.36, 1.365 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong uptrend with price well above both the 50- and 200-period EMAs, but recent price action is diverging from this momentum. The last five candles include two bearish reversal patterns (Evening Star, Bearish Engulfing) and a Doji, indicating indecision and potential exhaustion. The Bearish RSI divergence (price making higher highs while RSI makes lower highs) and the MACD bearish crossover (line below signal, histogram negative) both suggest fading upward momentum. These contrarian signals carry weight given the high signal score of 8/10, pointing to a short-term reversal rather than trend continuation.
+The daily chart shows a strong uptrend with price (1.35296) above both the EMA50 (1.34964) and EMA200 (1.34663). However, recent price action is conflicting. The last five candlesticks include a Bullish Engulfing, Morning Star, Bearish Engulfing, and a Hammer — a sequence that suggests indecision and potential reversal. The Hammer after a Bearish Engulfing could indicate a bounce, but the momentum indicators are bearish: RSI (47.41) is neutral but shows a bearish divergence, and MACD is below its signal line with a negative histogram. This divergence warns that the uptrend may be losing steam, even though the EMAs still point higher.
 
-From a pattern perspective, the sequence of engulfing candles and the Doji at the top of the move hints at a possible double top or a broadening formation near current levels, though no clear triangle or flag is confirmed. Key support lies at the 1.35480 level (a prior swing low and the ATR-derived round number), followed by the 50-EMA at 1.34952, and finally the 200-EMA at 1.34712. Resistance is immediate at the psychological 1.36000, then the top of the recent range near 1.36445 (current price + 1 ATR), and a potential extension to 1.37000.
+No clear chart patterns like triangles or flags are evident from the given data, but the price is hovering near the upper end of the recent range. The nearest support is the EMA50 at 1.34964, followed by the EMA200 at 1.34663 and the psychological level at 1.3400. Resistance lies at round numbers: 1.3550, 1.3600, and 1.3650. The RSI and MACD do not agree with the EMA trend — they signal bearish momentum, while the moving averages still support an uptrend. This divergence creates a low-conviction environment, making it risky to trade either direction without additional confirmation.
 
-The RSI (neutral at 60.12) and MACD (bearish) do not agree with the strong uptrend; instead, they align with the bearish divergence and candlestick warnings. This confluence suggests a high-probability short-term pullback, even if the larger trend remains bullish. The trade setup is a short at current price with a stop above the recent highs (1.36445) to account for volatility, targeting first the 1.35480 support (1:1 risk/reward) and then the 50-EMA (1:2.1 risk/reward). While the overall trend is up, the immediate bearish signals justify a counter-trend swing with a defined risk.
+The best trade setup is to wait for a clearer signal. A short would be premature because the trend is still up, and a long is risky due to the bearish momentum divergence. The mixed candlestick patterns and the lack of a decisive breakout or breakdown reinforce the need for patience. The original signal score of 7/10 seems overstated given the bearish divergence; a revised score of 5/10 better reflects the current uncertainty.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.36445 would break the recent swing high and invalidate the bearish divergence, forcing a reassessment of the short setup.
+This wait-and-see approach is invalidated if price breaks decisively above 1.3550 with strong momentum (confirming bullish continuation) or below 1.3496 (EMA50) with a bearish candle (confirming a trend reversal).
 
 ---
 
