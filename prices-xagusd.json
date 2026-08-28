@@ -1,41 +1,40 @@
 {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-08-27T17:05:06Z",
-  "date": "2026-08-27",
-  "price": 62.94,
-  "atr": 1.79,
+  "generated": "2026-08-28T17:53:04Z",
+  "date": "2026-08-28",
+  "price": 60.47,
+  "atr": 1.97,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 58.45,
-  "ema200": 60.64,
-  "rsi": 65.2,
-  "macd_line": 1.977289,
-  "macd_signal": 1.520863,
-  "macd_hist": 0.456427,
-  "trend": "BULLISH BIAS",
-  "divergence": "None",
+  "ema50": 58.53,
+  "ema200": 60.72,
+  "rsi": 55.84,
+  "macd_line": 1.811221,
+  "macd_signal": 1.576828,
+  "macd_hist": 0.234393,
+  "trend": "NEUTRAL",
+  "divergence": "BEARISH",
   "patterns": [
     {
       "date": "2026-08-26",
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
+    },
+    {
+      "date": "2026-08-28",
+      "name": "Bearish Engulfing",
+      "signal": "STRONG BEARISH",
+      "strength": 4
     }
   ],
-  "score": 3,
-  "verdict": "NO TRADE",
+  "score": 8,
+  "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-04-07",
-      "open": 65.28,
-      "high": 66.19,
-      "low": 63.2,
-      "close": 65.94
-    },
     {
       "date": "2026-04-08",
       "open": 69.73,
@@ -719,15 +718,22 @@
       "date": "2026-08-26",
       "open": 61.59,
       "high": 61.96,
-      "low": 61.01,
+      "low": 61.02,
       "close": 61.59
     },
     {
       "date": "2026-08-27",
-      "open": 61.71,
-      "high": 62.94,
-      "low": 61.09,
-      "close": 62.94
+      "open": 61.67,
+      "high": 62.97,
+      "low": 61.08,
+      "close": 62.77
+    },
+    {
+      "date": "2026-08-28",
+      "open": 63.95,
+      "high": 64.28,
+      "low": 59.99,
+      "close": 60.47
     }
   ]
 }
