@@ -1,52 +1,64 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-08-28T17:53:05Z",
+  "generated": "2026-08-31T12:08:48Z",
   "events": [
     {
-      "date": "2026-08-26",
-      "time": "08:30",
-      "currency": "USD",
-      "event": "Core PCE Price Index m/m",
-      "impact": "high",
-      "forecast": "0.2%",
-      "previous": "0.1%",
-      "actual": "",
-      "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-08-26",
-      "time": "08:30",
-      "currency": "USD",
-      "event": "Prelim GDP q/q",
-      "impact": "high",
-      "forecast": "1.5%",
-      "previous": "1.5%",
-      "actual": "",
-      "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-08-28",
+      "date": "2026-09-01",
       "time": "10:00",
       "currency": "USD",
-      "event": "Fed Chairman Warsh Speaks",
+      "event": "ISM Manufacturing PMI",
+      "impact": "high",
+      "forecast": "55.2",
+      "previous": "55.6",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-09-04",
+      "time": "04:50",
+      "currency": "GBP",
+      "event": "BOE Gov Bailey Speaks",
       "impact": "high",
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": true,
+      "today": false,
       "past": false
     },
     {
-      "date": "2026-08-28",
-      "time": "10:00",
+      "date": "2026-09-04",
+      "time": "08:30",
       "currency": "USD",
-      "event": "Prelim Benchmark Payrolls Revision",
+      "event": "Average Hourly Earnings m/m",
       "impact": "high",
-      "forecast": "",
-      "previous": "-911K",
+      "forecast": "0.3%",
+      "previous": "0.1%",
       "actual": "",
-      "today": true,
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Non-Farm Employment Change",
+      "impact": "high",
+      "forecast": "58K",
+      "previous": "-23K",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Unemployment Rate",
+      "impact": "high",
+      "forecast": "4.1%",
+      "previous": "4.1%",
+      "actual": "",
+      "today": false,
       "past": false
     }
   ]

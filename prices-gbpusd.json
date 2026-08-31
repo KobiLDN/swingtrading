@@ -1,73 +1,64 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-08-28T17:52:59Z",
-  "date": "2026-08-28",
-  "price": 1.35296,
-  "atr": 0.00499,
-  "atr_pips": 50,
+  "generated": "2026-08-31T12:08:45Z",
+  "date": "2026-08-31",
+  "price": 1.35401,
+  "atr": 0.00483,
+  "atr_pips": 48,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34964,
-  "ema200": 1.34663,
-  "rsi": 47.41,
-  "macd_line": 0.003913,
-  "macd_signal": 0.004761,
-  "macd_hist": -0.000848,
+  "ema50": 1.35011,
+  "ema200": 1.34668,
+  "rsi": 49.3,
+  "macd_line": 0.002188,
+  "macd_signal": 0.003718,
+  "macd_hist": -0.00153,
   "trend": "STRONG UPTREND",
   "divergence": "BEARISH",
   "patterns": [
-    {
-      "date": "2026-08-25",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
-    },
-    {
-      "date": "2026-08-25",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-08-26",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    },
     {
       "date": "2026-08-27",
       "name": "Hammer",
       "signal": "BULLISH REVERSAL",
       "strength": 3
+    },
+    {
+      "date": "2026-08-29",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-08-30",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 7,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-21",
-      "open": 1.34346,
-      "high": 1.34556,
-      "low": 1.33941,
-      "close": 1.34293
-    },
-    {
-      "date": "2026-05-22",
-      "open": 1.34295,
-      "high": 1.34613,
-      "low": 1.34141,
-      "close": 1.34309
-    },
-    {
-      "date": "2026-05-23",
-      "open": 1.34311,
-      "high": 1.34438,
-      "low": 1.34282,
-      "close": 1.34313
-    },
     {
       "date": "2026-05-24",
       "open": 1.34313,
@@ -744,8 +735,29 @@
       "date": "2026-08-28",
       "open": 1.35928,
       "high": 1.36013,
-      "low": 1.35276,
-      "close": 1.35296
+      "low": 1.35272,
+      "close": 1.35355
+    },
+    {
+      "date": "2026-08-29",
+      "open": 1.35352,
+      "high": 1.35476,
+      "low": 1.35175,
+      "close": 1.35348
+    },
+    {
+      "date": "2026-08-30",
+      "open": 1.35347,
+      "high": 1.35588,
+      "low": 1.34902,
+      "close": 1.35338
+    },
+    {
+      "date": "2026-08-31",
+      "open": 1.35336,
+      "high": 1.35558,
+      "low": 1.35285,
+      "close": 1.35401
     }
   ]
 }
