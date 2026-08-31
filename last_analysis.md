@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-08-28
-**Generated:** 2026-08-28T18:35:19Z
+**Date:** 2026-08-31
+**Generated:** 2026-08-31T13:40:43Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,34 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 1.34964, 1.34663, 1.34 |
-| **Resistance** | 1.355, 1.36, 1.365 |
+| **Score** | 6/10 |
+| **Support** | 1.3501, 1.3467, 1.342 |
+| **Resistance** | 1.358, 1.362, 1.367 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong uptrend with price (1.35296) above both the EMA50 (1.34964) and EMA200 (1.34663). However, recent price action is conflicting. The last five candlesticks include a Bullish Engulfing, Morning Star, Bearish Engulfing, and a Hammer — a sequence that suggests indecision and potential reversal. The Hammer after a Bearish Engulfing could indicate a bounce, but the momentum indicators are bearish: RSI (47.41) is neutral but shows a bearish divergence, and MACD is below its signal line with a negative histogram. This divergence warns that the uptrend may be losing steam, even though the EMAs still point higher.
+The daily chart shows a strong uptrend with price well above both the EMA50 (1.3501) and EMA200 (1.3467), confirming bullish momentum. However, the RSI is neutral at 49.3 and exhibits bearish divergence, while the MACD is bearish (line below signal, negative histogram). These momentum indicators suggest waning buying pressure and a potential loss of trend strength, conflicting with the price structure. The recent candlestick cluster (Hammer, Doji, Inverted Hammer, Bullish Engulfing, Morning Star) points to a bullish reversal pattern near the EMA50 support, indicating that buyers have defended that level. This creates a tug-of-war between the lagging trend (still up) and leading oscillators (turning bearish).  
 
-No clear chart patterns like triangles or flags are evident from the given data, but the price is hovering near the upper end of the recent range. The nearest support is the EMA50 at 1.34964, followed by the EMA200 at 1.34663 and the psychological level at 1.3400. Resistance lies at round numbers: 1.3550, 1.3600, and 1.3650. The RSI and MACD do not agree with the EMA trend — they signal bearish momentum, while the moving averages still support an uptrend. This divergence creates a low-conviction environment, making it risky to trade either direction without additional confirmation.
+No clear triangle or flag pattern is evident, but the tight range of the last few candles (around 1.3500–1.3550) resembles a consolidation zone. Key support rests at the EMA50 (1.3501), followed by the EMA200 (1.3467) and the psychological 1.3400 region. Resistance above is likely at the swing high near 1.3580, then 1.3620 (previous reaction level) and 1.3670. The bullish candlestick patterns argue for a long continuation, but the bearish divergence and MACD warn of a possible correction. The pre-calculated signal score of 7/10 seems overly optimistic given the oscillator deterioration; I revise it to 6/10 due to the conflicting signals.  
 
-The best trade setup is to wait for a clearer signal. A short would be premature because the trend is still up, and a long is risky due to the bearish momentum divergence. The mixed candlestick patterns and the lack of a decisive breakout or breakdown reinforce the need for patience. The original signal score of 7/10 seems overstated given the bearish divergence; a revised score of 5/10 better reflects the current uncertainty.
+The single best trade setup at this moment is to wait for a clearer trigger. A bullish entry would require price to break above 1.3580 with strong momentum, confirming the continuation of the uptrend. Alternatively, a pullback to the EMA50 (1.3501) with a bullish reversal candle could offer a lower-risk long. A bearish setup is premature because the overall trend is still bullish and the candlestick patterns show buyer support. The best course is patience until either the oscillators turn bullish or price decisively breaks support/resistance.  
+
+RISK ASSESSMENT:  
+The risk is elevated due to the divergence between price action and momentum. A false breakout above resistance or a sudden drop below the EMA50 could trap traders on either side. Position sizing should be reduced, and stops should be placed based on the ATR (48 pips) to avoid noise.
 
 ---
 
 ## Invalidation
 
-This wait-and-see approach is invalidated if price breaks decisively above 1.3550 with strong momentum (confirming bullish continuation) or below 1.3496 (EMA50) with a bearish candle (confirming a trend reversal).
+A daily close below 1.3501 (EMA50) would negate the bullish candlestick setup and open the door for a deeper correction toward the EMA200 (1.3467) or lower.
 
 ---
 

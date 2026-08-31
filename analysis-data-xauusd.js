@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-08-28T18:37:42Z",
+  "generated": "2026-08-31T13:41:34Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-08-28",
+  "date": "2026-08-31",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The current price at 4474.69 sits between the EMA50 (4343.39) and EMA200 (4483.43), confirming a neutral trend. While price is above the shorter-term EMA, the fact that the EMA50 is below the EMA200 indicates a broader bearish structure, yet the market has not decisively broken above the long-term moving average. The neutral trend label aligns with this indecisive positioning. No additional chart patterns such as triangles, flags, or double tops/bottoms are clearly inferable from the given data, though the presence of both a Bullish Engulfing and a Bearish Engulfing followed by an Evening Star suggests a volatile range-bound environment with failed breakouts.\n\nThe RSI at 54.01 is neutral and shows no divergence, providing no directional edge. The MACD, however, is bearish with the line below the signal line and a negative histogram, indicating downside momentum that conflicts with the price\u2019s position above the EMA50. This lack of confluence between RSI and MACD reinforces the neutral stance and suggests that any move is likely to be short-lived or require further confirmation. The mixed candlestick patterns over the last five days highlight rapid sentiment shifts, typical of a consolidation phase.\n\nGiven the absence of a clear directional bias, the best trade setup currently is to wait for a decisive breakout or breakdown. A breakout above the EMA200 (4483) with strong momentum would open the path towards 4500 and possibly 4520, while a failure and drop below the 4450 support could lead to a test of 4400 and the EMA50. The risk-reward ratio is unfavorable for any immediate entry due to the high noise and low signal clarity. The signal score remains 5/10, reflecting the balanced but inconclusive technical picture.",
-  "invalidation": "Any trade setup would be invalidated if price closes firmly above the EMA200 at 4483.43 with expanding volume or below the 4450 support, as these would break the current neutral consolidation.",
+  "score": "2/10",
+  "analysis": "The daily chart shows a neutral trend with price (4457.84) sandwiched between the EMA50 (4355.67) and EMA200 (4482.67). While price is above the shorter-term EMA, it remains below the longer-term EMA, indicating a lack of clear directional bias. The MACD is bearish (line below signal, negative histogram), but the RSI is neutral at 52.56 with no divergence, so momentum is not strongly aligned with either side. The recent Doji candlestick pattern reflects indecision, and the overall signal score of 2/10 confirms a low-probability environment for a swing trade.\n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. Key support is the EMA50 at 4355.67 and the psychological 4400 level, while resistance is the EMA200 at 4482.67 and the round 4500 mark. The ATR of 71 points suggests moderate volatility, but without a clear trend or confluence among indicators, entering a trade now would be speculative. The bearish MACD is offset by the neutral RSI and the price\u2019s position above the EMA50, creating conflicting signals.\n\nGiven the lack of a dominant trend, the indecisive candlestick, and the low signal score, the prudent action is to wait for a clearer setup. A break above the EMA200 (4482.67) with bullish MACD confirmation or a breakdown below the EMA50 (4355.67) with bearish momentum would provide a higher-probability entry. Until then, the risk of whipsaw is elevated.",
+  "invalidation": "This wait-and-see stance is invalidated if price decisively breaks above 4500 with strong bullish momentum or below 4350 with bearish follow-through, creating a new directional bias.",
   "support_levels": [
-    4450.0,
     4400.0,
-    4343.39
+    4355.67,
+    4300.0
   ],
   "resistance_levels": [
-    4483.43,
+    4482.67,
     4500.0,
-    4520.0
+    4550.0
   ]
 };

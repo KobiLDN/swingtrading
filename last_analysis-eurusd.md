@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-08-28
-**Generated:** 2026-08-28T18:37:24Z
+**Date:** 2026-08-31
+**Generated:** 2026-08-31T13:41:05Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,33 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 5/10 confirmed |
-| **Support** | 1.15559, 1.15, 1.145 |
-| **Resistance** | 1.16075, 1.165, 1.17 |
+| **Score** | 4/10 |
+| **Support** | 1.15596, 1.15, 1.145 |
+| **Resistance** | 1.16024, 1.165, 1.17 |
 
 ---
 
 ## Analysis
 
-The current price of 1.15804 sits between the 50-day EMA (1.15559) and 200-day EMA (1.16075), confirming a neutral trend with no clear directional bias from the moving averages. However, the recent bearish candlestick patterns—an Evening Star followed by a Bearish Engulfing—suggest selling pressure and a potential short-term reversal to the downside. The RSI at 47.58 is neutral, providing no overbought or oversold extremes, while the MACD is bearish (line below signal, negative histogram), which aligns with the bearish candlestick signals but lacks strong momentum confirmation.
+The price at 1.15982 sits between the EMA50 (1.15596) and EMA200 (1.16024), confirming the neutral trend label. The recent candlestick sequence—two Dojis followed by a Bullish Engulfing—suggests a potential bullish reversal near the EMA50 support, but the absence of a clear trend means this pattern lacks strong directional conviction. Price action has not yet confirmed a breakout above the EMA200, which remains overhead resistance.  
 
-Key support is the 50-day EMA at 1.15559, which could act as a pivot level. A break below this would confirm bearish momentum and open the path toward 1.1500 (psychological support) and 1.1450. Resistance lies at the 200-day EMA of 1.16075, followed by 1.1650 and 1.1700. With price currently closer to the 50-day EMA than the 200-day EMA, a short from current levels offers limited downside potential (≈24 pips to support) and elevated upside risk (≈27 pips to resistance), yielding an unfavorable risk-reward ratio of roughly 1:0.6 if a stop above the 200-day EMA is used.
+No significant chart patterns such as triangles, flags, or double tops/bottoms are evident. The cluster of Dojis indicates indecision, and the Bullish Engulfing could be a short-term corrective bounce within a broader range-bound environment. The key levels are defined by the EMAs: support at 1.15596 (EMA50) and a psychological round number at 1.1500, while resistance at 1.16024 (EMA200) and 1.1650 act as immediate ceilings.  
 
-The MACD and RSI show divergence: MACD is bearish but RSI is neutral, indicating that downward momentum is not yet dominant. The bearish candlestick patterns provide a short-term signal, but the overall trend remains neutral until price breaks decisively from the EMA range. Without a clear breakout or a retest of a key level, the setup remains ambiguous and lacks high conviction. Given the moderate signal score of 5/10, the best course is to wait for a clearer trigger—either a retest of the 200-day EMA with a rejection (short) or a sustained break above it (long), or a breakdown below the 50-day EMA (short).
+RSI at 51.52 is neutral, offering no divergence or momentum clue. MACD, however, is bearish with the line below the signal line and a negative histogram (-0.001307), indicating bearish momentum despite the recent bullish candle. This divergence between the MACD (bearish) and the candlestick pattern (bullish) creates conflicting signals, lowering the probability of a reliable setup.  
+
+The best trade setup is to wait for a clearer directional signal. A decisive break above 1.16024 (EMA200) with sustained bullish momentum would favor a long, while a breakdown below 1.15596 (EMA50) would favor a short. Given the low signal score (4/10) and lack of confluence, initiating a trade now carries elevated risk. The ATR of 46 pips suggests moderate volatility, but the neutral trend and conflicting indicators make a wait-and-see approach most prudent.
 
 ---
 
 ## Invalidation
 
-If price breaks and closes above the 200-day EMA (1.16075) with bullish momentum, the bearish setup is invalidated; conversely, a break below the 50-day EMA (1.15559) would invalidate any neutral bias and confirm a bearish trend.
+A sustained move above 1.16024 would invalidate the neutral/bearish bias, while a break below 1.15596 would invalidate any bullish reversal expectation.
 
 ---
 

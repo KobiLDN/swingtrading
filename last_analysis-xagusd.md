@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
 **Date:** 2026-08-28
-**Generated:** 2026-08-28T18:38:47Z
+**Generated:** 2026-08-31T13:43:10Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,32 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 60.47 |
+| **Entry** | 60.02 |
 | **Stop Loss** | 61.20 |
-| **Target 1** | 58.53 |
+| **Target 1** | 58.51 |
 | **Target 2** | 57.50 |
-| **Risk/Reward** | 2.66 |
+| **Risk/Reward** | 2.1 |
 | **Score** | 7/10 |
-| **Support** | 58.53, 58.0, 57.5 |
-| **Resistance** | 60.72, 61.0, 61.5 |
+| **Support** | 58.51, 58.0, 57.5 |
+| **Resistance** | 60.72, 61.2, 62.0 |
 
 ---
 
 ## Analysis
 
-The price action shows a bearish engulfing candle at the EMA200 (60.72), which serves as a strong resistance. While the price is above the EMA50 (58.53), indicating short-term bullish bias, the longer-term trend is neutral with the EMA200 acting as a cap. The RSI divergence is bearish, suggesting weakening momentum, and the candlestick patterns (Doji followed by Bearish Engulfing) reinforce a potential reversal. However, the MACD remains bullish with the line above the signal line and a positive histogram, creating a conflict that lowers confidence.  
+Price action is below the 200 EMA at 60.72 and above the 50 EMA at 58.51, with the 50 EMA still below the 200 EMA. This is a neutral-to-bearish structure. The bearish engulfing pattern near the 200 EMA confirms a rejection from that resistance zone, and the preceding Doji adds indecision before the reversal. This favors a move back toward the 50 EMA rather than a breakout.
 
-Key support is the EMA50 at 58.53, followed by 58.00 and 57.50. Resistance is the EMA200 at 60.72, then 61.00 and 61.50. The bearish divergence and the rejection at the EMA200 provide a compelling short setup, but the MACD bullishness cautions against aggressive positioning. The risk-reward ratio is favorable, with a stop above the recent swing high (estimated near 61.20) and targets at the EMA50 and the next support level.  
+No clear flag or triangle is evident. The more relevant pattern is a potential lower-high rejection at the 200 EMA, and if the prior swing high near 61.20 holds, this could develop into a double top. Key support sits at 58.51, then 58.00 and 57.50. Resistance is 60.72, 61.20, and 62.00.
 
-Given the mixed signals, the trade is medium confidence. The signal score is revised down from 8/10 to 7/10 due to the conflicting MACD and the need for confirmation. The bearish engulfing pattern and RSI divergence are the primary drivers for the sell bias, while the MACD suggests potential for a false breakdown.
+RSI is neutral at 54.38 but shows bearish divergence, warning that upside momentum is fading. MACD is still bullish with a positive histogram, so it does not fully confirm the sell setup. This mixed momentum is why I revise the signal score from 8/10 to 7/10 and keep confidence at medium. The ATR of 1.99 also requires a wider stop and reduced position size.
+
+The best trade is to sell into the current bearish reversal with a stop above the 200 EMA and recent swing high. The first target is the 50 EMA, with a secondary target at 57.50. Risk is primarily a MACD-driven squeeze above the 200 EMA, so the invalidation level is clear.
 
 ---
 
 ## Invalidation
 
-If price closes above the bearish engulfing high (approximately 61.00) with strong volume, the short setup is invalidated.
+A daily close above 61.20 would invalidate this bearish setup.
 
 ---
 

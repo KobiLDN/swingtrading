@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-28T18:39:19Z",
+  "generated": "2026-08-31T13:47:00Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Hawkish Warsh Lifts DXY as EUR/USD and GBP/USD Fall",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081954940.html?.tsrc=rss",
+        "time_published": "2026-08-31 08:19",
+        "source": "Finance",
+        "summary": "Warsh\u2019s hawkish Jackson Hole remarks revive September Fed hike bets as DXY rebounds while EUR/USD and GBP/USD break key technical support."
+      },
       {
         "title": "US Dollar Price Forecast: Warsh Looms as DXY Rebounds, EUR/USD Pulls Back; GBPUSD Key Levels",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-055644863.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-08-24 07:50",
         "source": "Finance",
         "summary": "DXY remains pressured by U.S. fiscal concerns as EUR/USD and GBP/USD hold firm, although both pairs face major technical resistance."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Breaks 99.38 as EUR/USD and GBP/USD Extend Gain",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061736696.html?.tsrc=rss",
-        "time_published": "2026-08-21 06:17",
-        "source": "Finance",
-        "summary": "DXY remains under pressure amid U.S. fiscal concerns, while EUR/USD and GBP/USD extend gains on expectations for tighter ECB and BoE policy."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Hawkish Warsh Lifts DXY as EUR/USD and GBP/USD Fall",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081954940.html?.tsrc=rss",
+        "time_published": "2026-08-31 08:19",
+        "source": "Finance",
+        "summary": "Warsh\u2019s hawkish Jackson Hole remarks revive September Fed hike bets as DXY rebounds while EUR/USD and GBP/USD break key technical support."
+      },
       {
         "title": "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
         "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-eur-jpy-aud-125008520.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-26 07:56",
         "source": "Finance",
         "summary": "DXY remains bearish below 99.41 as traders await U.S. PCE and Kevin Warsh\u2019s Jackson Hole speech, while EUR/USD and GBP/USD hold firm."
-      },
-      {
-        "title": "US Dollar Price Forecast: Warsh Speech Looms as EUR/USD and GBP/USD Hold Firm",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-085747517.html?.tsrc=rss",
-        "time_published": "2026-08-25 08:57",
-        "source": "Finance",
-        "summary": "DXY attempts to recover as markets await Kevin Warsh\u2019s Jackson Hole speech and PCE inflation, while EUR/USD and GBP/USD hold near key support."
       }
     ],
     "xauusd": [],
@@ -178,6 +178,20 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
+        "title": "$57 Billion Just Rushed Into SPYM | Is SPY\u2019s Cheaper Twin Finally Taking Over?",
+        "url": "https://247wallst.com/investing/etf/2026/08/29/57-billion-just-rushed-into-spym-is-spys-cheaper-twin-finally-taking-over/?.tsrc=rss",
+        "time_published": "2026-08-29 16:10",
+        "source": "247wallst",
+        "summary": "SPY built its reputation tracking the S&P 500 for over three decades, but a lesser-known rival now holds a structural and cost advantage that quietly compounds against long-term SPY holders every single year."
+      },
+      {
+        "title": "Pinterest Falls 4% as CFO Resigns, Snap Inches Higher, Alphabet Holds Flat",
+        "url": "https://247wallst.com/investing/2026/08/31/pinterest-falls-4-as-cfo-resigns-snap-inches-higher-alphabet-holds-flat/?.tsrc=rss",
+        "time_published": "2026-08-31 12:56",
+        "source": "247wallst",
+        "summary": "Pinterest's surprise CFO resignation sent shares sliding Monday while a direct rival moved in the opposite direction, raising a pointed question about whether investors are reacting to a leadership gap or something more fundamental lurking in the guidance."
+      },
+      {
         "title": "Optics Stocks Slide as AI Hardware Trade Cools: Applied Optoelectronics and Lumentum Fall 6%, Coherent Drops 5%",
         "url": "https://247wallst.com/investing/2026/08/28/optics-stocks-slide-as-ai-hardware-trade-cools-applied-optoelectronics-and-lumentum-fall-6-coherent-drops-5/?.tsrc=rss",
         "time_published": "2026-08-28 17:54",
@@ -199,39 +213,25 @@ window.NEWS_DATA = {
         "summary": "BioNTech's colorectal cancer vaccine just collapsed in a Phase 2 trial, dragging Moderna down with it despite last week's melanoma triumph, and the fallout is forcing investors to rethink how far mRNA technology can actually reach into solid tumors."
       },
       {
-        "title": "Why Are Nasdaq, S&P 500 Futures Slipping Premarket? NVDA, MU, MRVL, IREN, PYPL, RKLB Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-sp500-futures-slipping-premarket-nvda-mu-mrvl-iren-pypl-rklb-stocks-in-focus/cZYATUMRJAW?.tsrc=rss",
-        "time_published": "2026-08-28 08:49",
-        "source": "Stocktwits",
-        "summary": "Retail sentiment on Stocktwits improved to \u2018bullish\u2019 on SPY and \u2018neutral\u2019 on QQQ."
-      },
-      {
-        "title": "AI Bubble Could Be Ready to Pop and Jim Cramer May Be the Warning Sign",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-bubble-could-ready-pop-220103672.html?.tsrc=rss",
-        "time_published": "2026-08-27 22:01",
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html?.tsrc=rss",
+        "time_published": "2026-08-31 13:28",
         "source": "Finance",
-        "summary": "The rising values of artificial intelligence stocks and their outperformance compared to other S&P 500 stocks in 2026 has former hedge fund manager Whitney Tilson sending a bubble warning. Here\u2019s why. Whitney Tilson Smells a Bubble Tilson draws a parallel..."
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.3%, and the actively t"
       },
       {
-        "title": "Rocket Lab Falls 6% as SpaceX Flags Iridium Deal to the FCC, Intuitive Machines Slides 5%",
-        "url": "https://247wallst.com/investing/2026/08/28/rocket-lab-falls-6-as-spacex-flags-iridium-deal-to-the-fcc-intuitive-machines-slides-5/?.tsrc=rss",
-        "time_published": "2026-08-28 18:02",
+        "title": "GameStop Climbs 4% as $358M Cash Payment Caps Dilution, Roblox Slips, Take-Two Interactive Treads Water",
+        "url": "https://247wallst.com/investing/2026/08/31/gamestop-climbs-4-as-358m-cash-payment-caps-dilution-roblox-slips-take-two-interactive-treads-water/?.tsrc=rss",
+        "time_published": "2026-08-31 12:47",
         "source": "247wallst",
-        "summary": "SpaceX just filed a complaint at the FCC that ties regulatory pressure directly into Rocket Lab's share price through a deal structure few investors have fully mapped out."
+        "summary": "GameStop just rewrote the terms of a billion-dollar note exchange overnight, and the stock is responding, but the earnings story behind the move is more complicated than the headline gain suggests."
       },
       {
-        "title": "Applied Digital Sinks 7%, IREN Tumbles 13% as Data Center Selloff Broadens Past One Name",
-        "url": "https://247wallst.com/investing/2026/08/28/applied-digital-sinks-7-iren-tumbles-13-as-data-center-selloff-broadens-past-one-name/?.tsrc=rss",
-        "time_published": "2026-08-28 16:43",
+        "title": "Retirees Who Convert to a Roth in a Down-Market Year Move the Same Shares for Less Tax. Almost Nobody Times It.",
+        "url": "https://247wallst.com/personal-finance/2026/08/30/retirees-who-convert-to-a-roth-in-a-down-market-year-move-the-same-shares-for-less-tax-almost-nobody-times-it/?.tsrc=rss",
+        "time_published": "2026-08-30 19:29",
         "source": "247wallst",
-        "summary": "A nine-figure writedown at one AI data center operator sent shockwaves through the entire sector Friday, and the stocks bleeding hardest have no bad news of their own to explain the damage."
-      },
-      {
-        "title": "Domino\u2019s Pizza Rallies 5%, Chipotle Edges Higher: Does a Low P/E Signal Value After a 19% YTD Drop?",
-        "url": "https://247wallst.com/investing/2026/08/28/dominos-pizza-rallies-5-chipotle-edges-higher-does-a-low-p-e-signal-value-after-a-19-ytd-drop/?.tsrc=rss",
-        "time_published": "2026-08-28 16:40",
-        "source": "247wallst",
-        "summary": "Domino's Pizza just snapped back 5% with no news driving the move, and the stock now sits at a valuation that looks cheap on paper but could stay that way if one critical sales metric refuses to budge."
+        "summary": "Converting a traditional IRA to a Roth during a market slump sounds counterintuitive, but a quirk in how the IRS measures taxable value turns portfolio pain into a rare tax advantage that most retirees never act on when they have the chance."
       }
     ],
     "oil": [
