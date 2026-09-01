@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-08-28
-**Generated:** 2026-08-31T13:46:59Z
+**Date:** 2026-08-31
+**Generated:** 2026-09-01T11:36:19Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,33 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 0/10 |
-| **Support** | 128.0, 125.4, 120.0 |
-| **Resistance** | 130.0, 132.0, 135.0 |
+| **Score** | 6/10 |
+| **Support** | 130.0, 128.0, 125.73 |
+| **Resistance** | 135.0, 137.0, 140.0 |
 
 ---
 
 ## Analysis
 
-The price action confirms the EMA trend as price (129.7) remains well above both the EMA50 (125.4) and EMA200 (110.61), with the trend labeled as strong uptrend. However, the MACD is bearish with the line below the signal line and a negative histogram, signaling weakening upward momentum. The RSI is neutral at 53.85 with no divergence, indicating no overbought or oversold conditions, but also no clear directional impetus. The absence of candlestick patterns and a signal score of 0/10 further underscore the lack of a compelling entry trigger.  
+The daily chart confirms a strong uptrend with price (133.7) well above both the 50-day EMA (125.73) and 200-day EMA (110.44). The MACD is bullish—line above signal and a positive histogram—supporting continued upward momentum. However, the RSI at 58.54 is neutral, indicating no extreme overbought or oversold conditions, which leaves room for further gains but also suggests the trend may be maturing. No candlestick patterns or divergences are present, and the pre-calculated signal score of 1/10 likely reflects a lack of recent breakout or clear entry trigger, despite the underlying trend strength.  
 
-No additional chart patterns such as flags, triangles, or double tops/bottoms are inferred from the given data. The nearest support is the EMA50 at 125.4, which aligns with a psychological round number at 128.00 and a broader support zone near 120.00. Above current price, resistance is likely at the psychological 130.00, followed by 132.00 and 135.00, but no recent price action confirms these as strong levels.  
+Given the strong trend, the most prudent setup is to wait for a pullback to a key support level before initiating a long position. Current price near 133.7 is close to potential resistance at 135.0 (recent high) and offers a poor risk-reward for a direct buy, as a stop below 130.0 would require a wide 3.7-point loss (0.88x ATR) for a modest upside. A better entry would be near 130.0 (psychological support) or the 50-day EMA at 125.73, where a tighter stop can be placed and targets at 135.0 and 137.0 become more attractive. The ATR of 4.21 confirms moderate daily volatility, so a pullback of 3–5 points is plausible.  
 
-The confluence of indicators is mixed: the long-term trend remains bullish, but the short-term momentum indicators (MACD) disagree, suggesting a potential pullback or consolidation. Without a clear trigger—such as a bounce off EMA50, a bullish RSI divergence, or a candlestick reversal pattern—entering a trade carries elevated uncertainty. The ATR of 4.18 points implies a daily range of about 4 points, making stop placement sensitive.  
-
-Given the conflicting signals and lack of a high-probability setup, the prudent action is to wait for either a confirmation of renewed bullish momentum (e.g., MACD crossing above signal, bullish RSI divergence) or a clean test of support at EMA50 that produces a reversal pattern. A score of 0/10 reinforces that no actionable edge exists at this time.
+Key support levels below price are 130.0 (round number and prior swing low), 128.0 (consolidation zone), and the 50-day EMA at 125.73. Resistance levels above are 135.0 (recent high), 137.0 (next psychological barrier), and 140.0 (major round number). The MACD and RSI do not diverge from the trend, so they agree with the bullish bias, but the lack of a fresh catalyst or pattern keeps the setup from being high-conviction.
 
 ---
 
 ## Invalidation
 
-A decisive break below the EMA50 (125.4) or a bullish MACD crossover above the signal line would cancel the current wait stance, with the former invalidating the uptrend and the latter providing a potential buy trigger.
+A daily close below the 50-day EMA (125.73) would break the strong uptrend structure and invalidate any bullish bias, signaling a potential trend reversal to the downside.
 
 ---
 

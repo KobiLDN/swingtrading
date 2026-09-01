@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-08-31T13:47:00Z",
+  "generated": "2026-09-01T11:36:20Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 99.58 as Jobs Week Tests Hawkish Fed; Eyes on EUR/USD and GBP/USD",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061727219.html?.tsrc=rss",
+        "time_published": "2026-09-01 06:17",
+        "source": "Finance",
+        "summary": "Fed hike bets support the dollar as markets await JOLTS, ADP and NFP, while EUR/USD and GBP/USD remain pressured near key technical levels."
+      },
+      {
+        "title": "EUR/USD, GBP/USD, and USD/CAD Short-Term Forecast for 31/08/2026",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-gbp-usd-usd-131237921.html?.tsrc=rss",
+        "time_published": "2026-08-31 13:12",
+        "source": "Finance",
+        "summary": "The US dollar got a jolt of energy on Friday. On Monday, we are trying to find out if that was real and sustainable."
+      },
       {
         "title": "US Dollar Price Forecast: Hawkish Warsh Lifts DXY as EUR/USD and GBP/USD Fall",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081954940.html?.tsrc=rss",
@@ -43,23 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-08-25 13:28",
         "source": "Finance",
         "summary": "USD/JPY and USD/CHF retain upside potential as carry trades support the dollar, while GBP/USD shows exhaustion with 1.36 in focus."
-      },
-      {
-        "title": "US Dollar Price Forecast: Warsh Speech Looms as EUR/USD and GBP/USD Hold Firm",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-085747517.html?.tsrc=rss",
-        "time_published": "2026-08-25 08:57",
-        "source": "Finance",
-        "summary": "DXY attempts to recover as markets await Kevin Warsh\u2019s Jackson Hole speech and PCE inflation, while EUR/USD and GBP/USD hold near key support."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fiscal Risks Weigh on DXY; EUR/USD and GBP/USD Test Key Resistance",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fiscal-075010571.html?.tsrc=rss",
-        "time_published": "2026-08-24 07:50",
-        "source": "Finance",
-        "summary": "DXY remains pressured by U.S. fiscal concerns as EUR/USD and GBP/USD hold firm, although both pairs face major technical resistance."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 99.58 as Jobs Week Tests Hawkish Fed; Eyes on EUR/USD and GBP/USD",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061727219.html?.tsrc=rss",
+        "time_published": "2026-09-01 06:17",
+        "source": "Finance",
+        "summary": "Fed hike bets support the dollar as markets await JOLTS, ADP and NFP, while EUR/USD and GBP/USD remain pressured near key technical levels."
+      },
+      {
+        "title": "EUR/USD, GBP/USD, and USD/CAD Short-Term Forecast for 31/08/2026",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-gbp-usd-usd-131237921.html?.tsrc=rss",
+        "time_published": "2026-08-31 13:12",
+        "source": "Finance",
+        "summary": "The US dollar got a jolt of energy on Friday. On Monday, we are trying to find out if that was real and sustainable."
+      },
       {
         "title": "US Dollar Price Forecast: Hawkish Warsh Lifts DXY as EUR/USD and GBP/USD Fall",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081954940.html?.tsrc=rss",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-27 13:02",
         "source": "Finance",
         "summary": "EUR/USD targets 1.1600 as USD/JPY and USD/CAD remain bullish on dips, keeping US dollar strength in focus ahead of the Jackson Hole speeches."
-      },
-      {
-        "title": "US Dollar Price Forecast: Sticky Inflation Lifts DXY as EUR/USD and GBP/USD Pull Back",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-sticky-052741530.html?.tsrc=rss",
-        "time_published": "2026-08-27 05:27",
-        "source": "Finance",
-        "summary": "Sticky U.S. PCE revives Fed hike risk as DXY rebounds, while traders await Warsh\u2019s Jackson Hole signals and EUR/USD and GBP/USD test support."
-      },
-      {
-        "title": "US Dollar Price Forecast: PCE Test Looms as EUR/USD and GBP/USD Hold Firm",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-pce-075653463.html?.tsrc=rss",
-        "time_published": "2026-08-26 07:56",
-        "source": "Finance",
-        "summary": "DXY remains bearish below 99.41 as traders await U.S. PCE and Kevin Warsh\u2019s Jackson Hole speech, while EUR/USD and GBP/USD hold firm."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "$57 Billion Just Rushed Into SPYM | Is SPY\u2019s Cheaper Twin Finally Taking Over?",
-        "url": "https://247wallst.com/investing/etf/2026/08/29/57-billion-just-rushed-into-spym-is-spys-cheaper-twin-finally-taking-over/?.tsrc=rss",
-        "time_published": "2026-08-29 16:10",
+        "title": "Deere and AGCO Rally 4% as Baird Upgrades Both on North America Row Crop Demand",
+        "url": "https://247wallst.com/investing/2026/08/31/deere-and-agco-rally-4-as-baird-upgrades-both-on-north-america-row-crop-demand/?.tsrc=rss",
+        "time_published": "2026-08-31 18:08",
         "source": "247wallst",
-        "summary": "SPY built its reputation tracking the S&P 500 for over three decades, but a lesser-known rival now holds a structural and cost advantage that quietly compounds against long-term SPY holders every single year."
+        "summary": "Baird just handed two farm equipment stocks a rare double upgrade on the same morning, but the reasoning behind each call points to a very different bet on how the ag cycle turns."
       },
       {
-        "title": "Pinterest Falls 4% as CFO Resigns, Snap Inches Higher, Alphabet Holds Flat",
-        "url": "https://247wallst.com/investing/2026/08/31/pinterest-falls-4-as-cfo-resigns-snap-inches-higher-alphabet-holds-flat/?.tsrc=rss",
-        "time_published": "2026-08-31 12:56",
-        "source": "247wallst",
-        "summary": "Pinterest's surprise CFO resignation sent shares sliding Monday while a direct rival moved in the opposite direction, raising a pointed question about whether investors are reacting to a leadership gap or something more fundamental lurking in the guidance."
-      },
-      {
-        "title": "Optics Stocks Slide as AI Hardware Trade Cools: Applied Optoelectronics and Lumentum Fall 6%, Coherent Drops 5%",
-        "url": "https://247wallst.com/investing/2026/08/28/optics-stocks-slide-as-ai-hardware-trade-cools-applied-optoelectronics-and-lumentum-fall-6-coherent-drops-5/?.tsrc=rss",
-        "time_published": "2026-08-28 17:54",
-        "source": "247wallst",
-        "summary": "The same optics stocks that led the AI hardware rally through August are now getting hit hardest, but the selling pattern reveals something specific about who is actually driving the pressure and why one name carries an overhang the others do not."
-      },
-      {
-        "title": "Rivian Falls 6% as CFO Departs for GE Vernova; Lucid Slips, Tesla Holds Steady",
-        "url": "https://247wallst.com/investing/2026/08/28/rivian-falls-6-as-cfo-departs-for-ge-vernova-lucid-slips-tesla-holds-steady/?.tsrc=rss",
-        "time_published": "2026-08-28 15:32",
-        "source": "247wallst",
-        "summary": "Rivian's CFO is walking out the door just as the company's most important vehicle ramp gets underway, and shareholders are voting hard on what that timing means for the equity story."
-      },
-      {
-        "title": "BioNTech Tumbles 8% as Colorectal Cancer Vaccine Trial Fails, Moderna Drops 6%, Pfizer Holds Flat",
-        "url": "https://247wallst.com/investing/2026/08/28/biontech-tumbles-8-as-colorectal-cancer-vaccine-trial-fails-moderna-drops-6-pfizer-holds-flat/?.tsrc=rss",
-        "time_published": "2026-08-28 14:58",
-        "source": "247wallst",
-        "summary": "BioNTech's colorectal cancer vaccine just collapsed in a Phase 2 trial, dragging Moderna down with it despite last week's melanoma triumph, and the fallout is forcing investors to rethink how far mRNA technology can actually reach into solid tumors."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US, Iran Exchange Attacks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132801663.html?.tsrc=rss",
-        "time_published": "2026-08-31 13:28",
+        "title": "Best-Performing Leveraged ETFs of August",
+        "url": "https://finance.yahoo.com/markets/options/articles/best-performing-leveraged-etfs-august-140000031.html?.tsrc=rss",
+        "time_published": "2026-08-31 14:00",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.3%, and the actively t"
+        "summary": "Leveraged ETFs soared in August as biotech, crypto, AI and gold-related stocks rallied, delivering triple-digit gains across several funds."
       },
       {
-        "title": "GameStop Climbs 4% as $358M Cash Payment Caps Dilution, Roblox Slips, Take-Two Interactive Treads Water",
-        "url": "https://247wallst.com/investing/2026/08/31/gamestop-climbs-4-as-358m-cash-payment-caps-dilution-roblox-slips-take-two-interactive-treads-water/?.tsrc=rss",
-        "time_published": "2026-08-31 12:47",
-        "source": "247wallst",
-        "summary": "GameStop just rewrote the terms of a billion-dollar note exchange overnight, and the stock is responding, but the earnings story behind the move is more complicated than the headline gain suggests."
+        "title": "S&P 500 Faces Its Cruelest Month of the Year",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-faces-cruelest-month-021704412.html?.tsrc=rss",
+        "time_published": "2026-09-01 02:17",
+        "source": "Finance",
+        "summary": "The real seasonal weakness tends to arrive late"
       },
       {
-        "title": "Retirees Who Convert to a Roth in a Down-Market Year Move the Same Shares for Less Tax. Almost Nobody Times It.",
-        "url": "https://247wallst.com/personal-finance/2026/08/30/retirees-who-convert-to-a-roth-in-a-down-market-year-move-the-same-shares-for-less-tax-almost-nobody-times-it/?.tsrc=rss",
-        "time_published": "2026-08-30 19:29",
+        "title": "Strive Jumps 7% as Strategy Ends 10-Week Bitcoin Pause With $370M Buy",
+        "url": "https://247wallst.com/investing/2026/08/31/strive-jumps-7-as-strategy-ends-10-week-bitcoin-pause-with-370m-buy/?.tsrc=rss",
+        "time_published": "2026-08-31 15:37",
         "source": "247wallst",
-        "summary": "Converting a traditional IRA to a Roth during a market slump sounds counterintuitive, but a quirk in how the IRS measures taxable value turns portfolio pain into a rare tax advantage that most retirees never act on when they have the chance."
+        "summary": "Strategy just broke a long silence on Bitcoin buying, and the ripple hit a rival stock harder than Bitcoin itself. Here is why a corporate treasury move is moving shares that had nothing to do with the decision."
+      },
+      {
+        "title": "GoPro Soars 22% as YouTuber Markiplier Becomes Its Largest Shareholder",
+        "url": "https://247wallst.com/investing/2026/08/31/gopro-soars-22-as-youtuber-markiplier-becomes-its-largest-shareholder/?.tsrc=rss",
+        "time_published": "2026-08-31 15:35",
+        "source": "247wallst",
+        "summary": "A YouTube creator famous for gaming content just became the largest shareholder of a struggling action-camera company trading below a dollar, and the market reacted in a way that raises serious questions about what is actually holding GoPro together."
+      },
+      {
+        "title": "Understand The Current Buy Rationale for Salesforce",
+        "url": "https://247wallst.com/investing/2026/08/31/understand-the-current-buy-rationale-for-salesforce/?.tsrc=rss",
+        "time_published": "2026-08-31 14:43",
+        "source": "247wallst",
+        "summary": "Salesforce just posted a quarter that silenced its loudest critics, but the investment case for buying at current prices is more complicated than the 22% weekly rally suggests."
+      },
+      {
+        "title": "Forget Diversification \u2014 Investors Are Betting Everything on Tech ETFs (And the Numbers Are Jaw-Dropping)",
+        "url": "https://247wallst.com/investing/2026/09/01/forget-diversification-investors-are-betting-everything-on-tech-etfs-and-the-numbers-are-jaw-dropping/?.tsrc=rss",
+        "time_published": "2026-09-01 10:56",
+        "source": "247wallst",
+        "summary": "Global fund flows are piling into a single sector at a pace that dwarfs every other corner of the market, and the trade hinges entirely on four companies delivering good news in October."
+      },
+      {
+        "title": "Top Economist Takes Aim at Kevin Warsh\u2019s Fed: Is Trump\u2019s New Chair an Independent \u2018Hawky Hawk\u2019 or a \u2018MAGA Sock Puppet\u2019?",
+        "url": "https://finance.yahoo.com/economy/policy/articles/top-economist-takes-aim-kevin-013104678.html?.tsrc=rss",
+        "time_published": "2026-09-01 01:31",
+        "source": "Finance",
+        "summary": "Economist Justin Wolfers criticized Federal Reserve Chair Kevin Warsh\u2019s recent address at the Jackson Hole economic symposium. He asked if the Fed chief is operating as an independent \u201chawky hawk\u201d or a MAGA \u201csock puppet.\u201d Analyzing Warsh\u2019s refusal to issue..."
       }
     ],
     "oil": [

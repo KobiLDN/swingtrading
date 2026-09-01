@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-08-31T13:41:34Z",
+  "generated": "2026-09-01T11:34:42Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "decision": "WAIT",
-  "confidence": "HIGH",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10",
-  "analysis": "The daily chart shows a neutral trend with price (4457.84) sandwiched between the EMA50 (4355.67) and EMA200 (4482.67). While price is above the shorter-term EMA, it remains below the longer-term EMA, indicating a lack of clear directional bias. The MACD is bearish (line below signal, negative histogram), but the RSI is neutral at 52.56 with no divergence, so momentum is not strongly aligned with either side. The recent Doji candlestick pattern reflects indecision, and the overall signal score of 2/10 confirms a low-probability environment for a swing trade.\n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. Key support is the EMA50 at 4355.67 and the psychological 4400 level, while resistance is the EMA200 at 4482.67 and the round 4500 mark. The ATR of 71 points suggests moderate volatility, but without a clear trend or confluence among indicators, entering a trade now would be speculative. The bearish MACD is offset by the neutral RSI and the price\u2019s position above the EMA50, creating conflicting signals.\n\nGiven the lack of a dominant trend, the indecisive candlestick, and the low signal score, the prudent action is to wait for a clearer setup. A break above the EMA200 (4482.67) with bullish MACD confirmation or a breakdown below the EMA50 (4355.67) with bearish momentum would provide a higher-probability entry. Until then, the risk of whipsaw is elevated.",
-  "invalidation": "This wait-and-see stance is invalidated if price decisively breaks above 4500 with strong bullish momentum or below 4350 with bearish follow-through, creating a new directional bias.",
+  "score": "0/10",
+  "analysis": "The daily chart shows a neutral trend with price at 4382.85, sandwiched between the EMA50 (4356.4) and EMA200 (4483.39). While price is above the shorter-term EMA, it remains below the longer-term EMA, indicating a lack of clear directional momentum. The RSI at 45.51 is in neutral territory, offering no overbought or oversold signal, and no divergence is present. The MACD is bearish with the line below the signal line and a negative histogram, suggesting downside pressure, but this is not yet confirmed by price action.\n\nNo candlestick patterns or chart structures (triangles, flags, double tops/bottoms) are detected in the last five candles, and the overall signal score is 0/10. The absence of a clear pattern or confluence between indicators means there is no high-probability setup. Key support lies at the EMA50 (4356.4) and the psychological 4300 level, while resistance is at 4400 (round number) and the EMA200 (4483.39). The ATR of 73 points indicates moderate volatility, but without a catalyst or pattern, entering a trade would be speculative.\n\nGiven the conflicting signals\u2014price above the 50-day EMA but below the 200-day EMA, a neutral RSI, and a bearish MACD\u2014the prudent action is to wait for a clearer directional trigger. A break above 4400 with volume or a sustained move below 4356 would provide the necessary confirmation. Until then, the risk of whipsaw is high.",
+  "invalidation": "This wait setup is invalidated if price breaks decisively above 4400 with strong momentum (turning bias bullish) or below 4356 (turning bias bearish), as either would create a new directional opportunity.",
   "support_levels": [
-    4400.0,
-    4355.67,
-    4300.0
+    4356.4,
+    4300.0,
+    4250.0
   ],
   "resistance_levels": [
-    4482.67,
-    4500.0,
-    4550.0
+    4400.0,
+    4483.39,
+    4500.0
   ]
 };
