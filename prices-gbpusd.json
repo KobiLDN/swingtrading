@@ -1,30 +1,24 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-08-31T12:08:45Z",
-  "date": "2026-08-31",
-  "price": 1.35401,
-  "atr": 0.00483,
+  "generated": "2026-09-01T10:45:40Z",
+  "date": "2026-09-01",
+  "price": 1.35362,
+  "atr": 0.00477,
   "atr_pips": 48,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.35011,
-  "ema200": 1.34668,
-  "rsi": 49.3,
-  "macd_line": 0.002188,
-  "macd_signal": 0.003718,
-  "macd_hist": -0.00153,
+  "ema50": 1.35028,
+  "ema200": 1.34684,
+  "rsi": 48.48,
+  "macd_line": 0.001831,
+  "macd_signal": 0.003352,
+  "macd_hist": -0.001521,
   "trend": "STRONG UPTREND",
-  "divergence": "BEARISH",
+  "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-27",
-      "name": "Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
-    },
     {
       "date": "2026-08-29",
       "name": "Doji",
@@ -39,12 +33,6 @@
     },
     {
       "date": "2026-08-31",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
-    },
-    {
-      "date": "2026-08-31",
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
@@ -56,16 +44,9 @@
       "strength": 5
     }
   ],
-  "score": 7,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-05-24",
-      "open": 1.34313,
-      "high": 1.34793,
-      "low": 1.34259,
-      "close": 1.34513
-    },
     {
       "date": "2026-05-25",
       "open": 1.34528,
@@ -755,9 +736,16 @@
     {
       "date": "2026-08-31",
       "open": 1.35336,
-      "high": 1.35558,
+      "high": 1.35652,
       "low": 1.35285,
-      "close": 1.35401
+      "close": 1.3549
+    },
+    {
+      "date": "2026-09-01",
+      "open": 1.35484,
+      "high": 1.35597,
+      "low": 1.35289,
+      "close": 1.35362
     }
   ]
 }
