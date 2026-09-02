@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-09-01T11:36:19Z",
+  "generated": "2026-09-02T11:18:10Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-08-31",
-  "decision": "WAIT",
+  "date": "2026-09-01",
+  "decision": "BUY",
   "confidence": "MEDIUM",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "6/10",
-  "analysis": "The daily chart confirms a strong uptrend with price (133.7) well above both the 50-day EMA (125.73) and 200-day EMA (110.44). The MACD is bullish\u2014line above signal and a positive histogram\u2014supporting continued upward momentum. However, the RSI at 58.54 is neutral, indicating no extreme overbought or oversold conditions, which leaves room for further gains but also suggests the trend may be maturing. No candlestick patterns or divergences are present, and the pre-calculated signal score of 1/10 likely reflects a lack of recent breakout or clear entry trigger, despite the underlying trend strength.  \n\nGiven the strong trend, the most prudent setup is to wait for a pullback to a key support level before initiating a long position. Current price near 133.7 is close to potential resistance at 135.0 (recent high) and offers a poor risk-reward for a direct buy, as a stop below 130.0 would require a wide 3.7-point loss (0.88x ATR) for a modest upside. A better entry would be near 130.0 (psychological support) or the 50-day EMA at 125.73, where a tighter stop can be placed and targets at 135.0 and 137.0 become more attractive. The ATR of 4.21 confirms moderate daily volatility, so a pullback of 3\u20135 points is plausible.  \n\nKey support levels below price are 130.0 (round number and prior swing low), 128.0 (consolidation zone), and the 50-day EMA at 125.73. Resistance levels above are 135.0 (recent high), 137.0 (next psychological barrier), and 140.0 (major round number). The MACD and RSI do not diverge from the trend, so they agree with the bullish bias, but the lack of a fresh catalyst or pattern keeps the setup from being high-conviction.",
-  "invalidation": "A daily close below the 50-day EMA (125.73) would break the strong uptrend structure and invalidate any bullish bias, signaling a potential trend reversal to the downside.",
+  "entry": "141.0",
+  "stop_loss": "136.0",
+  "target_1": "146.0",
+  "target_2": "150.0",
+  "risk_reward": "1:1 (first target)",
+  "score": "5/10 (revised from 0/10 based on strong trend and bullish MACD/RSI confluence)",
+  "analysis": "The price at 141.0 is well above both the EMA50 (126.33) and EMA200 (110.75), confirming a strong uptrend. The EMA50 is sloping upward and the EMA200 is also rising, indicating a sustained bullish structure. No bearish candlestick patterns or divergences are present, and the MACD is bullish with the line above the signal line and a positive histogram, supporting continued upward momentum. The RSI at 65.44 is neutral, leaving room for further upside without being overbought.\n\nNo additional chart patterns (triangles, flags, etc.) are detected from the given data, but the price action is consistent with a trending move. Key support levels are derived from the ATR (4.44) and round numbers: 138.0 (psychological), 136.5 (recent swing low zone), and 134.0 (2x ATR below). Resistance is likely at 145.0 (round number), 150.0 (major psychological level), and 155.0 (extended target). The absence of a signal score (0/10) was likely due to a lack of candlestick patterns, but the overall technical picture is bullish, warranting a revised score of 5/10.\n\nThe best trade setup is a long entry at current price, as the trend is strong and the risk of a pullback is mitigated by neutral RSI and bullish MACD. The stop loss at 136.0 provides a buffer below the nearest support, while targets are set at 146.0 and 150.0 to capture a continuation of the uptrend. The risk-reward ratio for the first target is 1:1, which is acceptable given the trend strength.",
+  "invalidation": "A daily close below 136.0 would break the near-term support and invalidate the bullish setup, suggesting a potential trend reversal or deeper pullback.",
   "support_levels": [
-    130.0,
-    128.0,
-    125.73
+    138.0,
+    136.5,
+    134.0
   ],
   "resistance_levels": [
-    135.0,
-    137.0,
-    140.0
+    145.0,
+    150.0,
+    155.0
   ]
 };

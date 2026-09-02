@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-01T11:36:20Z",
+  "generated": "2026-09-02T11:18:11Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR/USD and GBP/USD Fall",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-053753979.html?.tsrc=rss",
+        "time_published": "2026-09-02 05:37",
+        "source": "Finance",
+        "summary": "DXY strengthens as Iran escalation lifts inflation risks and Fed hike bets, while EUR/USD and GBP/USD extend their bearish breakdowns."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Eyes 99.58 as Jobs Week Tests Hawkish Fed; Eyes on EUR/USD and GBP/USD",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061727219.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-08-26 07:56",
         "source": "Finance",
         "summary": "DXY remains bearish below 99.41 as traders await U.S. PCE and Kevin Warsh\u2019s Jackson Hole speech, while EUR/USD and GBP/USD hold firm."
-      },
-      {
-        "title": "USD/JPY and USD/CHF Eye Upside as GBP/USD Rally Fades",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/usd-jpy-usd-chf-eye-132852213.html?.tsrc=rss",
-        "time_published": "2026-08-25 13:28",
-        "source": "Finance",
-        "summary": "USD/JPY and USD/CHF retain upside potential as carry trades support the dollar, while GBP/USD shows exhaustion with 1.36 in focus."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR/USD and GBP/USD Fall",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-053753979.html?.tsrc=rss",
+        "time_published": "2026-09-02 05:37",
+        "source": "Finance",
+        "summary": "DXY strengthens as Iran escalation lifts inflation risks and Fed hike bets, while EUR/USD and GBP/USD extend their bearish breakdowns."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Eyes 99.58 as Jobs Week Tests Hawkish Fed; Eyes on EUR/USD and GBP/USD",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061727219.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-27 15:01",
         "source": "Finance",
         "summary": "Traders look for hints on policy at Kevin Warsh\u2019s first symposium as chair of the Fed."
-      },
-      {
-        "title": "EUR/USD, USD/JPY and USD/CAD Favor Dollar Ahead of Jackson Hole",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-jpy-usd-130222892.html?.tsrc=rss",
-        "time_published": "2026-08-27 13:02",
-        "source": "Finance",
-        "summary": "EUR/USD targets 1.1600 as USD/JPY and USD/CAD remain bullish on dips, keeping US dollar strength in focus ahead of the Jackson Hole speeches."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Deere and AGCO Rally 4% as Baird Upgrades Both on North America Row Crop Demand",
-        "url": "https://247wallst.com/investing/2026/08/31/deere-and-agco-rally-4-as-baird-upgrades-both-on-north-america-row-crop-demand/?.tsrc=rss",
-        "time_published": "2026-08-31 18:08",
+        "title": "These ETFs Generate the Most Revenue",
+        "url": "http://www.etf.com/sections/features/these-etfs-generate-most-revenue?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-09-01 22:24",
+        "source": "Etf",
+        "summary": "The largest ETFs by assets aren't necessarily the most profitable for issuers."
+      },
+      {
+        "title": "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate \u2014 DELL, PANW, FRVO, AAPL, TTWO In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-flat/cZsAInURJMx?.tsrc=rss",
+        "time_published": "2026-09-02 00:01",
+        "source": "Stocktwits",
+        "summary": "The \u200cU.S. military on Tuesday said it began striking Islamic Revolutionary Guard Corps (IRGC) targets in \u2060Iran."
+      },
+      {
+        "title": "SPYI\u2019s Monthly Check Hides the Real Cost: Part of That Payout Is Your Own Capital, and It Quietly Shrinks Your Cost Basis",
+        "url": "https://247wallst.com/investing/etf/2026/09/01/spyis-monthly-check-hides-the-real-cost-part-of-that-payout-is-your-own-capital-and-it-quietly-shrinks-your-cost-basis/?.tsrc=rss",
+        "time_published": "2026-09-01 21:55",
         "source": "247wallst",
-        "summary": "Baird just handed two farm equipment stocks a rare double upgrade on the same morning, but the reasoning behind each call points to a very different bet on how the ag cycle turns."
+        "summary": "SPYI's monthly distribution looks like income, but part of that check may be quietly returning your own principal while reshaping the tax bill waiting at the end of the line."
       },
       {
-        "title": "Best-Performing Leveraged ETFs of August",
-        "url": "https://finance.yahoo.com/markets/options/articles/best-performing-leveraged-etfs-august-140000031.html?.tsrc=rss",
-        "time_published": "2026-08-31 14:00",
-        "source": "Finance",
-        "summary": "Leveraged ETFs soared in August as biotech, crypto, AI and gold-related stocks rallied, delivering triple-digit gains across several funds."
+        "title": "Most Investors Fear Bear Markets. My 7-Year Track Record Shows They Should Welcome Them.",
+        "url": "https://www.fool.com/investing/2026/09/01/most-investors-fear-bear-markets-my-7-year-track-r/?.tsrc=rss",
+        "time_published": "2026-09-01 21:30",
+        "source": "Fool",
+        "summary": "It's better to buy assets when they're on sale."
       },
       {
-        "title": "S&P 500 Faces Its Cruelest Month of the Year",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-faces-cruelest-month-021704412.html?.tsrc=rss",
-        "time_published": "2026-09-01 02:17",
-        "source": "Finance",
-        "summary": "The real seasonal weakness tends to arrive late"
-      },
-      {
-        "title": "Strive Jumps 7% as Strategy Ends 10-Week Bitcoin Pause With $370M Buy",
-        "url": "https://247wallst.com/investing/2026/08/31/strive-jumps-7-as-strategy-ends-10-week-bitcoin-pause-with-370m-buy/?.tsrc=rss",
-        "time_published": "2026-08-31 15:37",
+        "title": "Target Stock Is Up 66% in 2026: What Will It Take to Break Through $200?",
+        "url": "https://247wallst.com/investing/2026/09/01/target-stock-is-up-66-in-2026-what-will-it-take-to-break-through-200/?.tsrc=rss",
+        "time_published": "2026-09-01 19:04",
         "source": "247wallst",
-        "summary": "Strategy just broke a long silence on Bitcoin buying, and the ripple hit a rival stock harder than Bitcoin itself. Here is why a corporate treasury move is moving shares that had nothing to do with the decision."
+        "summary": "Target has sprinted past Walmart, Costco, and the broader market this year, but analyst consensus sits below the current share price and the majority verdict is hold. Find out what earnings milestone and category comeback Target actually needs to clear $200."
       },
       {
-        "title": "GoPro Soars 22% as YouTuber Markiplier Becomes Its Largest Shareholder",
-        "url": "https://247wallst.com/investing/2026/08/31/gopro-soars-22-as-youtuber-markiplier-becomes-its-largest-shareholder/?.tsrc=rss",
-        "time_published": "2026-08-31 15:35",
+        "title": "Nio Falls 4% as Memory Chip Costs and Revenue Miss Overshadow Doubled Vehicle Margin, XPeng Holds Steady",
+        "url": "https://247wallst.com/investing/2026/09/01/nio-falls-4-as-memory-chip-costs-and-revenue-miss-overshadow-doubled-vehicle-margin-xpeng-holds-steady/?.tsrc=rss",
+        "time_published": "2026-09-01 18:03",
         "source": "247wallst",
-        "summary": "A YouTube creator famous for gaming content just became the largest shareholder of a struggling action-camera company trading below a dollar, and the market reacted in a way that raises serious questions about what is actually holding GoPro together."
+        "summary": "Nio just posted its most profitable quarter in years, yet investors are dumping the stock. The culprit is a cost pressure that has nothing to do with cars and everything to do with the AI infrastructure boom eating into Nio's margins from the outside."
       },
       {
-        "title": "Understand The Current Buy Rationale for Salesforce",
-        "url": "https://247wallst.com/investing/2026/08/31/understand-the-current-buy-rationale-for-salesforce/?.tsrc=rss",
-        "time_published": "2026-08-31 14:43",
+        "title": "Novavax Jumps 6% on Matrix-M Oncology Speculation: Is the Royalty Model the Real Story?",
+        "url": "https://247wallst.com/investing/2026/09/01/novavax-jumps-6-on-matrix-m-oncology-speculation-is-the-royalty-model-the-real-story/?.tsrc=rss",
+        "time_published": "2026-09-01 17:12",
         "source": "247wallst",
-        "summary": "Salesforce just posted a quarter that silenced its loudest critics, but the investment case for buying at current prices is more complicated than the 22% weekly rally suggests."
+        "summary": "Retail traders are piling into Novavax on cancer-vaccine speculation, but the move that actually changed the company's business model happened quietly last week and has nothing to do with oncology."
       },
       {
-        "title": "Forget Diversification \u2014 Investors Are Betting Everything on Tech ETFs (And the Numbers Are Jaw-Dropping)",
-        "url": "https://247wallst.com/investing/2026/09/01/forget-diversification-investors-are-betting-everything-on-tech-etfs-and-the-numbers-are-jaw-dropping/?.tsrc=rss",
-        "time_published": "2026-09-01 10:56",
+        "title": "CoreWeave Offers So Much at $85",
+        "url": "https://247wallst.com/investing/2026/09/01/coreweave-offers-so-much-at-85/?.tsrc=rss",
+        "time_published": "2026-09-01 16:45",
         "source": "247wallst",
-        "summary": "Global fund flows are piling into a single sector at a pace that dwarfs every other corner of the market, and the trade hinges entirely on four companies delivering good news in October."
-      },
-      {
-        "title": "Top Economist Takes Aim at Kevin Warsh\u2019s Fed: Is Trump\u2019s New Chair an Independent \u2018Hawky Hawk\u2019 or a \u2018MAGA Sock Puppet\u2019?",
-        "url": "https://finance.yahoo.com/economy/policy/articles/top-economist-takes-aim-kevin-013104678.html?.tsrc=rss",
-        "time_published": "2026-09-01 01:31",
-        "source": "Finance",
-        "summary": "Economist Justin Wolfers criticized Federal Reserve Chair Kevin Warsh\u2019s recent address at the Jackson Hole economic symposium. He asked if the Fed chief is operating as an independent \u201chawky hawk\u201d or a MAGA \u201csock puppet.\u201d Analyzing Warsh\u2019s refusal to issue..."
+        "summary": "CoreWeave has shed nearly $70 from its May peak and now carries a $104 billion revenue backlog against a debt load that makes bears nervous. Whether the $85 price level is a gift or a trap depends on three catalysts now taking shape."
       }
     ],
     "oil": [
