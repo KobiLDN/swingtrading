@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-09-01T10:45:44Z",
+  "generated": "2026-09-02T10:10:37Z",
   "events": [
     {
       "date": "2026-09-01",
@@ -10,8 +10,8 @@ window.CALENDAR_DATA = {
       "forecast": "55.2",
       "previous": "55.6",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-09-04",
