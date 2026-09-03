@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-09-02
-**Generated:** 2026-09-02T11:10:55Z
+**Date:** 2026-09-03
+**Generated:** 2026-09-03T11:06:32Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,33 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 1.15621, 1.155, 1.15 |
-| **Resistance** | 1.16027, 1.165, 1.17 |
+| **Score** | 5/10 |
+| **Support** | 1.15642, 1.15566, 1.155 |
+| **Resistance** | 1.16464, 1.165, 1.17 |
 
 ---
 
 ## Analysis
 
-The current price of 1.15725 sits between the EMA50 (1.15621) and EMA200 (1.16027), placing the market in a neutral zone. The EMA50 is below the EMA200, indicating a long-term bearish bias, but price has recently reclaimed the shorter-term EMA, suggesting a short-term bullish tilt. The trend label of NEUTRAL is consistent with this indecisive positioning. The recent candlestick pattern—two dojis followed by a Bullish Engulfing—hints at a potential reversal from a consolidation, but this signal lacks strong confirmation from other indicators.
+The daily chart shows price at 1.16015, essentially coincident with the EMA200 (1.16006) and well above the EMA50 (1.15642). While the stated trend bias is bullish, the price action does not yet confirm a decisive breakout above the key EMA200 level. The proximity to this long-term moving average creates a pivotal zone—a sustained close above would reinforce the bullish bias, while a rejection could signal a return to the EMA50. The presence of two consecutive Bullish Engulfing candles after a Doji suggests short-term buying pressure, but these patterns have not yet translated into a clear upward break from the current resistance.
 
-The RSI at 45.97 is neutral, showing no overbought or oversold conditions and no divergence. The MACD remains bearish with the line below the signal line and a negative histogram, which contradicts the bullish candlestick pattern. This divergence between price action and momentum reduces conviction. The overall signal score of 4/10 reflects the weak confluence and mixed signals, making a clear directional bias difficult to justify.
+The RSI at 51.84 is neutral, offering no directional edge, while the MACD configuration is bearish with the line below the signal line and a negative histogram. This divergence between the bullish candlestick pattern and the bearish momentum oscillator reduces conviction. Without a clear convergence of indicators, the setup remains ambiguous. The signal score of 5/10 appropriately reflects this mixed picture—neither strongly bullish nor bearish, but rather a waiting zone.
 
-Key support lies at the EMA50 (1.15621), followed by the psychological level of 1.15500 and then 1.15000. Resistance is anchored at the EMA200 (1.16027), with further levels at 1.16500 and 1.17000. Given the ATR of 45 pips, any breakout beyond these levels would need to be sustained to confirm direction. Until the MACD turns bullish or price decisively breaks above the EMA200, the risk of a false breakout remains elevated.
-
-The best course of action is to wait for additional confirmation. A buy setup would require price to hold above the EMA50 and push through the EMA200 with increasing momentum, while a sell setup would need a clear breakdown below the EMA50. The current environment offers no high-probability entry, and the conflicting signals suggest patience is warranted.
+Key support lies just below at the EMA50 (1.15642) and the ATR-based level near 1.15566, while psychological support at 1.1550 may also come into play. On the upside, resistance is represented by the ATR extension to 1.16464 and the round number 1.1650, with further resistance at 1.1700. The lack of a confirmed trend catalyst (e.g., a daily close above 1.1605 or a MACD crossover) suggests that entering a trade now carries elevated risk relative to potential reward. The prudent approach is to wait for either a bullish breakout above resistance with momentum confirmation, or a pullback to support that aligns with a favorable risk/reward entry.
 
 ---
 
 ## Invalidation
 
-A decisive close below the EMA50 (1.15621) would invalidate any bullish bias and shift the focus to a bearish continuation.
+A daily close below 1.15642 (EMA50) would invalidate the current bullish bias and shift the outlook to bearish, making a wait-and-see approach the correct decision.
 
 ---
 

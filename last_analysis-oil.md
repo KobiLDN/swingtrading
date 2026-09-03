@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-09-01
-**Generated:** 2026-09-02T11:18:10Z
+**Date:** 2026-09-02
+**Generated:** 2026-09-03T11:08:12Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,48 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | BUY |
-| **Confidence** | MEDIUM |
-| **Entry** | 141.0 |
-| **Stop Loss** | 136.0 |
-| **Target 1** | 146.0 |
-| **Target 2** | 150.0 |
-| **Risk/Reward** | 1:1 (first target) |
-| **Score** | 5/10 (revised from 0/10 based on strong trend and bullish MACD/RSI confluence) |
-| **Support** | 138.0, 136.5, 134.0 |
-| **Resistance** | 145.0, 150.0, 155.0 |
+| **Decision** | N/A |
+| **Confidence** | N/A |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | N/A |
+| **Support** | N/A |
+| **Resistance** | N/A |
 
 ---
 
 ## Analysis
 
-The price at 141.0 is well above both the EMA50 (126.33) and EMA200 (110.75), confirming a strong uptrend. The EMA50 is sloping upward and the EMA200 is also rising, indicating a sustained bullish structure. No bearish candlestick patterns or divergences are present, and the MACD is bullish with the line above the signal line and a positive histogram, supporting continued upward momentum. The RSI at 65.44 is neutral, leaving room for further upside without being overbought.
+**DECISION:** BUY  
+**CONFIDENCE:** MEDIUM  
+**ENTRY:** 141.15  
+**STOP_LOSS:** 137.50  
+**TARGET_1:** 145.00  
+**TARGET_2:** 149.50  
+**RISK_REWARD:** 1.12 (T1) / 2.30 (T2)  
+**SCORE:** 6/10 (revised from 0/10; trend and momentum are strong but no candlestick confirmation)  
+**SUPPORT_LEVELS:** 140.00, 138.00, 136.76 (ATR-based)  
+**RESISTANCE_LEVELS:** 142.00, 145.00, 150.00  
 
-No additional chart patterns (triangles, flags, etc.) are detected from the given data, but the price action is consistent with a trending move. Key support levels are derived from the ATR (4.44) and round numbers: 138.0 (psychological), 136.5 (recent swing low zone), and 134.0 (2x ATR below). Resistance is likely at 145.0 (round number), 150.0 (major psychological level), and 155.0 (extended target). The absence of a signal score (0/10) was likely due to a lack of candlestick patterns, but the overall technical picture is bullish, warranting a revised score of 5/10.
+**ANALYSIS:**  
+The daily chart exhibits a confirmed strong uptrend. Price is well above both the 50-period EMA (126.91) and the 200-period EMA (111.26), with a gap of over 14 points from the 50 EMA—indicating robust bullish momentum. The MACD is in a bullish configuration (line above signal, histogram positive), aligning with the price trend. The RSI at 65.57 is neutral and not overbought, leaving room for further upside without immediate exhaustion. No bearish divergences or reversal candlestick patterns are present, so the path of least resistance remains upward.
 
-The best trade setup is a long entry at current price, as the trend is strong and the risk of a pullback is mitigated by neutral RSI and bullish MACD. The stop loss at 136.0 provides a buffer below the nearest support, while targets are set at 146.0 and 150.0 to capture a continuation of the uptrend. The risk-reward ratio for the first target is 1:1, which is acceptable given the trend strength.
+Although no specific chart patterns like flags or triangles are detected, the price is trading near the psychological round number of 141 and is pushing into uncharted territory relative to recent history. The ATR of 4.39 points suggests above-average daily volatility, which can facilitate quick moves toward higher resistance levels. Key support levels to watch are the round 140.00 (psychological), then 138.00 (a prior swing low zone), and the ATR-based support at 136.76. On the upside, immediate resistance lies at 142.00, followed by the 145.00 and 150.00 round numbers.
+
+**RISK ASSESSMENT:**  
+The primary risk is a sudden pullback or profit-taking after an extended rally, as the price is already 11% above the 50 EMA. The neutral RSI leaves the door open for a consolidation phase. However, given the strong trend and absence of reversal signals, buying on a minor dip or at market with a tight stop below recent support is justified. The stop at 137.50 sits just below the 138.00 support level and within 1 ATR of entry, capping downside to ~2.6%. The first target at 145.00 offers a modest 1.12:1 risk-reward, while the second target at 149.50 provides a more attractive 2.30:1 ratio if momentum persists.
+
+**INVALIDATION:**  
+A daily close below 137.50 (the stop-loss level) or a break below the 50 EMA (126.91) would negate the bullish bias and signal a potential trend reversal.
 
 ---
 
 ## Invalidation
 
-A daily close below 136.0 would break the near-term support and invalidate the bullish setup, suggesting a potential trend reversal or deeper pullback.
+N/A
 
 ---
 

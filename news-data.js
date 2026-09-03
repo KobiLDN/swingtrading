@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-02T11:18:11Z",
+  "generated": "2026-09-03T11:08:13Z",
   "assets": {
     "gbpusd": [
       {
@@ -61,6 +61,13 @@ window.NEWS_DATA = {
     ],
     "eurusd": [
       {
+        "title": "EUR/USD, USD/CAD and USD/CHF Face Key Dollar Tests",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-cad-usd-141114155.html?.tsrc=rss",
+        "time_published": "2026-09-02 14:11",
+        "source": "Finance",
+        "summary": "The forex markets continue to watch the ten-year yield in the United States, while the jobs data on Friday could be a big mover if we get an unexpected number."
+      },
+      {
         "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR/USD and GBP/USD Fall",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-053753979.html?.tsrc=rss",
         "time_published": "2026-09-02 05:37",
@@ -108,17 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-08-27 19:14",
         "source": "Finance",
         "summary": "These days private investors hold nearly twice as much debt as official creditors, potentially spelling more volatility."
-      },
-      {
-        "title": "Probabilities for Tighter Policy in View as Central Bankers Meet",
-        "url": "https://finance.yahoo.com/economy/policy/articles/probabilities-tighter-policy-view-central-150109537.html?.tsrc=rss",
-        "time_published": "2026-08-27 15:01",
-        "source": "Finance",
-        "summary": "Traders look for hints on policy at Kevin Warsh\u2019s first symposium as chair of the Fed."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "The Best-Performing Commodity ETFs of 2026: Oil and Broad Baskets Lead the Pack",
+        "url": "http://www.etf.com/sections/news/best-performing-commodity-etfs-2026-oil-and-broad-baskets-lead-pack?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-09-02 23:26",
+        "source": "Etf",
+        "summary": "Commodities have been one of 2026\u2019s strongest asset classes, but the leadership is not where the precious-metals headlines pointed. Crude oil has roughly doubled year to date, broad commodity baskets are up more than 40%, and gold, silver and uranium funds have spent the year consolidating after ear"
+      },
       {
         "title": "GLD, IBIT and Other ETFs to Play Debasement Trade",
         "url": "https://finance.yahoo.com/markets/commodities/articles/gld-ibit-other-etfs-play-122900313.html?.tsrc=rss",
@@ -167,22 +174,50 @@ window.NEWS_DATA = {
         "time_published": "2026-07-09 15:41",
         "source": "247wallst",
         "summary": "Gold and silver stole the precious metals story over the past year. Platinum and palladium sat it out. That gap sets up the choice between three physically-backed trusts: abrdn Platinum ETF Trust (NYSEARCA:PPLT), abrdn Palladium ETF Trust (NYSEARCA:PALL), and GraniteShares Platinum Trust (NYSEARCA:P"
-      },
-      {
-        "title": "The Precious Metals Trade Has Gone Into Reverse",
-        "url": "http://www.etf.com/sections/features/precious-metals-trade-has-gone-reverse?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-07-08 02:29",
-        "source": "Etf",
-        "summary": "The year-to-date losses look mild, but the fall from the January peaks tells a very different story."
       }
     ],
     "spx": [
+      {
+        "title": "Affirm Rallies 6% on $104 Price Target From BofA, Sezzle Climbs 4%, PayPal Rises 3%",
+        "url": "https://247wallst.com/investing/2026/09/02/affirm-rallies-6-on-104-price-target-from-bofa-sezzle-climbs-4-paypal-rises-3/?.tsrc=rss",
+        "time_published": "2026-09-02 15:45",
+        "source": "247wallst",
+        "summary": "Bank of America dropped a fresh price target on Affirm just as yields began to ease, and the combination sent buy-now-pay-later stocks racing ahead of a sleepy broad market. Whether the rally holds depends on a credit question Levchin himself flagged on live television."
+      },
       {
         "title": "These ETFs Generate the Most Revenue",
         "url": "http://www.etf.com/sections/features/these-etfs-generate-most-revenue?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
         "time_published": "2026-09-01 22:24",
         "source": "Etf",
         "summary": "The largest ETFs by assets aren't necessarily the most profitable for issuers."
+      },
+      {
+        "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? TSLA, AVGO, SNOW, HPE, PLTR, LULU Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-sp500-futures-rising-premarket-tsla-avgo-snow-hpe-pltr-lulu-stocks-in-focus/cZsMAmhRJvG?.tsrc=rss",
+        "time_published": "2026-09-03 08:38",
+        "source": "Stocktwits",
+        "summary": "Retail sentiment on Stocktwits remained \u2018bearish\u2019 on SPY and moderated to \u2018neutral\u2019 on QQQ."
+      },
+      {
+        "title": "FuboTV Rallies 7%, Disney Ticks Up: Is the Hulu Live TV Deal Finally Getting Credit?",
+        "url": "https://247wallst.com/investing/2026/09/02/fubotv-rallies-7-disney-ticks-up-is-the-hulu-live-tv-deal-finally-getting-credit/?.tsrc=rss",
+        "time_published": "2026-09-02 15:43",
+        "source": "247wallst",
+        "summary": "FuboTV is surging midday with no earnings release, no filing, and no corporate announcement to explain it. Something is shifting in how the market values the combined live TV bundle, and it shows up very differently across three tickers."
+      },
+      {
+        "title": "Reddit Rallies 7% as Baird Says Renewal Risk Is Already Priced In, Pinterest Holds Flat",
+        "url": "https://247wallst.com/investing/2026/09/02/reddit-rallies-7-as-baird-says-renewal-risk-is-already-priced-in-pinterest-holds-flat/?.tsrc=rss",
+        "time_published": "2026-09-02 14:55",
+        "source": "247wallst",
+        "summary": "Baird just reframed the biggest risk hanging over Reddit stock, and the market responded with its sharpest single-day move in months. Here is what two expiring AI licensing deals actually mean for the bull and bear cases."
+      },
+      {
+        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html?.tsrc=rss",
+        "time_published": "2026-09-02 13:08",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr"
       },
       {
         "title": "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate \u2014 DELL, PANW, FRVO, AAPL, TTWO In Focus",
@@ -197,44 +232,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-01 21:55",
         "source": "247wallst",
         "summary": "SPYI's monthly distribution looks like income, but part of that check may be quietly returning your own principal while reshaping the tax bill waiting at the end of the line."
-      },
-      {
-        "title": "Most Investors Fear Bear Markets. My 7-Year Track Record Shows They Should Welcome Them.",
-        "url": "https://www.fool.com/investing/2026/09/01/most-investors-fear-bear-markets-my-7-year-track-r/?.tsrc=rss",
-        "time_published": "2026-09-01 21:30",
-        "source": "Fool",
-        "summary": "It's better to buy assets when they're on sale."
-      },
-      {
-        "title": "Target Stock Is Up 66% in 2026: What Will It Take to Break Through $200?",
-        "url": "https://247wallst.com/investing/2026/09/01/target-stock-is-up-66-in-2026-what-will-it-take-to-break-through-200/?.tsrc=rss",
-        "time_published": "2026-09-01 19:04",
-        "source": "247wallst",
-        "summary": "Target has sprinted past Walmart, Costco, and the broader market this year, but analyst consensus sits below the current share price and the majority verdict is hold. Find out what earnings milestone and category comeback Target actually needs to clear $200."
-      },
-      {
-        "title": "Nio Falls 4% as Memory Chip Costs and Revenue Miss Overshadow Doubled Vehicle Margin, XPeng Holds Steady",
-        "url": "https://247wallst.com/investing/2026/09/01/nio-falls-4-as-memory-chip-costs-and-revenue-miss-overshadow-doubled-vehicle-margin-xpeng-holds-steady/?.tsrc=rss",
-        "time_published": "2026-09-01 18:03",
-        "source": "247wallst",
-        "summary": "Nio just posted its most profitable quarter in years, yet investors are dumping the stock. The culprit is a cost pressure that has nothing to do with cars and everything to do with the AI infrastructure boom eating into Nio's margins from the outside."
-      },
-      {
-        "title": "Novavax Jumps 6% on Matrix-M Oncology Speculation: Is the Royalty Model the Real Story?",
-        "url": "https://247wallst.com/investing/2026/09/01/novavax-jumps-6-on-matrix-m-oncology-speculation-is-the-royalty-model-the-real-story/?.tsrc=rss",
-        "time_published": "2026-09-01 17:12",
-        "source": "247wallst",
-        "summary": "Retail traders are piling into Novavax on cancer-vaccine speculation, but the move that actually changed the company's business model happened quietly last week and has nothing to do with oncology."
-      },
-      {
-        "title": "CoreWeave Offers So Much at $85",
-        "url": "https://247wallst.com/investing/2026/09/01/coreweave-offers-so-much-at-85/?.tsrc=rss",
-        "time_published": "2026-09-01 16:45",
-        "source": "247wallst",
-        "summary": "CoreWeave has shed nearly $70 from its May peak and now carries a $104 billion revenue backlog against a debt load that makes bears nervous. Whether the $85 price level is a gift or a trap depends on three catalysts now taking shape."
       }
     ],
     "oil": [
+      {
+        "title": "The Best-Performing Commodity ETFs of 2026: Oil and Broad Baskets Lead the Pack",
+        "url": "http://www.etf.com/sections/news/best-performing-commodity-etfs-2026-oil-and-broad-baskets-lead-pack?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-09-02 23:26",
+        "source": "Etf",
+        "summary": "Commodities have been one of 2026\u2019s strongest asset classes, but the leadership is not where the precious-metals headlines pointed. Crude oil has roughly doubled year to date, broad commodity baskets are up more than 40%, and gold, silver and uranium funds have spent the year consolidating after ear"
+      },
       {
         "title": "Geopolitical Risks Lift Oil Prices: 4 ETFs to Watch",
         "url": "https://finance.yahoo.com/energy/articles/geopolitical-risks-lift-oil-prices-142600360.html?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-28 16:42",
         "source": "247wallst",
         "summary": "Donald Trump spent his 2024 campaign hammering Biden for emptying America's emergency oil stockpile, pledging to refill it the moment he took office. Now a shooting war in the Middle East is testing whether that promise was ever realistic."
-      },
-      {
-        "title": "Michael Burry's Chilling Warning as $100 Oil Collides With AI Debt Explosion: 'Not Sure How Much Longer'",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burrys-chilling-warning-100-143119536.html?.tsrc=rss",
-        "time_published": "2026-07-26 14:31",
-        "source": "Finance",
-        "summary": "Michael Burry is warning about a market collision: rising oil prices, an artificial intelligence debt binge and mounting pressure in long-duration Treasuries. \"Watch the long bonds,\" Burry wrote on X Thursday. He cited AI\u2019s \"debt explosion,\" rising inflation volatility, a..."
       }
     ]
   }
