@@ -1,30 +1,24 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-09-02T10:10:36Z",
-  "date": "2026-09-01",
-  "price": 761.78,
-  "atr": 6.3,
+  "generated": "2026-09-03T10:22:27Z",
+  "date": "2026-09-02",
+  "price": 765.16,
+  "atr": 6.18,
   "atr_pips": 6,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 756.24,
-  "ema200": 720.88,
-  "rsi": 48.58,
-  "macd_line": 3.057318,
-  "macd_signal": 4.453569,
-  "macd_hist": -1.396252,
+  "ema50": 756.59,
+  "ema200": 721.31,
+  "rsi": 51.93,
+  "macd_line": 2.724099,
+  "macd_signal": 4.107675,
+  "macd_hist": -1.383576,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-26",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-08-31",
       "name": "Evening Star",
@@ -38,16 +32,9 @@ window.PRICES_DATA_SPX = {
       "strength": 2
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-10",
-      "open": 681.32,
-      "high": 682.03,
-      "low": 678.45,
-      "close": 679.46
-    },
     {
       "date": "2026-04-13",
       "open": 677.41,
@@ -740,6 +727,13 @@ window.PRICES_DATA_SPX = {
       "high": 764.67,
       "low": 759.48,
       "close": 761.78
+    },
+    {
+      "date": "2026-09-02",
+      "open": 762.45,
+      "high": 766.43,
+      "low": 761.73,
+      "close": 765.16
     }
   ]
 };

@@ -1,34 +1,27 @@
 {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-09-02T10:10:37Z",
-  "date": "2026-09-01",
-  "price": 141.0,
-  "atr": 4.44,
+  "generated": "2026-09-03T10:22:28Z",
+  "date": "2026-09-02",
+  "price": 141.15,
+  "atr": 4.39,
   "atr_pips": 4,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 126.33,
-  "ema200": 110.75,
-  "rsi": 65.44,
-  "macd_line": 2.923722,
-  "macd_signal": 2.26763,
-  "macd_hist": 0.656092,
+  "ema50": 126.91,
+  "ema200": 111.26,
+  "rsi": 65.57,
+  "macd_line": 3.477185,
+  "macd_signal": 2.509541,
+  "macd_hist": 0.967644,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [],
   "score": 0,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-10",
-      "open": 125.61,
-      "high": 127.78,
-      "low": 123.98,
-      "close": 124.82
-    },
     {
       "date": "2026-04-13",
       "open": 133.37,
@@ -721,6 +714,13 @@
       "high": 141.04,
       "low": 136.09,
       "close": 141.0
+    },
+    {
+      "date": "2026-09-02",
+      "open": 139.42,
+      "high": 142.18,
+      "low": 138.44,
+      "close": 141.15
     }
   ]
 }
