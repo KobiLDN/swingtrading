@@ -1,30 +1,24 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-09-03T10:22:25Z",
-  "date": "2026-09-03",
-  "price": 1.16015,
-  "atr": 0.00449,
+  "generated": "2026-09-04T10:09:32Z",
+  "date": "2026-09-04",
+  "price": 1.16187,
+  "atr": 0.00447,
   "atr_pips": 45,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15642,
-  "ema200": 1.16006,
-  "rsi": 51.84,
-  "macd_line": 0.001404,
-  "macd_signal": 0.002578,
-  "macd_hist": -0.001174,
+  "ema50": 1.15673,
+  "ema200": 1.16002,
+  "rsi": 54.73,
+  "macd_line": 0.001527,
+  "macd_signal": 0.002399,
+  "macd_hist": -0.000872,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-30",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-08-31",
       "name": "Bullish Engulfing",
@@ -36,18 +30,17 @@ window.PRICES_DATA_EURUSD = {
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-09-03",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-27",
-      "open": 1.16318,
-      "high": 1.16614,
-      "low": 1.16226,
-      "close": 1.16258
-    },
     {
       "date": "2026-05-28",
       "open": 1.16261,
@@ -737,9 +730,16 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-09-03",
       "open": 1.15882,
-      "high": 1.16148,
+      "high": 1.16412,
       "low": 1.15841,
-      "close": 1.16015
+      "close": 1.16258
+    },
+    {
+      "date": "2026-09-04",
+      "open": 1.1626,
+      "high": 1.16336,
+      "low": 1.16163,
+      "close": 1.16187
     }
   ]
 };

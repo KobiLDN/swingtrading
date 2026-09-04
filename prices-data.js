@@ -1,30 +1,24 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-09-03T10:22:25Z",
-  "date": "2026-09-03",
-  "price": 1.34908,
-  "atr": 0.00474,
-  "atr_pips": 47,
+  "generated": "2026-09-04T10:09:32Z",
+  "date": "2026-09-04",
+  "price": 1.35247,
+  "atr": 0.00487,
+  "atr_pips": 49,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.35009,
-  "ema200": 1.34663,
-  "rsi": 41.47,
-  "macd_line": 0.000404,
-  "macd_signal": 0.002356,
-  "macd_hist": -0.001952,
-  "trend": "NEUTRAL",
+  "ema50": 1.35031,
+  "ema200": 1.34577,
+  "rsi": 47.87,
+  "macd_line": 0.000458,
+  "macd_signal": 0.002019,
+  "macd_hist": -0.001561,
+  "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-08-30",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-08-31",
       "name": "Bullish Engulfing",
@@ -38,22 +32,15 @@ window.PRICES_DATA = {
       "strength": 5
     },
     {
-      "date": "2026-09-03",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
+      "date": "2026-09-04",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-27",
-      "open": 1.3447,
-      "high": 1.34593,
-      "low": 1.34169,
-      "close": 1.34272
-    },
     {
       "date": "2026-05-28",
       "open": 1.34276,
@@ -743,9 +730,16 @@ window.PRICES_DATA = {
     {
       "date": "2026-09-03",
       "open": 1.34847,
-      "high": 1.35068,
+      "high": 1.35479,
       "low": 1.34804,
-      "close": 1.34908
+      "close": 1.35243
+    },
+    {
+      "date": "2026-09-04",
+      "open": 1.35245,
+      "high": 1.35498,
+      "low": 1.35221,
+      "close": 1.35247
     }
   ]
 };
