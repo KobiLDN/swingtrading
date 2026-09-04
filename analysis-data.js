@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-09-03T11:06:11Z",
+  "generated": "2026-09-04T11:09:21Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The daily chart shows a neutral trend with price oscillating between the EMA50 (1.35009) and EMA200 (1.34663). Price currently sits at 1.34908, just below the 50-period EMA but above the 200-period EMA, indicating a lack of clear directional bias. The MACD is bearish (line below signal) with a negative histogram, suggesting short-term downside momentum. However, the RSI is neutral at 41.47, not oversold, and shows no divergence, providing no strong reversal confirmation.\n\nDespite the bearish MACD, the candlestick patterns over the last five sessions are notably bullish: a Doji, Bullish Engulfing, Morning Star, and Inverted Hammer. These patterns typically signal a potential reversal or at least a pause in the downtrend. Yet the overall signal score is only 4/10, reflecting the conflicting nature of the indicators\u2014bearish momentum vs. bullish price action. Without a clear trend confirmation from the EMAs (price straddling the 50-period line), it is risky to commit to a directional trade.\n\nGiven the proximity to the EMA200 support at 1.34663 and the bullish candlestick cluster, a buy setup could be considered if price holds above that level and breaks above the EMA50. However, the MACD bearishness and neutral RSI argue against immediate entry. The best course is to wait for either a decisive break above 1.35009 (EMA50) with increasing volume and RSI above 50, or a breakdown below 1.34663 that would confirm a bearish continuation. Current conditions do not provide a high-probability trade.",
+  "score": "5/10",
+  "analysis": "Price action confirms the EMA-defined trend, with current price (1.35247) above both the 50-period EMA (1.35031) and 200-period EMA (1.34577). The \u201cstrong uptrend\u201d label is supported, but recent price has stalled near the 50 EMA after a pullback. The bullish candlestick patterns\u2014Bullish Engulfing, Morning Star, and a subsequent Doji\u2014suggest a potential reversal higher from the recent low, yet the Doji signals indecision at a key level. No clear chart patterns like flags or triangles are evident; the structure resembles a shallow correction within the uptrend.\n\nRSI at 47.87 is neutral, showing no overbought/oversold extremes and no divergence. MACD remains bearish (line below signal, negative histogram), which contradicts the bullish candlestick signals and the overall uptrend. This divergence between momentum and price structure weakens the case for an immediate long entry. The signal score of 5/10 reflects this conflict\u2014moderate bullish setup undermined by bearish momentum.\n\nThe best trade setup is to wait for confirmation. A long entry would require either (1) a decisive close above 1.3550 (near the prior swing high) with increasing volume, or (2) a MACD crossover to bullish (line crossing above signal) alongside RSI rising above 50. Until then, risk of a false breakout or further consolidation remains high. Key support lies at the 50 EMA (1.35031) and the 200 EMA (1.34577); a break below these would negate the bullish pattern. Resistance is clustered around 1.3550 (round number) and 1.3580\u20131.3600 (potential prior resistance).\n\nRISK ASSESSMENT: The current risk/reward is unclear due to conflicting signals. Entering long here would place a stop below the 50 EMA (~1.3495, ~30 pips risk) but targets are uncertain because resistance is not well-defined. The MACD bearishness could lead to a deeper pullback to the 200 EMA (1.3458), which would invalidate the bullish candlestick patterns. Hence, patience is advised.",
   "invalidation": "N/A",
   "support_levels": [
-    1.34663,
-    1.34,
-    1.335
+    1.35031,
+    1.34577,
+    1.342
   ],
   "resistance_levels": [
-    1.35009,
     1.355,
+    1.358,
     1.36
   ]
 };

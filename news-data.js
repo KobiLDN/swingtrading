@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-03T11:08:13Z",
+  "generated": "2026-09-04T11:17:26Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Weak ADP Hits DXY as NFP Becomes the Next Test; Key Levels for EUR/USD and GBP/USD Today",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-weak-074726240.html?.tsrc=rss",
+        "time_published": "2026-09-03 07:47",
+        "source": "Finance",
+        "summary": "Soft ADP hiring data challenge Fed hike expectations as DXY weakens, while traders turn to Friday\u2019s NFP for the next major dollar catalyst."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR/USD and GBP/USD Fall",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-053753979.html?.tsrc=rss",
@@ -50,16 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-08-26 13:54",
         "source": "Finance",
         "summary": "USD/CAD remains bullish above 1.3850 as GBP/USD and AUD/USD show signs of rolling over, putting the US dollar back in focus ahead of Jackson Hole."
-      },
-      {
-        "title": "US Dollar Price Forecast: PCE Test Looms as EUR/USD and GBP/USD Hold Firm",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-pce-075653463.html?.tsrc=rss",
-        "time_published": "2026-08-26 07:56",
-        "source": "Finance",
-        "summary": "DXY remains bearish below 99.41 as traders await U.S. PCE and Kevin Warsh\u2019s Jackson Hole speech, while EUR/USD and GBP/USD hold firm."
       }
     ],
     "eurusd": [
+      {
+        "title": "EUR/USD, USD/CAD, USD/CHF Forecast: Dollar Faces NFP Risk",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-cad-usd-135518084.html?.tsrc=rss",
+        "time_published": "2026-09-03 13:55",
+        "source": "Finance",
+        "summary": "EUR/USD is approaching 1.1640, where signs of exhaustion could offer a short-term selling opportunity, while USD/CAD and USD/CHF are being watched for potential bounces. All three setups remain short-term ahead of Non-Farm Payrolls."
+      },
+      {
+        "title": "US Dollar Price Forecast: Weak ADP Hits DXY as NFP Becomes the Next Test; Key Levels for EUR/USD and GBP/USD Today",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-weak-074726240.html?.tsrc=rss",
+        "time_published": "2026-09-03 07:47",
+        "source": "Finance",
+        "summary": "Soft ADP hiring data challenge Fed hike expectations as DXY weakens, while traders turn to Friday\u2019s NFP for the next major dollar catalyst."
+      },
       {
         "title": "EUR/USD, USD/CAD and USD/CHF Face Key Dollar Tests",
         "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-cad-usd-141114155.html?.tsrc=rss",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-28 12:50",
         "source": "Finance",
         "summary": "EUR/USD, EUR/JPY and AUD/USD await Jackson Hole, with 1.1580, 185.65 and 0.7175 among the key levels shaping today\u2019s forex outlook."
-      },
-      {
-        "title": "US Dollar Price Forecast: Warsh Looms as DXY Rebounds, EUR/USD Pulls Back; GBPUSD Key Levels",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-055644863.html?.tsrc=rss",
-        "time_published": "2026-08-28 05:56",
-        "source": "Finance",
-        "summary": "The dollar approaches a key breakout level as traders await Warsh, while EUR/USD tests Fibonacci support and GBP/USD loses channel support."
-      },
-      {
-        "title": "Foreign Countries Aren\u2019t Buying Treasuries Like They Used To. How That Could Be Trouble for Bessent.",
-        "url": "https://finance.yahoo.com/m/abcf0379-f0b5-3304-b70a-1df1e62a8dfa/foreign-countries-aren%E2%80%99t.html?.tsrc=rss",
-        "time_published": "2026-08-27 19:14",
-        "source": "Finance",
-        "summary": "These days private investors hold nearly twice as much debt as official creditors, potentially spelling more volatility."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Affirm Rallies 6% on $104 Price Target From BofA, Sezzle Climbs 4%, PayPal Rises 3%",
-        "url": "https://247wallst.com/investing/2026/09/02/affirm-rallies-6-on-104-price-target-from-bofa-sezzle-climbs-4-paypal-rises-3/?.tsrc=rss",
-        "time_published": "2026-09-02 15:45",
+        "title": "Campbell\u2019s Slides 9% on 36% Dividend Cut, General Mills Falls 4%, Kraft Heinz Drops 3%",
+        "url": "https://247wallst.com/investing/2026/09/03/campbells-slides-9-on-36-dividend-cut-general-mills-falls-4-kraft-heinz-drops-3/?.tsrc=rss",
+        "time_published": "2026-09-03 17:25",
         "source": "247wallst",
-        "summary": "Bank of America dropped a fresh price target on Affirm just as yields began to ease, and the combination sent buy-now-pay-later stocks racing ahead of a sleepy broad market. Whether the rally holds depends on a credit question Levchin himself flagged on live television."
+        "summary": "Campbell's just slashed its dividend and reset guidance well below Wall Street's bar, and the fallout is spreading fast to peers that haven't reported a single number yet."
       },
       {
-        "title": "These ETFs Generate the Most Revenue",
-        "url": "http://www.etf.com/sections/features/these-etfs-generate-most-revenue?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-09-01 22:24",
-        "source": "Etf",
-        "summary": "The largest ETFs by assets aren't necessarily the most profitable for issuers."
+        "title": "Crypto Treasury Stocks Rally as Bitcoin Fund Jumps 5%: Strategy Surges 14%, Bitmine Climbs 12%",
+        "url": "https://247wallst.com/investing/2026/09/03/crypto-treasury-stocks-rally-as-bitcoin-fund-jumps-5-strategy-surges-14-bitmine-climbs-12/?.tsrc=rss",
+        "time_published": "2026-09-03 17:18",
+        "source": "247wallst",
+        "summary": "Bitcoin and Ethereum both jumped 5% today, and the stocks built on top of them moved at twice that speed. Here is what is driving the leverage stack and whether the momentum has anywhere left to go."
       },
       {
-        "title": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? TSLA, AVGO, SNOW, HPE, PLTR, LULU Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-sp500-futures-rising-premarket-tsla-avgo-snow-hpe-pltr-lulu-stocks-in-focus/cZsMAmhRJvG?.tsrc=rss",
-        "time_published": "2026-09-03 08:38",
+        "title": "Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally",
+        "url": "https://247wallst.com/investing/2026/09/03/planet-labs-sinks-8-despite-new-defense-contract-intuitive-machines-pulls-back-ast-spacemobile-sits-out-broad-market-rally/?.tsrc=rss",
+        "time_published": "2026-09-03 15:07",
+        "source": "247wallst",
+        "summary": "A new European defense contract and a fresh analyst Buy rating landed for Planet Labs on Thursday, yet the stock cratered anyway while the broader market rallied. Something specific to this sector is spooking investors ahead of a closely watched earnings release tonight."
+      },
+      {
+        "title": "ChargePoint Skyrockets 74% as Revenue Beat and Narrower Loss Clear Estimates",
+        "url": "https://247wallst.com/investing/2026/09/03/chargepoint-skyrockets-74-as-revenue-beat-and-narrower-loss-clear-estimates/?.tsrc=rss",
+        "time_published": "2026-09-03 17:41",
+        "source": "247wallst",
+        "summary": "ChargePoint just posted one of the sharpest single-session surges in its history, but the numbers behind the move tell a more complicated story than the ticker suggests."
+      },
+      {
+        "title": "CRDO Stock at $165: Buy, Sell, or Hold?",
+        "url": "https://247wallst.com/investing/2026/09/03/crdo-stock-at-165-buy-sell-or-hold/?.tsrc=rss",
+        "time_published": "2026-09-03 17:00",
+        "source": "247wallst",
+        "summary": "Credo just dropped 20% on an earnings beat, and that contradiction is exactly where the argument starts. Whether today's flush is a gift or a warning depends on a few risks most investors are overlooking."
+      },
+      {
+        "title": "AeroVironment Rises 6% on $464.8M Army Laser Award, Unusual Machines and Red Cat Tick Up",
+        "url": "https://247wallst.com/investing/2026/09/03/aerovironment-rises-4-on-464-8m-army-laser-award-unusual-machines-and-red-cat-tick-up/?.tsrc=rss",
+        "time_published": "2026-09-03 13:25",
+        "source": "247wallst",
+        "summary": "The U.S. Army just crossed a threshold it has never crossed before, and one battered defense stock is suddenly the center of a sector-wide scramble to figure out what comes next."
+      },
+      {
+        "title": "Broadcom Is Sitting at $370 and Wall Street Suddenly Has Doubts About Its AI Business",
+        "url": "https://247wallst.com/investing/2026/09/03/broadcom-is-sitting-at-370-and-wall-street-suddenly-has-doubts-about-its-ai-business/?.tsrc=rss",
+        "time_published": "2026-09-03 12:18",
+        "source": "247wallst",
+        "summary": "Broadcom's AI revenue has nearly doubled in a single quarter, yet the stock sits 25% below its summer peak as long-dated options signal that big money is bracing for something to go wrong before the critical December earnings report."
+      },
+      {
+        "title": "Nasdaq Futures Edge Higher As Jobs Report Takes Center Stage: TSLA, LULU, ORCL, PL, NVDA, PLTR, RKLB In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-futures-rising-today-jobs-report-fed-rate-hike-tsla-lulu-orcl-pl-nvda-stocks/cZswyykRJwZ?.tsrc=rss",
+        "time_published": "2026-09-04 08:47",
         "source": "Stocktwits",
-        "summary": "Retail sentiment on Stocktwits remained \u2018bearish\u2019 on SPY and moderated to \u2018neutral\u2019 on QQQ."
-      },
-      {
-        "title": "FuboTV Rallies 7%, Disney Ticks Up: Is the Hulu Live TV Deal Finally Getting Credit?",
-        "url": "https://247wallst.com/investing/2026/09/02/fubotv-rallies-7-disney-ticks-up-is-the-hulu-live-tv-deal-finally-getting-credit/?.tsrc=rss",
-        "time_published": "2026-09-02 15:43",
-        "source": "247wallst",
-        "summary": "FuboTV is surging midday with no earnings release, no filing, and no corporate announcement to explain it. Something is shifting in how the market values the combined live TV bundle, and it shows up very differently across three tickers."
-      },
-      {
-        "title": "Reddit Rallies 7% as Baird Says Renewal Risk Is Already Priced In, Pinterest Holds Flat",
-        "url": "https://247wallst.com/investing/2026/09/02/reddit-rallies-7-as-baird-says-renewal-risk-is-already-priced-in-pinterest-holds-flat/?.tsrc=rss",
-        "time_published": "2026-09-02 14:55",
-        "source": "247wallst",
-        "summary": "Baird just reframed the biggest risk hanging over Reddit stock, and the market responded with its sharpest single-day move in months. Here is what two expiring AI licensing deals actually mean for the bull and bear cases."
-      },
-      {
-        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html?.tsrc=rss",
-        "time_published": "2026-09-02 13:08",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr"
-      },
-      {
-        "title": "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate \u2014 DELL, PANW, FRVO, AAPL, TTWO In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-flat/cZsAInURJMx?.tsrc=rss",
-        "time_published": "2026-09-02 00:01",
-        "source": "Stocktwits",
-        "summary": "The \u200cU.S. military on Tuesday said it began striking Islamic Revolutionary Guard Corps (IRGC) targets in \u2060Iran."
-      },
-      {
-        "title": "SPYI\u2019s Monthly Check Hides the Real Cost: Part of That Payout Is Your Own Capital, and It Quietly Shrinks Your Cost Basis",
-        "url": "https://247wallst.com/investing/etf/2026/09/01/spyis-monthly-check-hides-the-real-cost-part-of-that-payout-is-your-own-capital-and-it-quietly-shrinks-your-cost-basis/?.tsrc=rss",
-        "time_published": "2026-09-01 21:55",
-        "source": "247wallst",
-        "summary": "SPYI's monthly distribution looks like income, but part of that check may be quietly returning your own principal while reshaping the tax bill waiting at the end of the line."
+        "summary": "Retail sentiment on Stocktwits remained \u2018bearish\u2019 on SPY and flipped to \u2018bullish\u2019 on QQQ."
       }
     ],
     "oil": [

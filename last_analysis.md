@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-09-03
-**Generated:** 2026-09-03T11:06:11Z
+**Date:** 2026-09-04
+**Generated:** 2026-09-04T11:09:21Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,25 +11,27 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 1.34663, 1.34, 1.335 |
-| **Resistance** | 1.35009, 1.355, 1.36 |
+| **Score** | 5/10 |
+| **Support** | 1.35031, 1.34577, 1.342 |
+| **Resistance** | 1.355, 1.358, 1.36 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a neutral trend with price oscillating between the EMA50 (1.35009) and EMA200 (1.34663). Price currently sits at 1.34908, just below the 50-period EMA but above the 200-period EMA, indicating a lack of clear directional bias. The MACD is bearish (line below signal) with a negative histogram, suggesting short-term downside momentum. However, the RSI is neutral at 41.47, not oversold, and shows no divergence, providing no strong reversal confirmation.
+Price action confirms the EMA-defined trend, with current price (1.35247) above both the 50-period EMA (1.35031) and 200-period EMA (1.34577). The “strong uptrend” label is supported, but recent price has stalled near the 50 EMA after a pullback. The bullish candlestick patterns—Bullish Engulfing, Morning Star, and a subsequent Doji—suggest a potential reversal higher from the recent low, yet the Doji signals indecision at a key level. No clear chart patterns like flags or triangles are evident; the structure resembles a shallow correction within the uptrend.
 
-Despite the bearish MACD, the candlestick patterns over the last five sessions are notably bullish: a Doji, Bullish Engulfing, Morning Star, and Inverted Hammer. These patterns typically signal a potential reversal or at least a pause in the downtrend. Yet the overall signal score is only 4/10, reflecting the conflicting nature of the indicators—bearish momentum vs. bullish price action. Without a clear trend confirmation from the EMAs (price straddling the 50-period line), it is risky to commit to a directional trade.
+RSI at 47.87 is neutral, showing no overbought/oversold extremes and no divergence. MACD remains bearish (line below signal, negative histogram), which contradicts the bullish candlestick signals and the overall uptrend. This divergence between momentum and price structure weakens the case for an immediate long entry. The signal score of 5/10 reflects this conflict—moderate bullish setup undermined by bearish momentum.
 
-Given the proximity to the EMA200 support at 1.34663 and the bullish candlestick cluster, a buy setup could be considered if price holds above that level and breaks above the EMA50. However, the MACD bearishness and neutral RSI argue against immediate entry. The best course is to wait for either a decisive break above 1.35009 (EMA50) with increasing volume and RSI above 50, or a breakdown below 1.34663 that would confirm a bearish continuation. Current conditions do not provide a high-probability trade.
+The best trade setup is to wait for confirmation. A long entry would require either (1) a decisive close above 1.3550 (near the prior swing high) with increasing volume, or (2) a MACD crossover to bullish (line crossing above signal) alongside RSI rising above 50. Until then, risk of a false breakout or further consolidation remains high. Key support lies at the 50 EMA (1.35031) and the 200 EMA (1.34577); a break below these would negate the bullish pattern. Resistance is clustered around 1.3550 (round number) and 1.3580–1.3600 (potential prior resistance).
+
+RISK ASSESSMENT: The current risk/reward is unclear due to conflicting signals. Entering long here would place a stop below the 50 EMA (~1.3495, ~30 pips risk) but targets are uncertain because resistance is not well-defined. The MACD bearishness could lead to a deeper pullback to the 200 EMA (1.3458), which would invalidate the bullish candlestick patterns. Hence, patience is advised.
 
 ---
 

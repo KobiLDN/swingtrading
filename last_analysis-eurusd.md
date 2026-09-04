@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-09-03
-**Generated:** 2026-09-03T11:06:32Z
+**Date:** 2026-09-04
+**Generated:** 2026-09-04T11:09:54Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 1.15642, 1.15566, 1.155 |
-| **Resistance** | 1.16464, 1.165, 1.17 |
+| **Support** | 1.16, 1.1567, 1.15 |
+| **Resistance** | 1.165, 1.17, 1.175 |
 
 ---
 
 ## Analysis
 
-The daily chart shows price at 1.16015, essentially coincident with the EMA200 (1.16006) and well above the EMA50 (1.15642). While the stated trend bias is bullish, the price action does not yet confirm a decisive breakout above the key EMA200 level. The proximity to this long-term moving average creates a pivotal zone—a sustained close above would reinforce the bullish bias, while a rejection could signal a return to the EMA50. The presence of two consecutive Bullish Engulfing candles after a Doji suggests short-term buying pressure, but these patterns have not yet translated into a clear upward break from the current resistance.
+The daily chart shows price at 1.16187, above both the EMA50 (1.15673) and EMA200 (1.16002). While this technically aligns with the stated bullish bias, the EMA50 remains below the EMA200, indicating a lack of full trend alignment—the fast average has not crossed above the slow average, which typically confirms a sustained uptrend. The recent candlestick patterns (two Bullish Engulfing and a Morning Star) suggest strong buying pressure and a potential reversal from recent lows, but these formations have already been absorbed into price, leaving limited upside momentum for a fresh entry.
 
-The RSI at 51.84 is neutral, offering no directional edge, while the MACD configuration is bearish with the line below the signal line and a negative histogram. This divergence between the bullish candlestick pattern and the bearish momentum oscillator reduces conviction. Without a clear convergence of indicators, the setup remains ambiguous. The signal score of 5/10 appropriately reflects this mixed picture—neither strongly bullish nor bearish, but rather a waiting zone.
+RSI at 54.73 is neutral, providing no directional edge, while the MACD is bearish (line below signal, negative histogram). This divergence between bullish candlestick patterns and bearish momentum indicators creates a mixed signal. Without additional confirmation such as a MACD crossover or RSI breaking above 60, the probability of a sustained move is moderate. The ATR of 45 pips suggests a tight range, making it risky to enter near resistance levels (e.g., 1.1650) without a clear catalyst.
 
-Key support lies just below at the EMA50 (1.15642) and the ATR-based level near 1.15566, while psychological support at 1.1550 may also come into play. On the upside, resistance is represented by the ATR extension to 1.16464 and the round number 1.1650, with further resistance at 1.1700. The lack of a confirmed trend catalyst (e.g., a daily close above 1.1605 or a MACD crossover) suggests that entering a trade now carries elevated risk relative to potential reward. The prudent approach is to wait for either a bullish breakout above resistance with momentum confirmation, or a pullback to support that aligns with a favorable risk/reward entry.
+Given the 5/10 signal score, the best course is to wait for either a pullback to the EMA200 support (1.1600) with a bullish reversal confirmation, or a breakout above 1.1650 with rising momentum. Entering now would expose the trade to whipsaw risk from the bearish MACD and the overhead resistance zone.
 
 ---
 
 ## Invalidation
 
-A daily close below 1.15642 (EMA50) would invalidate the current bullish bias and shift the outlook to bearish, making a wait-and-see approach the correct decision.
+For a long setup, a break and close below the EMA200 (1.1600) would invalidate the bullish bias; for a short setup, a break above 1.1650 with strong volume would negate any bearish consideration.
 
 ---
 

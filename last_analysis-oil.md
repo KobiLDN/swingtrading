@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-09-02
-**Generated:** 2026-09-03T11:08:12Z
+**Date:** 2026-09-03
+**Generated:** 2026-09-04T11:17:25Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,48 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | N/A |
-| **Confidence** | N/A |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | N/A |
-| **Support** | N/A |
-| **Resistance** | N/A |
+| **Score** | 2/10 confirmed |
+| **Support** | 137.84, 133.59, 127.5 |
+| **Resistance** | 146.34, 150.59, 155.0 |
 
 ---
 
 ## Analysis
 
-**DECISION:** BUY  
-**CONFIDENCE:** MEDIUM  
-**ENTRY:** 141.15  
-**STOP_LOSS:** 137.50  
-**TARGET_1:** 145.00  
-**TARGET_2:** 149.50  
-**RISK_REWARD:** 1.12 (T1) / 2.30 (T2)  
-**SCORE:** 6/10 (revised from 0/10; trend and momentum are strong but no candlestick confirmation)  
-**SUPPORT_LEVELS:** 140.00, 138.00, 136.76 (ATR-based)  
-**RESISTANCE_LEVELS:** 142.00, 145.00, 150.00  
+Price action confirms the EMA trend: USO is trading well above the EMA50 (127.50) and EMA200 (111.56), with the EMA50 above the EMA200, consistent with a strong uptrend. However, price is extended — roughly 11% above the EMA50 — and the recent Doji candle suggests indecision near the highs. The trend is intact, but the immediate risk/reward for chasing long at current levels is poor.
 
-**ANALYSIS:**  
-The daily chart exhibits a confirmed strong uptrend. Price is well above both the 50-period EMA (126.91) and the 200-period EMA (111.26), with a gap of over 14 points from the 50 EMA—indicating robust bullish momentum. The MACD is in a bullish configuration (line above signal, histogram positive), aligning with the price trend. The RSI at 65.57 is neutral and not overbought, leaving room for further upside without immediate exhaustion. No bearish divergences or reversal candlestick patterns are present, so the path of least resistance remains upward.
+No clear triangle, flag, or double top/bottom can be inferred from the provided data. The Doji is the only notable candlestick pattern, and it warns that buying pressure may be stalling. RSI at 66.4 is neutral and shows no divergence, so it does not contradict the uptrend. MACD is bullish with a positive histogram, which agrees with the trend, but the confluence is not strong enough to justify a high-conviction entry right now.
 
-Although no specific chart patterns like flags or triangles are detected, the price is trading near the psychological round number of 141 and is pushing into uncharted territory relative to recent history. The ATR of 4.39 points suggests above-average daily volatility, which can facilitate quick moves toward higher resistance levels. Key support levels to watch are the round 140.00 (psychological), then 138.00 (a prior swing low zone), and the ATR-based support at 136.76. On the upside, immediate resistance lies at 142.00, followed by the 145.00 and 150.00 round numbers.
-
-**RISK ASSESSMENT:**  
-The primary risk is a sudden pullback or profit-taking after an extended rally, as the price is already 11% above the 50 EMA. The neutral RSI leaves the door open for a consolidation phase. However, given the strong trend and absence of reversal signals, buying on a minor dip or at market with a tight stop below recent support is justified. The stop at 137.50 sits just below the 138.00 support level and within 1 ATR of entry, capping downside to ~2.6%. The first target at 145.00 offers a modest 1.12:1 risk-reward, while the second target at 149.50 provides a more attractive 2.30:1 ratio if momentum persists.
-
-**INVALIDATION:**  
-A daily close below 137.50 (the stop-loss level) or a break below the 50 EMA (126.91) would negate the bullish bias and signal a potential trend reversal.
+The best setup is to wait for either a pullback into the 137.84–135.00 support zone with a bullish reversal candle, or a confirmed daily close above 146.34 before considering a long. Shorting is not justified while price remains above the EMA structure. Risk is elevated due to the 4.25 ATR and the Doji at highs; a close below 137.84 would open the door to a deeper correction toward the EMA50.
 
 ---
 
 ## Invalidation
 
-N/A
+A daily close below 137.84 would invalidate the bullish continuation setup and shift the bias toward caution or a deeper pullback.
 
 ---
 
