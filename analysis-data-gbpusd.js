@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-09-04T11:09:21Z",
+  "generated": "2026-09-07T12:19:33Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-09-04",
+  "date": "2026-09-07",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_GBPUSD = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "Price action confirms the EMA-defined trend, with current price (1.35247) above both the 50-period EMA (1.35031) and 200-period EMA (1.34577). The \u201cstrong uptrend\u201d label is supported, but recent price has stalled near the 50 EMA after a pullback. The bullish candlestick patterns\u2014Bullish Engulfing, Morning Star, and a subsequent Doji\u2014suggest a potential reversal higher from the recent low, yet the Doji signals indecision at a key level. No clear chart patterns like flags or triangles are evident; the structure resembles a shallow correction within the uptrend.\n\nRSI at 47.87 is neutral, showing no overbought/oversold extremes and no divergence. MACD remains bearish (line below signal, negative histogram), which contradicts the bullish candlestick signals and the overall uptrend. This divergence between momentum and price structure weakens the case for an immediate long entry. The signal score of 5/10 reflects this conflict\u2014moderate bullish setup undermined by bearish momentum.\n\nThe best trade setup is to wait for confirmation. A long entry would require either (1) a decisive close above 1.3550 (near the prior swing high) with increasing volume, or (2) a MACD crossover to bullish (line crossing above signal) alongside RSI rising above 50. Until then, risk of a false breakout or further consolidation remains high. Key support lies at the 50 EMA (1.35031) and the 200 EMA (1.34577); a break below these would negate the bullish pattern. Resistance is clustered around 1.3550 (round number) and 1.3580\u20131.3600 (potential prior resistance).\n\nRISK ASSESSMENT: The current risk/reward is unclear due to conflicting signals. Entering long here would place a stop below the 50 EMA (~1.3495, ~30 pips risk) but targets are uncertain because resistance is not well-defined. The MACD bearishness could lead to a deeper pullback to the 200 EMA (1.3458), which would invalidate the bullish candlestick patterns. Hence, patience is advised.",
-  "invalidation": "N/A",
+  "analysis": "Price at 1.35393 sits above both the EMA50 (1.35053) and the EMA200 (1.34495), confirming the strong uptrend indicated by the pre-calculated trend label. However, the proximity to the EMA50 (only 34 pips above) leaves little margin for error, and the recent candlestick formation\u2014a Morning Star following a Doji\u2014suggests a potential bullish reversal from a short-term pullback. Yet the absence of a clear chart pattern such as a flag or triangle implies the market may be in a consolidation phase within the broader uptrend.\n\nThe RSI at 51.2 is neutral, providing no directional conviction, while the MACD is bearish with the line below its signal line and a negative histogram. This divergence between the bullish price structure and weakening momentum is a key concern. The bearish MACD does not align with the strong uptrend, indicating that the recent price gains may be losing steam. Without a bullish MACD cross or a decisive price breakout, the risk of a deeper pullback outweighs the reward of chasing the trend at current levels.\n\nGiven the mixed signals\u2014strong trend direction versus bearish short-term momentum\u2014and a moderate signal score of 5/10, the most prudent course is to wait for clearer confirmation. A long entry would require either a bullish MACD cross above zero or a price break above the nearest resistance near 1.3580 with volume. A short entry would require a confirmed breakdown below the EMA50 support. Until then, the setup lacks sufficient edge.",
+  "invalidation": "A close below the EMA50 (1.3505) would invalidate the bullish structure and shift the bias toward a potential sell setup.",
   "support_levels": [
-    1.35031,
-    1.34577,
-    1.342
+    1.3505,
+    1.3449,
+    1.34
   ],
   "resistance_levels": [
-    1.355,
     1.358,
-    1.36
+    1.36,
+    1.365
   ]
 };

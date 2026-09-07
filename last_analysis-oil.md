@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-09-03
-**Generated:** 2026-09-04T11:17:25Z
+**Date:** 2026-09-04
+**Generated:** 2026-09-07T12:28:14Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 2/10 confirmed |
-| **Support** | 137.84, 133.59, 127.5 |
-| **Resistance** | 146.34, 150.59, 155.0 |
+| **Score** | 2/10 |
+| **Support** | 138.0, 136.0, 128.07 |
+| **Resistance** | 145.0, 148.0, 150.0 |
 
 ---
 
 ## Analysis
 
-Price action confirms the EMA trend: USO is trading well above the EMA50 (127.50) and EMA200 (111.56), with the EMA50 above the EMA200, consistent with a strong uptrend. However, price is extended — roughly 11% above the EMA50 — and the recent Doji candle suggests indecision near the highs. The trend is intact, but the immediate risk/reward for chasing long at current levels is poor.
+The price action strongly confirms the EMA trend, with USO trading well above both the 50-day (128.07) and 200-day (112.02) EMAs, indicating a sustained uptrend. The MACD remains bullish with the signal line above the trigger and positive histogram, aligning with the trend. However, the RSI at 66.16 is neutral and not overbought, leaving room for further upside, but the recent Doji candlestick pattern signals indecision after a rally. The pre-calculated signal score of 2/10 is very low, suggesting the current setup lacks clear edge or confirmation.
 
-No clear triangle, flag, or double top/bottom can be inferred from the provided data. The Doji is the only notable candlestick pattern, and it warns that buying pressure may be stalling. RSI at 66.4 is neutral and shows no divergence, so it does not contradict the uptrend. MACD is bullish with a positive histogram, which agrees with the trend, but the confluence is not strong enough to justify a high-conviction entry right now.
+No additional chart patterns such as flags, triangles, or double tops/bottoms are evident from the given data. The Doji alone does not constitute a reliable reversal or continuation pattern without volume or subsequent confirmation. Key support near current price is sparse; the nearest meaningful level is the round number 138.00, followed by the 136.00 area and the distant EMA50 at 128.07. Resistance levels are undefined from the indicators, but psychological round numbers at 145.00, 148.00, and 150.00 are plausible.
 
-The best setup is to wait for either a pullback into the 137.84–135.00 support zone with a bullish reversal candle, or a confirmed daily close above 146.34 before considering a long. Shorting is not justified while price remains above the EMA structure. Risk is elevated due to the 4.25 ATR and the Doji at highs; a close below 137.84 would open the door to a deeper correction toward the EMA50.
+RSI and MACD are in confluence with the uptrend, but the low signal score and Doji suggest the risk of a pullback or consolidation is elevated. Without a clear entry trigger, the best course is to wait for a higher-probability setup—either a bullish continuation pattern with volume or a retest of support near 138.00 that holds before re-entering long. A buy here would offer poor reward relative to the risk of a mean reversion.
 
 ---
 
 ## Invalidation
 
-A daily close below 137.84 would invalidate the bullish continuation setup and shift the bias toward caution or a deeper pullback.
+This setup is invalidated if price closes below the 138.00 support level, as that would break the near-term uptrend structure and signal a deeper correction toward the EMA50.
 
 ---
 

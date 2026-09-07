@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
-**Date:** 2026-09-03
-**Generated:** 2026-09-04T11:16:37Z
+**Date:** 2026-09-04
+**Generated:** 2026-09-07T12:24:20Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 60.55 |
-| **Stop Loss** | 61.30 |
-| **Target 1** | 58.64 |
-| **Target 2** | 57.75 |
-| **Risk/Reward** | 2.48 |
-| **Score** | 5/10 |
-| **Support** | 60.53, 58.64, 57.75 |
-| **Resistance** | 61.2, 62.0, 63.0 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 0/10 |
+| **Support** | 58.69, 58.0, 57.5 |
+| **Resistance** | 60.61, 61.0, 61.5 |
 
 ---
 
 ## Analysis
 
-The price is currently trading at 60.55, just above the 200-day EMA (60.53) but below the 50-day EMA (58.64) actually lies below the 200-day EMA, indicating a bearish cross in the longer-term moving averages. However, the given “BULLISH BIAS” likely reflects the fact that price has been holding above the 200 EMA recently, but the underlying structure from the EMAs is not yet bullish. The bearish engulfing candlestick pattern on the daily chart is a strong reversal signal, suggesting that the recent upward move may be exhausting at this resistance zone.  
+The current price of 59.82 sits between the EMA50 (58.69) and EMA200 (60.61), placing the trend in a neutral zone. Price action does not confirm a clear directional bias, as it has been oscillating without a decisive breakout above the longer-term EMA or below the shorter-term support. No candlestick patterns or chart formations (triangles, flags, double tops/bottoms) are evident in the last five candles, further reinforcing the lack of a tradable structure.
 
-The MACD is bearish (line below signal) with a negative histogram, confirming declining momentum, while RSI at 55.35 is neutral and shows no divergence, offering no bullish counter-indication. The confluence of the bearish engulfing pattern and bearish MACD argues for a short-term sell, especially given that price is testing the 200 EMA from above. No clear chart patterns like triangles or flags are evident, but the rejection at the 200 EMA could form a double top if followed by a larger decline.  
+The RSI at 52.93 is neutral and shows no divergence, offering no edge. Meanwhile, the MACD is bearish with the line below the signal line and a negative histogram, indicating underlying bearish momentum. However, this bearish signal is not confirmed by price action, which remains range-bound. The divergence between the neutral RSI and bearish MACD creates a conflicting picture, reducing confidence in any directional trade.
 
-Key support immediately below is the 200 EMA itself at 60.53, followed by the 50 EMA at 58.64 and then the 57.75 area. Resistance above is the likely high of the bearish engulfing candle near 61.20, then psychological round numbers at 62.00 and 63.00. The risk-reward for a short trade is favorable, with a stop just above 61.30 and first target at the 50 EMA, offering a 2.48:1 ratio. The mixed EMA structure and neutral RSI keep confidence at medium, and the signal score of 5/10 reflects the lack of a clear, high-conviction trend.
+Key support is the EMA50 at 58.69, with additional levels at 58.00 (psychological) and 57.50 (prior swing low). Resistance is the EMA200 at 60.61, followed by 61.00 and 61.50. Given the low signal score of 0/10 and the absence of a clear setup, the prudent action is to wait for a decisive move above resistance or below support, or for a confluence of indicators to emerge.
 
 ---
 
 ## Invalidation
 
-A daily close above 61.30 (the high of the bearish engulfing candle) would invalidate the sell setup.
+A breakout above 60.61 with volume or a breakdown below 58.69 would shift the bias and potentially create a new trade setup.
 
 ---
 

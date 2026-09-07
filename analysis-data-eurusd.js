@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-09-04T11:09:54Z",
+  "generated": "2026-09-07T12:22:32Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-09-04",
+  "date": "2026-09-07",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_EURUSD = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The daily chart shows price at 1.16187, above both the EMA50 (1.15673) and EMA200 (1.16002). While this technically aligns with the stated bullish bias, the EMA50 remains below the EMA200, indicating a lack of full trend alignment\u2014the fast average has not crossed above the slow average, which typically confirms a sustained uptrend. The recent candlestick patterns (two Bullish Engulfing and a Morning Star) suggest strong buying pressure and a potential reversal from recent lows, but these formations have already been absorbed into price, leaving limited upside momentum for a fresh entry.\n\nRSI at 54.73 is neutral, providing no directional edge, while the MACD is bearish (line below signal, negative histogram). This divergence between bullish candlestick patterns and bearish momentum indicators creates a mixed signal. Without additional confirmation such as a MACD crossover or RSI breaking above 60, the probability of a sustained move is moderate. The ATR of 45 pips suggests a tight range, making it risky to enter near resistance levels (e.g., 1.1650) without a clear catalyst.\n\nGiven the 5/10 signal score, the best course is to wait for either a pullback to the EMA200 support (1.1600) with a bullish reversal confirmation, or a breakout above 1.1650 with rising momentum. Entering now would expose the trade to whipsaw risk from the bearish MACD and the overhead resistance zone.",
-  "invalidation": "For a long setup, a break and close below the EMA200 (1.1600) would invalidate the bullish bias; for a short setup, a break above 1.1650 with strong volume would negate any bearish consideration.",
+  "analysis": "The price at 1.1624 sits above both the EMA50 (1.15729) and EMA200 (1.15918), confirming the bullish bias from a trend perspective. However, the EMA200 is still slightly below the EMA50, indicating a nascent uptrend rather than a fully established one. The recent candlestick patterns add significant ambiguity\u2014bullish engulfing and morning star suggest buying pressure, but these are immediately followed by a hanging man and shooting star, which imply rejection near highs. This oscillation points to a market that is undecided, not committing to a trend breakout.\n\nThe RSI at 55.71 is neutral, showing neither overbought nor oversold conditions, and no divergence is present. The MACD is bearish with the line below the signal line and a negative histogram, contradicting the bullish EMA alignment. This disagreement between trend-following EMAs and momentum oscillators is a classic sign of a ranging or corrective phase. The signal score of 5/10 accurately captures this balance: no strong conviction on either side.\n\nWithout a clear confluence of indicators, entering a trade now would be premature. A buy would require a break above the shooting star high (likely near 1.1630) with rising RSI and MACD crossovers. A sell would need a drop below the EMA50 (1.1573) and a bearish RSI shift. The current setup is best left alone until price decisively resolves the conflicting signals, reducing the chance of a false breakout. Support levels are the EMAs and the 1.1550 round number, while resistance centers on the recent high cluster around 1.1630\u20131.1650.",
+  "invalidation": "This wait decision is invalidated if price closes above 1.1650 with strong bullish momentum (triggering a buy) or below 1.1570 with bearish follow-through (triggering a sell), thereby resolving the current indecision.",
   "support_levels": [
-    1.16,
-    1.1567,
-    1.15
+    1.1592,
+    1.1573,
+    1.155
   ],
   "resistance_levels": [
+    1.163,
     1.165,
-    1.17,
-    1.175
+    1.17
   ]
 };

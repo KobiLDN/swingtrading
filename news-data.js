@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-04T11:17:26Z",
+  "generated": "2026-09-07T12:28:16Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Weakens Ahead of NFP; EUR/USD and GBP/USD Recover",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-063755377.html?.tsrc=rss",
+        "time_published": "2026-09-04 06:37",
+        "source": "Finance",
+        "summary": "U.S. NFP takes center stage as DXY weakens, while EUR/USD and GBP/USD recover amid diverging Fed, ECB and BoE rate expectations."
+      },
       {
         "title": "US Dollar Price Forecast: Weak ADP Hits DXY as NFP Becomes the Next Test; Key Levels for EUR/USD and GBP/USD Today",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-weak-074726240.html?.tsrc=rss",
@@ -50,16 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-08-27 05:27",
         "source": "Finance",
         "summary": "Sticky U.S. PCE revives Fed hike risk as DXY rebounds, while traders await Warsh\u2019s Jackson Hole signals and EUR/USD and GBP/USD test support."
-      },
-      {
-        "title": "USD/CAD Turns Bullish as GBP/USD, AUD/USD Lose Momentum",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/usd-cad-turns-bullish-gbp-135420588.html?.tsrc=rss",
-        "time_published": "2026-08-26 13:54",
-        "source": "Finance",
-        "summary": "USD/CAD remains bullish above 1.3850 as GBP/USD and AUD/USD show signs of rolling over, putting the US dollar back in focus ahead of Jackson Hole."
       }
     ],
     "eurusd": [
+      {
+        "title": "EUR/USD, USD/JPY, & USD/CAD Short-Term Forecasts for 04/09/2026",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-jpy-usd-135632254.html?.tsrc=rss",
+        "time_published": "2026-09-04 13:56",
+        "source": "Finance",
+        "summary": "EUR/USD falls toward 1.1585 after stronger-than-anticipated US jobs data, while USD/JPY tests a major swing low. USD/CAD surges as weak Canadian employment reinforces the bullish technical outlook."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Weakens Ahead of NFP; EUR/USD and GBP/USD Recover",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-063755377.html?.tsrc=rss",
+        "time_published": "2026-09-04 06:37",
+        "source": "Finance",
+        "summary": "U.S. NFP takes center stage as DXY weakens, while EUR/USD and GBP/USD recover amid diverging Fed, ECB and BoE rate expectations."
+      },
       {
         "title": "EUR/USD, USD/CAD, USD/CHF Forecast: Dollar Faces NFP Risk",
         "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-cad-usd-135518084.html?.tsrc=rss",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-31 13:12",
         "source": "Finance",
         "summary": "The US dollar got a jolt of energy on Friday. On Monday, we are trying to find out if that was real and sustainable."
-      },
-      {
-        "title": "US Dollar Price Forecast: Hawkish Warsh Lifts DXY as EUR/USD and GBP/USD Fall",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081954940.html?.tsrc=rss",
-        "time_published": "2026-08-31 08:19",
-        "source": "Finance",
-        "summary": "Warsh\u2019s hawkish Jackson Hole remarks revive September Fed hike bets as DXY rebounds while EUR/USD and GBP/USD break key technical support."
-      },
-      {
-        "title": "EUR/USD, EUR/JPY and AUD/USD Brace for Jackson Hole Volatility",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-eur-jpy-aud-125008520.html?.tsrc=rss",
-        "time_published": "2026-08-28 12:50",
-        "source": "Finance",
-        "summary": "EUR/USD, EUR/JPY and AUD/USD await Jackson Hole, with 1.1580, 185.65 and 0.7175 among the key levels shaping today\u2019s forex outlook."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,70 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Campbell\u2019s Slides 9% on 36% Dividend Cut, General Mills Falls 4%, Kraft Heinz Drops 3%",
-        "url": "https://247wallst.com/investing/2026/09/03/campbells-slides-9-on-36-dividend-cut-general-mills-falls-4-kraft-heinz-drops-3/?.tsrc=rss",
-        "time_published": "2026-09-03 17:25",
-        "source": "247wallst",
-        "summary": "Campbell's just slashed its dividend and reset guidance well below Wall Street's bar, and the fallout is spreading fast to peers that haven't reported a single number yet."
-      },
-      {
-        "title": "Crypto Treasury Stocks Rally as Bitcoin Fund Jumps 5%: Strategy Surges 14%, Bitmine Climbs 12%",
-        "url": "https://247wallst.com/investing/2026/09/03/crypto-treasury-stocks-rally-as-bitcoin-fund-jumps-5-strategy-surges-14-bitmine-climbs-12/?.tsrc=rss",
-        "time_published": "2026-09-03 17:18",
-        "source": "247wallst",
-        "summary": "Bitcoin and Ethereum both jumped 5% today, and the stocks built on top of them moved at twice that speed. Here is what is driving the leverage stack and whether the momentum has anywhere left to go."
-      },
-      {
-        "title": "Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally",
-        "url": "https://247wallst.com/investing/2026/09/03/planet-labs-sinks-8-despite-new-defense-contract-intuitive-machines-pulls-back-ast-spacemobile-sits-out-broad-market-rally/?.tsrc=rss",
-        "time_published": "2026-09-03 15:07",
-        "source": "247wallst",
-        "summary": "A new European defense contract and a fresh analyst Buy rating landed for Planet Labs on Thursday, yet the stock cratered anyway while the broader market rallied. Something specific to this sector is spooking investors ahead of a closely watched earnings release tonight."
-      },
-      {
-        "title": "ChargePoint Skyrockets 74% as Revenue Beat and Narrower Loss Clear Estimates",
-        "url": "https://247wallst.com/investing/2026/09/03/chargepoint-skyrockets-74-as-revenue-beat-and-narrower-loss-clear-estimates/?.tsrc=rss",
-        "time_published": "2026-09-03 17:41",
-        "source": "247wallst",
-        "summary": "ChargePoint just posted one of the sharpest single-session surges in its history, but the numbers behind the move tell a more complicated story than the ticker suggests."
-      },
-      {
-        "title": "CRDO Stock at $165: Buy, Sell, or Hold?",
-        "url": "https://247wallst.com/investing/2026/09/03/crdo-stock-at-165-buy-sell-or-hold/?.tsrc=rss",
-        "time_published": "2026-09-03 17:00",
-        "source": "247wallst",
-        "summary": "Credo just dropped 20% on an earnings beat, and that contradiction is exactly where the argument starts. Whether today's flush is a gift or a warning depends on a few risks most investors are overlooking."
-      },
-      {
-        "title": "AeroVironment Rises 6% on $464.8M Army Laser Award, Unusual Machines and Red Cat Tick Up",
-        "url": "https://247wallst.com/investing/2026/09/03/aerovironment-rises-4-on-464-8m-army-laser-award-unusual-machines-and-red-cat-tick-up/?.tsrc=rss",
-        "time_published": "2026-09-03 13:25",
-        "source": "247wallst",
-        "summary": "The U.S. Army just crossed a threshold it has never crossed before, and one battered defense stock is suddenly the center of a sector-wide scramble to figure out what comes next."
-      },
-      {
-        "title": "Broadcom Is Sitting at $370 and Wall Street Suddenly Has Doubts About Its AI Business",
-        "url": "https://247wallst.com/investing/2026/09/03/broadcom-is-sitting-at-370-and-wall-street-suddenly-has-doubts-about-its-ai-business/?.tsrc=rss",
-        "time_published": "2026-09-03 12:18",
-        "source": "247wallst",
-        "summary": "Broadcom's AI revenue has nearly doubled in a single quarter, yet the stock sits 25% below its summer peak as long-dated options signal that big money is bracing for something to go wrong before the critical December earnings report."
-      },
-      {
-        "title": "Nasdaq Futures Edge Higher As Jobs Report Takes Center Stage: TSLA, LULU, ORCL, PL, NVDA, PLTR, RKLB In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/why-nasdaq-futures-rising-today-jobs-report-fed-rate-hike-tsla-lulu-orcl-pl-nvda-stocks/cZswyykRJwZ?.tsrc=rss",
-        "time_published": "2026-09-04 08:47",
+        "title": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq \u2014TSLA, NFLX, BE, NVDA In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-blowout-jobs-report-fans-rate-hike-fears-while-chipmaker-strength-aids-nasdaq-tsla-nflx-be-nvda-in-focus/cZsDjVKRJDg?.tsrc=rss",
+        "time_published": "2026-09-04 22:18",
         "source": "Stocktwits",
-        "summary": "Retail sentiment on Stocktwits remained \u2018bearish\u2019 on SPY and flipped to \u2018bullish\u2019 on QQQ."
+        "summary": "Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%."
+      },
+      {
+        "title": "This Is the Most Expensive Market in Decades. Is It Really Safe to Invest Right Now?",
+        "url": "https://www.fool.com/investing/2026/09/04/this-is-the-most-expensive-market-in-decades-is-it/?.tsrc=rss",
+        "time_published": "2026-09-04 19:20",
+        "source": "Fool",
+        "summary": "There's no rule that says expensive valuations must end in big drawdowns."
+      },
+      {
+        "title": "GoPro Zooms 34% Higher on Starman Optical Merger and Markiplier Stake; Coherent Climbs 7%, Lumentum Gains 3%",
+        "url": "https://247wallst.com/investing/2026/09/04/gopro-zooms-34-higher-on-starman-optical-merger-and-markiplier-stake-coherent-climbs-7-lumentum-gains-3/?.tsrc=rss",
+        "time_published": "2026-09-04 16:20",
+        "source": "247wallst",
+        "summary": "GoPro is surging on a merger that turns a camera company into an optical-transceiver play, and a famous YouTuber just became its largest individual shareholder. Here is what the move actually means against a backdrop of proven incumbents already delivering billion-dollar datacenter revenue."
+      },
+      {
+        "title": "Tesla Wants to Be Seen as an AI Company",
+        "url": "https://247wallst.com/investing/2026/09/07/tesla-wants-to-be-seen-as-an-ai-company/?.tsrc=rss",
+        "time_published": "2026-09-07 11:29",
+        "source": "247wallst",
+        "summary": "Tesla's management is pitching investors on an AI future while the income statement tells a very different story, and the gap between those two realities is getting harder to ignore."
+      },
+      {
+        "title": "ETF Inflows Set a Record in July. The Fee Mix Moved at the Same Time.",
+        "url": "https://www.fool.com/investing/2026/09/06/etf-inflows-set-a-record-in-july-the-fee-mix-moved/?.tsrc=rss",
+        "time_published": "2026-09-06 09:35",
+        "source": "Fool",
+        "summary": "Investors are still buying exchange-traded funds in huge numbers, but Wall Street has figured out how to make this transition more profitable, too."
+      },
+      {
+        "title": "Your Future Proof Guide: The ETF Oasis Agenda",
+        "url": "http://www.etf.com/sections/features/your-future-proof-guide-etf-oasis-agenda?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-09-04 20:26",
+        "source": "Etf",
+        "summary": "We're excited to announce our agenda for the ETF Oasis at Future Proof! From hours of engaging conversations onstage to ice cream, breakfast, popcorn, happy hours and more, you'll find a little bit of everything happening at the Oasis."
+      },
+      {
+        "title": "Bitmine Sinks 6%, Strategy Slips: Is the Crypto Treasury Trade Unwinding?",
+        "url": "https://247wallst.com/investing/2026/09/04/bitmine-sinks-6-strategy-slips-is-the-crypto-treasury-trade-unwinding/?.tsrc=rss",
+        "time_published": "2026-09-04 19:22",
+        "source": "247wallst",
+        "summary": "Bitmine just surrendered a big slice of its 37% monthly run while Strategy barely flinched, even though both coins fell together. What separates the two crypto treasury stocks matters more today than the coins themselves."
+      },
+      {
+        "title": "Japan Has Not Done This Since 1990. If It Happens, the Cheap Money Propping Up US Stocks Gets Expensive",
+        "url": "https://247wallst.com/investing/2026/09/04/japan-has-not-done-this-since-1990-if-it-happens-the-cheap-money-propping-up-us-stocks-gets-expensive/?.tsrc=rss",
+        "time_published": "2026-09-04 19:18",
+        "source": "247wallst",
+        "summary": "A single public comment from a Bank of Japan official sent the yen surging and rattled a cornerstone assumption holding up American equities, and the policy lever traders are now watching has not been pulled in over three decades."
       }
     ],
     "oil": [
+      {
+        "title": "Trump Promised Cheaper Gas. Now His Team Blames Ukraine\u2014and Paul Krugman Says They Have 'No Cards' Left to Stop It",
+        "url": "https://finance.yahoo.com/energy/articles/trump-promised-cheaper-gas-now-120016602.html?.tsrc=rss",
+        "time_published": "2026-09-04 12:00",
+        "source": "Finance",
+        "summary": "Economist Paul Krugman argues that the Donald Trump administration\u2019s attempt to blame Ukraine for soaring fuel prices highlights that Washington is powerless to alter Kyiv\u2019s strategy, as officials have \u201cno cards\u201d left to fulfill promises of cheaper gas. Bessent Points..."
+      },
       {
         "title": "The Best-Performing Commodity ETFs of 2026: Oil and Broad Baskets Lead the Pack",
         "url": "http://www.etf.com/sections/news/best-performing-commodity-etfs-2026-oil-and-broad-baskets-lead-pack?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-07-29 04:03",
         "source": "Thedailyupside",
         "summary": "The Iran war and the spread of data centers have boosted the performance of energy ETFs, but uncertainty may be creeping in."
-      },
-      {
-        "title": "Trump Criticized Biden for Draining America\u2019s Oil Reserves. They\u2019re Now at a 43-Year Low Amidst a Middle East War.",
-        "url": "https://247wallst.com/investing/2026/07/28/trump-criticized-biden-for-draining-americas-oil-reserves-theyre-now-at-a-43-year-low-amidst-a-middle-east-war/?.tsrc=rss",
-        "time_published": "2026-07-28 16:42",
-        "source": "247wallst",
-        "summary": "Donald Trump spent his 2024 campaign hammering Biden for emptying America's emergency oil stockpile, pledging to refill it the moment he took office. Now a shooting war in the Middle East is testing whether that promise was ever realistic."
       }
     ]
   }
