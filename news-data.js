@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-07T12:28:16Z",
+  "generated": "2026-09-08T11:12:40Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "U.S. Dollar Tests New Lows Against Japanese Yen: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-tests-lows-against-165555607.html?.tsrc=rss",
+        "time_published": "2026-09-07 16:55",
+        "source": "Finance",
+        "summary": "Japanese yen rallies as traders bet on BoJ rate hike."
+      },
+      {
+        "title": "US Dollar Price Forecast: Strong Jobs Revive Fed Hike Bets as ECB Decision Looms",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-081231126.html?.tsrc=rss",
+        "time_published": "2026-09-07 08:12",
+        "source": "Finance",
+        "summary": "Strong U.S. jobs revive Fed hike bets as DXY stalls, while ECB and BoE tightening risks support the euro and pound ahead of key inflation data."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Weakens Ahead of NFP; EUR/USD and GBP/USD Recover",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-063755377.html?.tsrc=rss",
@@ -43,23 +57,30 @@ window.NEWS_DATA = {
         "time_published": "2026-08-31 08:19",
         "source": "Finance",
         "summary": "Warsh\u2019s hawkish Jackson Hole remarks revive September Fed hike bets as DXY rebounds while EUR/USD and GBP/USD break key technical support."
-      },
-      {
-        "title": "US Dollar Price Forecast: Warsh Looms as DXY Rebounds, EUR/USD Pulls Back; GBPUSD Key Levels",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-055644863.html?.tsrc=rss",
-        "time_published": "2026-08-28 05:56",
-        "source": "Finance",
-        "summary": "The dollar approaches a key breakout level as traders await Warsh, while EUR/USD tests Fibonacci support and GBP/USD loses channel support."
-      },
-      {
-        "title": "US Dollar Price Forecast: Sticky Inflation Lifts DXY as EUR/USD and GBP/USD Pull Back",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-sticky-052741530.html?.tsrc=rss",
-        "time_published": "2026-08-27 05:27",
-        "source": "Finance",
-        "summary": "Sticky U.S. PCE revives Fed hike risk as DXY rebounds, while traders await Warsh\u2019s Jackson Hole signals and EUR/USD and GBP/USD test support."
       }
     ],
     "eurusd": [
+      {
+        "title": "U.S. Dollar Tests New Lows Against Japanese Yen: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-tests-lows-against-165555607.html?.tsrc=rss",
+        "time_published": "2026-09-07 16:55",
+        "source": "Finance",
+        "summary": "Japanese yen rallies as traders bet on BoJ rate hike."
+      },
+      {
+        "title": "US Dollar Price Forecast: Strong Jobs Revive Fed Hike Bets as ECB Decision Looms",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-081231126.html?.tsrc=rss",
+        "time_published": "2026-09-07 08:12",
+        "source": "Finance",
+        "summary": "Strong U.S. jobs revive Fed hike bets as DXY stalls, while ECB and BoE tightening risks support the euro and pound ahead of key inflation data."
+      },
+      {
+        "title": "ECB Rate Hikes: Why Markets See More Tightening Than Many Economists Expect",
+        "url": "https://finance.yahoo.com/economy/policy/articles/ecb-rate-hikes-why-markets-074339623.html?.tsrc=rss",
+        "time_published": "2026-09-07 07:43",
+        "source": "Finance",
+        "summary": "The European Central Bank is widely expected to raise interest rates again on September 10, taking its deposit rate to 2.50%. The decision itself is hardly controversial: all 65 economists surveyed by Reuters between August 31 and September 3 predicted a 25-basis-point increase."
+      },
       {
         "title": "EUR/USD, USD/JPY, & USD/CAD Short-Term Forecasts for 04/09/2026",
         "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-jpy-usd-135632254.html?.tsrc=rss",
@@ -94,27 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-02 14:11",
         "source": "Finance",
         "summary": "The forex markets continue to watch the ten-year yield in the United States, while the jobs data on Friday could be a big mover if we get an unexpected number."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR/USD and GBP/USD Fall",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-053753979.html?.tsrc=rss",
-        "time_published": "2026-09-02 05:37",
-        "source": "Finance",
-        "summary": "DXY strengthens as Iran escalation lifts inflation risks and Fed hike bets, while EUR/USD and GBP/USD extend their bearish breakdowns."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 99.58 as Jobs Week Tests Hawkish Fed; Eyes on EUR/USD and GBP/USD",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061727219.html?.tsrc=rss",
-        "time_published": "2026-09-01 06:17",
-        "source": "Finance",
-        "summary": "Fed hike bets support the dollar as markets await JOLTS, ADP and NFP, while EUR/USD and GBP/USD remain pressured near key technical levels."
-      },
-      {
-        "title": "EUR/USD, GBP/USD, and USD/CAD Short-Term Forecast for 31/08/2026",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-gbp-usd-usd-131237921.html?.tsrc=rss",
-        "time_published": "2026-08-31 13:12",
-        "source": "Finance",
-        "summary": "The US dollar got a jolt of energy on Friday. On Monday, we are trying to find out if that was real and sustainable."
       }
     ],
     "xauusd": [],
@@ -178,6 +178,41 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
+        "title": "IBB Just Beat the S&P 500 by 22 Points in Three Months. Are You Late to the Party?",
+        "url": "https://247wallst.com/investing/etf/2026/09/07/ibb-just-beat-the-sp-500-by-22-points-in-three-months-are-you-late-to-the-party/?.tsrc=rss",
+        "time_published": "2026-09-07 16:22",
+        "source": "247wallst",
+        "summary": "Biotech just staged one of its sharpest reversals in years, and whether you caught it or completely missed it, the same uncomfortable question now sits in front of every portfolio: does the trade still have teeth, or did the easy money already leave?"
+      },
+      {
+        "title": "Microsoft Is Close to a New All-Time High. This Number Will Determine If It Keeps Climbing",
+        "url": "https://247wallst.com/investing/2026/09/07/microsoft-is-close-to-a-new-all-time-high-this-number-will-determine-if-it-keeps-climbing/?.tsrc=rss",
+        "time_published": "2026-09-07 15:45",
+        "source": "247wallst",
+        "summary": "Microsoft sits within reach of a record high, yet one line item buried in its cash flow statement could either launch the stock through that ceiling or keep it rangebound for another year."
+      },
+      {
+        "title": "Roblox Has Collapsed 47% This Year: Is It Time to Switch to Take-Two or GameStop?",
+        "url": "https://247wallst.com/investing/2026/09/07/roblox-has-collapsed-47-this-year-is-it-time-to-switch-to-take-two-or-gamestop/?.tsrc=rss",
+        "time_published": "2026-09-07 14:50",
+        "source": "247wallst",
+        "summary": "Roblox cratered while its closest gaming peers held up far better, but before you rush to rotate, check whether any corner of this sector actually rewarded investors when the broad market was busy setting records."
+      },
+      {
+        "title": "Which Solar Stock Has Dominated in 2026: SolarEdge, Enphase Energy, or First Solar?",
+        "url": "https://247wallst.com/investing/2026/09/07/which-solar-stock-has-dominated-in-2026-solaredge-enphase-energy-or-first-solar/?.tsrc=rss",
+        "time_published": "2026-09-07 14:30",
+        "source": "247wallst",
+        "summary": "Three of solar's biggest names traded in completely different directions in 2026, and the one posting the worst losses also happens to be the most profitable of the group. Find out what policy shocks and platform bets separated the winners from the losers."
+      },
+      {
+        "title": "Which Defensive Stock Has Dominated in 2026: Coca-Cola, Johnson & Johnson, or Procter & Gamble?",
+        "url": "https://247wallst.com/investing/2026/09/07/which-defensive-stock-has-dominated-in-2026-coca-cola-johnson-johnson-or-procter-gamble/?.tsrc=rss",
+        "time_published": "2026-09-07 13:40",
+        "source": "247wallst",
+        "summary": "Three defensive blue chips entered 2026 promising safety, but their returns split into wildly different tiers, and the reason one name lapped the others exposes a fault line in how investors define defensive in the first place."
+      },
+      {
         "title": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq \u2014TSLA, NFLX, BE, NVDA In Focus",
         "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-blowout-jobs-report-fans-rate-hike-fears-while-chipmaker-strength-aids-nasdaq-tsla-nflx-be-nvda-in-focus/cZsDjVKRJDg?.tsrc=rss",
         "time_published": "2026-09-04 22:18",
@@ -192,46 +227,11 @@ window.NEWS_DATA = {
         "summary": "There's no rule that says expensive valuations must end in big drawdowns."
       },
       {
-        "title": "GoPro Zooms 34% Higher on Starman Optical Merger and Markiplier Stake; Coherent Climbs 7%, Lumentum Gains 3%",
-        "url": "https://247wallst.com/investing/2026/09/04/gopro-zooms-34-higher-on-starman-optical-merger-and-markiplier-stake-coherent-climbs-7-lumentum-gains-3/?.tsrc=rss",
-        "time_published": "2026-09-04 16:20",
+        "title": "How a 64-Year-Old\u2019s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
+        "url": "https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/?.tsrc=rss",
+        "time_published": "2026-09-07 21:25",
         "source": "247wallst",
-        "summary": "GoPro is surging on a merger that turns a camera company into an optical-transceiver play, and a famous YouTuber just became its largest individual shareholder. Here is what the move actually means against a backdrop of proven incumbents already delivering billion-dollar datacenter revenue."
-      },
-      {
-        "title": "Tesla Wants to Be Seen as an AI Company",
-        "url": "https://247wallst.com/investing/2026/09/07/tesla-wants-to-be-seen-as-an-ai-company/?.tsrc=rss",
-        "time_published": "2026-09-07 11:29",
-        "source": "247wallst",
-        "summary": "Tesla's management is pitching investors on an AI future while the income statement tells a very different story, and the gap between those two realities is getting harder to ignore."
-      },
-      {
-        "title": "ETF Inflows Set a Record in July. The Fee Mix Moved at the Same Time.",
-        "url": "https://www.fool.com/investing/2026/09/06/etf-inflows-set-a-record-in-july-the-fee-mix-moved/?.tsrc=rss",
-        "time_published": "2026-09-06 09:35",
-        "source": "Fool",
-        "summary": "Investors are still buying exchange-traded funds in huge numbers, but Wall Street has figured out how to make this transition more profitable, too."
-      },
-      {
-        "title": "Your Future Proof Guide: The ETF Oasis Agenda",
-        "url": "http://www.etf.com/sections/features/your-future-proof-guide-etf-oasis-agenda?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-09-04 20:26",
-        "source": "Etf",
-        "summary": "We're excited to announce our agenda for the ETF Oasis at Future Proof! From hours of engaging conversations onstage to ice cream, breakfast, popcorn, happy hours and more, you'll find a little bit of everything happening at the Oasis."
-      },
-      {
-        "title": "Bitmine Sinks 6%, Strategy Slips: Is the Crypto Treasury Trade Unwinding?",
-        "url": "https://247wallst.com/investing/2026/09/04/bitmine-sinks-6-strategy-slips-is-the-crypto-treasury-trade-unwinding/?.tsrc=rss",
-        "time_published": "2026-09-04 19:22",
-        "source": "247wallst",
-        "summary": "Bitmine just surrendered a big slice of its 37% monthly run while Strategy barely flinched, even though both coins fell together. What separates the two crypto treasury stocks matters more today than the coins themselves."
-      },
-      {
-        "title": "Japan Has Not Done This Since 1990. If It Happens, the Cheap Money Propping Up US Stocks Gets Expensive",
-        "url": "https://247wallst.com/investing/2026/09/04/japan-has-not-done-this-since-1990-if-it-happens-the-cheap-money-propping-up-us-stocks-gets-expensive/?.tsrc=rss",
-        "time_published": "2026-09-04 19:18",
-        "source": "247wallst",
-        "summary": "A single public comment from a Bank of Japan official sent the yen surging and rattled a cornerstone assumption holding up American equities, and the policy lever traders are now watching has not been pulled in over three decades."
+        "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation"
       }
     ],
     "oil": [

@@ -1,5 +1,5 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-09-07T12:28:14Z",
+  "generated": "2026-09-08T11:12:39Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_OIL = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "2/10",
-  "analysis": "The price action strongly confirms the EMA trend, with USO trading well above both the 50-day (128.07) and 200-day (112.02) EMAs, indicating a sustained uptrend. The MACD remains bullish with the signal line above the trigger and positive histogram, aligning with the trend. However, the RSI at 66.16 is neutral and not overbought, leaving room for further upside, but the recent Doji candlestick pattern signals indecision after a rally. The pre-calculated signal score of 2/10 is very low, suggesting the current setup lacks clear edge or confirmation.\n\nNo additional chart patterns such as flags, triangles, or double tops/bottoms are evident from the given data. The Doji alone does not constitute a reliable reversal or continuation pattern without volume or subsequent confirmation. Key support near current price is sparse; the nearest meaningful level is the round number 138.00, followed by the 136.00 area and the distant EMA50 at 128.07. Resistance levels are undefined from the indicators, but psychological round numbers at 145.00, 148.00, and 150.00 are plausible.\n\nRSI and MACD are in confluence with the uptrend, but the low signal score and Doji suggest the risk of a pullback or consolidation is elevated. Without a clear entry trigger, the best course is to wait for a higher-probability setup\u2014either a bullish continuation pattern with volume or a retest of support near 138.00 that holds before re-entering long. A buy here would offer poor reward relative to the risk of a mean reversion.",
-  "invalidation": "This setup is invalidated if price closes below the 138.00 support level, as that would break the near-term uptrend structure and signal a deeper correction toward the EMA50.",
+  "analysis": "The price action confirms the strong uptrend, trading well above both the 50\u2011period (128.07) and 200\u2011period (112.02) EMAs. The MACD remains bullish with the histogram positive, and RSI at 66.16 is in neutral territory, leaving room for further upside without immediate overbought pressure. No bearish divergence is present, so the underlying momentum still favors bulls. However, the appearance of a doji candlestick on the most recent day suggests indecision after a prolonged advance. Combined with a signal score of only 2/10, the current risk\u2011reward profile is poor for initiating a new long position at this elevated level.\n\nNo additional chart patterns (flags, triangles, or reversal tops) are explicitly inferred from the given data, but the doji could mark a short\u2011term pause or potential exhaustion. Key support levels near price are psychological round numbers and prior swing lows: 140.00 (recent minor support), followed by 138.00 and 136.00. On the upside, resistance may be found at 143.00 (a prior reaction high), then 145.00 and 148.00. The ATR of 4.31 indicates a wide daily range, amplifying the risk of a sudden reversal when momentum wanes.\n\nThe RSI and MACD are still aligned with the uptrend, but the lack of a strong confirming candlestick pattern and the low signal score suggest the setup is not reliable for a fresh entry. A swing trader should wait for a clearer signal\u2014either a pullback to a support level with a bullish reversal pattern, or a breakout above the doji\u2019s high with increased volume. Entering now would risk buying near the top of the recent range with no defined stop\u2011loss placement that offers a favorable risk\u2011reward ratio.",
+  "invalidation": "This wait\u2011and\u2011see stance is invalidated if price breaks decisively above the doji\u2019s high (above ~142.50) with strong volume and momentum, or pulls back to the 140.00 support and forms a bullish engulfing candle, both of which would improve the signal score and warrant a new long entry.",
   "support_levels": [
+    140.0,
     138.0,
-    136.0,
-    128.07
+    136.0
   ],
   "resistance_levels": [
+    143.0,
     145.0,
-    148.0,
-    150.0
+    148.0
   ]
 };
