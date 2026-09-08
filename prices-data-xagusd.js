@@ -1,7 +1,7 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-09-07T11:01:58Z",
+  "generated": "2026-09-08T10:16:42Z",
   "date": "2026-09-04",
   "price": 59.82,
   "atr": 1.85,

@@ -1,36 +1,24 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-09-07T11:01:54Z",
-  "date": "2026-09-07",
-  "price": 1.1624,
-  "atr": 0.00432,
-  "atr_pips": 43,
+  "generated": "2026-09-08T10:16:41Z",
+  "date": "2026-09-08",
+  "price": 1.16141,
+  "atr": 0.0042,
+  "atr_pips": 42,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15729,
-  "ema200": 1.15918,
-  "rsi": 55.71,
-  "macd_line": 0.001295,
-  "macd_signal": 0.001874,
-  "macd_hist": -0.000579,
+  "ema50": 1.15745,
+  "ema200": 1.15923,
+  "rsi": 53.15,
+  "macd_line": 0.001185,
+  "macd_signal": 0.001735,
+  "macd_hist": -0.00055,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-03",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
-    },
-    {
-      "date": "2026-09-03",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-09-04",
       "name": "Hanging Man",
@@ -44,16 +32,9 @@ window.PRICES_DATA_EURUSD = {
       "strength": 3
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 3,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-05-31",
-      "open": 1.16595,
-      "high": 1.1667,
-      "low": 1.16543,
-      "close": 1.16593
-    },
     {
       "date": "2026-06-01",
       "open": 1.16576,
@@ -745,7 +726,14 @@ window.PRICES_DATA_EURUSD = {
       "open": 1.16141,
       "high": 1.16354,
       "low": 1.1607,
-      "close": 1.1624
+      "close": 1.16233
+    },
+    {
+      "date": "2026-09-08",
+      "open": 1.1623,
+      "high": 1.16362,
+      "low": 1.16089,
+      "close": 1.16141
     }
   ]
 };
