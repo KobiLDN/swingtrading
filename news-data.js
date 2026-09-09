@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-08T11:12:40Z",
+  "generated": "2026-09-09T11:16:20Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as ECB Tightening Supports Euro; EUR/USD and GBP/USD Key Levels",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-075647322.html?.tsrc=rss",
+        "time_published": "2026-09-08 07:56",
+        "source": "Finance",
+        "summary": "U.S. inflation and the ECB decision take focus as DXY remains weak, EUR/USD approaches a breakout and GBP/USD stays range-bound."
+      },
       {
         "title": "U.S. Dollar Tests New Lows Against Japanese Yen: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-tests-lows-against-165555607.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-08-31 13:12",
         "source": "Finance",
         "summary": "The US dollar got a jolt of energy on Friday. On Monday, we are trying to find out if that was real and sustainable."
-      },
-      {
-        "title": "US Dollar Price Forecast: Hawkish Warsh Lifts DXY as EUR/USD and GBP/USD Fall",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081954940.html?.tsrc=rss",
-        "time_published": "2026-08-31 08:19",
-        "source": "Finance",
-        "summary": "Warsh\u2019s hawkish Jackson Hole remarks revive September Fed hike bets as DXY rebounds while EUR/USD and GBP/USD break key technical support."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as ECB Tightening Supports Euro; EUR/USD and GBP/USD Key Levels",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-075647322.html?.tsrc=rss",
+        "time_published": "2026-09-08 07:56",
+        "source": "Finance",
+        "summary": "U.S. inflation and the ECB decision take focus as DXY remains weak, EUR/USD approaches a breakout and GBP/USD stays range-bound."
+      },
       {
         "title": "U.S. Dollar Tests New Lows Against Japanese Yen: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-tests-lows-against-165555607.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-03 07:47",
         "source": "Finance",
         "summary": "Soft ADP hiring data challenge Fed hike expectations as DXY weakens, while traders turn to Friday\u2019s NFP for the next major dollar catalyst."
-      },
-      {
-        "title": "EUR/USD, USD/CAD and USD/CHF Face Key Dollar Tests",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-cad-usd-141114155.html?.tsrc=rss",
-        "time_published": "2026-09-02 14:11",
-        "source": "Finance",
-        "summary": "The forex markets continue to watch the ten-year yield in the United States, while the jobs data on Friday could be a big mover if we get an unexpected number."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,77 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "IBB Just Beat the S&P 500 by 22 Points in Three Months. Are You Late to the Party?",
-        "url": "https://247wallst.com/investing/etf/2026/09/07/ibb-just-beat-the-sp-500-by-22-points-in-three-months-are-you-late-to-the-party/?.tsrc=rss",
-        "time_published": "2026-09-07 16:22",
-        "source": "247wallst",
-        "summary": "Biotech just staged one of its sharpest reversals in years, and whether you caught it or completely missed it, the same uncomfortable question now sits in front of every portfolio: does the trade still have teeth, or did the easy money already leave?"
-      },
-      {
-        "title": "Microsoft Is Close to a New All-Time High. This Number Will Determine If It Keeps Climbing",
-        "url": "https://247wallst.com/investing/2026/09/07/microsoft-is-close-to-a-new-all-time-high-this-number-will-determine-if-it-keeps-climbing/?.tsrc=rss",
-        "time_published": "2026-09-07 15:45",
-        "source": "247wallst",
-        "summary": "Microsoft sits within reach of a record high, yet one line item buried in its cash flow statement could either launch the stock through that ceiling or keep it rangebound for another year."
-      },
-      {
-        "title": "Roblox Has Collapsed 47% This Year: Is It Time to Switch to Take-Two or GameStop?",
-        "url": "https://247wallst.com/investing/2026/09/07/roblox-has-collapsed-47-this-year-is-it-time-to-switch-to-take-two-or-gamestop/?.tsrc=rss",
-        "time_published": "2026-09-07 14:50",
-        "source": "247wallst",
-        "summary": "Roblox cratered while its closest gaming peers held up far better, but before you rush to rotate, check whether any corner of this sector actually rewarded investors when the broad market was busy setting records."
-      },
-      {
-        "title": "Which Solar Stock Has Dominated in 2026: SolarEdge, Enphase Energy, or First Solar?",
-        "url": "https://247wallst.com/investing/2026/09/07/which-solar-stock-has-dominated-in-2026-solaredge-enphase-energy-or-first-solar/?.tsrc=rss",
-        "time_published": "2026-09-07 14:30",
-        "source": "247wallst",
-        "summary": "Three of solar's biggest names traded in completely different directions in 2026, and the one posting the worst losses also happens to be the most profitable of the group. Find out what policy shocks and platform bets separated the winners from the losers."
-      },
-      {
-        "title": "Which Defensive Stock Has Dominated in 2026: Coca-Cola, Johnson & Johnson, or Procter & Gamble?",
-        "url": "https://247wallst.com/investing/2026/09/07/which-defensive-stock-has-dominated-in-2026-coca-cola-johnson-johnson-or-procter-gamble/?.tsrc=rss",
-        "time_published": "2026-09-07 13:40",
-        "source": "247wallst",
-        "summary": "Three defensive blue chips entered 2026 promising safety, but their returns split into wildly different tiers, and the reason one name lapped the others exposes a fault line in how investors define defensive in the first place."
-      },
-      {
-        "title": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq \u2014TSLA, NFLX, BE, NVDA In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-blowout-jobs-report-fans-rate-hike-fears-while-chipmaker-strength-aids-nasdaq-tsla-nflx-be-nvda-in-focus/cZsDjVKRJDg?.tsrc=rss",
-        "time_published": "2026-09-04 22:18",
+        "title": "S&P 500, Dow End Lower As Middle East Tensions Spur Oil Rally Ahead Of Key Inflation Data \u2014 META, QCOM, BE, AMZN, AVGO In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-middle-east-tensions-spur-oil-rally/cZtEOUNRJyE?.tsrc=rss",
+        "time_published": "2026-09-08 22:46",
         "source": "Stocktwits",
-        "summary": "Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%."
+        "summary": "The U.S. struck targets near Kharg Island and the port city of Jask, Fox News reported."
       },
       {
-        "title": "This Is the Most Expensive Market in Decades. Is It Really Safe to Invest Right Now?",
-        "url": "https://www.fool.com/investing/2026/09/04/this-is-the-most-expensive-market-in-decades-is-it/?.tsrc=rss",
-        "time_published": "2026-09-04 19:20",
-        "source": "Fool",
-        "summary": "There's no rule that says expensive valuations must end in big drawdowns."
-      },
-      {
-        "title": "How a 64-Year-Old\u2019s $1.2 Million in VOO Turned Into a $456,000 Bet on a Single Sector",
-        "url": "https://247wallst.com/investing/etf/2026/09/07/how-a-64-year-olds-1-2-million-in-voo-turned-into-a-456000-bet-on-a-single-sector/?.tsrc=rss",
-        "time_published": "2026-09-07 21:25",
+        "title": "Wall Street Keeps Asking How Much Meta Will Spend. The Better Question Is at What Price to Buy",
+        "url": "https://247wallst.com/investing/2026/09/08/wall-street-keeps-asking-how-much-meta-will-spend-the-better-question-is-at-what-price-to-buy/?.tsrc=rss",
+        "time_published": "2026-09-08 13:45",
         "source": "247wallst",
-        "summary": "A $1.2 million position in Vanguard's most popular S&P 500 fund looks like broad diversification until you open the shareholder report and see where most of that money actually sits. For a 64-year-old counting on this portfolio for the next 30 years, the sector breakdown changes the risk calculation"
+        "summary": "Meta's ad engine is accelerating at a historic pace while the stock sits near a level that has historically signaled a cyclical floor, but the $130 billion capex bet hanging over the company changes every calculation an investor needs to make before touching it."
+      },
+      {
+        "title": "Has AI Made S&P 500 Index Funds Too Dangerous to Touch?",
+        "url": "https://www.fool.com/investing/2026/09/09/has-ai-made-sp-500-index-funds-too-dangerous-to-to/?.tsrc=rss",
+        "time_published": "2026-09-09 10:02",
+        "source": "Fool",
+        "summary": "The S&P 500 has become overexposed to the AI industry."
+      },
+      {
+        "title": "How to Profit From Sharp Stock Moves\u2014Up or Down",
+        "url": "https://finance.yahoo.com/m/fdbeaefd-7bd3-36de-88c5-6e0c1dc9b022/how-to-profit-from-sharp.html?.tsrc=rss",
+        "time_published": "2026-09-09 06:00",
+        "source": "Finance",
+        "summary": "What happens next is far from clear, though two basic outcomes are likely: The AI trade will gain new energy\u2014or investors will lean more toward the safety of the S&P 500."
+      },
+      {
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61676904/stock-market-will-sp-500-open-up-or-down-today-33?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-09 05:48",
+        "source": "Benzinga",
+        "summary": "U.S. stock futures are pointing to a mixed open early Wednesday, with tech and benchmark futures edging higher even as Brent crude surges toward $100 per barrel amid escalating U.S.-Iran military exchanges and ahead of Apple Inc.\u2019s (NASDAQ:AAPL) annual product..."
+      },
+      {
+        "title": "QQQ vs QQQM: Same Index, Same Stocks, Different Fee \u2013 and the Math Says One Leaves You Thousands Richer",
+        "url": "https://247wallst.com/investing/etf/2026/09/08/qqq-vs-qqqm-same-index-same-stocks-different-fee-and-the-math-says-one-leaves-you-thousands-richer/?.tsrc=rss",
+        "time_published": "2026-09-08 21:45",
+        "source": "247wallst",
+        "summary": "Invesco offers two funds tracking the exact same Nasdaq-100 stocks with the same management team, yet one of them quietly drains thousands of dollars from a long-term investor's portfolio. Knowing which ticker belongs in your account depends entirely on how you plan to use it."
+      },
+      {
+        "title": "XYLD vs GPIX vs ISPY: We Compared 3 Ways to Sell Covered Calls on the S&P 500, and the Highest Yield Is Not the Best Deal",
+        "url": "https://247wallst.com/investing/etf/2026/09/08/xyld-vs-gpix-vs-ispy-we-compared-3-ways-to-sell-covered-calls-on-the-sp-500-and-the-highest-yield-is-not-the-best-deal/?.tsrc=rss",
+        "time_published": "2026-09-08 21:35",
+        "source": "247wallst",
+        "summary": "Three S&P 500 covered-call ETFs promise income from the same underlying index, but their wildly different strategies produce returns that would shock anyone who chose a fund based on yield alone."
+      },
+      {
+        "title": "Amgen Falls 10% as Novartis Trial Failure Clouds a Cholesterol Drug Class; NVS Stock Drops 14%",
+        "url": "https://247wallst.com/investing/2026/09/08/amgen-falls-10-as-novartis-trial-failure-clouds-a-cholesterol-drug-class-nvs-stock-drops-14/?.tsrc=rss",
+        "time_published": "2026-09-08 17:08",
+        "source": "247wallst",
+        "summary": "Novartis just handed the entire Lp(a) drug class a failing grade, and Amgen is taking the worst of the punishment despite releasing promising trial results of its own on the very same morning."
       }
     ],
     "oil": [
+      {
+        "title": "'Will The Fed Ever Learn?' Market Strategist Warns Hiking Into Oil Shock Could Repeat 2008's Biggest Mistake",
+        "url": "https://finance.yahoo.com/economy/policy/articles/fed-ever-learn-market-strategist-183007074.html?.tsrc=rss",
+        "time_published": "2026-09-08 18:30",
+        "source": "Finance",
+        "summary": "James Thorne, Chief Market Strategist at Wellington Altus, warned that a Kevin Warsh-led Federal Reserve could repeat one of the \u201cmost damaging\u201d errors from the 2008 financial crisis by raising interest rates as oil prices surge, mistaking an energy-driven price..."
+      },
+      {
+        "title": "Washington Wants Venezuela\u2019s Gold and Critical Minerals",
+        "url": "https://app.moby.co/home/news/news-washington-wants-venezuelas-gold-and-critical-minerals?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+        "time_published": "2026-09-08 16:55",
+        "source": "App",
+        "summary": "There\u2019s no need for any legal backing or executive order because the oil deal authorizes mining of other minerals as a bonus."
+      },
       {
         "title": "Trump Promised Cheaper Gas. Now His Team Blames Ukraine\u2014and Paul Krugman Says They Have 'No Cards' Left to Stop It",
         "url": "https://finance.yahoo.com/energy/articles/trump-promised-cheaper-gas-now-120016602.html?.tsrc=rss",
@@ -276,20 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-13 20:51",
         "source": "247wallst",
         "summary": "Crude is up 86% this year and a popular midstream ETF is quietly collecting a toll on every dollar chasing that trade. Before your next energy allocation, consider what you might be paying for exposure you could own directly."
-      },
-      {
-        "title": "Trump Says Hormuz Deal Could Come Within 48 Hours: Do Prediction Markets Back Him Up?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/08/60955568/trump-says-hormuz-deal-could-come-within-48-hours-do-prediction-markets-back-him-up?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-08-05 15:08",
-        "source": "Benzinga",
-        "summary": "President Donald Trump said Tuesday night that Strait of Hormuz negotiations are \u201cmoving along very nicely\u201d and promised an answer within 48 hours. Traders on Polymarket are pricing a wide gap between hearing an announcement and seeing ships move. What..."
-      },
-      {
-        "title": "After Wild Ride, ETF Investors Pump the Brakes on Energy Funds",
-        "url": "https://www.thedailyupside.com/etf/thematics-sectors/after-wild-ride-etf-investors-pump-the-brakes-on-energy-funds/?.tsrc=rss",
-        "time_published": "2026-07-29 04:03",
-        "source": "Thedailyupside",
-        "summary": "The Iran war and the spread of data centers have boosted the performance of energy ETFs, but uncertainty may be creeping in."
       }
     ]
   }

@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-09-08T11:10:25Z",
+  "generated": "2026-09-09T11:14:18Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_EURUSD = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "3/10",
-  "analysis": "The overall trend is ambiguous. Price at 1.16141 sits above both the 50\u2011period (1.15745) and 200\u2011period (1.15923) EMAs, which technically supports a bullish bias. However, the EMA50 is below the EMA200 (a bearish long\u2011term alignment), and the given trend label (\u201cBULLISH BIAS\u201d) appears to reflect short\u2011term price action rather than a fully confirmed trend. The recent candlestick patterns\u2014a Hanging Man followed by a Shooting Star\u2014are classic bearish reversal formations, suggesting exhaustion of buying pressure near the current level. This divergence between price position and candlestick signals reduces confidence in a sustained bullish move.\n\nAdditional chart patterns are not explicitly visible from the data, but the succession of two bearish reversal candles in a narrow range hints at a potential short\u2011term top or a small double\u2011top structure if a prior high existed nearby (not provided). The lack of a clear breakout or consolidation pattern (e.g., triangle or flag) means no reliable continuation or reversal pattern can be inferred solely from the given information.\n\nThe MACD is bearish (line below signal, negative histogram), while the RSI is neutral at 53.15 with no divergence. This is a conflicting picture: the MACD warns of weakening momentum, yet the RSI does not confirm overbought or oversold extremes. The MACD\u2019s bearish stance directly contradicts the bullish price\u2011EMA alignment, creating a low\u2011confluence environment. The signal score of 3/10 already encapsulates this weak setup.\n\nGiven the bearish reversal candles, bearish MACD, and neutral RSI, there is no high\u2011probability entry. The price is sandwiched between support (EMAs) and resistance (likely the recent swing high near 1.1650\u20131.1660, as implied by ATR range). Without a clear catalyst or breakout, the risk of a false signal is elevated. Therefore, the prudent course is to wait for either a decisive break above resistance (to confirm bullish continuation) or a close below the EMA200 (to confirm bearish reversal) before committing capital.",
-  "invalidation": "This wait\u2011and\u2011see stance would be invalidated if price closes above 1.1660 (resistance + ATR) with strong momentum, or if a bearish engulfing candle closes below 1.1574 (EMA50) on rising volume.",
+  "analysis": "The daily chart shows price (1.16271) trading above both the EMA50 (1.15769) and EMA200 (1.15932), which technically maintains a bullish bias. However, the recent candlestick structure \u2013 two Shooting Stars and a Doji within the last five sessions \u2013 signals strong rejection at higher levels and potential bearish reversal. The EMA alignment alone is not enough to confirm a sustainable uptrend without price action support.  \n\nThe MACD is bearish (line below signal, negative histogram), directly conflicting with the EMA trend. The RSI is neutral at 56.44 with no divergence, offering no clear direction. The lack of confluence between trend indicators and momentum oscillators, combined with bearish reversal candlestick patterns, creates a high-risk environment for initiating a trade. No additional chart patterns (triangles, flags, etc.) are clearly identifiable from the given data, but the cluster of shooting stars suggests a resistance zone near 1.1635\u20131.1645.  \n\nGiven the low signal score (3/10) and mixed signals, the prudent action is to wait for clearer confirmation. A bearish setup would require a decisive close below the EMA200 (1.15932) and a breakdown of the recent swing low. A bullish setup would need a strong bullish engulfing candle above 1.1645 with improving momentum. Until then, staying flat avoids whipsaw risk in a low\u2011conviction environment.",
+  "invalidation": "This wait\u2011and\u2011see approach is invalidated if price closes decisively above 1.1650 (confirming bullish continuation) or below 1.1580 (confirming bearish breakdown), as either would provide a clear directional bias.",
   "support_levels": [
-    1.15923,
-    1.15745,
+    1.15932,
+    1.15769,
     1.155
   ],
   "resistance_levels": [
-    1.1656,
-    1.168,
-    1.17
+    1.164,
+    1.166,
+    1.168
   ]
 };
