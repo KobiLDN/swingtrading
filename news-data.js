@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-09T11:16:20Z",
+  "generated": "2026-09-10T11:12:05Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "U.S. Dollar Moves Lower As Bessent Boosts Bond Buybacks: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-lower-bessent-170250168.html?.tsrc=rss",
+        "time_published": "2026-09-09 17:02",
+        "source": "Finance",
+        "summary": "U.S. dollar is losing some ground as traders worry that debt markets get out of control."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Hike Bets Rise as ECB Tightening Supports Euro; EUR/USD and GBP/USD Key Levels",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-075647322.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-01 06:17",
         "source": "Finance",
         "summary": "Fed hike bets support the dollar as markets await JOLTS, ADP and NFP, while EUR/USD and GBP/USD remain pressured near key technical levels."
-      },
-      {
-        "title": "EUR/USD, GBP/USD, and USD/CAD Short-Term Forecast for 31/08/2026",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-gbp-usd-usd-131237921.html?.tsrc=rss",
-        "time_published": "2026-08-31 13:12",
-        "source": "Finance",
-        "summary": "The US dollar got a jolt of energy on Friday. On Monday, we are trying to find out if that was real and sustainable."
       }
     ],
     "eurusd": [
+      {
+        "title": "U.S. Dollar Moves Lower As Bessent Boosts Bond Buybacks: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-lower-bessent-170250168.html?.tsrc=rss",
+        "time_published": "2026-09-09 17:02",
+        "source": "Finance",
+        "summary": "U.S. dollar is losing some ground as traders worry that debt markets get out of control."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Hike Bets Rise as ECB Tightening Supports Euro; EUR/USD and GBP/USD Key Levels",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-075647322.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-03 13:55",
         "source": "Finance",
         "summary": "EUR/USD is approaching 1.1640, where signs of exhaustion could offer a short-term selling opportunity, while USD/CAD and USD/CHF are being watched for potential bounces. All three setups remain short-term ahead of Non-Farm Payrolls."
-      },
-      {
-        "title": "US Dollar Price Forecast: Weak ADP Hits DXY as NFP Becomes the Next Test; Key Levels for EUR/USD and GBP/USD Today",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-weak-074726240.html?.tsrc=rss",
-        "time_published": "2026-09-03 07:47",
-        "source": "Finance",
-        "summary": "Soft ADP hiring data challenge Fed hike expectations as DXY weakens, while traders turn to Friday\u2019s NFP for the next major dollar catalyst."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,70 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "S&P 500, Dow End Lower As Middle East Tensions Spur Oil Rally Ahead Of Key Inflation Data \u2014 META, QCOM, BE, AMZN, AVGO In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-end-lower-as-middle-east-tensions-spur-oil-rally/cZtEOUNRJyE?.tsrc=rss",
-        "time_published": "2026-09-08 22:46",
+        "title": "S&P 500, Dow, Nasdaq End Lower As Oil Crosses $101, Yields Pop Following Bessent\u2019s Expanded Buyback Plan \u2014 AAPL, META, AMZN, CRM In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-as-oil-crosses-101-yields-pop/cZt71xeRJCT?.tsrc=rss",
+        "time_published": "2026-09-09 22:01",
         "source": "Stocktwits",
-        "summary": "The U.S. struck targets near Kharg Island and the port city of Jask, Fox News reported."
+        "summary": "U.S. benchmark 10-year yields hit the highest since 2023."
       },
       {
-        "title": "Wall Street Keeps Asking How Much Meta Will Spend. The Better Question Is at What Price to Buy",
-        "url": "https://247wallst.com/investing/2026/09/08/wall-street-keeps-asking-how-much-meta-will-spend-the-better-question-is-at-what-price-to-buy/?.tsrc=rss",
-        "time_published": "2026-09-08 13:45",
+        "title": "What You Should Do With Microsoft As The Market De-Risks From Big Tech",
+        "url": "https://247wallst.com/investing/2026/09/10/what-you-should-do-with-microsoft-as-the-market-de-risks-from-big-tech/?.tsrc=rss",
+        "time_published": "2026-09-10 11:00",
         "source": "247wallst",
-        "summary": "Meta's ad engine is accelerating at a historic pace while the stock sits near a level that has historically signaled a cyclical floor, but the $130 billion capex bet hanging over the company changes every calculation an investor needs to make before touching it."
+        "summary": "Azure just crossed $100 billion in annual revenue and the stock is trading well off its highs, which raises an uncomfortable question about whether the selloff reflects a real problem or a market overreaction worth exploiting."
       },
       {
-        "title": "Has AI Made S&P 500 Index Funds Too Dangerous to Touch?",
-        "url": "https://www.fool.com/investing/2026/09/09/has-ai-made-sp-500-index-funds-too-dangerous-to-to/?.tsrc=rss",
-        "time_published": "2026-09-09 10:02",
-        "source": "Fool",
-        "summary": "The S&P 500 has become overexposed to the AI industry."
+        "title": "A 100-Year-Old Tax Rule Called \u201cSection 351\u201d Lets the Rich Turn a Stock Portfolio Into a Private ETF and Put Off the Capital Gains Bill Indefinitely",
+        "url": "https://247wallst.com/personal-finance/2026/09/10/a-100-year-old-tax-rule-called-section-351-lets-the-rich-turn-a-stock-portfolio-into-a-private-etf-and-put-off-the-capital-gains-bill-indefinitely/?.tsrc=rss",
+        "time_published": "2026-09-10 10:48",
+        "source": "247wallst",
+        "summary": "A century-old tax provision buried in the IRS code lets wealthy investors hand over a portfolio of appreciated stock, receive fund shares in return, and walk away without triggering a single dollar of capital gains tax that day. The question is whether anything close to it exists for everyone else."
       },
       {
-        "title": "How to Profit From Sharp Stock Moves\u2014Up or Down",
-        "url": "https://finance.yahoo.com/m/fdbeaefd-7bd3-36de-88c5-6e0c1dc9b022/how-to-profit-from-sharp.html?.tsrc=rss",
-        "time_published": "2026-09-09 06:00",
+        "title": "\u2018Conventional Wisdom Isn\u2019t Wise\u2019: Ramsey Tells Retirees to Dump Bonds, The Numbers Back Him Up",
+        "url": "https://247wallst.com/personal-finance/2026/09/10/conventional-wisdom-isnt-wise-ramsey-tells-retirees-to-dump-bonds-the-numbers-back-him-up/?.tsrc=rss",
+        "time_published": "2026-09-10 09:21",
+        "source": "247wallst",
+        "summary": "Dave Ramsey told retirees to ditch bonds on live radio, and a close look at the actual Treasury yields and withdrawal math reveals whether that advice is reckless or overdue."
+      },
+      {
+        "title": "Labor Market Red Flags: June Layoffs Revised Up by 19,000 While Hires Sink by 16,000",
+        "url": "https://finance.yahoo.com/economy/articles/labor-market-red-flags-june-223017643.html?.tsrc=rss",
+        "time_published": "2026-09-09 22:30",
         "source": "Finance",
-        "summary": "What happens next is far from clear, though two basic outcomes are likely: The AI trade will gain new energy\u2014or investors will lean more toward the safety of the S&P 500."
+        "summary": "Newly revised data from the U.S. Bureau of Labor Statistics shows that June layoffs and discharges were revised up by 19,000 to 1.8 million, while June hires were revised down by 16,000 to 5.3 million. The updated Job Openings and..."
       },
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61676904/stock-market-will-sp-500-open-up-or-down-today-33?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-09 05:48",
-        "source": "Benzinga",
-        "summary": "U.S. stock futures are pointing to a mixed open early Wednesday, with tech and benchmark futures edging higher even as Brent crude surges toward $100 per barrel amid escalating U.S.-Iran military exchanges and ahead of Apple Inc.\u2019s (NASDAQ:AAPL) annual product..."
-      },
-      {
-        "title": "QQQ vs QQQM: Same Index, Same Stocks, Different Fee \u2013 and the Math Says One Leaves You Thousands Richer",
-        "url": "https://247wallst.com/investing/etf/2026/09/08/qqq-vs-qqqm-same-index-same-stocks-different-fee-and-the-math-says-one-leaves-you-thousands-richer/?.tsrc=rss",
-        "time_published": "2026-09-08 21:45",
+        "title": "Forget VUG. Vanguard\u2019s Value Fund Is Beating Its Growth Twin by 11 Points This Year, With None of the Magnificent Seven",
+        "url": "https://247wallst.com/investing/etf/2026/09/09/forget-vug-vanguards-value-fund-is-beating-its-growth-twin-by-11-points-this-year-with-none-of-the-magnificent-seven/?.tsrc=rss",
+        "time_published": "2026-09-09 22:15",
         "source": "247wallst",
-        "summary": "Invesco offers two funds tracking the exact same Nasdaq-100 stocks with the same management team, yet one of them quietly drains thousands of dollars from a long-term investor's portfolio. Knowing which ticker belongs in your account depends entirely on how you plan to use it."
+        "summary": "Two Vanguard funds share the same large-cap universe, the same rock-bottom fee, and the same issuer, yet one is lapping the other by a stunning margin this year, and the reason comes down to seven stocks you probably already own too many times over."
       },
       {
-        "title": "XYLD vs GPIX vs ISPY: We Compared 3 Ways to Sell Covered Calls on the S&P 500, and the Highest Yield Is Not the Best Deal",
-        "url": "https://247wallst.com/investing/etf/2026/09/08/xyld-vs-gpix-vs-ispy-we-compared-3-ways-to-sell-covered-calls-on-the-sp-500-and-the-highest-yield-is-not-the-best-deal/?.tsrc=rss",
-        "time_published": "2026-09-08 21:35",
+        "title": "Chewy Sinks 11% as Free Cash Flow Miss Overshadows Raised Outlook; Petco Falls 6%, Freshpet Ticks Up",
+        "url": "https://247wallst.com/investing/2026/09/09/chewy-sinks-11-as-free-cash-flow-miss-overshadows-raised-outlook-petco-falls-6-freshpet-ticks-up/?.tsrc=rss",
+        "time_published": "2026-09-09 19:05",
         "source": "247wallst",
-        "summary": "Three S&P 500 covered-call ETFs promise income from the same underlying index, but their wildly different strategies produce returns that would shock anyone who chose a fund based on yield alone."
+        "summary": "Chewy beat revenue estimates and raised its full-year outlook, yet the stock cratered anyway while a rival fresh-food maker moved in the opposite direction. The reason behind that split reveals something important about where the pet industry is actually headed."
       },
       {
-        "title": "Amgen Falls 10% as Novartis Trial Failure Clouds a Cholesterol Drug Class; NVS Stock Drops 14%",
-        "url": "https://247wallst.com/investing/2026/09/08/amgen-falls-10-as-novartis-trial-failure-clouds-a-cholesterol-drug-class-nvs-stock-drops-14/?.tsrc=rss",
-        "time_published": "2026-09-08 17:08",
+        "title": "Pinterest Tumbles 8%, Reddit and Snap Pull Back: Is the Premium Multiple Unwinding?",
+        "url": "https://247wallst.com/investing/2026/09/09/pinterest-tumbles-8-reddit-and-snap-pull-back-is-the-premium-multiple-unwinding/?.tsrc=rss",
+        "time_published": "2026-09-09 19:01",
         "source": "247wallst",
-        "summary": "Novartis just handed the entire Lp(a) drug class a failing grade, and Amgen is taking the worst of the punishment despite releasing promising trial results of its own on the very same morning."
+        "summary": "Pinterest is bleeding out 8% with no fresh headline to blame, and the social peers barely flinched. Something specific is haunting this stock, and it goes deeper than one bad session."
       }
     ],
     "oil": [
+      {
+        "title": "OPEC+ Keeps October Output Same: Oil ETFs in Focus",
+        "url": "https://finance.yahoo.com/energy/articles/opec-keeps-october-output-same-140000595.html?.tsrc=rss",
+        "time_published": "2026-09-09 14:00",
+        "source": "Finance",
+        "summary": "OPEC+ holds October output steady as Iran tensions tighten oil supply. What's next for oil prices and ETFs?"
+      },
       {
         "title": "'Will The Fed Ever Learn?' Market Strategist Warns Hiking Into Oil Shock Could Repeat 2008's Biggest Mistake",
         "url": "https://finance.yahoo.com/economy/policy/articles/fed-ever-learn-market-strategist-183007074.html?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-14 14:00",
         "source": "Finance",
         "summary": "Iran faces new economic pressure. See which ETFs could gain or lose from higher oil, defense spending and inflation risks."
-      },
-      {
-        "title": "Oil Is Up 86% in 2026. The 4% Toll-Collector Fund Beats Chasing Crude",
-        "url": "https://247wallst.com/investing/2026/08/13/oil-is-up-86-in-2026-the-4-toll-collector-fund-beats-chasing-crude/?.tsrc=rss",
-        "time_published": "2026-08-13 20:51",
-        "source": "247wallst",
-        "summary": "Crude is up 86% this year and a popular midstream ETF is quietly collecting a toll on every dollar chasing that trade. Before your next energy allocation, consider what you might be paying for exposure you could own directly."
       }
     ]
   }

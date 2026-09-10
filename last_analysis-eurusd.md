@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-09-09
-**Generated:** 2026-09-09T11:14:18Z
+**Date:** 2026-09-10
+**Generated:** 2026-09-10T11:10:25Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 3/10 |
-| **Support** | 1.15932, 1.15769, 1.155 |
-| **Resistance** | 1.164, 1.166, 1.168 |
+| **Score** | 3/10 confirmed |
+| **Support** | 1.15944, 1.15795, 1.155 |
+| **Resistance** | 1.165, 1.168, 1.17 |
 
 ---
 
 ## Analysis
 
-The daily chart shows price (1.16271) trading above both the EMA50 (1.15769) and EMA200 (1.15932), which technically maintains a bullish bias. However, the recent candlestick structure – two Shooting Stars and a Doji within the last five sessions – signals strong rejection at higher levels and potential bearish reversal. The EMA alignment alone is not enough to confirm a sustainable uptrend without price action support.  
+The daily chart shows a price of 1.16361, which sits above both the EMA50 (1.15795) and EMA200 (1.15944), confirming a structural bullish bias. However, the EMA200 is only 42 pips below current price, making it a critical near-term floor. The price action over the last five candles includes a Doji, signaling indecision and a potential pause in the uptrend. No additional chart patterns (e.g., flags, triangles) are evident from the given data, so the market appears to be in a consolidation phase.
 
-The MACD is bearish (line below signal, negative histogram), directly conflicting with the EMA trend. The RSI is neutral at 56.44 with no divergence, offering no clear direction. The lack of confluence between trend indicators and momentum oscillators, combined with bearish reversal candlestick patterns, creates a high-risk environment for initiating a trade. No additional chart patterns (triangles, flags, etc.) are clearly identifiable from the given data, but the cluster of shooting stars suggests a resistance zone near 1.1635–1.1645.  
+The RSI at 58.44 is neutral, indicating no overbought or oversold conditions, and no divergence is present. The MACD, however, is bearish with the line below the signal line and a negative histogram. This divergence between the bullish price trend (above EMAs) and bearish MACD momentum suggests waning buying pressure. The low signal score of 3/10 reflects this conflicting setup, where the trend favors bulls but momentum favors bears.
 
-Given the low signal score (3/10) and mixed signals, the prudent action is to wait for clearer confirmation. A bearish setup would require a decisive close below the EMA200 (1.15932) and a breakdown of the recent swing low. A bullish setup would need a strong bullish engulfing candle above 1.1645 with improving momentum. Until then, staying flat avoids whipsaw risk in a low‑conviction environment.
+Key support levels are the EMA200 at 1.15944 and EMA50 at 1.15795, which form a tight cluster. A break below this zone would undermine the bullish bias. Resistance lies at 1.1650 (psychological round number), 1.1680 (recent swing high area), and 1.1700. Given the lack of confluence between trend and momentum, and the Doji indecision, the prudent approach is to wait for a clearer signal. A short trade would be premature against the bullish EMA structure, while a long trade lacks momentum confirmation.
 
 ---
 
 ## Invalidation
 
-This wait‑and‑see approach is invalidated if price closes decisively above 1.1650 (confirming bullish continuation) or below 1.1580 (confirming bearish breakdown), as either would provide a clear directional bias.
+A decisive close below the EMA200 (1.15944) would cancel the bullish bias and shift the outlook to neutral or bearish, while a strong break above 1.1650 with expanding momentum would revive the bullish setup.
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-09-09
-**Generated:** 2026-09-09T11:13:37Z
+**Date:** 2026-09-10
+**Generated:** 2026-09-10T11:09:51Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 1.35078, 1.34512, 1.34 |
+| **Support** | 1.351, 1.3453, 1.34 |
 | **Resistance** | 1.358, 1.36, 1.365 |
 
 ---
 
 ## Analysis
 
-The price action confirms the strong uptrend as price remains above both the 50-day (1.35078) and 200-day (1.34512) EMAs, maintaining a bullish structure. However, the recent candlestick sequence—Doji, Morning Star, Doji—suggests indecision after a bullish reversal attempt. The Morning Star initially indicated buying pressure, but the subsequent Doji signals hesitation, leaving the trend's immediate direction unclear. No additional chart patterns such as triangles or flags are evident from the given data, though the tight range around current price could be forming a consolidation zone.  
+Price at 1.35521 sits comfortably above both the EMA50 (1.351) and EMA200 (1.34528), confirming a strong underlying uptrend. The earlier trend strength is supported by the sustained bullish alignment of EMAs. However, the recent candlestick pattern sequence—Doji, Morning Star, Doji, Morning Star—indicates persistent indecision within the uptrend. While two Morning Stars suggest bullish rejection of lower prices, the intervening Dojis show that buyers have failed to push through convincingly, leaving the market in a consolidation phase near the current level.
 
-The RSI (50.39) is neutral, offering no directional bias, while the MACD is bearish with the line below the signal line and a negative histogram, indicating waning momentum. This divergence between the strong trend (EMA-based) and the bearish MACD creates a conflict, suggesting that while the trend is intact, upward momentum is stalling. The signal score of 5/10 reflects this mixed picture—strong trend structure offset by weakening momentum and indecisive price action.  
+The MACD is bearish (line below signal) with a negative histogram, signaling a loss of upward momentum and short-term divergence from the trend. Meanwhile, the RSI at 53.85 is neutral, providing no overbought/oversold extremes and no divergence. This MACD-RSI disagreement with the EMAs creates mixed signals: the trend remains bullish, but momentum is waning. The pre-calculated signal score of 5/10 accurately reflects this neutral-to-bearish bias within a strong uptrend.
 
-Key support levels are the 50 EMA (1.35078) and the 200 EMA (1.34512), with a psychological level at 1.34000 below. Resistance is likely near the recent swing high around 1.35800, followed by 1.36000 and 1.36500. Given the lack of confluence between trend-following and momentum indicators, the best course is to wait for a clearer signal—either a decisive break above resistance with renewed MACD bullishness or a pullback to support that confirms a bounce with improving momentum.
+Given the lack of a clear breakout or pullback entry, the best trade setup is to wait. A buy only becomes attractive if price pulls back to the EMA50 near 1.3510 with a bullish reversal candle, while a sell would require a confirmed breakdown below that same level or a bearish reversal pattern at resistance. Current price action offers no high-probability entry. Risk is elevated due to the conflicting MACD and candlestick signals, and the ATR of 44 pips suggests tight stop placement is possible but would risk whipsaws.
 
 ---
 
 ## Invalidation
 
-A close below the 50-day EMA (1.35078) would invalidate the strong uptrend bias and likely trigger a deeper correction.
+If price breaks below 1.3510 (EMA50) or above 1.3600 with strong momentum, the current indecision zone would be invalidated and a directional trade could be considered.
 
 ---
 
