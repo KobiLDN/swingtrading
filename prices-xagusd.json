@@ -1,34 +1,27 @@
 {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-09-09T10:23:10Z",
-  "date": "2026-09-08",
-  "price": 59.37,
-  "atr": 1.79,
+  "generated": "2026-09-10T10:15:13Z",
+  "date": "2026-09-09",
+  "price": 60.72,
+  "atr": 1.83,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 58.72,
-  "ema200": 60.65,
-  "rsi": 51.44,
-  "macd_line": 0.877613,
-  "macd_signal": 1.214161,
-  "macd_hist": -0.336548,
-  "trend": "NEUTRAL",
+  "ema50": 58.8,
+  "ema200": 60.56,
+  "rsi": 55.49,
+  "macd_line": 0.880204,
+  "macd_signal": 1.14737,
+  "macd_hist": -0.267166,
+  "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [],
-  "score": 0,
+  "score": 1,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-16",
-      "open": 71.92,
-      "high": 72.22,
-      "low": 70.66,
-      "close": 71.24
-    },
     {
       "date": "2026-04-17",
       "open": 73.89,
@@ -721,6 +714,13 @@
       "high": 60.15,
       "low": 59.21,
       "close": 59.37
+    },
+    {
+      "date": "2026-09-09",
+      "open": 61.17,
+      "high": 61.71,
+      "low": 60.16,
+      "close": 60.72
     }
   ]
 }

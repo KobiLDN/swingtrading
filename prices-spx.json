@@ -1,41 +1,27 @@
 {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-09-09T10:23:09Z",
-  "date": "2026-09-08",
-  "price": 765.96,
-  "atr": 6.14,
+  "generated": "2026-09-10T10:15:11Z",
+  "date": "2026-09-09",
+  "price": 762.4,
+  "atr": 6.06,
   "atr_pips": 6,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 758.07,
-  "ema200": 721.5,
-  "rsi": 51.36,
-  "macd_line": 2.696835,
-  "macd_signal": 3.526783,
-  "macd_hist": -0.829947,
+  "ema50": 758.24,
+  "ema200": 720.54,
+  "rsi": 48.04,
+  "macd_line": 2.089745,
+  "macd_signal": 3.239378,
+  "macd_hist": -1.149632,
   "trend": "STRONG UPTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-09-01",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    }
-  ],
-  "score": 2,
+  "patterns": [],
+  "score": 0,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-16",
-      "open": 701.06,
-      "high": 702.78,
-      "low": 698.53,
-      "close": 701.66
-    },
     {
       "date": "2026-04-17",
       "open": 706.14,
@@ -728,6 +714,13 @@
       "high": 769.7,
       "low": 765.14,
       "close": 765.96
+    },
+    {
+      "date": "2026-09-09",
+      "open": 764.08,
+      "high": 764.47,
+      "low": 760.94,
+      "close": 762.4
     }
   ]
 }

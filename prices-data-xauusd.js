@@ -1,47 +1,40 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-09-09T10:23:09Z",
-  "date": "2026-09-09",
-  "price": 4395.77,
-  "atr": 74.69,
-  "atr_pips": 75,
+  "generated": "2026-09-10T10:15:09Z",
+  "date": "2026-09-10",
+  "price": 4394.93,
+  "atr": 73.64,
+  "atr_pips": 74,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4370.04,
-  "ema200": 4485.28,
-  "rsi": 47.82,
-  "macd_line": 3.867876,
-  "macd_signal": 26.618303,
-  "macd_hist": -22.750427,
+  "ema50": 4371.28,
+  "ema200": 4500.28,
+  "rsi": 47.75,
+  "macd_line": 1.588499,
+  "macd_signal": 21.687967,
+  "macd_hist": -20.099468,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-05",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-09-06",
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 3,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-02",
-      "open": 4483.98,
-      "high": 4540.09,
-      "low": 4464.09,
-      "close": 4488.67
-    },
     {
       "date": "2026-06-03",
       "open": 4488.41,
@@ -731,9 +724,16 @@ window.PRICES_DATA_XAUUSD = {
     {
       "date": "2026-09-09",
       "open": 4355.74,
-      "high": 4412.87,
+      "high": 4432.62,
       "low": 4341.97,
-      "close": 4395.77
+      "close": 4401.7
+    },
+    {
+      "date": "2026-09-10",
+      "open": 4401.23,
+      "high": 4430.46,
+      "low": 4388.85,
+      "close": 4394.93
     }
   ]
 };
