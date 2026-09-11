@@ -1,30 +1,24 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-09-10T10:15:07Z",
-  "date": "2026-09-10",
-  "price": 1.35521,
-  "atr": 0.00443,
-  "atr_pips": 44,
+  "generated": "2026-09-11T10:12:43Z",
+  "date": "2026-09-11",
+  "price": 1.35073,
+  "atr": 0.00467,
+  "atr_pips": 47,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.351,
-  "ema200": 1.34528,
-  "rsi": 53.85,
-  "macd_line": 0.00028,
-  "macd_signal": 0.000643,
-  "macd_hist": -0.000363,
-  "trend": "STRONG UPTREND",
+  "ema50": 1.35084,
+  "ema200": 1.34547,
+  "rsi": 44.54,
+  "macd_line": -0.00025,
+  "macd_signal": 0.000412,
+  "macd_hist": -0.000663,
+  "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-06",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-09-07",
       "name": "Morning Star",
@@ -36,24 +30,11 @@ window.PRICES_DATA = {
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
-    },
-    {
-      "date": "2026-09-10",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-03",
-      "open": 1.34645,
-      "high": 1.34717,
-      "low": 1.34129,
-      "close": 1.34173
-    },
     {
       "date": "2026-06-04",
       "open": 1.34176,
@@ -744,8 +725,15 @@ window.PRICES_DATA = {
       "date": "2026-09-10",
       "open": 1.35467,
       "high": 1.35601,
-      "low": 1.35421,
-      "close": 1.35521
+      "low": 1.34933,
+      "close": 1.35116
+    },
+    {
+      "date": "2026-09-11",
+      "open": 1.35113,
+      "high": 1.35274,
+      "low": 1.34956,
+      "close": 1.35073
     }
   ]
 };

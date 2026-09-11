@@ -1,47 +1,27 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-09-10T10:15:09Z",
-  "date": "2026-09-10",
-  "price": 4394.93,
-  "atr": 73.64,
-  "atr_pips": 74,
+  "generated": "2026-09-11T10:12:44Z",
+  "date": "2026-09-11",
+  "price": 4344.21,
+  "atr": 77.54,
+  "atr_pips": 78,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4371.28,
-  "ema200": 4500.28,
-  "rsi": 47.75,
-  "macd_line": 1.588499,
-  "macd_signal": 21.687967,
-  "macd_hist": -20.099468,
-  "trend": "NEUTRAL",
+  "ema50": 4367.25,
+  "ema200": 4489.7,
+  "rsi": 44.35,
+  "macd_line": -9.446153,
+  "macd_signal": 14.463433,
+  "macd_hist": -23.909586,
+  "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-09-06",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
-    {
-      "date": "2026-09-10",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
-    }
-  ],
-  "score": 3,
+  "patterns": [],
+  "score": 1,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-03",
-      "open": 4488.41,
-      "high": 4496.2,
-      "low": 4429.09,
-      "close": 4434.47
-    },
     {
       "date": "2026-06-04",
       "open": 4434.27,
@@ -732,8 +712,15 @@
       "date": "2026-09-10",
       "open": 4401.23,
       "high": 4430.46,
-      "low": 4388.85,
-      "close": 4394.93
+      "low": 4313.69,
+      "close": 4316.76
+    },
+    {
+      "date": "2026-09-11",
+      "open": 4316.69,
+      "high": 4360.34,
+      "low": 4301.82,
+      "close": 4344.21
     }
   ]
 }
