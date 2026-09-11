@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-10T11:12:05Z",
+  "generated": "2026-09-11T11:11:46Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054013689.html?.tsrc=rss",
+        "time_published": "2026-09-11 05:40",
+        "source": "Finance",
+        "summary": "Fed hike bets rise as traders await U.S. CPI, with DXY testing 99.16 resistance while EUR/USD and GBP/USD remain under pressure."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Stays Weak as ECB Hike Looms and Inflation Risks Rise; EUR/USD and GBP/USD in Focus",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081617966.html?.tsrc=rss",
+        "time_published": "2026-09-10 08:16",
+        "source": "Finance",
+        "summary": "DXY struggles despite higher Treasury yields as traders await U.S. PPI and the ECB decision, while EUR/USD and GBP/USD hold bullish support."
+      },
       {
         "title": "U.S. Dollar Moves Lower As Bessent Boosts Bond Buybacks: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-lower-bessent-170250168.html?.tsrc=rss",
@@ -43,23 +57,30 @@ window.NEWS_DATA = {
         "time_published": "2026-09-03 07:47",
         "source": "Finance",
         "summary": "Soft ADP hiring data challenge Fed hike expectations as DXY weakens, while traders turn to Friday\u2019s NFP for the next major dollar catalyst."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR/USD and GBP/USD Fall",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-053753979.html?.tsrc=rss",
-        "time_published": "2026-09-02 05:37",
-        "source": "Finance",
-        "summary": "DXY strengthens as Iran escalation lifts inflation risks and Fed hike bets, while EUR/USD and GBP/USD extend their bearish breakdowns."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 99.58 as Jobs Week Tests Hawkish Fed; Eyes on EUR/USD and GBP/USD",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061727219.html?.tsrc=rss",
-        "time_published": "2026-09-01 06:17",
-        "source": "Finance",
-        "summary": "Fed hike bets support the dollar as markets await JOLTS, ADP and NFP, while EUR/USD and GBP/USD remain pressured near key technical levels."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054013689.html?.tsrc=rss",
+        "time_published": "2026-09-11 05:40",
+        "source": "Finance",
+        "summary": "Fed hike bets rise as traders await U.S. CPI, with DXY testing 99.16 resistance while EUR/USD and GBP/USD remain under pressure."
+      },
+      {
+        "title": "ECB at a Crossroads: Hormuz Holds the Key to What Comes Next",
+        "url": "https://finance.yahoo.com/economy/policy/articles/ecb-crossroads-hormuz-holds-key-114240109.html?.tsrc=rss",
+        "time_published": "2026-09-10 11:42",
+        "source": "Finance",
+        "summary": "A 25bp hike is expected today, but the ECB\u2019s next move will hinge on whether the Middle East energy shock fades or becomes embedded in inflation expectations."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Stays Weak as ECB Hike Looms and Inflation Risks Rise; EUR/USD and GBP/USD in Focus",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081617966.html?.tsrc=rss",
+        "time_published": "2026-09-10 08:16",
+        "source": "Finance",
+        "summary": "DXY struggles despite higher Treasury yields as traders await U.S. PPI and the ECB decision, while EUR/USD and GBP/USD hold bullish support."
+      },
       {
         "title": "U.S. Dollar Moves Lower As Bessent Boosts Bond Buybacks: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
         "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-lower-bessent-170250168.html?.tsrc=rss",
@@ -94,27 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-07 07:43",
         "source": "Finance",
         "summary": "The European Central Bank is widely expected to raise interest rates again on September 10, taking its deposit rate to 2.50%. The decision itself is hardly controversial: all 65 economists surveyed by Reuters between August 31 and September 3 predicted a 25-basis-point increase."
-      },
-      {
-        "title": "EUR/USD, USD/JPY, & USD/CAD Short-Term Forecasts for 04/09/2026",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-jpy-usd-135632254.html?.tsrc=rss",
-        "time_published": "2026-09-04 13:56",
-        "source": "Finance",
-        "summary": "EUR/USD falls toward 1.1585 after stronger-than-anticipated US jobs data, while USD/JPY tests a major swing low. USD/CAD surges as weak Canadian employment reinforces the bullish technical outlook."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Weakens Ahead of NFP; EUR/USD and GBP/USD Recover",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-063755377.html?.tsrc=rss",
-        "time_published": "2026-09-04 06:37",
-        "source": "Finance",
-        "summary": "U.S. NFP takes center stage as DXY weakens, while EUR/USD and GBP/USD recover amid diverging Fed, ECB and BoE rate expectations."
-      },
-      {
-        "title": "EUR/USD, USD/CAD, USD/CHF Forecast: Dollar Faces NFP Risk",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-usd-cad-usd-135518084.html?.tsrc=rss",
-        "time_published": "2026-09-03 13:55",
-        "source": "Finance",
-        "summary": "EUR/USD is approaching 1.1640, where signs of exhaustion could offer a short-term selling opportunity, while USD/CAD and USD/CHF are being watched for potential bounces. All three setups remain short-term ahead of Non-Farm Payrolls."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "S&P 500, Dow, Nasdaq End Lower As Oil Crosses $101, Yields Pop Following Bessent\u2019s Expanded Buyback Plan \u2014 AAPL, META, AMZN, CRM In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-as-oil-crosses-101-yields-pop/cZt71xeRJCT?.tsrc=rss",
-        "time_published": "2026-09-09 22:01",
+        "title": "\u2018Dean Of Valuation\u2019 Aswath Damodaran Calls Fed Rate Debate \u2018Pointless\u2019 \u2014 Says 'There Is Little' That Kevin Warsh Or Scott Bessent Can Do",
+        "url": "https://stocktwits.com/news-articles/markets/equity/aswath-damodaran-fed-rate-debate-pointless-little-kevin-warsh-scott-bessent-can-do/cZtX9c6RBGB?.tsrc=rss",
+        "time_published": "2026-09-11 07:36",
         "source": "Stocktwits",
-        "summary": "U.S. benchmark 10-year yields hit the highest since 2023."
+        "summary": "Damodaran found that the S&P 500 moved about 0.5% when the 10-year yield changed by more than three basis points."
       },
       {
-        "title": "What You Should Do With Microsoft As The Market De-Risks From Big Tech",
-        "url": "https://247wallst.com/investing/2026/09/10/what-you-should-do-with-microsoft-as-the-market-de-risks-from-big-tech/?.tsrc=rss",
-        "time_published": "2026-09-10 11:00",
+        "title": "S&P 500, Dow, Nasdaq End Lower As Surging Oil Raises Odds For A September Rate Hike \u2014 ORCL, ADBE, M, NVDA, UBER In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-as-surging-oil-raises-odds-for-a-september-rate-hike/cZtapeARJ68?.tsrc=rss",
+        "time_published": "2026-09-10 22:46",
+        "source": "Stocktwits",
+        "summary": "But futures were mixed, with S&P 500 futures marginally up, while Dow and Nasdaq futures slightly eased."
+      },
+      {
+        "title": "Oracle Jumped 36% in a Day After Last September\u2019s Earnings, but Traders Are Betting Against It Tonight",
+        "url": "https://247wallst.com/investing/2026/09/10/oracle-jumped-36-in-a-day-after-last-septembers-earnings-but-traders-are-betting-against-it-tonight/?.tsrc=rss",
+        "time_published": "2026-09-10 17:58",
         "source": "247wallst",
-        "summary": "Azure just crossed $100 billion in annual revenue and the stock is trading well off its highs, which raises an uncomfortable question about whether the selloff reflects a real problem or a market overreaction worth exploiting."
+        "summary": "Oracle gave traders a 36% single-session surge exactly one year ago tonight, yet options activity heading into this earnings report tells a completely different story about where the smart money expects the stock to go."
       },
       {
-        "title": "A 100-Year-Old Tax Rule Called \u201cSection 351\u201d Lets the Rich Turn a Stock Portfolio Into a Private ETF and Put Off the Capital Gains Bill Indefinitely",
-        "url": "https://247wallst.com/personal-finance/2026/09/10/a-100-year-old-tax-rule-called-section-351-lets-the-rich-turn-a-stock-portfolio-into-a-private-etf-and-put-off-the-capital-gains-bill-indefinitely/?.tsrc=rss",
-        "time_published": "2026-09-10 10:48",
+        "title": "Nuclear Stocks Slide as Piper Sandler Splits the Sector: Oklo, NuScale Power and X-Energy All Drop 5%",
+        "url": "https://247wallst.com/investing/2026/09/10/nuclear-stocks-slide-as-piper-sandler-splits-the-sector-oklo-nuscale-power-and-x-energy-all-drop-5/?.tsrc=rss",
+        "time_published": "2026-09-10 17:39",
         "source": "247wallst",
-        "summary": "A century-old tax provision buried in the IRS code lets wealthy investors hand over a portfolio of appreciated stock, receive fund shares in return, and walk away without triggering a single dollar of capital gains tax that day. The question is whether anything close to it exists for everyone else."
+        "summary": "Piper Sandler just split the advanced nuclear sector down the middle with opposing calls, and the market responded by punishing every name in the group equally, even the one that got a Buy."
       },
       {
-        "title": "\u2018Conventional Wisdom Isn\u2019t Wise\u2019: Ramsey Tells Retirees to Dump Bonds, The Numbers Back Him Up",
-        "url": "https://247wallst.com/personal-finance/2026/09/10/conventional-wisdom-isnt-wise-ramsey-tells-retirees-to-dump-bonds-the-numbers-back-him-up/?.tsrc=rss",
-        "time_published": "2026-09-10 09:21",
-        "source": "247wallst",
-        "summary": "Dave Ramsey told retirees to ditch bonds on live radio, and a close look at the actual Treasury yields and withdrawal math reveals whether that advice is reckless or overdue."
+        "title": "Nasdaq, Dow, S&P 500 Futures Rise After 4-Day Market Slide As CPI Looms Large: ORCL, ADBE, MU, TSLA, RKLB, IBRX, HOOD, GME In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-sp500-futures-rise-after-4-day-market-slide-as-cpi-looms-large-orcl-adbe-mu-tsla-rklb-ibrx-hood-gme-in-focus/cZtXONwRBGW?.tsrc=rss",
+        "time_published": "2026-09-11 08:33",
+        "source": "Stocktwits",
+        "summary": "Retail sentiment on Stocktwits turned bearish on SPY and QQQ ahead of August CPI."
       },
       {
-        "title": "Labor Market Red Flags: June Layoffs Revised Up by 19,000 While Hires Sink by 16,000",
-        "url": "https://finance.yahoo.com/economy/articles/labor-market-red-flags-june-223017643.html?.tsrc=rss",
-        "time_published": "2026-09-09 22:30",
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61731435/stock-market-will-sp-500-open-up-or-down-today-35?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-11 05:22",
+        "source": "Benzinga",
+        "summary": "U.S. stock futures are showing modest gains early Friday as investors brace for the critical August Consumer Price Index (CPI) report amid persistent inflation concerns, central bank pressure, and deepening maritime disruptions in the Middle East. The Polymarket (CRYPTO: POL)..."
+      },
+      {
+        "title": "AI Will Transform the World, but Legendary Investor Warns Its Arms Race Has a Familiar Trap",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-transform-world-legendary-investor-013027003.html?.tsrc=rss",
+        "time_published": "2026-09-11 01:30",
         "source": "Finance",
-        "summary": "Newly revised data from the U.S. Bureau of Labor Statistics shows that June layoffs and discharges were revised up by 19,000 to 1.8 million, while June hires were revised down by 16,000 to 5.3 million. The updated Job Openings and..."
+        "summary": "Three decades after Alan Greenspan warned of \u201cirrational exuberance,\u201d Howard Marks says one half of that phrase is beyond dispute. \u201cThere\u2019s no question about the fact that we have exuberance,\u201d the Oaktree Capital co-chairman said. \u201cThe question is, is today\u2019s..."
       },
       {
-        "title": "Forget VUG. Vanguard\u2019s Value Fund Is Beating Its Growth Twin by 11 Points This Year, With None of the Magnificent Seven",
-        "url": "https://247wallst.com/investing/etf/2026/09/09/forget-vug-vanguards-value-fund-is-beating-its-growth-twin-by-11-points-this-year-with-none-of-the-magnificent-seven/?.tsrc=rss",
-        "time_published": "2026-09-09 22:15",
+        "title": "Nio Just Dropped 25% in a Month. Is It Time to Sell?",
+        "url": "https://247wallst.com/investing/2026/09/10/nio-just-dropped-25-in-a-month-is-it-time-to-sell/?.tsrc=rss",
+        "time_published": "2026-09-10 19:13",
         "source": "247wallst",
-        "summary": "Two Vanguard funds share the same large-cap universe, the same rock-bottom fee, and the same issuer, yet one is lapping the other by a stunning margin this year, and the reason comes down to seven stocks you probably already own too many times over."
-      },
-      {
-        "title": "Chewy Sinks 11% as Free Cash Flow Miss Overshadows Raised Outlook; Petco Falls 6%, Freshpet Ticks Up",
-        "url": "https://247wallst.com/investing/2026/09/09/chewy-sinks-11-as-free-cash-flow-miss-overshadows-raised-outlook-petco-falls-6-freshpet-ticks-up/?.tsrc=rss",
-        "time_published": "2026-09-09 19:05",
-        "source": "247wallst",
-        "summary": "Chewy beat revenue estimates and raised its full-year outlook, yet the stock cratered anyway while a rival fresh-food maker moved in the opposite direction. The reason behind that split reveals something important about where the pet industry is actually headed."
-      },
-      {
-        "title": "Pinterest Tumbles 8%, Reddit and Snap Pull Back: Is the Premium Multiple Unwinding?",
-        "url": "https://247wallst.com/investing/2026/09/09/pinterest-tumbles-8-reddit-and-snap-pull-back-is-the-premium-multiple-unwinding/?.tsrc=rss",
-        "time_published": "2026-09-09 19:01",
-        "source": "247wallst",
-        "summary": "Pinterest is bleeding out 8% with no fresh headline to blame, and the social peers barely flinched. Something specific is haunting this stock, and it goes deeper than one bad session."
+        "summary": "Nio's shares have shed a quarter of their value in a single month, falling below a freshly cut analyst target even as delivery records keep piling up. The gap between what the volume numbers promise and what investors are willing to pay is widening fast."
       }
     ],
     "oil": [
