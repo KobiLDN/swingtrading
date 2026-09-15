@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-11T11:11:46Z",
+  "generated": "2026-09-15T11:39:29Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Odds Lift DXY as EUR/USD and GBP/USD Weaken",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-060329859.html?.tsrc=rss",
+        "time_published": "2026-09-14 06:03",
+        "source": "Finance",
+        "summary": "Fed hike expectations support the dollar as DXY breaks above 99.26, while EUR/USD and GBP/USD weaken ahead of key Fed and BoE decisions."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054013689.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-04 06:37",
         "source": "Finance",
         "summary": "U.S. NFP takes center stage as DXY weakens, while EUR/USD and GBP/USD recover amid diverging Fed, ECB and BoE rate expectations."
-      },
-      {
-        "title": "US Dollar Price Forecast: Weak ADP Hits DXY as NFP Becomes the Next Test; Key Levels for EUR/USD and GBP/USD Today",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-weak-074726240.html?.tsrc=rss",
-        "time_published": "2026-09-03 07:47",
-        "source": "Finance",
-        "summary": "Soft ADP hiring data challenge Fed hike expectations as DXY weakens, while traders turn to Friday\u2019s NFP for the next major dollar catalyst."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Odds Lift DXY as EUR/USD and GBP/USD Weaken",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-060329859.html?.tsrc=rss",
+        "time_published": "2026-09-14 06:03",
+        "source": "Finance",
+        "summary": "Fed hike expectations support the dollar as DXY breaks above 99.26, while EUR/USD and GBP/USD weaken ahead of key Fed and BoE decisions."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054013689.html?.tsrc=rss",
@@ -108,17 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-09-07 08:12",
         "source": "Finance",
         "summary": "Strong U.S. jobs revive Fed hike bets as DXY stalls, while ECB and BoE tightening risks support the euro and pound ahead of key inflation data."
-      },
-      {
-        "title": "ECB Rate Hikes: Why Markets See More Tightening Than Many Economists Expect",
-        "url": "https://finance.yahoo.com/economy/policy/articles/ecb-rate-hikes-why-markets-074339623.html?.tsrc=rss",
-        "time_published": "2026-09-07 07:43",
-        "source": "Finance",
-        "summary": "The European Central Bank is widely expected to raise interest rates again on September 10, taking its deposit rate to 2.50%. The decision itself is hardly controversial: all 65 economists surveyed by Reuters between August 31 and September 3 predicted a 25-basis-point increase."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Silver Miners Are Sitting on Record Cash Hoard \u2014 More Than Double the 2011 Rally",
+        "url": "https://247wallst.com/investing/2026/09/14/silver-miners-are-sitting-on-record-cash-hoard-more-than-double-the-2011-rally/?.tsrc=rss",
+        "time_published": "2026-09-14 15:41",
+        "source": "247wallst",
+        "summary": "The last time silver went on a historic run, miners burned through cash and spent years digging out from debt. Something very different is happening this cycle, and the balance sheets tell a story the stock prices have barely started to reflect."
+      },
       {
         "title": "The Best-Performing Commodity ETFs of 2026: Oil and Broad Baskets Lead the Pack",
         "url": "http://www.etf.com/sections/news/best-performing-commodity-etfs-2026-oil-and-broad-baskets-lead-pack?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
@@ -167,74 +174,74 @@ window.NEWS_DATA = {
         "time_published": "2026-07-10 01:54",
         "source": "247wallst",
         "summary": "The industrial metals trade has quietly become the most interesting corner of the commodity market, and the choice between iShares Silver Trust (NYSEARCA:SLV), United States Copper Index Fund (NYSEARCA:CPER), and SPDR S&P Metals & Mining ETF (NYSEARCA:XME) carries real performance consequences. Over"
-      },
-      {
-        "title": "Platinum and Palladium Have Been Left Behind in the Precious Metals Rally and These 3 ETFs Could Be the Next Catch Up Trade",
-        "url": "https://247wallst.com/investing/etf/2026/07/09/platinum-and-palladium-have-been-left-behind-in-the-precious-metals-rally-and-these-3-etfs-could-be-the-next-catch-up-trade-2/?.tsrc=rss",
-        "time_published": "2026-07-09 15:41",
-        "source": "247wallst",
-        "summary": "Gold and silver stole the precious metals story over the past year. Platinum and palladium sat it out. That gap sets up the choice between three physically-backed trusts: abrdn Platinum ETF Trust (NYSEARCA:PPLT), abrdn Palladium ETF Trust (NYSEARCA:PALL), and GraniteShares Platinum Trust (NYSEARCA:P"
       }
     ],
     "spx": [
       {
-        "title": "\u2018Dean Of Valuation\u2019 Aswath Damodaran Calls Fed Rate Debate \u2018Pointless\u2019 \u2014 Says 'There Is Little' That Kevin Warsh Or Scott Bessent Can Do",
-        "url": "https://stocktwits.com/news-articles/markets/equity/aswath-damodaran-fed-rate-debate-pointless-little-kevin-warsh-scott-bessent-can-do/cZtX9c6RBGB?.tsrc=rss",
-        "time_published": "2026-09-11 07:36",
-        "source": "Stocktwits",
-        "summary": "Damodaran found that the S&P 500 moved about 0.5% when the 10-year yield changed by more than three basis points."
-      },
-      {
-        "title": "S&P 500, Dow, Nasdaq End Lower As Surging Oil Raises Odds For A September Rate Hike \u2014 ORCL, ADBE, M, NVDA, UBER In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-lower-as-surging-oil-raises-odds-for-a-september-rate-hike/cZtapeARJ68?.tsrc=rss",
-        "time_published": "2026-09-10 22:46",
-        "source": "Stocktwits",
-        "summary": "But futures were mixed, with S&P 500 futures marginally up, while Dow and Nasdaq futures slightly eased."
-      },
-      {
-        "title": "Oracle Jumped 36% in a Day After Last September\u2019s Earnings, but Traders Are Betting Against It Tonight",
-        "url": "https://247wallst.com/investing/2026/09/10/oracle-jumped-36-in-a-day-after-last-septembers-earnings-but-traders-are-betting-against-it-tonight/?.tsrc=rss",
-        "time_published": "2026-09-10 17:58",
+        "title": "TPAY Yields 10% With Full S&P 500 Exposure. Here\u2019s Exactly What You Give Up to Get It",
+        "url": "https://247wallst.com/investing/etf/2026/09/14/tpay-yields-10-with-full-sp-500-exposure-heres-exactly-what-you-give-up-to-get-it/?.tsrc=rss",
+        "time_published": "2026-09-14 20:43",
         "source": "247wallst",
-        "summary": "Oracle gave traders a 36% single-session surge exactly one year ago tonight, yet options activity heading into this earnings report tells a completely different story about where the smart money expects the stock to go."
+        "summary": "TPAY promises a 10% annual distribution while keeping you fully invested in the S&P 500, and it skips the covered-call playbook entirely to do it. But that unconventional approach comes with a hidden cost most investors overlook before buying in."
       },
       {
-        "title": "Nuclear Stocks Slide as Piper Sandler Splits the Sector: Oklo, NuScale Power and X-Energy All Drop 5%",
-        "url": "https://247wallst.com/investing/2026/09/10/nuclear-stocks-slide-as-piper-sandler-splits-the-sector-oklo-nuscale-power-and-x-energy-all-drop-5/?.tsrc=rss",
-        "time_published": "2026-09-10 17:39",
-        "source": "247wallst",
-        "summary": "Piper Sandler just split the advanced nuclear sector down the middle with opposing calls, and the market responded by punishing every name in the group equally, even the one that got a Buy."
-      },
-      {
-        "title": "Nasdaq, Dow, S&P 500 Futures Rise After 4-Day Market Slide As CPI Looms Large: ORCL, ADBE, MU, TSLA, RKLB, IBRX, HOOD, GME In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-dow-sp500-futures-rise-after-4-day-market-slide-as-cpi-looms-large-orcl-adbe-mu-tsla-rklb-ibrx-hood-gme-in-focus/cZtXONwRBGW?.tsrc=rss",
-        "time_published": "2026-09-11 08:33",
+        "title": "S&P 500, Nasdaq, Dow Drop On Chipmaker Weakness, Treasury Yield Pressure \u2014 MSFT, NFLX, ORCL, CRWD, RBLX In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-drop-on-chipmaker-weakness/cZtm0WRRBTI?.tsrc=rss",
+        "time_published": "2026-09-14 21:53",
         "source": "Stocktwits",
-        "summary": "Retail sentiment on Stocktwits turned bearish on SPY and QQQ ahead of August CPI."
+        "summary": "Anthropic CEO Dario Amodei called for a slowdown of the development of AI capabilities."
+      },
+      {
+        "title": "Texas Instruments Is Up 55% in 2026: This Is the Secret Tech Stock You\u2019re Missing Out On",
+        "url": "https://247wallst.com/investing/2026/09/14/texas-instruments-is-up-55-in-2026-this-is-the-secret-tech-stock-youre-missing-out-on/?.tsrc=rss",
+        "time_published": "2026-09-14 19:08",
+        "source": "247wallst",
+        "summary": "While Wall Street obsesses over AI compute chips, one analog giant has quietly outpaced the S&P 500 by a factor of five this year, and the reason has nothing to do with artificial intelligence."
+      },
+      {
+        "title": "CHWY Is Still Down 34% This Year: Did CHWY Stock Just Find a Bottom?",
+        "url": "https://247wallst.com/investing/2026/09/14/chwy-is-still-down-34-this-year-did-chwy-stock-just-find-a-bottom/?.tsrc=rss",
+        "time_published": "2026-09-14 19:01",
+        "source": "247wallst",
+        "summary": "Chewy stock surged 6% in a single session after a brutal year-to-date collapse, and bargain hunters are suddenly paying attention. The case for a turnaround and the case against it both have real teeth, and the next quarter will force a verdict."
+      },
+      {
+        "title": "Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding?",
+        "url": "https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/?.tsrc=rss",
+        "time_published": "2026-09-14 15:40",
+        "source": "247wallst",
+        "summary": "Two AI executives published essays over a weekend, and by Monday morning Caterpillar was selling off four times faster than the broader market while Deere climbed. The question is whether the order book that stretches into 2029 actually matters when sentiment turns this fast."
+      },
+      {
+        "title": "Cybersecurity Stocks Surge as AI Safety Warnings Spark Security Bid: CrowdStrike and Zscaler Jump 12%, Palo Alto Rallies 11%",
+        "url": "https://247wallst.com/investing/2026/09/14/cybersecurity-stocks-surge-as-ai-safety-warnings-spark-security-bid-crowdstrike-and-zscaler-jump-12-palo-alto-rallies-11/?.tsrc=rss",
+        "time_published": "2026-09-14 15:08",
+        "source": "247wallst",
+        "summary": "AI safety warnings from two frontier lab CEOs sent shockwaves through chipmakers over the weekend, but cybersecurity stocks are telling a completely different story about what those warnings mean for the threat environment ahead."
+      },
+      {
+        "title": "AI, Fed And 5% Treasury Yield: Three Risks Putting Nasdaq, Dow Futures On Edge Ahead Of Wednesday\u2019s Rate Decision",
+        "url": "https://stocktwits.com/news-articles/markets/equity/ai-fed-5-treasury-yield-three-risks-putting-nasdaq-dow-futures-on-edge-ahead-of-wednesday-rate-decision/cZtnPK2RBTu?.tsrc=rss",
+        "time_published": "2026-09-15 08:44",
+        "source": "Stocktwits",
+        "summary": "Retail sentiment on SPY and QQQ remained \u2018extremely bearish\u2019 ahead of the Fed\u2019s rate decision this week."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61731435/stock-market-will-sp-500-open-up-or-down-today-35?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-11 05:22",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61781323/stock-market-will-sp-500-open-up-or-down-today-37?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-15 05:58",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are showing modest gains early Friday as investors brace for the critical August Consumer Price Index (CPI) report amid persistent inflation concerns, central bank pressure, and deepening maritime disruptions in the Middle East. The Polymarket (CRYPTO: POL)..."
-      },
-      {
-        "title": "AI Will Transform the World, but Legendary Investor Warns Its Arms Race Has a Familiar Trap",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-transform-world-legendary-investor-013027003.html?.tsrc=rss",
-        "time_published": "2026-09-11 01:30",
-        "source": "Finance",
-        "summary": "Three decades after Alan Greenspan warned of \u201cirrational exuberance,\u201d Howard Marks says one half of that phrase is beyond dispute. \u201cThere\u2019s no question about the fact that we have exuberance,\u201d the Oaktree Capital co-chairman said. \u201cThe question is, is today\u2019s..."
-      },
-      {
-        "title": "Nio Just Dropped 25% in a Month. Is It Time to Sell?",
-        "url": "https://247wallst.com/investing/2026/09/10/nio-just-dropped-25-in-a-month-is-it-time-to-sell/?.tsrc=rss",
-        "time_published": "2026-09-10 19:13",
-        "source": "247wallst",
-        "summary": "Nio's shares have shed a quarter of their value in a single month, falling below a freshly cut analyst target even as delivery records keep piling up. The gap between what the volume numbers promise and what investors are willing to pay is widening fast."
+        "summary": "U.S. stock futures are trending lower early Tuesday as Wall Street digests rising energy costs, refinery outages, and the start of a critical Federal Reserve policy meeting. The Polymarket (CRYPTO: POL) crowd is leaning heavily bearish for the Sept. 15..."
       }
     ],
     "oil": [
+      {
+        "title": "Energy ETF (USO) Hits New 52-Week High",
+        "url": "https://finance.yahoo.com/energy/articles/energy-etf-uso-hits-52-151900990.html?.tsrc=rss",
+        "time_published": "2026-09-14 15:19",
+        "source": "Finance",
+        "summary": "USO reaches a 52-week high as Middle East tensions and oil supply concerns drive gains. More upside ahead?"
+      },
       {
         "title": "OPEC+ Keeps October Output Same: Oil ETFs in Focus",
         "url": "https://finance.yahoo.com/energy/articles/opec-keeps-october-output-same-140000595.html?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-08-18 14:33",
         "source": "Finance",
         "summary": "The U.S. SPR falls below 300M million barrels. Could shrinking reserves and oil-supply risks reshape the outlook for oil and energy ETFs?"
-      },
-      {
-        "title": "'Economic Isolation' for Iran? ETFs to Gain/Lose",
-        "url": "https://finance.yahoo.com/economy/policy/articles/economic-isolation-iran-etfs-gain-140000350.html?.tsrc=rss",
-        "time_published": "2026-08-14 14:00",
-        "source": "Finance",
-        "summary": "Iran faces new economic pressure. See which ETFs could gain or lose from higher oil, defense spending and inflation risks."
       }
     ]
   }

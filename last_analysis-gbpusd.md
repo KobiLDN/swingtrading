@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-09-11
-**Generated:** 2026-09-11T11:10:15Z
+**Date:** 2026-09-15
+**Generated:** 2026-09-15T11:37:04Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,24 +18,24 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 4/10 |
-| **Support** | 1.34547, 1.34, 1.335 |
-| **Resistance** | 1.35084, 1.355, 1.36 |
+| **Support** | 1.3454, 1.34, 1.335 |
+| **Resistance** | 1.3509, 1.355, 1.36 |
 
 ---
 
 ## Analysis
 
-The daily chart shows price at 1.35073, trading virtually on the EMA50 (1.35084) and well above the EMA200 (1.34547). The overall trend is labeled NEUTRAL, which aligns with price hugging the 50-period moving average without a clear directional bias. The bullish Morning Star pattern appearing within the last five candles suggests potential upward momentum, but it is immediately followed by a Doji, signaling indecision and weakening conviction. Without a confirmed breakout above the EMA50 or a decisive move below the EMA200, the market remains in a balanced state.
+The price at 1.34788 sits between the EMA50 (1.35089) and EMA200 (1.34539), confirming a neutral trend with no clear directional bias. The Evening Star candlestick pattern is a bearish reversal signal, but it appears after a minor uptrend and lacks strong volume confirmation. The RSI at 39.09 is neutral but leans bearish below 50, while the MACD is bearish with the line below the signal and a negative histogram. These indicators agree on a slight bearish bias, but the overall signal score of 4/10 reflects low conviction due to the lack of a decisive trend.
 
-The RSI at 44.54 is neutral, neither oversold nor overbought, while the MACD remains bearish with the line below the signal and a negative histogram. This creates a divergence between the short-term candlestick signal (bullish) and the momentum indicators (bearish). Such conflicting readings reduce the reliability of any immediate trade setup. Support is identified at the EMA200 (1.34547), with further layers near 1.3400 and 1.3350. Resistance sits at the EMA50 (1.35084), followed by 1.3550 and 1.3600, which are previous swing highs.
+No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. Key support is the EMA200 at 1.3454, a level that has held price in recent sessions. Resistance is the EMA50 at 1.3509, which caps upside momentum. A break below the EMA200 could open the door to 1.3400, while a rally above the EMA50 would challenge 1.3550. However, current price is equidistant from both EMAs, offering no immediate high-probability entry.
 
-Given the low signal score of 4/10, mixed indicator confluence, and the absence of a strong trending condition, the prudent approach is to wait for a clearer catalyst. A long entry would require a sustained close above the EMA50 with bullish MACD crossover confirmation, while a short entry would need a breakdown below the EMA200 with increasing bearish momentum. The current environment offers no high-confidence edge.
+The confluence of bearish signals (Evening Star, RSI below 50, MACD bearish) is present but weak, and the neutral trend means price could easily reverse. Risk-reward is unfavorable for a short at current levels because the stop would need to sit above the recent high (likely above 1.3510) while the nearest support is only 24 pips away. Similarly, a long lacks bullish catalyst. Hence, waiting for a clearer breakout or a better risk-reward setup is prudent.
 
 ---
 
 ## Invalidation
 
-This neutral stance is invalidated if price breaks and closes decisively above 1.3550 (triggering a bullish bias) or below 1.3450 (confirming bearish control), at which point a directional trade may become viable.
+This wait setup is invalidated if price decisively breaks above the EMA50 (1.3509) or below the EMA200 (1.3454) with strong momentum and volume, creating a new directional trade opportunity.
 
 ---
 
