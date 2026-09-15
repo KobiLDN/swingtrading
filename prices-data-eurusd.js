@@ -1,30 +1,24 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-09-14T11:14:09Z",
-  "date": "2026-09-14",
-  "price": 1.15437,
-  "atr": 0.00405,
+  "generated": "2026-09-15T10:40:59Z",
+  "date": "2026-09-15",
+  "price": 1.15393,
+  "atr": 0.00404,
   "atr_pips": 40,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15793,
-  "ema200": 1.15975,
-  "rsi": 36.18,
-  "macd_line": -2.3e-05,
-  "macd_signal": 0.000905,
-  "macd_hist": -0.000928,
+  "ema50": 1.1578,
+  "ema200": 1.15966,
+  "rsi": 35.32,
+  "macd_line": -0.000461,
+  "macd_signal": 0.000641,
+  "macd_hist": -0.001102,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-10",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-09-11",
       "name": "Hammer",
@@ -53,13 +47,6 @@ window.PRICES_DATA_EURUSD = {
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-07",
-      "open": 1.15217,
-      "high": 1.15264,
-      "low": 1.15099,
-      "close": 1.1521
-    },
     {
       "date": "2026-06-08",
       "open": 1.15171,
@@ -750,8 +737,15 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-09-14",
       "open": 1.15985,
       "high": 1.15997,
-      "low": 1.15348,
-      "close": 1.15437
+      "low": 1.15232,
+      "close": 1.15511
+    },
+    {
+      "date": "2026-09-15",
+      "open": 1.15508,
+      "high": 1.15565,
+      "low": 1.15274,
+      "close": 1.15393
     }
   ]
 };
