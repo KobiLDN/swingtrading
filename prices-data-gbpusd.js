@@ -1,21 +1,21 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-09-15T10:40:58Z",
-  "date": "2026-09-15",
-  "price": 1.34788,
-  "atr": 0.00442,
-  "atr_pips": 44,
+  "generated": "2026-09-16T10:29:04Z",
+  "date": "2026-09-16",
+  "price": 1.34678,
+  "atr": 0.00431,
+  "atr_pips": 43,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.35089,
-  "ema200": 1.34539,
-  "rsi": 39.09,
-  "macd_line": -0.00074,
-  "macd_signal": -6.3e-05,
-  "macd_hist": -0.000677,
+  "ema50": 1.35072,
+  "ema200": 1.3449,
+  "rsi": 37.23,
+  "macd_line": -0.001106,
+  "macd_signal": -0.000274,
+  "macd_hist": -0.000832,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
@@ -24,18 +24,17 @@ window.PRICES_DATA_GBPUSD = {
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-09-16",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-08",
-      "open": 1.33358,
-      "high": 1.33702,
-      "low": 1.33056,
-      "close": 1.33387
-    },
     {
       "date": "2026-06-09",
       "open": 1.33389,
@@ -727,7 +726,14 @@ window.PRICES_DATA_GBPUSD = {
       "open": 1.35009,
       "high": 1.35058,
       "low": 1.34647,
-      "close": 1.34788
+      "close": 1.34768
+    },
+    {
+      "date": "2026-09-16",
+      "open": 1.34762,
+      "high": 1.3495,
+      "low": 1.34658,
+      "close": 1.34678
     }
   ]
 };
