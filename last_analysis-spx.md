@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-09-14
-**Generated:** 2026-09-15T11:38:30Z
+**Date:** 2026-09-15
+**Generated:** 2026-09-16T11:31:32Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,33 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 4/10 |
-| **Support** | 758.56, 755.0, 750.0 |
-| **Resistance** | 765.0, 770.0, 775.0 |
+| **Support** | 751.27, 745.0, 740.0 |
+| **Resistance** | 758.52, 762.0, 765.0 |
 
 ---
 
 ## Analysis
 
-Price action confirms the EMA trend as price (760.88) remains above both the EMA50 (758.56) and EMA200 (724.75), consistent with the "STRONG UPTREND" label. However, the recent candlestick pattern—a Morning Star over the last five candles—suggests a potential bullish reversal from a local low. This pattern is a positive signal, but it has not yet been validated by follow-through price movement above nearby resistance. The price is currently hugging the EMA50, which acts as dynamic support, but the lack of a clear breakout above the prior swing high weakens the immediate bullish case.
+The price action shows a neutral trend with price (757.39) slightly below the 50-day EMA (758.52) but well above the 200-day EMA (725.71), indicating a short-term bearish bias within a longer-term uptrend. The Morning Star candlestick pattern over the last five candles suggests a potential bullish reversal, but this is contradicted by the bearish MACD (line below signal, negative histogram) and a neutral RSI (44.41) with no divergence. The signal score of 4/10 reflects this lack of confluence.  
 
-No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the limited data. The key support level is the EMA50 at 758.56, with psychological round numbers at 755.00 and 750.00 below. Resistance is likely near the recent high around 765.00, followed by 770.00 and 775.00. The ATR of 6.22 indicates moderate daily volatility, so a move of 6–12 points is typical for a swing.
+No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. Key resistance is the 50-day EMA at 758.52, followed by 762.00 (recent swing high) and 765.00 (psychological round number). Support lies near 751.27 (potential prior low), then 745.00 and 740.00 (intermediate levels). The Morning Star alone is insufficient to override the bearish MACD and neutral RSI, especially with price below the short-term EMA.  
 
-The RSI at 47.32 is neutral, showing no overbought or oversold condition, while the MACD is bearish (line below signal, negative histogram). This divergence between the bullish trend and bearish momentum creates a conflict. The Morning Star provides a short-term bullish bias, but the MACD suggests underlying weakness. Without a clear confluence of indicators, the risk of a false breakout or continued consolidation is elevated. The signal score of 4/10 reflects this low conviction.
-
-Given the mixed signals—bullish trend and candlestick pattern versus bearish MACD and neutral RSI—the prudent action is to wait for confirmation. A buy setup would require price to close above 765.00 (resistance) with a bullish MACD crossover or a strong RSI move above 50. A sell setup is not warranted because the trend is still up and the Morning Star suggests a bounce. Therefore, no trade is recommended at this time.
+The best trade setup is to wait for confirmation. A buy would require price to break and hold above the 50-day EMA with improving momentum (MACD crossing above signal, RSI rising above 50). A sell would require a breakdown below recent support with bearish continuation. Currently, the risk of a false reversal is high given the conflicting signals.
 
 ---
 
 ## Invalidation
 
-This wait-and-see stance is invalidated if price breaks and closes below the EMA50 at 758.56, which would signal a potential trend reversal or deeper correction.
+A close below 751.27 (recent support) would invalidate the bullish Morning Star potential and confirm continued bearish pressure.
 
 ---
 

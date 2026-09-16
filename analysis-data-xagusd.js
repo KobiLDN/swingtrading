@@ -1,25 +1,27 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-09-15T11:38:59Z",
+  "generated": "2026-09-16T11:32:24Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10",
-  "analysis": "The price action firmly confirms the EMA trend \u2013 SLV is trading well below both the 50-period (58.65) and 200-period (60.58) EMAs, with the EMA50 already below the EMA200, establishing a strong downtrend. The RSI at 44.16 is neutral, not oversold, leaving room for further downside, while the MACD remains bearish (line below signal, histogram negative at -0.5673). These indicators agree without any divergence, underscoring the bearish bias.  \n\nThe Doji candlestick appearing within the last five candles hints at indecision and a possible pause in the decline. However, given the low signal score of 2/10 and the absence of any bullish reversal pattern (e.g., hammer, engulfing), this Doji is more likely a consolidation pause than a reliable reversal signal. No other chart patterns like flags or double tops/bottoms are evident, so the downtrend remains the dominant force.  \n\nKey support lies near the round number 55.00, followed by 53.50 and 52.00 (hypothetical prior lows). Resistance is tight overhead: the nearest barrier is around 57.50 (recent swing high), then the EMA50 at 58.65, and finally the EMA200 near 60.58. With price at 56.84, the risk/reward for a short entry is unfavorable because a stop above the nearest resistance (e.g., 57.50) would be roughly 0.66 points (1.2% risk) for a target of only 55.00 (3.2% reward), but the Doji introduces uncertainty that could trigger a false breakout.  \n\nGiven the confluence of a strong downtrend but a low-probability setup (signal score 2/10), the prudent course is to wait for either a confirmed breakdown below 55.00 with rising volume or a clear bounce that retests resistance before committing. Initiating a position now carries elevated risk of a short squeeze from the Doji indecision, so patience is advised.",
-  "invalidation": "If price closes above 57.50 (recent swing high) or the EMA50, the downtrend is called into question and a wait-and-see approach would be maintained; conversely, a decisive break below 55.00 would trigger a re-evaluation for a short entry.",
+  "score": "3/10",
+  "analysis": "The price at 57.53 sits firmly below both the EMA50 (58.6) and EMA200 (60.79), confirming the strong downtrend indicated by the trend label. The recent doji candlestick suggests indecision and a possible pause in the selloff, but it does not constitute a reversal pattern without subsequent confirmation. Price action aligns with the bearish EMA alignment, and the lack of any bullish divergence or reversal signals keeps the path of least resistance lower.  \n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are evident from the provided data. The doji could be part of a consolidation before a continuation move, but it is too early to identify a specific formation. Key resistance levels are the EMA50 at 58.6, followed by the psychological 59.00 round number and the EMA200 at 60.79. Immediate support lies at 57.00 (a recent minor low), then 56.50 and 56.00, which align with prior swing lows from the downtrend.  \n\nRSI at 46.42 is neutral and does not signal overbought or oversold conditions, while the MACD remains bearish with the line below the signal and a negative histogram (-0.560). This confluence supports the downtrend, as both momentum indicators agree on bearish pressure. The absence of RSI divergence removes any counter-trend warning. Given the overall weak signal score of 3/10, the current setup lacks a high-probability entry point.  \n\nThe single best trade setup would be to wait for a minor rally toward the EMA50 (58.6) to sell short, as that offers a better risk/reward against the prevailing trend. However, with price currently near support and the doji introducing uncertainty, entering now carries elevated risk of a false breakout or short squeeze. Therefore, the prudent action is to stay on the sidelines until a clear bounce to resistance occurs or a decisive breakdown below 57.00 confirms further downside.",
+  "invalidation": "N/A",
   "support_levels": [
-    55.0,
-    53.5,
-    52.0
+    57.0,
+    56.5,
+    56.0
   ],
   "resistance_levels": [
-    57.5
+    58.6,
+    59.0,
+    60.79
   ]
 };

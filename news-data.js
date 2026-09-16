@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-15T11:39:29Z",
+  "generated": "2026-09-16T11:34:57Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR and GBP Weaken",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-072505318.html?.tsrc=rss",
+        "time_published": "2026-09-15 07:25",
+        "source": "Finance",
+        "summary": "DXY strengthens as Fed hike bets and 5% Treasury yields support the dollar, while EUR/USD and GBP/USD weaken ahead of key policy decisions."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Hike Odds Lift DXY as EUR/USD and GBP/USD Weaken",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-060329859.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-07 08:12",
         "source": "Finance",
         "summary": "Strong U.S. jobs revive Fed hike bets as DXY stalls, while ECB and BoE tightening risks support the euro and pound ahead of key inflation data."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Weakens Ahead of NFP; EUR/USD and GBP/USD Recover",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-063755377.html?.tsrc=rss",
-        "time_published": "2026-09-04 06:37",
-        "source": "Finance",
-        "summary": "U.S. NFP takes center stage as DXY weakens, while EUR/USD and GBP/USD recover amid diverging Fed, ECB and BoE rate expectations."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR and GBP Weaken",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-072505318.html?.tsrc=rss",
+        "time_published": "2026-09-15 07:25",
+        "source": "Finance",
+        "summary": "DXY strengthens as Fed hike bets and 5% Treasury yields support the dollar, while EUR/USD and GBP/USD weaken ahead of key policy decisions."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Hike Odds Lift DXY as EUR/USD and GBP/USD Weaken",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-060329859.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-07 16:55",
         "source": "Finance",
         "summary": "Japanese yen rallies as traders bet on BoJ rate hike."
-      },
-      {
-        "title": "US Dollar Price Forecast: Strong Jobs Revive Fed Hike Bets as ECB Decision Looms",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-081231126.html?.tsrc=rss",
-        "time_published": "2026-09-07 08:12",
-        "source": "Finance",
-        "summary": "Strong U.S. jobs revive Fed hike bets as DXY stalls, while ECB and BoE tightening risks support the euro and pound ahead of key inflation data."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,84 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "TPAY Yields 10% With Full S&P 500 Exposure. Here\u2019s Exactly What You Give Up to Get It",
-        "url": "https://247wallst.com/investing/etf/2026/09/14/tpay-yields-10-with-full-sp-500-exposure-heres-exactly-what-you-give-up-to-get-it/?.tsrc=rss",
-        "time_published": "2026-09-14 20:43",
-        "source": "247wallst",
-        "summary": "TPAY promises a 10% annual distribution while keeping you fully invested in the S&P 500, and it skips the covered-call playbook entirely to do it. But that unconventional approach comes with a hidden cost most investors overlook before buying in."
+        "title": "12 Investment Must Reads for This Week (Sept. 15, 2026)",
+        "url": "https://www.wealthmanagement.com/etfs/12-investment-must-reads-for-this-week-sept-15-2026-?.tsrc=rss",
+        "time_published": "2026-09-15 16:08",
+        "source": "Wealthmanagement",
+        "summary": "Issuers continue to be aggressive with ETF launches, but increasingly new products seeking to find a niche are based on leverage or riskier assets. The rancor in bond markets is pushing investors to seek alternative paths for income. These are among the investment must reads for financial advisors t"
       },
       {
-        "title": "S&P 500, Nasdaq, Dow Drop On Chipmaker Weakness, Treasury Yield Pressure \u2014 MSFT, NFLX, ORCL, CRWD, RBLX In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-drop-on-chipmaker-weakness/cZtm0WRRBTI?.tsrc=rss",
-        "time_published": "2026-09-14 21:53",
+        "title": "S&P 500, Nasdaq, Dow End Lower As Investors Price In Rate Hike Ahead Of Fed Meeting \u2014 AMZN, META, MU, TSLA, PLTR In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-lower-as-investors-price-in-rate-hike-ahead-of-fed-meeting-amzn-meta-mu-tsla-pltr-in-focus/cZtn8vQRBcx?.tsrc=rss",
+        "time_published": "2026-09-15 22:04",
         "source": "Stocktwits",
-        "summary": "Anthropic CEO Dario Amodei called for a slowdown of the development of AI capabilities."
+        "summary": "Traders expect a 92% chance the Fed will hike interest rates on Wednesday."
       },
       {
-        "title": "Texas Instruments Is Up 55% in 2026: This Is the Secret Tech Stock You\u2019re Missing Out On",
-        "url": "https://247wallst.com/investing/2026/09/14/texas-instruments-is-up-55-in-2026-this-is-the-secret-tech-stock-youre-missing-out-on/?.tsrc=rss",
-        "time_published": "2026-09-14 19:08",
+        "title": "Wells Fargo's new S&P 500 call signals trouble ahead",
+        "url": "https://www.thestreet.com/investing/wells-fargo-sp500-pullback-warning-spy-voo-etfs?.tsrc=rss",
+        "time_published": "2026-09-15 21:33",
+        "source": "Thestreet",
+        "summary": "Wells Fargo\u2019s new target flows straight through to SPY and VOO, the funds millions of investors already own."
+      },
+      {
+        "title": "Norwegian Falls 3% as Wells Fargo Trims Carnival Target on Caribbean Pricing Pressure; Carnival Slips, Royal Caribbean Dips",
+        "url": "https://247wallst.com/investing/2026/09/15/norwegian-falls-3-as-wells-fargo-trims-carnival-target-on-caribbean-pricing-pressure-carnival-slips-royal-caribbean-dips/?.tsrc=rss",
+        "time_published": "2026-09-15 16:36",
         "source": "247wallst",
-        "summary": "While Wall Street obsesses over AI compute chips, one analog giant has quietly outpaced the S&P 500 by a factor of five this year, and the reason has nothing to do with artificial intelligence."
+        "summary": "A Wells Fargo note about Carnival is hitting Norwegian Cruise Line the hardest, and the reason why reveals exactly which operator the market sees as most exposed to the Caribbean pricing storm now moving through the sector."
       },
       {
-        "title": "CHWY Is Still Down 34% This Year: Did CHWY Stock Just Find a Bottom?",
-        "url": "https://247wallst.com/investing/2026/09/14/chwy-is-still-down-34-this-year-did-chwy-stock-just-find-a-bottom/?.tsrc=rss",
-        "time_published": "2026-09-14 19:01",
+        "title": "Offshore Oil Stocks Rally While the Broad Market Slips: Transocean Climbs 6%, Valaris Rises 6%, W&T Offshore Gains 6%",
+        "url": "https://247wallst.com/investing/2026/09/15/offshore-oil-stocks-rally-while-the-broad-market-slips-transocean-climbs-6-valaris-rises-6-wt-offshore-gains-6/?.tsrc=rss",
+        "time_published": "2026-09-15 16:03",
         "source": "247wallst",
-        "summary": "Chewy stock surged 6% in a single session after a brutal year-to-date collapse, and bargain hunters are suddenly paying attention. The case for a turnaround and the case against it both have real teeth, and the next quarter will force a verdict."
-      },
-      {
-        "title": "Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding?",
-        "url": "https://247wallst.com/investing/2026/09/14/caterpillar-falls-4-while-deere-edges-higher-is-the-data-center-power-trade-unwinding/?.tsrc=rss",
-        "time_published": "2026-09-14 15:40",
-        "source": "247wallst",
-        "summary": "Two AI executives published essays over a weekend, and by Monday morning Caterpillar was selling off four times faster than the broader market while Deere climbed. The question is whether the order book that stretches into 2029 actually matters when sentiment turns this fast."
-      },
-      {
-        "title": "Cybersecurity Stocks Surge as AI Safety Warnings Spark Security Bid: CrowdStrike and Zscaler Jump 12%, Palo Alto Rallies 11%",
-        "url": "https://247wallst.com/investing/2026/09/14/cybersecurity-stocks-surge-as-ai-safety-warnings-spark-security-bid-crowdstrike-and-zscaler-jump-12-palo-alto-rallies-11/?.tsrc=rss",
-        "time_published": "2026-09-14 15:08",
-        "source": "247wallst",
-        "summary": "AI safety warnings from two frontier lab CEOs sent shockwaves through chipmakers over the weekend, but cybersecurity stocks are telling a completely different story about what those warnings mean for the threat environment ahead."
-      },
-      {
-        "title": "AI, Fed And 5% Treasury Yield: Three Risks Putting Nasdaq, Dow Futures On Edge Ahead Of Wednesday\u2019s Rate Decision",
-        "url": "https://stocktwits.com/news-articles/markets/equity/ai-fed-5-treasury-yield-three-risks-putting-nasdaq-dow-futures-on-edge-ahead-of-wednesday-rate-decision/cZtnPK2RBTu?.tsrc=rss",
-        "time_published": "2026-09-15 08:44",
-        "source": "Stocktwits",
-        "summary": "Retail sentiment on SPY and QQQ remained \u2018extremely bearish\u2019 ahead of the Fed\u2019s rate decision this week."
+        "summary": "Transocean, Valaris, and W&T Offshore surged an identical 6% in Tuesday's session despite operating in completely different layers of the offshore energy business, and the reason behind that synchronized move tells investors something important about where this rally can and cannot go."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61781323/stock-market-will-sp-500-open-up-or-down-today-37?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-15 05:58",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61808033/stock-market-will-sp-500-open-up-or-down-today-38?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-16 06:29",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are trending lower early Tuesday as Wall Street digests rising energy costs, refinery outages, and the start of a critical Federal Reserve policy meeting. The Polymarket (CRYPTO: POL) crowd is leaning heavily bearish for the Sept. 15..."
+        "summary": "U.S. stock futures are trending higher early Wednesday as investors await the Federal Reserve\u2019s highly anticipated interest rate decision and weigh cooling fears over an AI slowdown against the massive economic costs of the U.S.-Iran conflict. The Polymarket (CRYPTO: POL)..."
+      },
+      {
+        "title": "JEPQ\u2019s Monthly Check Has Swung From $0.34 to $0.70 a Share: The $500,000 Retiree Can\u2019t Budget on It",
+        "url": "https://247wallst.com/investing/etf/2026/09/15/jepqs-monthly-check-has-swung-from-0-34-to-0-70-a-share-the-500000-retiree-cant-budget-on-it/?.tsrc=rss",
+        "time_published": "2026-09-15 21:55",
+        "source": "247wallst",
+        "summary": "JEPQ promises retirees a fat monthly paycheck, but the same $500,000 investment can produce wildly different checks from one season to the next, and the tax treatment buried in the fine print makes the real yield far less glamorous than the headline suggests."
+      },
+      {
+        "title": "QuantumScape Is Down 51% This Year. Is QS Stock Dead Money or Due for a Bounce?",
+        "url": "https://247wallst.com/investing/2026/09/15/quantumscape-is-down-51-this-year-is-qs-stock-dead-money-or-due-for-a-bounce/?.tsrc=rss",
+        "time_published": "2026-09-15 19:16",
+        "source": "247wallst",
+        "summary": "QuantumScape has shed half its value this year while its sector index climbed, and the gap between those two lines tells a more complicated story than a simple bull or bear verdict can capture."
       }
     ],
     "oil": [
+      {
+        "title": "Why Oil Bears May Make a Stand as Prices Approach Highs",
+        "url": "https://finance.yahoo.com/energy/articles/why-oil-bears-may-stand-021100895.html?.tsrc=rss",
+        "time_published": "2026-09-16 02:11",
+        "source": "Finance",
+        "summary": "Oil prices have surged thus far in 2026 - however, the technical chart and historical seasonality point to a market that could stall into year-end."
+      },
+      {
+        "title": "Navigating the Market: Inflation, Yields, & the Fed",
+        "url": "https://finance.yahoo.com/economy/policy/articles/navigating-market-inflation-yields-fed-233300605.html?.tsrc=rss",
+        "time_published": "2026-09-15 23:33",
+        "source": "Finance",
+        "summary": "Over the past few weeks, the market has been extremely choppy, frustrating, and has lacked liquidity. The good news is that Wednesday's FOMC meeting should bring volatility back in a big way and finally give the market some direction."
+      },
+      {
+        "title": "Inflation Fears and Oil Surge Rattle Markets",
+        "url": "http://www.etf.com/sections/bonds/inflation-fears-and-oil-surge-rattle-markets?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-09-15 19:45",
+        "source": "Etf",
+        "summary": "The summer months may have ended, but the dog days appear to be sticking around, at least for markets. With the Fed rate decision due Wednesday and new developments in the Middle East sparking renewed fears of oil shortages, bond yields are spiking. It turns out that bonds are anything but boring th"
+      },
       {
         "title": "Energy ETF (USO) Hits New 52-Week High",
         "url": "https://finance.yahoo.com/energy/articles/energy-etf-uso-hits-52-151900990.html?.tsrc=rss",
@@ -269,27 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-04 12:00",
         "source": "Finance",
         "summary": "Economist Paul Krugman argues that the Donald Trump administration\u2019s attempt to blame Ukraine for soaring fuel prices highlights that Washington is powerless to alter Kyiv\u2019s strategy, as officials have \u201cno cards\u201d left to fulfill promises of cheaper gas. Bessent Points..."
-      },
-      {
-        "title": "The Best-Performing Commodity ETFs of 2026: Oil and Broad Baskets Lead the Pack",
-        "url": "http://www.etf.com/sections/news/best-performing-commodity-etfs-2026-oil-and-broad-baskets-lead-pack?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-09-02 23:26",
-        "source": "Etf",
-        "summary": "Commodities have been one of 2026\u2019s strongest asset classes, but the leadership is not where the precious-metals headlines pointed. Crude oil has roughly doubled year to date, broad commodity baskets are up more than 40%, and gold, silver and uranium funds have spent the year consolidating after ear"
-      },
-      {
-        "title": "Geopolitical Risks Lift Oil Prices: 4 ETFs to Watch",
-        "url": "https://finance.yahoo.com/energy/articles/geopolitical-risks-lift-oil-prices-142600360.html?.tsrc=rss",
-        "time_published": "2026-08-28 14:26",
-        "source": "Finance",
-        "summary": "Oil prices rebound as fading U.S.-Iran diplomacy, and supply risks in the Strait of Hormuz and Russia revive the case for oil-focused ETFs."
-      },
-      {
-        "title": "U.S. SPR Falls Fast: What Does it Mean for Oil & Energy ETFs?",
-        "url": "https://finance.yahoo.com/energy/articles/u-spr-falls-fast-does-143300701.html?.tsrc=rss",
-        "time_published": "2026-08-18 14:33",
-        "source": "Finance",
-        "summary": "The U.S. SPR falls below 300M million barrels. Could shrinking reserves and oil-supply risks reshape the outlook for oil and energy ETFs?"
       }
     ]
   }

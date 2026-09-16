@@ -1,26 +1,26 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-09-15T11:37:04Z",
+  "generated": "2026-09-16T11:27:43Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The price at 1.34788 sits between the EMA50 (1.35089) and EMA200 (1.34539), confirming a neutral trend with no clear directional bias. The Evening Star candlestick pattern is a bearish reversal signal, but it appears after a minor uptrend and lacks strong volume confirmation. The RSI at 39.09 is neutral but leans bearish below 50, while the MACD is bearish with the line below the signal and a negative histogram. These indicators agree on a slight bearish bias, but the overall signal score of 4/10 reflects low conviction due to the lack of a decisive trend.\n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. Key support is the EMA200 at 1.3454, a level that has held price in recent sessions. Resistance is the EMA50 at 1.3509, which caps upside momentum. A break below the EMA200 could open the door to 1.3400, while a rally above the EMA50 would challenge 1.3550. However, current price is equidistant from both EMAs, offering no immediate high-probability entry.\n\nThe confluence of bearish signals (Evening Star, RSI below 50, MACD bearish) is present but weak, and the neutral trend means price could easily reverse. Risk-reward is unfavorable for a short at current levels because the stop would need to sit above the recent high (likely above 1.3510) while the nearest support is only 24 pips away. Similarly, a long lacks bullish catalyst. Hence, waiting for a clearer breakout or a better risk-reward setup is prudent.",
-  "invalidation": "This wait setup is invalidated if price decisively breaks above the EMA50 (1.3509) or below the EMA200 (1.3454) with strong momentum and volume, creating a new directional trade opportunity.",
+  "score": "4/10 confirmed",
+  "analysis": "The trend is rightfully labeled as neutral given price action is squeezed between the 50-period EMA (bearish short-term) and the 200-period EMA (bullish long-term). The Evening Star pattern signals exhaustion near resistance, yet the subsequent Inverted Hammer sitting directly on the 200 EMA shows strong defensive buying. This price action confirms complete indecision and a lack of trending momentum, validating the low 4/10 signal score.\n\nNo major classical chart patterns are fully confirmed outside the specific candlesticks. The pair is compressing between the two major moving averages, creating a tight coil. This consolidation often precedes an expansion, but the direction cannot be predicted here. The Inverted Hammer hugging the 200 EMA creates a potential double bottom structure if price successfully defends that level again.\n\nThe RSI at 37.23 and the bearish MACD (line below signal, negative histogram) align to show bearish short-term momentum. However, this directly conflicts with the bullish reversal implication of the Inverted Hammer and the historical support of the 200 EMA. This lack of confluence between momentum and immediate price structure is the core reason for the low score and the necessity for patience.\n\nTherefore, the single best trade setup right now is to WAIT. Buying into the bounce defies the bearish momentum; shorting into the 200 EMA risks being caught in a reversal from a two-legged pattern. The highest probability play is to let the market resolve this range. A decisive daily close below 1.3445 would confirm the failure of the Inverted Hammer and favor sells. A close above 1.3507 would confirm the bounce and favor buys. Stepping aside eliminates the high whipsaw risk.",
+  "invalidation": "A decisive daily close above 1.3507 or below 1.3445 would shift the market structure, negating the wait and establishing a new directional trading bias.",
   "support_levels": [
-    1.3454,
-    1.34,
-    1.335
+    1.3449,
+    1.3425,
+    1.34
   ],
   "resistance_levels": [
-    1.3509,
+    1.3507,
     1.355,
     1.36
   ]
