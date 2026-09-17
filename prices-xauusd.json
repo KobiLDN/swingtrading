@@ -1,32 +1,38 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-09-16T10:29:06Z",
-  "date": "2026-09-16",
-  "price": 4345.8,
-  "atr": 71.35,
-  "atr_pips": 71,
+  "generated": "2026-09-17T10:38:45Z",
+  "date": "2026-09-17",
+  "price": 4317.76,
+  "atr": 75.03,
+  "atr_pips": 75,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4360.05,
-  "ema200": 4498.08,
-  "rsi": 46.21,
-  "macd_line": -24.686708,
-  "macd_signal": -9.466845,
-  "macd_hist": -15.219863,
+  "ema50": 4355.33,
+  "ema200": 4502.66,
+  "rsi": 44.28,
+  "macd_line": -31.065615,
+  "macd_signal": -14.829742,
+  "macd_hist": -16.235873,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
       "date": "2026-09-16",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
+    },
+    {
+      "date": "2026-09-17",
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
     },
     {
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
@@ -35,13 +41,6 @@
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-09",
-      "open": 4330.08,
-      "high": 4359.96,
-      "low": 4236.57,
-      "close": 4260.08
-    },
     {
       "date": "2026-06-10",
       "open": 4260.1,
@@ -731,9 +730,16 @@
     {
       "date": "2026-09-16",
       "open": 4293.61,
-      "high": 4349.85,
-      "low": 4275.88,
-      "close": 4345.8
+      "high": 4359.58,
+      "low": 4238.37,
+      "close": 4264.07
+    },
+    {
+      "date": "2026-09-17",
+      "open": 4263.9,
+      "high": 4335.71,
+      "low": 4256.66,
+      "close": 4317.76
     }
   ]
 }
