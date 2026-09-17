@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-09-15
-**Generated:** 2026-09-15T11:37:44Z
+**Date:** 2026-09-17
+**Generated:** 2026-09-17T11:33:05Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | SELL |
-| **Confidence** | LOW |
-| **Entry** | 1.15393 |
-| **Stop Loss** | 1.15800 |
-| **Target 1** | 1.15000 |
-| **Target 2** | 1.14500 |
-| **Risk/Reward** | 1:2.19 |
-| **Score** | 4/10 |
-| **Support** | 1.15, 1.145, 1.14 |
-| **Resistance** | 1.1578, 1.1597, 1.165 |
+| **Confidence** | MEDIUM |
+| **Entry** | 1.14785 |
+| **Stop Loss** | 1.15215 |
+| **Target 1** | 1.14500 |
+| **Target 2** | 1.14000 |
+| **Risk/Reward** | 1:1.2 |
+| **Score** | 6/10 confirmed |
+| **Support** | 1.145, 1.14, 1.135 |
+| **Resistance** | 1.15699, 1.15801, 1.152 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong downtrend confirmed by price trading well below both the 50- and 200-period EMAs (1.1578 and 1.15966). The price action aligns with the bearish EMA configuration, as each rally has been met with selling pressure, and the current price of 1.15393 remains under the key moving averages. No clear triangles, flags, or double tops/bottoms are evident from the given data, but the presence of a hammer followed by two dojis and then an Evening Star suggests a failed bottoming attempt, reinforcing the downtrend.
+The price at 1.14785 remains well below both the EMA50 (1.15699) and EMA200 (1.15801), confirming the strong downtrend. The recent candlestick formation—a Doji followed by an Evening Star—reinforces bearish momentum, suggesting sellers are still in control despite the oversold RSI reading of 29.56. The MACD continues to show bearish alignment with the histogram deepening negative, which agrees with the trend direction. While RSI oversold could hint at a potential bounce, the absence of any bullish divergence and the presence of a bearish candlestick pattern argue for continuation rather than reversal.
 
-Key support lies at the psychological 1.1500 level, with further downside targets at 1.1450 and 1.1400. Immediate resistance is at the EMA50 (1.1578), followed by the EMA200 (1.1597) and then the 1.1650 area. The RSI at 35.32 is in neutral territory but leaning bearish, while the MACD is firmly bearish with the line below the signal and a negative histogram. Both oscillators agree with the downtrend, though the RSI is not yet oversold, leaving room for further declines.
+No clear chart patterns such as triangles, flags, or double tops/bottoms are evident near current price. The most relevant resistance levels are the moving averages above, particularly the EMA50 at 1.15699 and the EMA200 at 1.15801, while the area around 1.15200 acts as near-term resistance from the Evening Star’s high. On the downside, support is likely at the round number 1.14500, followed by 1.14000 and then 1.13500. The ATR of 43 pips provides a reasonable stop distance just above the current price to account for intraday volatility.
 
-The single best trade setup is a short position from the current price, capitalizing on the continuation of the strong downtrend. The Evening Star candlestick pattern provides a bearish reversal signal that overrides the earlier hammer and dojis. Risk is set just above the EMA50 at 1.15800, which aligns with a recent minor swing high. The first target at 1.15000 offers a modest risk-to-reward ratio, while the second target at 1.14500 provides a favorable 1:2.19 reward relative to risk. Given the low signal score of 4/10 and mixed candlestick signals, confidence is low, but the trend and momentum indicators support a bearish bias.
+Given the confluence of a strong downtrend, bearish MACD, and a fresh bearish candlestick signal, the best trade is a short entry at market. The oversold RSI lowers confidence slightly but does not invalidate the trend, as oversold conditions can persist in strong moves. The signal score of 6/10 remains unchanged, reflecting a moderately bearish bias. The risk-reward ratio is 1:1.2, with a tight stop placed above the recent swing high and targets at key support levels.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.15800 (the EMA50 and stop-loss level) would invalidate the short setup, indicating a potential trend reversal or strong bounce.
+This setup is invalidated if price breaks and closes above the EMA50 at 1.15699, indicating a potential trend reversal or at least a significant retracement.
 
 ---
 

@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-16T11:34:57Z",
+  "generated": "2026-09-17T11:37:30Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Rate Path in Focus as EUR and GBP Stay Under Pressure",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-083232199.html?.tsrc=rss",
+        "time_published": "2026-09-16 08:32",
+        "source": "Finance",
+        "summary": "DXY holds bullish support ahead of the Fed decision as traders focus on Warsh\u2019s rate guidance, while EUR/USD and GBP/USD remain pressured."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR and GBP Weaken",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-072505318.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-07 16:55",
         "source": "Finance",
         "summary": "Japanese yen rallies as traders bet on BoJ rate hike."
-      },
-      {
-        "title": "US Dollar Price Forecast: Strong Jobs Revive Fed Hike Bets as ECB Decision Looms",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-081231126.html?.tsrc=rss",
-        "time_published": "2026-09-07 08:12",
-        "source": "Finance",
-        "summary": "Strong U.S. jobs revive Fed hike bets as DXY stalls, while ECB and BoE tightening risks support the euro and pound ahead of key inflation data."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Rate Path in Focus as EUR and GBP Stay Under Pressure",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-083232199.html?.tsrc=rss",
+        "time_published": "2026-09-16 08:32",
+        "source": "Finance",
+        "summary": "DXY holds bullish support ahead of the Fed decision as traders focus on Warsh\u2019s rate guidance, while EUR/USD and GBP/USD remain pressured."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR and GBP Weaken",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-072505318.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-08 07:56",
         "source": "Finance",
         "summary": "U.S. inflation and the ECB decision take focus as DXY remains weak, EUR/USD approaches a breakout and GBP/USD stays range-bound."
-      },
-      {
-        "title": "U.S. Dollar Tests New Lows Against Japanese Yen: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-tests-lows-against-165555607.html?.tsrc=rss",
-        "time_published": "2026-09-07 16:55",
-        "source": "Finance",
-        "summary": "Japanese yen rallies as traders bet on BoJ rate hike."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,77 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "12 Investment Must Reads for This Week (Sept. 15, 2026)",
-        "url": "https://www.wealthmanagement.com/etfs/12-investment-must-reads-for-this-week-sept-15-2026-?.tsrc=rss",
-        "time_published": "2026-09-15 16:08",
-        "source": "Wealthmanagement",
-        "summary": "Issuers continue to be aggressive with ETF launches, but increasingly new products seeking to find a niche are based on leverage or riskier assets. The rancor in bond markets is pushing investors to seek alternative paths for income. These are among the investment must reads for financial advisors t"
-      },
-      {
-        "title": "S&P 500, Nasdaq, Dow End Lower As Investors Price In Rate Hike Ahead Of Fed Meeting \u2014 AMZN, META, MU, TSLA, PLTR In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-lower-as-investors-price-in-rate-hike-ahead-of-fed-meeting-amzn-meta-mu-tsla-pltr-in-focus/cZtn8vQRBcx?.tsrc=rss",
-        "time_published": "2026-09-15 22:04",
-        "source": "Stocktwits",
-        "summary": "Traders expect a 92% chance the Fed will hike interest rates on Wednesday."
-      },
-      {
-        "title": "Wells Fargo's new S&P 500 call signals trouble ahead",
-        "url": "https://www.thestreet.com/investing/wells-fargo-sp500-pullback-warning-spy-voo-etfs?.tsrc=rss",
-        "time_published": "2026-09-15 21:33",
-        "source": "Thestreet",
-        "summary": "Wells Fargo\u2019s new target flows straight through to SPY and VOO, the funds millions of investors already own."
-      },
-      {
-        "title": "Norwegian Falls 3% as Wells Fargo Trims Carnival Target on Caribbean Pricing Pressure; Carnival Slips, Royal Caribbean Dips",
-        "url": "https://247wallst.com/investing/2026/09/15/norwegian-falls-3-as-wells-fargo-trims-carnival-target-on-caribbean-pricing-pressure-carnival-slips-royal-caribbean-dips/?.tsrc=rss",
-        "time_published": "2026-09-15 16:36",
+        "title": "Buffer ETFs Promise 100 Percent Downside Protection. Here Is How That Actually Works and What You Give Up",
+        "url": "https://247wallst.com/investing/etf/2026/09/16/buffer-etfs-promise-100-percent-downside-protection-here-is-how-that-actually-works-and-what-you-give-up/?.tsrc=rss",
+        "time_published": "2026-09-16 21:25",
         "source": "247wallst",
-        "summary": "A Wells Fargo note about Carnival is hitting Norwegian Cruise Line the hardest, and the reason why reveals exactly which operator the market sees as most exposed to the Caribbean pricing storm now moving through the sector."
+        "summary": "Buffer ETFs promise to absorb your losses so you can stay in the market without the stomach-churning drops, but the full protection guarantee comes with a catch that most investors discover only after they buy in."
       },
       {
-        "title": "Offshore Oil Stocks Rally While the Broad Market Slips: Transocean Climbs 6%, Valaris Rises 6%, W&T Offshore Gains 6%",
-        "url": "https://247wallst.com/investing/2026/09/15/offshore-oil-stocks-rally-while-the-broad-market-slips-transocean-climbs-6-valaris-rises-6-wt-offshore-gains-6/?.tsrc=rss",
-        "time_published": "2026-09-15 16:03",
+        "title": "Musk Warns of AI Control Problem After Agents Secretly Accessed OpenAI Servers for a Week",
+        "url": "https://247wallst.com/investing/2026/09/16/musk-warns-of-ai-control-problem-after-agents-secretly-accessed-openai-servers-for-a-week/?.tsrc=rss",
+        "time_published": "2026-09-16 20:15",
         "source": "247wallst",
-        "summary": "Transocean, Valaris, and W&T Offshore surged an identical 6% in Tuesday's session despite operating in completely different layers of the offshore energy business, and the reason behind that synchronized move tells investors something important about where this rally can and cannot go."
+        "summary": "A swarm of AI agents silently held admin access to OpenAI servers for a week before anyone noticed, and Elon Musk thinks the industry has no real answer for what comes next."
       },
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61808033/stock-market-will-sp-500-open-up-or-down-today-38?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-16 06:29",
+        "title": "Bloom Energy Gains 4% as S&P 500 Entry Nears; FuelCell Energy Ticks Up, Plug Power Slips",
+        "url": "https://247wallst.com/investing/2026/09/16/bloom-energy-gains-4-as-sp-500-entry-nears-fuelcell-energy-ticks-up-plug-power-slips/?.tsrc=rss",
+        "time_published": "2026-09-16 17:59",
+        "source": "247wallst",
+        "summary": "Bloom Energy is surging toward its S&P 500 debut, but three decades of research suggest the biggest trading opportunity may have already closed before the index funds even place their first order."
+      },
+      {
+        "title": "Robinhood Sinks 5% After Prosecutors Reportedly Charge Two Former Engineers Over Crypto Trades; Webull Drops 9%",
+        "url": "https://247wallst.com/investing/2026/09/16/robinhood-sinks-5-after-prosecutors-reportedly-charge-two-former-engineers-over-crypto-trades-webull-drops-9/?.tsrc=rss",
+        "time_published": "2026-09-16 16:46",
+        "source": "247wallst",
+        "summary": "Federal prosecutors in Manhattan just charged two former Robinhood engineers over crypto trades, and the fallout is already hitting brokerages that had nothing to do with it."
+      },
+      {
+        "title": "Oil Producers Slide as Crude Retreats: EOG Resources Drops 6%, ConocoPhillips and Occidental Petroleum Fall 5%",
+        "url": "https://247wallst.com/investing/2026/09/16/oil-producers-slide-as-crude-retreats-eog-resources-drops-6-conocophillips-and-occidental-petroleum-fall-5/?.tsrc=rss",
+        "time_published": "2026-09-16 16:03",
+        "source": "247wallst",
+        "summary": "Crude prices retreated Wednesday and the pain landed squarely on exploration and production names, skipping refiners and midstream entirely. Here is why that mechanical link turned a commodity move into a sector-wide shakeout for some of the biggest names in the energy patch."
+      },
+      {
+        "title": "S&P 500 Could Deliver Another 6% by Year-End as JPMorgan Calls Bears an \u2018Extinct Species\u2019 \u2014 Polymarket Bettors Price 35% Odds",
+        "url": "https://www.benzinga.com/markets/market-summary/26/09/61837505/sp-500-could-deliver-another-6-by-year-end-as-jpmorgan-calls-bears-an-extinct-species-polymarket-bettors-price-35-odds?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-17 11:20",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are trending higher early Wednesday as investors await the Federal Reserve\u2019s highly anticipated interest rate decision and weigh cooling fears over an AI slowdown against the massive economic costs of the U.S.-Iran conflict. The Polymarket (CRYPTO: POL)..."
+        "summary": "JPMorgan Chase & Co. equity strategists project that the S&P 500 index will reach 8,000 by the end of 2026, calling the bears an extinct species. Polymarket (CRYPTO: POL) bettors also assign a 35% probability to the index closing above..."
       },
       {
-        "title": "JEPQ\u2019s Monthly Check Has Swung From $0.34 to $0.70 a Share: The $500,000 Retiree Can\u2019t Budget on It",
-        "url": "https://247wallst.com/investing/etf/2026/09/15/jepqs-monthly-check-has-swung-from-0-34-to-0-70-a-share-the-500000-retiree-cant-budget-on-it/?.tsrc=rss",
-        "time_published": "2026-09-15 21:55",
-        "source": "247wallst",
-        "summary": "JEPQ promises retirees a fat monthly paycheck, but the same $500,000 investment can produce wildly different checks from one season to the next, and the tax treatment buried in the fine print makes the real yield far less glamorous than the headline suggests."
+        "title": "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-rebound-after-fed-rate-hike-nvda-nbis-snap-spcx-be-gnrc-stocks-in-focus/cZtr1S2RB51?.tsrc=rss",
+        "time_published": "2026-09-17 08:34",
+        "source": "Stocktwits",
+        "summary": "Retail sentiment on SPY and QQQ remained \u2018bearish\u2019, even as futures recovered."
       },
       {
-        "title": "QuantumScape Is Down 51% This Year. Is QS Stock Dead Money or Due for a Bounce?",
-        "url": "https://247wallst.com/investing/2026/09/15/quantumscape-is-down-51-this-year-is-qs-stock-dead-money-or-due-for-a-bounce/?.tsrc=rss",
-        "time_published": "2026-09-15 19:16",
-        "source": "247wallst",
-        "summary": "QuantumScape has shed half its value this year while its sector index climbed, and the gap between those two lines tells a more complicated story than a simple bull or bear verdict can capture."
+        "title": "Oil Surges, Tanker Rates Soar: ETFs in Play",
+        "url": "https://finance.yahoo.com/energy/articles/oil-surges-tanker-rates-soar-195500447.html?.tsrc=rss",
+        "time_published": "2026-09-16 19:55",
+        "source": "Finance",
+        "summary": "Middle East tensions are driving oil prices and tanker rates higher. Here are the ETFs benefiting."
       }
     ],
     "oil": [
+      {
+        "title": "Oil Surges, Tanker Rates Soar: ETFs in Play",
+        "url": "https://finance.yahoo.com/energy/articles/oil-surges-tanker-rates-soar-195500447.html?.tsrc=rss",
+        "time_published": "2026-09-16 19:55",
+        "source": "Finance",
+        "summary": "Middle East tensions are driving oil prices and tanker rates higher. Here are the ETFs benefiting."
+      },
+      {
+        "title": "Futures Traders Betting On 12% Drop In Energy Stocks Over Next Month",
+        "url": "https://247wallst.com/investing/2026/09/16/futures-traders-betting-on-12-drop-in-energy-stocks-over-next-month/?.tsrc=rss",
+        "time_published": "2026-09-16 18:36",
+        "source": "247wallst",
+        "summary": "Options traders are flooding into bets against the year's hottest sector at a pace well above normal, even as crude oil surges and the underlying stocks sit near all-time highs. Something in the macro picture is spooking the smart money, and the trade they chose reveals exactly how severe they expec"
+      },
       {
         "title": "Why Oil Bears May Make a Stand as Prices Approach Highs",
         "url": "https://finance.yahoo.com/energy/articles/why-oil-bears-may-stand-021100895.html?.tsrc=rss",
@@ -276,20 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-08 18:30",
         "source": "Finance",
         "summary": "James Thorne, Chief Market Strategist at Wellington Altus, warned that a Kevin Warsh-led Federal Reserve could repeat one of the \u201cmost damaging\u201d errors from the 2008 financial crisis by raising interest rates as oil prices surge, mistaking an energy-driven price..."
-      },
-      {
-        "title": "Washington Wants Venezuela\u2019s Gold and Critical Minerals",
-        "url": "https://app.moby.co/home/news/news-washington-wants-venezuelas-gold-and-critical-minerals?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-        "time_published": "2026-09-08 16:55",
-        "source": "App",
-        "summary": "There\u2019s no need for any legal backing or executive order because the oil deal authorizes mining of other minerals as a bonus."
-      },
-      {
-        "title": "Trump Promised Cheaper Gas. Now His Team Blames Ukraine\u2014and Paul Krugman Says They Have 'No Cards' Left to Stop It",
-        "url": "https://finance.yahoo.com/energy/articles/trump-promised-cheaper-gas-now-120016602.html?.tsrc=rss",
-        "time_published": "2026-09-04 12:00",
-        "source": "Finance",
-        "summary": "Economist Paul Krugman argues that the Donald Trump administration\u2019s attempt to blame Ukraine for soaring fuel prices highlights that Washington is powerless to alter Kyiv\u2019s strategy, as officials have \u201cno cards\u201d left to fulfill promises of cheaper gas. Bessent Points..."
       }
     ]
   }

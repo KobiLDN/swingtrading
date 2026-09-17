@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-09-16T11:32:24Z",
+  "generated": "2026-09-17T11:37:18Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-09-15",
-  "decision": "WAIT",
-  "confidence": "MEDIUM",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "3/10",
-  "analysis": "The price at 57.53 sits firmly below both the EMA50 (58.6) and EMA200 (60.79), confirming the strong downtrend indicated by the trend label. The recent doji candlestick suggests indecision and a possible pause in the selloff, but it does not constitute a reversal pattern without subsequent confirmation. Price action aligns with the bearish EMA alignment, and the lack of any bullish divergence or reversal signals keeps the path of least resistance lower.  \n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are evident from the provided data. The doji could be part of a consolidation before a continuation move, but it is too early to identify a specific formation. Key resistance levels are the EMA50 at 58.6, followed by the psychological 59.00 round number and the EMA200 at 60.79. Immediate support lies at 57.00 (a recent minor low), then 56.50 and 56.00, which align with prior swing lows from the downtrend.  \n\nRSI at 46.42 is neutral and does not signal overbought or oversold conditions, while the MACD remains bearish with the line below the signal and a negative histogram (-0.560). This confluence supports the downtrend, as both momentum indicators agree on bearish pressure. The absence of RSI divergence removes any counter-trend warning. Given the overall weak signal score of 3/10, the current setup lacks a high-probability entry point.  \n\nThe single best trade setup would be to wait for a minor rally toward the EMA50 (58.6) to sell short, as that offers a better risk/reward against the prevailing trend. However, with price currently near support and the doji introducing uncertainty, entering now carries elevated risk of a false breakout or short squeeze. Therefore, the prudent action is to stay on the sidelines until a clear bounce to resistance occurs or a decisive breakdown below 57.00 confirms further downside.",
+  "date": "2026-09-16",
+  "decision": "SELL",
+  "confidence": "LOW",
+  "entry": "57.05",
+  "stop_loss": "59.00",
+  "target_1": "55.00",
+  "target_2": "53.00",
+  "risk_reward": "2.08",
+  "score": "4/10 confirmed",
+  "analysis": "Price is trading well below both the EMA50 (58.54) and EMA200 (61.13), confirming the strong downtrend. The recent bearish engulfing candle, following a doji, indicates that sellers have reasserted control near the current level. Price action is consistent with the bearish EMA structure, so the trend is considered down until price closes back above the EMA50.\n\nRSI at 45.05 is neutral, meaning there is no oversold bounce signal yet, and MACD is bearish with the line below the signal and a negative histogram. This agrees with the downtrend, though the lack of RSI divergence and neutral momentum reading keeps conviction moderate. No major reversal patterns like double bottoms or bullish divergences are present, so the path of least resistance remains lower.\n\nThe trade is a short at market with a stop above the EMA50/resistance zone at 59.00. Targets are the 55.00 psychological support and the 54.00\u201353.00 area. Risk is defined by the stop, and the reward-to-risk to the second target is about 2.08. Given the 4/10 signal score and neutral RSI, confidence is low, but the bearish setup is valid within the broader downtrend.",
   "invalidation": "N/A",
   "support_levels": [
-    57.0,
-    56.5,
-    56.0
+    56.0,
+    55.0,
+    54.0
   ],
   "resistance_levels": [
-    58.6,
-    59.0,
-    60.79
+    58.54,
+    60.0,
+    61.13
   ]
 };

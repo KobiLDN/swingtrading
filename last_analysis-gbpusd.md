@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-09-16
-**Generated:** 2026-09-16T11:27:43Z
+**Date:** 2026-09-17
+**Generated:** 2026-09-17T11:32:46Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | MEDIUM |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 4/10 confirmed |
-| **Support** | 1.3449, 1.3425, 1.34 |
-| **Resistance** | 1.3507, 1.355, 1.36 |
+| **Decision** | SELL |
+| **Confidence** | LOW |
+| **Entry** | 1.34042 |
+| **Stop Loss** | 1.34500 |
+| **Target 1** | 1.33550 |
+| **Target 2** | 1.33000 |
+| **Risk/Reward** | 1.07 (T1) / 2.28 (T2) |
+| **Score** | 4/10 |
+| **Support** | 1.3355, 1.33, 1.325 |
+| **Resistance** | 1.3446, 1.35, 1.355 |
 
 ---
 
 ## Analysis
 
-The trend is rightfully labeled as neutral given price action is squeezed between the 50-period EMA (bearish short-term) and the 200-period EMA (bullish long-term). The Evening Star pattern signals exhaustion near resistance, yet the subsequent Inverted Hammer sitting directly on the 200 EMA shows strong defensive buying. This price action confirms complete indecision and a lack of trending momentum, validating the low 4/10 signal score.
+The daily chart confirms a bearish bias with price trading below both the EMA50 (1.34998) and EMA200 (1.34459). The Evening Star candlestick pattern over the last five sessions reinforces selling pressure, suggesting a potential continuation of the downtrend rather than a reversal. No additional chart patterns such as triangles or flags are evident, but the price structure implies a series of lower highs and lower lows consistent with the bearish EMA alignment.
 
-No major classical chart patterns are fully confirmed outside the specific candlesticks. The pair is compressing between the two major moving averages, creating a tight coil. This consolidation often precedes an expansion, but the direction cannot be predicted here. The Inverted Hammer hugging the 200 EMA creates a potential double bottom structure if price successfully defends that level again.
+RSI at 32.43 is neutral but approaching oversold territory, which could limit immediate downside momentum. However, the MACD remains bearish with the line below the signal and a negative histogram, aligning with the trend. There is no RSI divergence to warn of a reversal, so the technical confluence leans bearish despite the low RSI reading. The signal score of 4/10 reflects this tension—the trend and pattern are clear, but the RSI proximity to oversold reduces conviction.
 
-The RSI at 37.23 and the bearish MACD (line below signal, negative histogram) align to show bearish short-term momentum. However, this directly conflicts with the bullish reversal implication of the Inverted Hammer and the historical support of the 200 EMA. This lack of confluence between momentum and immediate price structure is the core reason for the low score and the necessity for patience.
-
-Therefore, the single best trade setup right now is to WAIT. Buying into the bounce defies the bearish momentum; shorting into the 200 EMA risks being caught in a reversal from a two-legged pattern. The highest probability play is to let the market resolve this range. A decisive daily close below 1.3445 would confirm the failure of the Inverted Hammer and favor sells. A close above 1.3507 would confirm the bounce and favor buys. Stepping aside eliminates the high whipsaw risk.
+Key resistance lies at the EMA200 (1.34459) and the EMA50 (1.34998), while support is inferred from the ATR (49 pips) near 1.3355, followed by the psychological 1.3300 and 1.3250 levels. A sell entry at current price with a stop above the EMA200 offers a reasonable risk-reward for the first target, though the low confidence warrants a smaller position size. The setup is best suited for a short-term swing trade, with the second target contingent on sustained bearish momentum.
 
 ---
 
 ## Invalidation
 
-A decisive daily close above 1.3507 or below 1.3445 would shift the market structure, negating the wait and establishing a new directional trading bias.
+A daily close above the EMA200 (1.34459) would negate the bearish setup and suggest a shift toward neutral or bullish bias.
 
 ---
 
