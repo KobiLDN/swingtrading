@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-09-17
-**Generated:** 2026-09-17T11:32:46Z
+**Date:** 2026-09-18
+**Generated:** 2026-09-18T11:05:27Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | WAIT |
 | **Confidence** | LOW |
-| **Entry** | 1.34042 |
-| **Stop Loss** | 1.34500 |
-| **Target 1** | 1.33550 |
-| **Target 2** | 1.33000 |
-| **Risk/Reward** | 1.07 (T1) / 2.28 (T2) |
-| **Score** | 4/10 |
-| **Support** | 1.3355, 1.33, 1.325 |
-| **Resistance** | 1.3446, 1.35, 1.355 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 6/10 (confirmed) |
+| **Support** | 1.335, 1.33, 1.325 |
+| **Resistance** | 1.34, 1.3435, 1.3493 |
 
 ---
 
 ## Analysis
 
-The daily chart confirms a bearish bias with price trading below both the EMA50 (1.34998) and EMA200 (1.34459). The Evening Star candlestick pattern over the last five sessions reinforces selling pressure, suggesting a potential continuation of the downtrend rather than a reversal. No additional chart patterns such as triangles or flags are evident, but the price structure implies a series of lower highs and lower lows consistent with the bearish EMA alignment.
+The daily chart shows a clear bearish bias with price trading below both the EMA 50 (1.3493) and EMA 200 (1.3435). This alignment confirms a downtrend, and the recent Evening Star candlestick pattern (a bearish reversal formation) further reinforces selling pressure, especially as it appears after a short-lived bounce. However, the RSI at 27.94 is in oversold territory, which typically warns of a potential bounce or consolidation, creating a conflict with the bearish momentum indicated by the MACD (line below signal, negative histogram). Without any RSI divergence, there is no immediate bullish reversal signal, but the extreme reading suggests that further downside may be limited in the near term.  
 
-RSI at 32.43 is neutral but approaching oversold territory, which could limit immediate downside momentum. However, the MACD remains bearish with the line below the signal and a negative histogram, aligning with the trend. There is no RSI divergence to warn of a reversal, so the technical confluence leans bearish despite the low RSI reading. The signal score of 4/10 reflects this tension—the trend and pattern are clear, but the RSI proximity to oversold reduces conviction.
+No additional chart patterns like triangles or flags are evident from the given data, but the price action near 1.33699 implies proximity to prior swing lows. Key support levels are likely around 1.3350 (psychological round number and recent reaction zone), 1.3300, and 1.3250. Resistance lies at 1.3400 (minor intraday barrier), the EMA 200 at 1.3435, and the EMA 50 at 1.3493. The confluence of bearish indicators (EMA cross, MACD, Evening Star) points toward further declines, but the oversold RSI introduces significant uncertainty for a short entry at current levels.  
 
-Key resistance lies at the EMA200 (1.34459) and the EMA50 (1.34998), while support is inferred from the ATR (49 pips) near 1.3355, followed by the psychological 1.3300 and 1.3250 levels. A sell entry at current price with a stop above the EMA200 offers a reasonable risk-reward for the first target, though the low confidence warrants a smaller position size. The setup is best suited for a short-term swing trade, with the second target contingent on sustained bearish momentum.
+Given this mixed setup, the best course is to wait. A short trade now risks a counter-trend squeeze, while a long trade lacks confirmation of a reversal. The signal score of 6/10 reflects moderate bearish conviction but is undermined by the extreme RSI reading. A more favorable trade would be to short on a bounce toward the EMA 200 (1.3435) if that level holds as resistance, or to wait for the RSI to exit oversold before considering a long entry.  
+
+Risk assessment is neutral: the bearish trend is intact, but the oversold condition and lack of momentum divergence mean the current price offers an unattractive risk/reward for either direction. A stop-loss on a short would need to be placed above the EMA 200 (around 1.3450) to avoid false breakouts, while a target below 1.3300 would yield a modest 1:2 ratio at best. Given the uncertainty, patience is advised.
 
 ---
 
 ## Invalidation
 
-A daily close above the EMA200 (1.34459) would negate the bearish setup and suggest a shift toward neutral or bullish bias.
+A daily close above the EMA 200 (1.3435) would negate the bearish bias and shift the outlook neutral-to-bullish.
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-09-16
-**Generated:** 2026-09-17T11:37:30Z
+**Date:** 2026-09-17
+**Generated:** 2026-09-18T11:07:24Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 confirmed |
-| **Support** | 152.0, 150.0, 145.0 |
-| **Resistance** | 158.0, 160.0, 165.0 |
+| **Score** | 4/10 |
+| **Support** | 150.35, 145.39, 135.49 |
+| **Resistance** | 160.27, 165.23, 170.19 |
 
 ---
 
 ## Analysis
 
-The daily chart displays a strong uptrend, confirmed by price trading well above both the EMA50 (134.68) and EMA200 (114.75). The bullish MACD (line above signal and rising histogram) aligns with this trend momentum. However, the RSI at 67.12 is in neutral territory, not overbought, but a bearish RSI divergence has been detected — this suggests that price is making higher highs while RSI is failing to confirm, often a warning of waning bullish momentum. The signal score of 4/10 reflects this contradiction: trend strength is high, but momentum divergence introduces caution.
+The daily chart of USO shows a strong uptrend with price well above both the 50- and 200-period EMAs (135.49 and 115.15 respectively). This confirms bullish momentum from a trend-following perspective. However, the price is extended from these moving averages, and the recent high may represent overextension given the ATR(14) of 4.96, making a pullback statistically more likely. The RSI(14) at 65.85 is neutral but shows bearish divergence — price made higher highs while RSI failed to confirm — signaling that upside momentum is waning. The MACD remains bullish (line above signal and positive histogram), but the divergence often precedes a trend reversal or at least a significant consolidation.  
 
-No explicit candlestick patterns or chart formations (flags, triangles, tops) are present, but the combination of a strong uptrend with bearish divergence frequently precedes consolidation or a pullback. The absence of a clear reversal pattern means no immediate short setup is justified. At 156.17, the price is approximately 16% above the EMA50, indicating it is extended relative to the trend mean, increasing the risk of mean reversion. The ATR of 5.12 suggests typical daily volatility of about 5 points, so a pullback of 10–15 points (roughly 2-3 ATR) would be normal without breaking the trend.
+No specific candlestick patterns or chart structures (flags, triangles, etc.) are detected in the last five candles, so price action lacks a clear immediate trigger. The combined picture — strong trend, bearish divergence, neutral RSI, and a low signal score of 4/10 — indicates conflicting signals. The bulls have control, but the risk of a reversal or sharp correction is elevated. Entering a long here would require chasing price after a prolonged move, while a short is countertrend and equally risky given the absence of a confirmed breakdown.  
 
-Given the conflicting signals — bullish MACD/trend vs. bearish RSI divergence — the most prudent action is to wait for further confirmation. A long entry would require a pullback to a support level (e.g., near 152 or 150) with a bullish reversal candlestick or a re-acceleration in momentum. A short entry would need a clear breakdown below a key support, which is not yet visible. The current environment is best suited for patience; a high‑conviction trade setup is absent.
+Given the uncertainty, the prudent approach is to wait for the market to resolve the divergence. A pullback toward the EMA50 (135.49) or a breakout above recent highs with renewed RSI strength would provide a higher-probability entry. Until then, the risk/reward of any immediate trade is unfavorable.
 
 ---
 
 ## Invalidation
 
-This wait‑and‑see stance is invalidated if price closes above 160 with strong volume (bullish breakout) or breaks below 150 with a bearish MACD crossover (trend reversal).
+A decisive break above the most recent swing high with a corresponding RSI new high would invalidate the bearish divergence and shift the bias back to aggressive buying.
 
 ---
 

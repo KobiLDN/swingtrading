@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-09-17T11:37:18Z",
+  "generated": "2026-09-18T11:07:10Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "decision": "SELL",
-  "confidence": "LOW",
-  "entry": "57.05",
-  "stop_loss": "59.00",
-  "target_1": "55.00",
-  "target_2": "53.00",
-  "risk_reward": "2.08",
-  "score": "4/10 confirmed",
-  "analysis": "Price is trading well below both the EMA50 (58.54) and EMA200 (61.13), confirming the strong downtrend. The recent bearish engulfing candle, following a doji, indicates that sellers have reasserted control near the current level. Price action is consistent with the bearish EMA structure, so the trend is considered down until price closes back above the EMA50.\n\nRSI at 45.05 is neutral, meaning there is no oversold bounce signal yet, and MACD is bearish with the line below the signal and a negative histogram. This agrees with the downtrend, though the lack of RSI divergence and neutral momentum reading keeps conviction moderate. No major reversal patterns like double bottoms or bullish divergences are present, so the path of least resistance remains lower.\n\nThe trade is a short at market with a stop above the EMA50/resistance zone at 59.00. Targets are the 55.00 psychological support and the 54.00\u201353.00 area. Risk is defined by the stop, and the reward-to-risk to the second target is about 2.08. Given the 4/10 signal score and neutral RSI, confidence is low, but the bearish setup is valid within the broader downtrend.",
-  "invalidation": "N/A",
+  "confidence": "MEDIUM",
+  "entry": "58.97",
+  "stop_loss": "59.80",
+  "target_1": "58.00",
+  "target_2": "57.00",
+  "risk_reward": "1.83 (based on target 1)",
+  "score": "5/10",
+  "analysis": "Price action shows a neutral trend with the 50 EMA at 58.56 acting as immediate support and the 200 EMA at 61.29 as overhead resistance. The recent candlestick patterns\u2014a Doji followed by a Bearish Engulfing\u2014signal short-term selling pressure and potential reversal from the indecision zone. The MACD is bearish with the line below the signal and a negative histogram, confirming weakening momentum despite the RSI sitting at a neutral 51.24 with no divergence. This creates a subtle bearish confluence between price structure and momentum indicators, even though the overall trend is not clearly directional.\n\nKey support levels are clustered near the 50 EMA (58.56) and the psychological 57.80\u201357.00 zone. Resistance is found at 59.50 (recent swing high area), 60.00 (round number), and the 200 EMA at 61.29. The bearish engulfing candle likely has a high around 59.50\u201359.80, which serves as a logical stop-loss level. Given the ATR of 1.9, a move toward 58.00 (first target) is well within a typical daily range, while 57.00 (second target) aligns with a potential retest of prior support.\n\nThe best trade setup is a short at current price, capitalizing on the bearish candlestick pattern and MACD divergence from the neutral RSI. The risk/reward to the first target is favorable, but confidence is medium due to the lack of a clear breakdown below the 50 EMA yet. A sell stop below 58.50 would also be valid, but entering now allows for a tighter stop if the bearish engulfing holds.",
+  "invalidation": "A daily close above 59.80 (the bearish engulfing high) would cancel this setup, as it would indicate a false breakdown and renewed buying interest.",
   "support_levels": [
-    56.0,
-    55.0,
-    54.0
+    58.56,
+    57.8,
+    57.0
   ],
   "resistance_levels": [
-    58.54,
+    59.5,
     60.0,
-    61.13
+    61.29
   ]
 };

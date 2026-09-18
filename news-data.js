@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-17T11:37:30Z",
+  "generated": "2026-09-18T11:07:25Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Dollar Strengthens as Fed-BoE Policy Divergence Widens; Key Levels for EUR/USD and GBP/USD",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081747889.html?.tsrc=rss",
+        "time_published": "2026-09-17 08:17",
+        "source": "Finance",
+        "summary": "DXY strengthens after the Fed signals further tightening, while EUR/USD remains pressured and GBP/USD awaits the Bank of England policy decision."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Rate Path in Focus as EUR and GBP Stay Under Pressure",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-083232199.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-08 07:56",
         "source": "Finance",
         "summary": "U.S. inflation and the ECB decision take focus as DXY remains weak, EUR/USD approaches a breakout and GBP/USD stays range-bound."
-      },
-      {
-        "title": "U.S. Dollar Tests New Lows Against Japanese Yen: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-tests-lows-against-165555607.html?.tsrc=rss",
-        "time_published": "2026-09-07 16:55",
-        "source": "Finance",
-        "summary": "Japanese yen rallies as traders bet on BoJ rate hike."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Dollar Strengthens as Fed-BoE Policy Divergence Widens; Key Levels for EUR/USD and GBP/USD",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081747889.html?.tsrc=rss",
+        "time_published": "2026-09-17 08:17",
+        "source": "Finance",
+        "summary": "DXY strengthens after the Fed signals further tightening, while EUR/USD remains pressured and GBP/USD awaits the Bank of England policy decision."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Rate Path in Focus as EUR and GBP Stay Under Pressure",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-083232199.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-09 17:02",
         "source": "Finance",
         "summary": "U.S. dollar is losing some ground as traders worry that debt markets get out of control."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as ECB Tightening Supports Euro; EUR/USD and GBP/USD Key Levels",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-075647322.html?.tsrc=rss",
-        "time_published": "2026-09-08 07:56",
-        "source": "Finance",
-        "summary": "U.S. inflation and the ECB decision take focus as DXY remains weak, EUR/USD approaches a breakout and GBP/USD stays range-bound."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Buffer ETFs Promise 100 Percent Downside Protection. Here Is How That Actually Works and What You Give Up",
-        "url": "https://247wallst.com/investing/etf/2026/09/16/buffer-etfs-promise-100-percent-downside-protection-here-is-how-that-actually-works-and-what-you-give-up/?.tsrc=rss",
-        "time_published": "2026-09-16 21:25",
-        "source": "247wallst",
-        "summary": "Buffer ETFs promise to absorb your losses so you can stay in the market without the stomach-churning drops, but the full protection guarantee comes with a catch that most investors discover only after they buy in."
-      },
-      {
-        "title": "Musk Warns of AI Control Problem After Agents Secretly Accessed OpenAI Servers for a Week",
-        "url": "https://247wallst.com/investing/2026/09/16/musk-warns-of-ai-control-problem-after-agents-secretly-accessed-openai-servers-for-a-week/?.tsrc=rss",
-        "time_published": "2026-09-16 20:15",
-        "source": "247wallst",
-        "summary": "A swarm of AI agents silently held admin access to OpenAI servers for a week before anyone noticed, and Elon Musk thinks the industry has no real answer for what comes next."
-      },
-      {
-        "title": "Bloom Energy Gains 4% as S&P 500 Entry Nears; FuelCell Energy Ticks Up, Plug Power Slips",
-        "url": "https://247wallst.com/investing/2026/09/16/bloom-energy-gains-4-as-sp-500-entry-nears-fuelcell-energy-ticks-up-plug-power-slips/?.tsrc=rss",
-        "time_published": "2026-09-16 17:59",
-        "source": "247wallst",
-        "summary": "Bloom Energy is surging toward its S&P 500 debut, but three decades of research suggest the biggest trading opportunity may have already closed before the index funds even place their first order."
-      },
-      {
-        "title": "Robinhood Sinks 5% After Prosecutors Reportedly Charge Two Former Engineers Over Crypto Trades; Webull Drops 9%",
-        "url": "https://247wallst.com/investing/2026/09/16/robinhood-sinks-5-after-prosecutors-reportedly-charge-two-former-engineers-over-crypto-trades-webull-drops-9/?.tsrc=rss",
-        "time_published": "2026-09-16 16:46",
-        "source": "247wallst",
-        "summary": "Federal prosecutors in Manhattan just charged two former Robinhood engineers over crypto trades, and the fallout is already hitting brokerages that had nothing to do with it."
-      },
-      {
-        "title": "Oil Producers Slide as Crude Retreats: EOG Resources Drops 6%, ConocoPhillips and Occidental Petroleum Fall 5%",
-        "url": "https://247wallst.com/investing/2026/09/16/oil-producers-slide-as-crude-retreats-eog-resources-drops-6-conocophillips-and-occidental-petroleum-fall-5/?.tsrc=rss",
-        "time_published": "2026-09-16 16:03",
-        "source": "247wallst",
-        "summary": "Crude prices retreated Wednesday and the pain landed squarely on exploration and production names, skipping refiners and midstream entirely. Here is why that mechanical link turned a commodity move into a sector-wide shakeout for some of the biggest names in the energy patch."
-      },
-      {
-        "title": "S&P 500 Could Deliver Another 6% by Year-End as JPMorgan Calls Bears an \u2018Extinct Species\u2019 \u2014 Polymarket Bettors Price 35% Odds",
-        "url": "https://www.benzinga.com/markets/market-summary/26/09/61837505/sp-500-could-deliver-another-6-by-year-end-as-jpmorgan-calls-bears-an-extinct-species-polymarket-bettors-price-35-odds?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-17 11:20",
-        "source": "Benzinga",
-        "summary": "JPMorgan Chase & Co. equity strategists project that the S&P 500 index will reach 8,000 by the end of 2026, calling the bears an extinct species. Polymarket (CRYPTO: POL) bettors also assign a 35% probability to the index closing above..."
-      },
-      {
-        "title": "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-rebound-after-fed-rate-hike-nvda-nbis-snap-spcx-be-gnrc-stocks-in-focus/cZtr1S2RB51?.tsrc=rss",
-        "time_published": "2026-09-17 08:34",
+        "title": "Why Are Nasdaq, S&P 500 And Dow Futures Rising Premarket? NVDA, CRWV, AMD, SPCX, BE Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-sp500-dow-futures-rising-premarket-nvda-crwv-amd-spcx-be-stocks-in-focus/cZtuo1pRB3g?.tsrc=rss",
+        "time_published": "2026-09-18 08:28",
         "source": "Stocktwits",
-        "summary": "Retail sentiment on SPY and QQQ remained \u2018bearish\u2019, even as futures recovered."
+        "summary": "Retail sentiment on SPY and QQQ remained \u2018bearish\u2019, despite the broader market recovery."
       },
       {
-        "title": "Oil Surges, Tanker Rates Soar: ETFs in Play",
-        "url": "https://finance.yahoo.com/energy/articles/oil-surges-tanker-rates-soar-195500447.html?.tsrc=rss",
-        "time_published": "2026-09-16 19:55",
-        "source": "Finance",
-        "summary": "Middle East tensions are driving oil prices and tanker rates higher. Here are the ETFs benefiting."
+        "title": "ChargePoint Just Gained 61% in a Month: Is It Too Late to Buy CHPT Stock Now?",
+        "url": "https://247wallst.com/investing/2026/09/17/chargepoint-just-gained-61-in-a-month-is-it-too-late-to-buy-chpt-stock-now/?.tsrc=rss",
+        "time_published": "2026-09-17 19:11",
+        "source": "247wallst",
+        "summary": "ChargePoint stock surged 61% in a single month while every sector peer moved the opposite direction, and nobody can point to a catalyst that explains it. That combination of facts makes the buy-or-wait decision unusually uncomfortable right now."
+      },
+      {
+        "title": "Rocket Lab Jumps 6% as FCC Clears First Hurdle on Iridium Deal; Iridium Communications Barely Budges",
+        "url": "https://247wallst.com/investing/2026/09/17/rocket-lab-jumps-6-as-fcc-clears-first-hurdle-on-iridium-deal-iridium-communications-barely-budges/?.tsrc=rss",
+        "time_published": "2026-09-17 17:43",
+        "source": "247wallst",
+        "summary": "The FCC just handed Rocket Lab a procedural win on its Iridium acquisition, but the stock's 18% slide over the past month and a rival already flagging concerns inside the docket suggest the hard part is still ahead."
+      },
+      {
+        "title": "FuelCell Jumps 13% as House Shifts Data Center Power Costs to Operators; Plug Power Climbs 7%, Bloom Energy Rises 3%",
+        "url": "https://247wallst.com/investing/2026/09/17/fuelcell-jumps-13-as-house-shifts-data-center-power-costs-to-operators-plug-power-climbs-7-bloom-energy-rises-3/?.tsrc=rss",
+        "time_published": "2026-09-17 15:52",
+        "source": "247wallst",
+        "summary": "A House vote on data center power costs sent fuel cell stocks surging at different speeds Thursday, and the gap between the winners reveals exactly where the market sees the most to gain if this bill ever becomes law."
+      },
+      {
+        "title": "These \u2018High-Yield\u2019 ETFs Pay 5%\u20139% While Quietly Shrinking Your Principal. Here\u2019s What to Own Instead",
+        "url": "https://247wallst.com/investing/etf/2026/09/18/these-high-yield-etfs-pay-5-9-while-quietly-shrinking-your-principal-heres-what-to-own-instead/?.tsrc=rss",
+        "time_published": "2026-09-18 10:50",
+        "source": "247wallst",
+        "summary": "That 9% yield looks like a dream until you check what happened to the principal underneath it. Some of today's most popular high-yield ETFs have a track record that should make income investors rethink what a big distribution actually costs them."
+      },
+      {
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61860116/stock-market-will-sp-500-open-up-or-down-today-40?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-18 05:42",
+        "source": "Benzinga",
+        "summary": "U.S. stock futures are posting slight gains early Friday as investors digest targeted geopolitical sanctions, debates over Federal Reserve independence, and the Bank of Japan\u2019s 31-year high rate-hike decision. The Polymarket (CRYPTO: POL) crowd is leaning bullish for the Sept...."
+      },
+      {
+        "title": "ETF Oasis at Future Proof: Tuesday Highlights",
+        "url": "http://www.etf.com/sections/conferences/etf-oasis-future-proof-tuesday-highlights?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-09-17 22:38",
+        "source": "Etf",
+        "summary": "Our first full day of content and activities at the ETF Oasis at Future Proof was a jam-packed one. Check out some of the moments we managed to capture in the mix of things!"
+      },
+      {
+        "title": "S&P 500, Nasdaq, Dow End Higher As Drop In Oil Prices Allays Inflationary Concerns \u2014 NVDA, MCD, CRWV, LMT, AMZN In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-higher-amid-drop-in-oil-prices/cZtscNsRBdY?.tsrc=rss",
+        "time_published": "2026-09-17 22:22",
+        "source": "Stocktwits",
+        "summary": "The S&P 500 and Nasdaq recorded their best day in six weeks."
       }
     ],
     "oil": [
