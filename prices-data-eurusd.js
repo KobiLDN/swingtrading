@@ -1,30 +1,24 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-09-17T10:38:45Z",
-  "date": "2026-09-17",
-  "price": 1.14785,
-  "atr": 0.00432,
-  "atr_pips": 43,
+  "generated": "2026-09-18T10:14:37Z",
+  "date": "2026-09-18",
+  "price": 1.1484,
+  "atr": 0.00423,
+  "atr_pips": 42,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15699,
-  "ema200": 1.15801,
-  "rsi": 29.56,
-  "macd_line": -0.002075,
-  "macd_signal": -0.000231,
-  "macd_hist": -0.001844,
-  "trend": "STRONG DOWNTREND",
+  "ema50": 1.15664,
+  "ema200": 1.15658,
+  "rsi": 31.16,
+  "macd_line": -0.002527,
+  "macd_signal": -0.000693,
+  "macd_hist": -0.001833,
+  "trend": "BEARISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-13",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-09-14",
       "name": "Evening Star",
@@ -32,16 +26,9 @@ window.PRICES_DATA_EURUSD = {
       "strength": 5
     }
   ],
-  "score": 6,
+  "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-10",
-      "open": 1.15441,
-      "high": 1.1573,
-      "low": 1.15332,
-      "close": 1.15361
-    },
     {
       "date": "2026-06-11",
       "open": 1.15359,
@@ -731,9 +718,16 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-09-17",
       "open": 1.14648,
-      "high": 1.14841,
+      "high": 1.14977,
       "low": 1.14562,
-      "close": 1.14785
+      "close": 1.14758
+    },
+    {
+      "date": "2026-09-18",
+      "open": 1.1476,
+      "high": 1.14921,
+      "low": 1.14741,
+      "close": 1.1484
     }
   ]
 };
