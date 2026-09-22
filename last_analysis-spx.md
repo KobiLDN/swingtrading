@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-09-18
-**Generated:** 2026-09-21T12:43:49Z
+**Date:** 2026-09-21
+**Generated:** 2026-09-22T11:35:16Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,32 @@
 |-------|-------|
 | **Decision** | N/A |
 | **Confidence** | MEDIUM |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 confirmed |
-| **Support** | 758.63, 755.0, 750.0 |
-| **Resistance** | 765.0, 770.0, 775.0 |
+| **Entry** | 773.5 |
+| **Stop Loss** | 766.42 |
+| **Target 1** | 780.58 |
+| **Target 2** | 787.66 |
+| **Risk/Reward** | 1:2 |
+| **Score** | 6/10 |
+| **Support** | 766.42, 759.22, 752.14 |
+| **Resistance** | 780.58, 787.66, 794.74 |
 
 ---
 
 ## Analysis
 
-Price is above both the EMA50 and EMA200, so the broader trend remains bullish. However, price is only about 3 points above the EMA50, and the RSI at 49.18 is neutral, not confirming strong momentum. The MACD is bearish with a negative histogram, which suggests the uptrend is currently pausing or consolidating rather than continuing with conviction.
+Price is trading well above both the EMA50 (759.22) and EMA200 (727.73), and the EMA structure remains firmly bullish. This confirms the strong uptrend, and the recent candlestick activity — including two Morning Stars and a Hammer — suggests buyers are defending pullbacks. The Hanging Man is a caution, but it has not been followed by sustained selling, so the bullish reversal signals carry more weight near-term.
 
-The candlestick patterns are mixed: Morning Star and Hammer are bullish, but the Hanging Man is a bearish warning. No clear additional chart pattern like a flag or double top/bottom can be confirmed from the given data. The nearest support is the EMA50 at 758.63, followed by 755.00 and 750.00. Resistance sits at 765.00, then 770.00 and 775.00.
+No clear triangle, flag, or double top/bottom is evident from the data. The most reasonable interpretation is a shallow consolidation within an uptrend, with price coiling near 773.5. Immediate support is the 1 ATR level at 766.42, followed by the EMA50 at 759.22. On the upside, resistance is likely near 780.58, then 787.66, with 794.74 as a further extension target.
 
-The best approach is to wait for momentum to align with the uptrend. A long setup would become more attractive after a daily close above 765.00 with a MACD bullish crossover, or if RSI reclaims 50 and price holds above the EMA50. Until then, the risk/reward is not clean enough to justify entering immediately.
+RSI at 58.43 is neutral and leaves room for upside before becoming overbought. MACD is the main concern: it is below its signal line with a slightly negative histogram, so momentum is not yet fully confirmed. This creates a minor bearish divergence with the price trend, but the strong EMA alignment and bullish candlestick cluster justify a long bias with a tight stop.
+
+The best setup is a long from current price with a stop below the 1 ATR support at 766.42. The first target is 780.58, and the second is 787.66, giving a 1:2 risk-reward ratio to the second target. Confidence is medium because MACD is not yet bullish, but the trend and price action favor upside continuation.
 
 ---
 
 ## Invalidation
 
-A daily close below 758.63 would invalidate the bullish bias, while a daily close above 765.00 with a MACD bullish crossover would trigger the long entry.
+A daily close below 766.42 would cancel this long setup.
 
 ---
 

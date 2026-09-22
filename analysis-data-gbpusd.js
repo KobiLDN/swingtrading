@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-09-21T12:40:33Z",
+  "generated": "2026-09-22T11:27:48Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "decision": "SELL",
-  "confidence": "MEDIUM",
-  "entry": "1.33874",
-  "stop_loss": "1.34380",
-  "target_1": "1.33500",
-  "target_2": "1.33000",
-  "risk_reward": "1:1.74",
+  "confidence": "LOW",
+  "entry": "1.33678",
+  "stop_loss": "1.34450",
+  "target_1": "1.33050",
+  "target_2": "1.32500",
+  "risk_reward": "1.34",
   "score": "5/10",
-  "analysis": "Trend confirmation: Price at 1.33874 is below both the EMA50 (1.34824) and EMA200 (1.34382), confirming the bearish bias. The EMA50 above EMA200 indicates a longer-term bullish structure, but short-term momentum remains downward, and price action has respected the EMAs as resistance since the decline began. Candlestick patterns \u2013 a hammer followed by an evening star \u2013 reinforce a bearish reversal after a brief bounce, suggesting selling pressure is resuming.\n\nNo obvious chart patterns like triangles or flags are present. The sequence of two dojis, a hammer, and an evening star reflects indecision and then a decisive bearish close, which often signals continuation of the prevailing downtrend. The evening star, in particular, is a reliable reversal pattern when it appears after a minor rally, and here it occurred near the EMA200, validating resistance at that level.\n\nRSI at 32.47 is neutral but approaching oversold territory, which introduces a slight risk of a bounce; however, no divergence exists. MACD is firmly bearish with the line below the signal line and a negative histogram (-0.001391), aligning with the downtrend. The confluence of RSI and MACD supports the bearish view, though the RSI\u2019s proximity to oversold warrants caution against aggressive short entries.\n\nThe single best trade setup is to sell at the current price with a stop loss just above the EMA200 (1.3438), a logical resistance level reinforced by the evening star. Targets are set at the next support levels: 1.3350 (nearest likely demand zone) and 1.3300 (psychological and prior swing low). The risk-reward ratio favors a 1:1.74 outcome if the second target is reached, but the moderate signal score (5/10) and near-oversold RSI temper confidence to medium.",
-  "invalidation": "N/A",
+  "analysis": "Price action confirms the bearish EMA bias: GBP/USD is trading below both the EMA50 (1.34772) and EMA200 (1.34396), so the path of least resistance remains lower. The recent candlestick sequence \u2014 Evening Star followed by Doji/Doji \u2014 shows that an attempted bounce has been rejected and the market is now hesitating under resistance rather than recovering. That is consistent with a bearish continuation, not a reversal.\n\nThe RSI at 30.26 is near oversold but still neutral, which means downside momentum is present but not exhausted enough to justify a counter-trend buy. MACD is bearish with a negative histogram and the line below the signal, so it agrees with the trend. There is no RSI divergence to warn of a bullish reversal, so selling rallies or breaking below support is the more logical setup.\n\nThe nearest resistance is the 1.3400 round number, followed by the EMA200 at 1.34396 and EMA50 at 1.34772. Support is below at 1.3300, then 1.3250 and 1.3200. The best trade is a small short at the current price, with a stop above the EMA200 cluster to avoid getting caught in a short-covering rally. Targets align with the nearest lower liquidity zones.\n\nRisk is moderate: the stop is about 78 pips, but the first target is about 63 pips, so the risk/reward is only slightly above 1:1. The signal score remains 5/10 because the trend, MACD, and bearish candlestick pressure support a sell, but the presence of dojis and RSI approaching oversold weakens conviction. Position size should be reduced.",
+  "invalidation": "This setup is invalidated if price closes back above 1.34450, especially on strong momentum, because that would reclaim the EMA200/EMA50 zone and shift the bias back to neutral/bullish.",
   "support_levels": [
-    1.335,
     1.33,
-    1.325
+    1.325,
+    1.32
   ],
   "resistance_levels": [
-    1.34382,
-    1.34824,
-    1.35
+    1.34,
+    1.34396,
+    1.34772
   ]
 };

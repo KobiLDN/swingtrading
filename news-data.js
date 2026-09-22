@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-21T12:45:45Z",
+  "generated": "2026-09-22T11:36:29Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Hawkish Fed Supports DXY as EUR and GBP Struggle",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081536540.html?.tsrc=rss",
+        "time_published": "2026-09-21 08:15",
+        "source": "Finance",
+        "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD struggle below key resistance levels amid softer European policy outlooks."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Holds Above 100 as EUR and GBP Face Policy Tests",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-063047247.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-10 08:16",
         "source": "Finance",
         "summary": "DXY struggles despite higher Treasury yields as traders await U.S. PPI and the ECB decision, while EUR/USD and GBP/USD hold bullish support."
-      },
-      {
-        "title": "U.S. Dollar Moves Lower As Bessent Boosts Bond Buybacks: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-moves-lower-bessent-170250168.html?.tsrc=rss",
-        "time_published": "2026-09-09 17:02",
-        "source": "Finance",
-        "summary": "U.S. dollar is losing some ground as traders worry that debt markets get out of control."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Hawkish Fed Supports DXY as EUR and GBP Struggle",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081536540.html?.tsrc=rss",
+        "time_published": "2026-09-21 08:15",
+        "source": "Finance",
+        "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD struggle below key resistance levels amid softer European policy outlooks."
+      },
       {
         "title": "Gains by the Dollar After the Fed\u2019s Hike",
         "url": "https://finance.yahoo.com/markets/currencies/articles/gains-dollar-fed-hike-144346017.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-11 05:40",
         "source": "Finance",
         "summary": "Fed hike bets rise as traders await U.S. CPI, with DXY testing 99.16 resistance while EUR/USD and GBP/USD remain under pressure."
-      },
-      {
-        "title": "ECB at a Crossroads: Hormuz Holds the Key to What Comes Next",
-        "url": "https://finance.yahoo.com/economy/policy/articles/ecb-crossroads-hormuz-holds-key-114240109.html?.tsrc=rss",
-        "time_published": "2026-09-10 11:42",
-        "source": "Finance",
-        "summary": "A 25bp hike is expected today, but the ECB\u2019s next move will hinge on whether the Middle East energy shock fades or becomes embedded in inflation expectations."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,77 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "After Comparing Every Covered Call ETF With Over $1 Billion in Assets, These 3 Pay Up to 8 Percent and Still Grew Your Principal",
-        "url": "https://247wallst.com/investing/etf/2026/09/18/after-comparing-every-covered-call-etf-with-over-1-billion-in-assets-these-3-pay-up-to-8-percent-and-still-grew-your-principal/?.tsrc=rss",
-        "time_published": "2026-09-18 21:15",
-        "source": "247wallst",
-        "summary": "Most covered call ETFs hand you a fat monthly check while quietly draining your principal, but a small group of actively managed funds has cracked the formula to deliver both. The catch is that each one works for a completely different kind of investor."
+        "title": "S&P 500 Will \u2018Easily\u2019 Top 8,000 Before Historic Crash, \u2018Black Swan\u2019 Fund Manager Says",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61902796/sp-500-8000-mark-spitznagel-crash?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-21 16:54",
+        "source": "Benzinga",
+        "summary": "Mark Spitznagel, founder of Universa Investments, built his reputation protecting investors from market crashes. Now the Universa Investments founder says the S&P 500 will \u201ceasily\u201d top 8,000 in one final euphoric rally before plunging 80%.SPDR S&P 500 ETF Trust (NYSE:SPY)..."
       },
       {
-        "title": "A $10,000 Investment in SPY at Its 1993 Launch Is Worth This Much Today Without You Adding a Dime",
-        "url": "https://247wallst.com/investing/etf/2026/09/18/a-10000-investment-in-spy-at-its-1993-launch-is-worth-this-much-today-without-you-adding-a-dime/?.tsrc=rss",
-        "time_published": "2026-09-18 21:05",
-        "source": "247wallst",
-        "summary": "A single ETF purchase made before most investors had ever heard the term changed what passive investing looks like today, but the original is no longer the obvious choice for everyone holding it."
-      },
-      {
-        "title": "Nasdaq, S&P 500, Dow Futures Rise Ahead Of Trump-Xi Summit This Week: NVDA, META, CRML, GLND, SPCX, RKLB, BE Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-rise-ahead-of-trump-xi-summit-this-week-nvda-meta-crml-glnd-spcx-rklb-be-stocks-in-focus/cZMR9EBRB4n?.tsrc=rss",
-        "time_published": "2026-09-21 08:37",
+        "title": "Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club \u2014  AMD, ARM, META, AMZN, PSKY In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-ends-nearly-3-higher-as-ai-stocks-pop/cZMRHqjRBIm?.tsrc=rss",
+        "time_published": "2026-09-21 22:04",
         "source": "Stocktwits",
-        "summary": "Retail sentiment on SPY remained \u2018bearish\u2019, and moderated to \u2018neutral\u2019 on QQQ."
+        "summary": "Advanced Micro Devices added about 10% and hit $1 trillion in market cap."
       },
       {
-        "title": "VOO vs. SPY: Is There Actually a Difference?",
-        "url": "https://www.fool.com/investing/2026/09/19/voo-vs-spy-is-there-actually-a-difference/?.tsrc=rss",
-        "time_published": "2026-09-19 08:35",
-        "source": "Fool",
-        "summary": "These two S&P 500 ETFs seem interchangeable. They're not."
-      },
-      {
-        "title": "$1 Million in VOO Pays $871 a Month, and Covering the Gap Means Selling Shares the IRS Taxes",
-        "url": "https://247wallst.com/investing/etf/2026/09/18/1-million-in-voo-pays-871-a-month-and-covering-the-gap-means-selling-shares-the-irs-taxes/?.tsrc=rss",
-        "time_published": "2026-09-18 21:45",
+        "title": "Opendoor Gains 5% but Is Still Down 24% in a Month. Will the Bulls or Bears Win?",
+        "url": "https://247wallst.com/investing/2026/09/21/opendoor-gains-5-but-is-still-down-24-in-a-month-will-the-bulls-or-bears-win/?.tsrc=rss",
+        "time_published": "2026-09-21 19:06",
         "source": "247wallst",
-        "summary": "A seven-figure VOO balance sounds like a retirement paycheck until you do the actual math on what it deposits each month, then realize covering the rest means a tax bill your fund prospectus quietly ignores."
+        "summary": "Opendoor stock cratered while the broader market climbed, and the obvious explanation collapses the moment you look at what its closest competitor actually did over the same stretch."
       },
       {
-        "title": "Critical Metals Surges 25% as Greenland Security Pact Puts Tanbreez Rare Earth Permit in Focus; USA Rare Earth Climbs 6%, MP Materials Rises 4%",
-        "url": "https://247wallst.com/investing/2026/09/21/critical-metals-surges-25-as-greenland-security-pact-puts-tanbreez-rare-earth-permit-in-focus-usa-rare-earth-climbs-6-mp-materials-rises-4/?.tsrc=rss",
-        "time_published": "2026-09-21 12:31",
+        "title": "Rocket Lab Climbs 7% as Cantor Reiterates $122 Target on Launch Record; Intuitive Machines Jumps 10%, AST SpaceMobile Rises 6%",
+        "url": "https://247wallst.com/investing/2026/09/21/rocket-lab-climbs-7-as-cantor-reiterates-122-target-on-launch-record-intuitive-machines-jumps-10-ast-spacemobile-rises-6/?.tsrc=rss",
+        "time_published": "2026-09-21 15:40",
         "source": "247wallst",
-        "summary": "Shares of Critical Metals (NASDAQ:CRML) are surging in early Monday trading after news of a U.S.-Greenland security pact put the company\u2019s Tanbreez rare earth exploitation permit back in front of investors. Critical Metals stock is at $8.41, up 25%, and the bid concentrates in the one listed name a"
+        "summary": "Cantor Fitzgerald just restated its bull case for Rocket Lab with a $122 target, yet the stock is trailing a space peer that received no catalyst at all, and that disconnect tells you something important about what is actually driving Monday's rally."
       },
       {
-        "title": "Credo Technology Crashed for 3 Months: This Wall Street Pro Says It\u2019s About to Double",
-        "url": "https://247wallst.com/investing/2026/09/21/credo-technology-crashed-for-3-months-this-wall-street-pro-says-its-about-to-double/?.tsrc=rss",
-        "time_published": "2026-09-21 11:51",
+        "title": "Super Micro Computer Looks Very Intriguing Right Now",
+        "url": "https://247wallst.com/investing/2026/09/21/super-micro-computer-looks-very-intriguing-right-now/?.tsrc=rss",
+        "time_published": "2026-09-21 15:00",
         "source": "247wallst",
-        "summary": "A fabless semiconductor company just posted 115% revenue growth, beat earnings, and raised guidance, yet the stock cratered 43% from its highs. One Wall Street analyst thinks the selloff created one of the most mispriced setups in AI infrastructure right now."
+        "summary": "Super Micro just posted a quarter that sent analyst price targets soaring and earnings estimates jumping by 30% in a single month, yet the stock still trades below those targets and insiders are quietly selling. The setup looks compelling until you dig into what management said about where those pro"
+      },
+      {
+        "title": "Azure, AI Capex, and What to Expect Out of Microsoft Through The End of 2026",
+        "url": "https://247wallst.com/investing/2026/09/21/azure-ai-capex-and-what-to-expect-out-of-microsoft-through-the-end-of-2026/?.tsrc=rss",
+        "time_published": "2026-09-21 13:10",
+        "source": "247wallst",
+        "summary": "Microsoft is sitting on the biggest contracted backlog in its history while its stock trails the broader market by nearly 900 basis points, and the reason for that disconnect reveals everything about whether this setup is a trap or a buying opportunity."
+      },
+      {
+        "title": "Strategy Jumps 6% as Bitcoin Hits Highest Level Since January; MARA Climbs 5%, Riot Rises 4%",
+        "url": "https://247wallst.com/investing/2026/09/21/strategy-jumps-6-as-bitcoin-hits-highest-level-since-january-mara-climbs-5-riot-rises-4/?.tsrc=rss",
+        "time_published": "2026-09-21 12:44",
+        "source": "247wallst",
+        "summary": "Bitcoin just hit its highest level since January, and the equity complex is repricing fast but not evenly. Understanding why Strategy is outrunning the miners it resembles tells you everything about how these trades actually work."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61886941/stock-market-will-sp-500-open-up-or-down-today-41?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-21 05:58",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61912020/stock-market-will-sp-500-open-up-or-down-today-42?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-22 05:55",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are trending higher early Monday as investors digest a stark warning from President Donald Trump to Iran alongside cooling crude oil prices, while looking ahead to a week of key consumer retail earnings. The Polymarket (CRYPTO: POL)..."
+        "summary": "U.S. stock futures are showing a mixed-to-slightly-flat picture early Tuesday as Wall Street balances new U.S. sanctions targeting Iranian airlines against fresh corporate earnings reports and lingering market optimism from Monday\u2019s AI-led rally. The Polymarket (CRYPTO: POL) crowd is leaning..."
       }
     ],
     "oil": [
+      {
+        "title": "Diesel Hits Record $6.51 a Gallon as Fuel Crisis Deepens: Commodity Strategist Warns \u2018No Handshake Can Refill\u2019 the Market",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/diesel-hits-record-6-51-094517833.html?.tsrc=rss",
+        "time_published": "2026-09-22 09:45",
+        "source": "Finance",
+        "summary": "The national average price for diesel reached $6.51 per gallon on Monday. A commodity strategist stated the supply disruption has moved into a diesel market that \u201cno handshake can refill.\u201d Record Prices Hit Harvest and Freight The U.S. average diesel..."
+      },
+      {
+        "title": "Oil ETFs Surge: What's Next for Commodity Investors?",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/oil-etfs-surge-whats-next-214500474.html?.tsrc=rss",
+        "time_published": "2026-09-21 21:45",
+        "source": "Finance",
+        "summary": "What's next for oil, gold and copper as geopolitical risks reshape commodity markets?"
+      },
       {
         "title": "The Oil Fund Beating USO by Harvesting Roll Yield Faces Its Biggest Test Yet",
         "url": "https://247wallst.com/investing/etf/2026/09/18/the-oil-fund-beating-uso-by-harvesting-roll-yield-faces-its-biggest-test-yet/?.tsrc=rss",
@@ -276,20 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-15 23:33",
         "source": "Finance",
         "summary": "Over the past few weeks, the market has been extremely choppy, frustrating, and has lacked liquidity. The good news is that Wednesday's FOMC meeting should bring volatility back in a big way and finally give the market some direction."
-      },
-      {
-        "title": "Inflation Fears and Oil Surge Rattle Markets",
-        "url": "http://www.etf.com/sections/bonds/inflation-fears-and-oil-surge-rattle-markets?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-09-15 19:45",
-        "source": "Etf",
-        "summary": "The summer months may have ended, but the dog days appear to be sticking around, at least for markets. With the Fed rate decision due Wednesday and new developments in the Middle East sparking renewed fears of oil shortages, bond yields are spiking. It turns out that bonds are anything but boring th"
-      },
-      {
-        "title": "Energy ETF (USO) Hits New 52-Week High",
-        "url": "https://finance.yahoo.com/energy/articles/energy-etf-uso-hits-52-151900990.html?.tsrc=rss",
-        "time_published": "2026-09-14 15:19",
-        "source": "Finance",
-        "summary": "USO reaches a 52-week high as Middle East tensions and oil supply concerns drive gains. More upside ahead?"
       }
     ]
   }

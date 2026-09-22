@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-09-21T12:40:45Z",
+  "generated": "2026-09-22T11:30:51Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-09-21",
-  "decision": "SELL",
+  "date": "2026-09-22",
+  "decision": "N/A",
   "confidence": "MEDIUM",
-  "entry": "1.14834 (current price)",
-  "stop_loss": "1.1555",
-  "target_1": "1.1450",
-  "target_2": "1.1400",
-  "risk_reward": "1:1.2 (based on target 2)",
-  "score": "5/10 confirmed",
-  "analysis": "The price is well below both the EMA50 (1.15573) and EMA200 (1.1562), confirming the strong downtrend indicated by the pre-calculated trend label. Price action supports this: the recent candlestick patterns (Doji, Hanging Man, Evening Star) are all bearish reversal signals that align with the existing downtrend, suggesting further downside. No contrary chart patterns (triangles, flags, double tops/bottoms) are evident from the given data, so the directional bias remains cleanly bearish.\n\nThe RSI at 31.3 is neutral but near oversold territory; however, there is no divergence, so it does not warn of an imminent reversal. The MACD remains bearish with the histogram deepening negative, reinforcing the downward momentum. Thus, both momentum and trend indicators are in confluence, supporting a sell setup. The signal score of 5/10 reflects the absence of extreme oversold conditions and the lack of a clear breakout level, but the overall technical evidence leans bearish.\n\nThe best trade setup here is a short entry at the current price, targeting the next support zones. The ATR of 38 pips suggests moderate volatility, and the stop loss is placed just above the EMA50 (1.1555) to allow for normal noise while invalidating the bearish thesis if price reclaims the moving averages. The first target (1.1450) is a psychological round number and likely minor support; the second target (1.1400) is a firmer support from prior price action.",
-  "invalidation": "A daily close above the EMA50 (1.1557) or a break above 1.1562 (EMA200) would invalidate the bearish setup and signal a potential trend reversal.",
+  "entry": "1.1500 (limit sell on pullback)",
+  "stop_loss": "1.1565",
+  "target_1": "1.1400",
+  "target_2": "1.1300",
+  "risk_reward": "1.54 (T1) / 3.08 (T2)",
+  "score": "6/10",
+  "analysis": "Price is trading below both the EMA50 and EMA200, with the EMA50 below the EMA200, confirming a bearish structure. The strong downtrend is intact, and the recent candlestick sequence \u2014 Doji, Evening Star, Doji \u2014 suggests selling pressure is pausing, but it does not provide a reliable reversal signal. Without bullish RSI divergence, the oversold condition alone is not enough to call a bottom, so the path of least resistance remains lower.\n\nRSI at 28.42 is oversold, which warns of a possible short-term bounce, but MACD remains bearish with the line below the signal and a negative histogram. This means momentum still favors downside. The best approach is to sell into a pullback at the 1.1500 psychological resistance zone, rather than chase the market at current levels. A stop above the EMA200 at 1.1565 gives the trade a clear invalidation point and keeps the risk defined.\n\nThe nearest resistance is 1.1500, followed by the EMA50 at 1.1553 and the EMA200 at 1.1563. On the downside, support is at 1.1400, then 1.1300, with 1.1200 as a deeper target. This setup offers a favorable risk/reward if the downtrend resumes from the pullback zone.",
+  "invalidation": "A daily close above 1.1565 (EMA200) would cancel this bearish setup.",
   "support_levels": [
-    1.145,
     1.14,
-    1.135
+    1.13,
+    1.12
   ],
   "resistance_levels": [
-    1.1557,
-    1.1562,
-    1.16
+    1.15,
+    1.1553,
+    1.1563
   ]
 };
