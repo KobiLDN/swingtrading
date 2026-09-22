@@ -1,30 +1,24 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-09-21T11:25:49Z",
-  "date": "2026-09-18",
-  "price": 761.69,
-  "atr": 6.6,
+  "generated": "2026-09-22T10:34:17Z",
+  "date": "2026-09-21",
+  "price": 773.5,
+  "atr": 7.08,
   "atr_pips": 7,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 758.63,
-  "ema200": 726.95,
-  "rsi": 49.18,
-  "macd_line": -0.617023,
-  "macd_signal": 0.546332,
-  "macd_hist": -1.163355,
+  "ema50": 759.22,
+  "ema200": 727.73,
+  "rsi": 58.43,
+  "macd_line": 0.344457,
+  "macd_signal": 0.505956,
+  "macd_hist": -0.161499,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-14",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-09-17",
       "name": "Hammer",
@@ -42,18 +36,17 @@ window.PRICES_DATA_SPX = {
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-09-21",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-28",
-      "open": 711.82,
-      "high": 712.88,
-      "low": 709.25,
-      "close": 711.69
-    },
     {
       "date": "2026-04-29",
       "open": 711.0,
@@ -746,6 +739,13 @@ window.PRICES_DATA_SPX = {
       "high": 762.0,
       "low": 757.97,
       "close": 761.69
+    },
+    {
+      "date": "2026-09-21",
+      "open": 766.25,
+      "high": 774.89,
+      "low": 766.03,
+      "close": 773.5
     }
   ]
 };

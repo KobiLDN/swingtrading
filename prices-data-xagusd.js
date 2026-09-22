@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-09-21T11:25:50Z",
-  "date": "2026-09-18",
-  "price": 59.93,
-  "atr": 1.87,
+  "generated": "2026-09-22T10:34:18Z",
+  "date": "2026-09-21",
+  "price": 59.63,
+  "atr": 1.79,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 58.62,
-  "ema200": 61.36,
-  "rsi": 54.03,
-  "macd_line": 0.088883,
-  "macd_signal": 0.334702,
-  "macd_hist": -0.245819,
+  "ema50": 58.65,
+  "ema200": 61.33,
+  "rsi": 53.01,
+  "macd_line": 0.1497,
+  "macd_signal": 0.297702,
+  "macd_hist": -0.148002,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-14",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-09-16",
       "name": "Bearish Engulfing",
@@ -35,13 +29,6 @@ window.PRICES_DATA_XAGUSD = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-04-28",
-      "open": 65.79,
-      "high": 66.54,
-      "low": 65.37,
-      "close": 66.2
-    },
     {
       "date": "2026-04-29",
       "open": 64.96,
@@ -734,6 +721,13 @@ window.PRICES_DATA_XAGUSD = {
       "high": 60.37,
       "low": 59.58,
       "close": 59.93
+    },
+    {
+      "date": "2026-09-21",
+      "open": 60.14,
+      "high": 60.15,
+      "low": 59.36,
+      "close": 59.63
     }
   ]
 };

@@ -1,21 +1,21 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-09-21T11:25:48Z",
-  "date": "2026-09-21",
-  "price": 1.14834,
-  "atr": 0.00378,
-  "atr_pips": 38,
+  "generated": "2026-09-22T10:34:16Z",
+  "date": "2026-09-22",
+  "price": 1.14627,
+  "atr": 0.00394,
+  "atr_pips": 39,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15573,
-  "ema200": 1.1562,
-  "rsi": 31.3,
-  "macd_line": -0.003152,
-  "macd_signal": -0.001825,
-  "macd_hist": -0.001327,
+  "ema50": 1.15528,
+  "ema200": 1.1563,
+  "rsi": 28.42,
+  "macd_line": -0.003511,
+  "macd_signal": -0.002186,
+  "macd_hist": -0.001325,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -27,27 +27,20 @@ window.PRICES_DATA_EURUSD = {
     },
     {
       "date": "2026-09-21",
-      "name": "Hanging Man",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
-    },
-    {
-      "date": "2026-09-21",
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 5,
+  "score": 7,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-14",
-      "open": 1.15697,
-      "high": 1.15852,
-      "low": 1.15576,
-      "close": 1.15582
-    },
     {
       "date": "2026-06-15",
       "open": 1.15587,
@@ -737,9 +730,16 @@ window.PRICES_DATA_EURUSD = {
     {
       "date": "2026-09-21",
       "open": 1.14856,
-      "high": 1.14871,
-      "low": 1.14713,
-      "close": 1.14834
+      "high": 1.14956,
+      "low": 1.14622,
+      "close": 1.14642
+    },
+    {
+      "date": "2026-09-22",
+      "open": 1.14645,
+      "high": 1.14785,
+      "low": 1.14345,
+      "close": 1.14627
     }
   ]
 };
