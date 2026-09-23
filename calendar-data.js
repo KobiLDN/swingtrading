@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-09-22T10:34:19Z",
+  "generated": "2026-09-23T10:27:53Z",
   "events": [
     {
       "date": "2026-09-25",

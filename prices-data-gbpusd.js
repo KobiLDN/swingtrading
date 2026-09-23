@@ -1,21 +1,21 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-09-22T10:34:15Z",
-  "date": "2026-09-22",
-  "price": 1.33678,
-  "atr": 0.00489,
-  "atr_pips": 49,
+  "generated": "2026-09-23T10:27:49Z",
+  "date": "2026-09-23",
+  "price": 1.32818,
+  "atr": 0.00507,
+  "atr_pips": 51,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34772,
-  "ema200": 1.34396,
-  "rsi": 30.26,
-  "macd_line": -0.004278,
-  "macd_signal": -0.002905,
-  "macd_hist": -0.001373,
+  "ema50": 1.34686,
+  "ema200": 1.34309,
+  "rsi": 22.64,
+  "macd_line": -0.005229,
+  "macd_signal": -0.0034,
+  "macd_hist": -0.001829,
   "trend": "BEARISH BIAS",
   "divergence": "None",
   "patterns": [
@@ -36,24 +36,11 @@ window.PRICES_DATA_GBPUSD = {
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
-    },
-    {
-      "date": "2026-09-22",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
     }
   ],
-  "score": 5,
+  "score": 6,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-15",
-      "open": 1.34004,
-      "high": 1.34614,
-      "low": 1.33994,
-      "close": 1.34128
-    },
     {
       "date": "2026-06-16",
       "open": 1.34127,
@@ -744,8 +731,15 @@ window.PRICES_DATA_GBPUSD = {
       "date": "2026-09-22",
       "open": 1.33692,
       "high": 1.33875,
-      "low": 1.33282,
-      "close": 1.33678
+      "low": 1.33218,
+      "close": 1.33439
+    },
+    {
+      "date": "2026-09-23",
+      "open": 1.33445,
+      "high": 1.33483,
+      "low": 1.328,
+      "close": 1.32818
     }
   ]
 };
