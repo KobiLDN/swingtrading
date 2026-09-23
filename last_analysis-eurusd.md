@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-09-22
-**Generated:** 2026-09-22T11:30:51Z
+**Date:** 2026-09-23
+**Generated:** 2026-09-23T11:26:19Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | N/A |
-| **Confidence** | MEDIUM |
-| **Entry** | 1.1500 (limit sell on pullback) |
-| **Stop Loss** | 1.1565 |
-| **Target 1** | 1.1400 |
-| **Target 2** | 1.1300 |
-| **Risk/Reward** | 1.54 (T1) / 3.08 (T2) |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
 | **Score** | 6/10 |
-| **Support** | 1.14, 1.13, 1.12 |
-| **Resistance** | 1.15, 1.1553, 1.1563 |
+| **Support** | 1.14, 1.135, 1.13 |
+| **Resistance** | 1.145, 1.15, 1.1547 |
 
 ---
 
 ## Analysis
 
-Price is trading below both the EMA50 and EMA200, with the EMA50 below the EMA200, confirming a bearish structure. The strong downtrend is intact, and the recent candlestick sequence — Doji, Evening Star, Doji — suggests selling pressure is pausing, but it does not provide a reliable reversal signal. Without bullish RSI divergence, the oversold condition alone is not enough to call a bottom, so the path of least resistance remains lower.
+The EUR/USD daily chart is firmly in a strong downtrend, with price at 1.14101 trading well below both the EMA50 (1.15467) and EMA200 (1.15546). The RSI(14) is deeply oversold at 22.46, yet no bullish divergence is present, indicating that selling pressure remains dominant and the oversold condition alone is not a reliable reversal signal. The MACD is bearish with the line below the signal line and a negative histogram, confirming the continuation of downside momentum. The recent candlestick pattern of a Doji followed by an Evening Star adds a bearish tilt, suggesting sellers are still in control despite the oversold reading.
 
-RSI at 28.42 is oversold, which warns of a possible short-term bounce, but MACD remains bearish with the line below the signal and a negative histogram. This means momentum still favors downside. The best approach is to sell into a pullback at the 1.1500 psychological resistance zone, rather than chase the market at current levels. A stop above the EMA200 at 1.1565 gives the trade a clear invalidation point and keeps the risk defined.
+From a pattern perspective, no clear formations like triangles, flags, or double tops/bottoms are evident on the daily timeframe. The price action shows a consistent series of lower highs and lower lows, aligning with the EMA-based downtrend. Support near the round number 1.1400 is likely to be tested, with further support at 1.1350 and 1.1300. Resistance levels include 1.1450 (recent swing high), 1.1500 (psychological barrier), and the EMA50 at 1.1547. The RSI and MACD are in agreement with the bearish trend, but the extreme RSI reading introduces a high risk of a short-term bounce, making current levels unfavorable for either a buy or a sell entry.
 
-The nearest resistance is 1.1500, followed by the EMA50 at 1.1553 and the EMA200 at 1.1563. On the downside, support is at 1.1400, then 1.1300, with 1.1200 as a deeper target. This setup offers a favorable risk/reward if the downtrend resumes from the pullback zone.
+The best trade setup would be to wait for a price rally toward the 1.1500–1.1547 resistance zone to initiate a short position, where the risk/reward improves significantly. Entering a sell now near the lows carries the danger of a squeeze, while buying against the strong trend is premature without a confirmed reversal. The signal score of 6/10 reflects a moderately bearish setup tempered by caution due to oversold conditions. Patience is advised.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.1565 (EMA200) would cancel this bearish setup.
+A decisive close above the EMA50 (1.1547) would invalidate the downtrend bias and indicate a potential trend reversal to the upside.
 
 ---
 

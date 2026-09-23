@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
-**Date:** 2026-09-21
-**Generated:** 2026-09-22T11:35:59Z
+**Date:** 2026-09-22
+**Generated:** 2026-09-23T11:32:06Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 59.63 |
-| **Stop Loss** | 60.50 |
-| **Target 1** | 58.65 |
-| **Target 2** | 57.50 |
-| **Risk/Reward** | 1.13 (T1) / 2.45 (T2) |
-| **Score** | 5/10 |
-| **Support** | 58.65, 58.0, 57.5 |
-| **Resistance** | 60.0, 61.33, 62.0 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 5/10 confirmed |
+| **Support** | 60.0, 59.0, 58.74 |
+| **Resistance** | 61.15, 62.0, 62.8 |
 
 ---
 
 ## Analysis
 
-Price at 59.63 sits above the 50-day EMA (58.65) but below the 200-day EMA (61.33), creating a neutral trend context. The recent bearish engulfing candlestick pattern on the daily chart signals a potential reversal from the short-term uptrend, especially as it appears after a period of upward movement. The MACD is bearish with the line below the signal line and a negative histogram, confirming weakening momentum. RSI at 53.01 is neutral, offering no divergence, so the bearish signal relies on price action and MACD.
+Price is trading at 60.73, above the EMA50 at 58.74 but below the EMA200 at 61.15. This confirms a neutral trend rather than a clean directional move. The EMA50 being below the EMA200 also suggests the longer-term structure is not yet bullish, while the price action is only short-term firm. The recent candlestick patterns show both a Bearish Engulfing and a Bullish Engulfing within the last five candles, which reflects two-sided rejection and a choppy, range-bound market rather than a reliable swing setup.
 
-Key support is the 50-day EMA at 58.65, which has acted as dynamic support. A break below this level would open the door to further downside toward 57.50 (prior swing low area) and possibly 56.00. Resistance is at the psychological 60.00 level and the 200-day EMA at 61.33, which caps the longer-term trend. The bearish engulfing pattern suggests sellers are gaining control, and with MACD bearish, a short trade aligns with the immediate momentum.
+There is no obvious triangle, flag, or double top/bottom inferable from the given data. The most likely structure is a continuation/consolidation range between the 60.00 psychological support and the 61.15 EMA200 resistance. The alternating engulfing candles reinforce this idea, as buyers and sellers are both defending their levels. Because the current range is roughly 1.15 points wide and the ATR is 1.8, the noise is larger than the range, increasing the risk of whipsaw on any immediate trade.
 
-The best setup is a short entry at current price with a stop above the engulfing candle’s high (estimated near 60.30–60.50). The first target is the 50-day EMA, offering a modest reward relative to risk. A second target at 57.50 provides a better risk-reward if the breakdown accelerates. However, the neutral trend and proximity to support keep confidence medium. A break above 60.50 would invalidate the bearish setup and suggest continuation higher.
+RSI at 56.27 is neutral and shows no divergence, so momentum is not strongly supporting either direction. MACD is bearish with the line below the signal line, but the histogram is only -0.011448, meaning downside momentum is weak. Thus, RSI and MACD do not strongly agree with any directional trend; they mostly agree that the market lacks a clear edge. The 5/10 signal score also confirms a balanced, low-conviction environment.
 
-Risk assessment: The trade risks a bounce from the 50-day EMA support, which could lead to a false breakdown. The ATR of 1.79 indicates moderate volatility, so the stop should be wide enough to avoid noise. The bearish engulfing pattern has a 5/10 signal score, meaning it is not extremely reliable alone, but combined with MACD it strengthens the case. Position size should be conservative.
+The best trade setup is to wait for a decisive daily close outside the 60.00–61.15 range. A close above 61.15 would open a long toward 62.00 and 62.80, while a close below 60.00 would target 58.74. Until one of those breaks occurs, there is no favourable risk/reward swing trade.
 
 ---
 
 ## Invalidation
 
-N/A
+A decisive daily close above 61.15 or below 58.74 would invalidate the neutral wait stance and trigger the next directional move.
 
 ---
 

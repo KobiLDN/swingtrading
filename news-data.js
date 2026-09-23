@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-22T11:36:29Z",
+  "generated": "2026-09-23T11:32:30Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Extends Gains as EUR/USD and GBP/USD Slide",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060430839.html?.tsrc=rss",
+        "time_published": "2026-09-23 06:04",
+        "source": "Finance",
+        "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD break key support, while falling oil prices test longer-term rate-hike bets."
+      },
+      {
+        "title": "US Dollar Price Forecast: Fed Rate Path Supports Dollar as EUR/USD and GBP/USD Diverge",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-064320722.html?.tsrc=rss",
+        "time_published": "2026-09-22 06:43",
+        "source": "Finance",
+        "summary": "DXY remains supported by Fed tightening expectations as it targets 100.53, while EUR/USD stays pressured and GBP/USD attempts to stabilize."
+      },
       {
         "title": "US Dollar Price Forecast: Hawkish Fed Supports DXY as EUR and GBP Struggle",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081536540.html?.tsrc=rss",
@@ -43,23 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-09-14 06:03",
         "source": "Finance",
         "summary": "Fed hike expectations support the dollar as DXY breaks above 99.26, while EUR/USD and GBP/USD weaken ahead of key Fed and BoE decisions."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054013689.html?.tsrc=rss",
-        "time_published": "2026-09-11 05:40",
-        "source": "Finance",
-        "summary": "Fed hike bets rise as traders await U.S. CPI, with DXY testing 99.16 resistance while EUR/USD and GBP/USD remain under pressure."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Stays Weak as ECB Hike Looms and Inflation Risks Rise; EUR/USD and GBP/USD in Focus",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081617966.html?.tsrc=rss",
-        "time_published": "2026-09-10 08:16",
-        "source": "Finance",
-        "summary": "DXY struggles despite higher Treasury yields as traders await U.S. PPI and the ECB decision, while EUR/USD and GBP/USD hold bullish support."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Extends Gains as EUR/USD and GBP/USD Slide",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060430839.html?.tsrc=rss",
+        "time_published": "2026-09-23 06:04",
+        "source": "Finance",
+        "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD break key support, while falling oil prices test longer-term rate-hike bets."
+      },
+      {
+        "title": "US Dollar Price Forecast: Fed Rate Path Supports Dollar as EUR/USD and GBP/USD Diverge",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-064320722.html?.tsrc=rss",
+        "time_published": "2026-09-22 06:43",
+        "source": "Finance",
+        "summary": "DXY remains supported by Fed tightening expectations as it targets 100.53, while EUR/USD stays pressured and GBP/USD attempts to stabilize."
+      },
       {
         "title": "US Dollar Price Forecast: Hawkish Fed Supports DXY as EUR and GBP Struggle",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081536540.html?.tsrc=rss",
@@ -101,24 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-09-15 07:25",
         "source": "Finance",
         "summary": "DXY strengthens as Fed hike bets and 5% Treasury yields support the dollar, while EUR/USD and GBP/USD weaken ahead of key policy decisions."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Odds Lift DXY as EUR/USD and GBP/USD Weaken",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-060329859.html?.tsrc=rss",
-        "time_published": "2026-09-14 06:03",
-        "source": "Finance",
-        "summary": "Fed hike expectations support the dollar as DXY breaks above 99.26, while EUR/USD and GBP/USD weaken ahead of key Fed and BoE decisions."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054013689.html?.tsrc=rss",
-        "time_published": "2026-09-11 05:40",
-        "source": "Finance",
-        "summary": "Fed hike bets rise as traders await U.S. CPI, with DXY testing 99.16 resistance while EUR/USD and GBP/USD remain under pressure."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Silver Made America\u2019s Critical Minerals List. This ETF Is the Easiest Way In",
+        "url": "https://247wallst.com/investing/etf/2026/09/22/silver-made-americas-critical-minerals-list-this-etf-is-the-easiest-way-in/?.tsrc=rss",
+        "time_published": "2026-09-22 17:03",
+        "source": "247wallst",
+        "summary": "Washington just handed silver a designation that lithium and cobalt already carry, and the fallout for stock investors is more complicated than the headlines suggest. Knowing what the label actually triggers changes how much of your portfolio belongs anywhere near this trade."
+      },
       {
         "title": "Silver Miners Are Sitting on Record Cash Hoard \u2014 More Than Double the 2011 Rally",
         "url": "https://247wallst.com/investing/2026/09/14/silver-miners-are-sitting-on-record-cash-hoard-more-than-double-the-2011-rally/?.tsrc=rss",
@@ -167,71 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-07-11 16:15",
         "source": "247wallst",
         "summary": "Two physical silver ETFs hold the exact same bullion, track the same price, and share the same tax trap, yet one charges nearly twice as much as the other. Before you assume the answer is obvious, there is a specific type of investor for whom the pricier fund is actually the smarter choice."
-      },
-      {
-        "title": "Silver and Copper Are Outpacing Gold in 2026 and After Following Industrial Metals These 3 ETFs Show How Smart Money Is Playing the Trend",
-        "url": "https://247wallst.com/investing/etf/2026/07/09/silver-and-copper-are-outpacing-gold-in-2026-and-after-following-industrial-metals-these-3-etfs-show-how-smart-money-is-playing-the-trend/?.tsrc=rss",
-        "time_published": "2026-07-10 01:54",
-        "source": "247wallst",
-        "summary": "The industrial metals trade has quietly become the most interesting corner of the commodity market, and the choice between iShares Silver Trust (NYSEARCA:SLV), United States Copper Index Fund (NYSEARCA:CPER), and SPDR S&P Metals & Mining ETF (NYSEARCA:XME) carries real performance consequences. Over"
       }
     ],
     "spx": [
       {
-        "title": "S&P 500 Will \u2018Easily\u2019 Top 8,000 Before Historic Crash, \u2018Black Swan\u2019 Fund Manager Says",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61902796/sp-500-8000-mark-spitznagel-crash?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-21 16:54",
-        "source": "Benzinga",
-        "summary": "Mark Spitznagel, founder of Universa Investments, built his reputation protecting investors from market crashes. Now the Universa Investments founder says the S&P 500 will \u201ceasily\u201d top 8,000 in one final euphoric rally before plunging 80%.SPDR S&P 500 ETF Trust (NYSE:SPY)..."
-      },
-      {
-        "title": "Nasdaq Ends Nearly 3% Higher As AI Stocks Pop, AMD Enters $1 Trillion Club \u2014  AMD, ARM, META, AMZN, PSKY In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-ends-nearly-3-higher-as-ai-stocks-pop/cZMRHqjRBIm?.tsrc=rss",
-        "time_published": "2026-09-21 22:04",
-        "source": "Stocktwits",
-        "summary": "Advanced Micro Devices added about 10% and hit $1 trillion in market cap."
-      },
-      {
-        "title": "Opendoor Gains 5% but Is Still Down 24% in a Month. Will the Bulls or Bears Win?",
-        "url": "https://247wallst.com/investing/2026/09/21/opendoor-gains-5-but-is-still-down-24-in-a-month-will-the-bulls-or-bears-win/?.tsrc=rss",
-        "time_published": "2026-09-21 19:06",
+        "title": "VGT Holders Bought \u2018Tech\u2019 and Own No Google, Meta, or Amazon: The Sector Rule That Decides What\u2019s Inside",
+        "url": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/?.tsrc=rss",
+        "time_published": "2026-09-22 22:15",
         "source": "247wallst",
-        "summary": "Opendoor stock cratered while the broader market climbed, and the obvious explanation collapses the moment you look at what its closest competitor actually did over the same stretch."
-      },
-      {
-        "title": "Rocket Lab Climbs 7% as Cantor Reiterates $122 Target on Launch Record; Intuitive Machines Jumps 10%, AST SpaceMobile Rises 6%",
-        "url": "https://247wallst.com/investing/2026/09/21/rocket-lab-climbs-7-as-cantor-reiterates-122-target-on-launch-record-intuitive-machines-jumps-10-ast-spacemobile-rises-6/?.tsrc=rss",
-        "time_published": "2026-09-21 15:40",
-        "source": "247wallst",
-        "summary": "Cantor Fitzgerald just restated its bull case for Rocket Lab with a $122 target, yet the stock is trailing a space peer that received no catalyst at all, and that disconnect tells you something important about what is actually driving Monday's rally."
-      },
-      {
-        "title": "Super Micro Computer Looks Very Intriguing Right Now",
-        "url": "https://247wallst.com/investing/2026/09/21/super-micro-computer-looks-very-intriguing-right-now/?.tsrc=rss",
-        "time_published": "2026-09-21 15:00",
-        "source": "247wallst",
-        "summary": "Super Micro just posted a quarter that sent analyst price targets soaring and earnings estimates jumping by 30% in a single month, yet the stock still trades below those targets and insiders are quietly selling. The setup looks compelling until you dig into what management said about where those pro"
-      },
-      {
-        "title": "Azure, AI Capex, and What to Expect Out of Microsoft Through The End of 2026",
-        "url": "https://247wallst.com/investing/2026/09/21/azure-ai-capex-and-what-to-expect-out-of-microsoft-through-the-end-of-2026/?.tsrc=rss",
-        "time_published": "2026-09-21 13:10",
-        "source": "247wallst",
-        "summary": "Microsoft is sitting on the biggest contracted backlog in its history while its stock trails the broader market by nearly 900 basis points, and the reason for that disconnect reveals everything about whether this setup is a trap or a buying opportunity."
-      },
-      {
-        "title": "Strategy Jumps 6% as Bitcoin Hits Highest Level Since January; MARA Climbs 5%, Riot Rises 4%",
-        "url": "https://247wallst.com/investing/2026/09/21/strategy-jumps-6-as-bitcoin-hits-highest-level-since-january-mara-climbs-5-riot-rises-4/?.tsrc=rss",
-        "time_published": "2026-09-21 12:44",
-        "source": "247wallst",
-        "summary": "Bitcoin just hit its highest level since January, and the equity complex is repricing fast but not evenly. Understanding why Strategy is outrunning the miners it resembles tells you everything about how these trades actually work."
+        "summary": "VGT promises tech exposure, but a classification rule buried in the index methodology quietly excludes three of the biggest names most investors assume they are buying. Knowing which ones changes how your whole portfolio actually fits together."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61912020/stock-market-will-sp-500-open-up-or-down-today-42?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-22 05:55",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61938049/stock-market-will-sp-500-open-up-or-down-today-43?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-23 06:03",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are showing a mixed-to-slightly-flat picture early Tuesday as Wall Street balances new U.S. sanctions targeting Iranian airlines against fresh corporate earnings reports and lingering market optimism from Monday\u2019s AI-led rally. The Polymarket (CRYPTO: POL) crowd is leaning..."
+        "summary": "U.S. stock futures are posting slight gains early Wednesday as Wall Street digests an aggressive UN address from President Donald Trump on Iran, cooling crude oil prices, and fresh bullish momentum in the AI sector. The Polymarket (CRYPTO: POL) crowd..."
+      },
+      {
+        "title": "Lock In 2026 Profits Before Warsh Takes Them Away",
+        "url": "https://finance.yahoo.com/m/fa24ddee-607f-3920-a957-4d616985d42b/lock-in-2026-profits-before.html?.tsrc=rss",
+        "time_published": "2026-09-23 05:00",
+        "source": "Finance",
+        "summary": "Risk aversion seems prudent as investors process what higher rates mean for equities, or if Republicans lose Congress, or if the Iran conflict lasts longer than expected."
+      },
+      {
+        "title": "Invest Like Buffett: Lessons From the Oracle of Omaha",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/invest-buffett-lessons-oracle-omaha-182900634.html?.tsrc=rss",
+        "time_published": "2026-09-22 23:34",
+        "source": "Finance",
+        "summary": "We discuss Buffett's investing playbook and highlight ETFs that follow his investment philosophy."
+      },
+      {
+        "title": "The Market Is Near Another All-Time High and You\u2019re 66 With Cash to Invest. Buying Now Feels Like the Top. These 3 ETFs Are How You Get In Anyway",
+        "url": "https://247wallst.com/investing/etf/2026/09/22/the-market-is-near-another-all-time-high-and-youre-66-with-cash-to-invest-buying-now-feels-like-the-top-these-3-etfs-are-how-you-get-in-anyway/?.tsrc=rss",
+        "time_published": "2026-09-22 22:25",
+        "source": "247wallst",
+        "summary": "Buying into an all-time high at 66 feels like the worst possible timing, but the data on what actually happens next might change how you think about that cash sitting on the sidelines."
+      },
+      {
+        "title": "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool \u2014 AAPL, META, SPCX, MSFT, VKTX In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-jumps-to-close-at-record-as-chipmakers-climb-oil-prices-cool-aapl-meta-spcx-msft-vktx-in-focus/cZM5GHbRB7L?.tsrc=rss",
+        "time_published": "2026-09-22 21:26",
+        "source": "Stocktwits",
+        "summary": "Wall Street is gearing up for this week\u2019s summit between Donald Trump and Chinese President Xi Jinping."
+      },
+      {
+        "title": "Skyworks Just Surged 33% in a Month: Is It Too Late to Buy SWKS Stock Now?",
+        "url": "https://247wallst.com/investing/2026/09/22/skyworks-just-surged-33-in-a-month-is-it-too-late-to-buy-swks-stock-now/?.tsrc=rss",
+        "time_published": "2026-09-22 19:12",
+        "source": "247wallst",
+        "summary": "Skyworks stock has outrun its merger partner, its biggest competitor, and the entire chip sector in a single month, but the real question is whether that move is the beginning of something bigger or a closing-bell signal that the trade is over."
+      },
+      {
+        "title": "Bloom Energy Just Ripped 38% in a Month: Take Profits, or Buy More?",
+        "url": "https://247wallst.com/investing/2026/09/22/bloom-energy-just-ripped-38-in-a-month-take-profits-or-buy-more/?.tsrc=rss",
+        "time_published": "2026-09-22 19:07",
+        "source": "247wallst",
+        "summary": "Bloom Energy just pulled off a move that left every fuel cell peer in the dust, and the catalyst behind it raises a question that splits bulls and bears sharply: does what drove the stock higher actually stick?"
       }
     ],
     "oil": [

@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-09-22T11:36:28Z",
+  "generated": "2026-09-23T11:32:29Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "decision": "SELL",
-  "confidence": "MEDIUM",
-  "entry": "148.16",
-  "stop_loss": "150.50",
-  "target_1": "145.00",
-  "target_2": "140.00",
-  "risk_reward": "1.72",
-  "score": "8/10",
-  "analysis": "The strong uptrend is confirmed by price trading well above the EMA50 (136.68) and EMA200 (115.81). However, recent price action has produced a bearish engulfing candlestick pattern, and the RSI (55.81) shows a bearish divergence\u2014price making a higher high while RSI made a lower high. This divergence signals that upside momentum is waning, often a precursor to a reversal. The MACD also aligns with this bearish bias: the line is below the signal line and the histogram is negative, indicating deteriorating bullish momentum. Despite the overall trend being strongly up, the confluence of these short-term bearish signals, combined with the high signal score (8/10), warrants a counter\u2011trend sell entry with a tight stop.  \n\nInferred chart patterns include a possible double\u2011top formation near the 148\u2013150 area, though a formal double top is not yet confirmed. The bearish engulfing candle at the recent high reinforces this potential top. Key support near 145.00 (psychological round number and prior consolidation level) is the first target, with deeper support at 142.50 and 140.00 (near the 20\u2011day low). Resistance lies at 150.00 (round number), 152.00, and 155.00 (potential extension zone). The ATR of 5.07 suggests moderate daily volatility, so a stop loss placed slightly above the recent high (150.50) provides a reasonable risk buffer, giving a risk\u2011reward of about 1.72:1 to the first target.  \n\nRisk assessment: Selling against a strong uptrend carries the risk of a trend continuation that could invalidate the setup quickly. However, the bearish divergence, MACD weakness, and engulfing pattern provide a high\u2011probability reversal signal for a short\u2011term swing trade. Position sizing should be conservative, and the trade should be monitored for any immediate recovery above the stop level.",
-  "invalidation": "A daily close above 150.50 (the swing high) would cancel the setup, confirming the uptrend resumption and negating the bearish divergence.",
+  "confidence": "LOW",
+  "entry": "144.08",
+  "stop_loss": "146.00",
+  "target_1": "140.00",
+  "target_2": "136.97",
+  "risk_reward": "2.13 (based on target 1)",
+  "score": "5/10",
+  "analysis": "The daily chart shows USO in a strong uptrend, with price well above both the EMA50 (136.97) and EMA200 (116.19). However, recent price action is not confirming the trend\u2019s momentum. A Bearish Engulfing candlestick pattern formed within the last five sessions, signaling a potential reversal or at least a deep pullback. The RSI(14) at 50.96 is neutral but exhibits a bearish divergence\u2014price made higher highs while RSI failed to confirm, weakening the bullish case. The MACD is bearish with the line below the signal line and a negative histogram (-0.84), further aligning with waning upward momentum.\n\nNo clear additional chart patterns such as flags or double tops are evident from the given data, but the Bearish Engulfing itself is a strong reversal signal when appearing after an uptrend. Key support levels are the round number 140.00, the EMA50 at 136.97, and the next psychological level near 133.00. On the upside, immediate resistance lies at 145.00 (recent swing high area), followed by 146.50 and 150.00. The confluence of bearish divergence, MACD weakness, and a bearish candlestick pattern argues for a short-term sell, even though the overarching trend remains bullish.\n\nThe risk-reward for a sell at 144.08 with a stop at 146.00 (just above the likely bearish engulfing high) targets 140.00 first, offering a 2.13:1 ratio. A further extension to 136.97 yields a 3.70:1 reward, but given the strong uptrend, the probability of a full pullback to the EMA50 is moderate. The low confidence reflects the tension between the strong trend and the bearish signals; this is more of a counter-trend trade that relies on momentum exhaustion rather than a trend reversal.",
+  "invalidation": "N/A",
   "support_levels": [
-    145.0,
-    142.5,
-    140.0
+    140.0,
+    136.97,
+    133.0
   ],
   "resistance_levels": [
-    150.0,
-    152.0,
-    155.0
+    145.0,
+    146.5,
+    150.0
   ]
 };
