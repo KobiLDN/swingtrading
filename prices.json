@@ -1,30 +1,24 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-09-23T10:27:49Z",
-  "date": "2026-09-23",
-  "price": 1.32818,
-  "atr": 0.00507,
-  "atr_pips": 51,
+  "generated": "2026-09-24T10:44:36Z",
+  "date": "2026-09-24",
+  "price": 1.32259,
+  "atr": 0.00538,
+  "atr_pips": 54,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34686,
-  "ema200": 1.34309,
-  "rsi": 22.64,
-  "macd_line": -0.005229,
-  "macd_signal": -0.0034,
-  "macd_hist": -0.001829,
+  "ema50": 1.34576,
+  "ema200": 1.34388,
+  "rsi": 19.35,
+  "macd_line": -0.006466,
+  "macd_signal": -0.004066,
+  "macd_hist": -0.0024,
   "trend": "BEARISH BIAS",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-19",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-09-20",
       "name": "Doji",
@@ -41,13 +35,6 @@
   "score": 6,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-16",
-      "open": 1.34127,
-      "high": 1.34423,
-      "low": 1.33905,
-      "close": 1.34268
-    },
     {
       "date": "2026-06-17",
       "open": 1.34266,
@@ -738,8 +725,15 @@
       "date": "2026-09-23",
       "open": 1.33445,
       "high": 1.33483,
-      "low": 1.328,
-      "close": 1.32818
+      "low": 1.32231,
+      "close": 1.32405
+    },
+    {
+      "date": "2026-09-24",
+      "open": 1.32401,
+      "high": 1.32568,
+      "low": 1.32151,
+      "close": 1.32259
     }
   ]
 }

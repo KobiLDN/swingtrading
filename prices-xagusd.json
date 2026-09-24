@@ -1,30 +1,24 @@
 {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-09-23T10:27:52Z",
-  "date": "2026-09-22",
-  "price": 60.73,
-  "atr": 1.8,
+  "generated": "2026-09-24T10:44:38Z",
+  "date": "2026-09-23",
+  "price": 58.16,
+  "atr": 1.87,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 58.74,
-  "ema200": 61.15,
-  "rsi": 56.27,
-  "macd_line": 0.283393,
-  "macd_signal": 0.29484,
-  "macd_hist": -0.011448,
-  "trend": "NEUTRAL",
+  "ema50": 58.71,
+  "ema200": 61.28,
+  "rsi": 47.9,
+  "macd_line": 0.179893,
+  "macd_signal": 0.271851,
+  "macd_hist": -0.091957,
+  "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-16",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    },
     {
       "date": "2026-09-22",
       "name": "Bullish Engulfing",
@@ -32,16 +26,9 @@
       "strength": 4
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-04-30",
-      "open": 66.7,
-      "high": 66.81,
-      "low": 65.88,
-      "close": 66.66
-    },
     {
       "date": "2026-05-01",
       "open": 67.58,
@@ -734,6 +721,13 @@
       "high": 61.0,
       "low": 59.05,
       "close": 60.73
+    },
+    {
+      "date": "2026-09-23",
+      "open": 59.0,
+      "high": 59.03,
+      "low": 58.02,
+      "close": 58.16
     }
   ]
 }
