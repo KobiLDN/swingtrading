@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-09-23
-**Generated:** 2026-09-23T11:25:31Z
+**Date:** 2026-09-24
+**Generated:** 2026-09-24T11:37:39Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,32 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.32818 |
-| **Stop Loss** | 1.33320 |
-| **Target 1** | 1.32310 |
-| **Target 2** | 1.31800 |
-| **Risk/Reward** | 1:1.08 (target 1), 1:2.12 (target 2) |
+| **Entry** | 1.32259 |
+| **Stop Loss** | 1.33066 |
+| **Target 1** | 1.31721 |
+| **Target 2** | 1.31183 |
+| **Risk/Reward** | 1.33 (based on T2) |
 | **Score** | 6/10 |
-| **Support** | 1.325, 1.32, 1.31 |
-| **Resistance** | 1.33, 1.3431, 1.3469 |
+| **Support** | 1.32, 1.3172, 1.3118 |
+| **Resistance** | 1.33, 1.335, 1.34 |
 
 ---
 
 ## Analysis
 
-The price action firmly confirms the bearish EMA trend. Both the 50-period (1.34686) and 200-period (1.34309) EMAs reside well above current price (1.32818), establishing a clear downward slope. The recent candlestick pattern — two Doji followed by an Evening Star — reinforces bearish momentum and suggests sellers remain in control despite the oversold RSI. No bullish divergence exists to warn of an imminent reversal, so the path of least resistance is lower.
+The daily chart shows a clear bearish bias with price trading well below both the EMA50 (1.34576) and EMA200 (1.34388), confirming a sustained downtrend. The recent candlestick formation—a Doji followed by an Evening Star—adds bearish confirmation, suggesting that sellers have regained control after a brief pause. The MACD remains bearish with the line below the signal line and a negative histogram, reinforcing downside momentum.  
 
-Additional chart patterns are not explicitly provided, but the persistent rejection from the EMA cluster and the Evening Star formation imply a potential continuation pattern (e.g., a bear flag or descending channel). The lack of a clear double-top or bottom further supports a trend-following approach. Key support below is the 1.3250 round number and the 1.3200 psychological level, with stronger support near 1.3100 from prior swings. Resistance is immediate at 1.3300, then the EMA zone (1.3431–1.3469).
+Despite the RSI being deeply oversold at 19.35, which often warns of a potential bounce, the absence of any bullish divergence and the strength of the prevailing trend argue against a contrarian long trade. In strong downtrends, oversold conditions can persist or lead only to shallow corrections. The signal score of 6/10 reflects a moderately bearish setup, but the extreme RSI introduces elevated risk of a short-term squeeze.  
 
-RSI and MACD agree with the bearish trend: MACD is below its signal line with a negative histogram, and RSI (22.64) is oversold but without divergence — oversold alone is not a buy signal in a strong downtrend. The lack of bullish confluence means the risk of a dead-cat bounce exists, but the prevailing momentum favors short positions. The 6/10 signal score reflects this moderate conviction.
+The best trade is to sell at current price with a stop placed 1.5× ATR (81 pips) above to account for volatility and potential false breakouts. The first target is set at 1.3172 (1 ATR below), with a secondary target at 1.3118 (2 ATR below). This provides a risk-reward ratio of 1.33 on the second target, which is acceptable given the trend alignment. Key support lies at the round 1.3200 level and the ATR-based levels below, while resistance is clustered around 1.3300 and the EMAs above.  
+
+Risk assessment: The primary risk is a sharp reversal from oversold conditions, which could trigger the stop. However, the bearish pattern and MACD alignment suggest that any bounce is likely to be short-lived. Position size should be reduced to account for the elevated uncertainty, and traders should monitor for any bullish divergence or a break above the Evening Star high to invalidate the setup.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.33320 (stop-loss level) would negate the bearish setup, potentially triggering a short squeeze toward the EMA cluster.
+N/A
 
 ---
 

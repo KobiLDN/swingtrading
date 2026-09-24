@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-23T11:32:30Z",
+  "generated": "2026-09-24T11:42:10Z",
   "assets": {
     "gbpusd": [
       {
@@ -120,6 +120,13 @@ window.NEWS_DATA = {
     "xauusd": [],
     "xagusd": [
       {
+        "title": "Gold ETFs Just Had Their 2nd-Biggest Month Ever",
+        "url": "http://www.etf.com/sections/news/gold-etfs-just-had-their-2nd-biggest-month-ever?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-09-23 19:32",
+        "source": "Etf",
+        "summary": "In August, investors poured roughly $18 billion into gold ETFs, the second-largest monthly inflow in history, driving global holdings to an all-time record. North American buying alone exploded from a sleepy $71 million in July to $7.7 billion in August, a 108-fold surge. Then, weeks later, the Fede"
+      },
+      {
         "title": "Silver Made America\u2019s Critical Minerals List. This ETF Is the Easiest Way In",
         "url": "https://247wallst.com/investing/etf/2026/09/22/silver-made-americas-critical-minerals-list-this-etf-is-the-easiest-way-in/?.tsrc=rss",
         "time_published": "2026-09-22 17:03",
@@ -167,74 +174,81 @@ window.NEWS_DATA = {
         "time_published": "2026-07-28 18:35",
         "source": "247wallst",
         "summary": "Silver has soared to record highs and then collapsed by more than half, and one leveraged ETF is designed to magnify every move in both directions. Before you consider doubling down on silver's next rally, there is a hidden structural cost that could quietly drain your position even when the metal t"
-      },
-      {
-        "title": "SLV vs. SIVR: Same Silver, Lower Fee, So Which Physical Silver ETF Should You Actually Hold?",
-        "url": "https://247wallst.com/investing/etf/2026/07/11/slv-vs-sivr-same-silver-lower-fee-so-which-physical-silver-etf-should-you-actually-hold/?.tsrc=rss",
-        "time_published": "2026-07-11 16:15",
-        "source": "247wallst",
-        "summary": "Two physical silver ETFs hold the exact same bullion, track the same price, and share the same tax trap, yet one charges nearly twice as much as the other. Before you assume the answer is obvious, there is a specific type of investor for whom the pricier fund is actually the smarter choice."
       }
     ],
     "spx": [
       {
-        "title": "VGT Holders Bought \u2018Tech\u2019 and Own No Google, Meta, or Amazon: The Sector Rule That Decides What\u2019s Inside",
-        "url": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/?.tsrc=rss",
-        "time_published": "2026-09-22 22:15",
+        "title": "Vanguard Will Put $1,500 Into Your Kid\u2019s Trump Account Starting in 2027. Here\u2019s What to Buy With It",
+        "url": "https://247wallst.com/investing/etf/2026/09/23/vanguard-will-put-1500-into-your-kids-trump-account-starting-in-2027-heres-what-to-buy-with-it/?.tsrc=rss",
+        "time_published": "2026-09-23 21:20",
         "source": "247wallst",
-        "summary": "VGT promises tech exposure, but a classification rule buried in the index methodology quietly excludes three of the biggest names most investors assume they are buying. Knowing which ones changes how your whole portfolio actually fits together."
+        "summary": "Vanguard seeds every eligible child's Trump Account with $1,500 starting in 2027, but the obvious fund choice quietly costs more than it needs to over 18 years of compounding. The ticker most parents will pick first is the wrong one for this account."
+      },
+      {
+        "title": "Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases",
+        "url": "https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases/?.tsrc=rss",
+        "time_published": "2026-09-23 16:51",
+        "source": "247wallst",
+        "summary": "Consumer lenders are getting hit far harder than the broader financials sector on Wednesday, and the gap between them points to something more specific than a rough market day for bank stocks."
+      },
+      {
+        "title": "Nasdaq, S&P 500 Futures Slide As Treasury Yields, Trump-Xi Summit Keep Traders On Edge: META, GOOGL, SPCX, VKTX, SNAP, MCD, BB Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-slide-treasury-yields-trump-xi-summit-meta-googl-spcx-vktx-snap-mcd-bb-stocks-in-focus/cZM7vaiRBBy?.tsrc=rss",
+        "time_published": "2026-09-24 08:25",
+        "source": "Stocktwits",
+        "summary": "Retail sentiment on Stocktwits for SPY and QQQ has improved to \u2018bullish\u2019."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61938049/stock-market-will-sp-500-open-up-or-down-today-43?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-23 06:03",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61963266/stock-market-will-sp-500-open-up-or-down-today-44?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-24 05:45",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are posting slight gains early Wednesday as Wall Street digests an aggressive UN address from President Donald Trump on Iran, cooling crude oil prices, and fresh bullish momentum in the AI sector. The Polymarket (CRYPTO: POL) crowd..."
+        "summary": "U.S. stock futures are trending lower early Thursday as Wall Street prepares for high-stakes trade and AI discussions between U.S. President Donald Trump and Chinese President Xi Jinping, alongside key retail earnings and housing market indicators. The Polymarket (CRYPTO: POL)..."
       },
       {
-        "title": "Lock In 2026 Profits Before Warsh Takes Them Away",
-        "url": "https://finance.yahoo.com/m/fa24ddee-607f-3920-a957-4d616985d42b/lock-in-2026-profits-before.html?.tsrc=rss",
-        "time_published": "2026-09-23 05:00",
-        "source": "Finance",
-        "summary": "Risk aversion seems prudent as investors process what higher rates mean for equities, or if Republicans lose Congress, or if the Iran conflict lasts longer than expected."
-      },
-      {
-        "title": "Invest Like Buffett: Lessons From the Oracle of Omaha",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/invest-buffett-lessons-oracle-omaha-182900634.html?.tsrc=rss",
-        "time_published": "2026-09-22 23:34",
-        "source": "Finance",
-        "summary": "We discuss Buffett's investing playbook and highlight ETFs that follow his investment philosophy."
-      },
-      {
-        "title": "The Market Is Near Another All-Time High and You\u2019re 66 With Cash to Invest. Buying Now Feels Like the Top. These 3 ETFs Are How You Get In Anyway",
-        "url": "https://247wallst.com/investing/etf/2026/09/22/the-market-is-near-another-all-time-high-and-youre-66-with-cash-to-invest-buying-now-feels-like-the-top-these-3-etfs-are-how-you-get-in-anyway/?.tsrc=rss",
-        "time_published": "2026-09-22 22:25",
+        "title": "Netflix Is Down 42% in a Year and the Investor Who Exited in June Just Bought Back In",
+        "url": "https://247wallst.com/investing/2026/09/23/netflix-is-down-42-in-a-year-and-the-investor-who-exited-in-june-just-bought-back-in/?.tsrc=rss",
+        "time_published": "2026-09-24 00:08",
         "source": "247wallst",
-        "summary": "Buying into an all-time high at 66 feels like the worst possible timing, but the data on what actually happens next might change how you think about that cash sitting on the sidelines."
+        "summary": "A seasoned investor who dodged a brutal Netflix slide by exiting in June just bought back in, and his reasoning cuts against everything the bears are saying right now."
       },
       {
-        "title": "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool \u2014 AAPL, META, SPCX, MSFT, VKTX In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-jumps-to-close-at-record-as-chipmakers-climb-oil-prices-cool-aapl-meta-spcx-msft-vktx-in-focus/cZM5GHbRB7L?.tsrc=rss",
-        "time_published": "2026-09-22 21:26",
+        "title": "Steve Weiss Dumped an Energy Stock That Tripled the S&P 500 Over a Decade",
+        "url": "https://247wallst.com/investing/2026/09/23/steve-weiss-dumped-an-energy-stock-that-tripled-the-sp-500-over-a-decade/?.tsrc=rss",
+        "time_published": "2026-09-23 22:27",
+        "source": "247wallst",
+        "summary": "Steve Weiss called energy stocks a decade of disappointment, booked his gains in Valero, and walked away feeling disciplined. The scoreboard tells a more complicated story about the one refiner that left the entire sector in the dust."
+      },
+      {
+        "title": "S&P 500, Dow, Nasdaq Drop As Yields Spike Amid Calls For More Rate Hikes \u2014 AMZN, GOOGL, NFLX, SPCX, RKLB In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-drop-as-yields-spike-amid-calls-for-more-rate-hikes-amzn-googl-nflx-spcx-rklb-in-focus/cZM4IxjRBB9?.tsrc=rss",
+        "time_published": "2026-09-23 21:23",
         "source": "Stocktwits",
-        "summary": "Wall Street is gearing up for this week\u2019s summit between Donald Trump and Chinese President Xi Jinping."
+        "summary": "Treasury yields jumped across the curve on Wednesday."
       },
       {
-        "title": "Skyworks Just Surged 33% in a Month: Is It Too Late to Buy SWKS Stock Now?",
-        "url": "https://247wallst.com/investing/2026/09/22/skyworks-just-surged-33-in-a-month-is-it-too-late-to-buy-swks-stock-now/?.tsrc=rss",
-        "time_published": "2026-09-22 19:12",
+        "title": "SpaceX Drops 4% Amid Share Supply and Valuation Concerns; AST SpaceMobile Falls 6%",
+        "url": "https://247wallst.com/investing/2026/09/23/spacex-drops-4-amid-share-supply-and-valuation-concerns-ast-spacemobile-falls-6/?.tsrc=rss",
+        "time_published": "2026-09-23 20:02",
         "source": "247wallst",
-        "summary": "Skyworks stock has outrun its merger partner, its biggest competitor, and the entire chip sector in a single month, but the real question is whether that move is the beginning of something bigger or a closing-bell signal that the trade is over."
-      },
-      {
-        "title": "Bloom Energy Just Ripped 38% in a Month: Take Profits, or Buy More?",
-        "url": "https://247wallst.com/investing/2026/09/22/bloom-energy-just-ripped-38-in-a-month-take-profits-or-buy-more/?.tsrc=rss",
-        "time_published": "2026-09-22 19:07",
-        "source": "247wallst",
-        "summary": "Bloom Energy just pulled off a move that left every fuel cell peer in the dust, and the catalyst behind it raises a question that splits bulls and bears sharply: does what drove the stock higher actually stick?"
+        "summary": "A looming share unlock, a top executive's $52 million stock sale, and stretched valuations are colliding at once for SpaceX, and the next few sessions will test whether buyers hold the line or step aside."
       }
     ],
     "oil": [
+      {
+        "title": "Zacks Investment Ideas feature highlights: GLD, QQQ, USO, MU and TWLO",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-093400194.html?.tsrc=rss",
+        "time_published": "2026-09-24 09:34",
+        "source": "Finance",
+        "summary": "QQQ eyes a breakout as summer consolidation fades, while Micron's earnings and shifting oil dynamics could shape the market's next move."
+      },
+      {
+        "title": "Rejoice! The Summer Stock Slump is Over",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rejoice-summer-stock-slump-over-173100996.html?.tsrc=rss",
+        "time_published": "2026-09-23 17:31",
+        "source": "Finance",
+        "summary": "As the summer chop fades and historical tailwinds align, patient investors who weathered the consolidation phase are well-positioned to capitaliz"
+      },
       {
         "title": "Diesel Hits Record $6.51 a Gallon as Fuel Crisis Deepens: Commodity Strategist Warns \u2018No Handshake Can Refill\u2019 the Market",
         "url": "https://finance.yahoo.com/markets/commodities/articles/diesel-hits-record-6-51-094517833.html?.tsrc=rss",
@@ -276,20 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-16 18:36",
         "source": "247wallst",
         "summary": "Options traders are flooding into bets against the year's hottest sector at a pace well above normal, even as crude oil surges and the underlying stocks sit near all-time highs. Something in the macro picture is spooking the smart money, and the trade they chose reveals exactly how severe they expec"
-      },
-      {
-        "title": "Why Oil Bears May Make a Stand as Prices Approach Highs",
-        "url": "https://finance.yahoo.com/energy/articles/why-oil-bears-may-stand-021100895.html?.tsrc=rss",
-        "time_published": "2026-09-16 02:11",
-        "source": "Finance",
-        "summary": "Oil prices have surged thus far in 2026 - however, the technical chart and historical seasonality point to a market that could stall into year-end."
-      },
-      {
-        "title": "Navigating the Market: Inflation, Yields, & the Fed",
-        "url": "https://finance.yahoo.com/economy/policy/articles/navigating-market-inflation-yields-fed-233300605.html?.tsrc=rss",
-        "time_published": "2026-09-15 23:33",
-        "source": "Finance",
-        "summary": "Over the past few weeks, the market has been extremely choppy, frustrating, and has lacked liquidity. The good news is that Wednesday's FOMC meeting should bring volatility back in a big way and finally give the market some direction."
       }
     ]
   }

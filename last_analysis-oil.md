@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-09-22
-**Generated:** 2026-09-23T11:32:29Z
+**Date:** 2026-09-23
+**Generated:** 2026-09-24T11:42:07Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | WAIT |
 | **Confidence** | LOW |
-| **Entry** | 144.08 |
-| **Stop Loss** | 146.00 |
-| **Target 1** | 140.00 |
-| **Target 2** | 136.97 |
-| **Risk/Reward** | 2.13 (based on target 1) |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 140.0, 136.97, 133.0 |
-| **Resistance** | 145.0, 146.5, 150.0 |
+| **Support** | 145.0, 143.72, 140.0 |
+| **Resistance** | 150.0, 153.94, 155.0 |
 
 ---
 
 ## Analysis
 
-The daily chart shows USO in a strong uptrend, with price well above both the EMA50 (136.97) and EMA200 (116.19). However, recent price action is not confirming the trend’s momentum. A Bearish Engulfing candlestick pattern formed within the last five sessions, signaling a potential reversal or at least a deep pullback. The RSI(14) at 50.96 is neutral but exhibits a bearish divergence—price made higher highs while RSI failed to confirm, weakening the bullish case. The MACD is bearish with the line below the signal line and a negative histogram (-0.84), further aligning with waning upward momentum.
+The daily chart shows a strong uptrend with price well above both EMAs (50 at 137.44, 200 at 116.58), but recent momentum indicators are flashing bearish signals. The RSI(14) is neutral at 55.78 but exhibits bearish divergence, indicating that price highs are not being confirmed by momentum. The MACD has crossed below its signal line and the histogram is negative, further suggesting weakening bullish momentum. Candlestick patterns over the last five candles include a Bearish Engulfing pattern, which is a bearish reversal signal, followed by a Morning Star, a bullish reversal pattern. This conflicting sequence creates uncertainty about the immediate direction. The overall signal score of 7/10 from the system appears overly optimistic given the divergence; a more cautious score of 5/10 is warranted.
 
-No clear additional chart patterns such as flags or double tops are evident from the given data, but the Bearish Engulfing itself is a strong reversal signal when appearing after an uptrend. Key support levels are the round number 140.00, the EMA50 at 136.97, and the next psychological level near 133.00. On the upside, immediate resistance lies at 145.00 (recent swing high area), followed by 146.50 and 150.00. The confluence of bearish divergence, MACD weakness, and a bearish candlestick pattern argues for a short-term sell, even though the overarching trend remains bullish.
+Given the conflicting signals—strong trend versus bearish divergence and mixed candlestick patterns—the prudent action is to wait for clearer confirmation. A long entry would be risky as momentum is fading, while a short entry would be counter-trend and could be caught in a continuation of the uptrend. Key support levels near current price are psychological round numbers and the ATR-based range (148.83 - 5.11 = 143.72), while resistance lies at the 150 round number and recent highs. The best trade setup is to remain on the sidelines until either the bullish momentum reasserts itself with a break above resistance or the bearish divergence leads to a decisive break below support.
 
-The risk-reward for a sell at 144.08 with a stop at 146.00 (just above the likely bearish engulfing high) targets 140.00 first, offering a 2.13:1 ratio. A further extension to 136.97 yields a 3.70:1 reward, but given the strong uptrend, the probability of a full pullback to the EMA50 is moderate. The low confidence reflects the tension between the strong trend and the bearish signals; this is more of a counter-trend trade that relies on momentum exhaustion rather than a trend reversal.
+Risk assessment is high due to the lack of confluence among indicators. The strong uptrend provides a bullish bias, but the bearish divergence and MACD crossover suggest a potential pullback. Traders should avoid entering positions until the market resolves this conflict. A break below the 145 support level would increase the likelihood of a deeper correction, while a move above 150 would negate the bearish divergence and signal trend continuation.
 
 ---
 
 ## Invalidation
 
-N/A
+This wait-and-see approach is invalidated if price breaks above 150 with strong volume, confirming trend continuation, or breaks below 145, confirming bearish momentum.
 
 ---
 
