@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-24T11:42:10Z",
+  "generated": "2026-09-25T11:52:05Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Strong U.S. Data Lifts DXY as EUR/USD and GBP/USD Weaken",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-082406708.html?.tsrc=rss",
+        "time_published": "2026-09-24 08:24",
+        "source": "Finance",
+        "summary": "Strong U.S. data and hawkish Fed expectations support DXY as EUR/USD and GBP/USD remain pressured below key technical resistance."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Extends Gains as EUR/USD and GBP/USD Slide",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060430839.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-15 07:25",
         "source": "Finance",
         "summary": "DXY strengthens as Fed hike bets and 5% Treasury yields support the dollar, while EUR/USD and GBP/USD weaken ahead of key policy decisions."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Odds Lift DXY as EUR/USD and GBP/USD Weaken",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-060329859.html?.tsrc=rss",
-        "time_published": "2026-09-14 06:03",
-        "source": "Finance",
-        "summary": "Fed hike expectations support the dollar as DXY breaks above 99.26, while EUR/USD and GBP/USD weaken ahead of key Fed and BoE decisions."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Strong U.S. Data Lifts DXY as EUR/USD and GBP/USD Weaken",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-082406708.html?.tsrc=rss",
+        "time_published": "2026-09-24 08:24",
+        "source": "Finance",
+        "summary": "Strong U.S. data and hawkish Fed expectations support DXY as EUR/USD and GBP/USD remain pressured below key technical resistance."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Extends Gains as EUR/USD and GBP/USD Slide",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060430839.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-16 08:32",
         "source": "Finance",
         "summary": "DXY holds bullish support ahead of the Fed decision as traders focus on Warsh\u2019s rate guidance, while EUR/USD and GBP/USD remain pressured."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR and GBP Weaken",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-072505318.html?.tsrc=rss",
-        "time_published": "2026-09-15 07:25",
-        "source": "Finance",
-        "summary": "DXY strengthens as Fed hike bets and 5% Treasury yields support the dollar, while EUR/USD and GBP/USD weaken ahead of key policy decisions."
       }
     ],
     "xauusd": [],
@@ -125,6 +125,13 @@ window.NEWS_DATA = {
         "time_published": "2026-09-23 19:32",
         "source": "Etf",
         "summary": "In August, investors poured roughly $18 billion into gold ETFs, the second-largest monthly inflow in history, driving global holdings to an all-time record. North American buying alone exploded from a sleepy $71 million in July to $7.7 billion in August, a 108-fold surge. Then, weeks later, the Fede"
+      },
+      {
+        "title": "Gold Defied the Fed\u2019s Rate Hike\u2014These 3 Plays Stand Out",
+        "url": "https://www.marketbeat.com/articles/gold-defied-the-feds-rate-hikethese-3-plays-stand-out/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "time_published": "2026-09-23 16:45",
+        "source": "Marketbeat",
+        "summary": "Gold rebounded after briefly dipping on the Fed's rate hike, as central bank buying persists. Newmont, Wheaton Precious Metals, and iShares Silver Trust offer distinct ways to invest in the trend."
       },
       {
         "title": "Silver Made America\u2019s Critical Minerals List. This ETF Is the Easiest Way In",
@@ -167,71 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-08-11 12:00",
         "source": "Finance",
         "summary": "Gold, space, defense and silver-mining ETFs soared last week as weak jobs data eased Fed rate-hike fears and boosted risk appetite."
-      },
-      {
-        "title": "Bullish on Silver? This 2X ETF Doubles Your Bet and Your Risk",
-        "url": "https://247wallst.com/investing/etf/2026/07/28/bullish-on-silver-this-2x-etf-doubles-your-bet-and-your-risk/?.tsrc=rss",
-        "time_published": "2026-07-28 18:35",
-        "source": "247wallst",
-        "summary": "Silver has soared to record highs and then collapsed by more than half, and one leveraged ETF is designed to magnify every move in both directions. Before you consider doubling down on silver's next rally, there is a hidden structural cost that could quietly drain your position even when the metal t"
       }
     ],
     "spx": [
       {
-        "title": "Vanguard Will Put $1,500 Into Your Kid\u2019s Trump Account Starting in 2027. Here\u2019s What to Buy With It",
-        "url": "https://247wallst.com/investing/etf/2026/09/23/vanguard-will-put-1500-into-your-kids-trump-account-starting-in-2027-heres-what-to-buy-with-it/?.tsrc=rss",
-        "time_published": "2026-09-23 21:20",
-        "source": "247wallst",
-        "summary": "Vanguard seeds every eligible child's Trump Account with $1,500 starting in 2027, but the obvious fund choice quietly costs more than it needs to over 18 years of compounding. The ticker most parents will pick first is the wrong one for this account."
+        "title": "Should State Street SPDR S&P 500 ETF Trust (SPY) Be on Your Investing Radar?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-p-500-092002022.html?.tsrc=rss",
+        "time_published": "2026-09-25 09:20",
+        "source": "Finance",
+        "summary": "Style Box ETF report for SPY"
       },
       {
-        "title": "Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases",
-        "url": "https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases/?.tsrc=rss",
-        "time_published": "2026-09-23 16:51",
+        "title": "SPY\u2019s 9.45 Basis Points Hides $6,450 a Decade on $100,000 Versus Cheaper Peers",
+        "url": "https://247wallst.com/investing/etf/2026/09/24/spys-9-45-basis-points-hides-6450-a-decade-on-100000-versus-cheaper-peers/?.tsrc=rss",
+        "time_published": "2026-09-24 21:51",
         "source": "247wallst",
-        "summary": "Consumer lenders are getting hit far harder than the broader financials sector on Wednesday, and the gap between them points to something more specific than a rough market day for bank stocks."
+        "summary": "SPY looks dirt cheap at a fraction of a percent, but a hidden structural quirk quietly siphons money from long-term holders in a way the fund's own fact sheet never spells out."
       },
       {
-        "title": "Nasdaq, S&P 500 Futures Slide As Treasury Yields, Trump-Xi Summit Keep Traders On Edge: META, GOOGL, SPCX, VKTX, SNAP, MCD, BB Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-slide-treasury-yields-trump-xi-summit-meta-googl-spcx-vktx-snap-mcd-bb-stocks-in-focus/cZM7vaiRBBy?.tsrc=rss",
-        "time_published": "2026-09-24 08:25",
+        "title": "Solar Stocks Slide as High Borrowing Costs Weigh on Project Financing: First Solar Sinks 8%, SolarEdge Falls 5%, Enphase Energy Drops 4%",
+        "url": "https://247wallst.com/investing/2026/09/24/solar-stocks-slide-as-high-borrowing-costs-weigh-on-project-financing-first-solar-sinks-8-solaredge-falls-5-enphase-energy-drops-4/?.tsrc=rss",
+        "time_published": "2026-09-24 15:55",
+        "source": "247wallst",
+        "summary": "Rising borrowing costs are hitting solar stocks harder than almost anything else in the market Thursday, and the reasons behind the selloff reveal deeper vulnerabilities across the entire renewable energy sector."
+      },
+      {
+        "title": "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike \u2014 ORCL, META, AKAM, GOOGL, MGM In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-ease-as-us-treasury-yields-spike/cZMapaERBac?.tsrc=rss",
+        "time_published": "2026-09-25 00:12",
         "source": "Stocktwits",
-        "summary": "Retail sentiment on Stocktwits for SPY and QQQ has improved to \u2018bullish\u2019."
+        "summary": "Treasury yields resumed their march higher amid inflation concerns."
       },
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61963266/stock-market-will-sp-500-open-up-or-down-today-44?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-24 05:45",
-        "source": "Benzinga",
-        "summary": "U.S. stock futures are trending lower early Thursday as Wall Street prepares for high-stakes trade and AI discussions between U.S. President Donald Trump and Chinese President Xi Jinping, alongside key retail earnings and housing market indicators. The Polymarket (CRYPTO: POL)..."
-      },
-      {
-        "title": "Netflix Is Down 42% in a Year and the Investor Who Exited in June Just Bought Back In",
-        "url": "https://247wallst.com/investing/2026/09/23/netflix-is-down-42-in-a-year-and-the-investor-who-exited-in-june-just-bought-back-in/?.tsrc=rss",
-        "time_published": "2026-09-24 00:08",
+        "title": "Coherent Has Ripped 59% in 2026: Is It Too Late to Buy COHR Stock Now?",
+        "url": "https://247wallst.com/investing/2026/09/24/coherent-has-ripped-59-in-2026-is-it-too-late-to-buy-cohr-stock-now/?.tsrc=rss",
+        "time_published": "2026-09-24 19:07",
         "source": "247wallst",
-        "summary": "A seasoned investor who dodged a brutal Netflix slide by exiting in June just bought back in, and his reasoning cuts against everything the bears are saying right now."
+        "summary": "Coherent stock has surged nearly 60% in 2026 riding the AI data center optical boom, yet its closest peers have lapped it twice over, raising a question the price chart alone cannot answer."
       },
       {
-        "title": "Steve Weiss Dumped an Energy Stock That Tripled the S&P 500 Over a Decade",
-        "url": "https://247wallst.com/investing/2026/09/23/steve-weiss-dumped-an-energy-stock-that-tripled-the-sp-500-over-a-decade/?.tsrc=rss",
-        "time_published": "2026-09-23 22:27",
+        "title": "Starbucks Just Dropped 13% in a Month. Is It Time to Sell, or Should You Buy Now?",
+        "url": "https://247wallst.com/investing/2026/09/24/starbucks-just-dropped-13-in-a-month-is-it-time-to-sell-or-should-you-buy-now/?.tsrc=rss",
+        "time_published": "2026-09-24 19:01",
         "source": "247wallst",
-        "summary": "Steve Weiss called energy stocks a decade of disappointment, booked his gains in Valero, and walked away feeling disciplined. The scoreboard tells a more complicated story about the one refiner that left the entire sector in the dust."
+        "summary": "Starbucks shares slid hard this month while the broader market climbed, and the disconnect raises a question every shareholder needs to answer before the next move hits."
       },
       {
-        "title": "S&P 500, Dow, Nasdaq Drop As Yields Spike Amid Calls For More Rate Hikes \u2014 AMZN, GOOGL, NFLX, SPCX, RKLB In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-drop-as-yields-spike-amid-calls-for-more-rate-hikes-amzn-googl-nflx-spcx-rklb-in-focus/cZM4IxjRBB9?.tsrc=rss",
-        "time_published": "2026-09-23 21:23",
-        "source": "Stocktwits",
-        "summary": "Treasury yields jumped across the curve on Wednesday."
-      },
-      {
-        "title": "SpaceX Drops 4% Amid Share Supply and Valuation Concerns; AST SpaceMobile Falls 6%",
-        "url": "https://247wallst.com/investing/2026/09/23/spacex-drops-4-amid-share-supply-and-valuation-concerns-ast-spacemobile-falls-6/?.tsrc=rss",
-        "time_published": "2026-09-23 20:02",
+        "title": "Micron Just Rallied 17% in a Month: Take Profits, or Buy More?",
+        "url": "https://247wallst.com/investing/2026/09/24/micron-just-rallied-17-in-a-month-take-profits-or-buy-more/?.tsrc=rss",
+        "time_published": "2026-09-24 18:57",
         "source": "247wallst",
-        "summary": "A looming share unlock, a top executive's $52 million stock sale, and stretched valuations are colliding at once for SpaceX, and the next few sessions will test whether buyers hold the line or step aside."
+        "summary": "Micron surged to lead the AI memory trade while the broader market barely moved, and that kind of outlier performance sets up a genuine fork in the road for investors holding a position right now."
+      },
+      {
+        "title": "She Inherited Her Father\u2019s $250,000 Roth and Didn\u2019t Touch It for Ten Years. It Grew to $400,000, and Every Dollar Came Out Tax-Free",
+        "url": "https://247wallst.com/personal-finance/2026/09/24/she-inherited-her-fathers-250000-roth-and-didnt-touch-it-for-ten-years-it-grew-to-400000-and-every-dollar-came-out-tax-free/?.tsrc=rss",
+        "time_published": "2026-09-24 18:22",
+        "source": "247wallst",
+        "summary": "An inherited Roth IRA follows a completely different set of rules than any other account you can receive, and most beneficiaries quietly forfeit its most valuable feature before they ever make a single withdrawal."
       }
     ],
     "oil": [

@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-09-24
-**Generated:** 2026-09-24T11:37:39Z
+**Date:** 2026-09-25
+**Generated:** 2026-09-25T11:43:13Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | WAIT |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.32259 |
-| **Stop Loss** | 1.33066 |
-| **Target 1** | 1.31721 |
-| **Target 2** | 1.31183 |
-| **Risk/Reward** | 1.33 (based on T2) |
-| **Score** | 6/10 |
-| **Support** | 1.32, 1.3172, 1.3118 |
-| **Resistance** | 1.33, 1.335, 1.34 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 7/10 confirmed |
+| **Support** | 1.32, 1.315, 1.31 |
+| **Resistance** | 1.33, 1.335, 1.3449 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a clear bearish bias with price trading well below both the EMA50 (1.34576) and EMA200 (1.34388), confirming a sustained downtrend. The recent candlestick formation—a Doji followed by an Evening Star—adds bearish confirmation, suggesting that sellers have regained control after a brief pause. The MACD remains bearish with the line below the signal line and a negative histogram, reinforcing downside momentum.  
+The daily chart shows a clear bearish bias with price trading well below both the 50-period (1.3449) and 200-period (1.34351) EMAs, confirming the downtrend. The MACD remains bearish with the histogram negative, and the RSI at 24.66 is in oversold territory. However, the presence of a Bullish Engulfing candlestick pattern within the last five candles introduces a potential reversal signal, conflicting with the prevailing trend. No RSI divergence is observed, so the oversold condition alone does not guarantee a reversal.
 
-Despite the RSI being deeply oversold at 19.35, which often warns of a potential bounce, the absence of any bullish divergence and the strength of the prevailing trend argue against a contrarian long trade. In strong downtrends, oversold conditions can persist or lead only to shallow corrections. The signal score of 6/10 reflects a moderately bearish setup, but the extreme RSI introduces elevated risk of a short-term squeeze.  
+Key support levels near current price are the round number 1.3200, followed by 1.3150 and 1.3100. Resistance levels are 1.3300 (recent minor high), 1.3350, and the EMA cluster around 1.3449–1.3435. The ATR of 54 pips indicates moderate daily volatility, but the price is far from any significant moving average, suggesting a strong trend momentum.
 
-The best trade is to sell at current price with a stop placed 1.5× ATR (81 pips) above to account for volatility and potential false breakouts. The first target is set at 1.3172 (1 ATR below), with a secondary target at 1.3118 (2 ATR below). This provides a risk-reward ratio of 1.33 on the second target, which is acceptable given the trend alignment. Key support lies at the round 1.3200 level and the ATR-based levels below, while resistance is clustered around 1.3300 and the EMAs above.  
+The RSI and MACD do not agree: the MACD confirms the bearish trend, while the oversold RSI hints at exhaustion. This divergence creates a high-risk environment for entering a trade. The Bullish Engulfing pattern could trigger a short-term bounce, but without confirmation (e.g., a close above 1.3300 or RSI crossing above 30), the risk of continuation remains elevated. A counter-trend buy would require a tight stop and low confidence, while selling at current levels risks catching a reversal.
 
-Risk assessment: The primary risk is a sharp reversal from oversold conditions, which could trigger the stop. However, the bearish pattern and MACD alignment suggest that any bounce is likely to be short-lived. Position size should be reduced to account for the elevated uncertainty, and traders should monitor for any bullish divergence or a break above the Evening Star high to invalidate the setup.
+Given the conflicting signals and lack of clear confluence, the prudent approach is to wait for a more definitive setup. A sell on a retracement to the 1.3350–1.3449 resistance zone would align with the bearish trend, while a buy above 1.3300 with a stop below the recent low could capture a reversal if momentum shifts. Until price action resolves the tension between oversold conditions and bearish structure, staying on the sidelines is recommended.
 
 ---
 
 ## Invalidation
 
-N/A
+This wait-and-see stance is invalidated if price breaks and closes above 1.3300 (suggesting a bullish reversal) or below 1.3200 (confirming continued bearish momentum), at which point a directional trade would become viable.
 
 ---
 
