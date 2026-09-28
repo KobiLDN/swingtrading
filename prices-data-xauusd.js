@@ -1,67 +1,34 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-09-25T10:48:52Z",
-  "date": "2026-09-25",
-  "price": 4304.38,
-  "atr": 68.26,
-  "atr_pips": 68,
+  "generated": "2026-09-28T12:21:05Z",
+  "date": "2026-09-28",
+  "price": 4164.97,
+  "atr": 65.88,
+  "atr_pips": 66,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4350.41,
-  "ema200": 4473.95,
-  "rsi": 44.02,
-  "macd_line": -24.374093,
-  "macd_signal": -19.655968,
-  "macd_hist": -4.718125,
+  "ema50": 4337.72,
+  "ema200": 4443.15,
+  "rsi": 31.06,
+  "macd_line": -37.879818,
+  "macd_signal": -25.727809,
+  "macd_hist": -12.152009,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-09-21",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-09-23",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    },
-    {
-      "date": "2026-09-25",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
+      "date": "2026-09-26",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 2,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-18",
-      "open": 4257.67,
-      "high": 4329.94,
-      "low": 4202.12,
-      "close": 4209.12
-    },
-    {
-      "date": "2026-06-19",
-      "open": 4208.52,
-      "high": 4211.06,
-      "low": 4122.52,
-      "close": 4156.61
-    },
-    {
-      "date": "2026-06-20",
-      "open": 4156.46,
-      "high": 4156.75,
-      "low": 4156.28,
-      "close": 4156.51
-    },
     {
       "date": "2026-06-21",
       "open": 4156.54,
@@ -737,9 +704,30 @@ window.PRICES_DATA_XAUUSD = {
     {
       "date": "2026-09-25",
       "open": 4275.1,
-      "high": 4309.85,
-      "low": 4257.31,
-      "close": 4304.38
+      "high": 4315.6,
+      "low": 4254.78,
+      "close": 4286.74
+    },
+    {
+      "date": "2026-09-26",
+      "open": 4286.27,
+      "high": 4286.45,
+      "low": 4284.86,
+      "close": 4286.21
+    },
+    {
+      "date": "2026-09-27",
+      "open": 4286.14,
+      "high": 4286.51,
+      "low": 4285.22,
+      "close": 4286.21
+    },
+    {
+      "date": "2026-09-28",
+      "open": 4286.14,
+      "high": 4287.41,
+      "low": 4139.69,
+      "close": 4164.97
     }
   ]
 };

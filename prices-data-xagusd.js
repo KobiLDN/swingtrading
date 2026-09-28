@@ -1,21 +1,21 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-09-25T10:48:53Z",
-  "date": "2026-09-24",
-  "price": 57.62,
-  "atr": 1.82,
+  "generated": "2026-09-28T12:21:06Z",
+  "date": "2026-09-25",
+  "price": 58.14,
+  "atr": 1.78,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 58.67,
-  "ema200": 61.21,
-  "rsi": 46.35,
-  "macd_line": 0.053677,
-  "macd_signal": 0.228216,
-  "macd_hist": -0.174539,
+  "ema50": 58.65,
+  "ema200": 61.51,
+  "rsi": 48.1,
+  "macd_line": -0.004341,
+  "macd_signal": 0.181704,
+  "macd_hist": -0.186045,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -29,13 +29,6 @@ window.PRICES_DATA_XAGUSD = {
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-05-04",
-      "open": 66.39,
-      "high": 67.58,
-      "low": 65.61,
-      "close": 65.94
-    },
     {
       "date": "2026-05-05",
       "open": 66.77,
@@ -728,6 +721,13 @@ window.PRICES_DATA_XAGUSD = {
       "high": 57.84,
       "low": 56.95,
       "close": 57.62
+    },
+    {
+      "date": "2026-09-25",
+      "open": 57.8,
+      "high": 58.52,
+      "low": 57.25,
+      "close": 58.14
     }
   ]
 };

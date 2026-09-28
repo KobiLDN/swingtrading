@@ -1,61 +1,52 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-09-25T10:48:51Z",
-  "date": "2026-09-25",
-  "price": 1.13963,
-  "atr": 0.00417,
-  "atr_pips": 42,
+  "generated": "2026-09-28T12:21:05Z",
+  "date": "2026-09-28",
+  "price": 1.13759,
+  "atr": 0.00392,
+  "atr_pips": 39,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15337,
-  "ema200": 1.15571,
-  "rsi": 24.88,
-  "macd_line": -0.005129,
-  "macd_signal": -0.003492,
-  "macd_hist": -0.001637,
+  "ema50": 1.15164,
+  "ema200": 1.15261,
+  "rsi": 21.74,
+  "macd_line": -0.005574,
+  "macd_signal": -0.004466,
+  "macd_hist": -0.001108,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-21",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-09-25",
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-09-26",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-09-27",
+      "name": "Shooting Star",
+      "signal": "BEARISH REVERSAL",
+      "strength": 3
+    },
+    {
+      "date": "2026-09-27",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 7,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-18",
-      "open": 1.15016,
-      "high": 1.15297,
-      "low": 1.14513,
-      "close": 1.14578
-    },
-    {
-      "date": "2026-06-19",
-      "open": 1.14576,
-      "high": 1.14812,
-      "low": 1.1418,
-      "close": 1.1471
-    },
-    {
-      "date": "2026-06-20",
-      "open": 1.14738,
-      "high": 1.14813,
-      "low": 1.14679,
-      "close": 1.14764
-    },
     {
       "date": "2026-06-21",
       "open": 1.14762,
@@ -731,9 +722,30 @@
     {
       "date": "2026-09-25",
       "open": 1.13809,
-      "high": 1.14003,
+      "high": 1.14097,
       "low": 1.13683,
-      "close": 1.13963
+      "close": 1.13913
+    },
+    {
+      "date": "2026-09-26",
+      "open": 1.13911,
+      "high": 1.14002,
+      "low": 1.13889,
+      "close": 1.1391
+    },
+    {
+      "date": "2026-09-27",
+      "open": 1.13908,
+      "high": 1.14163,
+      "low": 1.13764,
+      "close": 1.13832
+    },
+    {
+      "date": "2026-09-28",
+      "open": 1.13836,
+      "high": 1.13947,
+      "low": 1.1367,
+      "close": 1.13759
     }
   ]
 }

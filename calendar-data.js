@@ -1,16 +1,64 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-09-25T10:48:54Z",
+  "generated": "2026-09-28T12:21:07Z",
   "events": [
     {
-      "date": "2026-09-25",
-      "time": "05:15",
-      "currency": "GBP",
-      "event": "BOE Gov Bailey Speaks",
+      "date": "2026-09-30",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Core PCE Price Index m/m",
       "impact": "high",
-      "forecast": "",
-      "previous": "",
+      "forecast": "0.3%",
+      "previous": "0.2%",
       "actual": "",
-      "today": true,
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-09-30",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Final GDP q/q",
+      "impact": "high",
+      "forecast": "1.5%",
+      "previous": "1.5%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-02",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Average Hourly Earnings m/m",
+      "impact": "high",
+      "forecast": "0.3%",
+      "previous": "0.3%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-02",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Non-Farm Employment Change",
+      "impact": "high",
+      "forecast": "98K",
+      "previous": "162K",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-02",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Unemployment Rate",
+      "impact": "high",
+      "forecast": "4.1%",
+      "previous": "4.1%",
+      "actual": "",
+      "today": false,
       "past": false
     }
   ]
