@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-09-25T11:47:57Z",
+  "generated": "2026-09-28T13:46:53Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-09-25",
-  "decision": "SELL",
-  "confidence": "MEDIUM",
-  "entry": "4350.00",
-  "stop_loss": "4418.00",
-  "target_1": "4250.00",
-  "target_2": "4200.00",
-  "risk_reward": "1.47",
-  "score": "5/10",
-  "analysis": "The strong downtrend is confirmed by price trading well below both the EMA50 (4350.41) and EMA200 (4473.95). Recent candlestick patterns include a bearish Evening Star and Bearish Engulfing, which align with the trend, though a subsequent Bullish Engulfing suggests a potential short-term bounce. However, the overall trend remains bearish, and the bullish pattern is likely a counter\u2011trend retracement rather than a reversal.\n\nNo clear chart patterns such as triangles or double tops/bottoms are evident, but the price is hovering near the psychological support of 4300. The nearest resistance is the EMA50 at 4350, followed by 4400 (a round number and potential prior swing high) and the EMA200 at 4474. Support levels below current price are 4300, 4250, and 4200, which could act as targets for a continuation move lower.\n\nRSI at 44.02 is neutral but below 50, indicating a slight bearish bias. MACD remains bearish with the line below the signal line and a negative histogram, confirming the downtrend. Neither indicator shows divergence or oversold conditions, so there is no conflicting signal. This confluence supports a sell setup.\n\nThe best trade is a sell on a retracement to the EMA50 resistance at 4350, with a stop loss placed above the recent high near 4418 (1 ATR above entry). Targets are set at the next support levels: 4250 (T1) and 4200 (T2). The risk\u2011reward ratio of 1.47 is acceptable given the strong trend and moderate signal score. A direct sell at current price is less favorable due to the potential bounce from the Bullish Engulfing.",
-  "invalidation": "A daily close above 4418 (stop\u2011loss level) would invalidate the bearish setup, suggesting a trend reversal or stronger retracement.",
+  "date": "2026-09-28",
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "2/10 confirmed",
+  "analysis": "Price at 4164.97 is trading well below both the EMA50 at 4337.72 and the EMA200 at 4443.15, which confirms the strong downtrend. The price action is aligned with the EMA structure, but the Doji on the last daily candle indicates indecision near current lows. There is no clear triangle, flag, or double top/bottom visible from the given data; the Doji could mark a potential pause or a base-building phase, but no bullish reversal pattern is confirmed yet.\n\nRSI at 31.06 is near oversold but still labelled neutral, and there is no bullish divergence. MACD remains bearish with the signal line above the MACD line and a negative histogram, so momentum still favours lower prices. However, the combination of a Doji and RSI near lows suggests that chasing a short right here is risky because the market may be due for a technical bounce or consolidation.\n\nThe single best trade right now is to wait. A new short would ideally be set up after a pullback into the 4200\u20134230 resistance zone, with the EMA50 at 4338 as the broader bearish invalidation level. A long is not justified while the trend is strongly down and there is no bullish reversal signal. With ATR at 65.88, volatility is high and positioning without a confirmed entry would be reckless.\n\nRISK assessment: The nearest support zone is 4100 followed by 4050 and 4000, while resistance sits around 4200, 4230, and 4338. Since the current price is near potential support yet still in a strong downtrend, the risk/reward is unclear until a clear retest of resistance or a confirmed reversal pattern appears.",
+  "invalidation": "A daily close above 4338 would invalidate the current bearish structure and cancel the wait-for-short bias.",
   "support_levels": [
-    4300.0,
-    4250.0,
-    4200.0
+    4100.0,
+    4050.0,
+    4000.0
   ],
   "resistance_levels": [
-    4350.41,
-    4400.0,
-    4473.95
+    4200.0,
+    4230.0,
+    4338.0
   ]
 };

@@ -1,19 +1,19 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-09-25T11:43:13Z",
+  "generated": "2026-09-28T13:43:54Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-09-25",
+  "date": "2026-09-28",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "7/10 confirmed",
-  "analysis": "The daily chart shows a clear bearish bias with price trading well below both the 50-period (1.3449) and 200-period (1.34351) EMAs, confirming the downtrend. The MACD remains bearish with the histogram negative, and the RSI at 24.66 is in oversold territory. However, the presence of a Bullish Engulfing candlestick pattern within the last five candles introduces a potential reversal signal, conflicting with the prevailing trend. No RSI divergence is observed, so the oversold condition alone does not guarantee a reversal.\n\nKey support levels near current price are the round number 1.3200, followed by 1.3150 and 1.3100. Resistance levels are 1.3300 (recent minor high), 1.3350, and the EMA cluster around 1.3449\u20131.3435. The ATR of 54 pips indicates moderate daily volatility, but the price is far from any significant moving average, suggesting a strong trend momentum.\n\nThe RSI and MACD do not agree: the MACD confirms the bearish trend, while the oversold RSI hints at exhaustion. This divergence creates a high-risk environment for entering a trade. The Bullish Engulfing pattern could trigger a short-term bounce, but without confirmation (e.g., a close above 1.3300 or RSI crossing above 30), the risk of continuation remains elevated. A counter-trend buy would require a tight stop and low confidence, while selling at current levels risks catching a reversal.\n\nGiven the conflicting signals and lack of clear confluence, the prudent approach is to wait for a more definitive setup. A sell on a retracement to the 1.3350\u20131.3449 resistance zone would align with the bearish trend, while a buy above 1.3300 with a stop below the recent low could capture a reversal if momentum shifts. Until price action resolves the tension between oversold conditions and bearish structure, staying on the sidelines is recommended.",
-  "invalidation": "This wait-and-see stance is invalidated if price breaks and closes above 1.3300 (suggesting a bullish reversal) or below 1.3200 (confirming continued bearish momentum), at which point a directional trade would become viable.",
+  "score": "5/10",
+  "analysis": "The daily chart shows a clear bearish trend with price well below both the 50- and 200-period EMAs (1.34264 and 1.34039). This confirms the bearish bias indicated. However, the last five candles include a Bullish Engulfing pattern, which suggests a possible short-term reversal or at least a pause in selling. The RSI is at 30.27, very near oversold territory but not quite there, while the MACD remains bearish with the line below the signal and a negative histogram. There is no RSI divergence, so no clear reversal signal from momentum alone.\n\nThe conflicting signals\u2014bearish trend and bearish MACD versus a bullish candlestick pattern and near-oversold RSI\u2014create an uncertain setup. The price is also trading near what could be a support zone around 1.3200, but no confirmation of a double bottom or other reversal pattern is available from the given data. The ATR of 49 pips suggests moderate volatility, but the distance to the nearest resistance (1.3300\u20131.3350) is only about 40\u201390 pips, leaving limited room for a short entry with a reasonable risk-reward ratio.\n\nGiven the mixed readings and a signal score of 5/10, the prudent approach is to wait for additional confirmation. A clear break above 1.3300 or a sustained bounce off support with a bullish MACD cross would strengthen a buy case, while a drop below 1.3200 would confirm further downside. Currently, the risk of whipsaw is high.",
+  "invalidation": "If the price breaks and closes below 1.3200, any short-term bullish bias from the engulfing pattern would be invalidated, reinforcing the bearish trend.",
   "support_levels": [
     1.32,
     1.315,
@@ -22,6 +22,6 @@ window.ANALYSIS_DATA = {
   "resistance_levels": [
     1.33,
     1.335,
-    1.3449
+    1.34
   ]
 };

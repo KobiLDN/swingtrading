@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-09-24
-**Generated:** 2026-09-25T11:52:04Z
+**Date:** 2026-09-25
+**Generated:** 2026-09-28T13:47:49Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,33 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | MEDIUM |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 6/10 |
-| **Support** | 150.0, 147.86, 145.0 |
-| **Resistance** | 155.0, 158.32, 160.0 |
+| **Score** | 4/10 |
+| **Support** | 145.0, 143.0, 140.5 |
+| **Resistance** | 150.0, 153.6, 158.0 |
 
 ---
 
 ## Analysis
 
-The daily trend is clearly bullish: price is well above the EMA 50 and EMA 200, and the EMA structure is aligned in a strong uptrend. However, price action is not fully confirming the trend right now. The presence of a Bearish Engulfing pattern followed by a Morning Star suggests a pullback attempt and then a possible recovery, but the most recent momentum indicators are not aligned with a fresh long entry. The RSI is neutral at 59.61, which leaves room for upside, but the bearish RSI divergence warns that upside momentum is fading even if price is making higher highs.
+The EMA structure clearly indicates a strong uptrend with price well above both the 50 and 200-period EMAs. However, the daily price action is showing internal weakness: the MACD line is below its signal line, and the histogram is negative, reflecting waning bullish momentum. The RSI at 53.98 is neutral, neither overbought nor oversold, and shows no divergence, offering no clear directional bias. The Morning Star candlestick pattern over the last five candles is a bullish reversal signal, but it emerged after a modest pullback within an established uptrend, which reduces its reliability as a standalone trigger.
 
-The MACD is bearish, with the MACD line below the signal line and a negative histogram. This does not agree with the strong uptrend and suggests that the current move is in a corrective phase. The combination of bearish RSI divergence and bearish MACD momentum is a warning sign, especially after a strong run. The candlestick patterns are mixed, so I would not treat the Morning Star as a high-conviction reversal signal until price closes back above the recent short-term swing high or at least above the 155.00 resistance zone.
+No additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the provided data. Key near-term support is found at the recent swing low near 145.00 (likely the first candle low of the Morning Star), followed by the 143.00 area and the 140.50 round number. Resistance stands at 150.00 (psychological level), 153.60 (price + 1 ATR), and 158.00 (prior high zone). The confluence between RSI and MACD is bearish—they do not confirm the strong uptrend, signaling that momentum is fading. The Morning Star offers a potential counter-trend bounce, but the overall low signal score (4/10) reflects high uncertainty.
 
-The best setup is to wait for confirmation. A long entry would become valid on a daily close above 155.00 with the MACD histogram turning less negative or crossing back above the signal line. Until then, the risk of buying into a deeper pullback is elevated. A short is not justified against the strong EMA trend. Key support is at 150.00, then 147.86 and 145.00; resistance is at 155.00, then 158.32 and 160.00.
-
-Risk is moderate but uncertain. ATR is 5.23, so a false breakout or sharp reversal could move quickly. If price loses 150.00, the pullback could extend toward 147.86 or 145.00, which would invalidate the immediate bullish setup. Therefore, waiting for a cleaner momentum confirmation is the lower-risk choice.
+The most sensible approach is to wait for a clearer setup. A long entry would ideally require a bullish MACD crossover or RSI moving above 60 to confirm renewed momentum. A short entry would be premature given the dominant uptrend. The combination of conflicting indicators (bullish price structure vs. bearish momentum) and low score argues against immediate action.
 
 ---
 
 ## Invalidation
 
-This wait setup is invalidated if price closes back above 155.00 with strengthening momentum, which would turn the bias back to buying; conversely, a daily close below 150.00 would confirm the bearish divergence and likely lead to a deeper correction.
+This waiting setup is invalidated if price closes above 150.00 with strong volume, reigniting bullish momentum, or if it breaks below 145.00, confirming failure of the Morning Star pattern and opening the door for a deeper pullback.
 
 ---
 

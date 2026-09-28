@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-09-25
-**Generated:** 2026-09-25T11:47:57Z
+**Date:** 2026-09-28
+**Generated:** 2026-09-28T13:46:53Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 4350.00 |
-| **Stop Loss** | 4418.00 |
-| **Target 1** | 4250.00 |
-| **Target 2** | 4200.00 |
-| **Risk/Reward** | 1.47 |
-| **Score** | 5/10 |
-| **Support** | 4300.0, 4250.0, 4200.0 |
-| **Resistance** | 4350.41, 4400.0, 4473.95 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 2/10 confirmed |
+| **Support** | 4100.0, 4050.0, 4000.0 |
+| **Resistance** | 4200.0, 4230.0, 4338.0 |
 
 ---
 
 ## Analysis
 
-The strong downtrend is confirmed by price trading well below both the EMA50 (4350.41) and EMA200 (4473.95). Recent candlestick patterns include a bearish Evening Star and Bearish Engulfing, which align with the trend, though a subsequent Bullish Engulfing suggests a potential short-term bounce. However, the overall trend remains bearish, and the bullish pattern is likely a counter‑trend retracement rather than a reversal.
+Price at 4164.97 is trading well below both the EMA50 at 4337.72 and the EMA200 at 4443.15, which confirms the strong downtrend. The price action is aligned with the EMA structure, but the Doji on the last daily candle indicates indecision near current lows. There is no clear triangle, flag, or double top/bottom visible from the given data; the Doji could mark a potential pause or a base-building phase, but no bullish reversal pattern is confirmed yet.
 
-No clear chart patterns such as triangles or double tops/bottoms are evident, but the price is hovering near the psychological support of 4300. The nearest resistance is the EMA50 at 4350, followed by 4400 (a round number and potential prior swing high) and the EMA200 at 4474. Support levels below current price are 4300, 4250, and 4200, which could act as targets for a continuation move lower.
+RSI at 31.06 is near oversold but still labelled neutral, and there is no bullish divergence. MACD remains bearish with the signal line above the MACD line and a negative histogram, so momentum still favours lower prices. However, the combination of a Doji and RSI near lows suggests that chasing a short right here is risky because the market may be due for a technical bounce or consolidation.
 
-RSI at 44.02 is neutral but below 50, indicating a slight bearish bias. MACD remains bearish with the line below the signal line and a negative histogram, confirming the downtrend. Neither indicator shows divergence or oversold conditions, so there is no conflicting signal. This confluence supports a sell setup.
+The single best trade right now is to wait. A new short would ideally be set up after a pullback into the 4200–4230 resistance zone, with the EMA50 at 4338 as the broader bearish invalidation level. A long is not justified while the trend is strongly down and there is no bullish reversal signal. With ATR at 65.88, volatility is high and positioning without a confirmed entry would be reckless.
 
-The best trade is a sell on a retracement to the EMA50 resistance at 4350, with a stop loss placed above the recent high near 4418 (1 ATR above entry). Targets are set at the next support levels: 4250 (T1) and 4200 (T2). The risk‑reward ratio of 1.47 is acceptable given the strong trend and moderate signal score. A direct sell at current price is less favorable due to the potential bounce from the Bullish Engulfing.
+RISK assessment: The nearest support zone is 4100 followed by 4050 and 4000, while resistance sits around 4200, 4230, and 4338. Since the current price is near potential support yet still in a strong downtrend, the risk/reward is unclear until a clear retest of resistance or a confirmed reversal pattern appears.
 
 ---
 
 ## Invalidation
 
-A daily close above 4418 (stop‑loss level) would invalidate the bearish setup, suggesting a trend reversal or stronger retracement.
+A daily close above 4338 would invalidate the current bearish structure and cancel the wait-for-short bias.
 
 ---
 

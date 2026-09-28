@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-25T11:52:05Z",
+  "generated": "2026-09-28T13:47:50Z",
   "assets": {
     "gbpusd": [
       {
@@ -178,63 +178,70 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Should State Street SPDR S&P 500 ETF Trust (SPY) Be on Your Investing Radar?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-p-500-092002022.html?.tsrc=rss",
-        "time_published": "2026-09-25 09:20",
-        "source": "Finance",
-        "summary": "Style Box ETF report for SPY"
+        "title": "Why Equal-Weight Funds Hide A Yield Curve Catch",
+        "url": "https://www.marketbeat.com/articles/why-equal-weight-funds-hide-a-yield-curve-catch/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+        "time_published": "2026-09-27 12:55",
+        "source": "Marketbeat",
+        "summary": "SPY's tech-heavy structure and RSP's equal-weight, rate-sensitive value tilt carry different risks; comparing yields, valuations, and margins helps investors position portfolios for shifting Treasury rates."
       },
       {
-        "title": "SPY\u2019s 9.45 Basis Points Hides $6,450 a Decade on $100,000 Versus Cheaper Peers",
-        "url": "https://247wallst.com/investing/etf/2026/09/24/spys-9-45-basis-points-hides-6450-a-decade-on-100000-versus-cheaper-peers/?.tsrc=rss",
-        "time_published": "2026-09-24 21:51",
-        "source": "247wallst",
-        "summary": "SPY looks dirt cheap at a fraction of a percent, but a hidden structural quirk quietly siphons money from long-term holders in a way the fund's own fact sheet never spells out."
-      },
-      {
-        "title": "Solar Stocks Slide as High Borrowing Costs Weigh on Project Financing: First Solar Sinks 8%, SolarEdge Falls 5%, Enphase Energy Drops 4%",
-        "url": "https://247wallst.com/investing/2026/09/24/solar-stocks-slide-as-high-borrowing-costs-weigh-on-project-financing-first-solar-sinks-8-solaredge-falls-5-enphase-energy-drops-4/?.tsrc=rss",
-        "time_published": "2026-09-24 15:55",
-        "source": "247wallst",
-        "summary": "Rising borrowing costs are hitting solar stocks harder than almost anything else in the market Thursday, and the reasons behind the selloff reveal deeper vulnerabilities across the entire renewable energy sector."
-      },
-      {
-        "title": "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike \u2014 ORCL, META, AKAM, GOOGL, MGM In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-futures-ease-as-us-treasury-yields-spike/cZMapaERBac?.tsrc=rss",
-        "time_published": "2026-09-25 00:12",
+        "title": "Nasdaq, S&P 500 Futures Fall As Oil Spikes On Trump\u2019s Snub To Iran: MU, NVDA, SKHY, SPCX, NIO Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-fall-as-oil-spikes-on-trump-snub-to-iran-mu-nvda-skhy-spcx-nio-stocks-in-focus/cZMSFEIRBQR?.tsrc=rss",
+        "time_published": "2026-09-28 08:36",
         "source": "Stocktwits",
-        "summary": "Treasury yields resumed their march higher amid inflation concerns."
+        "summary": "Retail traders are heading into a data-heavy week with bullish sentiment on SPY and QQQ."
       },
       {
-        "title": "Coherent Has Ripped 59% in 2026: Is It Too Late to Buy COHR Stock Now?",
-        "url": "https://247wallst.com/investing/2026/09/24/coherent-has-ripped-59-in-2026-is-it-too-late-to-buy-cohr-stock-now/?.tsrc=rss",
-        "time_published": "2026-09-24 19:07",
+        "title": "The S&P 500 Barely Yields Anything. This Vanguard ETF Pays Roughly Double It",
+        "url": "https://247wallst.com/investing/etf/2026/09/26/the-sp-500-barely-yields-anything-this-vanguard-etf-pays-roughly-double-it/?.tsrc=rss",
+        "time_published": "2026-09-26 13:00",
         "source": "247wallst",
-        "summary": "Coherent stock has surged nearly 60% in 2026 riding the AI data center optical boom, yet its closest peers have lapped it twice over, raising a question the price chart alone cannot answer."
+        "summary": "When cash pays more than stocks and the S&P 500 barely covers your morning coffee budget, retirees living off dividends need a smarter equity strategy than simply tracking the index."
       },
       {
-        "title": "Starbucks Just Dropped 13% in a Month. Is It Time to Sell, or Should You Buy Now?",
-        "url": "https://247wallst.com/investing/2026/09/24/starbucks-just-dropped-13-in-a-month-is-it-time-to-sell-or-should-you-buy-now/?.tsrc=rss",
-        "time_published": "2026-09-24 19:01",
-        "source": "247wallst",
-        "summary": "Starbucks shares slid hard this month while the broader market climbed, and the disconnect raises a question every shareholder needs to answer before the next move hits."
+        "title": "S&P 500, Dow, Nasdaq End Week Higher On Chipmaker Strength, Easing Oil Amid Signs Of Easing US-Iran Conflict \u2014 META, COST, MSFT, CRWD, SKHY In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-week-higher-on-chipmaker-strength-easing-oil-amid-signs-of-easing-us-iran-conflict-meta-cost-msft-crwd-skhy-in-focus/cZMOFkXRBOV?.tsrc=rss",
+        "time_published": "2026-09-25 22:51",
+        "source": "Stocktwits",
+        "summary": "Iran pitched a seven-day roadmap to end conflict with the U.S., the New York Times reported."
       },
       {
-        "title": "Micron Just Rallied 17% in a Month: Take Profits, or Buy More?",
-        "url": "https://247wallst.com/investing/2026/09/24/micron-just-rallied-17-in-a-month-take-profits-or-buy-more/?.tsrc=rss",
-        "time_published": "2026-09-24 18:57",
+        "title": "Nio Advances 3% as Geely Takes 30% Stake in Battery Swapping Unit; XPeng and Tesla Pull Back",
+        "url": "https://247wallst.com/investing/2026/09/28/nio-advances-3-as-geely-takes-30-stake-in-battery-swapping-unit-xpeng-and-tesla-pull-back/?.tsrc=rss",
+        "time_published": "2026-09-28 13:37",
         "source": "247wallst",
-        "summary": "Micron surged to lead the AI memory trade while the broader market barely moved, and that kind of outlier performance sets up a genuine fork in the road for investors holding a position right now."
+        "summary": "An outside investor just put a concrete price on the part of Nio's business that has frustrated analysts for years, and the terms of the deal reveal how much Geely thinks the network is worth."
       },
       {
-        "title": "She Inherited Her Father\u2019s $250,000 Roth and Didn\u2019t Touch It for Ten Years. It Grew to $400,000, and Every Dollar Came Out Tax-Free",
-        "url": "https://247wallst.com/personal-finance/2026/09/24/she-inherited-her-fathers-250000-roth-and-didnt-touch-it-for-ten-years-it-grew-to-400000-and-every-dollar-came-out-tax-free/?.tsrc=rss",
-        "time_published": "2026-09-24 18:22",
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Oil Prices Rise",
+        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-131704585.html?.tsrc=rss",
+        "time_published": "2026-09-28 13:17",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.3% and the actively tr"
+      },
+      {
+        "title": "Be Careful With Coca-Cola Right Now",
+        "url": "https://247wallst.com/investing/2026/09/28/be-careful-with-coca-cola-right-now/?.tsrc=rss",
+        "time_published": "2026-09-28 13:15",
         "source": "247wallst",
-        "summary": "An inherited Roth IRA follows a completely different set of rules than any other account you can receive, and most beneficiaries quietly forfeit its most valuable feature before they ever make a single withdrawal."
+        "summary": "Coca-Cola has beaten earnings estimates ten quarters in a row, raised its dividend for the 63rd straight year, and outpaced the S&P 500 by a wide margin. So why might right now be exactly the wrong moment to buy?"
+      },
+      {
+        "title": "Boeing Drops 3% as 737 MAX Landing Software Glitch Draws Regulator Review; GE Aerospace Eases, RTX Treads Water",
+        "url": "https://247wallst.com/investing/2026/09/28/boeing-drops-3-as-737-max-landing-software-glitch-draws-regulator-review-ge-aerospace-eases-rtx-treads-water/?.tsrc=rss",
+        "time_published": "2026-09-28 13:00",
+        "source": "247wallst",
+        "summary": "A software glitch buried in the 737 MAX cockpit just drew regulator attention, and the timing could not be worse for a company already fighting to prove its recovery is real."
       }
     ],
     "oil": [
+      {
+        "title": "Peter Schiff Warns Record Diesel Prices Could Leave US Vulnerable To Next Energy Shock, Says Trump's Diesel Export Ban Could 'Backfire'",
+        "url": "https://finance.yahoo.com/energy/articles/peter-schiff-warns-record-diesel-003007848.html?.tsrc=rss",
+        "time_published": "2026-09-28 00:30",
+        "source": "Finance",
+        "summary": "Economist Peter Schiff warned that record diesel prices and the depleted Strategic Petroleum Reserve (SPR) could leave the U.S. with less of an energy buffer during a future supply shock amid the Iran war. Diesel Ban May Backfire In a..."
+      },
       {
         "title": "Zacks Investment Ideas feature highlights: GLD, QQQ, USO, MU and TWLO",
         "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-093400194.html?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-16 19:55",
         "source": "Finance",
         "summary": "Middle East tensions are driving oil prices and tanker rates higher. Here are the ETFs benefiting."
-      },
-      {
-        "title": "Futures Traders Betting On 12% Drop In Energy Stocks Over Next Month",
-        "url": "https://247wallst.com/investing/2026/09/16/futures-traders-betting-on-12-drop-in-energy-stocks-over-next-month/?.tsrc=rss",
-        "time_published": "2026-09-16 18:36",
-        "source": "247wallst",
-        "summary": "Options traders are flooding into bets against the year's hottest sector at a pace well above normal, even as crude oil surges and the underlying stocks sit near all-time highs. Something in the macro picture is spooking the smart money, and the trade they chose reveals exactly how severe they expec"
       }
     ]
   }
