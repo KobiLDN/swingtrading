@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-09-25
-**Generated:** 2026-09-28T13:47:08Z
+**Date:** 2026-09-28
+**Generated:** 2026-09-29T12:46:21Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,47 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | N/A |
-| **Confidence** | N/A |
+| **Decision** | WAIT |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | N/A |
-| **Support** | N/A |
-| **Resistance** | N/A |
+| **Score** | 5/10 |
+| **Support** | 760.99, 755.0, 730.24 |
+| **Resistance** | 770.0, 775.0, 780.0 |
 
 ---
 
 ## Analysis
 
-**DECISION:** WAIT  
-**CONFIDENCE:** MEDIUM  
-**ENTRY:** N/A  
-**STOP_LOSS:** N/A  
-**TARGET_1:** N/A  
-**TARGET_2:** N/A  
-**RISK_REWARD:** N/A  
-**SCORE:** 4/10  
-**SUPPORT_LEVELS:** 764.71, 760.80, 729.27  
-**RESISTANCE_LEVELS:** 778.00, 780.00, 790.00  
+The daily chart shows a strong uptrend with price (765.61) well above both the 50 EMA (760.99) and 200 EMA (730.24). The MACD remains bullish with the histogram positive, confirming upward momentum. However, the RSI at 50.5 is neutral, indicating no overbought condition but also a lack of strong directional conviction. The most notable signal is the Evening Star candlestick pattern formed over the last five candles—a classic bearish reversal setup that suggests potential exhaustion after the recent rally. This creates a clear conflict between the prevailing trend and a short-term reversal warning.
 
-**ANALYSIS:**  
-The overall trend is strongly bullish, confirmed by price trading well above both the 50‑period EMA (760.80) and the 200‑period EMA (729.27) with a positive MACD setup (line above signal, histogram rising). However, the low signal score (4/10) reflects conflicting candlestick patterns within the last five sessions: a Morning Star (bullish reversal) followed by an Evening Star (bearish reversal). This sequence suggests a sudden shift in momentum and a period of indecision near current highs. RSI at 55.89 is neutral and provides no divergence signal, while the MACD remains bullish – a divergence that typically supports the trend but is overshadowed by the recent candlestick indecision.
+Given the mixed signals—strong trend versus a bearish reversal pattern—the prudent approach is to wait for confirmation. A continuation of the uptrend would require price to decisively break above the Evening Star’s high (approximately 770–772 area) and hold, while a bearish reversal would need a close below the 50 EMA (760.99) and subsequent loss of the prior swing low. The lack of RSI divergence or MACD bearish crossover further reduces immediate conviction for a short entry. The 5/10 signal score reflects this ambiguity, making a clear directional trade premature.
 
-No clear chart patterns (triangles, flags, double tops/bottoms) can be reliably inferred from the provided data. The proximity of price to round‑number resistance (778–780) and the lack of a pullback to a tested support zone add to the ambiguity. The ATR of 6.64 indicates moderate daily volatility, but without a clear entry trigger, the risk of entering long at the current level is elevated.
-
-Given the mixed signals – strong trend and bullish MACD versus recent bearish candlestick formation and neutral RSI – the prudent course is to wait for a clearer setup. A decisive break above recent highs (e.g., above 775–778) would confirm continued bullish momentum, while a drop below the 50‑period EMA at 760.80 would signal a potential trend shift. Until then, no single trade offers a favourable risk‑reward profile.
-
-**INVALIDATION:**  
-A move below the 50‑period EMA (760.80) would invalidate the strong uptrend bias and suggest a deeper pullback.
+Key support levels near current price include the 50 EMA at 760.99, which acts as dynamic support, followed by the psychological 755 area and the 200 EMA at 730.24. On the upside, resistance is likely at the recent high near 770, then 775 and 780 as round-number extensions. The ATR of 6.71 suggests typical daily movement of about 7 points, so any decisive break beyond these levels would carry significance. Until price resolves the tension between the uptrend and the bearish pattern, waiting on the sidelines with a medium confidence is the most disciplined swing-trade decision.
 
 ---
 
 ## Invalidation
 
-N/A
+This wait setup is invalidated if price closes decisively above the Evening Star’s high (above ~772) or breaks below the 50 EMA (760.99) with increasing volume, as either move would provide a clear directional bias for a subsequent trade.
 
 ---
 

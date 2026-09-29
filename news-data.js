@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-28T13:47:50Z",
+  "generated": "2026-09-29T12:47:29Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Rising Yields Lift DXY as EUR/USD and GBP/USD Diverge",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-rising-070620837.html?.tsrc=rss",
+        "time_published": "2026-09-29 07:06",
+        "source": "Finance",
+        "summary": "Rising Treasury yields and Fed hike expectations support DXY as EUR/USD remains pressured, while higher UK inflation expectations support sterling."
+      },
       {
         "title": "US Dollar Price Forecast: Strong U.S. Data Lifts DXY as EUR/USD and GBP/USD Weaken",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-082406708.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-16 08:32",
         "source": "Finance",
         "summary": "DXY holds bullish support ahead of the Fed decision as traders focus on Warsh\u2019s rate guidance, while EUR/USD and GBP/USD remain pressured."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Lift DXY as EUR and GBP Weaken",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-072505318.html?.tsrc=rss",
-        "time_published": "2026-09-15 07:25",
-        "source": "Finance",
-        "summary": "DXY strengthens as Fed hike bets and 5% Treasury yields support the dollar, while EUR/USD and GBP/USD weaken ahead of key policy decisions."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Rising Yields Lift DXY as EUR/USD and GBP/USD Diverge",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-rising-070620837.html?.tsrc=rss",
+        "time_published": "2026-09-29 07:06",
+        "source": "Finance",
+        "summary": "Rising Treasury yields and Fed hike expectations support DXY as EUR/USD remains pressured, while higher UK inflation expectations support sterling."
+      },
       {
         "title": "US Dollar Price Forecast: Strong U.S. Data Lifts DXY as EUR/USD and GBP/USD Weaken",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-082406708.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-17 08:17",
         "source": "Finance",
         "summary": "DXY strengthens after the Fed signals further tightening, while EUR/USD remains pressured and GBP/USD awaits the Bank of England policy decision."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Rate Path in Focus as EUR and GBP Stay Under Pressure",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-083232199.html?.tsrc=rss",
-        "time_published": "2026-09-16 08:32",
-        "source": "Finance",
-        "summary": "DXY holds bullish support ahead of the Fed decision as traders focus on Warsh\u2019s rate guidance, while EUR/USD and GBP/USD remain pressured."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,70 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Why Equal-Weight Funds Hide A Yield Curve Catch",
-        "url": "https://www.marketbeat.com/articles/why-equal-weight-funds-hide-a-yield-curve-catch/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "time_published": "2026-09-27 12:55",
-        "source": "Marketbeat",
-        "summary": "SPY's tech-heavy structure and RSP's equal-weight, rate-sensitive value tilt carry different risks; comparing yields, valuations, and margins helps investors position portfolios for shifting Treasury rates."
+        "title": "Forget SPY: Invesco\u2019s Fund Gives the Smallest S&P 500 Company the Same Say as the Largest",
+        "url": "https://247wallst.com/investing/etf/2026/09/28/forget-spy-invescos-fund-gives-the-smallest-sp-500-company-the-same-say-as-the-largest/?.tsrc=rss",
+        "time_published": "2026-09-28 22:11",
+        "source": "247wallst",
+        "summary": "SPY hands most of your money to a handful of giants, but one rival fund treats the smallest S&P 500 company as an equal to the largest. The tradeoff is stranger than it sounds, and the recent returns reveal a tension every index investor should weigh."
       },
       {
-        "title": "Nasdaq, S&P 500 Futures Fall As Oil Spikes On Trump\u2019s Snub To Iran: MU, NVDA, SKHY, SPCX, NIO Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-fall-as-oil-spikes-on-trump-snub-to-iran-mu-nvda-skhy-spcx-nio-stocks-in-focus/cZMSFEIRBQR?.tsrc=rss",
-        "time_published": "2026-09-28 08:36",
+        "title": "Cleveland-Cliffs Sinks 9% as Selloff Outruns Steel Group; Nucor and Steel Dynamics Pull Back",
+        "url": "https://247wallst.com/investing/2026/09/28/cleveland-cliffs-sinks-9-as-selloff-outruns-steel-group-nucor-and-steel-dynamics-pull-back/?.tsrc=rss",
+        "time_published": "2026-09-28 17:46",
+        "source": "247wallst",
+        "summary": "Cleveland-Cliffs is falling far harder than Nucor, Steel Dynamics, and the broader steel sector combined, and the reason traces back to a policy question that cuts against the company in two directions at once."
+      },
+      {
+        "title": "Roblox Sinks 6% as Jefferies Cuts to Underperform With $38 Price Target; Take-Two Holds Flat, GameStop Dips",
+        "url": "https://247wallst.com/investing/2026/09/28/roblox-sinks-6-as-jefferies-cuts-to-underperform-with-38-price-target-take-two-holds-flat-gamestop-dips/?.tsrc=rss",
+        "time_published": "2026-09-28 13:41",
+        "source": "247wallst",
+        "summary": "Jefferies just put a target on Roblox that sits well below where shares are trading, and the rest of the gaming group barely flinched. Whether the firm has correctly read Roblox's bookings path will determine if today's selloff is just the beginning."
+      },
+      {
+        "title": "Michael Burry Weighs Peter Schiff\u2019s S&P 500 Crash Warning As UBS Flags Fed Risk \u2014 Rare October Hike Odds Hit 70%",
+        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-peter-schiff-crash-warning-ubs-fed-risk-rare-october-hike/cZMmsyVRBgG?.tsrc=rss",
+        "time_published": "2026-09-29 07:07",
         "source": "Stocktwits",
-        "summary": "Retail traders are heading into a data-heavy week with bullish sentiment on SPY and QQQ."
+        "summary": "Peter Schiff warned that the S&P 500 was near a record even as 430 of its stocks sat an average of 21.7% below their individual highs."
       },
       {
-        "title": "The S&P 500 Barely Yields Anything. This Vanguard ETF Pays Roughly Double It",
-        "url": "https://247wallst.com/investing/etf/2026/09/26/the-sp-500-barely-yields-anything-this-vanguard-etf-pays-roughly-double-it/?.tsrc=rss",
-        "time_published": "2026-09-26 13:00",
-        "source": "247wallst",
-        "summary": "When cash pays more than stocks and the S&P 500 barely covers your morning coffee budget, retirees living off dividends need a smarter equity strategy than simply tracking the index."
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62040617/stock-market-will-sp-500-open-up-or-down-today-46?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-29 05:54",
+        "source": "Benzinga",
+        "summary": "U.S. stock futures are trending lower early Tuesday as Wall Street faces renewed geopolitical uncertainty in the Middle East, surging oil prices, and a spike in Treasury yields ahead of key consumer confidence and labor market data. The Polymarket (CRYPTO:..."
       },
       {
-        "title": "S&P 500, Dow, Nasdaq End Week Higher On Chipmaker Strength, Easing Oil Amid Signs Of Easing US-Iran Conflict \u2014 META, COST, MSFT, CRWD, SKHY In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-end-week-higher-on-chipmaker-strength-easing-oil-amid-signs-of-easing-us-iran-conflict-meta-cost-msft-crwd-skhy-in-focus/cZMOFkXRBOV?.tsrc=rss",
-        "time_published": "2026-09-25 22:51",
+        "title": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump\u2019s Iran Sanction Relief \u2014 NVDA, BA, AMD, NVTS, CBRS In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-drop-under-pressure-from-elevated-yields/cZMjBLyRBXW?.tsrc=rss",
+        "time_published": "2026-09-28 23:07",
         "source": "Stocktwits",
-        "summary": "Iran pitched a seven-day roadmap to end conflict with the U.S., the New York Times reported."
+        "summary": "President Donald Trump was open to providing sanctions relief to Iran on nuclear matters, CNN and Axios reported."
       },
       {
-        "title": "Nio Advances 3% as Geely Takes 30% Stake in Battery Swapping Unit; XPeng and Tesla Pull Back",
-        "url": "https://247wallst.com/investing/2026/09/28/nio-advances-3-as-geely-takes-30-stake-in-battery-swapping-unit-xpeng-and-tesla-pull-back/?.tsrc=rss",
-        "time_published": "2026-09-28 13:37",
+        "title": "MP Materials Just Sank 21% in a Month. Is It Time to Sell, or Is This a Prime Buying Opportunity?",
+        "url": "https://247wallst.com/investing/2026/09/28/mp-materials-just-sank-21-in-a-month-is-it-time-to-sell-or-is-this-a-prime-buying-opportunity/?.tsrc=rss",
+        "time_published": "2026-09-28 19:23",
         "source": "247wallst",
-        "summary": "An outside investor just put a concrete price on the part of Nio's business that has frustrated analysts for years, and the terms of the deal reveal how much Geely thinks the network is worth."
+        "summary": "Rare earth stocks just shed a fifth of their value while the broad market barely budged, leaving MP Materials shareholders facing a decision that the numbers alone cannot resolve."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Oil Prices Rise",
-        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-131704585.html?.tsrc=rss",
-        "time_published": "2026-09-28 13:17",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.3% and the actively tr"
-      },
-      {
-        "title": "Be Careful With Coca-Cola Right Now",
-        "url": "https://247wallst.com/investing/2026/09/28/be-careful-with-coca-cola-right-now/?.tsrc=rss",
-        "time_published": "2026-09-28 13:15",
+        "title": "Optics Stocks Slide Despite Citi\u2019s $11B Switching Forecast: Coherent and Applied Optoelectronics Drop 5%, Corning Falls 3%",
+        "url": "https://247wallst.com/investing/2026/09/28/optics-stocks-slide-despite-citis-11b-switching-forecast-coherent-and-applied-optoelectronics-drop-5-corning-falls-3/?.tsrc=rss",
+        "time_published": "2026-09-28 17:52",
         "source": "247wallst",
-        "summary": "Coca-Cola has beaten earnings estimates ten quarters in a row, raised its dividend for the 63rd straight year, and outpaced the S&P 500 by a wide margin. So why might right now be exactly the wrong moment to buy?"
-      },
-      {
-        "title": "Boeing Drops 3% as 737 MAX Landing Software Glitch Draws Regulator Review; GE Aerospace Eases, RTX Treads Water",
-        "url": "https://247wallst.com/investing/2026/09/28/boeing-drops-3-as-737-max-landing-software-glitch-draws-regulator-review-ge-aerospace-eases-rtx-treads-water/?.tsrc=rss",
-        "time_published": "2026-09-28 13:00",
-        "source": "247wallst",
-        "summary": "A software glitch buried in the 737 MAX cockpit just drew regulator attention, and the timing could not be worse for a company already fighting to prove its recovery is real."
+        "summary": "Citi just painted a picture of an $11 billion optical switching market, yet Coherent, Applied Optoelectronics, and Corning are all falling sharply with no bad news in sight. Something else is driving this selloff, and it says a lot about where these stocks really stand."
       }
     ],
     "oil": [
+      {
+        "title": "Simplify Tops Madison Dearborn With a Rival Bid for USCF",
+        "url": "http://www.etf.com/sections/features/simplify-tops-madison-dearborn-rival-bid-uscf?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-09-28 23:22",
+        "source": "Etf",
+        "summary": "A bidding war has broken out for the firm behind USO."
+      },
       {
         "title": "Peter Schiff Warns Record Diesel Prices Could Leave US Vulnerable To Next Energy Shock, Says Trump's Diesel Export Ban Could 'Backfire'",
         "url": "https://finance.yahoo.com/energy/articles/peter-schiff-warns-record-diesel-003007848.html?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-17 16:30",
         "source": "Marketbeat",
         "summary": "After the Fed's September rate hike, oil futures show backwardation signaling lower prices ahead as demand destruction and rising non-OPEC supply threaten to undercut inflation and economic growth."
-      },
-      {
-        "title": "Oil Surges, Tanker Rates Soar: ETFs in Play",
-        "url": "https://finance.yahoo.com/energy/articles/oil-surges-tanker-rates-soar-195500447.html?.tsrc=rss",
-        "time_published": "2026-09-16 19:55",
-        "source": "Finance",
-        "summary": "Middle East tensions are driving oil prices and tanker rates higher. Here are the ETFs benefiting."
       }
     ]
   }

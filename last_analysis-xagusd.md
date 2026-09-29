@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
-**Date:** 2026-09-25
-**Generated:** 2026-09-28T13:47:31Z
+**Date:** 2026-09-28
+**Generated:** 2026-09-29T12:46:44Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,30 +10,30 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | LOW |
-| **Entry** | 58.65 |
-| **Stop Loss** | 59.20 |
-| **Target 1** | 57.00 |
-| **Target 2** | 56.36 |
-| **Risk/Reward** | 3.00 |
+| **Decision** | WAIT |
+| **Confidence** | MEDIUM |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
 | **Score** | 4/10 |
-| **Support** | 57.5, 57.0, 56.36 |
-| **Resistance** | 58.65, 59.2, 60.0 |
+| **Support** | 54.0, 53.0, 52.0 |
+| **Resistance** | 56.0, 58.51, 61.57 |
 
 ---
 
 ## Analysis
 
-Price action confirms the strong downtrend as the price at 58.14 sits below both the 50-period EMA (58.65) and the 200-period EMA (61.51). The bearish MACD (line below signal, negative histogram) aligns with this downtrend, while the RSI at 48.1 is neutral, offering no bullish divergence. The recent Bullish Engulfing candlestick pattern is a potential reversal signal, but it is occurring within a well-established downtrend, which reduces its reliability. No clear flags or triangles are evident from the given data, though the engulfing pattern may hint at a short-term bottom if supported by volume. Key resistance levels are the 50-EMA at 58.65 and the round number 59.20 (a plausible prior swing high), with 60.00 acting as a further barrier. Nearest support levels are 57.50, 57.00, and the ATR-derived level at 56.36.
+The price action strongly confirms the EMA-based downtrend: current price at 54.95 sits well below both the 50-period EMA (58.51) and the 200-period EMA (61.57), with the "Strong Downtrend" label reinforcing a bearish bias. However, the presence of both a Bullish Engulfing and an Evening Star within the last five candles creates conflicting short-term signals—the former hints at a possible reversal, while the latter warns of rejection. No clear chart patterns (triangles, flags, double tops/bottoms) are evident from the given data; the mixed candlestick formations suggest indecision rather than a definitive structure.
 
-The confluence between RSI and MACD remains bearish; the neutral RSI does not contradict the trend, and the MACD’s bearish structure confirms downside momentum. However, the Bullish Engulfing introduces a counter-trend risk that could cause a bounce toward the 50-EMA. The single best trade setup is to sell into that expected rally, aiming for a re-test of recent support zones. The risk-reward is attractive if the stop is placed just above the 50-EMA and a minor resistance level, while targets align with prior lows. The low signal score (4/10) reflects the mixed signals and the need for patience; thus confidence is low.
+Support near 54.00 (round number) and 53.00 (potential prior swing low) provides a near-term floor, while resistance at 56.00 (recent high) and the 58.51 EMA50 cap any bounce. The RSI at 39.57 is neutral and not oversold, indicating room for further downside, and the bearish MACD (line below signal, negative histogram) aligns with the downtrend. No RSI divergence exists, so momentum supports the bearish case. Given the low signal score (4/10), conflicting candlestick patterns, and the absence of a high-probability entry near a clear support or resistance level, the prudent action is to wait. A trade setup would require either a confirmed bounce to a resistance zone to short or a decisive breakdown below 54.00 to join the trend.
 
 ---
 
 ## Invalidation
 
-N/A
+A daily close above the 50-period EMA at 58.51 on elevated volume would cancel the bearish bias and shift the outlook to neutral/uptrend.
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-09-28
-**Generated:** 2026-09-28T13:43:54Z
+**Date:** 2026-09-29
+**Generated:** 2026-09-29T12:41:47Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 |
+| **Decision** | BUY |
+| **Confidence** | MEDIUM |
+| **Entry** | 1.32415 |
+| **Stop Loss** | 1.31910 |
+| **Target 1** | 1.33000 |
+| **Target 2** | 1.34190 |
+| **Risk/Reward** | 1:1.18 (T1), 1:3.56 (T2) |
+| **Score** | 7/10 |
 | **Support** | 1.32, 1.315, 1.31 |
-| **Resistance** | 1.33, 1.335, 1.34 |
+| **Resistance** | 1.33, 1.3419, 1.35 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a clear bearish trend with price well below both the 50- and 200-period EMAs (1.34264 and 1.34039). This confirms the bearish bias indicated. However, the last five candles include a Bullish Engulfing pattern, which suggests a possible short-term reversal or at least a pause in selling. The RSI is at 30.27, very near oversold territory but not quite there, while the MACD remains bearish with the line below the signal and a negative histogram. There is no RSI divergence, so no clear reversal signal from momentum alone.
+The daily chart shows a clear bearish bias with price trading well below both the EMA50 and EMA200, confirming a downtrend. However, the RSI at 27.4 is in oversold territory, and a Bullish Engulfing candlestick pattern has formed within the last five candles. This pattern, combined with extreme oversold conditions, often signals a potential short-term reversal or at least a pause in the downtrend. The MACD remains bearish (line below signal, negative histogram) with no divergence, so the underlying momentum still favors sellers, but the oversold RSI and bullish price action create a conflict that warrants a counter-trend play.
 
-The conflicting signals—bearish trend and bearish MACD versus a bullish candlestick pattern and near-oversold RSI—create an uncertain setup. The price is also trading near what could be a support zone around 1.3200, but no confirmation of a double bottom or other reversal pattern is available from the given data. The ATR of 49 pips suggests moderate volatility, but the distance to the nearest resistance (1.3300–1.3350) is only about 40–90 pips, leaving limited room for a short entry with a reasonable risk-reward ratio.
+No additional chart patterns such as triangles or double tops are evident from the given data, but the proximity of the two EMAs (1.34188 and 1.34038) creates a strong resistance zone overhead. Immediate support lies near 1.3200—a psychological level and likely the low of the engulfing candle’s predecessor—followed by 1.3150 and 1.3100. On the upside, resistance is expected at 1.3300 (round number and recent minor swing high), then the EMA cluster near 1.3419.
 
-Given the mixed readings and a signal score of 5/10, the prudent approach is to wait for additional confirmation. A clear break above 1.3300 or a sustained bounce off support with a bullish MACD cross would strengthen a buy case, while a drop below 1.3200 would confirm further downside. Currently, the risk of whipsaw is high.
+The RSI and MACD do not fully agree with the trend: RSI suggests exhaustion of selling pressure, while MACD confirms the bearish momentum. This divergence in timeframes (short-term vs. medium-term) reduces confidence, but the Bullish Engulfing pattern provides a clear entry signal. The trade setup is a counter-trend buy with a tight stop below the engulfing pattern’s low, targeting an initial test of resistance at 1.3300, with a secondary target at the EMA50 zone. The risk-reward profile is favorable for the second target, but the first target offers a modest 1:1.18 ratio.
 
 ---
 
 ## Invalidation
 
-If the price breaks and closes below 1.3200, any short-term bullish bias from the engulfing pattern would be invalidated, reinforcing the bearish trend.
+This setup is invalidated if price breaks and closes below 1.31910 (the low of the Bullish Engulfing candle), which would signal a continuation of the dominant bearish trend and negate the reversal signal.
 
 ---
 

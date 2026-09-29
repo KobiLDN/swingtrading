@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-09-28T13:47:49Z",
+  "generated": "2026-09-29T12:47:28Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-09-25",
+  "date": "2026-09-28",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "4/10",
-  "analysis": "The EMA structure clearly indicates a strong uptrend with price well above both the 50 and 200-period EMAs. However, the daily price action is showing internal weakness: the MACD line is below its signal line, and the histogram is negative, reflecting waning bullish momentum. The RSI at 53.98 is neutral, neither overbought nor oversold, and shows no divergence, offering no clear directional bias. The Morning Star candlestick pattern over the last five candles is a bullish reversal signal, but it emerged after a modest pullback within an established uptrend, which reduces its reliability as a standalone trigger.\n\nNo additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the provided data. Key near-term support is found at the recent swing low near 145.00 (likely the first candle low of the Morning Star), followed by the 143.00 area and the 140.50 round number. Resistance stands at 150.00 (psychological level), 153.60 (price + 1 ATR), and 158.00 (prior high zone). The confluence between RSI and MACD is bearish\u2014they do not confirm the strong uptrend, signaling that momentum is fading. The Morning Star offers a potential counter-trend bounce, but the overall low signal score (4/10) reflects high uncertainty.\n\nThe most sensible approach is to wait for a clearer setup. A long entry would ideally require a bullish MACD crossover or RSI moving above 60 to confirm renewed momentum. A short entry would be premature given the dominant uptrend. The combination of conflicting indicators (bullish price structure vs. bearish momentum) and low score argues against immediate action.",
-  "invalidation": "This waiting setup is invalidated if price closes above 150.00 with strong volume, reigniting bullish momentum, or if it breaks below 145.00, confirming failure of the Morning Star pattern and opening the door for a deeper pullback.",
+  "analysis": "The price action confirms the strong uptrend defined by the EMA50 (138.91) and EMA200 (117.40), as USO trades well above both averages. However, the last five candles display both a bullish Morning Star and a bearish Evening Star, indicating indecision and potential exhaustion near current levels. No additional chart patterns like flags or double tops are clearly identifiable, but the clustering of conflicting candlestick patterns suggests a consolidation phase may be forming.\n\nThe RSI at 55.57 is neutral, offering no directional bias, while the MACD is bearish with the line below the signal and a negative histogram. This divergence between the strong trend and fading momentum is a warning sign. The trend is intact, but the bearish MACD often precedes pullbacks or sideways movement. The low signal score of 4/10 reflects the lack of clear confluence among indicators. Given the mixed signals, entering a trade now would carry high uncertainty\u2014a buy would ignore bearish momentum, while a sell would fight the dominant trend. The prudent approach is to wait for either a bullish MACD crossover to confirm trend continuation or a decisive break below EMA50 (138.91) to signal a reversal.",
+  "invalidation": "N/A",
   "support_levels": [
-    145.0,
-    143.0,
-    140.5
+    144.6,
+    138.91,
+    117.4
   ],
   "resistance_levels": [
-    150.0,
-    153.6,
-    158.0
+    155.41,
+    160.0,
+    165.0
   ]
 };
