@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-29T12:47:29Z",
+  "generated": "2026-09-30T12:29:35Z",
   "assets": {
     "gbpusd": [
       {
@@ -120,6 +120,13 @@ window.NEWS_DATA = {
     "xauusd": [],
     "xagusd": [
       {
+        "title": "Silver Has Now Lost Nearly Half Its Value. Here\u2019s What Broke the Metals Trade",
+        "url": "https://247wallst.com/investing/2026/09/30/silver-has-now-lost-nearly-half-its-value-heres-what-broke-the-metals-trade/?.tsrc=rss",
+        "time_published": "2026-09-30 11:36",
+        "source": "247wallst",
+        "summary": "Silver just recorded one of its worst stretches in decades, and the forces behind the selloff are still building pressure. Understanding what broke the metals trade could be the difference between catching a bounce and holding through another leg down."
+      },
+      {
         "title": "Gold ETFs Just Had Their 2nd-Biggest Month Ever",
         "url": "http://www.etf.com/sections/news/gold-etfs-just-had-their-2nd-biggest-month-ever?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
         "time_published": "2026-09-23 19:32",
@@ -167,71 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-08-14 15:47",
         "source": "247wallst",
         "summary": "Gold just posted a 10% surge in a single month and fund flows into miners are hitting year-long highs, but one overlooked metal has quietly tripled gold's returns over the same period and has a demand story that gold simply cannot match."
-      },
-      {
-        "title": "Best-Performing ETF Areas of Last Week",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-etf-areas-last-120000689.html?.tsrc=rss",
-        "time_published": "2026-08-11 12:00",
-        "source": "Finance",
-        "summary": "Gold, space, defense and silver-mining ETFs soared last week as weak jobs data eased Fed rate-hike fears and boosted risk appetite."
       }
     ],
     "spx": [
       {
-        "title": "Forget SPY: Invesco\u2019s Fund Gives the Smallest S&P 500 Company the Same Say as the Largest",
-        "url": "https://247wallst.com/investing/etf/2026/09/28/forget-spy-invescos-fund-gives-the-smallest-sp-500-company-the-same-say-as-the-largest/?.tsrc=rss",
-        "time_published": "2026-09-28 22:11",
+        "title": "Forget SPY\u2019s Dividend. Here Is What $100,000 in State Street\u2019s High-Dividend Version Pays",
+        "url": "https://247wallst.com/investing/etf/2026/09/29/forget-spys-dividend-here-is-what-100000-in-state-streets-high-dividend-version-pays/?.tsrc=rss",
+        "time_published": "2026-09-29 23:06",
         "source": "247wallst",
-        "summary": "SPY hands most of your money to a handful of giants, but one rival fund treats the smallest S&P 500 company as an equal to the largest. The tradeoff is stranger than it sounds, and the recent returns reveal a tension every index investor should weigh."
+        "summary": "State Street built a second S&P 500 fund specifically to pay larger quarterly checks, and most SPY investors have never heard of it. Before you move any money, there is a performance cost buried in the comparison that changes the math entirely."
       },
       {
-        "title": "Cleveland-Cliffs Sinks 9% as Selloff Outruns Steel Group; Nucor and Steel Dynamics Pull Back",
-        "url": "https://247wallst.com/investing/2026/09/28/cleveland-cliffs-sinks-9-as-selloff-outruns-steel-group-nucor-and-steel-dynamics-pull-back/?.tsrc=rss",
-        "time_published": "2026-09-28 17:46",
-        "source": "247wallst",
-        "summary": "Cleveland-Cliffs is falling far harder than Nucor, Steel Dynamics, and the broader steel sector combined, and the reason traces back to a policy question that cuts against the company in two directions at once."
-      },
-      {
-        "title": "Roblox Sinks 6% as Jefferies Cuts to Underperform With $38 Price Target; Take-Two Holds Flat, GameStop Dips",
-        "url": "https://247wallst.com/investing/2026/09/28/roblox-sinks-6-as-jefferies-cuts-to-underperform-with-38-price-target-take-two-holds-flat-gamestop-dips/?.tsrc=rss",
-        "time_published": "2026-09-28 13:41",
-        "source": "247wallst",
-        "summary": "Jefferies just put a target on Roblox that sits well below where shares are trading, and the rest of the gaming group barely flinched. Whether the firm has correctly read Roblox's bookings path will determine if today's selloff is just the beginning."
-      },
-      {
-        "title": "Michael Burry Weighs Peter Schiff\u2019s S&P 500 Crash Warning As UBS Flags Fed Risk \u2014 Rare October Hike Odds Hit 70%",
-        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-peter-schiff-crash-warning-ubs-fed-risk-rare-october-hike/cZMmsyVRBgG?.tsrc=rss",
-        "time_published": "2026-09-29 07:07",
+        "title": "S&P 500, Dow Extend Losses From Elevated Yield Pressure \u2014 SPCX, TGT, AAPL, MU, NTAP In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-extend-losses-from-elevated-yield-pressure-spcx-tgt-aapl-mu-ntap-in-focus/cZMZLlCRBW0?.tsrc=rss",
+        "time_published": "2026-09-29 22:30",
         "source": "Stocktwits",
-        "summary": "Peter Schiff warned that the S&P 500 was near a record even as 430 of its stocks sat an average of 21.7% below their individual highs."
+        "summary": "30-year Treasury yields are at their highest level since 2002."
+      },
+      {
+        "title": "AMC Sinks 7%, Gives Back Part of Sharp Rally; Cinemark and IMAX Dip",
+        "url": "https://247wallst.com/investing/2026/09/29/amc-sinks-7-gives-back-part-of-sharp-rally-cinemark-and-imax-dip/?.tsrc=rss",
+        "time_published": "2026-09-29 16:55",
+        "source": "247wallst",
+        "summary": "AMC stock is bleeding out a big chunk of its prior-session surge while Cinemark and IMAX barely flinch, and that split tells you something important about who is actually driving the selling."
+      },
+      {
+        "title": "5 International ETFs Up at Least 20% in 2026 & Beating the S&P 500",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/5-international-etfs-least-20-112000447.html?.tsrc=rss",
+        "time_published": "2026-09-30 11:20",
+        "source": "Finance",
+        "summary": "International ETFs are outperforming the S&P 500 in 2026, led by strong gains across Asian and global markets. Here are five ETFs to watch."
+      },
+      {
+        "title": "Netflix Just Keeps Falling: Here\u2019s Why One Wall Street Pro Remains Resolute That 90% Await Today\u2019s Buyers",
+        "url": "https://247wallst.com/investing/2026/09/30/netflix-just-keeps-falling-heres-why-one-wall-street-pro-remains-resolute-that-90-await-todays-buyers/?.tsrc=rss",
+        "time_published": "2026-09-30 11:15",
+        "source": "247wallst",
+        "summary": "Netflix has shed more than 40% in a year while one top Wall Street analyst holds a target that towers above the crowd. The question is whether the bull case rests on a real inflection or wishful thinking about ads and live events."
+      },
+      {
+        "title": "Tesla Is Running Their Old Announce And Delay Playbook With The Roadster",
+        "url": "https://247wallst.com/investing/2026/09/30/tesla-is-running-their-old-announce-and-delay-playbook-with-the-roadster/?.tsrc=rss",
+        "time_published": "2026-09-30 11:15",
+        "source": "247wallst",
+        "summary": "Tesla keeps setting bold product deadlines, and the stock keeps rallying on the reveal before the date quietly disappears. With several major 2026 targets now on the clock, investors face a question of whether this time is different or the same playbook runs again."
+      },
+      {
+        "title": "Why Are Nasdaq Futures Rising Premarket? MU, TSLA, CAPR, VNDA, ASTS, HOOD, BA Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-rise-pce-gdp-micron-tesla-capr-vnda-hood-stocks/cZMFR9TRBhd?.tsrc=rss",
+        "time_published": "2026-09-30 08:29",
+        "source": "Stocktwits",
+        "summary": "On Stocktwits, retail sentiment toward SPY and QQQ stayed \u2018bullish.\u2019"
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62040617/stock-market-will-sp-500-open-up-or-down-today-46?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-29 05:54",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62069859/stock-market-will-sp-500-open-up-or-down-today-47?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-09-30 05:14",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are trending lower early Tuesday as Wall Street faces renewed geopolitical uncertainty in the Middle East, surging oil prices, and a spike in Treasury yields ahead of key consumer confidence and labor market data. The Polymarket (CRYPTO:..."
-      },
-      {
-        "title": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump\u2019s Iran Sanction Relief \u2014 NVDA, BA, AMD, NVTS, CBRS In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-drop-under-pressure-from-elevated-yields/cZMjBLyRBXW?.tsrc=rss",
-        "time_published": "2026-09-28 23:07",
-        "source": "Stocktwits",
-        "summary": "President Donald Trump was open to providing sanctions relief to Iran on nuclear matters, CNN and Axios reported."
-      },
-      {
-        "title": "MP Materials Just Sank 21% in a Month. Is It Time to Sell, or Is This a Prime Buying Opportunity?",
-        "url": "https://247wallst.com/investing/2026/09/28/mp-materials-just-sank-21-in-a-month-is-it-time-to-sell-or-is-this-a-prime-buying-opportunity/?.tsrc=rss",
-        "time_published": "2026-09-28 19:23",
-        "source": "247wallst",
-        "summary": "Rare earth stocks just shed a fifth of their value while the broad market barely budged, leaving MP Materials shareholders facing a decision that the numbers alone cannot resolve."
-      },
-      {
-        "title": "Optics Stocks Slide Despite Citi\u2019s $11B Switching Forecast: Coherent and Applied Optoelectronics Drop 5%, Corning Falls 3%",
-        "url": "https://247wallst.com/investing/2026/09/28/optics-stocks-slide-despite-citis-11b-switching-forecast-coherent-and-applied-optoelectronics-drop-5-corning-falls-3/?.tsrc=rss",
-        "time_published": "2026-09-28 17:52",
-        "source": "247wallst",
-        "summary": "Citi just painted a picture of an $11 billion optical switching market, yet Coherent, Applied Optoelectronics, and Corning are all falling sharply with no bad news in sight. Something else is driving this selloff, and it says a lot about where these stocks really stand."
+        "summary": "U.S. stock futures are trending higher early Wednesday as Wall Street assesses fresh corporate earnings, stabilizing oil prices, and significant domestic inflation data amidst shifting geopolitical dynamics. The Polymarket (CRYPTO: POL) crowd is leaning heavily bullish for the Sept. 30..."
       }
     ],
     "oil": [

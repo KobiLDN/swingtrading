@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-09-24
-**Generated:** 2026-09-24T11:38:22Z
+**Date:** 2026-09-30
+**Generated:** 2026-09-30T12:27:18Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,47 +12,32 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.13723 |
-| **Stop Loss** | 1.14145 |
-| **Target 1** | 1.13301 |
-| **Target 2** | 1.12879 |
-| **Risk/Reward** | 1:1 (first target) / 1:2 (second target) |
-| **Score** | 6/10 |
-| **Support** | 1.135, 1.13, 1.125 |
-| **Resistance** | 1.14, 1.145, 1.15389 |
+| **Entry** | 1.13569 |
+| **Stop Loss** | 1.14000 |
+| **Target 1** | 1.13200 |
+| **Target 2** | 1.12800 |
+| **Risk/Reward** | 1.68 |
+| **Score** | 7/10 confirmed |
+| **Support** | 1.13, 1.125, 1.12 |
+| **Resistance** | 1.14, 1.15035, 1.15227 |
 
 ---
 
 ## Analysis
 
-DECISION: SELL  
-CONFIDENCE: MEDIUM  
-ENTRY: 1.13723  
-STOP_LOSS: 1.14145  
-TARGET_1: 1.13301  
-TARGET_2: 1.12879  
-RISK_REWARD: 1:1 (first target) / 1:2 (second target)  
-SCORE: 6/10  
-SUPPORT_LEVELS: 1.1350, 1.1300, 1.1250  
-RESISTANCE_LEVELS: 1.1400, 1.1450, 1.15389  
+The daily chart shows a strong downtrend with price trading well below both the 50- and 200-period EMAs (1.15035 and 1.15227). This confirms the bearish EMA alignment, and recent price action has respected the declining structure. The candlestick patterns over the last five candles—Doji, Shooting Star, and Evening Star—are all bearish reversal signals that reinforce the continuation of selling pressure, despite the oversold condition on the RSI.  
 
-**ANALYSIS:**  
-The price at 1.13723 trades well below both the EMA50 (1.15389) and EMA200 (1.15581), confirming the “STRONG DOWNTREND” designation. The recent candlestick sequence of a Doji followed by an Evening Star indicates seller dominance after a small bounce, reinforcing continuation of the bearish trend. No chart patterns like triangles or flags are evident, but the steep downward slope itself suggests persistent selling pressure without consolidation.  
+RSI at 23.58 is deep in oversold territory, but the absence of any bullish divergence means momentum remains firmly bearish. The MACD line is below the signal line with a negative histogram, confirming bearish momentum. While oversold readings can precede bounces, the lack of divergence and the presence of bearish candlestick patterns suggest any rally would likely be short-lived and could offer better entry levels for shorts rather than a reversal.  
 
-Key support nearest to price is the psychological 1.1350 level, followed by 1.1300 and 1.1250. Resistance above is first at 1.1400 (a former support now turned resistance), then 1.1450, and the EMA50 at 1.15389 as the major resistance. These levels align with the bearish trend and provide clear target and stop zones.  
+Key support is the psychological 1.1300 level, with further support near 1.1250. Resistance is immediate at 1.1400 (recent swing high and potential stop-run area), followed by the EMAs around 1.1500. The current price is near the lower end of the recent range, but the trend is strong enough to target a break below 1.1300. The risk-to-reward ratio is favourable, with a stop above 1.1400 and targets at 1.1320 and 1.1280.  
 
-The RSI at 19.41 is deeply oversold, but without any bullish divergence, this alone does not warrant a reversal trade. The MACD remains firmly bearish (line below signal, negative histogram), showing strong downside momentum. The confluence between trend-following indicators (price below EMAs, bearish MACD) and the oversold RSI creates a tension: the trend favors selling, but a short-term bounce is possible. The Evening Star pattern, however, tilts the balance toward continued downside, suggesting a sell at current levels with a tight stop is the most logical setup.  
-
-The best trade is to sell at 1.13723 with a stop at 1.14145 (1 ATR above, just above the likely high of the Evening Star’s doji candle). Targets are set at 1.13301 (1 ATR down) and 1.12879 (2 ATR down), offering a 1:1 and 1:2 risk-reward respectively. Risk is elevated due to the oversold condition, so position size should be reduced. The signal score of 6/10 reflects this moderate conviction—the trend is clear, but the oversold RSI adds uncertainty.  
-
-**INVALIDATION:**  
-A daily close above 1.14145 would break the recent swing high and invalidate the short-term bearish bias, suggesting a stronger bounce or potential trend change.
+The signal score of 7/10 reflects the strong confluence of bearish trend, MACD, and candlestick patterns, partially offset by the oversold RSI which reduces confidence to medium. Overall, the setup favours selling into weakness with a tight stop to manage the risk of a sudden short-covering rally.
 
 ---
 
 ## Invalidation
 
-N/A
+A daily close above 1.14000 would break the immediate resistance and signal a potential short-term reversal, invalidating this bearish setup.
 
 ---
 
