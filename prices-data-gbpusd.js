@@ -1,41 +1,34 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-09-29T11:47:55Z",
-  "date": "2026-09-29",
-  "price": 1.32415,
-  "atr": 0.00489,
-  "atr_pips": 49,
+  "generated": "2026-09-30T11:34:33Z",
+  "date": "2026-09-30",
+  "price": 1.3291,
+  "atr": 0.00525,
+  "atr_pips": 52,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34188,
-  "ema200": 1.34038,
-  "rsi": 27.4,
-  "macd_line": -0.007391,
-  "macd_signal": -0.006271,
-  "macd_hist": -0.00112,
+  "ema50": 1.34134,
+  "ema200": 1.34026,
+  "rsi": 38.57,
+  "macd_line": -0.006952,
+  "macd_signal": -0.00642,
+  "macd_hist": -0.000532,
   "trend": "BEARISH BIAS",
-  "divergence": "None",
+  "divergence": "BULLISH",
   "patterns": [
     {
-      "date": "2026-09-25",
+      "date": "2026-09-30",
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
     }
   ],
-  "score": 7,
-  "verdict": "WATCH",
+  "score": 8,
+  "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-06-22",
-      "open": 1.31983,
-      "high": 1.32726,
-      "low": 1.31836,
-      "close": 1.32509
-    },
     {
       "date": "2026-06-23",
       "open": 1.32505,
@@ -726,8 +719,15 @@ window.PRICES_DATA_GBPUSD = {
       "date": "2026-09-29",
       "open": 1.32546,
       "high": 1.32584,
-      "low": 1.32223,
-      "close": 1.32415
+      "low": 1.3199,
+      "close": 1.32318
+    },
+    {
+      "date": "2026-09-30",
+      "open": 1.32316,
+      "high": 1.33012,
+      "low": 1.32237,
+      "close": 1.3291
     }
   ]
 };

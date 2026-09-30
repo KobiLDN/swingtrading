@@ -1,30 +1,24 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-09-29T11:47:56Z",
-  "date": "2026-09-29",
-  "price": 1.13487,
-  "atr": 0.00405,
-  "atr_pips": 41,
+  "generated": "2026-09-30T11:34:33Z",
+  "date": "2026-09-30",
+  "price": 1.13569,
+  "atr": 0.00416,
+  "atr_pips": 42,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.15097,
-  "ema200": 1.15287,
-  "rsi": 19.14,
-  "macd_line": -0.005833,
-  "macd_signal": -0.004745,
-  "macd_hist": -0.001088,
+  "ema50": 1.15035,
+  "ema200": 1.15227,
+  "rsi": 23.58,
+  "macd_line": -0.005911,
+  "macd_signal": -0.004985,
+  "macd_hist": -0.000926,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-25",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
-    },
     {
       "date": "2026-09-26",
       "name": "Doji",
@@ -47,13 +41,6 @@
   "score": 7,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-22",
-      "open": 1.14656,
-      "high": 1.14767,
-      "low": 1.14192,
-      "close": 1.14291
-    },
     {
       "date": "2026-06-23",
       "open": 1.14289,
@@ -744,8 +731,15 @@
       "date": "2026-09-29",
       "open": 1.13713,
       "high": 1.13753,
-      "low": 1.13315,
-      "close": 1.13487
+      "low": 1.13097,
+      "close": 1.13432
+    },
+    {
+      "date": "2026-09-30",
+      "open": 1.13431,
+      "high": 1.13642,
+      "low": 1.13289,
+      "close": 1.13569
     }
   ]
 }
