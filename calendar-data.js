@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-09-30T11:34:36Z",
+  "generated": "2026-10-01T12:03:11Z",
   "events": [
     {
       "date": "2026-09-30",
@@ -10,8 +10,8 @@ window.CALENDAR_DATA = {
       "forecast": "0.3%",
       "previous": "0.2%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-09-30",
@@ -22,8 +22,8 @@ window.CALENDAR_DATA = {
       "forecast": "1.5%",
       "previous": "1.5%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-10-02",
@@ -43,7 +43,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "Non-Farm Employment Change",
       "impact": "high",
-      "forecast": "90K",
+      "forecast": "89K",
       "previous": "162K",
       "actual": "",
       "today": false,
