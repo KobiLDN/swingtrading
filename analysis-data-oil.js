@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-09-30T12:29:34Z",
+  "generated": "2026-10-01T13:06:41Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_OIL = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "4/10 confirmed",
-  "analysis": "Price is still above both the EMA50 and EMA200, so the broader structure remains a strong uptrend. However, price action is not fully confirming that trend right now: RSI is neutral at 48.41, MACD is bearish with negative histogram, and the recent candlestick sequence includes both a Morning Star and an Evening Star. That suggests a short-term bounce was followed by renewed selling pressure, leaving the market in a consolidation/pullback phase rather than a clean continuation.\n\nThe most likely pattern is a short-term range or bull-flag-like pause above the EMA50. The key support is the EMA50 at 139.08, with additional support near the ATR-derived level around 137.84 and the 135.00 psychological zone. Resistance is likely at 145.00, then 148.00 and 150.00. A break above 145.00 with improving momentum would confirm the next leg up; a close below 139.08 would weaken the bullish structure.\n\nRSI and MACD do not agree with the strong uptrend. RSI below 50 and MACD below its signal line both indicate fading upside momentum. This is not a high-conviction long entry yet. The best approach is to wait for either a bullish MACD crossover near support, or a clean daily close above resistance with RSI reclaiming 50. Risk is elevated because ATR is 5.51, so any stop placed too tight is likely to be hit.",
-  "invalidation": "A daily close below 139.08 would cancel the bullish pullback setup, while a daily close above 145.00 with a MACD bullish crossover would invalidate the current wait-and-see stance and trigger a long.",
+  "analysis": "The medium-term trend is clearly bullish, with price trading well above both the EMA50 at 139.34 and the EMA200 at 117.71. However, the immediate price action is not fully confirming trend continuation: the Evening Star pattern in the last five candles is a bearish reversal warning. This suggests the strong uptrend may be pausing or pulling back rather than continuing higher from current levels.\n\nThe only additional pattern inferable from the given data is the Evening Star itself. There is not enough information to confirm a triangle, flag, or double top/bottom. Key support sits at the round number 145.00, then around the one-ATR measured level near 140.22, and finally the EMA50 at 139.34. Above current price, resistance is likely at 150.00 psychological resistance, followed by 151.10 as an upper ATR extension, and then 155.00.\n\nRSI and MACD do not agree with the strong uptrend. RSI is neutral at 50.78, providing little momentum confirmation. MACD is bearish, with the MACD line below the signal line and a negative histogram, indicating weakening upward momentum. This lack of bullish confluence lowers the quality of any fresh long entry here. The best approach is to wait for either a bullish rejection near support or a confirmed move that clears the bearish short-term signals.",
+  "invalidation": "A close above the Evening Star high would invalidate the bearish reversal setup and turn the focus back to buying any pullback in the ongoing uptrend.",
   "support_levels": [
-    139.08,
-    137.84,
-    135.0
+    145.0,
+    140.22,
+    139.34
   ],
   "resistance_levels": [
-    145.0,
-    148.0,
-    150.0
+    150.0,
+    151.1,
+    155.0
   ]
 };

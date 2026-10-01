@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-09-30
-**Generated:** 2026-09-30T12:26:52Z
+**Date:** 2026-10-01
+**Generated:** 2026-10-01T13:02:27Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,30 @@
 |-------|-------|
 | **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.3291 |
-| **Stop Loss** | 1.3239 |
-| **Target 1** | 1.3400 |
-| **Target 2** | 1.3500 |
-| **Risk/Reward** | 2.14 (T1) / 4.10 (T2) |
-| **Score** | 8/10 confirmed |
-| **Support** | 1.326, 1.32, 1.315 |
-| **Resistance** | 1.335, 1.3413, 1.345 |
+| **Entry** | 1.32424 |
+| **Stop Loss** | 1.31850 |
+| **Target 1** | 1.33000 |
+| **Target 2** | 1.34100 |
+| **Risk/Reward** | 1:1.0 |
+| **Score** | 8/10 |
+| **Support** | 1.32, 1.318, 1.315 |
+| **Resistance** | 1.33, 1.3406, 1.3412 |
 
 ---
 
 ## Analysis
 
-The daily chart shows price (1.3291) trading well below both the EMA 50 (1.34134) and EMA 200 (1.34026), confirming a bearish bias. However, the bearish trend is being challenged by a clear bullish RSI divergence and a Bullish Engulfing candlestick pattern within the last five candles. The RSI at 38.57 is in neutral territory but near oversold, while the divergence signals weakening downside momentum. The MACD remains bearish (line below signal, negative histogram), which typically aligns with the trend, but the histogram’s negative value may be shrinking as divergence develops — a subtle shift that often precedes a reversal.  
+The daily chart shows a strong downtrend confirmed by price trading well below both the EMA50 (1.34057) and EMA200 (1.34124). However, recent price action reveals a notable Bullish Engulfing pattern, which often signals a potential reversal when combined with oversold momentum. The RSI has printed a bullish divergence — price made a lower low while RSI formed a higher low — indicating weakening selling pressure. This divergence conflicts with the bearish MACD (line below signal, negative histogram), but the MACD histogram has been narrowing, which can foreshadow a bullish crossover.
 
-The high signal score (8/10) reflects strong confluence between the reversal pattern and divergence, even though the EMA structure is still bearish. This creates a counter-trend opportunity with favorable risk-reward, especially given the ATR of 52 pips. The nearest support levels are around 1.3260 (likely the low of the engulfing candle) and 1.3200 (psychological level). Resistance stands at 1.3350 (intermediate), then the EMA cluster at 1.3413–1.3403, and 1.3450.  
+The presence of both a Bullish Engulfing and a Hanging Man within the last five candles introduces caution: the Hanging Man is a bearish candlestick that can trap buyers in a downtrend, but in this context it may represent a temporary pause rather than a continuation. The overall signal score of 8/10 suggests a high-probability setup, likely driven by the confluence of the bullish divergence and engulfing pattern. Nearest resistance is the psychological 1.3300 level, followed by the EMA cluster above 1.3400. Support lies at the recent swing low near 1.3180 and the round 1.3200 figure.
 
-The best trade setup is a long entry at current price, betting on a mean reversion toward the EMAs. The stop loss is placed just below the engulfing candle’s low (1.3239) to allow for normal volatility. Targets are set at 1.3400 (near EMA 200) and 1.3500 (above EMA 50 and a round number). The risk-reward ratio is attractive, with the first target offering over 2:1. While the trend is bearish, the bullish divergence and pattern suggest exhaustion, making this a high-probability reversal attempt for a swing trader.
+Given the strong underlying downtrend, this is a counter-trend trade with medium confidence. The risk-to-reward ratio is roughly 1:1 to the first target, making it a reasonable short-term reversal play. A stop loss set just below the recent low (1.3185) limits downside risk to approximately 57 pips, in line with the ATR of 55 pips. If the bullish divergence materialises, the pair could retrace toward the declining moving averages, providing a favourable risk-adjusted opportunity.
 
 ---
 
 ## Invalidation
 
-A daily close below 1.3239 (the stop loss level) would cancel the bullish setup and confirm continued bearish momentum.
+N/A
 
 ---
 

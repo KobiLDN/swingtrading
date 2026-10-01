@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-09-30T12:29:35Z",
+  "generated": "2026-10-01T13:06:42Z",
   "assets": {
     "gbpusd": [
       {
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Forget SPY\u2019s Dividend. Here Is What $100,000 in State Street\u2019s High-Dividend Version Pays",
-        "url": "https://247wallst.com/investing/etf/2026/09/29/forget-spys-dividend-here-is-what-100000-in-state-streets-high-dividend-version-pays/?.tsrc=rss",
-        "time_published": "2026-09-29 23:06",
+        "title": "Forget Waiting Three Months for SPY\u2019s Dividend. Invesco\u2019s High-Dividend Fund Pays Every Month",
+        "url": "https://247wallst.com/investing/etf/2026/09/30/forget-waiting-three-months-for-spys-dividend-invescos-high-dividend-fund-pays-every-month/?.tsrc=rss",
+        "time_published": "2026-09-30 23:06",
         "source": "247wallst",
-        "summary": "State Street built a second S&P 500 fund specifically to pay larger quarterly checks, and most SPY investors have never heard of it. Before you move any money, there is a performance cost buried in the comparison that changes the math entirely."
+        "summary": "Monthly bills don't care about quarterly dividend schedules, and one S&P 500 ETF built its entire identity around solving that mismatch. But the convenience of a monthly paycheck comes with a cost that decade-long performance data makes impossible to ignore."
       },
       {
-        "title": "S&P 500, Dow Extend Losses From Elevated Yield Pressure \u2014 SPCX, TGT, AAPL, MU, NTAP In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-extend-losses-from-elevated-yield-pressure-spcx-tgt-aapl-mu-ntap-in-focus/cZMZLlCRBW0?.tsrc=rss",
-        "time_published": "2026-09-29 22:30",
-        "source": "Stocktwits",
-        "summary": "30-year Treasury yields are at their highest level since 2002."
-      },
-      {
-        "title": "AMC Sinks 7%, Gives Back Part of Sharp Rally; Cinemark and IMAX Dip",
-        "url": "https://247wallst.com/investing/2026/09/29/amc-sinks-7-gives-back-part-of-sharp-rally-cinemark-and-imax-dip/?.tsrc=rss",
-        "time_published": "2026-09-29 16:55",
+        "title": "Wall Street Now Sells 11 Weekly-Pay ETFs. Only Three Have Beaten the S&P. Here They Are",
+        "url": "https://247wallst.com/investing/etf/2026/09/30/wall-street-now-sells-11-weekly-pay-etfs-only-three-have-beaten-the-sp-here-they-are/?.tsrc=rss",
+        "time_published": "2026-09-30 21:35",
         "source": "247wallst",
-        "summary": "AMC stock is bleeding out a big chunk of its prior-session surge while Cinemark and IMAX barely flinch, and that split tells you something important about who is actually driving the selling."
+        "summary": "Eleven ETFs promise a deposit every Friday, but owning the wrong one cost investors more than half their money in a single year. The three that actually outpaced the S&P 500 share a surprising reason that has nothing to do with the weekly payout structure itself."
       },
       {
-        "title": "5 International ETFs Up at Least 20% in 2026 & Beating the S&P 500",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/5-international-etfs-least-20-112000447.html?.tsrc=rss",
-        "time_published": "2026-09-30 11:20",
+        "title": "S&P 500 Looks Fine Going Into October. Is the Number Underneath a Warning?",
+        "url": "https://beincrypto.com/sp500-september-stocks-fell-october/?.tsrc=rss",
+        "time_published": "2026-10-01 11:00",
+        "source": "Beincrypto",
+        "summary": "The S&P 500 ends its weakest month slightly higher, yet 75% of stocks fell. See what October seasonality and breadth show."
+      },
+      {
+        "title": "Which Airline Stock Dominated in September: American, United, or Delta?",
+        "url": "https://247wallst.com/investing/2026/09/30/which-airline-stock-dominated-in-september-american-united-or-delta/?.tsrc=rss",
+        "time_published": "2026-09-30 19:03",
+        "source": "247wallst",
+        "summary": "Three major airlines faced the same turbulent September, but one carrier broke sharply from the pack while another sank deeper into trouble. The gap between winner and loser tells a story about which airline model investors actually trust right now."
+      },
+      {
+        "title": "ChargePoint Jumps 7% as Electric September Run Persists; EVgo Falls 3%, Blink Charging Slips",
+        "url": "https://247wallst.com/investing/2026/09/30/chargepoint-jumps-7-as-electric-september-run-persists-evgo-falls-3-blink-charging-slips/?.tsrc=rss",
+        "time_published": "2026-09-30 17:42",
+        "source": "247wallst",
+        "summary": "ChargePoint surged while its closest rivals slipped, raising a pointed question about whether one company is pulling ahead in the EV charging race or simply running a sprint the rest of the sector will eventually join."
+      },
+      {
+        "title": "Buy Any Marvell Technology Pullbacks When They Happen",
+        "url": "https://247wallst.com/investing/2026/10/01/buy-any-marvell-technology-pullbacks-when-they-happen/?.tsrc=rss",
+        "time_published": "2026-10-01 12:45",
+        "source": "247wallst",
+        "summary": "Marvell just posted record revenue and raised guidance, yet its stock sits nearly 20% off its highs while AI sentiment drags it lower. Three upcoming catalysts could determine whether this gap closes or widens."
+      },
+      {
+        "title": "Elevated equity positioning, leverage could challenge stocks in Q4: JPMorgan",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/elevated-equity-positioning-leverage-could-123801604.html?.tsrc=rss",
+        "time_published": "2026-10-01 12:38",
         "source": "Finance",
-        "summary": "International ETFs are outperforming the S&P 500 in 2026, led by strong gains across Asian and global markets. Here are five ETFs to watch."
+        "summary": "Investing.com -- JPMorgan said in a note Thursday that excesses in equity positioning and leverage have returned, which could act as a headwind for stocks in the fourth quarter."
       },
       {
-        "title": "Netflix Just Keeps Falling: Here\u2019s Why One Wall Street Pro Remains Resolute That 90% Await Today\u2019s Buyers",
-        "url": "https://247wallst.com/investing/2026/09/30/netflix-just-keeps-falling-heres-why-one-wall-street-pro-remains-resolute-that-90-await-todays-buyers/?.tsrc=rss",
-        "time_published": "2026-09-30 11:15",
+        "title": "Constellation Energy Has Crushed Investors in 2026: 75% Gains Are Coming According to One Pro Analyst on Wall Street",
+        "url": "https://247wallst.com/investing/2026/10/01/constellation-energy-has-crushed-investors-in-2026-75-gains-are-coming-according-to-one-pro-analyst-on-wall-street/?.tsrc=rss",
+        "time_published": "2026-10-01 11:15",
         "source": "247wallst",
-        "summary": "Netflix has shed more than 40% in a year while one top Wall Street analyst holds a target that towers above the crowd. The question is whether the bull case rests on a real inflection or wishful thinking about ads and live events."
-      },
-      {
-        "title": "Tesla Is Running Their Old Announce And Delay Playbook With The Roadster",
-        "url": "https://247wallst.com/investing/2026/09/30/tesla-is-running-their-old-announce-and-delay-playbook-with-the-roadster/?.tsrc=rss",
-        "time_published": "2026-09-30 11:15",
-        "source": "247wallst",
-        "summary": "Tesla keeps setting bold product deadlines, and the stock keeps rallying on the reveal before the date quietly disappears. With several major 2026 targets now on the clock, investors face a question of whether this time is different or the same playbook runs again."
-      },
-      {
-        "title": "Why Are Nasdaq Futures Rising Premarket? MU, TSLA, CAPR, VNDA, ASTS, HOOD, BA Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-rise-pce-gdp-micron-tesla-capr-vnda-hood-stocks/cZMFR9TRBhd?.tsrc=rss",
-        "time_published": "2026-09-30 08:29",
-        "source": "Stocktwits",
-        "summary": "On Stocktwits, retail sentiment toward SPY and QQQ stayed \u2018bullish.\u2019"
-      },
-      {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/09/62069859/stock-market-will-sp-500-open-up-or-down-today-47?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-09-30 05:14",
-        "source": "Benzinga",
-        "summary": "U.S. stock futures are trending higher early Wednesday as Wall Street assesses fresh corporate earnings, stabilizing oil prices, and significant domestic inflation data amidst shifting geopolitical dynamics. The Polymarket (CRYPTO: POL) crowd is leaning heavily bullish for the Sept. 30..."
+        "summary": "Constellation Energy runs the largest nuclear fleet in the country, guidance keeps climbing, and yet the stock sits near a 52-week low. One Wall Street analyst sees a very specific path back to all-time highs, but it hinges entirely on regulators moving on schedule."
       }
     ],
     "oil": [
