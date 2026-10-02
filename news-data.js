@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-01T13:06:42Z",
+  "generated": "2026-10-02T12:28:07Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Treasury Yields Lift DXY as EUR/USD and GBP/USD Retreat",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-treasury-083755824.html?.tsrc=rss",
+        "time_published": "2026-10-01 08:37",
+        "source": "Finance",
+        "summary": "Elevated Treasury yields support DXY as EUR/USD breaks key support and GBP/USD remains under pressure ahead of U.S. employment data."
+      },
       {
         "title": "US Dollar Price Forecast: Rising Yields Lift DXY as EUR/USD and GBP/USD Diverge",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-rising-070620837.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-09-17 08:17",
         "source": "Finance",
         "summary": "DXY strengthens after the Fed signals further tightening, while EUR/USD remains pressured and GBP/USD awaits the Bank of England policy decision."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Rate Path in Focus as EUR and GBP Stay Under Pressure",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-083232199.html?.tsrc=rss",
-        "time_published": "2026-09-16 08:32",
-        "source": "Finance",
-        "summary": "DXY holds bullish support ahead of the Fed decision as traders focus on Warsh\u2019s rate guidance, while EUR/USD and GBP/USD remain pressured."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Treasury Yields Lift DXY as EUR/USD and GBP/USD Retreat",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-treasury-083755824.html?.tsrc=rss",
+        "time_published": "2026-10-01 08:37",
+        "source": "Finance",
+        "summary": "Elevated Treasury yields support DXY as EUR/USD breaks key support and GBP/USD remains under pressure ahead of U.S. employment data."
+      },
       {
         "title": "US Dollar Price Forecast: Rising Yields Lift DXY as EUR/USD and GBP/USD Diverge",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-rising-070620837.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-18 06:30",
         "source": "Finance",
         "summary": "DXY remains supported by Fed tightening as the BoE turns more hawkish and the ECB urges patience, with EUR/USD and GBP/USD testing key levels."
-      },
-      {
-        "title": "US Dollar Price Forecast: Dollar Strengthens as Fed-BoE Policy Divergence Widens; Key Levels for EUR/USD and GBP/USD",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081747889.html?.tsrc=rss",
-        "time_published": "2026-09-17 08:17",
-        "source": "Finance",
-        "summary": "DXY strengthens after the Fed signals further tightening, while EUR/USD remains pressured and GBP/USD awaits the Bank of England policy decision."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,70 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Forget Waiting Three Months for SPY\u2019s Dividend. Invesco\u2019s High-Dividend Fund Pays Every Month",
-        "url": "https://247wallst.com/investing/etf/2026/09/30/forget-waiting-three-months-for-spys-dividend-invescos-high-dividend-fund-pays-every-month/?.tsrc=rss",
-        "time_published": "2026-09-30 23:06",
+        "title": "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Cheer Cooling Yields \u2014 GOOGL, MU, MAT, NVDA In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-inch-higher-as-investors-cheer-cooling-yields-googl-mu-mat-nvda-in-focus/cZD0mZmRB01?.tsrc=rss",
+        "time_published": "2026-10-01 23:27",
+        "source": "Stocktwits",
+        "summary": "10-year Treasury yields cooled off from the 2002 highs on Thursday."
+      },
+      {
+        "title": "IWM Has Trailed the S&P 500 for a Decade While Carrying More Risk: The Small-Cap Premium That Never Fully Arrived",
+        "url": "https://247wallst.com/investing/etf/2026/10/02/iwm-has-trailed-the-sp-500-for-a-decade-while-carrying-more-risk-the-small-cap-premium-that-never-fully-arrived/?.tsrc=rss",
+        "time_published": "2026-10-02 11:33",
         "source": "247wallst",
-        "summary": "Monthly bills don't care about quarterly dividend schedules, and one S&P 500 ETF built its entire identity around solving that mismatch. But the convenience of a monthly paycheck comes with a cost that decade-long performance data makes impossible to ignore."
+        "summary": "Millions of retirement portfolios hold small-cap funds on the promise that extra risk earns extra reward over time. That bargain deserves a hard look at what actually happened across the last decade."
       },
       {
-        "title": "Wall Street Now Sells 11 Weekly-Pay ETFs. Only Three Have Beaten the S&P. Here They Are",
-        "url": "https://247wallst.com/investing/etf/2026/09/30/wall-street-now-sells-11-weekly-pay-etfs-only-three-have-beaten-the-sp-here-they-are/?.tsrc=rss",
-        "time_published": "2026-09-30 21:35",
+        "title": "Accenture Lost 15% Over a Year: One Analyst Says It Will Rise 30% on AI and Digital Transformation",
+        "url": "https://247wallst.com/investing/2026/10/02/accenture-lost-15-over-a-year-one-analyst-says-it-will-rise-30-on-ai-and-digital-transformation/?.tsrc=rss",
+        "time_published": "2026-10-02 11:15",
         "source": "247wallst",
-        "summary": "Eleven ETFs promise a deposit every Friday, but owning the wrong one cost investors more than half their money in a single year. The three that actually outpaced the S&P 500 share a surprising reason that has nothing to do with the weekly payout structure itself."
+        "summary": "Accenture shed nearly 60% from its peak on fears that AI would gut its consulting revenue, then surged in a single session after earnings. One analyst still sees 30% upside from here, but the broader Wall Street consensus tells a very different story."
       },
       {
-        "title": "S&P 500 Looks Fine Going Into October. Is the Number Underneath a Warning?",
-        "url": "https://beincrypto.com/sp500-september-stocks-fell-october/?.tsrc=rss",
-        "time_published": "2026-10-01 11:00",
-        "source": "Beincrypto",
-        "summary": "The S&P 500 ends its weakest month slightly higher, yet 75% of stocks fell. See what October seasonality and breadth show."
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62126419/stock-market-will-sp-500-open-up-or-down-today-49?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-02 05:47",
+        "source": "Benzinga",
+        "summary": "U.S. stock futures are trending higher early Friday as investors brace for the critical September jobs report and monitor widening U.S. sanctions against Iran amid escalating bond market jitters. The Polymarket (CRYPTO: POL) crowd is leaning bullish for the Oct...."
       },
       {
-        "title": "Which Airline Stock Dominated in September: American, United, or Delta?",
-        "url": "https://247wallst.com/investing/2026/09/30/which-airline-stock-dominated-in-september-american-united-or-delta/?.tsrc=rss",
-        "time_published": "2026-09-30 19:03",
+        "title": "The Hidden Cost of Owning Every Stock: $167,050 of a $500,000 VTI Position Sits in Its Top Ten Names",
+        "url": "https://247wallst.com/investing/etf/2026/10/01/the-hidden-cost-of-owning-every-stock-167050-of-a-500000-vti-position-sits-in-its-top-ten-names/?.tsrc=rss",
+        "time_published": "2026-10-02 00:33",
         "source": "247wallst",
-        "summary": "Three major airlines faced the same turbulent September, but one carrier broke sharply from the pack while another sank deeper into trouble. The gap between winner and loser tells a story about which airline model investors actually trust right now."
+        "summary": "A fund owning thousands of stocks sounds like true diversification, but the math behind a $500,000 VTI position tells a more uncomfortable story about where your money actually goes."
       },
       {
-        "title": "ChargePoint Jumps 7% as Electric September Run Persists; EVgo Falls 3%, Blink Charging Slips",
-        "url": "https://247wallst.com/investing/2026/09/30/chargepoint-jumps-7-as-electric-september-run-persists-evgo-falls-3-blink-charging-slips/?.tsrc=rss",
-        "time_published": "2026-09-30 17:42",
+        "title": "Tesla Is Down 20% in 2026. These Two Other EV Makers Are Doing Even Worse.",
+        "url": "https://247wallst.com/investing/2026/10/01/tesla-is-down-20-in-2026-these-two-other-ev-makers-are-doing-even-worse/?.tsrc=rss",
+        "time_published": "2026-10-01 19:13",
         "source": "247wallst",
-        "summary": "ChargePoint surged while its closest rivals slipped, raising a pointed question about whether one company is pulling ahead in the EV charging race or simply running a sprint the rest of the sector will eventually join."
+        "summary": "Tesla stock has had a rough 2026, but two smaller EV rivals have seen their shares fall even harder, and the gap between them reveals something unsettling about where Wall Street thinks the future of electric vehicles actually lives."
       },
       {
-        "title": "Buy Any Marvell Technology Pullbacks When They Happen",
-        "url": "https://247wallst.com/investing/2026/10/01/buy-any-marvell-technology-pullbacks-when-they-happen/?.tsrc=rss",
-        "time_published": "2026-10-01 12:45",
+        "title": "Snap Is Down 32% in 2026: Overlooked Bargain or Toxic Stock?",
+        "url": "https://247wallst.com/investing/2026/10/01/snap-is-down-32-in-2026-overlooked-bargain-or-toxic-stock/?.tsrc=rss",
+        "time_published": "2026-10-01 19:02",
         "source": "247wallst",
-        "summary": "Marvell just posted record revenue and raised guidance, yet its stock sits nearly 20% off its highs while AI sentiment drags it lower. Three upcoming catalysts could determine whether this gap closes or widens."
+        "summary": "Snap has lost nearly a third of its value this year while quietly building something most beaten-down stocks lack. Whether that foundation is enough to survive what management itself calls an uncertain legal landscape is the real question facing buyers right now."
       },
       {
-        "title": "Elevated equity positioning, leverage could challenge stocks in Q4: JPMorgan",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/elevated-equity-positioning-leverage-could-123801604.html?.tsrc=rss",
-        "time_published": "2026-10-01 12:38",
-        "source": "Finance",
-        "summary": "Investing.com -- JPMorgan said in a note Thursday that excesses in equity positioning and leverage have returned, which could act as a headwind for stocks in the fourth quarter."
-      },
-      {
-        "title": "Constellation Energy Has Crushed Investors in 2026: 75% Gains Are Coming According to One Pro Analyst on Wall Street",
-        "url": "https://247wallst.com/investing/2026/10/01/constellation-energy-has-crushed-investors-in-2026-75-gains-are-coming-according-to-one-pro-analyst-on-wall-street/?.tsrc=rss",
-        "time_published": "2026-10-01 11:15",
+        "title": "Applied Optoelectronics Is Up 205% This Year. Is It Too Late to Buy AAOI Stock Now?",
+        "url": "https://247wallst.com/investing/2026/10/01/applied-optoelectronics-is-up-205-this-year-is-it-too-late-to-buy-aaoi-stock-now/?.tsrc=rss",
+        "time_published": "2026-10-01 18:55",
         "source": "247wallst",
-        "summary": "Constellation Energy runs the largest nuclear fleet in the country, guidance keeps climbing, and yet the stock sits near a 52-week low. One Wall Street analyst sees a very specific path back to all-time highs, but it hinges entirely on regulators moving on schedule."
+        "summary": "Applied Optoelectronics has left its optical rivals and the broader chip sector in the dust this year, but the expansion driving that run is still under construction. Whether buyers step in now or wait depends on how much execution risk they are willing to accept."
       }
     ],
     "oil": [
+      {
+        "title": "Brent Oil Is Back Above $100 as a Third Aircraft Carrier Heads to the Middle East",
+        "url": "https://247wallst.com/investing/2026/10/02/brent-oil-is-back-above-100-as-a-third-aircraft-carrier-heads-to-the-middle-east/?.tsrc=rss",
+        "time_published": "2026-10-02 11:35",
+        "source": "247wallst",
+        "summary": "A third US carrier is reportedly heading to the Middle East and China just cut off fuel exports, hitting oil markets with two shocks at once. Whether the price spike holds or collapses depends on what happens before October ends."
+      },
       {
         "title": "Simplify Tops Madison Dearborn With a Rival Bid for USCF",
         "url": "http://www.etf.com/sections/features/simplify-tops-madison-dearborn-rival-bid-uscf?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-18 16:10",
         "source": "247wallst",
         "summary": "DBO's roll-yield strategy turned crude's backwardation into a triple-digit gain this year, but the EIA sees WTI dropping more than $30 by spring and no futures trick can outrun a slide that big."
-      },
-      {
-        "title": "The Fed\u2019s Rate Hike Could Backfire If Oil Prices Collapse",
-        "url": "https://www.marketbeat.com/articles/the-feds-rate-hike-could-backfire-if-oil-prices-collapse/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "time_published": "2026-09-17 16:30",
-        "source": "Marketbeat",
-        "summary": "After the Fed's September rate hike, oil futures show backwardation signaling lower prices ahead as demand destruction and rising non-OPEC supply threaten to undercut inflation and economic growth."
       }
     ]
   }

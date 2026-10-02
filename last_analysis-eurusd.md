@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-09-30
-**Generated:** 2026-09-30T12:27:18Z
+**Date:** 2026-10-02
+**Generated:** 2026-10-02T12:24:30Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | WAIT |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.13569 |
-| **Stop Loss** | 1.14000 |
-| **Target 1** | 1.13200 |
-| **Target 2** | 1.12800 |
-| **Risk/Reward** | 1.68 |
-| **Score** | 7/10 confirmed |
-| **Support** | 1.13, 1.125, 1.12 |
-| **Resistance** | 1.14, 1.15035, 1.15227 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 4/10 confirmed |
+| **Support** | 1.12, 1.115, 1.11 |
+| **Resistance** | 1.13, 1.135, 1.14 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong downtrend with price trading well below both the 50- and 200-period EMAs (1.15035 and 1.15227). This confirms the bearish EMA alignment, and recent price action has respected the declining structure. The candlestick patterns over the last five candles—Doji, Shooting Star, and Evening Star—are all bearish reversal signals that reinforce the continuation of selling pressure, despite the oversold condition on the RSI.  
+The price is firmly entrenched in a strong downtrend, trading well below both the EMA50 (1.14824) and EMA200 (1.15318). The ATR of 48 pips indicates moderate daily volatility, while the RSI at 12.32 is in extreme oversold territory, suggesting the selling pressure may be exhausted in the near term. The last five candles include an Inverted Hammer, a potential bullish reversal pattern often seen at the end of a downtrend. However, the MACD remains bearish (line below signal, negative histogram), and there is no RSI divergence to confirm a momentum shift. The signal score of 4/10 reflects the conflict between the oversold condition and the persistent bearish momentum.
 
-RSI at 23.58 is deep in oversold territory, but the absence of any bullish divergence means momentum remains firmly bearish. The MACD line is below the signal line with a negative histogram, confirming bearish momentum. While oversold readings can precede bounces, the lack of divergence and the presence of bearish candlestick patterns suggest any rally would likely be short-lived and could offer better entry levels for shorts rather than a reversal.  
+No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. Key support near 1.1200 (psychological round number) and 1.1150 (prior swing low) could hold a bounce, while resistance is clustered at 1.1300 (recent minor high), 1.1350, and the far-off EMA50 at 1.1482. The lack of MACD agreement and the absence of bullish divergence reduce the reliability of the Inverted Hammer alone. A prudent approach is to wait for confirmation—such as a daily close above the hammer’s high (approx 1.1260) or a bullish MACD crossover—before committing to a long position. The strong downtrend cautions against chasing a reversal without additional evidence.
 
-Key support is the psychological 1.1300 level, with further support near 1.1250. Resistance is immediate at 1.1400 (recent swing high and potential stop-run area), followed by the EMAs around 1.1500. The current price is near the lower end of the recent range, but the trend is strong enough to target a break below 1.1300. The risk-to-reward ratio is favourable, with a stop above 1.1400 and targets at 1.1320 and 1.1280.  
-
-The signal score of 7/10 reflects the strong confluence of bearish trend, MACD, and candlestick patterns, partially offset by the oversold RSI which reduces confidence to medium. Overall, the setup favours selling into weakness with a tight stop to manage the risk of a sudden short-covering rally.
+RISK ASSESSMENT: A premature buy could be caught in a continuation of the downtrend, especially if the oversold RSI fails to attract buyers and price breaks below the 1.1200 support. The lack of bullish momentum from MACD and the wide distance to the EMAs increase the risk of a false reversal. Waiting for confirmation mitigates this risk and improves the probability of a successful trade.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.14000 would break the immediate resistance and signal a potential short-term reversal, invalidating this bearish setup.
+A daily close below the Inverted Hammer’s low (approx 1.1200) would cancel any bullish reversal expectation and confirm continued downtrend.
 
 ---
 

@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-10-01T13:02:27Z",
+  "generated": "2026-10-02T12:23:21Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "decision": "BUY",
   "confidence": "MEDIUM",
-  "entry": "1.32424",
-  "stop_loss": "1.31850",
+  "entry": "1.32103",
+  "stop_loss": "1.31550",
   "target_1": "1.33000",
-  "target_2": "1.34100",
-  "risk_reward": "1:1.0",
+  "target_2": "1.33960",
+  "risk_reward": "1:1.63 (target 1) / 1:3.37 (target 2)",
   "score": "8/10",
-  "analysis": "The daily chart shows a strong downtrend confirmed by price trading well below both the EMA50 (1.34057) and EMA200 (1.34124). However, recent price action reveals a notable Bullish Engulfing pattern, which often signals a potential reversal when combined with oversold momentum. The RSI has printed a bullish divergence \u2014 price made a lower low while RSI formed a higher low \u2014 indicating weakening selling pressure. This divergence conflicts with the bearish MACD (line below signal, negative histogram), but the MACD histogram has been narrowing, which can foreshadow a bullish crossover.\n\nThe presence of both a Bullish Engulfing and a Hanging Man within the last five candles introduces caution: the Hanging Man is a bearish candlestick that can trap buyers in a downtrend, but in this context it may represent a temporary pause rather than a continuation. The overall signal score of 8/10 suggests a high-probability setup, likely driven by the confluence of the bullish divergence and engulfing pattern. Nearest resistance is the psychological 1.3300 level, followed by the EMA cluster above 1.3400. Support lies at the recent swing low near 1.3180 and the round 1.3200 figure.\n\nGiven the strong underlying downtrend, this is a counter-trend trade with medium confidence. The risk-to-reward ratio is roughly 1:1 to the first target, making it a reasonable short-term reversal play. A stop loss set just below the recent low (1.3185) limits downside risk to approximately 57 pips, in line with the ATR of 55 pips. If the bullish divergence materialises, the pair could retrace toward the declining moving averages, providing a favourable risk-adjusted opportunity.",
-  "invalidation": "N/A",
+  "analysis": "The price at 1.32103 sits well below both the EMA50 (1.33963) and EMA200 (1.34135), confirming the pre-calculated strong downtrend. However, the bullish engulfing candlestick pattern observed in the last five candles suggests a potential reversal from oversold conditions. This pattern, combined with the RSI bullish divergence (price making lower lows while RSI prints higher lows), indicates that selling momentum may be exhausting. No additional chart patterns like triangles or flags are evident from the given data, but the engulfing itself is a powerful reversal signal.\n\nKey support levels near current price include the psychological 1.3200 round number, followed by 1.3150 (likely recent swing low) and 1.3100. On the upside, immediate resistance is at 1.3300 (round number), then the EMA50 at 1.3396, and finally the EMA200 at 1.3414. The RSI at 30.53 is neutral but near oversold territory, and the bullish divergence adds weight to a potential bounce. The MACD remains bearish (line below signal) with a negative histogram, which does not yet confirm a reversal, but the divergence and candlestick pattern are leading indicators that often precede a MACD crossover.\n\nThe single best trade setup is a counter-trend buy, capitalizing on the high-probability reversal signals. Entry at current price with a stop loss placed below the recent low (estimated at 1.3155, 55 pips below entry, matching the ATR). Target 1 is set at 1.3300 (first resistance), and target 2 at the EMA50 (1.3396). The risk-reward ratio is favorable, especially if the move reaches the second target. The signal score of 8/10 is confirmed, as the confluence of bullish divergence and engulfing outweighs the prevailing downtrend, but confidence is medium due to the strong trend context.\n\nRisk assessment: This is a counter-trend trade, so the primary risk is that the downtrend resumes, breaking below the engulfing candle\u2019s low. The stop loss is tight relative to the ATR, limiting downside to about 55 pips. Position sizing should be conservative given the medium confidence. A failure of the divergence or a quick rejection at resistance could also lead to a loss. The trade relies on a swift reversal; if price stalls or forms a lower low, the setup is invalidated.",
+  "invalidation": "A daily close below the low of the bullish engulfing candle (approximately 1.3180) would cancel this setup and suggest continued downtrend.",
   "support_levels": [
     1.32,
-    1.318,
-    1.315
+    1.315,
+    1.31
   ],
   "resistance_levels": [
     1.33,
-    1.3406,
-    1.3412
+    1.3396,
+    1.3414
   ]
 };
