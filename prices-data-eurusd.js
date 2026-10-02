@@ -1,36 +1,24 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-01T12:03:08Z",
-  "date": "2026-10-01",
-  "price": 1.13046,
-  "atr": 0.00451,
-  "atr_pips": 45,
+  "generated": "2026-10-02T11:34:25Z",
+  "date": "2026-10-02",
+  "price": 1.12397,
+  "atr": 0.00481,
+  "atr_pips": 48,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.14947,
-  "ema200": 1.15316,
-  "rsi": 15.71,
-  "macd_line": -0.006453,
-  "macd_signal": -0.005313,
-  "macd_hist": -0.00114,
+  "ema50": 1.14824,
+  "ema200": 1.15318,
+  "rsi": 12.32,
+  "macd_line": -0.007535,
+  "macd_signal": -0.005836,
+  "macd_hist": -0.001699,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-09-27",
-      "name": "Shooting Star",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
-    },
-    {
-      "date": "2026-09-27",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-09-30",
       "name": "Inverted Hammer",
@@ -38,16 +26,9 @@ window.PRICES_DATA_EURUSD = {
       "strength": 3
     }
   ],
-  "score": 6,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-24",
-      "open": 1.13819,
-      "high": 1.13848,
-      "low": 1.13239,
-      "close": 1.13586
-    },
     {
       "date": "2026-06-25",
       "open": 1.1359,
@@ -738,8 +719,15 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-10-01",
       "open": 1.13298,
       "high": 1.1337,
-      "low": 1.12668,
-      "close": 1.13046
+      "low": 1.12159,
+      "close": 1.12428
+    },
+    {
+      "date": "2026-10-02",
+      "open": 1.1242,
+      "high": 1.12685,
+      "low": 1.12281,
+      "close": 1.12397
     }
   ]
 };

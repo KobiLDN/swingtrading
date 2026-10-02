@@ -1,21 +1,21 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-10-01T12:03:07Z",
-  "date": "2026-10-01",
-  "price": 1.32424,
-  "atr": 0.0055,
+  "generated": "2026-10-02T11:34:24Z",
+  "date": "2026-10-02",
+  "price": 1.32103,
+  "atr": 0.00546,
   "atr_pips": 55,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.34057,
-  "ema200": 1.34124,
-  "rsi": 31.44,
-  "macd_line": -0.007022,
-  "macd_signal": -0.006575,
-  "macd_hist": -0.000447,
+  "ema50": 1.33963,
+  "ema200": 1.34135,
+  "rsi": 30.53,
+  "macd_line": -0.007376,
+  "macd_signal": -0.006796,
+  "macd_hist": -0.00058,
   "trend": "STRONG DOWNTREND",
   "divergence": "BULLISH",
   "patterns": [
@@ -24,24 +24,11 @@ window.PRICES_DATA = {
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
-    },
-    {
-      "date": "2026-10-01",
-      "name": "Hanging Man",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
     }
   ],
   "score": 8,
   "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-06-24",
-      "open": 1.3203,
-      "high": 1.32095,
-      "low": 1.31416,
-      "close": 1.31703
-    },
     {
       "date": "2026-06-25",
       "open": 1.31696,
@@ -732,8 +719,15 @@ window.PRICES_DATA = {
       "date": "2026-10-01",
       "open": 1.32631,
       "high": 1.32726,
-      "low": 1.31933,
-      "close": 1.32424
+      "low": 1.31814,
+      "close": 1.3195
+    },
+    {
+      "date": "2026-10-02",
+      "open": 1.31936,
+      "high": 1.3221,
+      "low": 1.31824,
+      "close": 1.32103
     }
   ]
 };
