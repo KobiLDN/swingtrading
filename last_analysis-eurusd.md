@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-10-02
-**Generated:** 2026-10-02T12:24:30Z
+**Date:** 2026-10-05
+**Generated:** 2026-10-05T14:27:29Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | MEDIUM |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 4/10 confirmed |
+| **Decision** | SELL |
+| **Confidence** | LOW |
+| **Entry** | 1.12121 |
+| **Stop Loss** | 1.12600 |
+| **Target 1** | 1.11500 |
+| **Target 2** | 1.11000 |
+| **Risk/Reward** | 1.24 (for T1) / 2.24 (for T2) |
+| **Score** | 6/10 |
 | **Support** | 1.12, 1.115, 1.11 |
-| **Resistance** | 1.13, 1.135, 1.14 |
+| **Resistance** | 1.125, 1.13, 1.135 |
 
 ---
 
 ## Analysis
 
-The price is firmly entrenched in a strong downtrend, trading well below both the EMA50 (1.14824) and EMA200 (1.15318). The ATR of 48 pips indicates moderate daily volatility, while the RSI at 12.32 is in extreme oversold territory, suggesting the selling pressure may be exhausted in the near term. The last five candles include an Inverted Hammer, a potential bullish reversal pattern often seen at the end of a downtrend. However, the MACD remains bearish (line below signal, negative histogram), and there is no RSI divergence to confirm a momentum shift. The signal score of 4/10 reflects the conflict between the oversold condition and the persistent bearish momentum.
+The price action strongly confirms the EMA-based downtrend: price is well below both the 50- and 200-period EMAs (1.14477 and 1.15277), and the trend is explicitly labeled as a strong downtrend. The Evening Star candlestick pattern observed in the last five candles is a bearish reversal formation, which in the context of an existing downtrend often acts as a continuation signal, reinforcing the likelihood of further downside.
 
-No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. Key support near 1.1200 (psychological round number) and 1.1150 (prior swing low) could hold a bounce, while resistance is clustered at 1.1300 (recent minor high), 1.1350, and the far-off EMA50 at 1.1482. The lack of MACD agreement and the absence of bullish divergence reduce the reliability of the Inverted Hammer alone. A prudent approach is to wait for confirmation—such as a daily close above the hammer’s high (approx 1.1260) or a bullish MACD crossover—before committing to a long position. The strong downtrend cautions against chasing a reversal without additional evidence.
+No additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the given data. Key support levels near current price are the psychological round numbers 1.1200, 1.1150, and 1.1100, while resistance lies at 1.1250, 1.1300, and 1.1350. The RSI at 14.22 is deeply oversold, but without any bullish divergence, it does not contradict the bearish trend—it merely warns of potential exhaustion. The MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend.
 
-RISK ASSESSMENT: A premature buy could be caught in a continuation of the downtrend, especially if the oversold RSI fails to attract buyers and price breaks below the 1.1200 support. The lack of bullish momentum from MACD and the wide distance to the EMAs increase the risk of a false reversal. Waiting for confirmation mitigates this risk and improves the probability of a successful trade.
+The single best trade setup is a short entry at the current price of 1.12121, with a stop loss placed above the recent swing high (estimated near 1.1260) to protect against a sharp bounce. Targets are set at the next support levels: 1.1150 (first) and 1.1100 (second). The risk-reward ratio is acceptable for a swing trade, though the oversold RSI lowers confidence. The original signal score of 6/10 is maintained, reflecting moderate technical confluence but elevated caution due to extreme RSI readings.
 
 ---
 
 ## Invalidation
 
-A daily close below the Inverted Hammer’s low (approx 1.1200) would cancel any bullish reversal expectation and confirm continued downtrend.
+This short setup is invalidated if price breaks above the recent swing high near 1.1250, indicating a potential reversal or loss of downside momentum.
 
 ---
 

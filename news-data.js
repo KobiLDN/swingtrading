@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-02T12:28:07Z",
+  "generated": "2026-10-05T14:30:38Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Soft NFP Hits Fed Bets, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-soft-081809134.html?.tsrc=rss",
+        "time_published": "2026-10-05 08:18",
+        "source": "Finance",
+        "summary": "Weak U.S. payrolls cut October Fed hike bets, but elevated yields keep DXY firm as EUR/USD breaks support and GBP/USD struggles below 1.3250."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Holds Firm Ahead of NFP, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-080831560.html?.tsrc=rss",
+        "time_published": "2026-10-02 08:08",
+        "source": "Finance",
+        "summary": "DXY holds above 101.76 as higher Treasury yields support the dollar, while EUR/USD and GBP/USD attempt recoveries ahead of September NFP."
+      },
       {
         "title": "US Dollar Price Forecast: Treasury Yields Lift DXY as EUR/USD and GBP/USD Retreat",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-treasury-083755824.html?.tsrc=rss",
@@ -43,24 +57,24 @@ window.NEWS_DATA = {
         "time_published": "2026-09-21 08:15",
         "source": "Finance",
         "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD struggle below key resistance levels amid softer European policy outlooks."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds Above 100 as EUR and GBP Face Policy Tests",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-063047247.html?.tsrc=rss",
-        "time_published": "2026-09-18 06:30",
-        "source": "Finance",
-        "summary": "DXY remains supported by Fed tightening as the BoE turns more hawkish and the ECB urges patience, with EUR/USD and GBP/USD testing key levels."
-      },
-      {
-        "title": "US Dollar Price Forecast: Dollar Strengthens as Fed-BoE Policy Divergence Widens; Key Levels for EUR/USD and GBP/USD",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-081747889.html?.tsrc=rss",
-        "time_published": "2026-09-17 08:17",
-        "source": "Finance",
-        "summary": "DXY strengthens after the Fed signals further tightening, while EUR/USD remains pressured and GBP/USD awaits the Bank of England policy decision."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Soft NFP Hits Fed Bets, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-soft-081809134.html?.tsrc=rss",
+        "time_published": "2026-10-05 08:18",
+        "source": "Finance",
+        "summary": "Weak U.S. payrolls cut October Fed hike bets, but elevated yields keep DXY firm as EUR/USD breaks support and GBP/USD struggles below 1.3250."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Holds Firm Ahead of NFP, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-080831560.html?.tsrc=rss",
+        "time_published": "2026-10-02 08:08",
+        "source": "Finance",
+        "summary": "DXY holds above 101.76 as higher Treasury yields support the dollar, while EUR/USD and GBP/USD attempt recoveries ahead of September NFP."
+      },
+      {
         "title": "US Dollar Price Forecast: Treasury Yields Lift DXY as EUR/USD and GBP/USD Retreat",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-treasury-083755824.html?.tsrc=rss",
         "time_published": "2026-10-01 08:37",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-21 08:15",
         "source": "Finance",
         "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD struggle below key resistance levels amid softer European policy outlooks."
-      },
-      {
-        "title": "Gains by the Dollar After the Fed\u2019s Hike",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/gains-dollar-fed-hike-144346017.html?.tsrc=rss",
-        "time_published": "2026-09-18 14:43",
-        "source": "Finance",
-        "summary": "The US dollar moved up against most currencies after the single hike to 3.75-4%."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds Above 100 as EUR and GBP Face Policy Tests",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-063047247.html?.tsrc=rss",
-        "time_published": "2026-09-18 06:30",
-        "source": "Finance",
-        "summary": "DXY remains supported by Fed tightening as the BoE turns more hawkish and the ECB urges patience, with EUR/USD and GBP/USD testing key levels."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Cheer Cooling Yields \u2014 GOOGL, MU, MAT, NVDA In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-inch-higher-as-investors-cheer-cooling-yields-googl-mu-mat-nvda-in-focus/cZD0mZmRB01?.tsrc=rss",
-        "time_published": "2026-10-01 23:27",
+        "title": "International Markets Are Pulling Ahead Of US Stocks In 2026: These 4 ETFs Have Left SPY, QQQ, DIA In The Dust",
+        "url": "https://stocktwits.com/news-articles/markets/equity/international-markets-are-pulling-ahead-of-us-stocks-in-2026-these-4-et-fs-have-left-spy-qqq-dia-in-the-dust/cZDpm1lRBS7?.tsrc=rss",
+        "time_published": "2026-10-05 04:56",
         "source": "Stocktwits",
-        "summary": "10-year Treasury yields cooled off from the 2002 highs on Thursday."
+        "summary": "An artificial intelligence boom, varied macroeconomic policies, and a volatile foreign exchange market have contributed to gains in markets outside the U.S."
       },
       {
-        "title": "IWM Has Trailed the S&P 500 for a Decade While Carrying More Risk: The Small-Cap Premium That Never Fully Arrived",
-        "url": "https://247wallst.com/investing/etf/2026/10/02/iwm-has-trailed-the-sp-500-for-a-decade-while-carrying-more-risk-the-small-cap-premium-that-never-fully-arrived/?.tsrc=rss",
-        "time_published": "2026-10-02 11:33",
+        "title": "Forget the S&P 500: SCHD Is Beating It by Nearly 10 Points in 2026 and Its Dividend Just Grew",
+        "url": "https://247wallst.com/investing/etf/2026/10/04/forget-the-sp-500-schd-is-beating-it-by-nearly-10-points-in-2026-and-its-dividend-just-grew/?.tsrc=rss",
+        "time_published": "2026-10-04 21:03",
         "source": "247wallst",
-        "summary": "Millions of retirement portfolios hold small-cap funds on the promise that extra risk earns extra reward over time. That bargain deserves a hard look at what actually happened across the last decade."
+        "summary": "SCHD has quietly pulled ahead of SPY by a wide margin in 2026, but the longer you zoom out, the more complicated the story gets. Before you shift your portfolio, there are tax consequences and a decade of data worth examining first."
       },
       {
-        "title": "Accenture Lost 15% Over a Year: One Analyst Says It Will Rise 30% on AI and Digital Transformation",
-        "url": "https://247wallst.com/investing/2026/10/02/accenture-lost-15-over-a-year-one-analyst-says-it-will-rise-30-on-ai-and-digital-transformation/?.tsrc=rss",
-        "time_published": "2026-10-02 11:15",
+        "title": "Michael Saylor Says Strategy's STRC Is Now Steadier Than The S&P 500's Biggest Tracker: \u2018A Milestone For Digital Credit\u2019",
+        "url": "https://stocktwits.com/news-articles/markets/equity/michael-saylor-mstr-strc-steady-sp-500-tracker-digital-credit/cZDZpACRB1h?.tsrc=rss",
+        "time_published": "2026-10-03 17:46",
+        "source": "Stocktwits",
+        "summary": "Strategy's chart put its own common stock at 94% and Bitcoin at 39%, leaving the preferred between stocks and bonds on its own measure."
+      },
+      {
+        "title": "3 Option Income ETFs That Pay You 12 Times a Year. Here\u2019s How the Monthly Check Is Generated",
+        "url": "https://247wallst.com/investing/etf/2026/10/02/3-option-income-etfs-that-pay-you-12-times-a-year-heres-how-the-monthly-check-is-generated/?.tsrc=rss",
+        "time_published": "2026-10-02 20:33",
         "source": "247wallst",
-        "summary": "Accenture shed nearly 60% from its peak on fears that AI would gut its consulting revenue, then surged in a single session after earnings. One analyst still sees 30% upside from here, but the broader Wall Street consensus tells a very different story."
+        "summary": "Covered call ETFs promise monthly paychecks, but the mechanism behind each distribution comes with trade-offs most investors never see until a rally leaves them behind or tax season arrives with an unexpected bill."
       },
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62126419/stock-market-will-sp-500-open-up-or-down-today-49?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-02 05:47",
-        "source": "Benzinga",
-        "summary": "U.S. stock futures are trending higher early Friday as investors brace for the critical September jobs report and monitor widening U.S. sanctions against Iran amid escalating bond market jitters. The Polymarket (CRYPTO: POL) crowd is leaning bullish for the Oct...."
+        "title": "JPMorgan Adds New Stocks to Its October Favorites List",
+        "url": "https://beincrypto.com/jpmorgan-october-stock-picks-american-express/?.tsrc=rss",
+        "time_published": "2026-10-05 06:07",
+        "source": "Beincrypto",
+        "summary": "JPMorgan adds American Express, Liberty Energy and Thermo Fisher to its October stock picks after a mixed September."
       },
       {
-        "title": "The Hidden Cost of Owning Every Stock: $167,050 of a $500,000 VTI Position Sits in Its Top Ten Names",
-        "url": "https://247wallst.com/investing/etf/2026/10/01/the-hidden-cost-of-owning-every-stock-167050-of-a-500000-vti-position-sits-in-its-top-ten-names/?.tsrc=rss",
-        "time_published": "2026-10-02 00:33",
+        "title": "Stocktwits Retail Therapy: Consumer Stocks Face Heat But Carnival, Mattel And Stitch Fix Buck The Trend",
+        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-retail-therapy-consumer-stocks-face-heat-but-carnival-mattel-and-stitch-fix-buck-the-trend/cZDpNWdRBSB?.tsrc=rss",
+        "time_published": "2026-10-05 05:29",
+        "source": "Stocktwits",
+        "summary": "Consumer stocks struggled as sector ETFs extended losses, but Carnival, Mattel and Stitch Fix rallied on strong bookings, takeover interest and an analyst upgrade."
+      },
+      {
+        "title": "Is the AI Bull Market About to Crash? This Risk Indicator Is Saying Yes",
+        "url": "https://247wallst.com/investing/2026/10/03/is-the-ai-bull-market-about-to-crash-this-risk-indicator-is-saying-yes/?.tsrc=rss",
+        "time_published": "2026-10-03 14:44",
         "source": "247wallst",
-        "summary": "A fund owning thousands of stocks sounds like true diversification, but the math behind a $500,000 VTI position tells a more uncomfortable story about where your money actually goes."
+        "summary": "Margin debt just hit a level that has historically preceded some of the worst market collapses in recent memory, and one closely watched risk indicator is now flashing a warning that most AI investors are ignoring."
       },
       {
-        "title": "Tesla Is Down 20% in 2026. These Two Other EV Makers Are Doing Even Worse.",
-        "url": "https://247wallst.com/investing/2026/10/01/tesla-is-down-20-in-2026-these-two-other-ev-makers-are-doing-even-worse/?.tsrc=rss",
-        "time_published": "2026-10-01 19:13",
+        "title": "Ondas Climbs 5% on $56M Precision Strike Order as Citizens Starts Coverage; AeroVironment Barely Budges",
+        "url": "https://247wallst.com/investing/2026/10/05/ondas-climbs-5-on-56m-precision-strike-order-as-citizens-starts-coverage-aerovironment-barely-budges/?.tsrc=rss",
+        "time_published": "2026-10-05 13:44",
         "source": "247wallst",
-        "summary": "Tesla stock has had a rough 2026, but two smaller EV rivals have seen their shares fall even harder, and the gap between them reveals something unsettling about where Wall Street thinks the future of electric vehicles actually lives."
-      },
-      {
-        "title": "Snap Is Down 32% in 2026: Overlooked Bargain or Toxic Stock?",
-        "url": "https://247wallst.com/investing/2026/10/01/snap-is-down-32-in-2026-overlooked-bargain-or-toxic-stock/?.tsrc=rss",
-        "time_published": "2026-10-01 19:02",
-        "source": "247wallst",
-        "summary": "Snap has lost nearly a third of its value this year while quietly building something most beaten-down stocks lack. Whether that foundation is enough to survive what management itself calls an uncertain legal landscape is the real question facing buyers right now."
-      },
-      {
-        "title": "Applied Optoelectronics Is Up 205% This Year. Is It Too Late to Buy AAOI Stock Now?",
-        "url": "https://247wallst.com/investing/2026/10/01/applied-optoelectronics-is-up-205-this-year-is-it-too-late-to-buy-aaoi-stock-now/?.tsrc=rss",
-        "time_published": "2026-10-01 18:55",
-        "source": "247wallst",
-        "summary": "Applied Optoelectronics has left its optical rivals and the broader chip sector in the dust this year, but the expansion driving that run is still under construction. Whether buyers step in now or wait depends on how much execution risk they are willing to accept."
+        "summary": "A $56 million safety-critical munitions order just sent one small drone stock surging past AeroVironment and the broader defense ETF, and the real question is whether this contract signals a turning point or another fleeting headline for a company with a complicated history."
       }
     ],
     "oil": [
