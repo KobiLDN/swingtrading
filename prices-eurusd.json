@@ -1,62 +1,34 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-02T11:34:25Z",
-  "date": "2026-10-02",
-  "price": 1.12397,
-  "atr": 0.00481,
-  "atr_pips": 48,
+  "generated": "2026-10-05T13:00:52Z",
+  "date": "2026-10-05",
+  "price": 1.12121,
+  "atr": 0.00463,
+  "atr_pips": 46,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.14824,
-  "ema200": 1.15318,
-  "rsi": 12.32,
-  "macd_line": -0.007535,
-  "macd_signal": -0.005836,
-  "macd_hist": -0.001699,
+  "ema50": 1.14477,
+  "ema200": 1.15277,
+  "rsi": 14.22,
+  "macd_line": -0.008081,
+  "macd_signal": -0.007038,
+  "macd_hist": -0.001042,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-09-30",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
+      "date": "2026-10-05",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 6,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-25",
-      "open": 1.1359,
-      "high": 1.13899,
-      "low": 1.13336,
-      "close": 1.13709
-    },
-    {
-      "date": "2026-06-26",
-      "open": 1.13708,
-      "high": 1.14331,
-      "low": 1.13545,
-      "close": 1.13864
-    },
-    {
-      "date": "2026-06-27",
-      "open": 1.13855,
-      "high": 1.13969,
-      "low": 1.13808,
-      "close": 1.13892
-    },
-    {
-      "date": "2026-06-28",
-      "open": 1.13889,
-      "high": 1.13967,
-      "low": 1.1379,
-      "close": 1.13951
-    },
     {
       "date": "2026-06-29",
       "open": 1.1394,
@@ -725,9 +697,37 @@
     {
       "date": "2026-10-02",
       "open": 1.1242,
-      "high": 1.12685,
-      "low": 1.12281,
-      "close": 1.12397
+      "high": 1.12861,
+      "low": 1.12218,
+      "close": 1.12521
+    },
+    {
+      "date": "2026-10-03",
+      "open": 1.12514,
+      "high": 1.12625,
+      "low": 1.12514,
+      "close": 1.12551
+    },
+    {
+      "date": "2026-10-04",
+      "open": 1.1255,
+      "high": 1.1262,
+      "low": 1.12514,
+      "close": 1.12578
+    },
+    {
+      "date": "2026-10-04",
+      "open": 1.1255,
+      "high": 1.1262,
+      "low": 1.12514,
+      "close": 1.1258
+    },
+    {
+      "date": "2026-10-05",
+      "open": 1.1255,
+      "high": 1.12633,
+      "low": 1.11617,
+      "close": 1.12121
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-10-02T11:34:26Z",
-  "date": "2026-10-01",
-  "price": 150.02,
-  "atr": 5.41,
-  "atr_pips": 5,
+  "generated": "2026-10-05T13:00:54Z",
+  "date": "2026-10-02",
+  "price": 147.37,
+  "atr": 5.59,
+  "atr_pips": 6,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 139.76,
-  "ema200": 117.91,
-  "rsi": 54.98,
-  "macd_line": 3.013263,
-  "macd_signal": 4.477345,
-  "macd_hist": -1.464082,
+  "ema50": 140.05,
+  "ema200": 117.97,
+  "rsi": 52.07,
+  "macd_line": 2.693276,
+  "macd_signal": 4.120532,
+  "macd_hist": -1.427256,
   "trend": "STRONG UPTREND",
-  "divergence": "None",
+  "divergence": "BEARISH",
   "patterns": [
     {
       "date": "2026-09-28",
@@ -26,16 +26,9 @@
       "strength": 5
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 8,
+  "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-05-11",
-      "open": 136.69,
-      "high": 140.9,
-      "low": 135.86,
-      "close": 138.66
-    },
     {
       "date": "2026-05-12",
       "open": 143.83,
@@ -728,6 +721,13 @@
       "high": 150.67,
       "low": 145.59,
       "close": 150.02
+    },
+    {
+      "date": "2026-10-02",
+      "open": 143.56,
+      "high": 148.07,
+      "low": 142.07,
+      "close": 147.37
     }
   ]
 }
