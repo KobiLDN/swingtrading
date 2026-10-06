@@ -1,41 +1,40 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-05T13:00:52Z",
-  "date": "2026-10-05",
-  "price": 1.12121,
-  "atr": 0.00463,
-  "atr_pips": 46,
+  "generated": "2026-10-06T12:25:07Z",
+  "date": "2026-10-06",
+  "price": 1.12712,
+  "atr": 0.00484,
+  "atr_pips": 48,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.14477,
-  "ema200": 1.15277,
-  "rsi": 14.22,
-  "macd_line": -0.008081,
-  "macd_signal": -0.007038,
-  "macd_hist": -0.001042,
+  "ema50": 1.14411,
+  "ema200": 1.15196,
+  "rsi": 29.79,
+  "macd_line": -0.007681,
+  "macd_signal": -0.007157,
+  "macd_hist": -0.000524,
   "trend": "STRONG DOWNTREND",
-  "divergence": "None",
+  "divergence": "BULLISH",
   "patterns": [
     {
       "date": "2026-10-05",
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
-  "score": 6,
-  "verdict": "WATCH",
+  "score": 10,
+  "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-06-29",
-      "open": 1.1394,
-      "high": 1.14309,
-      "low": 1.13812,
-      "close": 1.14248
-    },
     {
       "date": "2026-06-30",
       "open": 1.14245,
@@ -727,7 +726,14 @@
       "open": 1.1255,
       "high": 1.12633,
       "low": 1.11617,
-      "close": 1.12121
+      "close": 1.122
+    },
+    {
+      "date": "2026-10-06",
+      "open": 1.12197,
+      "high": 1.12786,
+      "low": 1.12023,
+      "close": 1.12712
     }
   ]
 }

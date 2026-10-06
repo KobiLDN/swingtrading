@@ -1,21 +1,21 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-10-05T13:00:52Z",
-  "date": "2026-10-05",
-  "price": 1.32193,
-  "atr": 0.00511,
-  "atr_pips": 51,
+  "generated": "2026-10-06T12:25:06Z",
+  "date": "2026-10-06",
+  "price": 1.32782,
+  "atr": 0.00534,
+  "atr_pips": 53,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33732,
-  "ema200": 1.34044,
-  "rsi": 33.54,
-  "macd_line": -0.006112,
-  "macd_signal": -0.00653,
-  "macd_hist": 0.000418,
+  "ema50": 1.33696,
+  "ema200": 1.34007,
+  "rsi": 44.42,
+  "macd_line": -0.005428,
+  "macd_signal": -0.006305,
+  "macd_hist": 0.000877,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -30,18 +30,23 @@ window.PRICES_DATA = {
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-29",
-      "open": 1.32075,
-      "high": 1.32627,
-      "low": 1.31914,
-      "close": 1.32599
-    },
     {
       "date": "2026-06-30",
       "open": 1.32596,
@@ -733,7 +738,14 @@ window.PRICES_DATA = {
       "open": 1.32413,
       "high": 1.32508,
       "low": 1.31912,
-      "close": 1.32193
+      "close": 1.32229
+    },
+    {
+      "date": "2026-10-06",
+      "open": 1.32226,
+      "high": 1.32848,
+      "low": 1.32021,
+      "close": 1.32782
     }
   ]
 };

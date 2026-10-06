@@ -1,34 +1,34 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-10-05T13:00:53Z",
-  "date": "2026-10-05",
-  "price": 4157.39,
-  "atr": 55.42,
-  "atr_pips": 55,
+  "generated": "2026-10-06T12:25:07Z",
+  "date": "2026-10-06",
+  "price": 4178.07,
+  "atr": 56.65,
+  "atr_pips": 57,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4285.41,
-  "ema200": 4351.14,
-  "rsi": 37.94,
-  "macd_line": -60.762967,
-  "macd_signal": -53.946507,
-  "macd_hist": -6.81646,
+  "ema50": 4280.59,
+  "ema200": 4349.25,
+  "rsi": 41.3,
+  "macd_line": -57.860294,
+  "macd_signal": -54.937878,
+  "macd_hist": -2.922416,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [],
-  "score": 1,
-  "verdict": "NO TRADE",
-  "candles": [
+  "patterns": [
     {
-      "date": "2026-06-29",
-      "open": 4080.83,
-      "high": 4092.02,
-      "low": 4002.4,
-      "close": 4016.53
-    },
+      "date": "2026-10-06",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
+    }
+  ],
+  "score": 5,
+  "verdict": "WATCH",
+  "candles": [
     {
       "date": "2026-06-30",
       "open": 4016.34,
@@ -719,8 +719,15 @@ window.PRICES_DATA_XAUUSD = {
       "date": "2026-10-05",
       "open": 4137.53,
       "high": 4170.6,
-      "low": 4126.08,
-      "close": 4157.39
+      "low": 4125.41,
+      "close": 4141.05
+    },
+    {
+      "date": "2026-10-06",
+      "open": 4140.87,
+      "high": 4179.9,
+      "low": 4107.79,
+      "close": 4178.07
     }
   ]
 };

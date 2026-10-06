@@ -1,41 +1,27 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-10-05T13:00:54Z",
-  "date": "2026-10-02",
-  "price": 54.74,
-  "atr": 1.7,
+  "generated": "2026-10-06T12:25:08Z",
+  "date": "2026-10-05",
+  "price": 55.13,
+  "atr": 1.64,
   "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 57.98,
-  "ema200": 61.53,
-  "rsi": 40.22,
-  "macd_line": -0.946548,
-  "macd_signal": -0.430447,
-  "macd_hist": -0.516101,
+  "ema50": 57.87,
+  "ema200": 61.81,
+  "rsi": 41.81,
+  "macd_line": -0.990513,
+  "macd_signal": -0.542461,
+  "macd_hist": -0.448052,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-09-28",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    }
-  ],
-  "score": 5,
-  "verdict": "WATCH",
+  "patterns": [],
+  "score": 1,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-05-12",
-      "open": 76.5,
-      "high": 78.62,
-      "low": 75.15,
-      "close": 78.55
-    },
     {
       "date": "2026-05-13",
       "open": 78.66,
@@ -728,6 +714,13 @@ window.PRICES_DATA_XAGUSD = {
       "high": 55.68,
       "low": 53.9,
       "close": 54.74
+    },
+    {
+      "date": "2026-10-05",
+      "open": 55.6,
+      "high": 55.61,
+      "low": 54.92,
+      "close": 55.13
     }
   ]
 };
