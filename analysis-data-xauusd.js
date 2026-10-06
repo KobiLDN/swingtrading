@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-10-02T12:24:41Z",
+  "generated": "2026-10-06T13:15:42Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-10-02",
+  "date": "2026-10-06",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,9 +11,9 @@ window.ANALYSIS_DATA_XAUUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "1/10",
-  "analysis": "The daily chart confirms a strong downtrend with price trading well below both the 50-period EMA (4311.91) and 200-period EMA (4429.26). The EMA alignment is bearish, and price action continues to make lower lows, reinforcing the trend. No candlestick patterns or chart formations (flags, triangles, double tops/bottoms) are present in the last five candles, indicating a lack of immediate reversal signals or consolidation patterns that would offer a clear entry.\n\nThe RSI at 38.18 is in neutral territory but below 50, reflecting bearish momentum without being oversold. The MACD is bearish with the line below the signal line and a negative histogram, aligning with the downtrend. However, the signal score of 1/10 suggests extremely poor trade quality, likely due to the absence of a high-probability setup, low volume or volatility context, or unfavorable risk/reward. There is no RSI divergence to hint at a potential reversal.\n\nGiven the strong downtrend and bearish indicator confluence, a sell setup would be the logical bias, but the low signal score warns against entering now. The price is near a psychological support at 4150, and without a clear breakdown or retest of resistance, the risk of a short-term bounce is elevated. The best course is to wait for either a confirmed break below 4150 with momentum or a pullback to the EMA50 (4311.91) that fails, providing a better entry with improved risk/reward.",
-  "invalidation": "A daily close above the 50-period EMA (4311.91) would invalidate the current downtrend bias and suggest a potential trend change.",
+  "score": "5/10",
+  "analysis": "Price remains well below both the EMA50 and EMA200, with the EMA50 below the EMA200 \u2014 a textbook strong downtrend. The recent Morning Star is a bullish reversal clue, but price action has not yet changed the EMA structure, so the broader trend remains down unless price closes back above the 50 EMA. No clear triangles, flags, or double top/bottom patterns can be reliably inferred from the supplied data; the most likely structure is a downtrend with a short-term corrective bounce into nearby resistance.\n\nRSI at 41.3 is neutral but below 50, so it does not confirm a bullish reversal. MACD is bearish with a negative histogram, agreeing with the downtrend. The only bullish element is the Morning Star, and it lacks RSI divergence or MACD confirmation. Therefore, the confluence does not support a buy, while a sell at current price would be poorly timed against a potential bullish bounce. The best action is to wait for either a rally into the 4200/4280 resistance zone to sell, or a confirmed close above the 50 EMA to reassess direction.\n\nRisk is elevated because ATR is about 57 points, requiring wider stops and careful position sizing. The market is conflicted: strong downtrend vs. a fresh bullish candlestick pattern. Entering now would likely produce a poor risk/reward trade. A sell-bounce plan targeting 4100 and 4000 remains valid only if resistance holds and the downtrend resumes.",
+  "invalidation": "A daily close above 4280.59 (EMA50) would cancel the bearish waiting setup and shift the bias toward a deeper retracement or potential reversal.",
   "support_levels": [
     4150.0,
     4100.0,
@@ -21,7 +21,7 @@ window.ANALYSIS_DATA_XAUUSD = {
   ],
   "resistance_levels": [
     4200.0,
-    4250.0,
-    4311.91
+    4280.59,
+    4349.25
   ]
 };

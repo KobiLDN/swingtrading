@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-05T14:30:38Z",
+  "generated": "2026-10-06T13:17:10Z",
   "assets": {
     "gbpusd": [
       {
@@ -178,63 +178,77 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "International Markets Are Pulling Ahead Of US Stocks In 2026: These 4 ETFs Have Left SPY, QQQ, DIA In The Dust",
-        "url": "https://stocktwits.com/news-articles/markets/equity/international-markets-are-pulling-ahead-of-us-stocks-in-2026-these-4-et-fs-have-left-spy-qqq-dia-in-the-dust/cZDpm1lRBS7?.tsrc=rss",
-        "time_published": "2026-10-05 04:56",
-        "source": "Stocktwits",
-        "summary": "An artificial intelligence boom, varied macroeconomic policies, and a volatile foreign exchange market have contributed to gains in markets outside the U.S."
-      },
-      {
-        "title": "Forget the S&P 500: SCHD Is Beating It by Nearly 10 Points in 2026 and Its Dividend Just Grew",
-        "url": "https://247wallst.com/investing/etf/2026/10/04/forget-the-sp-500-schd-is-beating-it-by-nearly-10-points-in-2026-and-its-dividend-just-grew/?.tsrc=rss",
-        "time_published": "2026-10-04 21:03",
+        "title": "Applied Digital Falls 4% Despite Bringing 75 MW Online at Polaris Forge 1; IREN and Cipher Digital Also Slide 4%",
+        "url": "https://247wallst.com/investing/2026/10/05/applied-digital-falls-4-despite-bringing-75-mw-online-at-polaris-forge-1-iren-and-cipher-digital-also-slide-4/?.tsrc=rss",
+        "time_published": "2026-10-05 16:08",
         "source": "247wallst",
-        "summary": "SCHD has quietly pulled ahead of SPY by a wide margin in 2026, but the longer you zoom out, the more complicated the story gets. Before you shift your portfolio, there are tax consequences and a decade of data worth examining first."
+        "summary": "Applied Digital just hit a major capacity milestone at its flagship North Dakota campus, yet the stock is bleeding alongside its closest peers while the broader market climbs. Something in the AI infrastructure trade is breaking down, and it matters for anyone holding these names."
       },
       {
-        "title": "Michael Saylor Says Strategy's STRC Is Now Steadier Than The S&P 500's Biggest Tracker: \u2018A Milestone For Digital Credit\u2019",
-        "url": "https://stocktwits.com/news-articles/markets/equity/michael-saylor-mstr-strc-steady-sp-500-tracker-digital-credit/cZDZpACRB1h?.tsrc=rss",
-        "time_published": "2026-10-03 17:46",
-        "source": "Stocktwits",
-        "summary": "Strategy's chart put its own common stock at 94% and Bitcoin at 39%, leaving the preferred between stocks and bonds on its own measure."
-      },
-      {
-        "title": "3 Option Income ETFs That Pay You 12 Times a Year. Here\u2019s How the Monthly Check Is Generated",
-        "url": "https://247wallst.com/investing/etf/2026/10/02/3-option-income-etfs-that-pay-you-12-times-a-year-heres-how-the-monthly-check-is-generated/?.tsrc=rss",
-        "time_published": "2026-10-02 20:33",
+        "title": "AbbVie Rewarded Patient Investors but Punished Those Who Bought on Good News",
+        "url": "https://247wallst.com/investing/2026/10/06/abbvie-rewarded-patient-investors-but-punished-those-who-bought-on-good-news/?.tsrc=rss",
+        "time_published": "2026-10-06 12:25",
         "source": "247wallst",
-        "summary": "Covered call ETFs promise monthly paychecks, but the mechanism behind each distribution comes with trade-offs most investors never see until a rally leaves them behind or tax season arrives with an unexpected bill."
+        "summary": "AbbVie investors who bought on headline-grabbing drug approvals consistently trailed those who bought during fear and uncertainty. The calendar of milestones reveals a counterintuitive pattern about when good news becomes a trap."
       },
       {
-        "title": "JPMorgan Adds New Stocks to Its October Favorites List",
-        "url": "https://beincrypto.com/jpmorgan-october-stock-picks-american-express/?.tsrc=rss",
-        "time_published": "2026-10-05 06:07",
+        "title": "A New ETF Is Betting the S&P 500 Hits 10,000 and Almost Nobody Is Buying It",
+        "url": "https://247wallst.com/investing/etf/2026/10/05/a-new-etf-is-betting-the-sp-500-hits-10000-and-almost-nobody-is-buying-it/?.tsrc=rss",
+        "time_published": "2026-10-05 21:17",
+        "source": "247wallst",
+        "summary": "Roundhill just launched an ETF built on a single bold bet: the S&P 500 reaches 10,000 by 2030. The fund got a prime-time Bloomberg panel and a notable Invesco executive alongside it, yet investors are treating it like it barely exists."
+      },
+      {
+        "title": "Affirm Climbs 5% as Buy Now Pay Later Group Rallies Together; Klarna Rises 5%, PayPal Ticks Up",
+        "url": "https://247wallst.com/investing/2026/10/05/affirm-climbs-5-as-buy-now-pay-later-group-rallies-together-klarna-rises-5-paypal-ticks-up/?.tsrc=rss",
+        "time_published": "2026-10-05 16:54",
+        "source": "247wallst",
+        "summary": "Buy now pay later stocks are surging together, but Klarna's brutal year-to-date losses and PayPal's smaller gain raise a pointed question about whether this is a genuine sector re-rating or just a short-lived relief bounce in the hardest-hit names."
+      },
+      {
+        "title": "TeraWulf Slides 5% Despite Doubling Muskie Power Contract to 1 Gigawatt; Core Scientific Drops 3%, Riot Eases",
+        "url": "https://247wallst.com/investing/2026/10/05/terawulf-slides-5-despite-doubling-muskie-power-contract-to-1-gigawatt-core-scientific-drops-3-riot-eases/?.tsrc=rss",
+        "time_published": "2026-10-05 14:40",
+        "source": "247wallst",
+        "summary": "A power contract that doubles available capacity at a Kentucky AI campus sounds like a win, yet TeraWulf shareholders are selling hard this morning while the rest of the market drifts higher. The reason comes down to a gap between what the company just locked in on paper and when any of it actually"
+      },
+      {
+        "title": "Are US Real Estate Stocks Dead? What the Charts and Rates Show",
+        "url": "https://beincrypto.com/us-real-estate-stocks-record-low/?.tsrc=rss",
+        "time_published": "2026-10-06 08:57",
         "source": "Beincrypto",
-        "summary": "JPMorgan adds American Express, Liberty Energy and Thermo Fisher to its October stock picks after a mixed September."
+        "summary": "US real estate stocks hit a record low against the S&P 500, erasing their bubble-era lead. Peter Schiff says the sector will sink further."
       },
       {
-        "title": "Stocktwits Retail Therapy: Consumer Stocks Face Heat But Carnival, Mattel And Stitch Fix Buck The Trend",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-retail-therapy-consumer-stocks-face-heat-but-carnival-mattel-and-stitch-fix-buck-the-trend/cZDpNWdRBSB?.tsrc=rss",
-        "time_published": "2026-10-05 05:29",
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62181377/stock-market-will-sp-500-open-up-or-down-today-51?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-06 06:12",
+        "source": "Benzinga",
+        "summary": "U.S. stock futures are trending slightly higher early Tuesday as Wall Street navigates a quiet global trading session, digesting a severe economic crisis unfolding in Iran, elevated Treasury yields, and the onset of the third-quarter earnings season. The Polymarket (CRYPTO:..."
+      },
+      {
+        "title": "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields \u2014 NVDA, SPCX, CRML, TSLA, QCOM In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-hits-record-highs-as-investors-shrug-off-pressure-from-soaring-yields-nvda-spcx-crml-tsla-qcom-in-focus/cZDqO2yRBjp?.tsrc=rss",
+        "time_published": "2026-10-05 22:09",
         "source": "Stocktwits",
-        "summary": "Consumer stocks struggled as sector ETFs extended losses, but Carnival, Mattel and Stitch Fix rallied on strong bookings, takeover interest and an analyst upgrade."
-      },
-      {
-        "title": "Is the AI Bull Market About to Crash? This Risk Indicator Is Saying Yes",
-        "url": "https://247wallst.com/investing/2026/10/03/is-the-ai-bull-market-about-to-crash-this-risk-indicator-is-saying-yes/?.tsrc=rss",
-        "time_published": "2026-10-03 14:44",
-        "source": "247wallst",
-        "summary": "Margin debt just hit a level that has historically preceded some of the worst market collapses in recent memory, and one closely watched risk indicator is now flashing a warning that most AI investors are ignoring."
-      },
-      {
-        "title": "Ondas Climbs 5% on $56M Precision Strike Order as Citizens Starts Coverage; AeroVironment Barely Budges",
-        "url": "https://247wallst.com/investing/2026/10/05/ondas-climbs-5-on-56m-precision-strike-order-as-citizens-starts-coverage-aerovironment-barely-budges/?.tsrc=rss",
-        "time_published": "2026-10-05 13:44",
-        "source": "247wallst",
-        "summary": "A $56 million safety-critical munitions order just sent one small drone stock surging past AeroVironment and the broader defense ETF, and the real question is whether this contract signals a turning point or another fleeting headline for a company with a complicated history."
+        "summary": "The ISM report showed that the Purchasing Managers' Index for services came in at 54.9% in September, roughly in line with expectations."
       }
     ],
     "oil": [
+      {
+        "title": "Trump Wants to Keep America\u2019s Diesel at Home: It's Having a Strange Effect on Oil Prices",
+        "url": "https://finance.yahoo.com/energy/articles/trump-wants-keep-america-diesel-153033013.html?.tsrc=rss",
+        "time_published": "2026-10-05 15:30",
+        "source": "Finance",
+        "summary": "When President Donald Trump said last week that the U.S. should stop sending its diesel abroad, the goal was simple: bring down record fuel prices for American farmers and truckers ahead of the midterm elections. The oil market, however, read..."
+      },
+      {
+        "title": "'Big Short' Investor Steve Eisman Warns Oil, Rates Push the Market Closer to 'Breaking'",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62166752/steve-eisman-oil-rates-something-breaking?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-05 15:22",
+        "source": "Benzinga",
+        "summary": "\"Big Short\" investor Steve Eisman says markets have narrowed to two things: oil and interest rates. With Brent crude above $100 and long-term Treasury yields near multi-decade highs, he says markets may be getting closer to a breaking point. \"We..."
+      },
       {
         "title": "Brent Oil Is Back Above $100 as a Third Aircraft Carrier Heads to the Middle East",
         "url": "https://247wallst.com/investing/2026/10/02/brent-oil-is-back-above-100-as-a-third-aircraft-carrier-heads-to-the-middle-east/?.tsrc=rss",
@@ -276,20 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-22 09:45",
         "source": "Finance",
         "summary": "The national average price for diesel reached $6.51 per gallon on Monday. A commodity strategist stated the supply disruption has moved into a diesel market that \u201cno handshake can refill.\u201d Record Prices Hit Harvest and Freight The U.S. average diesel..."
-      },
-      {
-        "title": "Oil ETFs Surge: What's Next for Commodity Investors?",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/oil-etfs-surge-whats-next-214500474.html?.tsrc=rss",
-        "time_published": "2026-09-21 21:45",
-        "source": "Finance",
-        "summary": "What's next for oil, gold and copper as geopolitical risks reshape commodity markets?"
-      },
-      {
-        "title": "The Oil Fund Beating USO by Harvesting Roll Yield Faces Its Biggest Test Yet",
-        "url": "https://247wallst.com/investing/etf/2026/09/18/the-oil-fund-beating-uso-by-harvesting-roll-yield-faces-its-biggest-test-yet/?.tsrc=rss",
-        "time_published": "2026-09-18 16:10",
-        "source": "247wallst",
-        "summary": "DBO's roll-yield strategy turned crude's backwardation into a triple-digit gain this year, but the EIA sees WTI dropping more than $30 by spring and no futures trick can outrun a slide that big."
       }
     ]
   }

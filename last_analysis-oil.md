@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-10-02
-**Generated:** 2026-10-05T14:30:36Z
+**Date:** 2026-10-05
+**Generated:** 2026-10-06T13:17:09Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,28 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 147.37 |
-| **Stop Loss** | 150.10 |
-| **Target 1** | 142.00 |
-| **Target 2** | 138.00 |
-| **Risk/Reward** | 1:1.97 (T1), 1:3.43 (T2) |
-| **Score** | 8/10 |
-| **Support** | 145.0, 140.05, 137.0 |
-| **Resistance** | 150.0, 152.5, 155.0 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 3/10 |
+| **Support** | 140.21, 140.0, 138.5 |
+| **Resistance** | 145.0, 146.5, 148.0 |
 
 ---
 
 ## Analysis
 
-The daily chart of USO is in a strong uptrend, with price well above the 50- and 200-period EMAs. However, recent price action shows a clear bearish divergence on the RSI (neutral at 52.07 but diverging from prior highs) and a bearish MACD crossover with a negative histogram. The candlestick pattern over the last five sessions is an Evening Star, a reliable reversal signal at the end of an uptrend. With a signal score of 8/10, the confluence of these bearish indicators outweighs the long-term trend for a short-term swing trade. The price is near the upper end of the recent range, and the ATR of 5.59 suggests a potential move of 5–6 points, making the targets to the 50-EMA at 140.05 and below realistic. The primary support levels are the round number 145.00 and the 50-EMA at 140.05, with further support near 137.00. Resistance lies at 150.00 (psychological) and the recent swing high around 152.50. The trade aims to capture a pullback within the broader uptrend, but the bearish signals are strong enough to warrant a short entry with a tight stop above the Evening Star’s high.
+Price at 143.99 sits well above both the EMA50 (140.21) and EMA200 (118.47), confirming the stated strong uptrend. However, this trend is not being reinforced by momentum indicators. The RSI at 48.55 is neutral but shows a bearish divergence, implying that the latest price highs were not matched by corresponding momentum, often a precursor to a reversal or significant pullback. Meanwhile, the MACD is below its signal line with a negative histogram, reinforcing the bearish divergence and indicating that downside momentum is building. The signal score of 3/10 reflects the poor alignment between trend and oscillators.
+
+No candlestick patterns were detected in the last five candles, so no immediate reversal or continuation signal is present from price action alone. The lack of a clear pattern, combined with the conflicting signals, leaves the chart in a zone of indecision. Key support rests at the EMA50 line (140.21), followed by the psychological 140.00 round number and then 138.50 (a logical swing-low area based on average true range proximity). On the upside, resistance likely resides near the recent high region—145.00 psychologically, then 146.50 (potential peak of the bearish divergence swing), and 148.00 as a broader resistance.
+
+Given that the trend is still technically bullish but warning signs are flashing, the prudent approach is to wait for a clearer setup. A long entry would require price to hold support and show renewed buying interest (e.g., a bullish MACD cross or RSI moving above 50). A short entry would need confirmation of a breakdown below the EMA50 or a bearish candlestick pattern at resistance. Currently, the risk of entering against the oscillators or against the trend is too high relative to the expected reward.
 
 ---
 
 ## Invalidation
 
-A daily close above 150.10 (the high of the Evening Star pattern) would invalidate the bearish setup and likely resume the uptrend.
+A decisive close above 146.50 with strong volume would invalidate the bearish divergence, while a close below 140.00 would confirm a trend reversal and favor a short setup.
 
 ---
 
