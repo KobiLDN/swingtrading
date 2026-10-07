@@ -1,34 +1,34 @@
 window.PRICES_DATA_OIL = {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-10-06T12:25:09Z",
-  "date": "2026-10-05",
-  "price": 143.99,
-  "atr": 5.48,
+  "generated": "2026-10-07T12:18:06Z",
+  "date": "2026-10-06",
+  "price": 144.91,
+  "atr": 5.33,
   "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 140.21,
-  "ema200": 118.47,
-  "rsi": 48.55,
-  "macd_line": 2.142251,
-  "macd_signal": 3.724875,
-  "macd_hist": -1.582624,
+  "ema50": 140.39,
+  "ema200": 118.63,
+  "rsi": 49.55,
+  "macd_line": 1.759513,
+  "macd_signal": 3.331803,
+  "macd_hist": -1.57229,
   "trend": "STRONG UPTREND",
   "divergence": "BEARISH",
-  "patterns": [],
-  "score": 3,
-  "verdict": "NO TRADE",
-  "candles": [
+  "patterns": [
     {
-      "date": "2026-05-13",
-      "open": 143.92,
-      "high": 145.0,
-      "low": 141.27,
-      "close": 142.04
-    },
+      "date": "2026-10-06",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
+    }
+  ],
+  "score": 8,
+  "verdict": "BUY/SELL",
+  "candles": [
     {
       "date": "2026-05-14",
       "open": 140.94,
@@ -721,6 +721,13 @@ window.PRICES_DATA_OIL = {
       "high": 147.12,
       "low": 143.33,
       "close": 143.99
+    },
+    {
+      "date": "2026-10-06",
+      "open": 142.32,
+      "high": 145.09,
+      "low": 141.76,
+      "close": 144.91
     }
   ]
 };
