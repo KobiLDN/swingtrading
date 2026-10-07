@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-10-05
-**Generated:** 2026-10-06T13:17:09Z
+**Date:** 2026-10-06
+**Generated:** 2026-10-07T13:14:59Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,33 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 3/10 |
-| **Support** | 140.21, 140.0, 138.5 |
-| **Resistance** | 145.0, 146.5, 148.0 |
+| **Score** | 6/10 |
+| **Support** | 140.39, 138.0, 136.0 |
+| **Resistance** | 147.0, 150.0, 155.0 |
 
 ---
 
 ## Analysis
 
-Price at 143.99 sits well above both the EMA50 (140.21) and EMA200 (118.47), confirming the stated strong uptrend. However, this trend is not being reinforced by momentum indicators. The RSI at 48.55 is neutral but shows a bearish divergence, implying that the latest price highs were not matched by corresponding momentum, often a precursor to a reversal or significant pullback. Meanwhile, the MACD is below its signal line with a negative histogram, reinforcing the bearish divergence and indicating that downside momentum is building. The signal score of 3/10 reflects the poor alignment between trend and oscillators.
+The daily price remains above the EMA50 (140.39) and EMA200 (118.63), confirming the strong uptrend on a structural basis. However, recent price action shows a pullback from higher levels, and the Bullish Engulfing candlestick pattern in the last five candles suggests a potential short-term reversal. This pattern alone is not sufficient to confirm trend continuation, especially when weighed against the bearish signals from momentum indicators.  
 
-No candlestick patterns were detected in the last five candles, so no immediate reversal or continuation signal is present from price action alone. The lack of a clear pattern, combined with the conflicting signals, leaves the chart in a zone of indecision. Key support rests at the EMA50 line (140.21), followed by the psychological 140.00 round number and then 138.50 (a logical swing-low area based on average true range proximity). On the upside, resistance likely resides near the recent high region—145.00 psychologically, then 146.50 (potential peak of the bearish divergence swing), and 148.00 as a broader resistance.
+No clear chart patterns like triangles or flags are evident from the given data. The nearest support is the EMA50 at 140.39, followed by the psychological 138.00 level and then 136.00. Resistance is likely near the recent swing high around 147.00, with further levels at 150.00 and 155.00. The RSI at 49.55 is neutral, but the bearish divergence indicates fading upside momentum. The MACD is below its signal line with a negative histogram, confirming bearish momentum divergence from the strong uptrend.  
 
-Given that the trend is still technically bullish but warning signs are flashing, the prudent approach is to wait for a clearer setup. A long entry would require price to hold support and show renewed buying interest (e.g., a bullish MACD cross or RSI moving above 50). A short entry would need confirmation of a breakdown below the EMA50 or a bearish candlestick pattern at resistance. Currently, the risk of entering against the oscillators or against the trend is too high relative to the expected reward.
+The confluence of RSI divergence and bearish MACD directly contradicts the bullish engulfing pattern and the trend strength. This creates a high-conflict environment where a decisive directional move is uncertain. The best trade setup currently is to wait for either (1) a confirmed break above resistance near 147.00 with strong volume, or (2) a clean pullback to the EMA50 support with a bullish reversal confirmation (e.g., a second bullish engulfing or a higher low). Entering now would expose the trade to the risk of a failed bounce and continuation of the pullback.  
+
+Risk assessment is elevated due to the bearish divergence. A false breakout above resistance or a breakdown below support could lead to sharp moves. The original signal score of 8/10 appears overly optimistic given the conflicting indicators; a revised score of 6/10 better reflects the mixed evidence and the need for additional confirmation.
 
 ---
 
 ## Invalidation
 
-A decisive close above 146.50 with strong volume would invalidate the bearish divergence, while a close below 140.00 would confirm a trend reversal and favor a short setup.
+N/A
 
 ---
 

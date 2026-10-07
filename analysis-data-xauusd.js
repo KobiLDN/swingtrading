@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-10-06T13:15:42Z",
+  "generated": "2026-10-07T13:13:22Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_XAUUSD = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "Price remains well below both the EMA50 and EMA200, with the EMA50 below the EMA200 \u2014 a textbook strong downtrend. The recent Morning Star is a bullish reversal clue, but price action has not yet changed the EMA structure, so the broader trend remains down unless price closes back above the 50 EMA. No clear triangles, flags, or double top/bottom patterns can be reliably inferred from the supplied data; the most likely structure is a downtrend with a short-term corrective bounce into nearby resistance.\n\nRSI at 41.3 is neutral but below 50, so it does not confirm a bullish reversal. MACD is bearish with a negative histogram, agreeing with the downtrend. The only bullish element is the Morning Star, and it lacks RSI divergence or MACD confirmation. Therefore, the confluence does not support a buy, while a sell at current price would be poorly timed against a potential bullish bounce. The best action is to wait for either a rally into the 4200/4280 resistance zone to sell, or a confirmed close above the 50 EMA to reassess direction.\n\nRisk is elevated because ATR is about 57 points, requiring wider stops and careful position sizing. The market is conflicted: strong downtrend vs. a fresh bullish candlestick pattern. Entering now would likely produce a poor risk/reward trade. A sell-bounce plan targeting 4100 and 4000 remains valid only if resistance holds and the downtrend resumes.",
-  "invalidation": "A daily close above 4280.59 (EMA50) would cancel the bearish waiting setup and shift the bias toward a deeper retracement or potential reversal.",
+  "analysis": "The daily chart shows a confirmed strong downtrend with price (4117.6) trading well below both the EMA50 (4273.84) and EMA200 (4333.67). This gap confirms the bearish structure, and no bullish EMA cross or price reclaim of the 50-period moving average is present. The Morning Star candlestick pattern over the last five candles introduces a potential reversal signal, but it appears in isolation without supporting trend change evidence from the moving averages or momentum indicators. The RSI at 35.05 is neutral and not oversold, meaning room for further downside remains, while the MACD maintains a bearish configuration (line below signal, negative histogram).  \n\nNo additional chart patterns such as triangles, flags, or double tops/bottoms can be inferred from the limited data provided. The Morning Star itself is a three-candle pattern that could form a bullish reversal, but its reliability is diminished by the overarching downtrend and lack of divergence. Key support lies at the psychological 4100 level, followed by 4050 and 4000. Resistance is close at 4150 (minor round number), then 4200, and the EMA50 at 4273 is a major barrier.  \n\nThe lack of confluence between the trend-defining EMAs, bearish MACD, and the isolated bullish candlestick pattern creates a conflicting signal. The signal score of 5/10 accurately reflects this neutral zone. A buy setup would require price to break above 4200 with increasing momentum, while a sell setup would need a breakdown below 4100 with bearish continuation. Currently, neither condition is met, making a wait-and-see approach the most prudent.  \n\nRisk assessment: Entering a trade now carries high uncertainty. A premature buy against a strong downtrend risks catching a failed reversal, while selling near a Morning Star low risks a sharp short squeeze. The ATR of 57 points suggests volatility is elevated, so any stop-loss would need to be wide, reducing the risk-reward appeal.",
+  "invalidation": "A daily close above 4200 would invalidate the bearish bias and turn focus toward a possible trend change, while a close below 4100 would confirm continuation of the downtrend and cancel any bullish reversal hopes.",
   "support_levels": [
-    4150.0,
     4100.0,
-    4050.0
+    4050.0,
+    4000.0
   ],
   "resistance_levels": [
+    4150.0,
     4200.0,
-    4280.59,
-    4349.25
+    4273.0
   ]
 };

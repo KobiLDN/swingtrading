@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-06T13:17:10Z",
+  "generated": "2026-10-07T13:15:00Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Minutes Loom, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054605230.html?.tsrc=rss",
+        "time_published": "2026-10-07 05:46",
+        "source": "Finance",
+        "summary": "DXY holds above 101.76 as traders await Fed minutes, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3284."
+      },
+      {
+        "title": "US Dollar Price Forecast: High Yields Lift DXY, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-high-083426331.html?.tsrc=rss",
+        "time_published": "2026-10-06 08:34",
+        "source": "Finance",
+        "summary": "DXY holds above 101.76 as high Treasury yields offset Fed cut expectations, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3250."
+      },
       {
         "title": "US Dollar Price Forecast: Soft NFP Hits Fed Bets, Can GBP/USD and EUR/USD Recover?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-soft-081809134.html?.tsrc=rss",
@@ -43,24 +57,24 @@ window.NEWS_DATA = {
         "time_published": "2026-09-23 06:04",
         "source": "Finance",
         "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD break key support, while falling oil prices test longer-term rate-hike bets."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Rate Path Supports Dollar as EUR/USD and GBP/USD Diverge",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-064320722.html?.tsrc=rss",
-        "time_published": "2026-09-22 06:43",
-        "source": "Finance",
-        "summary": "DXY remains supported by Fed tightening expectations as it targets 100.53, while EUR/USD stays pressured and GBP/USD attempts to stabilize."
-      },
-      {
-        "title": "US Dollar Price Forecast: Hawkish Fed Supports DXY as EUR and GBP Struggle",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081536540.html?.tsrc=rss",
-        "time_published": "2026-09-21 08:15",
-        "source": "Finance",
-        "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD struggle below key resistance levels amid softer European policy outlooks."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Fed Minutes Loom, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054605230.html?.tsrc=rss",
+        "time_published": "2026-10-07 05:46",
+        "source": "Finance",
+        "summary": "DXY holds above 101.76 as traders await Fed minutes, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3284."
+      },
+      {
+        "title": "US Dollar Price Forecast: High Yields Lift DXY, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-high-083426331.html?.tsrc=rss",
+        "time_published": "2026-10-06 08:34",
+        "source": "Finance",
+        "summary": "DXY holds above 101.76 as high Treasury yields offset Fed cut expectations, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3250."
+      },
+      {
         "title": "US Dollar Price Forecast: Soft NFP Hits Fed Bets, Can GBP/USD and EUR/USD Recover?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-soft-081809134.html?.tsrc=rss",
         "time_published": "2026-10-05 08:18",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-23 06:04",
         "source": "Finance",
         "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD break key support, while falling oil prices test longer-term rate-hike bets."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Rate Path Supports Dollar as EUR/USD and GBP/USD Diverge",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-064320722.html?.tsrc=rss",
-        "time_published": "2026-09-22 06:43",
-        "source": "Finance",
-        "summary": "DXY remains supported by Fed tightening expectations as it targets 100.53, while EUR/USD stays pressured and GBP/USD attempts to stabilize."
-      },
-      {
-        "title": "US Dollar Price Forecast: Hawkish Fed Supports DXY as EUR and GBP Struggle",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hawkish-081536540.html?.tsrc=rss",
-        "time_published": "2026-09-21 08:15",
-        "source": "Finance",
-        "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD struggle below key resistance levels amid softer European policy outlooks."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Applied Digital Falls 4% Despite Bringing 75 MW Online at Polaris Forge 1; IREN and Cipher Digital Also Slide 4%",
-        "url": "https://247wallst.com/investing/2026/10/05/applied-digital-falls-4-despite-bringing-75-mw-online-at-polaris-forge-1-iren-and-cipher-digital-also-slide-4/?.tsrc=rss",
-        "time_published": "2026-10-05 16:08",
+        "title": "Norwegian Climbs 5% as the Whole Cruise Group Runs; Royal Caribbean and Carnival Gain 4%",
+        "url": "https://247wallst.com/investing/2026/10/06/norwegian-cruise-line-climbs-5-as-the-whole-cruise-group-runs-royal-caribbean-gains-4-carnival-adds-4/?.tsrc=rss",
+        "time_published": "2026-10-06 18:13",
         "source": "247wallst",
-        "summary": "Applied Digital just hit a major capacity milestone at its flagship North Dakota campus, yet the stock is bleeding alongside its closest peers while the broader market climbs. Something in the AI infrastructure trade is breaking down, and it matters for anyone holding these names."
+        "summary": "Cruise stocks are surging together while the broader market barely budges, but one operator has lost 30% this year and a single strong session only scratches the surface of that deficit."
       },
       {
-        "title": "AbbVie Rewarded Patient Investors but Punished Those Who Bought on Good News",
-        "url": "https://247wallst.com/investing/2026/10/06/abbvie-rewarded-patient-investors-but-punished-those-who-bought-on-good-news/?.tsrc=rss",
-        "time_published": "2026-10-06 12:25",
+        "title": "America\u2019s Trade Deficit Just Hit $105.6 Billion, the Widest Since Before the Tariffs",
+        "url": "https://247wallst.com/investing/2026/10/07/americas-trade-deficit-just-hit-105-6-billion-the-widest-since-before-the-tariffs/?.tsrc=rss",
+        "time_published": "2026-10-07 12:30",
         "source": "247wallst",
-        "summary": "AbbVie investors who bought on headline-grabbing drug approvals consistently trailed those who bought during fear and uncertainty. The calendar of milestones reveals a counterintuitive pattern about when good news becomes a trap."
+        "summary": "August's trade gap blew past forecasts while the stock market shrugged and climbed higher, and the reason behind both moves points to a spending wave that could just as easily flip into the next recession signal."
       },
       {
-        "title": "A New ETF Is Betting the S&P 500 Hits 10,000 and Almost Nobody Is Buying It",
-        "url": "https://247wallst.com/investing/etf/2026/10/05/a-new-etf-is-betting-the-sp-500-hits-10000-and-almost-nobody-is-buying-it/?.tsrc=rss",
-        "time_published": "2026-10-05 21:17",
+        "title": "How to Combine 5% Bond Returns with My Favorite \u2018Lottery Ticket\u2019 Options Trades for Maximum Portfolio Potential",
+        "url": "https://www.barchart.com/story/news/4992488/how-to-combine-5-bond-returns-with-my-favorite-lottery-ticket-options-trades-for-maximum-portfolio-potential?.tsrc=rss",
+        "time_published": "2026-10-06 20:33",
+        "source": "Barchart",
+        "summary": "I do not place these trades because I am certain they will work. I place them when technical setups offer highly favorable risk-reward tradeoffs."
+      },
+      {
+        "title": "A $1,000 Bet on Microsoft a Decade Ago Crushed the Market by Over 3x",
+        "url": "https://247wallst.com/investing/2026/10/06/a-1000-bet-on-microsoft-a-decade-ago-crushed-the-market-by-over-3x/?.tsrc=rss",
+        "time_published": "2026-10-06 19:00",
         "source": "247wallst",
-        "summary": "Roundhill just launched an ETF built on a single bold bet: the S&P 500 reaches 10,000 by 2030. The fund got a prime-time Bloomberg panel and a notable Invesco executive alongside it, yet investors are treating it like it barely exists."
+        "summary": "A single Microsoft investment a decade ago left the S&P 500 in the dust, but the reasons behind those gains reveal something surprising about what actually drove the returns and whether the next decade could come close."
       },
       {
-        "title": "Affirm Climbs 5% as Buy Now Pay Later Group Rallies Together; Klarna Rises 5%, PayPal Ticks Up",
-        "url": "https://247wallst.com/investing/2026/10/05/affirm-climbs-5-as-buy-now-pay-later-group-rallies-together-klarna-rises-5-paypal-ticks-up/?.tsrc=rss",
-        "time_published": "2026-10-05 16:54",
+        "title": "Three Stocks Are Now 21% of the S&P 500, the Most Ever",
+        "url": "https://247wallst.com/investing/2026/10/07/three-stocks-are-now-21-of-the-sp-500-the-most-ever/?.tsrc=rss",
+        "time_published": "2026-10-07 11:30",
         "source": "247wallst",
-        "summary": "Buy now pay later stocks are surging together, but Klarna's brutal year-to-date losses and PayPal's smaller gain raise a pointed question about whether this is a genuine sector re-rating or just a short-lived relief bounce in the hardest-hit names."
+        "summary": "NVIDIA, Apple, and Microsoft now dominate the S&P 500 at a concentration level that makes the 1980s tech giants look like small players, and what that means for anyone holding an index fund is more unsettling than most realize."
       },
       {
-        "title": "TeraWulf Slides 5% Despite Doubling Muskie Power Contract to 1 Gigawatt; Core Scientific Drops 3%, Riot Eases",
-        "url": "https://247wallst.com/investing/2026/10/05/terawulf-slides-5-despite-doubling-muskie-power-contract-to-1-gigawatt-core-scientific-drops-3-riot-eases/?.tsrc=rss",
-        "time_published": "2026-10-05 14:40",
+        "title": "Broadcom Remains So Full of Promise And Continues to Disappoint",
+        "url": "https://247wallst.com/investing/2026/10/07/broadcom-remains-so-full-of-promise-and-continues-to-disappoint/?.tsrc=rss",
+        "time_published": "2026-10-07 11:15",
         "source": "247wallst",
-        "summary": "A power contract that doubles available capacity at a Kentucky AI campus sounds like a win, yet TeraWulf shareholders are selling hard this morning while the rest of the market drifts higher. The reason comes down to a gap between what the company just locked in on paper and when any of it actually"
+        "summary": "Broadcom's AI business is growing faster than almost any chip company on earth, yet the stock keeps sliding after every earnings beat. Something is stopping the market from rewarding results that look undeniably strong."
       },
       {
-        "title": "Are US Real Estate Stocks Dead? What the Charts and Rates Show",
-        "url": "https://beincrypto.com/us-real-estate-stocks-record-low/?.tsrc=rss",
-        "time_published": "2026-10-06 08:57",
-        "source": "Beincrypto",
-        "summary": "US real estate stocks hit a record low against the S&P 500, erasing their bubble-era lead. Peter Schiff says the sector will sink further."
+        "title": "Michael Burry Predicts Investors Have Less Than 270 Days To Prepare For Next Phase Of 2008 Style Crash",
+        "url": "https://247wallst.com/investing/2026/10/07/michael-burry-predicts-investors-have-less-than-270-days-to-prepare-for-next-phase-of-2008-style-crash/?.tsrc=rss",
+        "time_published": "2026-10-07 10:17",
+        "source": "247wallst",
+        "summary": "Michael Burry just put a clock on the next phase of a crash he says mirrors 2000 and 2008, and the timeline he named is already running."
       },
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62181377/stock-market-will-sp-500-open-up-or-down-today-51?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-06 06:12",
-        "source": "Benzinga",
-        "summary": "U.S. stock futures are trending slightly higher early Tuesday as Wall Street navigates a quiet global trading session, digesting a severe economic crisis unfolding in Iran, elevated Treasury yields, and the onset of the third-quarter earnings season. The Polymarket (CRYPTO:..."
-      },
-      {
-        "title": "Nasdaq 100 Hits Record Highs As Investors Shrug Off Pressure From Soaring Yields \u2014 NVDA, SPCX, CRML, TSLA, QCOM In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-hits-record-highs-as-investors-shrug-off-pressure-from-soaring-yields-nvda-spcx-crml-tsla-qcom-in-focus/cZDqO2yRBjp?.tsrc=rss",
-        "time_published": "2026-10-05 22:09",
-        "source": "Stocktwits",
-        "summary": "The ISM report showed that the Purchasing Managers' Index for services came in at 54.9% in September, roughly in line with expectations."
+        "title": "Warren Buffett's $863 Million \"Secret\" Portfolio Dumped Alphabet and Broadcom, but Has Over 17% of Invested Assets in This Proven Moneymaking Strategy",
+        "url": "https://www.fool.com/investing/2026/10/07/warren-buffett-863-million-secret-portfolio-dump-alphabet-broadcom-has-over-17-invested-in-proven-moneymaking-strategy/?.tsrc=rss",
+        "time_published": "2026-10-07 09:26",
+        "source": "Fool",
+        "summary": "The Oracle of Omaha\u2019s under-the-radar portfolio has over $149 million put to work in two index funds that consistently print profits for long-term investors."
       }
     ],
     "oil": [
