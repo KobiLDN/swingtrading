@@ -1,21 +1,21 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-07T12:18:04Z",
-  "date": "2026-10-07",
-  "price": 1.11742,
-  "atr": 0.00513,
+  "generated": "2026-10-08T12:27:46Z",
+  "date": "2026-10-08",
+  "price": 1.11949,
+  "atr": 0.0051,
   "atr_pips": 51,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.14302,
-  "ema200": 1.15255,
-  "rsi": 20.26,
-  "macd_line": -0.008171,
-  "macd_signal": -0.007374,
-  "macd_hist": -0.000798,
+  "ema50": 1.14218,
+  "ema200": 1.15185,
+  "rsi": 21.55,
+  "macd_line": -0.008099,
+  "macd_signal": -0.007492,
+  "macd_hist": -0.000607,
   "trend": "STRONG DOWNTREND",
   "divergence": "BULLISH",
   "patterns": [
@@ -30,18 +30,17 @@ window.PRICES_DATA_EURUSD = {
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-10-08",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 9,
+  "score": 10,
   "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-07-01",
-      "open": 1.14215,
-      "high": 1.14259,
-      "low": 1.13609,
-      "close": 1.13786
-    },
     {
       "date": "2026-07-02",
       "open": 1.13784,
@@ -732,8 +731,15 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-10-07",
       "open": 1.126,
       "high": 1.12624,
-      "low": 1.11739,
-      "close": 1.11742
+      "low": 1.11657,
+      "close": 1.11951
+    },
+    {
+      "date": "2026-10-08",
+      "open": 1.1195,
+      "high": 1.12125,
+      "low": 1.11724,
+      "close": 1.11949
     }
   ]
 };
