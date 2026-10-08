@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-07T13:15:00Z",
+  "generated": "2026-10-08T13:36:58Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Minutes Back DXY, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082512563.html?.tsrc=rss",
+        "time_published": "2026-10-08 08:25",
+        "source": "Finance",
+        "summary": "Fed minutes keep year-end tightening alive as DXY eyes 102.49, while EUR/USD targets 1.1161 and GBP/USD risks another test of 1.3180."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Minutes Loom, Can GBP/USD and EUR/USD Recover?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054605230.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-09-24 08:24",
         "source": "Finance",
         "summary": "Strong U.S. data and hawkish Fed expectations support DXY as EUR/USD and GBP/USD remain pressured below key technical resistance."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Extends Gains as EUR/USD and GBP/USD Slide",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060430839.html?.tsrc=rss",
-        "time_published": "2026-09-23 06:04",
-        "source": "Finance",
-        "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD break key support, while falling oil prices test longer-term rate-hike bets."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Fed Minutes Back DXY, Can GBP/USD and EUR/USD Recover?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082512563.html?.tsrc=rss",
+        "time_published": "2026-10-08 08:25",
+        "source": "Finance",
+        "summary": "Fed minutes keep year-end tightening alive as DXY eyes 102.49, while EUR/USD targets 1.1161 and GBP/USD risks another test of 1.3180."
+      },
+      {
         "title": "US Dollar Price Forecast: Fed Minutes Loom, Can GBP/USD and EUR/USD Recover?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054605230.html?.tsrc=rss",
         "time_published": "2026-10-07 05:46",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-24 08:24",
         "source": "Finance",
         "summary": "Strong U.S. data and hawkish Fed expectations support DXY as EUR/USD and GBP/USD remain pressured below key technical resistance."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Extends Gains as EUR/USD and GBP/USD Slide",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-060430839.html?.tsrc=rss",
-        "time_published": "2026-09-23 06:04",
-        "source": "Finance",
-        "summary": "DXY remains supported by hawkish Fed expectations as EUR/USD and GBP/USD break key support, while falling oil prices test longer-term rate-hike bets."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,70 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Norwegian Climbs 5% as the Whole Cruise Group Runs; Royal Caribbean and Carnival Gain 4%",
-        "url": "https://247wallst.com/investing/2026/10/06/norwegian-cruise-line-climbs-5-as-the-whole-cruise-group-runs-royal-caribbean-gains-4-carnival-adds-4/?.tsrc=rss",
-        "time_published": "2026-10-06 18:13",
+        "title": "October Rate-Hike Odds Just Fell From 51% to 19% in One Week",
+        "url": "https://247wallst.com/investing/2026/10/07/october-rate-hike-odds-just-fell-from-51-to-19-in-one-week/?.tsrc=rss",
+        "time_published": "2026-10-07 15:25",
         "source": "247wallst",
-        "summary": "Cruise stocks are surging together while the broader market barely budges, but one operator has lost 30% this year and a single strong session only scratches the surface of that deficit."
+        "summary": "Fed rate-hike odds swung violently in a single week, but the jobs data behind that swing raises as many questions as it answers, and long-bond investors may be celebrating too soon."
       },
       {
-        "title": "America\u2019s Trade Deficit Just Hit $105.6 Billion, the Widest Since Before the Tariffs",
-        "url": "https://247wallst.com/investing/2026/10/07/americas-trade-deficit-just-hit-105-6-billion-the-widest-since-before-the-tariffs/?.tsrc=rss",
-        "time_published": "2026-10-07 12:30",
+        "title": "Is Coca-Cola\u2019s Safety Premium Getting Too Expensive?",
+        "url": "https://247wallst.com/investing/2026/10/08/is-coca-colas-safety-premium-getting-too-expensive/?.tsrc=rss",
+        "time_published": "2026-10-08 11:15",
         "source": "247wallst",
-        "summary": "August's trade gap blew past forecasts while the stock market shrugged and climbed higher, and the reason behind both moves points to a spending wave that could just as easily flip into the next recession signal."
+        "summary": "Coca-Cola just posted its best volume growth in nearly two decades, raised guidance twice, and beat earnings six quarters straight. So why do the numbers suggest investors may already be paying too much for that track record?"
       },
       {
-        "title": "How to Combine 5% Bond Returns with My Favorite \u2018Lottery Ticket\u2019 Options Trades for Maximum Portfolio Potential",
-        "url": "https://www.barchart.com/story/news/4992488/how-to-combine-5-bond-returns-with-my-favorite-lottery-ticket-options-trades-for-maximum-portfolio-potential?.tsrc=rss",
-        "time_published": "2026-10-06 20:33",
-        "source": "Barchart",
-        "summary": "I do not place these trades because I am certain they will work. I place them when technical setups offer highly favorable risk-reward tradeoffs."
+        "title": "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields \u2014 SPCX, AMD, NVDA, MRVL In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-and-nasdaq-100-slip-from-record-highs-amid-pressure-from-soaring-treasury-yields-spcx-amd-nvda-mrvl-in-focus/cZDvp0iRBZ9?.tsrc=rss",
+        "time_published": "2026-10-07 22:50",
+        "source": "Stocktwits",
+        "summary": "The 30-year bond yield hit its highest level since May 2002 at 5.732%."
       },
       {
-        "title": "A $1,000 Bet on Microsoft a Decade Ago Crushed the Market by Over 3x",
-        "url": "https://247wallst.com/investing/2026/10/06/a-1000-bet-on-microsoft-a-decade-ago-crushed-the-market-by-over-3x/?.tsrc=rss",
-        "time_published": "2026-10-06 19:00",
+        "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Thursday as Oil Prices Rise After Trump Says He Does Not Want Iran Deal",
+        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-132300271.html?.tsrc=rss",
+        "time_published": "2026-10-08 13:23",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.4%, and the actively t"
+      },
+      {
+        "title": "Wolfspeed Soars 14% on $1.5B Conditional Department of War Loan Commitment; On Semiconductor and Texas Instruments Slip",
+        "url": "https://247wallst.com/investing/2026/10/08/wolfspeed-soars-14-on-1-5b-conditional-department-of-war-loan-commitment-on-semiconductor-and-texas-instruments-slip/?.tsrc=rss",
+        "time_published": "2026-10-08 13:14",
         "source": "247wallst",
-        "summary": "A single Microsoft investment a decade ago left the S&P 500 in the dust, but the reasons behind those gains reveal something surprising about what actually drove the returns and whether the next decade could come close."
+        "summary": "A conditional federal financing commitment is drawing heavy buying into Wolfspeed (NYSE:WOLF), while larger power chipmakers drift lower with the rest of the semiconductor group. Wolfspeed stock is at $35.89, up 14% in morning trading. Meanwhile, shares of On Semiconductor (NASDAQ:ON), a direct sili"
       },
       {
-        "title": "Three Stocks Are Now 21% of the S&P 500, the Most Ever",
-        "url": "https://247wallst.com/investing/2026/10/07/three-stocks-are-now-21-of-the-sp-500-the-most-ever/?.tsrc=rss",
-        "time_published": "2026-10-07 11:30",
+        "title": "Every Fed Official Backed September\u2019s Hike. Most Want One More Before New Year\u2019s",
+        "url": "https://247wallst.com/investing/2026/10/08/every-fed-official-backed-septembers-hike-most-want-one-more-before-new-years/?.tsrc=rss",
+        "time_published": "2026-10-08 12:05",
         "source": "247wallst",
-        "summary": "NVIDIA, Apple, and Microsoft now dominate the S&P 500 at a concentration level that makes the 1980s tech giants look like small players, and what that means for anyone holding an index fund is more unsettling than most realize."
+        "summary": "The Fed voted unanimously to raise rates in September, but the bigger question is what a surprise jobs report and an AI spending surge mean for the next meeting and for anyone holding SPY or TLT right now."
       },
       {
-        "title": "Broadcom Remains So Full of Promise And Continues to Disappoint",
-        "url": "https://247wallst.com/investing/2026/10/07/broadcom-remains-so-full-of-promise-and-continues-to-disappoint/?.tsrc=rss",
-        "time_published": "2026-10-07 11:15",
+        "title": "Strategy Lost More Than 50% of Its Value Last Year: It Will Return 180% According to One Wall Street Pro",
+        "url": "https://247wallst.com/investing/2026/10/08/strategy-lost-more-than-50-of-its-value-last-year-it-will-return-180-according-to-one-wall-street-pro/?.tsrc=rss",
+        "time_published": "2026-10-08 11:15",
         "source": "247wallst",
-        "summary": "Broadcom's AI business is growing faster than almost any chip company on earth, yet the stock keeps sliding after every earnings beat. Something is stopping the market from rewarding results that look undeniably strong."
+        "summary": "Strategy Inc. lost more than half its value while quietly becoming the world's largest corporate Bitcoin treasury, and one Wall Street analyst thinks that combination sets up a trade most investors are too spooked to touch."
       },
       {
-        "title": "Michael Burry Predicts Investors Have Less Than 270 Days To Prepare For Next Phase Of 2008 Style Crash",
-        "url": "https://247wallst.com/investing/2026/10/07/michael-burry-predicts-investors-have-less-than-270-days-to-prepare-for-next-phase-of-2008-style-crash/?.tsrc=rss",
-        "time_published": "2026-10-07 10:17",
-        "source": "247wallst",
-        "summary": "Michael Burry just put a clock on the next phase of a crash he says mirrors 2000 and 2008, and the timeline he named is already running."
-      },
-      {
-        "title": "Warren Buffett's $863 Million \"Secret\" Portfolio Dumped Alphabet and Broadcom, but Has Over 17% of Invested Assets in This Proven Moneymaking Strategy",
-        "url": "https://www.fool.com/investing/2026/10/07/warren-buffett-863-million-secret-portfolio-dump-alphabet-broadcom-has-over-17-invested-in-proven-moneymaking-strategy/?.tsrc=rss",
-        "time_published": "2026-10-07 09:26",
-        "source": "Fool",
-        "summary": "The Oracle of Omaha\u2019s under-the-radar portfolio has over $149 million put to work in two index funds that consistently print profits for long-term investors."
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62236979/stock-market-will-sp-500-open-up-or-down-today-53?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-08 06:12",
+        "source": "Benzinga",
+        "summary": "U.S. stock futures are trending slightly lower early Thursday as investors digest hawkish inflation survey data, rising Treasury yields, and reports that the Pentagon is preparing for potential military strikes in Iran. The Polymarket (CRYPTO: POL) crowd is nearly evenly..."
       }
     ],
     "oil": [
+      {
+        "title": "Oil Is Already at $100. Now a Hurricane Could Shut Down Gulf Production",
+        "url": "https://247wallst.com/investing/2026/10/08/oil-is-already-at-100-now-a-hurricane-could-shut-down-gulf-production/?.tsrc=rss",
+        "time_published": "2026-10-08 11:00",
+        "source": "247wallst",
+        "summary": "Tropical Storm Isaias is bearing down on the Gulf Coast just as oil crosses $100 a barrel, and the real danger has nothing to do with offshore platforms. The threat sitting in the storm's path could keep fuel prices elevated long after the wind dies down."
+      },
       {
         "title": "Trump Wants to Keep America\u2019s Diesel at Home: It's Having a Strange Effect on Oil Prices",
         "url": "https://finance.yahoo.com/energy/articles/trump-wants-keep-america-diesel-153033013.html?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-23 17:31",
         "source": "Finance",
         "summary": "As the summer chop fades and historical tailwinds align, patient investors who weathered the consolidation phase are well-positioned to capitaliz"
-      },
-      {
-        "title": "Diesel Hits Record $6.51 a Gallon as Fuel Crisis Deepens: Commodity Strategist Warns \u2018No Handshake Can Refill\u2019 the Market",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/diesel-hits-record-6-51-094517833.html?.tsrc=rss",
-        "time_published": "2026-09-22 09:45",
-        "source": "Finance",
-        "summary": "The national average price for diesel reached $6.51 per gallon on Monday. A commodity strategist stated the supply disruption has moved into a diesel market that \u201cno handshake can refill.\u201d Record Prices Hit Harvest and Freight The U.S. average diesel..."
       }
     ]
   }

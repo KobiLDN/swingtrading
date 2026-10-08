@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-10-07T13:13:43Z",
+  "generated": "2026-10-08T13:28:59Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-10-06",
-  "decision": "WAIT",
+  "date": "2026-10-07",
+  "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
+  "entry": "777.22",
+  "stop_loss": "782.00",
+  "target_1": "770.00",
+  "target_2": "763.36",
+  "risk_reward": "2.9",
   "score": "4/10",
-  "analysis": "Price action confirms the strong uptrend indicated by the EMAs, with SPY trading well above both the 50-period (762.79) and 200-period (731.06) moving averages. The MACD remains bullish with a positive histogram, and RSI at 62 is neutral\u2014neither overbought nor oversold\u2014suggesting room for further upside. However, the candlestick patterns over the last five sessions introduce significant ambiguity: a Morning Star (bullish reversal) followed by a Shooting Star (bearish reversal) indicates indecision and potential exhaustion near current highs. The overall signal score of 4/10 reflects this mixed technical picture.\n\nNo clear additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data, but the recent Shooting Star after a bullish reversal suggests a possible short-term top or consolidation zone. Key support levels are the round number 775.00, the psychological 770.00, and the EMA50 at 762.79, which serves as a major trend-defining level. Resistance lies at 780.00 (round number), then 785.00, and 790.00 as potential breakout targets. The RSI and MACD are broadly aligned with the uptrend, but the lack of strong momentum (RSI neutral, no divergence) and the conflicting candlestick signals reduce conviction.\n\nGiven the mixed signals and moderate score, the prudent action is to wait for clearer confirmation. A bullish continuation would require a strong close above the Shooting Star\u2019s high (around 780+), while a bearish reversal would need a break below the Morning Star\u2019s low (likely near 770). Until one of these scenarios unfolds, the risk of a false breakout or pullback is elevated, making an immediate entry unattractive for a swing trade.",
-  "invalidation": "A decisive close below the EMA50 (762.79) would invalidate the bullish trend and shift the bias to bearish, while a break above 780 with strong volume would confirm the uptrend and warrant a buy setup.",
+  "analysis": "The price action confirms the structural uptrend (Price > EMA50 > EMA200), but the *quality* of the trend is deteriorating. The price is over 2 ATRs above the EMA 50, signaling an extended move ripe for a mean reversion. The candlestick sequence is the decisive factor: a Morning Star followed by a Shooting Star in the last five candles forms a \"High Wave\" pattern, indicating a clear rejection of higher prices and a potential local top. This contradicts the \"Strong Uptrend\" label and suggests consolidation or a pullback is imminent.\n\nThe RSI (59.82, Neutral) and MACD (Bullish) are in clear divergence. The MACD shows residual momentum, but the RSI confirms this momentum is not accelerating the trend. This divergence, coupled with the conflicting candlesticks, validates the low Signal Score of 4/10. The immediate resistance is the Shooting Star's high, while the primary support is the EMA 50 at 763.36, which acts as the magnetic center for the price.\n\nThe optimal trade is a tactical scalp SELL. The entry is the current price (777.22). The stop loss must be placed just above the Shooting Star rejection level to invalidate the setup if buyers regain control. The targets are a partial scalp at 770.00 and the full mean reversion to the EMA 50 at 763.36. The risk/reward ratio of approximately 2.9 is attractive for this type of counter-trend trade. The low signal score correctly warns against high conviction, making this a calculated, low-lot-size scalp rather than a directional short.",
+  "invalidation": "A break and close above 782.00 would invalidate this scalp setup, confirming the buyers have absorbed the selling pressure and the uptrend is resuming.",
   "support_levels": [
-    775.0,
-    770.0,
-    762.79
+    770.53,
+    763.36,
+    756.67
   ],
   "resistance_levels": [
-    780.0,
-    785.0,
-    790.0
+    783.91,
+    790.6,
+    797.29
   ]
 };

@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-10-07T13:12:18Z",
+  "generated": "2026-10-08T13:19:51Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-10-07",
-  "decision": "WAIT",
-  "confidence": "LOW",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "Price at 1.32025 sits decisively below both the 50-EMA (1.33631) and 200-EMA (1.34144), confirming the stated strong downtrend. No additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the given data, though the recent candlestick sequence (Evening Star, Bullish Engulfing, Morning Star) suggests a period of indecision and potential reversal attempts. The lack of a clear breakout or pattern formation adds uncertainty.\n\nRSI at 35.91 is neutral, not oversold, indicating room for further downside before a sustainable bounce. The MACD shows a bullish crossover (line above signal) with a positive histogram, which in a strong downtrend often signals a counter\u2011trend rally rather than a trend reversal. This creates a divergence between the bearish price structure and the bullish momentum oscillator, reducing confluence. The mixed candlestick patterns further dilute conviction.\n\nKey support lies near the 1.3148 level (current price minus one ATR of 55 pips), followed by 1.3100 and 1.3050. Resistance is clustered at 1.3250 (near\u2011term high), 1.3300 (psychological round number), and the 50-EMA at 1.3363. With price mid\u2011range and no clean trigger, the risk of entering either direction is elevated. The signal score of 5/10 appropriately reflects the absence of a high\u2011confidence setup.",
-  "invalidation": "A decisive break above the 50-EMA (1.3363) would invalidate a bearish bias, while a breakdown below 1.3148 would cancel any bullish reversal hypothesis.",
+  "date": "2026-10-08",
+  "decision": "BUY",
+  "confidence": "MEDIUM",
+  "entry": "1.3213",
+  "stop_loss": "1.3130",
+  "target_1": "1.3300",
+  "target_2": "1.3358",
+  "risk_reward": "1.8",
+  "score": "8/10 confirmed",
+  "analysis": "The daily trend is clearly bearish with price trading below both the EMA 50 and EMA 200, and the EMA 50 is below the EMA 200. However, recent price action is not confirming continued downside momentum: the appearance of bullish engulfing, morning star, and doji candlesticks suggests selling exhaustion and a potential short-term reversal. The bullish RSI divergence and positive MACD histogram also indicate that downside momentum is fading, so the immediate price action is diverging from the broader downtrend.\n\nThe MACD and RSI are in confluence with each other but not with the larger trend. RSI at 36.9 is not oversold, but the bullish divergence implies lower lows in price were not matched by lower lows in momentum. MACD has crossed above its signal line with a positive histogram, supporting a counter-trend bounce. This is a classic setup for a corrective rally within a downtrend, not necessarily a full trend reversal.\n\nThe best trade is a counter-trend buy with a tight, defined risk. Entry at market price 1.3213 allows participation before a potential move toward the first resistance cluster at 1.3300 and the EMA 50 at 1.3358. The stop at 1.3130 is placed below the 1.3150 support zone and just beyond 1.5 times ATR, giving the trade room to breathe while keeping risk controlled. The risk-reward to the first target is approximately 1.8, and the second target aligns with a major moving average resistance.\n\nRisk is elevated because the primary trend is still down. If price fails to hold above 1.3200 and breaks below 1.3130, the bullish reversal signal is invalidated and the downtrend likely resumes. Therefore, position size should be reduced and the trade should be treated as a tactical long against the dominant trend.",
+  "invalidation": "The bullish setup is cancelled if GBP/USD closes below 1.3130, especially on a daily basis, as that would negate the reversal candlesticks and RSI/MACD bullish signals.",
   "support_levels": [
-    1.3148,
-    1.31,
-    1.305
+    1.32,
+    1.315,
+    1.31
   ],
   "resistance_levels": [
     1.325,
     1.33,
-    1.3363
+    1.3358
   ]
 };
