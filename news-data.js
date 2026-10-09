@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-08T13:36:58Z",
+  "generated": "2026-10-09T13:09:53Z",
   "assets": {
     "gbpusd": [
       {
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "October Rate-Hike Odds Just Fell From 51% to 19% in One Week",
-        "url": "https://247wallst.com/investing/2026/10/07/october-rate-hike-odds-just-fell-from-51-to-19-in-one-week/?.tsrc=rss",
-        "time_published": "2026-10-07 15:25",
-        "source": "247wallst",
-        "summary": "Fed rate-hike odds swung violently in a single week, but the jobs data behind that swing raises as many questions as it answers, and long-bond investors may be celebrating too soon."
-      },
-      {
-        "title": "Is Coca-Cola\u2019s Safety Premium Getting Too Expensive?",
-        "url": "https://247wallst.com/investing/2026/10/08/is-coca-colas-safety-premium-getting-too-expensive/?.tsrc=rss",
-        "time_published": "2026-10-08 11:15",
-        "source": "247wallst",
-        "summary": "Coca-Cola just posted its best volume growth in nearly two decades, raised guidance twice, and beat earnings six quarters straight. So why do the numbers suggest investors may already be paying too much for that track record?"
-      },
-      {
-        "title": "S&P 500 And Nasdaq 100 Slip From Record Highs Amid Pressure From Soaring Treasury Yields \u2014 SPCX, AMD, NVDA, MRVL In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-and-nasdaq-100-slip-from-record-highs-amid-pressure-from-soaring-treasury-yields-spcx-amd-nvda-mrvl-in-focus/cZDvp0iRBZ9?.tsrc=rss",
-        "time_published": "2026-10-07 22:50",
+        "title": "Michael Burry Says Trump Will \u2018Pull Out All The Stops\u2019 For AI \u2014 \u2018Dean Of Valuation\u2019 Holds 5 Mag Seven Stocks, Adds Cash",
+        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-trump-pull-out-stops-ai-dean-of-valuation-holds-5-mag-seven-stocks-adds-cash/cZD6hzXRBVm?.tsrc=rss",
+        "time_published": "2026-10-09 06:05",
         "source": "Stocktwits",
-        "summary": "The 30-year bond yield hit its highest level since May 2002 at 5.732%."
+        "summary": "Burry says the Fed has \u201cfewer arrows\u201d and warns Wall Street\u2019s machinery could bring markets down quickly."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Thursday as Oil Prices Rise After Trump Says He Does Not Want Iran Deal",
-        "url": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-equity-futures-132300271.html?.tsrc=rss",
-        "time_published": "2026-10-08 13:23",
+        "title": "The S&P 500 Is Not Enough: My 3-Stock Starter Portfolio for New Investors",
+        "url": "https://www.fool.com/investing/2026/10/09/the-sp-500-is-not-enough-my-3-stock-starter-portfo/?.tsrc=rss",
+        "time_published": "2026-10-09 12:50",
+        "source": "Fool",
+        "summary": "Index funds still have their place in most people's portfolios. But some individual stocks are light on risk and long on reward."
+      },
+      {
+        "title": "Guide to Magnificent Seven ETF investing",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/guide-magnificent-seven-etf-investing-110000081.html?.tsrc=rss",
+        "time_published": "2026-10-09 11:00",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.4%, and the actively t"
+        "summary": "Mag 7 stocks remain market leaders, but rising AI capex, valuations and bubble risks make ETF diversification increasingly relevant."
       },
       {
-        "title": "Wolfspeed Soars 14% on $1.5B Conditional Department of War Loan Commitment; On Semiconductor and Texas Instruments Slip",
-        "url": "https://247wallst.com/investing/2026/10/08/wolfspeed-soars-14-on-1-5b-conditional-department-of-war-loan-commitment-on-semiconductor-and-texas-instruments-slip/?.tsrc=rss",
-        "time_published": "2026-10-08 13:14",
+        "title": "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers \u2014 NVDA, DIS, ORCL, SBUX In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-ends-lower-as-report-of-weaker-than-expected-open-ai-revenue-drags-chipmakers-nvda-dis-orcl-sbux-in-focus/cZDUxqbRBVd?.tsrc=rss",
+        "time_published": "2026-10-08 22:55",
+        "source": "Stocktwits",
+        "summary": "OpenAI\u2019s annualized revenue was revealed to be short of the amount previously signaled, FT reported."
+      },
+      {
+        "title": "XLG Cuts the S&P 500 Down to 50 Stocks. The Result Is an Index Fund Built Entirely Around Mega-Caps",
+        "url": "https://247wallst.com/investing/etf/2026/10/08/xlg-cuts-the-sp-500-down-to-50-stocks-the-result-is-an-index-fund-built-entirely-around-mega-caps/?.tsrc=rss",
+        "time_published": "2026-10-08 21:03",
         "source": "247wallst",
-        "summary": "A conditional federal financing commitment is drawing heavy buying into Wolfspeed (NYSE:WOLF), while larger power chipmakers drift lower with the rest of the semiconductor group. Wolfspeed stock is at $35.89, up 14% in morning trading. Meanwhile, shares of On Semiconductor (NASDAQ:ON), a direct sili"
+        "summary": "Trimming the S&P 500 to just 50 stocks sounds like a shortcut to blue-chip stability, but the sector concentration hiding inside XLG tells a very different story about what investors actually own."
       },
       {
-        "title": "Every Fed Official Backed September\u2019s Hike. Most Want One More Before New Year\u2019s",
-        "url": "https://247wallst.com/investing/2026/10/08/every-fed-official-backed-septembers-hike-most-want-one-more-before-new-years/?.tsrc=rss",
-        "time_published": "2026-10-08 12:05",
+        "title": "Pepsi Cratered in 2026: Goldman Sachs Says It\u2019s Going Up 40% Soon",
+        "url": "https://247wallst.com/investing/2026/10/09/pepsi-cratered-in-2026-goldman-sachs-says-its-going-up-40-soon/?.tsrc=rss",
+        "time_published": "2026-10-09 12:45",
         "source": "247wallst",
-        "summary": "The Fed voted unanimously to raise rates in September, but the bigger question is what a surprise jobs report and an AI spending surge mean for the next meeting and for anyone holding SPY or TLT right now."
+        "summary": "PepsiCo has cratered while every major beverage rival rallied, and now Goldman Sachs sees a 40% rebound ahead. But that call rests on three pillars, and one is already showing serious cracks."
       },
       {
-        "title": "Strategy Lost More Than 50% of Its Value Last Year: It Will Return 180% According to One Wall Street Pro",
-        "url": "https://247wallst.com/investing/2026/10/08/strategy-lost-more-than-50-of-its-value-last-year-it-will-return-180-according-to-one-wall-street-pro/?.tsrc=rss",
-        "time_published": "2026-10-08 11:15",
+        "title": "Optics Stocks Rally on Sold-Out Optical Capacity Through Early 2029: Applied Optoelectronics and Lumentum Surge 7%, Coherent Climbs 5%",
+        "url": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/?.tsrc=rss",
+        "time_published": "2026-10-09 12:36",
         "source": "247wallst",
-        "summary": "Strategy Inc. lost more than half its value while quietly becoming the world's largest corporate Bitcoin treasury, and one Wall Street analyst thinks that combination sets up a trade most investors are too spooked to touch."
+        "summary": "Optical component makers just received a demand signal so strong it reversed weeks of profit-taking in a single morning session, and the company behind it says its order book now stretches years into the future."
       },
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62236979/stock-market-will-sp-500-open-up-or-down-today-53?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-08 06:12",
-        "source": "Benzinga",
-        "summary": "U.S. stock futures are trending slightly lower early Thursday as investors digest hawkish inflation survey data, rising Treasury yields, and reports that the Pentagon is preparing for potential military strikes in Iran. The Polymarket (CRYPTO: POL) crowd is nearly evenly..."
+        "title": "SpaceX Climbs 4% on Nationwide Low-Band Spectrum Deal for Starlink Mobile; Verizon and AT&T Drop 7%",
+        "url": "https://247wallst.com/investing/2026/10/09/spacex-climbs-4-on-nationwide-low-band-spectrum-deal-for-starlink-mobile-verizon-and-att-drop-7/?.tsrc=rss",
+        "time_published": "2026-10-09 12:34",
+        "source": "247wallst",
+        "summary": "SpaceX just bought something it cannot launch, and the move sent two of America's biggest wireless carriers into a sudden selloff. Here is what the spectrum purchase means for anyone holding carrier stock."
       }
     ],
     "oil": [
