@@ -1,21 +1,21 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-08T12:27:46Z",
-  "date": "2026-10-08",
-  "price": 1.11949,
-  "atr": 0.0051,
+  "generated": "2026-10-09T12:16:45Z",
+  "date": "2026-10-09",
+  "price": 1.12045,
+  "atr": 0.00511,
   "atr_pips": 51,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.14218,
-  "ema200": 1.15185,
-  "rsi": 21.55,
-  "macd_line": -0.008099,
-  "macd_signal": -0.007492,
-  "macd_hist": -0.000607,
+  "ema50": 1.14139,
+  "ema200": 1.15124,
+  "rsi": 25.33,
+  "macd_line": -0.00789,
+  "macd_signal": -0.007548,
+  "macd_hist": -0.000342,
   "trend": "STRONG DOWNTREND",
   "divergence": "BULLISH",
   "patterns": [
@@ -32,22 +32,15 @@
       "strength": 4
     },
     {
-      "date": "2026-10-08",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
+      "date": "2026-10-09",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
   "score": 10,
   "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-07-02",
-      "open": 1.13784,
-      "high": 1.1473,
-      "low": 1.13753,
-      "close": 1.14342
-    },
     {
       "date": "2026-07-03",
       "open": 1.14339,
@@ -737,9 +730,16 @@
     {
       "date": "2026-10-08",
       "open": 1.1195,
-      "high": 1.12125,
+      "high": 1.12249,
       "low": 1.11724,
-      "close": 1.11949
+      "close": 1.12135
+    },
+    {
+      "date": "2026-10-09",
+      "open": 1.12129,
+      "high": 1.1243,
+      "low": 1.1203,
+      "close": 1.12045
     }
   ]
 }

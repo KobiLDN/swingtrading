@@ -1,30 +1,24 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-10-08T12:27:45Z",
-  "date": "2026-10-08",
-  "price": 1.3213,
-  "atr": 0.00547,
-  "atr_pips": 55,
+  "generated": "2026-10-09T12:16:45Z",
+  "date": "2026-10-09",
+  "price": 1.3219,
+  "atr": 0.00543,
+  "atr_pips": 54,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33576,
-  "ema200": 1.34057,
-  "rsi": 36.9,
-  "macd_line": -0.005274,
-  "macd_signal": -0.005952,
-  "macd_hist": 0.000678,
+  "ema50": 1.33528,
+  "ema200": 1.34018,
+  "rsi": 38.58,
+  "macd_line": -0.004973,
+  "macd_signal": -0.005734,
+  "macd_hist": 0.000761,
   "trend": "STRONG DOWNTREND",
   "divergence": "BULLISH",
   "patterns": [
-    {
-      "date": "2026-10-04",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-10-06",
       "name": "Bullish Engulfing",
@@ -36,24 +30,11 @@ window.PRICES_DATA_GBPUSD = {
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
-    },
-    {
-      "date": "2026-10-08",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
     }
   ],
   "score": 8,
   "verdict": "BUY/SELL",
   "candles": [
-    {
-      "date": "2026-07-02",
-      "open": 1.32758,
-      "high": 1.33833,
-      "low": 1.3269,
-      "close": 1.33475
-    },
     {
       "date": "2026-07-03",
       "open": 1.33472,
@@ -743,9 +724,16 @@ window.PRICES_DATA_GBPUSD = {
     {
       "date": "2026-10-08",
       "open": 1.3212,
-      "high": 1.32281,
+      "high": 1.32473,
       "low": 1.31853,
-      "close": 1.3213
+      "close": 1.32308
+    },
+    {
+      "date": "2026-10-09",
+      "open": 1.32306,
+      "high": 1.32504,
+      "low": 1.32186,
+      "close": 1.3219
     }
   ]
 };
