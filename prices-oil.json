@@ -1,21 +1,21 @@
 {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-10-09T12:16:48Z",
-  "date": "2026-10-08",
-  "price": 147.58,
-  "atr": 5.37,
+  "generated": "2026-10-12T13:52:48Z",
+  "date": "2026-10-12",
+  "price": 151.97,
+  "atr": 5.07,
   "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 140.81,
-  "ema200": 119.51,
-  "rsi": 52.62,
-  "macd_line": 1.323944,
-  "macd_signal": 2.614714,
-  "macd_hist": -1.29077,
+  "ema50": 141.52,
+  "ema200": 120.17,
+  "rsi": 57.36,
+  "macd_line": 1.62069,
+  "macd_signal": 2.210387,
+  "macd_hist": -0.589698,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
@@ -24,25 +24,17 @@
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-10-09",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-05-18",
-      "open": 145.91,
-      "high": 154.08,
-      "low": 144.96,
-      "close": 149.29
-    },
-    {
-      "date": "2026-05-19",
-      "open": 152.88,
-      "high": 153.5,
-      "low": 150.22,
-      "close": 152.96
-    },
     {
       "date": "2026-05-20",
       "open": 149.45,
@@ -728,6 +720,20 @@
       "high": 150.48,
       "low": 145.0,
       "close": 147.58
+    },
+    {
+      "date": "2026-10-09",
+      "open": 146.85,
+      "high": 149.03,
+      "low": 146.74,
+      "close": 148.2
+    },
+    {
+      "date": "2026-10-12",
+      "open": 151.64,
+      "high": 152.23,
+      "low": 151.39,
+      "close": 151.97
     }
   ]
 }

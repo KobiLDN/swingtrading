@@ -1,41 +1,34 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-10-09T12:16:47Z",
-  "date": "2026-10-08",
-  "price": 53.45,
-  "atr": 1.57,
-  "atr_pips": 2,
+  "generated": "2026-10-12T13:52:47Z",
+  "date": "2026-10-12",
+  "price": 54.64,
+  "atr": 1.49,
+  "atr_pips": 1,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 57.45,
-  "ema200": 61.88,
-  "rsi": 37.3,
-  "macd_line": -1.213573,
-  "macd_signal": -0.823746,
-  "macd_hist": -0.389827,
+  "ema50": 57.24,
+  "ema200": 62.11,
+  "rsi": 42.7,
+  "macd_line": -1.149058,
+  "macd_signal": -0.945597,
+  "macd_hist": -0.203462,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [],
-  "score": 0,
+  "patterns": [
+    {
+      "date": "2026-10-09",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
+    }
+  ],
+  "score": 3,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-05-18",
-      "open": 70.23,
-      "high": 70.77,
-      "low": 68.88,
-      "close": 69.94
-    },
-    {
-      "date": "2026-05-19",
-      "open": 66.68,
-      "high": 67.8,
-      "low": 66.11,
-      "close": 66.9
-    },
     {
       "date": "2026-05-20",
       "open": 67.82,
@@ -721,6 +714,20 @@ window.PRICES_DATA_XAGUSD = {
       "high": 53.64,
       "low": 52.84,
       "close": 53.45
+    },
+    {
+      "date": "2026-10-09",
+      "open": 54.9,
+      "high": 55.25,
+      "low": 54.75,
+      "close": 54.78
+    },
+    {
+      "date": "2026-10-12",
+      "open": 54.72,
+      "high": 54.72,
+      "low": 54.56,
+      "close": 54.64
     }
   ]
 };

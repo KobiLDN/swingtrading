@@ -1,61 +1,46 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-10-09T12:16:45Z",
-  "date": "2026-10-09",
-  "price": 1.3219,
-  "atr": 0.00543,
-  "atr_pips": 54,
+  "generated": "2026-10-12T13:52:45Z",
+  "date": "2026-10-12",
+  "price": 1.32314,
+  "atr": 0.00501,
+  "atr_pips": 50,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33528,
-  "ema200": 1.34018,
-  "rsi": 38.58,
-  "macd_line": -0.004973,
-  "macd_signal": -0.005734,
-  "macd_hist": 0.000761,
+  "ema50": 1.33397,
+  "ema200": 1.33843,
+  "rsi": 40.56,
+  "macd_line": -0.004095,
+  "macd_signal": -0.005015,
+  "macd_hist": 0.00092,
   "trend": "STRONG DOWNTREND",
-  "divergence": "BULLISH",
+  "divergence": "None",
   "patterns": [
     {
-      "date": "2026-10-06",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
+      "date": "2026-10-09",
+      "name": "Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     },
     {
-      "date": "2026-10-06",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
+      "date": "2026-10-11",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-10-12",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 8,
-  "verdict": "BUY/SELL",
+  "score": 2,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-03",
-      "open": 1.33472,
-      "high": 1.33803,
-      "low": 1.33348,
-      "close": 1.33493
-    },
-    {
-      "date": "2026-07-04",
-      "open": 1.33493,
-      "high": 1.33565,
-      "low": 1.3348,
-      "close": 1.33513
-    },
-    {
-      "date": "2026-07-05",
-      "open": 1.3351,
-      "high": 1.33776,
-      "low": 1.33332,
-      "close": 1.33469
-    },
     {
       "date": "2026-07-06",
       "open": 1.33483,
@@ -691,14 +676,14 @@ window.PRICES_DATA = {
       "open": 1.32413,
       "high": 1.32451,
       "low": 1.32331,
-      "close": 1.32374
+      "close": 1.32376
     },
     {
       "date": "2026-10-04",
       "open": 1.32413,
       "high": 1.32451,
       "low": 1.32331,
-      "close": 1.32376
+      "close": 1.32374
     },
     {
       "date": "2026-10-05",
@@ -732,8 +717,29 @@ window.PRICES_DATA = {
       "date": "2026-10-09",
       "open": 1.32306,
       "high": 1.32504,
-      "low": 1.32186,
-      "close": 1.3219
+      "low": 1.3206,
+      "close": 1.32412
+    },
+    {
+      "date": "2026-10-10",
+      "open": 1.32409,
+      "high": 1.32421,
+      "low": 1.32067,
+      "close": 1.32301
+    },
+    {
+      "date": "2026-10-11",
+      "open": 1.32298,
+      "high": 1.32413,
+      "low": 1.32232,
+      "close": 1.32298
+    },
+    {
+      "date": "2026-10-12",
+      "open": 1.32305,
+      "high": 1.32614,
+      "low": 1.32269,
+      "close": 1.32314
     }
   ]
 };
