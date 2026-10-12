@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-10-09
-**Generated:** 2026-10-09T13:06:53Z
+**Date:** 2026-10-12
+**Generated:** 2026-10-12T15:12:55Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | BUY |
+| **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.12045 |
-| **Stop Loss** | 1.11500 |
-| **Target 1** | 1.14139 |
-| **Target 2** | 1.15000 |
-| **Risk/Reward** | 3.8:1 |
-| **Score** | 10/10 |
-| **Support** | 1.12, 1.115, 1.11 |
-| **Resistance** | 1.125, 1.13, 1.14139 |
+| **Entry** | 1.1177 |
+| **Stop Loss** | 1.1230 |
+| **Target 1** | 1.1120 |
+| **Target 2** | 1.1050 |
+| **Risk/Reward** | 1:1.07 (T1), 1:2.4 (T2) |
+| **Score** | 7/10 |
+| **Support** | 1.115, 1.11, 1.105 |
+| **Resistance** | 1.122, 1.125, 1.13 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong downtrend with price well below both the 50- and 200-period EMAs, confirming bearish momentum. However, the RSI is deeply oversold at 25.33 and exhibits a bullish divergence, suggesting waning selling pressure. The MACD remains bearish but the histogram is flattening, hinting at possible momentum exhaustion. The recent candlestick patterns—a Bullish Engulfing and an Inverted Hammer following an Evening Star—indicate a potential reversal from the oversold zone. The signal score of 10/10 reflects this confluence of reversal signals, though the overarching trend is still firmly down.  
+The daily chart shows a strong downtrend confirmed by price trading well below both the EMA50 (1.13886) and EMA200 (1.14999). The recent candlestick formation — a Doji followed by an Evening Star — reinforces bearish momentum after a brief consolidation. The MACD remains bearish (line below signal) with the histogram near zero, suggesting the trend is still in force but stalling. The ATR of 51 pips indicates moderate volatility, keeping the swing bias directional.  
 
-Key support lies near the psychological 1.1200 level and the recent swing low around 1.1150, while resistance is clustered at 1.1250 (minor), 1.1300, and the EMA 50 at 1.14139. The ATR of 51 pips suggests a reasonable stop-loss distance. The trade setup is a contrarian buy, capitalizing on the oversold condition and bullish reversal patterns, with a target toward the first major resistance at the EMA 50. The risk/reward ratio is favorable if the reversal materializes, but the strong downtrend warrants caution.  
+RSI at 23.19 is deep in oversold territory, which often warns of a potential bounce. However, no RSI divergence is present, so the oversold condition alone does not provide a reliable reversal signal. In a strong downtrend, oversold readings can persist, and the bearish MACD alignment supports continuation rather than exhaustion. The absence of a bullish candlestick pattern or momentum shift further lowers the probability of an immediate reversal.  
 
-Given the high signal score and clear reversal signals, a buy is the best setup now, but confidence is medium due to the persistent bearish trend. A tight stop below 1.1150 protects against a continuation of the downtrend.
+Key support levels lie at 1.1150 (recent minor low), 1.1100 (psychological round number), and 1.1050 (prior swing low from late September). Resistance is stacked at 1.1220 (high of the Doji/Evening Star), 1.1250 (near-term resistance), and 1.1300 (prior broken support turned resistance). Given the bearish confluence, a short entry at current price with a stop above the Evening Star high is the most aligned setup.  
+
+Risk is elevated due to the oversold RSI, which could trigger a short-covering rally. The stop at 1.1230 limits loss to 53 pips, while the first target at 1.1120 offers a near 1:1 reward. The second target at 1.1050 provides a favorable 1:2.4 risk-reward ratio. A partial profit take at T1 is recommended to manage risk.
 
 ---
 
 ## Invalidation
 
-A daily close below 1.11500 would negate the reversal setup and signal continued downside.
+A daily close above 1.1230 would break the Evening Star high and suggest a short-term bounce, invalidating the sell setup.
 
 ---
 

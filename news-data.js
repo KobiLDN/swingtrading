@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-09T13:09:53Z",
+  "generated": "2026-10-12T15:14:56Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 102.49, Can EUR/USD Hold 1.1180 Ahead of CPI?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-072924993.html?.tsrc=rss",
+        "time_published": "2026-10-12 07:29",
+        "source": "Finance",
+        "summary": "US dollar holds firm ahead of Wednesday\u2019s CPI report as DXY targets 102.49, EUR/USD risks a break below 1.1180, and GBP/USD struggles beneath 1.3284."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Tests 101.76, Can EUR/USD and GBP/USD Extend Gains?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081535523.html?.tsrc=rss",
+        "time_published": "2026-10-09 08:15",
+        "source": "Finance",
+        "summary": "Fed pause bets pressure DXY toward 101.76, while EUR/USD targets 1.1272 and GBP/USD eyes 1.3284 amid rising ECB and BoE tightening expectations."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Minutes Back DXY, Can GBP/USD and EUR/USD Recover?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082512563.html?.tsrc=rss",
@@ -43,24 +57,24 @@ window.NEWS_DATA = {
         "time_published": "2026-10-01 08:37",
         "source": "Finance",
         "summary": "Elevated Treasury yields support DXY as EUR/USD breaks key support and GBP/USD remains under pressure ahead of U.S. employment data."
-      },
-      {
-        "title": "US Dollar Price Forecast: Rising Yields Lift DXY as EUR/USD and GBP/USD Diverge",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-rising-070620837.html?.tsrc=rss",
-        "time_published": "2026-09-29 07:06",
-        "source": "Finance",
-        "summary": "Rising Treasury yields and Fed hike expectations support DXY as EUR/USD remains pressured, while higher UK inflation expectations support sterling."
-      },
-      {
-        "title": "US Dollar Price Forecast: Strong U.S. Data Lifts DXY as EUR/USD and GBP/USD Weaken",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-082406708.html?.tsrc=rss",
-        "time_published": "2026-09-24 08:24",
-        "source": "Finance",
-        "summary": "Strong U.S. data and hawkish Fed expectations support DXY as EUR/USD and GBP/USD remain pressured below key technical resistance."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: DXY Eyes 102.49, Can EUR/USD Hold 1.1180 Ahead of CPI?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-072924993.html?.tsrc=rss",
+        "time_published": "2026-10-12 07:29",
+        "source": "Finance",
+        "summary": "US dollar holds firm ahead of Wednesday\u2019s CPI report as DXY targets 102.49, EUR/USD risks a break below 1.1180, and GBP/USD struggles beneath 1.3284."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Tests 101.76, Can EUR/USD and GBP/USD Extend Gains?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081535523.html?.tsrc=rss",
+        "time_published": "2026-10-09 08:15",
+        "source": "Finance",
+        "summary": "Fed pause bets pressure DXY toward 101.76, while EUR/USD targets 1.1272 and GBP/USD eyes 1.3284 amid rising ECB and BoE tightening expectations."
+      },
+      {
         "title": "US Dollar Price Forecast: Fed Minutes Back DXY, Can GBP/USD and EUR/USD Recover?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082512563.html?.tsrc=rss",
         "time_published": "2026-10-08 08:25",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-01 08:37",
         "source": "Finance",
         "summary": "Elevated Treasury yields support DXY as EUR/USD breaks key support and GBP/USD remains under pressure ahead of U.S. employment data."
-      },
-      {
-        "title": "US Dollar Price Forecast: Rising Yields Lift DXY as EUR/USD and GBP/USD Diverge",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-rising-070620837.html?.tsrc=rss",
-        "time_published": "2026-09-29 07:06",
-        "source": "Finance",
-        "summary": "Rising Treasury yields and Fed hike expectations support DXY as EUR/USD remains pressured, while higher UK inflation expectations support sterling."
-      },
-      {
-        "title": "US Dollar Price Forecast: Strong U.S. Data Lifts DXY as EUR/USD and GBP/USD Weaken",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-strong-082406708.html?.tsrc=rss",
-        "time_published": "2026-09-24 08:24",
-        "source": "Finance",
-        "summary": "Strong U.S. data and hawkish Fed expectations support DXY as EUR/USD and GBP/USD remain pressured below key technical resistance."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Michael Burry Says Trump Will \u2018Pull Out All The Stops\u2019 For AI \u2014 \u2018Dean Of Valuation\u2019 Holds 5 Mag Seven Stocks, Adds Cash",
-        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-trump-pull-out-stops-ai-dean-of-valuation-holds-5-mag-seven-stocks-adds-cash/cZD6hzXRBVm?.tsrc=rss",
-        "time_published": "2026-10-09 06:05",
-        "source": "Stocktwits",
-        "summary": "Burry says the Fed has \u201cfewer arrows\u201d and warns Wall Street\u2019s machinery could bring markets down quickly."
+        "title": "Salesforce at $229: One Of The Most Unpredictable AI Plays There Is",
+        "url": "https://247wallst.com/investing/2026/10/12/salesforce-at-229-one-of-the-most-unpredictable-ai-plays-there-is/?.tsrc=rss",
+        "time_published": "2026-10-12 12:45",
+        "source": "247wallst",
+        "summary": "Salesforce just delivered a massive earnings beat, sent analyst targets soaring, and still managed to lose ground against the broader market. Something about the AI story is not adding up, and the next two quarters will force a reckoning."
       },
       {
-        "title": "The S&P 500 Is Not Enough: My 3-Stock Starter Portfolio for New Investors",
-        "url": "https://www.fool.com/investing/2026/10/09/the-sp-500-is-not-enough-my-3-stock-starter-portfo/?.tsrc=rss",
-        "time_published": "2026-10-09 12:50",
-        "source": "Fool",
-        "summary": "Index funds still have their place in most people's portfolios. But some individual stocks are light on risk and long on reward."
+        "title": "Stocktwits Pharma Pulse: JNJ Earnings, Cancer Updates And Two FDA Target Dates \u2014 The Week\u2019s Biotech Watchlist",
+        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-pharma-pulse-jnj-earnings-cancer-updates-fda-target-dates-week-biotech-watchlist/cZx4H9CRBFa?.tsrc=rss",
+        "time_published": "2026-10-12 02:17",
+        "source": "Stocktwits",
+        "summary": "JNJ reports third-quarter results on Tuesday, and Koyfin analysts expect modest revenue growth and lower earnings."
       },
       {
         "title": "Guide to Magnificent Seven ETF investing",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/guide-magnificent-seven-etf-investing-110000081.html?.tsrc=rss",
-        "time_published": "2026-10-09 11:00",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/guide-magnificent-seven-etf-investing-110000491.html?.tsrc=rss",
+        "time_published": "2026-10-12 11:00",
         "source": "Finance",
         "summary": "Mag 7 stocks remain market leaders, but rising AI capex, valuations and bubble risks make ETF diversification increasingly relevant."
       },
       {
-        "title": "Nasdaq 100 Ends Lower As Report Of Weaker-Than-Expected OpenAI Revenue Drags Chipmakers \u2014 NVDA, DIS, ORCL, SBUX In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-ends-lower-as-report-of-weaker-than-expected-open-ai-revenue-drags-chipmakers-nvda-dis-orcl-sbux-in-focus/cZDUxqbRBVd?.tsrc=rss",
-        "time_published": "2026-10-08 22:55",
-        "source": "Stocktwits",
-        "summary": "OpenAI\u2019s annualized revenue was revealed to be short of the amount previously signaled, FT reported."
+        "title": "Is Walt Disney (DIS) a Good or Bad Investment at Today\u2019s Price?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-dis-good-bad-050201170.html?.tsrc=rss",
+        "time_published": "2026-10-12 05:02",
+        "source": "Finance",
+        "summary": "The Walt Disney Company (NYSE:DIS) closed at $108.05 on October 9. The stock has returned 6.8% during the last six months, compared to a 24.3% return for the Insider Monkey Billionaire Index and 15.1% for State Street SPDR S&P 500 ETF Trust. Disney is two companies stapled together, one that prints"
       },
       {
-        "title": "XLG Cuts the S&P 500 Down to 50 Stocks. The Result Is an Index Fund Built Entirely Around Mega-Caps",
-        "url": "https://247wallst.com/investing/etf/2026/10/08/xlg-cuts-the-sp-500-down-to-50-stocks-the-result-is-an-index-fund-built-entirely-around-mega-caps/?.tsrc=rss",
-        "time_published": "2026-10-08 21:03",
-        "source": "247wallst",
-        "summary": "Trimming the S&P 500 to just 50 stocks sounds like a shortcut to blue-chip stability, but the sector concentration hiding inside XLG tells a very different story about what investors actually own."
+        "title": "What is SBA Communications\u2019 (SBAC) Economic Moat, and is it Widening or Narrowing?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/sba-communications-sbac-economic-moat-015145003.html?.tsrc=rss",
+        "time_published": "2026-10-12 01:50",
+        "source": "Finance",
+        "summary": "SBA Communications Corporation (NASDAQ:SBAC) closed at $182.49 on October 9. The stock has returned -17.1% during the last 6 months, compared to a 24.3% return for the Insider Monkey Billionaire Index and 15.1% for State Street SPDR S&P 500 ETF Trust. A company can be impossible to compete with and"
       },
       {
-        "title": "Pepsi Cratered in 2026: Goldman Sachs Says It\u2019s Going Up 40% Soon",
-        "url": "https://247wallst.com/investing/2026/10/09/pepsi-cratered-in-2026-goldman-sachs-says-its-going-up-40-soon/?.tsrc=rss",
-        "time_published": "2026-10-09 12:45",
-        "source": "247wallst",
-        "summary": "PepsiCo has cratered while every major beverage rival rallied, and now Goldman Sachs sees a 40% rebound ahead. But that call rests on three pillars, and one is already showing serious cracks."
+        "title": "What is Copart\u2019s (CPRT) Economic Moat, and is it Widening or Narrowing?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/copart-cprt-economic-moat-widening-013511567.html?.tsrc=rss",
+        "time_published": "2026-10-12 01:35",
+        "source": "Finance",
+        "summary": "Copart, Inc. (NASDAQ:CPRT) closed at $27.32 on October 9. The stock has returned -17.8% during the last 6 months, compared to a 24.3% return for the Insider Monkey Billionaire Index and 15.1% for the State Street SPDR S&P 500 ETF Trust. A business this profitable usually borrows against it. Copart h"
       },
       {
-        "title": "Optics Stocks Rally on Sold-Out Optical Capacity Through Early 2029: Applied Optoelectronics and Lumentum Surge 7%, Coherent Climbs 5%",
-        "url": "https://247wallst.com/investing/2026/10/09/optics-stocks-rally-on-sold-out-optical-capacity-through-early-2029-applied-optoelectronics-and-lumentum-surge-7-coherent-climbs-5/?.tsrc=rss",
-        "time_published": "2026-10-09 12:36",
-        "source": "247wallst",
-        "summary": "Optical component makers just received a demand signal so strong it reversed weeks of profit-taking in a single morning session, and the company behind it says its order book now stretches years into the future."
+        "title": "What is Domino\u2019s (DPZ) Economic Moat, and is it Widening or Narrowing?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/domino-dpz-economic-moat-widening-011131749.html?.tsrc=rss",
+        "time_published": "2026-10-12 01:11",
+        "source": "Finance",
+        "summary": "Domino\u2019s Pizza, Inc. (NASDAQ:DPZ) closed at $309.36 on October 9. The stock has returned -16% during the last 6 months, compared to a 24.3% return for the Insider Monkey Billionaire Index and 15.1% for the State Street SPDR S&P 500 ETF Trust. Domino\u2019s has handed shareholders more than the entire boo"
       },
       {
-        "title": "SpaceX Climbs 4% on Nationwide Low-Band Spectrum Deal for Starlink Mobile; Verizon and AT&T Drop 7%",
-        "url": "https://247wallst.com/investing/2026/10/09/spacex-climbs-4-on-nationwide-low-band-spectrum-deal-for-starlink-mobile-verizon-and-att-drop-7/?.tsrc=rss",
-        "time_published": "2026-10-09 12:34",
+        "title": "Memory Stocks Slide as China\u2019s CXMT Flags Denser Chip Design: Micron and SK Hynix Fall 4%, Western Digital Drops 2%",
+        "url": "https://247wallst.com/investing/2026/10/12/memory-stocks-slide-as-chinas-cxmt-flags-denser-chip-design-micron-and-sk-hynix-fall-4-western-digital-drops-2/?.tsrc=rss",
+        "time_published": "2026-10-12 14:41",
         "source": "247wallst",
-        "summary": "SpaceX just bought something it cannot launch, and the move sent two of America's biggest wireless carriers into a sudden selloff. Here is what the spectrum purchase means for anyone holding carrier stock."
+        "summary": "A Chinese chipmaker nobody on Wall Street can trade just claimed a breakthrough in the most profitable corner of the memory market, and investors in Micron and SK Hynix are already paying the price before a single server chip has shipped."
       }
     ],
     "oil": [

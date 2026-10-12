@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-10-09
-**Generated:** 2026-10-09T13:06:40Z
+**Date:** 2026-10-12
+**Generated:** 2026-10-12T15:12:30Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,30 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | BUY |
+| **Decision** | WAIT |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.3219 |
-| **Stop Loss** | 1.3170 |
-| **Target 1** | 1.3300 |
-| **Target 2** | 1.3353 |
-| **Risk/Reward** | 1.65 (T1) / 2.73 (T2) |
-| **Score** | 8/10 |
-| **Support** | 1.32, 1.317, 1.31 |
-| **Resistance** | 1.33, 1.3353, 1.3402 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 2/10 confirmed |
+| **Support** | 1.32, 1.315, 1.31 |
+| **Resistance** | 1.33, 1.33397, 1.33843 |
 
 ---
 
 ## Analysis
 
-Price action remains below both the 50- and 200-period EMAs, confirming the strong downtrend. However, the last five candles have formed a Bullish Engulfing and a Morning Star pattern—both classic reversal signals that suggest selling pressure may be exhausted near current levels. The RSI at 38.58 is neutral but shows a bullish divergence (price made lower lows while RSI made higher lows), indicating weakening downside momentum. The MACD has turned bullish with the line above the signal line and a positive histogram, adding to the case for a near-term bounce.  
+The daily chart remains in a strong downtrend, with price well below both the 50- and 200-period EMAs (1.33397 and 1.33843). The recent candlestick formations—a hammer followed by two dojis—suggest a potential loss of selling momentum and a possible bottoming process, but they have not yet been confirmed by a bullish close above nearby resistance. The MACD has turned bullish with the line above its signal and a positive histogram, indicating early momentum divergence against the dominant downtrend. However, the RSI sits at a neutral 40.56 without any divergence, offering no clear overbought/oversold signal. The low signal score of 2/10 underscores the conflicting nature of these indicators: the trend is decisively bearish, but the MACD and candlestick patterns hint at a possible reversal or consolidation.
 
-No clear additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data, but the candlestick formations themselves act as a potential bottoming structure. Key support lies at the psychological 1.3200 level and the recent swing low near 1.3170. Resistance is clustered at 1.3300 (round number), the 50-EMA at 1.3353, and the 200-EMA at 1.3402. The RSI and MACD both diverge from the prevailing downtrend, creating a momentum-trend conflict that often precedes a counter-trend move.  
-
-Given the high signal score (8/10) and the confluence of bullish divergence, MACD crossover, and reversal candlesticks, a long trade is the best setup. The risk is manageable with a stop below the recent low (1.3170), and the first target at 1.3300 offers a favorable risk-reward ratio. The second target at the 50-EMA aligns with a key resistance zone. This is a counter-trend trade, so position size should be conservative.
+Support near the psychological 1.3200 level aligns with the hammer's low and could provide a short-term floor. Resistance is clustered at 1.3300 (round number), the 50-EMA (1.33397), and the 200-EMA (1.33843). Any bullish move would need to clear these levels to challenge the strong downtrend. Conversely, a break below 1.3200 would likely accelerate selling toward 1.3150 and lower. Given the lack of confirmation for either a continuation breakdown or a reversal breakout, the most prudent action is to wait for price to establish a clear directional signal—such as a sustained close above 1.3300 for a long, or a breakdown below 1.3200 for a short. The current setup does not offer a favorable risk/reward profile due to the opposing forces between trend and momentum.
 
 ---
 
 ## Invalidation
 
-A daily close below 1.3170 (the recent swing low and the low of the Morning Star pattern) would cancel the bullish setup and signal a continuation of the downtrend.
+A decisive close below 1.3200 would cancel any potential bullish reversal setup and reinforce the bearish trend, while a strong close above 1.3340 (the 50-EMA) would invalidate the wait and favor a buy entry.
 
 ---
 
