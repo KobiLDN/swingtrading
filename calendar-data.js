@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-10-12T13:52:52Z",
+  "generated": "2026-10-13T13:10:12Z",
   "events": [
     {
       "date": "2026-10-14",
@@ -79,7 +79,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "Core Retail Sales m/m",
       "impact": "high",
-      "forecast": "0.5%",
+      "forecast": "0.6%",
       "previous": "1.4%",
       "actual": "",
       "today": false,
@@ -91,7 +91,7 @@ window.CALENDAR_DATA = {
       "currency": "USD",
       "event": "PPI m/m",
       "impact": "high",
-      "forecast": "0.5%",
+      "forecast": "0.6%",
       "previous": "0.4%",
       "actual": "",
       "today": false,

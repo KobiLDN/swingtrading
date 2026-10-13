@@ -1,21 +1,21 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-10-12T13:52:46Z",
-  "date": "2026-10-12",
-  "price": 4171.68,
-  "atr": 53.2,
+  "generated": "2026-10-13T13:10:10Z",
+  "date": "2026-10-13",
+  "price": 4177.62,
+  "atr": 52.97,
   "atr_pips": 53,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4256.08,
-  "ema200": 4340.22,
-  "rsi": 44.03,
-  "macd_line": -38.0259,
-  "macd_signal": -48.592103,
-  "macd_hist": 10.566203,
+  "ema50": 4252.92,
+  "ema200": 4338.58,
+  "rsi": 44.99,
+  "macd_line": -35.154191,
+  "macd_signal": -45.933826,
+  "macd_hist": 10.779636,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -35,13 +35,6 @@ window.PRICES_DATA_XAUUSD = {
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-06",
-      "open": 4174.96,
-      "high": 4202.03,
-      "low": 4129.33,
-      "close": 4165.12
-    },
     {
       "date": "2026-07-07",
       "open": 4164.61,
@@ -670,14 +663,14 @@ window.PRICES_DATA_XAUUSD = {
       "open": 4137.53,
       "high": 4137.72,
       "low": 4137.47,
-      "close": 4137.51
+      "close": 4137.63
     },
     {
       "date": "2026-10-04",
       "open": 4137.53,
       "high": 4137.72,
       "low": 4137.47,
-      "close": 4137.63
+      "close": 4137.51
     },
     {
       "date": "2026-10-05",
@@ -733,7 +726,14 @@ window.PRICES_DATA_XAUUSD = {
       "open": 4195.82,
       "high": 4216.21,
       "low": 4156.45,
-      "close": 4171.68
+      "close": 4169.42
+    },
+    {
+      "date": "2026-10-13",
+      "open": 4169.34,
+      "high": 4200.45,
+      "low": 4150.52,
+      "close": 4177.62
     }
   ]
 };

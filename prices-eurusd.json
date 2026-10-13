@@ -1,21 +1,21 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-12T13:52:46Z",
-  "date": "2026-10-12",
-  "price": 1.1177,
-  "atr": 0.00507,
-  "atr_pips": 51,
+  "generated": "2026-10-13T13:10:09Z",
+  "date": "2026-10-13",
+  "price": 1.11889,
+  "atr": 0.00516,
+  "atr_pips": 52,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.13886,
-  "ema200": 1.14999,
-  "rsi": 23.19,
-  "macd_line": -0.007615,
-  "macd_signal": -0.007613,
-  "macd_hist": -2e-06,
+  "ema50": 1.13799,
+  "ema200": 1.14913,
+  "rsi": 30.19,
+  "macd_line": -0.007539,
+  "macd_signal": -0.007627,
+  "macd_hist": 8.9e-05,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -32,16 +32,9 @@
       "strength": 5
     }
   ],
-  "score": 7,
+  "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-06",
-      "open": 1.14424,
-      "high": 1.14459,
-      "low": 1.14094,
-      "close": 1.14412
-    },
     {
       "date": "2026-07-07",
       "open": 1.14409,
@@ -670,14 +663,14 @@
       "open": 1.1255,
       "high": 1.1262,
       "low": 1.12514,
-      "close": 1.1258
+      "close": 1.12578
     },
     {
       "date": "2026-10-04",
       "open": 1.1255,
       "high": 1.1262,
       "low": 1.12514,
-      "close": 1.12578
+      "close": 1.1258
     },
     {
       "date": "2026-10-05",
@@ -732,8 +725,15 @@
       "date": "2026-10-12",
       "open": 1.11949,
       "high": 1.12171,
-      "low": 1.11732,
-      "close": 1.1177
+      "low": 1.11542,
+      "close": 1.11543
+    },
+    {
+      "date": "2026-10-13",
+      "open": 1.11545,
+      "high": 1.11975,
+      "low": 1.11525,
+      "close": 1.11889
     }
   ]
 }
