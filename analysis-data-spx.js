@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-10-12T15:13:42Z",
+  "generated": "2026-10-14T11:44:31Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -11,13 +11,13 @@ window.ANALYSIS_DATA_SPX = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The daily chart shows a strong uptrend with price well above both the EMA50 (764.92) and EMA200 (734.71). The MACD remains bullish with a positive histogram, and RSI is neutral at 59.94, leaving room for further upside. However, the last five candles include a Shooting Star and an Evening Star, both bearish reversal patterns that suggest potential exhaustion or a short-term pullback. The signal score of 5/10 reflects this conflict between trend strength and bearish candlestick signals.\n\nGiven the absence of RSI divergence or any clear chart patterns like flags or double tops, the current price action is ambiguous. The nearest support is the round number 775, followed by the EMA50 at 764.92, while resistance lies at 780 and beyond. The ATR of 6.22 indicates moderate daily volatility, but the bearish patterns are not yet confirmed by a break of support. Without a clear catalyst or confirmation, entering a trade now carries elevated risk\u2014selling against a strong uptrend is dangerous, while buying into reversal patterns is premature.\n\nThe most prudent approach is to wait for price to resolve the current indecision. A break below 775 would confirm the bearish reversal and open a short opportunity, while a push above 780 would negate the reversal signals and favor continuation of the uptrend. Until then, the risk/reward is unfavorable for either direction.",
-  "invalidation": "If price closes above the Shooting Star\u2019s high (approximately 780), the bearish reversal pattern is invalidated, and the strong uptrend is likely to continue.",
+  "score": "5/10 confirmed",
+  "analysis": "Price action confirms the EMA-defined uptrend: SPY is trading well above the 50 EMA at 765.41 and the 200 EMA at 735.13, with the 50 EMA above the 200 EMA. However, the last five candles contain an Evening Star, a bearish reversal candlestick pattern. In a strong uptrend, this pattern often signals a short-term pullback or consolidation rather than a full trend reversal, so it is enough to discourage chasing price at 778.01, but not enough to justify selling.\n\nThere are no clear triangle, flag, or double top/bottom patterns evident from the provided data. The main additional pattern is the Evening Star, which is most relevant near resistance. Immediate resistance is the psychological 780.00 level, followed by 785.00 and 790.00. On the downside, support sits at 770.00, then the 50 EMA at 765.41, and a slightly deeper support zone around 759.35, roughly one ATR below the 50 EMA.\n\nRSI at 59.22 is neutral with no bearish divergence, meaning momentum is not overbought and still has room to extend. MACD is bullish, with the MACD line above the signal line and a positive histogram, which agrees with the overall uptrend. The technical confluence is therefore still bullish, but the Evening Star and proximity to 780 resistance argue for patience rather than immediate long entry.\n\nThe single best setup right now is a buy on a pullback into the 765\u2013770 support zone, rather than a market buy at current price. A disciplined swing entry would be a limit order near 765.41\u2013770.00, with a stop below 759.35 and initial targets near 780 and 790. Since that entry has not yet been triggered, the correct current decision is to wait.",
+  "invalidation": "The bullish pullback setup would be invalidated if SPY closes below 759.35, as that would break the 50 EMA zone and threaten the underlying uptrend structure.",
   "support_levels": [
-    775.0,
     770.0,
-    764.92
+    765.41,
+    759.35
   ],
   "resistance_levels": [
     780.0,

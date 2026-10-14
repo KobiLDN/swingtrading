@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-12T15:14:56Z",
+  "generated": "2026-10-14T11:45:31Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Tests 101.93, Can EUR/USD and GBP/USD Break Higher?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-053712286.html?.tsrc=rss",
+        "time_published": "2026-10-14 05:37",
+        "source": "Finance",
+        "summary": "DXY slips below its rising trendline ahead of U.S. CPI, while EUR/USD eyes a breakout above 1.1233 and GBP/USD targets 1.3284 amid Fed and BoE policy uncertainty."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 102.61, Can EUR/USD and GBP/USD Break Higher?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-070645491.html?.tsrc=rss",
+        "time_published": "2026-10-13 07:06",
+        "source": "Finance",
+        "summary": "DXY holds above 102.10 ahead of U.S. CPI as EUR/USD struggles below 1.1218 and GBP/USD eyes a triangle breakout near 1.3284 amid Fed policy uncertainty."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Eyes 102.49, Can EUR/USD Hold 1.1180 Ahead of CPI?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-072924993.html?.tsrc=rss",
@@ -43,24 +57,24 @@ window.NEWS_DATA = {
         "time_published": "2026-10-05 08:18",
         "source": "Finance",
         "summary": "Weak U.S. payrolls cut October Fed hike bets, but elevated yields keep DXY firm as EUR/USD breaks support and GBP/USD struggles below 1.3250."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds Firm Ahead of NFP, Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-080831560.html?.tsrc=rss",
-        "time_published": "2026-10-02 08:08",
-        "source": "Finance",
-        "summary": "DXY holds above 101.76 as higher Treasury yields support the dollar, while EUR/USD and GBP/USD attempt recoveries ahead of September NFP."
-      },
-      {
-        "title": "US Dollar Price Forecast: Treasury Yields Lift DXY as EUR/USD and GBP/USD Retreat",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-treasury-083755824.html?.tsrc=rss",
-        "time_published": "2026-10-01 08:37",
-        "source": "Finance",
-        "summary": "Elevated Treasury yields support DXY as EUR/USD breaks key support and GBP/USD remains under pressure ahead of U.S. employment data."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: DXY Tests 101.93, Can EUR/USD and GBP/USD Break Higher?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-053712286.html?.tsrc=rss",
+        "time_published": "2026-10-14 05:37",
+        "source": "Finance",
+        "summary": "DXY slips below its rising trendline ahead of U.S. CPI, while EUR/USD eyes a breakout above 1.1233 and GBP/USD targets 1.3284 amid Fed and BoE policy uncertainty."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 102.61, Can EUR/USD and GBP/USD Break Higher?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-070645491.html?.tsrc=rss",
+        "time_published": "2026-10-13 07:06",
+        "source": "Finance",
+        "summary": "DXY holds above 102.10 ahead of U.S. CPI as EUR/USD struggles below 1.1218 and GBP/USD eyes a triangle breakout near 1.3284 amid Fed policy uncertainty."
+      },
+      {
         "title": "US Dollar Price Forecast: DXY Eyes 102.49, Can EUR/USD Hold 1.1180 Ahead of CPI?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-072924993.html?.tsrc=rss",
         "time_published": "2026-10-12 07:29",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-05 08:18",
         "source": "Finance",
         "summary": "Weak U.S. payrolls cut October Fed hike bets, but elevated yields keep DXY firm as EUR/USD breaks support and GBP/USD struggles below 1.3250."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds Firm Ahead of NFP, Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-080831560.html?.tsrc=rss",
-        "time_published": "2026-10-02 08:08",
-        "source": "Finance",
-        "summary": "DXY holds above 101.76 as higher Treasury yields support the dollar, while EUR/USD and GBP/USD attempt recoveries ahead of September NFP."
-      },
-      {
-        "title": "US Dollar Price Forecast: Treasury Yields Lift DXY as EUR/USD and GBP/USD Retreat",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-treasury-083755824.html?.tsrc=rss",
-        "time_published": "2026-10-01 08:37",
-        "source": "Finance",
-        "summary": "Elevated Treasury yields support DXY as EUR/USD breaks key support and GBP/USD remains under pressure ahead of U.S. employment data."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Salesforce at $229: One Of The Most Unpredictable AI Plays There Is",
-        "url": "https://247wallst.com/investing/2026/10/12/salesforce-at-229-one-of-the-most-unpredictable-ai-plays-there-is/?.tsrc=rss",
-        "time_published": "2026-10-12 12:45",
+        "title": "If You Own SPY, This Lower-Cost Fund Tracks Identical Holdings for Less Than Half the Fee",
+        "url": "https://247wallst.com/investing/etf/2026/10/13/if-you-own-spy-this-lower-cost-fund-tracks-identical-holdings-for-less-than-half-the-fee/?.tsrc=rss",
+        "time_published": "2026-10-13 23:33",
         "source": "247wallst",
-        "summary": "Salesforce just delivered a massive earnings beat, sent analyst targets soaring, and still managed to lose ground against the broader market. Something about the AI story is not adding up, and the next two quarters will force a reckoning."
+        "summary": "SPY built its reputation as the default S&P 500 fund, but a structural quirk in how it was originally designed quietly costs long-term holders money every single year compared to a fund holding the exact same stocks."
       },
       {
-        "title": "Stocktwits Pharma Pulse: JNJ Earnings, Cancer Updates And Two FDA Target Dates \u2014 The Week\u2019s Biotech Watchlist",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-pharma-pulse-jnj-earnings-cancer-updates-fda-target-dates-week-biotech-watchlist/cZx4H9CRBFa?.tsrc=rss",
-        "time_published": "2026-10-12 02:17",
+        "title": "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dow-futures-rise-nasdaq-subdued-premarket-ahead-of-inflation-data-asml-mu-skhy-tsla-bac-lqda-gme-iren-stocks-in-focus/cZxfS2RRBpN?.tsrc=rss",
+        "time_published": "2026-10-14 08:51",
         "source": "Stocktwits",
-        "summary": "JNJ reports third-quarter results on Tuesday, and Koyfin analysts expect modest revenue growth and lower earnings."
+        "summary": "On Stocktwits, retail sentiment toward SPY and QQQ has remained \u2018bullish\u2019 ahead of the CPI print."
       },
       {
-        "title": "Guide to Magnificent Seven ETF investing",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/guide-magnificent-seven-etf-investing-110000491.html?.tsrc=rss",
-        "time_published": "2026-10-12 11:00",
+        "title": "Is Spotify (SPOT) a Good or Bad Investment at Today\u2019s Price?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spotify-spot-good-bad-investment-231059679.html?.tsrc=rss",
+        "time_published": "2026-10-13 23:10",
         "source": "Finance",
-        "summary": "Mag 7 stocks remain market leaders, but rising AI capex, valuations and bubble risks make ETF diversification increasingly relevant."
+        "summary": "Spotify Technology S.A. (NYSE:SPOT) closed at $527.45 on October 13. The stock has returned 4.6% over the last six months, compared to a 21.5% return by the Insider Monkey Billionaire Index and 14.0% for State Street SPDR S&P 500 ETF Trust. Spotify sells access to music it does not own. Every song s"
       },
       {
-        "title": "Is Walt Disney (DIS) a Good or Bad Investment at Today\u2019s Price?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/walt-disney-dis-good-bad-050201170.html?.tsrc=rss",
-        "time_published": "2026-10-12 05:02",
+        "title": "Humana (HUM) Will Have 95% of Its Members in Four-Star Plans, Up From 20%. What Changed?",
+        "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-95-members-four-223533680.html?.tsrc=rss",
+        "time_published": "2026-10-13 22:35",
         "source": "Finance",
-        "summary": "The Walt Disney Company (NYSE:DIS) closed at $108.05 on October 9. The stock has returned 6.8% during the last six months, compared to a 24.3% return for the Insider Monkey Billionaire Index and 15.1% for State Street SPDR S&P 500 ETF Trust. Disney is two companies stapled together, one that prints"
+        "summary": "Humana Inc. (NYSE:HUM) closed at $420.38 on October 13. The stock has returned 112% over the last six months, compared to a 21.5% return by the Insider Monkey Billionaire Index and 14.0% for the State Street SPDR S&P 500 ETF Trust. Humana sells private health plans to people on Medicare, and the gov"
       },
       {
-        "title": "What is SBA Communications\u2019 (SBAC) Economic Moat, and is it Widening or Narrowing?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/sba-communications-sbac-economic-moat-015145003.html?.tsrc=rss",
-        "time_published": "2026-10-12 01:50",
+        "title": "Skyworks (SWKS) Pays 147% of Earnings as Dividends With Over 29% of Its Float Short. Can the Dividend Hold?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-pays-147-earnings-220905592.html?.tsrc=rss",
+        "time_published": "2026-10-13 22:09",
         "source": "Finance",
-        "summary": "SBA Communications Corporation (NASDAQ:SBAC) closed at $182.49 on October 9. The stock has returned -17.1% during the last 6 months, compared to a 24.3% return for the Insider Monkey Billionaire Index and 15.1% for State Street SPDR S&P 500 ETF Trust. A company can be impossible to compete with and"
+        "summary": "Skyworks Solutions, Inc. (NASDAQ:SWKS) closed at $76.56 on October 13. The stock has returned 35.5% over the last six months, compared to a 21.5% return for the Insider Monkey Billionaire Index and 14% for State Street SPDR S&P 500 ETF Trust. The payout ratio moved because the denominator collapsed,"
       },
       {
-        "title": "What is Copart\u2019s (CPRT) Economic Moat, and is it Widening or Narrowing?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/copart-cprt-economic-moat-widening-013511567.html?.tsrc=rss",
-        "time_published": "2026-10-12 01:35",
+        "title": "Becton Dickinson (BDX) Grew Revenue 5.4% While Earnings Fell 34.3%. Why Did Profit Fall So Much Further?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/becton-dickinson-bdx-grew-revenue-192940284.html?.tsrc=rss",
+        "time_published": "2026-10-13 19:29",
         "source": "Finance",
-        "summary": "Copart, Inc. (NASDAQ:CPRT) closed at $27.32 on October 9. The stock has returned -17.8% during the last 6 months, compared to a 24.3% return for the Insider Monkey Billionaire Index and 15.1% for the State Street SPDR S&P 500 ETF Trust. A business this profitable usually borrows against it. Copart h"
+        "summary": "Becton, Dickinson and Company (NYSE:BDX) closed at $188.89 on October 12. The stock has returned over 21.5% during the last six months, compared to a 21.25% return for the Insider Monkey Billionaire Index and 14% for State Street SPDR S&P 500 ETF Trust. A medical device maker selling more and earnin"
       },
       {
-        "title": "What is Domino\u2019s (DPZ) Economic Moat, and is it Widening or Narrowing?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/domino-dpz-economic-moat-widening-011131749.html?.tsrc=rss",
-        "time_published": "2026-10-12 01:11",
+        "title": "Pfizer (PFE) Pays Out Over 226% of Earnings and Trades at 36.7x Trailing Against 9.8 Forward. What Is the Yield Telling You?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/pfizer-pfe-pays-over-226-190116566.html?.tsrc=rss",
+        "time_published": "2026-10-13 19:01",
         "source": "Finance",
-        "summary": "Domino\u2019s Pizza, Inc. (NASDAQ:DPZ) closed at $309.36 on October 9. The stock has returned -16% during the last 6 months, compared to a 24.3% return for the Insider Monkey Billionaire Index and 15.1% for the State Street SPDR S&P 500 ETF Trust. Domino\u2019s has handed shareholders more than the entire boo"
+        "summary": "Pfizer Inc. (NYSE:PFE) closed at $28.40 on October 12. The stock has returned almost 4% during the last six months, compared to a 21.25% return for the Insider Monkey Billionaire Index and 14% for State Street SPDR S&P 500 ETF Trust. Pfizer pays a 6% annual dividend yield that most income funds cann"
       },
       {
-        "title": "Memory Stocks Slide as China\u2019s CXMT Flags Denser Chip Design: Micron and SK Hynix Fall 4%, Western Digital Drops 2%",
-        "url": "https://247wallst.com/investing/2026/10/12/memory-stocks-slide-as-chinas-cxmt-flags-denser-chip-design-micron-and-sk-hynix-fall-4-western-digital-drops-2/?.tsrc=rss",
-        "time_published": "2026-10-12 14:41",
-        "source": "247wallst",
-        "summary": "A Chinese chipmaker nobody on Wall Street can trade just claimed a breakthrough in the most profitable corner of the memory market, and investors in Micron and SK Hynix are already paying the price before a single server chip has shipped."
+        "title": "What is MSCI\u2019s (MSCI) Economic Moat, and is it Widening or Narrowing?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/msci-msci-economic-moat-widening-183628464.html?.tsrc=rss",
+        "time_published": "2026-10-13 18:36",
+        "source": "Finance",
+        "summary": "MSCI Inc. (NYSE:MSCI) closed at $568.01 on October 12. The stock has returned 2.8% during the last six months, compared to a 21.2% return for the Insider Monkey Billionaire Index and 14.0% for State Street SPDR S&P 500 ETF Trust. The most profitable thing MSCI sells is a list. MSCI decides which com"
       }
     ],
     "oil": [
