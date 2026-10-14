@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-10-13T13:10:12Z",
+  "generated": "2026-10-14T10:50:48Z",
   "events": [
     {
       "date": "2026-10-14",
@@ -10,7 +10,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.2%",
       "previous": "0.3%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -22,7 +22,7 @@ window.CALENDAR_DATA = {
       "forecast": "2.5%",
       "previous": "2.4%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -34,7 +34,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.6%",
       "previous": "0.4%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -46,7 +46,7 @@ window.CALENDAR_DATA = {
       "forecast": "3.6%",
       "previous": "3.4%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
