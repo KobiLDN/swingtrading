@@ -1,47 +1,40 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-14T10:50:45Z",
-  "date": "2026-10-14",
-  "price": 1.11912,
-  "atr": 0.00501,
-  "atr_pips": 50,
+  "generated": "2026-10-15T10:33:23Z",
+  "date": "2026-10-15",
+  "price": 1.12071,
+  "atr": 0.00585,
+  "atr_pips": 59,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.13729,
-  "ema200": 1.14828,
-  "rsi": 31.47,
-  "macd_line": -0.007176,
-  "macd_signal": -0.007525,
-  "macd_hist": 0.00035,
+  "ema50": 1.13651,
+  "ema200": 1.14933,
+  "rsi": 38.16,
+  "macd_line": -0.00695,
+  "macd_signal": -0.007454,
+  "macd_hist": 0.000503,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-10",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-10-12",
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-10-15",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-08",
-      "open": 1.14119,
-      "high": 1.14317,
-      "low": 1.13915,
-      "close": 1.14169
-    },
     {
       "date": "2026-07-09",
       "open": 1.14167,
@@ -656,14 +649,14 @@
       "open": 1.1255,
       "high": 1.1262,
       "low": 1.12514,
-      "close": 1.1258
+      "close": 1.12578
     },
     {
       "date": "2026-10-04",
       "open": 1.1255,
       "high": 1.1262,
       "low": 1.12514,
-      "close": 1.12578
+      "close": 1.1258
     },
     {
       "date": "2026-10-05",
@@ -731,9 +724,16 @@
     {
       "date": "2026-10-14",
       "open": 1.11982,
-      "high": 1.12118,
-      "low": 1.1188,
-      "close": 1.11912
+      "high": 1.12214,
+      "low": 1.1114,
+      "close": 1.11571
+    },
+    {
+      "date": "2026-10-15",
+      "open": 1.11569,
+      "high": 1.12409,
+      "low": 1.11503,
+      "close": 1.12071
     }
   ]
 }

@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-10-14T10:50:48Z",
+  "generated": "2026-10-15T10:33:26Z",
   "events": [
     {
       "date": "2026-10-14",
@@ -10,8 +10,8 @@ window.CALENDAR_DATA = {
       "forecast": "0.2%",
       "previous": "0.3%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-10-14",
@@ -22,8 +22,8 @@ window.CALENDAR_DATA = {
       "forecast": "2.5%",
       "previous": "2.4%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-10-14",
@@ -34,8 +34,8 @@ window.CALENDAR_DATA = {
       "forecast": "0.6%",
       "previous": "0.4%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-10-14",
@@ -46,8 +46,8 @@ window.CALENDAR_DATA = {
       "forecast": "3.6%",
       "previous": "3.4%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-10-15",
@@ -58,7 +58,7 @@ window.CALENDAR_DATA = {
       "forecast": "-0.1%",
       "previous": "0.4%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -70,7 +70,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.3%",
       "previous": "0.2%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -82,7 +82,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.6%",
       "previous": "1.4%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -94,7 +94,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.6%",
       "previous": "0.4%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -106,7 +106,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.3%",
       "previous": "1.2%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -118,7 +118,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -130,7 +130,7 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     }
   ]
