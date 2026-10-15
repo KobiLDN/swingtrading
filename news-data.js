@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-14T11:45:31Z",
+  "generated": "2026-10-15T11:22:00Z",
   "assets": {
     "gbpusd": [
       {
@@ -178,63 +178,35 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "If You Own SPY, This Lower-Cost Fund Tracks Identical Holdings for Less Than Half the Fee",
-        "url": "https://247wallst.com/investing/etf/2026/10/13/if-you-own-spy-this-lower-cost-fund-tracks-identical-holdings-for-less-than-half-the-fee/?.tsrc=rss",
-        "time_published": "2026-10-13 23:33",
-        "source": "247wallst",
-        "summary": "SPY built its reputation as the default S&P 500 fund, but a structural quirk in how it was originally designed quietly costs long-term holders money every single year compared to a fund holding the exact same stocks."
-      },
-      {
-        "title": "Dow Futures Rise, Nasdaq Subdued Premarket Ahead Of Inflation Data: ASML, MU, SKHY, TSLA, BAC, LQDA, GME, IREN Stocks In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-futures-rise-nasdaq-subdued-premarket-ahead-of-inflation-data-asml-mu-skhy-tsla-bac-lqda-gme-iren-stocks-in-focus/cZxfS2RRBpN?.tsrc=rss",
-        "time_published": "2026-10-14 08:51",
+        "title": "FISV, NU, LPLA: Analyst Picks Top 3 Financial Stocks In \u2018Forgettable Year\u2019 For Sector",
+        "url": "https://stocktwits.com/news-articles/markets/equity/fisv-nu-lpla-analyst-picks-top-3-financial-stocks-in-forgettable-year-for-sector/cZxWWJvRBqt?.tsrc=rss",
+        "time_published": "2026-10-15 01:22",
         "source": "Stocktwits",
-        "summary": "On Stocktwits, retail sentiment toward SPY and QQQ has remained \u2018bullish\u2019 ahead of the CPI print."
+        "summary": "According to Morningstar\u2019s Sean Dunlop, financial services have lagged in 2026 due to AI-disruption fears and rising interest rates."
       },
       {
-        "title": "Is Spotify (SPOT) a Good or Bad Investment at Today\u2019s Price?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spotify-spot-good-bad-investment-231059679.html?.tsrc=rss",
-        "time_published": "2026-10-13 23:10",
-        "source": "Finance",
-        "summary": "Spotify Technology S.A. (NYSE:SPOT) closed at $527.45 on October 13. The stock has returned 4.6% over the last six months, compared to a 21.5% return by the Insider Monkey Billionaire Index and 14.0% for State Street SPDR S&P 500 ETF Trust. Spotify sells access to music it does not own. Every song s"
+        "title": "The Nikkei Crashed Nearly 5% Overnight. Will The NASDAQ Follow It Today?",
+        "url": "https://247wallst.com/investing/2026/10/15/the-nikkei-crashed-nearly-5-overnight-will-the-nasdaq-follow-it-today/?.tsrc=rss",
+        "time_published": "2026-10-15 10:19",
+        "source": "247wallst",
+        "summary": "Japan's Nikkei just cratered nearly 5% and South Korea's KOSPI fell even harder, but US premarket futures are barely flinching. Whether that calm holds when the opening bell rings at 9:30 a.m. depends on one critical question about where the selling stops."
       },
       {
-        "title": "Humana (HUM) Will Have 95% of Its Members in Four-Star Plans, Up From 20%. What Changed?",
-        "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-95-members-four-223533680.html?.tsrc=rss",
-        "time_published": "2026-10-13 22:35",
-        "source": "Finance",
-        "summary": "Humana Inc. (NYSE:HUM) closed at $420.38 on October 13. The stock has returned 112% over the last six months, compared to a 21.5% return by the Insider Monkey Billionaire Index and 14.0% for the State Street SPDR S&P 500 ETF Trust. Humana sells private health plans to people on Medicare, and the gov"
-      },
-      {
-        "title": "Skyworks (SWKS) Pays 147% of Earnings as Dividends With Over 29% of Its Float Short. Can the Dividend Hold?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-pays-147-earnings-220905592.html?.tsrc=rss",
-        "time_published": "2026-10-13 22:09",
-        "source": "Finance",
-        "summary": "Skyworks Solutions, Inc. (NASDAQ:SWKS) closed at $76.56 on October 13. The stock has returned 35.5% over the last six months, compared to a 21.5% return for the Insider Monkey Billionaire Index and 14% for State Street SPDR S&P 500 ETF Trust. The payout ratio moved because the denominator collapsed,"
-      },
-      {
-        "title": "Becton Dickinson (BDX) Grew Revenue 5.4% While Earnings Fell 34.3%. Why Did Profit Fall So Much Further?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/becton-dickinson-bdx-grew-revenue-192940284.html?.tsrc=rss",
-        "time_published": "2026-10-13 19:29",
-        "source": "Finance",
-        "summary": "Becton, Dickinson and Company (NYSE:BDX) closed at $188.89 on October 12. The stock has returned over 21.5% during the last six months, compared to a 21.25% return for the Insider Monkey Billionaire Index and 14% for State Street SPDR S&P 500 ETF Trust. A medical device maker selling more and earnin"
-      },
-      {
-        "title": "Pfizer (PFE) Pays Out Over 226% of Earnings and Trades at 36.7x Trailing Against 9.8 Forward. What Is the Yield Telling You?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/pfizer-pfe-pays-over-226-190116566.html?.tsrc=rss",
-        "time_published": "2026-10-13 19:01",
-        "source": "Finance",
-        "summary": "Pfizer Inc. (NYSE:PFE) closed at $28.40 on October 12. The stock has returned almost 4% during the last six months, compared to a 21.25% return for the Insider Monkey Billionaire Index and 14% for State Street SPDR S&P 500 ETF Trust. Pfizer pays a 6% annual dividend yield that most income funds cann"
-      },
-      {
-        "title": "What is MSCI\u2019s (MSCI) Economic Moat, and is it Widening or Narrowing?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/msci-msci-economic-moat-widening-183628464.html?.tsrc=rss",
-        "time_published": "2026-10-13 18:36",
-        "source": "Finance",
-        "summary": "MSCI Inc. (NYSE:MSCI) closed at $568.01 on October 12. The stock has returned 2.8% during the last six months, compared to a 21.2% return for the Insider Monkey Billionaire Index and 14.0% for State Street SPDR S&P 500 ETF Trust. The most profitable thing MSCI sells is a list. MSCI decides which com"
+        "title": "S&P 500, Nasdaq See Worst Day In Over Two Months As Chipmaker Rout Deepens, CPI Data Comes In Hot \u2014 AAPL, SPCX, DRAM, SOXX In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-see-worst-day-in-over-two-months-as-chipmaker-rout-deepens-cpi-data-comes-in-hot-aapl-spcx-dram-soxx-in-focus/cZxWQBlRBqs?.tsrc=rss",
+        "time_published": "2026-10-15 00:07",
+        "source": "Stocktwits",
+        "summary": "The consumer price index rose 3.7% in September, above what economists expected."
       }
     ],
     "oil": [
+      {
+        "title": "Gas Prices Fall 40 Cents Average Nationally, But Declines May Not Last: 'Don't Get Too Comfortable'",
+        "url": "https://finance.yahoo.com/energy/articles/gas-prices-fall-40-cents-233009557.html?.tsrc=rss",
+        "time_published": "2026-10-14 23:30",
+        "source": "Finance",
+        "summary": "There\u2019s recent good news for those filling up their vehicles with regular gasoline or diesel, with lower prices at the pump. One industry expert warns that the low prices likely will not last. Gas Prices Down For Now Consumers have..."
+      },
       {
         "title": "Oil Is Already at $100. Now a Hurricane Could Shut Down Gulf Production",
         "url": "https://247wallst.com/investing/2026/10/08/oil-is-already-at-100-now-a-hurricane-could-shut-down-gulf-production/?.tsrc=rss",
@@ -283,13 +255,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-24 09:34",
         "source": "Finance",
         "summary": "QQQ eyes a breakout as summer consolidation fades, while Micron's earnings and shifting oil dynamics could shape the market's next move."
-      },
-      {
-        "title": "Rejoice! The Summer Stock Slump is Over",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/rejoice-summer-stock-slump-over-173100996.html?.tsrc=rss",
-        "time_published": "2026-09-23 17:31",
-        "source": "Finance",
-        "summary": "As the summer chop fades and historical tailwinds align, patient investors who weathered the consolidation phase are well-positioned to capitaliz"
       }
     ]
   }

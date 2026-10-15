@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-10-09T13:09:51Z",
+  "generated": "2026-10-15T11:21:59Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-10-08",
+  "date": "2026-10-14",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_OIL = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The price at 147.58 sits well above both the EMA50 (140.81) and EMA200 (119.51), confirming the strong uptrend. The recent Bullish Engulfing candlestick pattern adds a short-term bullish bias, suggesting a potential reversal of the preceding decline. However, the MACD remains bearish with the line below the signal line and a negative histogram, indicating weakening momentum. The RSI at 52.62 is neutral, offering no overbought or oversold extremes. This creates a conflict between the long-term trend (bullish) and the short-term momentum (bearish), which the Bullish Engulfing only partially resolves.  \n\nNo additional chart patterns such as triangles, flags, or double tops/bottoms can be reliably inferred from the given data alone. The price action appears to be in a consolidation or minor pullback within the broader uptrend. Key support levels near current price are the round number 145.00, the ATR-based level of 142.21 (current price minus ATR), and the EMA50 at 140.81. Resistance levels are 150.00 (psychological), 152.95 (current price plus ATR), and 155.00 (prior high zone).  \n\nThe RSI and MACD do not agree with the trend. The RSI is neutral, providing no directional confirmation, while the MACD is bearish, contradicting the strong uptrend. The Bullish Engulfing pattern is a positive short-term signal, but it lacks confluence with the MACD. The overall signal score of 5/10 reflects this mixed picture. The best trade setup is to wait for clearer confirmation\u2014either a MACD crossover to bullish or a decisive break above the 150.00 resistance level\u2014before entering a long position. A short trade is not advisable given the dominant uptrend.  \n\nRisk assessment is elevated due to conflicting signals. The Bullish Engulfing could be a false reversal if the MACD bearishness persists, leading to a deeper pullback. The ATR of 5.37 indicates above-average volatility, increasing the chance of sharp moves. Without a clear edge, entering now would expose the trader to whipsaw risk.",
-  "invalidation": "This wait setup is invalidated if price breaks below the Bullish Engulfing candle\u2019s low (estimated near 145.00) or closes below the EMA50 at 140.81, signaling a trend reversal.",
+  "analysis": "The daily chart of USO exhibits a strong uptrend confirmed by price trading well above both the 50-period EMA (142.4) and 200-period EMA (120.74). The price of 153.56 is currently in uncharted territory relative to the EMAs, indicating a sustained bullish structure. However, the MACD has turned bearish (line below signal line) with a histogram near zero (-0.003), suggesting that upside momentum is fading despite the trend. The RSI at 59.08 is neutral, not overbought, leaving room for further upside but also indicating a lack of strong directional conviction.\n\nRecent candlestick patterns\u2014a Morning Star followed by a Bullish Engulfing\u2014are typically bullish reversal signals, implying that buyers stepped in after a brief pullback. This short-term price action contradicts the bearish MACD reading, creating a conflict. The overall signal score of 5/10 reflects this mixed outlook: the trend is strong and patterns are bullish, but momentum oscillators warn of a potential slowdown or consolidation. No clear chart patterns like flags or triangles are evident, and no RSI divergence is present, so the setup lacks a high-probability edge.\n\nGiven the conflicting signals, the prudent action is to wait for clarity. A confirmed buy setup would require either a bullish MACD crossover or a decisive break above recent resistance (around 155) with volume. Alternatively, a pullback toward the 150 support zone with a bullish reversal candle and improving MACD could offer a better risk/reward entry. Until then, the risk of a false breakout or a deeper correction remains elevated, especially with the bearish MACD divergence in momentum.",
+  "invalidation": "This wait scenario is invalidated if price breaks below the 150.00 support level with a daily close, as that would signal a potential trend reversal or significant correction.",
   "support_levels": [
-    145.0,
-    142.21,
-    140.81
+    150.0,
+    147.8,
+    142.4
   ],
   "resistance_levels": [
-    150.0,
-    152.95,
-    155.0
+    155.0,
+    157.5,
+    160.0
   ]
 };

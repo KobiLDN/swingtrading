@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-10-12T15:12:55Z",
+  "generated": "2026-10-15T11:20:06Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-10-12",
-  "decision": "SELL",
-  "confidence": "MEDIUM",
-  "entry": "1.1177",
-  "stop_loss": "1.1230",
-  "target_1": "1.1120",
-  "target_2": "1.1050",
-  "risk_reward": "1:1.07 (T1), 1:2.4 (T2)",
-  "score": "7/10",
-  "analysis": "The daily chart shows a strong downtrend confirmed by price trading well below both the EMA50 (1.13886) and EMA200 (1.14999). The recent candlestick formation \u2014 a Doji followed by an Evening Star \u2014 reinforces bearish momentum after a brief consolidation. The MACD remains bearish (line below signal) with the histogram near zero, suggesting the trend is still in force but stalling. The ATR of 51 pips indicates moderate volatility, keeping the swing bias directional.  \n\nRSI at 23.19 is deep in oversold territory, which often warns of a potential bounce. However, no RSI divergence is present, so the oversold condition alone does not provide a reliable reversal signal. In a strong downtrend, oversold readings can persist, and the bearish MACD alignment supports continuation rather than exhaustion. The absence of a bullish candlestick pattern or momentum shift further lowers the probability of an immediate reversal.  \n\nKey support levels lie at 1.1150 (recent minor low), 1.1100 (psychological round number), and 1.1050 (prior swing low from late September). Resistance is stacked at 1.1220 (high of the Doji/Evening Star), 1.1250 (near-term resistance), and 1.1300 (prior broken support turned resistance). Given the bearish confluence, a short entry at current price with a stop above the Evening Star high is the most aligned setup.  \n\nRisk is elevated due to the oversold RSI, which could trigger a short-covering rally. The stop at 1.1230 limits loss to 53 pips, while the first target at 1.1120 offers a near 1:1 reward. The second target at 1.1050 provides a favorable 1:2.4 risk-reward ratio. A partial profit take at T1 is recommended to manage risk.",
-  "invalidation": "A daily close above 1.1230 would break the Evening Star high and suggest a short-term bounce, invalidating the sell setup.",
+  "date": "2026-10-15",
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "4/10",
+  "analysis": "The broader trend is clearly bearish: price is well below both the EMA50 and EMA200, and the EMA structure confirms a strong downtrend. However, price action in the last five candles is mixed \u2014 the Evening Star suggests bearish momentum, while the Bullish Engulfing signals an attempted reversal/bounce. This does not confirm the downtrend cleanly at the current candle; it suggests a potential corrective bounce inside the downtrend rather than a new trend leg.\n\nRSI at 38.16 is neutral but below 50, which mildly aligns with the downtrend. MACD, however, is bullish with the line above the signal and a positive histogram, conflicting with the bearish EMA structure. There is no RSI divergence, and no clear triangle, flag, or double top/bottom pattern can be inferred from the provided data. The combination of conflicting candlestick signals and the MACD/trend disagreement makes this a low-conviction environment.\n\nThe single best trade is to stand aside and wait for a cleaner setup. A short would become attractive only after a bearish rejection from the 1.1265\u20131.1300 resistance zone, or after a confirmed loss of 1.1200 support. Chasing price at current levels offers poor risk/reward, especially with ATR at 59 pips and mixed momentum signals. I confirm the 4/10 signal score.",
+  "invalidation": "A daily close above 1.13651 (EMA50) would invalidate the bearish continuation setup and shift bias to the long side.",
   "support_levels": [
+    1.12,
     1.115,
-    1.11,
-    1.105
+    1.11
   ],
   "resistance_levels": [
-    1.122,
-    1.125,
-    1.13
+    1.12656,
+    1.13,
+    1.13651
   ]
 };

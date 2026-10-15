@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-10-14T11:44:54Z",
+  "generated": "2026-10-15T11:21:31Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "3/10 (confirmed)",
-  "analysis": "The price at 53.49 is significantly below both the EMA50 (57.09) and EMA200 (62.82), confirming a strong downtrend. The inverted hammer candlestick pattern in the last five candles suggests a potential intraday reversal or indecision, but given the bearish MACD (line below signal, negative histogram) and RSI at 39.14 (still neutral but below 50), the prevailing momentum remains to the downside. No bullish divergence is present, and the signal score of 3/10 reflects the overall weak technical picture. Without confirmation of a reversal (e.g., a higher close or a bullish MACD crossover), the inverted hammer alone is insufficient to justify a counter-trend long entry.\n\nKey support near 52.50 (prior swing low area) and 51.00 (psychological round number), with further downside toward 50.00. Resistance levels are the 55.00 round number, the EMA50 at 57.09, and the EMA200 at 62.82. Any rally toward the first resistance would likely be a selling opportunity in the context of the strong downtrend, but no clear short entry is present at current price because the risk of a short-term bounce from the inverted hammer is elevated. The best trade setup is to wait for price to either break below support (confirming continuation) or rally to a resistance zone where a short with a tight stop becomes favorable.\n\nThe risk here is primarily from a potential dead-cat bounce due to the inverted hammer, which could temporarily push price higher before resuming the downtrend. However, the lack of bullish momentum indicators (MACD, RSI) makes a long trade highly speculative. Therefore, a WAIT decision is the most prudent, preserving capital until a higher-probability setup emerges\u2014either a confirmed breakdown below 52.50 or a short entry near the EMA50.",
-  "invalidation": "This WAIT setup is invalidated if price closes above the EMA50 (57.09), which would signal a potential trend change, or if a clear bearish continuation pattern (e.g., lower high at resistance) appears with renewed selling volume.",
+  "score": "2/10 confirmed",
+  "analysis": "Price action confirms the EMA trend in direction: SLV trades well below both the EMA50 at 56.82 and the EMA200 at 62.00, with the overall structure remaining a strong downtrend. The recent inverted hammer, however, introduces a note of caution near the psychological 50.00 level. It is the first sign of potential stabilization, but it is not enough to confirm a reversal while price is still making lower lows and lower highs.\n\nNo clear triangle, flag, or double top/bottom can be inferred from the available data. The dominant pattern is a downtrend, with the inverted hammer acting as a possible short-term exhaustion signal. A confirmed bullish close above the hammer\u2019s high would be needed to suggest a bottoming attempt; otherwise, the pattern remains only a warning.\n\nRSI and MACD broadly agree with the bearish trend. RSI at 31.07 is low but not yet oversold, leaving room for further downside, and there is no bullish divergence to suggest momentum is shifting. MACD remains below its signal line with a negative histogram, confirming that downward momentum is still intact. The inverted hammer is the only notable bullish element, but it lacks confirmation from RSI or MACD.\n\nThe best setup is to wait for either a bounce into resistance near 51.50\u201352.50 with a bearish rejection signal for a short entry, or a confirmed daily close above 51.50 that invalidates the downtrend\u2019s immediate pressure. Chasing a short here below 50.00 support is poor risk/reward, and buying against the strong downtrend on a single candlestick pattern is premature.",
+  "invalidation": "This cautious stance is invalidated by a daily close above 51.50, as that would confirm the inverted hammer and shift the short-term bias from bearish-continuation to possible reversal.",
   "support_levels": [
-    52.5,
-    51.0,
-    50.0
+    50.0,
+    49.3,
+    47.8
   ],
   "resistance_levels": [
-    55.0,
-    57.09,
-    60.0
+    51.5,
+    52.5,
+    54.0
   ]
 };
