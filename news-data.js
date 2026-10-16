@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-15T11:22:00Z",
+  "generated": "2026-10-16T11:18:20Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 102.40, Can EUR/USD and GBP/USD Break Resistance?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081105442.html?.tsrc=rss",
+        "time_published": "2026-10-15 08:11",
+        "source": "Finance",
+        "summary": "DXY rebounds from 101.93 as Treasury yields retreat despite hot U.S. CPI, while EUR/USD targets 1.1237 and GBP/USD tests 1.3281 resistance."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Tests 101.93, Can EUR/USD and GBP/USD Break Higher?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-053712286.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-10-06 08:34",
         "source": "Finance",
         "summary": "DXY holds above 101.76 as high Treasury yields offset Fed cut expectations, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3250."
-      },
-      {
-        "title": "US Dollar Price Forecast: Soft NFP Hits Fed Bets, Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-soft-081809134.html?.tsrc=rss",
-        "time_published": "2026-10-05 08:18",
-        "source": "Finance",
-        "summary": "Weak U.S. payrolls cut October Fed hike bets, but elevated yields keep DXY firm as EUR/USD breaks support and GBP/USD struggles below 1.3250."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: DXY Eyes 102.40, Can EUR/USD and GBP/USD Break Resistance?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081105442.html?.tsrc=rss",
+        "time_published": "2026-10-15 08:11",
+        "source": "Finance",
+        "summary": "DXY rebounds from 101.93 as Treasury yields retreat despite hot U.S. CPI, while EUR/USD targets 1.1237 and GBP/USD tests 1.3281 resistance."
+      },
+      {
         "title": "US Dollar Price Forecast: DXY Tests 101.93, Can EUR/USD and GBP/USD Break Higher?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-053712286.html?.tsrc=rss",
         "time_published": "2026-10-14 05:37",
@@ -108,17 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-10-06 08:34",
         "source": "Finance",
         "summary": "DXY holds above 101.76 as high Treasury yields offset Fed cut expectations, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3250."
-      },
-      {
-        "title": "US Dollar Price Forecast: Soft NFP Hits Fed Bets, Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-soft-081809134.html?.tsrc=rss",
-        "time_published": "2026-10-05 08:18",
-        "source": "Finance",
-        "summary": "Weak U.S. payrolls cut October Fed hike bets, but elevated yields keep DXY firm as EUR/USD breaks support and GBP/USD struggles below 1.3250."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Gold Lost $100 an Ounce in Hours After the Inflation Report",
+        "url": "https://247wallst.com/investing/2026/10/15/gold-lost-100-an-ounce-in-hours-after-the-inflation-report/?.tsrc=rss",
+        "time_published": "2026-10-15 17:10",
+        "source": "247wallst",
+        "summary": "Gold is supposed to surge when inflation runs hot, but on the day a surprise CPI report rattled markets, the metal cratered instead. The reason traces back to a single number the Federal Reserve is watching very closely."
+      },
       {
         "title": "Silver Has Now Lost Nearly Half Its Value. Here\u2019s What Broke the Metals Trade",
         "url": "https://247wallst.com/investing/2026/09/30/silver-has-now-lost-nearly-half-its-value-heres-what-broke-the-metals-trade/?.tsrc=rss",
@@ -167,39 +174,46 @@ window.NEWS_DATA = {
         "time_published": "2026-08-26 12:29",
         "source": "Finance",
         "summary": "The dollar's weakness and rising debasement concerns are fueling demand for gold, Bitcoin and other hard assets. Here are five ETFs to watch."
-      },
-      {
-        "title": "Investors Are Betting Big on Gold Again, but Silver Is Still the Better Buy",
-        "url": "https://247wallst.com/investing/2026/08/14/investors-are-betting-big-on-gold-again-but-silver-is-still-the-better-buy/?.tsrc=rss",
-        "time_published": "2026-08-14 15:47",
-        "source": "247wallst",
-        "summary": "Gold just posted a 10% surge in a single month and fund flows into miners are hitting year-long highs, but one overlooked metal has quietly tripled gold's returns over the same period and has a demand story that gold simply cannot match."
       }
     ],
     "spx": [
       {
-        "title": "FISV, NU, LPLA: Analyst Picks Top 3 Financial Stocks In \u2018Forgettable Year\u2019 For Sector",
-        "url": "https://stocktwits.com/news-articles/markets/equity/fisv-nu-lpla-analyst-picks-top-3-financial-stocks-in-forgettable-year-for-sector/cZxWWJvRBqt?.tsrc=rss",
-        "time_published": "2026-10-15 01:22",
-        "source": "Stocktwits",
-        "summary": "According to Morningstar\u2019s Sean Dunlop, financial services have lagged in 2026 due to AI-disruption fears and rising interest rates."
-      },
-      {
-        "title": "The Nikkei Crashed Nearly 5% Overnight. Will The NASDAQ Follow It Today?",
-        "url": "https://247wallst.com/investing/2026/10/15/the-nikkei-crashed-nearly-5-overnight-will-the-nasdaq-follow-it-today/?.tsrc=rss",
-        "time_published": "2026-10-15 10:19",
+        "title": "\u2018Run, Janet, Run\u2019: Wes Moss to Kentucky Retiree Whose Advisor Wants $350,000 in a 7-Year Annuity",
+        "url": "https://247wallst.com/personal-finance/2026/10/16/run-janet-run-wes-moss-to-kentucky-retiree-whose-advisor-wants-350000-in-a-7-year-annuity/?.tsrc=rss",
+        "time_published": "2026-10-16 09:34",
         "source": "247wallst",
-        "summary": "Japan's Nikkei just cratered nearly 5% and South Korea's KOSPI fell even harder, but US premarket futures are barely flinching. Whether that calm holds when the opening bell rings at 9:30 a.m. depends on one critical question about where the selling stops."
+        "summary": "A Kentucky retiree's advisor wants to lock 35% of her million-dollar IRA into a seven-year annuity, promising no fees, no penalties, and S&P 500 returns. A financial expert called all three claims false before she signed a single document."
       },
       {
-        "title": "S&P 500, Nasdaq See Worst Day In Over Two Months As Chipmaker Rout Deepens, CPI Data Comes In Hot \u2014 AAPL, SPCX, DRAM, SOXX In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-see-worst-day-in-over-two-months-as-chipmaker-rout-deepens-cpi-data-comes-in-hot-aapl-spcx-dram-soxx-in-focus/cZxWQBlRBqs?.tsrc=rss",
-        "time_published": "2026-10-15 00:07",
-        "source": "Stocktwits",
-        "summary": "The consumer price index rose 3.7% in September, above what economists expected."
+        "title": "Beyond LLMs: Modern Machine Learning is Changing Investing",
+        "url": "http://www.etf.com/sections/conferences/beyond-llms-modern-machine-learning-changing-investing?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
+        "time_published": "2026-10-16 09:57",
+        "source": "Etf",
+        "summary": "Pictet Asset Management's David Wright offers insight into the unique perspective the firm has on artificial intelligence, both from a quant use-case as well as navigating a costly chip market to ensure their models remain current. From deconstructing the black box around quant strategies to a focus"
+      },
+      {
+        "title": "VOO, VTI, SPY, or IVV? How These 4 Index Funds Differ",
+        "url": "https://www.fool.com/investing/2026/10/16/voo-vti-spy-ivv-how-4-index-funds-differ/?.tsrc=rss",
+        "time_published": "2026-10-16 09:20",
+        "source": "Fool",
+        "summary": "These four heavyweight ETFs look interchangeable, but the details make the difference."
+      },
+      {
+        "title": "Trump Has a New Inflation Nightmare Ahead of the Midterms. Sugar Prices Just Exploded 34% in 3 Months Before Halloween.",
+        "url": "https://247wallst.com/investing/2026/10/16/trump-has-a-new-inflation-nightmare-ahead-of-the-midterms-sugar-prices-just-exploded-34-in-3-months-before-halloween/?.tsrc=rss",
+        "time_published": "2026-10-16 08:03",
+        "source": "247wallst",
+        "summary": "Raw sugar futures just staged one of their sharpest seasonal rallies in years, and the timing could not be worse for a White House already facing restless voters at the grocery store and the gas pump."
       }
     ],
     "oil": [
+      {
+        "title": "Sector Update: Energy Stocks Advance Pre-Bell Thursday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-132137510.html?.tsrc=rss",
+        "time_published": "2026-10-15 13:21",
+        "source": "Finance",
+        "summary": "Energy stocks were advancing pre-bell Thursday, with the State Street Energy Select Sector SPDR ETF"
+      },
       {
         "title": "Gas Prices Fall 40 Cents Average Nationally, But Declines May Not Last: 'Don't Get Too Comfortable'",
         "url": "https://finance.yahoo.com/energy/articles/gas-prices-fall-40-cents-233009557.html?.tsrc=rss",
@@ -248,13 +262,6 @@ window.NEWS_DATA = {
         "time_published": "2026-09-28 00:30",
         "source": "Finance",
         "summary": "Economist Peter Schiff warned that record diesel prices and the depleted Strategic Petroleum Reserve (SPR) could leave the U.S. with less of an energy buffer during a future supply shock amid the Iran war. Diesel Ban May Backfire In a..."
-      },
-      {
-        "title": "Zacks Investment Ideas feature highlights: GLD, QQQ, USO, MU and TWLO",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-093400194.html?.tsrc=rss",
-        "time_published": "2026-09-24 09:34",
-        "source": "Finance",
-        "summary": "QQQ eyes a breakout as summer consolidation fades, while Micron's earnings and shifting oil dynamics could shape the market's next move."
       }
     ]
   }

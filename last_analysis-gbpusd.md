@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-10-15
-**Generated:** 2026-10-15T11:19:21Z
+**Date:** 2026-10-16
+**Generated:** 2026-10-16T11:14:31Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | BUY |
 | **Confidence** | MEDIUM |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 1.32, 1.3189, 1.3128 |
-| **Resistance** | 1.3313, 1.3327, 1.3375 |
+| **Entry** | 1.3330 |
+| **Stop Loss** | 1.3275 |
+| **Target 1** | 1.3384 |
+| **Target 2** | 1.3450 |
+| **Risk/Reward** | 1:2.4 |
+| **Score** | 7/10 |
+| **Support** | 1.3328, 1.33, 1.327 |
+| **Resistance** | 1.3384, 1.34, 1.345 |
 
 ---
 
 ## Analysis
 
-Price is trading below both the 50 EMA at 1.33267 and the 200 EMA at 1.33750, which broadly confirms the strong downtrend. However, the recent Doji candle indicates indecision, and price has not produced a strong continuation candle to confirm renewed downside momentum. The bearish trend is intact, but the immediate price action is not clearly confirming it.
+Price action is only partially confirming the EMA structure: price is above the EMA50 but below the EMA200, which keeps the broader trend neutral. The bullish engulfing pattern near the EMA50 suggests buyers are defending the shorter-term support, but a confirmed bullish trend would require a daily close above the EMA200 at 1.3384. Until then, this is best treated as a counter-trend or range bounce rather than a full trend reversal.
 
-The additional signals are contradictory to the trend. RSI is neutral at 47.25 but shows bullish divergence, while MACD is bullish with a positive histogram. This suggests downside momentum is fading and a possible basing or reversal attempt may be forming. I do not see a confirmed triangle, flag, or double bottom from the information given, but the combination of Doji and bullish momentum divergence hints that price may be trying to stabilise near support.
+From the available data, there is no obvious triangle, flag, or double top/bottom. The most relevant structure is the price compression between the EMA50 support at 1.3328 and the EMA200 resistance at 1.3384. A bullish engulfing candle at the lower end of this range implies a potential rotation toward the upper end, with a breakout above 1.3384 opening the door to 1.3400 and then 1.3450.
 
-There is no clean confluence for a high-probability entry right now. A sell would mean fighting the bullish RSI divergence and MACD crossover, while a buy would mean fighting the strong downtrend and price below both key EMAs. The best approach is to wait for either a bearish rejection at the EMA cluster — 1.3313, 1.3327, 1.3375 — or a decisive daily close above the 200 EMA to confirm a reversal. ATR of 62 pips also means stops would need to be placed carefully, and current reward-to-risk is unclear.
+RSI and MACD are in partial agreement with the bullish setup. RSI is neutral at 57.37 but shows bullish divergence, while MACD is above its signal line with a positive histogram. These momentum signals support upside continuation, but they do not yet confirm a strong trend because price remains below the EMA200. The setup is therefore a buy-the-pullback trade within a neutral-to-bullish short-term bias.
+
+The best trade is to buy on a pullback toward the EMA50 at 1.3330, with a stop below the 1.3275 swing/ATR buffer. The first target is the EMA200 at 1.3384, and the second target is 1.3450. Risk is controlled by keeping position size modest, as the daily ATR of 63 pips means volatility is elevated and a close below 1.3275 would invalidate the bullish structure.
 
 ---
 
 ## Invalidation
 
-This wait-neutral stance is cancelled by a decisive daily close above 1.33750, which would confirm bullish reversal momentum, or a daily close below 1.31280, which would confirm strong downtrend continuation.
+A daily close below 1.3275, especially on strong momentum, would cancel this bullish setup and shift the bias back toward the downside.
 
 ---
 
