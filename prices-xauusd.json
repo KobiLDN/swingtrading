@@ -1,47 +1,46 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-10-15T10:33:24Z",
-  "date": "2026-10-15",
-  "price": 4155.23,
-  "atr": 57.22,
+  "generated": "2026-10-16T10:20:15Z",
+  "date": "2026-10-16",
+  "price": 4183.39,
+  "atr": 57.06,
   "atr_pips": 57,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4242.97,
-  "ema200": 4358.11,
-  "rsi": 44.4,
-  "macd_line": -36.88339,
-  "macd_signal": -43.186126,
-  "macd_hist": 6.302735,
+  "ema50": 4241.41,
+  "ema200": 4367.98,
+  "rsi": 47.84,
+  "macd_line": -31.151052,
+  "macd_signal": -40.52515,
+  "macd_hist": 9.374098,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-11",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-10-12",
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-10-15",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
+    },
+    {
+      "date": "2026-10-16",
+      "name": "Hanging Man",
+      "signal": "BEARISH REVERSAL",
+      "strength": 3
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-09",
-      "open": 4077.44,
-      "high": 4137.7,
-      "low": 4054.06,
-      "close": 4123.64
-    },
     {
       "date": "2026-07-10",
       "open": 4123.75,
@@ -731,9 +730,16 @@
     {
       "date": "2026-10-15",
       "open": 4101.51,
-      "high": 4164.02,
+      "high": 4175.77,
       "low": 4096.85,
-      "close": 4155.23
+      "close": 4175.13
+    },
+    {
+      "date": "2026-10-16",
+      "open": 4173.55,
+      "high": 4191.47,
+      "low": 4147.48,
+      "close": 4183.39
     }
   ]
 }
