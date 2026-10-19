@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-10-16
-**Generated:** 2026-10-16T11:14:31Z
+**Date:** 2026-10-19
+**Generated:** 2026-10-19T12:58:04Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | BUY |
-| **Confidence** | MEDIUM |
-| **Entry** | 1.3330 |
-| **Stop Loss** | 1.3275 |
-| **Target 1** | 1.3384 |
-| **Target 2** | 1.3450 |
-| **Risk/Reward** | 1:2.4 |
-| **Score** | 7/10 |
-| **Support** | 1.3328, 1.33, 1.327 |
-| **Resistance** | 1.3384, 1.34, 1.345 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 4/10 confirmed |
+| **Support** | 1.33276, 1.33, 1.3276 |
+| **Resistance** | 1.33693, 1.34, 1.345 |
 
 ---
 
 ## Analysis
 
-Price action is only partially confirming the EMA structure: price is above the EMA50 but below the EMA200, which keeps the broader trend neutral. The bullish engulfing pattern near the EMA50 suggests buyers are defending the shorter-term support, but a confirmed bullish trend would require a daily close above the EMA200 at 1.3384. Until then, this is best treated as a counter-trend or range bounce rather than a full trend reversal.
+The price is trapped between the EMA 50 at 1.33276 and the EMA 200 at 1.33693. Price action shows local bullish momentum with two bullish engulfing candles, but it has not confirmed a sustainable uptrend because price remains below the EMA 200. The overall EMA structure is neutral, so the bullish candlestick signals are not enough to call a trend reversal.
 
-From the available data, there is no obvious triangle, flag, or double top/bottom. The most relevant structure is the price compression between the EMA50 support at 1.3328 and the EMA200 resistance at 1.3384. A bullish engulfing candle at the lower end of this range implies a potential rotation toward the upper end, with a breakout above 1.3384 opening the door to 1.3400 and then 1.3450.
+The last five candles form a constructive short-term bullish cluster — Bullish Engulfing, Doji, Bullish Engulfing — suggesting buyers are defending the area around 1.3320–1.3330. There are no clear triangle, flag, or double top/bottom patterns visible, but the repeated bullish engulfing candles imply a potential higher-low base is forming just below current price.
 
-RSI and MACD are in partial agreement with the bullish setup. RSI is neutral at 57.37 but shows bullish divergence, while MACD is above its signal line with a positive histogram. These momentum signals support upside continuation, but they do not yet confirm a strong trend because price remains below the EMA200. The setup is therefore a buy-the-pullback trade within a neutral-to-bullish short-term bias.
+RSI at 56.47 is neutral with a slight bullish tilt, while MACD is above its signal line with a positive histogram. This gives partial agreement with the short-term candlestick bullishness, but the MACD signal is not strong enough to override the neutral EMA-200 resistance overhead. The technical picture is therefore mixed: momentum is mildly bullish, but the broader daily trend is not confirmed.
 
-The best trade is to buy on a pullback toward the EMA50 at 1.3330, with a stop below the 1.3275 swing/ATR buffer. The first target is the EMA200 at 1.3384, and the second target is 1.3450. Risk is controlled by keeping position size modest, as the daily ATR of 63 pips means volatility is elevated and a close below 1.3275 would invalidate the bullish structure.
+The best approach is to wait for a daily close above 1.33693, which would put price above the EMA 200 and confirm a bullish breakout. Entering now offers poor risk/reward because the nearest strong resistance is only about 34 pips away, while ATR is 59 pips. Without a confirmed breakout, the probability of a whipsaw is too high for a high-quality swing trade.
 
 ---
 
 ## Invalidation
 
-A daily close below 1.3275, especially on strong momentum, would cancel this bullish setup and shift the bias back toward the downside.
+This wait/neutral stance is invalidated by a daily close above 1.33693, which would confirm bullish momentum and trigger a long setup targeting 1.3400 and 1.3450.
 
 ---
 

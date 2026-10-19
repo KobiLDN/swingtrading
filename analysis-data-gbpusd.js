@@ -1,26 +1,26 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-10-16T11:14:31Z",
+  "generated": "2026-10-19T12:58:04Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-10-16",
-  "decision": "BUY",
-  "confidence": "MEDIUM",
-  "entry": "1.3330",
-  "stop_loss": "1.3275",
-  "target_1": "1.3384",
-  "target_2": "1.3450",
-  "risk_reward": "1:2.4",
-  "score": "7/10",
-  "analysis": "Price action is only partially confirming the EMA structure: price is above the EMA50 but below the EMA200, which keeps the broader trend neutral. The bullish engulfing pattern near the EMA50 suggests buyers are defending the shorter-term support, but a confirmed bullish trend would require a daily close above the EMA200 at 1.3384. Until then, this is best treated as a counter-trend or range bounce rather than a full trend reversal.\n\nFrom the available data, there is no obvious triangle, flag, or double top/bottom. The most relevant structure is the price compression between the EMA50 support at 1.3328 and the EMA200 resistance at 1.3384. A bullish engulfing candle at the lower end of this range implies a potential rotation toward the upper end, with a breakout above 1.3384 opening the door to 1.3400 and then 1.3450.\n\nRSI and MACD are in partial agreement with the bullish setup. RSI is neutral at 57.37 but shows bullish divergence, while MACD is above its signal line with a positive histogram. These momentum signals support upside continuation, but they do not yet confirm a strong trend because price remains below the EMA200. The setup is therefore a buy-the-pullback trade within a neutral-to-bullish short-term bias.\n\nThe best trade is to buy on a pullback toward the EMA50 at 1.3330, with a stop below the 1.3275 swing/ATR buffer. The first target is the EMA200 at 1.3384, and the second target is 1.3450. Risk is controlled by keeping position size modest, as the daily ATR of 63 pips means volatility is elevated and a close below 1.3275 would invalidate the bullish structure.",
-  "invalidation": "A daily close below 1.3275, especially on strong momentum, would cancel this bullish setup and shift the bias back toward the downside.",
+  "date": "2026-10-19",
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "4/10 confirmed",
+  "analysis": "The price is trapped between the EMA 50 at 1.33276 and the EMA 200 at 1.33693. Price action shows local bullish momentum with two bullish engulfing candles, but it has not confirmed a sustainable uptrend because price remains below the EMA 200. The overall EMA structure is neutral, so the bullish candlestick signals are not enough to call a trend reversal.\n\nThe last five candles form a constructive short-term bullish cluster \u2014 Bullish Engulfing, Doji, Bullish Engulfing \u2014 suggesting buyers are defending the area around 1.3320\u20131.3330. There are no clear triangle, flag, or double top/bottom patterns visible, but the repeated bullish engulfing candles imply a potential higher-low base is forming just below current price.\n\nRSI at 56.47 is neutral with a slight bullish tilt, while MACD is above its signal line with a positive histogram. This gives partial agreement with the short-term candlestick bullishness, but the MACD signal is not strong enough to override the neutral EMA-200 resistance overhead. The technical picture is therefore mixed: momentum is mildly bullish, but the broader daily trend is not confirmed.\n\nThe best approach is to wait for a daily close above 1.33693, which would put price above the EMA 200 and confirm a bullish breakout. Entering now offers poor risk/reward because the nearest strong resistance is only about 34 pips away, while ATR is 59 pips. Without a confirmed breakout, the probability of a whipsaw is too high for a high-quality swing trade.",
+  "invalidation": "This wait/neutral stance is invalidated by a daily close above 1.33693, which would confirm bullish momentum and trigger a long setup targeting 1.3400 and 1.3450.",
   "support_levels": [
-    1.3328,
+    1.33276,
     1.33,
-    1.327
+    1.3276
   ],
   "resistance_levels": [
-    1.3384,
+    1.33693,
     1.34,
     1.345
   ]

@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-16T11:18:20Z",
+  "generated": "2026-10-19T13:02:40Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Warsh Holds Fire, DXY Tests 101.80 as EUR/USD, GBP/USD Gain",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-082128574.html?.tsrc=rss",
+        "time_published": "2026-10-16 08:21",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY tests 101.80 after Warsh avoids an October preview, while EUR/USD eyes 1.1277 and GBP/USD tests 1.3322 resistance."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Eyes 102.40, Can EUR/USD and GBP/USD Break Resistance?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081105442.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-10-07 05:46",
         "source": "Finance",
         "summary": "DXY holds above 101.76 as traders await Fed minutes, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3284."
-      },
-      {
-        "title": "US Dollar Price Forecast: High Yields Lift DXY, Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-high-083426331.html?.tsrc=rss",
-        "time_published": "2026-10-06 08:34",
-        "source": "Finance",
-        "summary": "DXY holds above 101.76 as high Treasury yields offset Fed cut expectations, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3250."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Warsh Holds Fire, DXY Tests 101.80 as EUR/USD, GBP/USD Gain",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-082128574.html?.tsrc=rss",
+        "time_published": "2026-10-16 08:21",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY tests 101.80 after Warsh avoids an October preview, while EUR/USD eyes 1.1277 and GBP/USD tests 1.3322 resistance."
+      },
+      {
         "title": "US Dollar Price Forecast: DXY Eyes 102.40, Can EUR/USD and GBP/USD Break Resistance?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081105442.html?.tsrc=rss",
         "time_published": "2026-10-15 08:11",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-07 05:46",
         "source": "Finance",
         "summary": "DXY holds above 101.76 as traders await Fed minutes, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3284."
-      },
-      {
-        "title": "US Dollar Price Forecast: High Yields Lift DXY, Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-high-083426331.html?.tsrc=rss",
-        "time_published": "2026-10-06 08:34",
-        "source": "Finance",
-        "summary": "DXY holds above 101.76 as high Treasury yields offset Fed cut expectations, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3250."
       }
     ],
     "xauusd": [],
@@ -178,35 +178,49 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "\u2018Run, Janet, Run\u2019: Wes Moss to Kentucky Retiree Whose Advisor Wants $350,000 in a 7-Year Annuity",
-        "url": "https://247wallst.com/personal-finance/2026/10/16/run-janet-run-wes-moss-to-kentucky-retiree-whose-advisor-wants-350000-in-a-7-year-annuity/?.tsrc=rss",
-        "time_published": "2026-10-16 09:34",
+        "title": "NYSE Introduces Extended Trading Hours for NYSE American Options",
+        "url": "https://finance.yahoo.com/markets/options/articles/nyse-introduces-extended-trading-hours-123000779.html?.tsrc=rss",
+        "time_published": "2026-10-19 12:30",
+        "source": "Finance",
+        "summary": "NEW YORK, October 19, 2026--The New York Stock Exchange, part of Intercontinental Exchange, Inc. (NYSE: ICE), one of the world's leading providers of financial market technology and data powering global capital markets, today introduced NYSE American Options Extended Trading Hours (\"ETH\"), giving ma"
+      },
+      {
+        "title": "Coreweave\u2019s Shock Absorber Function Will Be Tested Again\u2026\u2026and Again",
+        "url": "https://247wallst.com/investing/2026/10/19/coreweaves-shock-absorber-function-will-be-tested-again-and-again/?.tsrc=rss",
+        "time_published": "2026-10-19 12:45",
         "source": "247wallst",
-        "summary": "A Kentucky retiree's advisor wants to lock 35% of her million-dollar IRA into a seven-year annuity, promising no fees, no penalties, and S&P 500 returns. A financial expert called all three claims false before she signed a single document."
+        "summary": "CoreWeave's GPU empire carries a $104 billion backlog and a debt load that turns every NVIDIA headline into a margin call on its equity. Find out what has to happen before this shock proxy stops absorbing other people's fear."
       },
       {
-        "title": "Beyond LLMs: Modern Machine Learning is Changing Investing",
-        "url": "http://www.etf.com/sections/conferences/beyond-llms-modern-machine-learning-changing-investing?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-10-16 09:57",
-        "source": "Etf",
-        "summary": "Pictet Asset Management's David Wright offers insight into the unique perspective the firm has on artificial intelligence, both from a quant use-case as well as navigating a costly chip market to ensure their models remain current. From deconstructing the black box around quant strategies to a focus"
+        "title": "Stocktwits Retail Therapy: Staples Defy Market Rout In Best Week Since February \u2014 Cracker Barrel, Signet And VF Steal The Show",
+        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-retail-therapy-staples-defy-market-rout-in-best-week-since-february-cracker-barrel-signet-and-vf-steal-the-show/cZx8i3jRBMB?.tsrc=rss",
+        "time_published": "2026-10-19 07:49",
+        "source": "Stocktwits",
+        "summary": "Consumer staples posted their strongest week in eight months as tech-led selling hit the broader market, while Cracker Barrel, Signet and VF Corp. rallied on a turnaround, deal talk and analyst upgrades."
       },
       {
-        "title": "VOO, VTI, SPY, or IVV? How These 4 Index Funds Differ",
-        "url": "https://www.fool.com/investing/2026/10/16/voo-vti-spy-ivv-how-4-index-funds-differ/?.tsrc=rss",
-        "time_published": "2026-10-16 09:20",
-        "source": "Fool",
-        "summary": "These four heavyweight ETFs look interchangeable, but the details make the difference."
-      },
-      {
-        "title": "Trump Has a New Inflation Nightmare Ahead of the Midterms. Sugar Prices Just Exploded 34% in 3 Months Before Halloween.",
-        "url": "https://247wallst.com/investing/2026/10/16/trump-has-a-new-inflation-nightmare-ahead-of-the-midterms-sugar-prices-just-exploded-34-in-3-months-before-halloween/?.tsrc=rss",
-        "time_published": "2026-10-16 08:03",
-        "source": "247wallst",
-        "summary": "Raw sugar futures just staged one of their sharpest seasonal rallies in years, and the timing could not be worse for a White House already facing restless voters at the grocery store and the gas pump."
+        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "url": "https://www.benzinga.com/news/26/10/62430827/stock-market-will-sp-500-open-up-or-down-today-60?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-19 06:36",
+        "source": "Benzinga",
+        "summary": "U.S. stock futures are trending higher early Monday, shaking off trending \u201cBlack Monday\u201d crash fears on social media as Wall Street prepares for a pivotal week of mega-cap tech earnings and navigates ongoing geopolitical friction in the Middle East. The..."
       }
     ],
     "oil": [
+      {
+        "title": "Sector Update: Energy Stocks Advance Premarket Friday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132307205.html?.tsrc=rss",
+        "time_published": "2026-10-16 13:23",
+        "source": "Finance",
+        "summary": "Energy stocks were advancing premarket Friday, with the State Street Energy Select Sector SPDR ETF ("
+      },
+      {
+        "title": "Health Care and Crude Led the Week While Tech Lost Its Grip",
+        "url": "https://finance.yahoo.com/healthcare/articles/health-care-crude-led-week-131000070.html?.tsrc=rss",
+        "time_published": "2026-10-16 13:10",
+        "source": "Finance",
+        "summary": "American News Group News Commentary - The State Street SPDR S&P 500 ETF Trust slipped 0.28% and the Invesco QQQ Trust fell 2.62% over the five trading sessions ended Thursday, October 15, according to Stock Analysis data, as a hotter-than-expected inflation report revived concerns about interest rat"
+      },
       {
         "title": "Sector Update: Energy Stocks Advance Pre-Bell Thursday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-132137510.html?.tsrc=rss",
@@ -248,20 +262,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-02 11:35",
         "source": "247wallst",
         "summary": "A third US carrier is reportedly heading to the Middle East and China just cut off fuel exports, hitting oil markets with two shocks at once. Whether the price spike holds or collapses depends on what happens before October ends."
-      },
-      {
-        "title": "Simplify Tops Madison Dearborn With a Rival Bid for USCF",
-        "url": "http://www.etf.com/sections/features/simplify-tops-madison-dearborn-rival-bid-uscf?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-09-28 23:22",
-        "source": "Etf",
-        "summary": "A bidding war has broken out for the firm behind USO."
-      },
-      {
-        "title": "Peter Schiff Warns Record Diesel Prices Could Leave US Vulnerable To Next Energy Shock, Says Trump's Diesel Export Ban Could 'Backfire'",
-        "url": "https://finance.yahoo.com/energy/articles/peter-schiff-warns-record-diesel-003007848.html?.tsrc=rss",
-        "time_published": "2026-09-28 00:30",
-        "source": "Finance",
-        "summary": "Economist Peter Schiff warned that record diesel prices and the depleted Strategic Petroleum Reserve (SPR) could leave the U.S. with less of an energy buffer during a future supply shock amid the Iran war. Diesel Ban May Backfire In a..."
       }
     ]
   }
