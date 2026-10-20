@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-19T13:02:40Z",
+  "generated": "2026-10-20T11:31:19Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Fade, DXY Tests 102.18 as EUR/USD, GBP/USD Slip",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082744655.html?.tsrc=rss",
+        "time_published": "2026-10-19 08:27",
+        "source": "Finance",
+        "summary": "US dollar price forecast: October hike odds drop to about 15% as DXY tests 102.18, EUR/USD slips on French fiscal risk, and GBP/USD faces 1.3353 resistance."
+      },
       {
         "title": "US Dollar Price Forecast: Warsh Holds Fire, DXY Tests 101.80 as EUR/USD, GBP/USD Gain",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-082128574.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-10-08 08:25",
         "source": "Finance",
         "summary": "Fed minutes keep year-end tightening alive as DXY eyes 102.49, while EUR/USD targets 1.1161 and GBP/USD risks another test of 1.3180."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Minutes Loom, Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054605230.html?.tsrc=rss",
-        "time_published": "2026-10-07 05:46",
-        "source": "Finance",
-        "summary": "DXY holds above 101.76 as traders await Fed minutes, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3284."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Fed Hike Bets Fade, DXY Tests 102.18 as EUR/USD, GBP/USD Slip",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082744655.html?.tsrc=rss",
+        "time_published": "2026-10-19 08:27",
+        "source": "Finance",
+        "summary": "US dollar price forecast: October hike odds drop to about 15% as DXY tests 102.18, EUR/USD slips on French fiscal risk, and GBP/USD faces 1.3353 resistance."
+      },
+      {
         "title": "US Dollar Price Forecast: Warsh Holds Fire, DXY Tests 101.80 as EUR/USD, GBP/USD Gain",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-082128574.html?.tsrc=rss",
         "time_published": "2026-10-16 08:21",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-08 08:25",
         "source": "Finance",
         "summary": "Fed minutes keep year-end tightening alive as DXY eyes 102.49, while EUR/USD targets 1.1161 and GBP/USD risks another test of 1.3180."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Minutes Loom, Can GBP/USD and EUR/USD Recover?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054605230.html?.tsrc=rss",
-        "time_published": "2026-10-07 05:46",
-        "source": "Finance",
-        "summary": "DXY holds above 101.76 as traders await Fed minutes, while EUR/USD tests 1.1225 and GBP/USD remains capped below 1.3284."
       }
     ],
     "xauusd": [],
@@ -178,35 +178,49 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "NYSE Introduces Extended Trading Hours for NYSE American Options",
-        "url": "https://finance.yahoo.com/markets/options/articles/nyse-introduces-extended-trading-hours-123000779.html?.tsrc=rss",
-        "time_published": "2026-10-19 12:30",
-        "source": "Finance",
-        "summary": "NEW YORK, October 19, 2026--The New York Stock Exchange, part of Intercontinental Exchange, Inc. (NYSE: ICE), one of the world's leading providers of financial market technology and data powering global capital markets, today introduced NYSE American Options Extended Trading Hours (\"ETH\"), giving ma"
-      },
-      {
-        "title": "Coreweave\u2019s Shock Absorber Function Will Be Tested Again\u2026\u2026and Again",
-        "url": "https://247wallst.com/investing/2026/10/19/coreweaves-shock-absorber-function-will-be-tested-again-and-again/?.tsrc=rss",
-        "time_published": "2026-10-19 12:45",
+        "title": "Cathie Wood\u2019s ARK Now Sees Tesla at $4,400 a Share by 2031",
+        "url": "https://247wallst.com/investing/2026/10/20/cathie-woods-ark-now-sees-tesla-at-4400-a-share-by-2031/?.tsrc=rss",
+        "time_published": "2026-10-20 11:15",
         "source": "247wallst",
-        "summary": "CoreWeave's GPU empire carries a $104 billion backlog and a debt load that turns every NVIDIA headline into a margin call on its equity. Find out what has to happen before this shock proxy stops absorbing other people's fear."
+        "summary": "ARK Investment Management just published a Tesla price target so far above Wall Street consensus that it practically requires two entirely new industries to exist at massive scale by 2031, and one of them has no paying customers yet."
       },
       {
-        "title": "Stocktwits Retail Therapy: Staples Defy Market Rout In Best Week Since February \u2014 Cracker Barrel, Signet And VF Steal The Show",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-retail-therapy-staples-defy-market-rout-in-best-week-since-february-cracker-barrel-signet-and-vf-steal-the-show/cZx8i3jRBMB?.tsrc=rss",
-        "time_published": "2026-10-19 07:49",
+        "title": "Why Are Nasdaq Futures Falling Premarket? CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-futures-falling-premarket-crwv-nbis-tsla-spcx-mu-asts-nflx-sls-stocks-in-focus/cZxq8CeRBu1?.tsrc=rss",
+        "time_published": "2026-10-20 08:52",
         "source": "Stocktwits",
-        "summary": "Consumer staples posted their strongest week in eight months as tech-led selling hit the broader market, while Cracker Barrel, Signet and VF Corp. rallied on a turnaround, deal talk and analyst upgrades."
+        "summary": "On Stocktwits, retail sentiment toward SPY has dipped into \u2018bearish\u2019 territory and has moderated to \u2018neutral\u2019 for QQQ."
+      },
+      {
+        "title": "IVV vs. SPY: Which S&P 500 ETF Is the Better Buy for Long-Term Investors?",
+        "url": "https://www.fool.com/coverage/etfs/2026/10/20/ivv-vs-spy-which-s-and-p-500-etf-is-the-better-buy-for-long-term-investors/?.tsrc=rss",
+        "time_published": "2026-10-20 08:20",
+        "source": "Fool",
+        "summary": "IVV charges just 0.03% annually versus SPY's 0.09%, a gap that compounds significantly over decades. Both track identical holdings, but cost efficiency gives one a measurable edge."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/news/26/10/62430827/stock-market-will-sp-500-open-up-or-down-today-60?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-19 06:36",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62457920/stock-market-will-sp-500-open-up-or-down-today-61?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-20 06:36",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are trending higher early Monday, shaking off trending \u201cBlack Monday\u201d crash fears on social media as Wall Street prepares for a pivotal week of mega-cap tech earnings and navigates ongoing geopolitical friction in the Middle East. The..."
+        "summary": "U.S. stock futures are leaning slightly lower for tech benchmarks early Tuesday as investors prepare for a heavy slate of corporate earnings, key housing data, and ongoing geopolitical sparring between Iran and Western allies. The Polymarket traders, a Polygon (CRYPTO:..."
       }
     ],
     "oil": [
+      {
+        "title": "USO, USO Gain Premarket As Brent Crude Hits 5-Month High \u2014 Middle East Shipping Attacks Fuel Supply Fears",
+        "url": "https://stocktwits.com/news-articles/markets/equity/uso-uso-gain-premarket-as-brent-crude-hits-5-month-high-middle-east-shipping-attacks-fuel-supply-fears/cZxqAqxRBum?.tsrc=rss",
+        "time_published": "2026-10-20 10:35",
+        "source": "Stocktwits",
+        "summary": "Capital Economics commodities economist Hamad Hussain warned that escalating attacks on ships could trigger a renewed fall in oil supply and continued price rises."
+      },
+      {
+        "title": "Exchange-Traded Funds Higher as US Equities Rise After Midday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-172542006.html?.tsrc=rss",
+        "time_published": "2026-10-19 17:25",
+        "source": "Finance",
+        "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV rose. Actively traded I"
+      },
       {
         "title": "Sector Update: Energy Stocks Advance Premarket Friday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132307205.html?.tsrc=rss",
@@ -248,20 +262,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-05 15:30",
         "source": "Finance",
         "summary": "When President Donald Trump said last week that the U.S. should stop sending its diesel abroad, the goal was simple: bring down record fuel prices for American farmers and truckers ahead of the midterm elections. The oil market, however, read..."
-      },
-      {
-        "title": "'Big Short' Investor Steve Eisman Warns Oil, Rates Push the Market Closer to 'Breaking'",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62166752/steve-eisman-oil-rates-something-breaking?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-05 15:22",
-        "source": "Benzinga",
-        "summary": "\"Big Short\" investor Steve Eisman says markets have narrowed to two things: oil and interest rates. With Brent crude above $100 and long-term Treasury yields near multi-decade highs, he says markets may be getting closer to a breaking point. \"We..."
-      },
-      {
-        "title": "Brent Oil Is Back Above $100 as a Third Aircraft Carrier Heads to the Middle East",
-        "url": "https://247wallst.com/investing/2026/10/02/brent-oil-is-back-above-100-as-a-third-aircraft-carrier-heads-to-the-middle-east/?.tsrc=rss",
-        "time_published": "2026-10-02 11:35",
-        "source": "247wallst",
-        "summary": "A third US carrier is reportedly heading to the Middle East and China just cut off fuel exports, hitting oil markets with two shocks at once. Whether the price spike holds or collapses depends on what happens before October ends."
       }
     ]
   }

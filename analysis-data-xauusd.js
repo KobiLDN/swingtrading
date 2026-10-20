@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-10-19T12:59:30Z",
+  "generated": "2026-10-20T11:26:28Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10 confirmed",
-  "analysis": "Price action remains firmly below both the EMA50 and EMA200, confirming the broader strong downtrend. The EMA structure is bearish, with price trading below the faster and slower moving averages, so there is no trend-confirming reversal signal yet. The recent Inverted Hammer and Doji candles suggest some buying interest or indecision near current levels, but they are not enough to confirm a bottom.\n\nRSI is neutral at 45.49, which is below 50 and consistent with bearish momentum, but it is not oversold enough to suggest a high-probability bounce. MACD is bullish with the line above the signal and a positive histogram, which is a short-term counter-trend signal. This creates a mixed picture: the larger trend is down, but momentum is attempting a minor upward correction. Without a clear close above resistance, this MACD signal is unreliable for a swing long.\n\nThe best approach is to wait for a daily close above the EMA50 at 4231.86 to consider a long, or for a bearish rejection near 4200/4231.86 to consider a short. Until then, the risk/reward is unclear and the signal score remains low.",
-  "invalidation": "A daily close above 4231.86 would invalidate the bearish continuation setup and shift the bias toward a potential long; a daily close below 4150.00 would confirm further downside and open a clearer sell setup.",
+  "score": "5/10",
+  "analysis": "The daily chart shows a strong downtrend with price (4119.58) well below both the EMA50 (4226.56) and EMA200 (4347.11). Recent candlestick patterns\u2014an Inverted Hammer followed by a Bearish Engulfing\u2014indicate a failed reversal attempt, reinforcing bearish momentum. However, the MACD has crossed bullishly (line above signal) with a positive histogram, suggesting a potential shift in momentum that conflicts with the prevailing trend. The RSI at 39.61 is neutral, not oversold, leaving room for further downside.  \n\nNo clear chart patterns like triangles or flags are evident from the given data. Key support levels are psychological round numbers near 4100, 4050, and 4000, while resistance lies at 4150 (recent high), 4200, and the EMA50 at 4226. The MACD bullish signal does not align with the strong downtrend or the bearish candlestick pattern, creating a mixed outlook. The signal score of 5/10 reflects this indecision.  \n\nGiven the conflicting signals\u2014bearish price action and trend versus a nascent MACD bullish crossover\u2014the risk/reward at current price is unfavorable. A sell entry near 4119 would require a tight stop above recent highs (e.g., 4160) for a risk of ~40 points, but the nearest support at 4100 offers only ~20 points of reward, yielding a poor risk/reward ratio. Waiting for a clearer setup, such as a retracement to resistance or a confirmed breakdown below 4100, is prudent.",
+  "invalidation": "A decisive close above the EMA50 (4226) or a bullish engulfing candle that reverses the recent bearish engulfing would invalidate the wait stance and suggest a potential trend change.",
   "support_levels": [
-    4150.0,
-    4116.59,
-    4067.84
+    4100.0,
+    4050.0,
+    4000.0
   ],
   "resistance_levels": [
+    4150.0,
     4200.0,
-    4231.86,
-    4349.63
+    4226.0
   ]
 };

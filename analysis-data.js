@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-10-19T12:58:04Z",
+  "generated": "2026-10-20T11:25:08Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10 confirmed",
-  "analysis": "The price is trapped between the EMA 50 at 1.33276 and the EMA 200 at 1.33693. Price action shows local bullish momentum with two bullish engulfing candles, but it has not confirmed a sustainable uptrend because price remains below the EMA 200. The overall EMA structure is neutral, so the bullish candlestick signals are not enough to call a trend reversal.\n\nThe last five candles form a constructive short-term bullish cluster \u2014 Bullish Engulfing, Doji, Bullish Engulfing \u2014 suggesting buyers are defending the area around 1.3320\u20131.3330. There are no clear triangle, flag, or double top/bottom patterns visible, but the repeated bullish engulfing candles imply a potential higher-low base is forming just below current price.\n\nRSI at 56.47 is neutral with a slight bullish tilt, while MACD is above its signal line with a positive histogram. This gives partial agreement with the short-term candlestick bullishness, but the MACD signal is not strong enough to override the neutral EMA-200 resistance overhead. The technical picture is therefore mixed: momentum is mildly bullish, but the broader daily trend is not confirmed.\n\nThe best approach is to wait for a daily close above 1.33693, which would put price above the EMA 200 and confirm a bullish breakout. Entering now offers poor risk/reward because the nearest strong resistance is only about 34 pips away, while ATR is 59 pips. Without a confirmed breakout, the probability of a whipsaw is too high for a high-quality swing trade.",
-  "invalidation": "This wait/neutral stance is invalidated by a daily close above 1.33693, which would confirm bullish momentum and trigger a long setup targeting 1.3400 and 1.3450.",
+  "score": "4/10",
+  "analysis": "The price at 1.33377 sits between the EMA50 (1.33269) and EMA200 (1.33666), placing the market in a neutral zone with no clear directional bias. The pre-calculated trend label of \"NEUTRAL\" is confirmed by price action: the short-term EMA50 is being respected as support, but the longer-term EMA200 acts as overhead resistance, preventing a strong bullish breakout. The candlestick pattern sequence (Doji \u2192 Evening Star \u2192 Morning Star) reflects recent indecision and failed reversals, further supporting a sideways consolidation rather than a trending move.\n\nNo additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the given data. The nearest support is the EMA50 at 1.33269, with psychological support at 1.33000 and a one-ATR extension near 1.32785. Resistance is first at the EMA200 (1.33666), followed by the round number 1.34000 and a potential prior swing high near 1.34200. These levels define a narrow 40\u2011pip range, which is typical for a low-volatility pause before a breakout.\n\nRSI at 56.56 is neutral, showing no overbought or oversold conditions, while the MACD is bullish (line above signal) with a positive histogram. This divergence between a neutral RSI and a bullish MACD reduces conviction \u2013 the MACD may be lagging or indicating only minor upward momentum. Without RSI divergence or a strong trend confirmation, the signals do not converge into a high-probability trade. The overall signal score of 4/10 appropriately reflects the lack of clear confluence.\n\nGiven the conflicting candlestick patterns, neutral RSI, and price trapped between two EMAs, the single best trade setup is to wait for a confirmed breakout or a clearer directional signal. Attempting a trade here would rely on speculative momentum rather than robust technical alignment, especially with the low score and absence of a dominant pattern.",
+  "invalidation": "A decisive break below the EMA50 (1.33269) or above the EMA200 (1.33666) with follow-through would invalidate the neutral view and could produce a new trade setup.",
   "support_levels": [
-    1.33276,
+    1.33269,
     1.33,
-    1.3276
+    1.32785
   ],
   "resistance_levels": [
-    1.33693,
+    1.33666,
     1.34,
-    1.345
+    1.342
   ]
 };

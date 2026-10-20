@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-10-16T11:18:19Z",
+  "generated": "2026-10-20T11:31:18Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-10-15",
+  "date": "2026-10-19",
   "decision": "BUY",
   "confidence": "MEDIUM",
-  "entry": "157.31",
-  "stop_loss": "152.54",
-  "target_1": "162.08",
-  "target_2": "166.85",
-  "risk_reward": "1:1 (T1), 1:2 (T2)",
-  "score": "5/10",
-  "analysis": "Price action strongly confirms the EMA-based trend, with the current price of 157.31 well above both the EMA50 (142.98) and EMA200 (121.13). The EMA50 is sloping upward and maintaining a significant positive spread, characteristic of a sustained strong uptrend. The recent candlestick patterns (Morning Star and Bullish Engulfing) observed within the last five candles reinforce bullish momentum and suggest continuation rather than reversal. No additional chart patterns such as flags or double tops/bottoms are directly inferable from the given data, but the price structure appears orderly and trending.  \n\nRSI at 62.91 is neutral, indicating the uptrend has not yet reached overbought territory, leaving room for further upside. The MACD remains in a bullish configuration with the line above the signal and a positive histogram (+0.3827), aligning with the trend direction. This confluence between RSI and MACD supports the current bullish bias. Key support levels are derived using ATR (4.77): the nearest support is at 152.54 (1 ATR below price), followed by 147.77 (2 ATR) and the EMA50 at 142.98. Resistance levels are identified at the round number 160.00, then 162.08 (1 ATR above) and 166.85 (2 ATR above).  \n\nThe single best trade setup is a long entry at the current price, given the strong uptrend, bullish MACD, and bullish candlestick confirmation. A stop-loss placed 1 ATR below (152.54) provides a reasonable buffer against normal volatility while protecting against a deeper pullback. Targets are set at 1 and 2 ATR above to capture measured moves. The risk-reward ratio for the first target is 1:1 and for the second is 1:2, making the trade viable. However, the neutral RSI and the overall signal score of 5/10 temper confidence to medium, as a brief consolidation or minor pullback cannot be ruled out before further upside.",
-  "invalidation": "A daily close below the 152.54 support level (1 ATR) or a bearish MACD crossover would invalidate this bullish setup.",
+  "entry": "160.81",
+  "stop_loss": "155.95",
+  "target_1": "165.00",
+  "target_2": "170.00",
+  "risk_reward": "1.89",
+  "score": "7/10",
+  "analysis": "The price action strongly confirms the EMA trend. At 160.81, USO trades significantly above both the 50-period EMA (144.39) and the 200-period EMA (121.82), which are in a clear bullish alignment. The recent Bullish Engulfing candlestick pattern serves as a powerful continuation signal within this established strong uptrend, indicating that buyers have decisively absorbed selling pressure and are driving the price higher.\n\nThe confluence between the RSI and MACD strongly supports the bullish bias. The RSI at 65.28 is in neutral territory, suggesting the uptrend has significant room to develop before becoming overbought. The MACD is firmly bullish, with the line above the signal line and a positive histogram (+1.04), confirming accelerating upward momentum. The absence of any bearish divergence adds further confidence to the sustainability of the current trend.\n\nThe single best trade setup right now is a momentum continuation buy at the current market price of 160.81. The stop loss is logically placed at 155.95, which is 1 ATR below the entry price, providing a clear invalidation point if the breakout fails. The first target is the psychological resistance level at 165.00, with a secondary swing target at 170.00. This structure offers a favorable risk-to-reward ratio of 1.89:1 on the secondary target.\n\nThe primary risk to this setup is the significant price extension from the 50 EMA, which exposes the trade to potential sharp mean-reversion pullbacks. The original signal score of 4/10 is revised upwards to 7/10 to better reflect the strong technical alignment of the trend, momentum, and candlestick patterns. The score is capped at 7 due to the extension risk, which requires careful position sizing and strict adherence to the stop loss.",
+  "invalidation": "A daily close below the 155.95 stop-loss level (1 ATR below entry) would invalidate the immediate bullish momentum and suggest a deeper pullback or trend reversal is underway.",
   "support_levels": [
-    152.54,
-    147.77,
-    142.98
+    155.95,
+    152.0,
+    144.39
   ],
   "resistance_levels": [
-    160.0,
-    162.08,
-    166.85
+    165.0,
+    170.0,
+    175.0
   ]
 };
