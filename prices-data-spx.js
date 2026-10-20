@@ -1,22 +1,22 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-10-19T11:33:26Z",
-  "date": "2026-10-16",
-  "price": 763.25,
-  "atr": 7.01,
+  "generated": "2026-10-20T10:38:23Z",
+  "date": "2026-10-19",
+  "price": 766.48,
+  "atr": 7.02,
   "atr_pips": 7,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 765.71,
-  "ema200": 734.98,
-  "rsi": 43.79,
-  "macd_line": 1.702516,
-  "macd_signal": 2.497799,
-  "macd_hist": -0.795282,
-  "trend": "NEUTRAL",
+  "ema50": 765.74,
+  "ema200": 735.46,
+  "rsi": 47.12,
+  "macd_line": 1.178882,
+  "macd_signal": 2.234015,
+  "macd_hist": -1.055133,
+  "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
     {
@@ -24,18 +24,17 @@ window.PRICES_DATA_SPX = {
       "name": "Bearish Engulfing",
       "signal": "STRONG BEARISH",
       "strength": 4
+    },
+    {
+      "date": "2026-10-19",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-05-27",
-      "open": 750.88,
-      "high": 751.38,
-      "low": 748.22,
-      "close": 750.46
-    },
     {
       "date": "2026-05-28",
       "open": 750.25,
@@ -728,6 +727,13 @@ window.PRICES_DATA_SPX = {
       "high": 773.25,
       "low": 760.64,
       "close": 763.25
+    },
+    {
+      "date": "2026-10-19",
+      "open": 767.23,
+      "high": 770.46,
+      "low": 765.82,
+      "close": 766.48
     }
   ]
 };
