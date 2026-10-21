@@ -1,47 +1,40 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-10-20T10:38:22Z",
-  "date": "2026-10-20",
-  "price": 4119.58,
-  "atr": 49.38,
-  "atr_pips": 49,
+  "generated": "2026-10-21T10:49:14Z",
+  "date": "2026-10-21",
+  "price": 4126.64,
+  "atr": 48.2,
+  "atr_pips": 48,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4226.56,
-  "ema200": 4347.11,
-  "rsi": 39.61,
-  "macd_line": -29.224431,
-  "macd_signal": -34.015768,
-  "macd_hist": 4.791337,
+  "ema50": 4222.68,
+  "ema200": 4341.46,
+  "rsi": 40.85,
+  "macd_line": -29.15116,
+  "macd_signal": -33.027307,
+  "macd_hist": 3.876147,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-16",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
-    },
     {
       "date": "2026-10-19",
       "name": "Bearish Engulfing",
       "signal": "STRONG BEARISH",
       "strength": 4
+    },
+    {
+      "date": "2026-10-21",
+      "name": "Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-14",
-      "open": 4006.0,
-      "high": 4100.75,
-      "low": 3984.45,
-      "close": 4055.53
-    },
     {
       "date": "2026-07-15",
       "open": 4055.47,
@@ -731,9 +724,16 @@
     {
       "date": "2026-10-20",
       "open": 4141.76,
-      "high": 4147.14,
+      "high": 4155.9,
       "low": 4111.84,
-      "close": 4119.58
+      "close": 4120.8
+    },
+    {
+      "date": "2026-10-21",
+      "open": 4120.72,
+      "high": 4131.55,
+      "low": 4106.88,
+      "close": 4126.64
     }
   ]
 }
