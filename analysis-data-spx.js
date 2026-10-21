@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-10-20T11:28:39Z",
+  "generated": "2026-10-21T11:41:34Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-10-19",
-  "decision": "SELL",
+  "date": "2026-10-20",
+  "decision": "WAIT",
   "confidence": "MEDIUM",
-  "entry": "765.00",
-  "stop_loss": "773.00",
-  "target_1": "757.00",
-  "target_2": "749.00",
-  "risk_reward": "1:2",
-  "score": "4/10",
-  "analysis": "The price action is at a critical inflection point, testing the 50-day EMA (765.74) as support. While the long-term trend via the 200 EMA remains intact, the short-term momentum has decisively turned bearish. The recent Bearish Engulfing pattern, followed by an Inverted Hammer, strongly suggests a loss of bullish control and a potential trend reversal. This price action does not confirm the \"STRONG UPTREND\" label; instead, it indicates a significant weakening of the prevailing trend.\n\nThe RSI at 47.12 (below the 50 midline) and the bearish MACD (line below signal, negative histogram) provide strong bearish momentum confluence. These indicators directly contradict the stated trend and align perfectly with the bearish candlestick patterns. The single best trade setup is a short entry upon a confirmed breakdown below the 50 EMA. This setup offers a clear invalidation point and a favorable risk-to-reward ratio, targeting the next major support levels.\n\nAn entry at 765.00, just below the 50 EMA, provides confirmation of the breakdown. A stop loss at 773.00 manages risk against a false breakdown above the recent swing high. The primary risk is the strong underlying long-term uptrend, which could trigger a sharp V-bounce from the 50 EMA. Position sizing must be conservative to account for this trend conflict and the high ATR (7.02).",
-  "invalidation": "A daily close above 770.00 would invalidate the bearish setup.",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "5/10 confirmed",
+  "analysis": "The broader trend remains structurally bullish: price is above both the EMA50 (765.88) and EMA200 (736.41), with a strong uptrend classification. However, price action is not yet fully confirming the EMA trend. Recent candlestick patterns are mixed \u2014 a Bearish Engulfing followed by Bullish Engulfing and Morning Star suggests consolidation and a possible short-term reversal higher, but the RSI near 49.68 and bearish MACD indicate that momentum is still flat-to-negative. This is not a clean, high-conviction long entry.\n\nNo clear triangle, flag, or double top/bottom can be inferred from the provided data alone. The most probable structure is a pullback/consolidation above the EMA50, with 765.88 acting as immediate support. The next meaningful downside supports are 761.96 (roughly one ATR below) and 754.87. To the upside, resistance sits at 770.00 psychological level, followed by 776.14 and 783.23.\n\nRSI and MACD do not agree with the strong uptrend. RSI is neutral and below 50, while MACD is bearish with a negative histogram. This suggests the trend is intact on higher timeframe, but near-term momentum is weak and directionless. A better long setup would be a confirmed bounce off the EMA50 support, or a close back above the 770.00\u2013776.14 zone with improving RSI and MACD.\n\nGiven the mixed signals and 5/10 signal score, the risk/reward is currently not compelling enough for an aggressive entry. Waiting for either a successful retest of 765.88/761.96 or a decisive move above 770.00 with bullish momentum confirmation is the professional approach.",
+  "invalidation": "This wait-and-see setup is invalidated if price loses the EMA50 at 765.88 and closes below 761.96, which would shift the bias from bullish pullback to deeper correction.",
   "support_levels": [
-    765.74,
-    760.0,
-    750.0
+    765.88,
+    761.96,
+    754.87
   ],
   "resistance_levels": [
     770.0,
-    780.0,
-    790.0
+    776.14,
+    783.23
   ]
 };
