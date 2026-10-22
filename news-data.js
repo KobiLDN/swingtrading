@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-21T11:43:06Z",
+  "generated": "2026-10-22T11:44:20Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: UK CPI Hits 3.5%, DXY Eyes 102.01 as EUR/USD, GBP/USD Split",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-uk-073000818.html?.tsrc=rss",
+        "time_published": "2026-10-21 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: AI doubts weigh on DXY near 101.81, EUR/USD faces French risk below 1.1241, and UK CPI at 3.5% backs GBP/USD above 1.3353."
+      },
       {
         "title": "US Dollar Price Forecast: UK Jobs Surprise, DXY Tests 101.76 as EUR/USD, GBP/USD Firm",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-uk-072421507.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-10-12 07:29",
         "source": "Finance",
         "summary": "US dollar holds firm ahead of Wednesday\u2019s CPI report as DXY targets 102.49, EUR/USD risks a break below 1.1180, and GBP/USD struggles beneath 1.3284."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Tests 101.76, Can EUR/USD and GBP/USD Extend Gains?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081535523.html?.tsrc=rss",
-        "time_published": "2026-10-09 08:15",
-        "source": "Finance",
-        "summary": "Fed pause bets pressure DXY toward 101.76, while EUR/USD targets 1.1272 and GBP/USD eyes 1.3284 amid rising ECB and BoE tightening expectations."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: UK CPI Hits 3.5%, DXY Eyes 102.01 as EUR/USD, GBP/USD Split",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-uk-073000818.html?.tsrc=rss",
+        "time_published": "2026-10-21 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: AI doubts weigh on DXY near 101.81, EUR/USD faces French risk below 1.1241, and UK CPI at 3.5% backs GBP/USD above 1.3353."
+      },
+      {
         "title": "US Dollar Price Forecast: UK Jobs Surprise, DXY Tests 101.76 as EUR/USD, GBP/USD Firm",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-uk-072421507.html?.tsrc=rss",
         "time_published": "2026-10-20 07:24",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-12 07:29",
         "source": "Finance",
         "summary": "US dollar holds firm ahead of Wednesday\u2019s CPI report as DXY targets 102.49, EUR/USD risks a break below 1.1180, and GBP/USD struggles beneath 1.3284."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Tests 101.76, Can EUR/USD and GBP/USD Extend Gains?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081535523.html?.tsrc=rss",
-        "time_published": "2026-10-09 08:15",
-        "source": "Finance",
-        "summary": "Fed pause bets pressure DXY toward 101.76, while EUR/USD targets 1.1272 and GBP/USD eyes 1.3284 amid rising ECB and BoE tightening expectations."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,39 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "What Is Twilio\u2019s (TWLO) Economic Moat, and Is It Widening or Narrowing?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-twlo-economic-moat-widening-145146660.html?.tsrc=rss",
-        "time_published": "2026-10-20 14:51",
-        "source": "Finance",
-        "summary": "Twilio Inc. (NYSE:TWLO) moves messages and calls for other companies. When a delivery service texts a tracking link or a bank sends a one-time code, something like it is underneath. It is a useful business and an awkward one to defend, because the thing being sold looks identical regardless of who s"
-      },
-      {
-        "title": "Can MongoDB (MDB) Hold Its Guidance After Losing Its Chief Executive?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-mdb-hold-guidance-losing-145042146.html?.tsrc=rss",
-        "time_published": "2026-10-20 14:50",
-        "source": "Finance",
-        "summary": "MongoDB, Inc. (NASDAQ:MDB) closed at $348.69 on October 19. The stock returned 32% over the last 6 months, compared with an 11.6% return for the Insider Monkey Billionaire Index and 8.7% for the State Street SPDR S&P 500 ETF Trust. MongoDB lost its chief executive on September 28. Chirantan Desai le"
-      },
-      {
-        "title": "Nasdaq Futures Rise Premarket As SpaceX AI Boom Lifts Chip Stocks: SMCI, TSLA, META, IBM, CRWV, NFLX, BE In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-rise-premarket-spacex-ai-boom-lifts-chip-stocks-smci-tsla-meta-ibm-crwv-nflx-be-in-focus/cZxtvuZRBHU?.tsrc=rss",
-        "time_published": "2026-10-21 08:41",
-        "source": "Stocktwits",
-        "summary": "On Stocktwits, retail sentiment toward SPY was \u2018bearish\u2019, while it remained \u2018neutral\u2019 for QQQ."
+        "title": "NextEra Energy Lost 15% in 6 Months: A Respected Analyst Predicts 40% Returns in 12 Months",
+        "url": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/?.tsrc=rss",
+        "time_published": "2026-10-22 11:15",
+        "source": "247wallst",
+        "summary": "NextEra Energy runs America's largest electric utility and holds the biggest renewable backlog in the country, yet the stock keeps sliding while every major rival climbs. One top analyst sees a very different story unfolding over the next twelve months."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62486943/stock-market-will-sp-500-open-up-or-down-today-62?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-21 07:17",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62516693/stock-market-will-sp-500-open-up-or-down-today-63?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-22 06:08",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are trending higher early Wednesday as Wall Street prepares for two Magnificent 7 companies to report earnings today, after the closing bell. The Polymarket traders, a Polygon (CRYPTO: POL) based prediction platform, are solidly bullish for the..."
+        "summary": "U.S. stock futures are flashing deep red early Thursday as Wall Street navigates a tech-led selloff, escalating diplomatic standoffs in the Middle East, and surging crude oil prices. The Polymarket traders, a Polygon (CRYPTO: POL) based prediction platform, turned bearish..."
       },
       {
-        "title": "Iran Is Using the Hostage Crisis Playbook. What Investors Need to Know.",
-        "url": "https://finance.yahoo.com/m/b3d5879f-90db-3489-b6f5-17e270d60b99/iran-is-using-the-hostage.html?.tsrc=rss",
-        "time_published": "2026-10-21 07:00",
-        "source": "Finance",
-        "summary": "The stock market will likely bounce back when Trump leaves office, says options strategist Michael Schwartz. How to play it."
-      },
-      {
-        "title": "S&P 500, Dow Gain As Earnings Season Sets In, While SpaceX Aids Nasdaq After-Hours \u2014 SPCX, BA, MMM, NFLX, QCOM In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-gain-as-earnings-season-sets-in-while-space-x-aids-nasdaq-after-hours-spcx-ba-mmm-nflx-qcom-in-focus/cZxAawhRBHX?.tsrc=rss",
-        "time_published": "2026-10-20 23:47",
+        "title": "S&P 500, Nasdaq Gain, Powered By Meta, Tesla Stock \u2014 SPCX, META, TSLA, SKYD, IBM In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-gain-powered-by-meta-tesla-stock-spcx-meta-tsla-skyd-ibm-in-focus/cZxM14eRBwR?.tsrc=rss",
+        "time_published": "2026-10-21 23:15",
         "source": "Stocktwits",
-        "summary": "SpaceX reported solid earnings fueled by a big jump in its artificial-intelligence business."
+        "summary": "Meta reported earnings that beat expectations, while narrowing its capex plans."
       },
       {
-        "title": "Opendoor Is Now Down 64% This Year: Is OPEN Stock a Falling Knife or Poised for a Comeback?",
-        "url": "https://247wallst.com/investing/2026/10/20/opendoor-is-now-down-64-this-year-is-open-stock-a-falling-knife-or-poised-for-a-comeback/?.tsrc=rss",
-        "time_published": "2026-10-20 18:33",
+        "title": "Skydance Rallies 10% as Shares Rebound After Warrant Selloff; Spotify Eases, Disney Holds Steady",
+        "url": "https://247wallst.com/investing/2026/10/21/skydance-rallies-10-as-shares-rebound-after-warrant-selloff-spotify-eases-disney-holds-steady/?.tsrc=rss",
+        "time_published": "2026-10-21 18:59",
         "source": "247wallst",
-        "summary": "Opendoor has shed nearly two-thirds of its value this year while carrying a balance sheet full of homes in a stubbornly frozen housing market. Whether the next earnings report rescues the stock or confirms investors' worst fears may come down to one critical number."
+        "summary": "Skydance shares are staging a sharp recovery while the rest of the media sector slides, and the reason traces back to a warrant split that may not be done rattling the stock."
       },
       {
-        "title": "Skydance Rises 5% as Steep Post-Merger Slide Pauses; Disney Gains 2%, Netflix Slips",
-        "url": "https://247wallst.com/investing/2026/10/20/skydance-rises-5-as-steep-post-merger-slide-pauses-disney-gains-2-netflix-slips/?.tsrc=rss",
-        "time_published": "2026-10-20 18:03",
+        "title": "United Airlines Jumps 6% as Record Revenue Forecast Outweighs Fuel-Cost Squeeze; American Airlines Climbs 4%, Delta Rises 3%",
+        "url": "https://247wallst.com/investing/2026/10/21/united-airlines-jumps-6-as-record-revenue-forecast-outweighs-fuel-cost-squeeze-american-airlines-climbs-4-delta-rises-3/?.tsrc=rss",
+        "time_published": "2026-10-21 18:57",
         "source": "247wallst",
-        "summary": "Skydance shares staged a sharp single-day reversal after weeks of relentless post-merger selling, but whether buyers or sellers control the newly combined studio giant depends on what the integration numbers reveal next."
+        "summary": "United Airlines just handed Wall Street a revenue forecast that sent its stock soaring past American Airlines and Delta by a country mile, but a ballooning fuel bill stands between the carrier and the wider margins investors actually want."
       }
     ],
     "oil": [
@@ -255,6 +234,13 @@ window.NEWS_DATA = {
         "time_published": "2026-10-20 10:35",
         "source": "Stocktwits",
         "summary": "Capital Economics commodities economist Hamad Hussain warned that escalating attacks on ships could trigger a renewed fall in oil supply and continued price rises."
+      },
+      {
+        "title": "Sector Update: Energy Stocks Lean Lower Premarket Wednesday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lean-lower-132621890.html?.tsrc=rss",
+        "time_published": "2026-10-21 13:26",
+        "source": "Finance",
+        "summary": "Energy stocks were leaning lower premarket Wednesday, with the State Street Energy Select Sector SPD"
       },
       {
         "title": "Sector Update: Energy Stocks Edge Higher Premarket Tuesday",
@@ -283,13 +269,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-16 13:10",
         "source": "Finance",
         "summary": "American News Group News Commentary - The State Street SPDR S&P 500 ETF Trust slipped 0.28% and the Invesco QQQ Trust fell 2.62% over the five trading sessions ended Thursday, October 15, according to Stock Analysis data, as a hotter-than-expected inflation report revived concerns about interest rat"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Advance Pre-Bell Thursday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-132137510.html?.tsrc=rss",
-        "time_published": "2026-10-15 13:21",
-        "source": "Finance",
-        "summary": "Energy stocks were advancing pre-bell Thursday, with the State Street Energy Select Sector SPDR ETF"
       }
     ]
   }

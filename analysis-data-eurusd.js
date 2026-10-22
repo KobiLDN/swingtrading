@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-10-21T11:40:41Z",
+  "generated": "2026-10-22T11:41:06Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_EURUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The price action confirms the strong downtrend, with current price at 1.12258 trading well below both the EMA50 (1.13346) and EMA200 (1.14755). No bullish price action has reclaimed either moving average, preserving the bearish bias. The recent candlestick sequence includes a Doji, Evening Star, and Morning Star \u2014 a contradictory mix that reflects indecision and potential exhaustion but does not provide a clear reversal signal within the dominant trend.\n\nNo major chart patterns like triangles or double tops/bottoms can be inferred from the given data. Key support near the psychological 1.1200 level may hold temporarily, while resistance is clustered around 1.1300 (prior swing low) and the EMA50 at 1.1335. A decisive break above 1.1335 would challenge the downtrend, but until that occurs, the path of least resistance remains lower.\n\nRSI at 44.45 is neutral, not oversold, leaving room for further downside. MACD shows a bullish crossover with a positive histogram, suggesting short-term momentum may be shifting. However, this divergence from the strong downtrend is typical of a bear market rally and often fades without sustained follow-through. Without a clear confluence between trend and momentum, the signal score of 4/10 appropriately reflects the low conviction.\n\nThe single best trade setup is to wait for a bounce toward the 1.1300\u20131.1335 resistance zone before considering a short entry. Entering now offers poor risk/reward because the Morning Star candle and MACD bullish cross could fuel a temporary squeeze. Patience is warranted until price provides either a clear rejection at resistance or a breakdown below 1.1200.",
-  "invalidation": "This wait-and-see stance is invalidated if price closes above 1.1335, which would signal a potential trend shift and open the door for long setups.",
+  "score": "5/10",
+  "analysis": "The price at 1.12181 is well below both the EMA50 (1.13303) and EMA200 (1.14803), confirming the strong downtrend indicated by the trend label. However, the recent candlestick sequence of Evening Star, Morning Star, and Evening Star reflects indecision and potential reversal attempts, which conflicts with the persistent bearish momentum. No clear chart patterns like triangles or flags are evident from the given data, but the alternating reversal signals suggest a possible consolidation phase near the current level.\n\nThe RSI at 43.4 is neutral but below 50, aligning with the downtrend. In contrast, the MACD shows a bullish crossover (line above signal) with a positive histogram, indicating a divergence from the price downtrend. This mixed signal reduces conviction: the RSI supports selling, while the MACD hints at a potential bounce. The signal score of 5/10 reflects this ambiguity, offering no clear edge for either direction.\n\nGiven the conflicting signals and the lack of a decisive price pattern, the best course is to wait for confirmation. A short entry would risk a counter-trend rally from the MACD bullishness, while a long entry would fight the strong downtrend. Key resistance lies at 1.1270 (near the ATR-based upper range) and the EMA50 at 1.1330. Support is seen at 1.1180 (recent swing low) and 1.1150, with further downside toward 1.1100.",
+  "invalidation": "This wait setup is invalidated if price breaks and closes above the EMA50 (1.1330) or below the 1.1150 support, as either would resolve the current indecision and provide a clearer directional bias.",
   "support_levels": [
-    1.12,
+    1.118,
     1.115,
     1.11
   ],
   "resistance_levels": [
-    1.13,
-    1.1335,
+    1.127,
+    1.133,
     1.14
   ]
 };
