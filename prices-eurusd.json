@@ -1,30 +1,24 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-21T10:49:14Z",
-  "date": "2026-10-21",
-  "price": 1.12258,
-  "atr": 0.00563,
-  "atr_pips": 56,
+  "generated": "2026-10-22T10:50:37Z",
+  "date": "2026-10-22",
+  "price": 1.12181,
+  "atr": 0.00552,
+  "atr_pips": 55,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.13346,
-  "ema200": 1.14755,
-  "rsi": 44.45,
-  "macd_line": -0.00416,
-  "macd_signal": -0.005592,
-  "macd_hist": 0.001432,
+  "ema50": 1.13303,
+  "ema200": 1.14803,
+  "rsi": 43.4,
+  "macd_line": -0.003808,
+  "macd_signal": -0.005226,
+  "macd_hist": 0.001418,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-17",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-10-18",
       "name": "Evening Star",
@@ -36,18 +30,17 @@
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-10-22",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-15",
-      "open": 1.14212,
-      "high": 1.14818,
-      "low": 1.14068,
-      "close": 1.14633
-    },
     {
       "date": "2026-07-16",
       "open": 1.14634,
@@ -737,9 +730,16 @@
     {
       "date": "2026-10-21",
       "open": 1.12351,
-      "high": 1.12389,
+      "high": 1.12412,
       "low": 1.12144,
-      "close": 1.12258
+      "close": 1.12332
+    },
+    {
+      "date": "2026-10-22",
+      "open": 1.12336,
+      "high": 1.12551,
+      "low": 1.12163,
+      "close": 1.12181
     }
   ]
 }
