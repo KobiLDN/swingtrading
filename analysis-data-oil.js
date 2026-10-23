@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-10-22T11:44:19Z",
+  "generated": "2026-10-23T11:33:27Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "3/10 confirmed",
-  "analysis": "The daily trend is clearly bullish: price at 159.8 is well above the EMA50 (145.6) and EMA200 (122.51), and the EMA structure is aligned in a strong uptrend. Price action confirms the trend, but the recent Hanging Man candle after a sustained advance warns that buying pressure may be stalling near the highs. There is no confirmed reversal yet, so the trend remains intact, but the risk/reward of chasing long at this exact level is poor.\n\nMomentum indicators are mixed with the candlestick warning. RSI at 63.43 is neutral and not overbought, while MACD is bullish with a positive histogram, so the broader momentum still favors upside. However, the Hanging Man pattern is a low-confidence bearish signal on its own, especially in a strong uptrend. No clear additional chart patterns such as flags or double tops/bottoms can be inferred from the provided data; the main concern is potential short-term exhaustion near resistance.\n\nThe best approach is to wait for confirmation. A bearish confirmation would be a daily close below the Hanging Man low / first support near 154.87, which could open a move toward 149.94 and then the EMA50 at 145.60. Alternatively, a strong daily close above 160.00 would cancel the reversal warning and favor continuation toward 164.73 and 169.66. Until one of those triggers occurs, the setup is not high-probability enough to justify a trade.",
-  "invalidation": "A daily close above the Hanging Man high / 160.00 resistance cancels the bearish reversal watch and would shift the bias back to buying pullbacks in the uptrend.",
+  "score": "2/10",
+  "analysis": "The daily chart of USO exhibits a strong uptrend, confirmed by price trading well above both the 50-period EMA (146.27) and the 200-period EMA (122.81). The MACD is bullish with a positive histogram, and the RSI at 66.23 is neutral\u2014neither overbought nor oversold\u2014suggesting underlying momentum is intact. However, the recent candlestick patterns introduce caution: a Hanging Man (bearish reversal signal) followed by a Hammer (bullish reversal) within the last five candles creates ambiguity. The overall signal score is a low 2/10, indicating that the combination of indicators and price action lacks a clear, high-conviction edge at this moment.\n\nNo additional chart patterns like flags or triangles are evident from the given data, but the price is likely consolidating near a potential resistance zone. The nearest support levels lie around the round number 160.00 and the ATR-based downside projection of 157.64 (current price minus one ATR). Above, resistance is anticipated at 165.00 (psychological level), 168.00, and 170.00. The RSI and MACD are in general agreement with the uptrend, but the conflicting candlestick patterns and low signal score argue against entering a new position without further confirmation.\n\nGiven the strong trend, a buy-on-pullback strategy would be ideal, but the presence of a Hanging Man suggests the risk of a short-term top. Waiting for price to either break decisively above 165.00 (resistance) or to pull back to a support level near 157\u2013158 with a bullish reversal candle would provide a higher-probability setup. Currently, the risk of entering long near resistance with a bearish warning is elevated, and shorting against a strong uptrend is unwise. Therefore, the prudent action is to wait.",
+  "invalidation": "This wait setup is invalidated if price closes above 165.00 with strong momentum, which would signal a breakout and turn the bias toward a buy, or if price breaks below 157.00, which would indicate trend weakening and potential short opportunities.",
   "support_levels": [
-    154.87,
-    149.94,
-    145.6
+    160.0,
+    157.64,
+    155.0
   ],
   "resistance_levels": [
-    160.0,
-    164.73,
-    169.66
+    165.0,
+    168.0,
+    170.0
   ]
 };
