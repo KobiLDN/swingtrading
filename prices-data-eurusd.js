@@ -1,30 +1,24 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-22T10:50:37Z",
-  "date": "2026-10-22",
-  "price": 1.12181,
-  "atr": 0.00552,
-  "atr_pips": 55,
+  "generated": "2026-10-23T10:42:11Z",
+  "date": "2026-10-23",
+  "price": 1.11967,
+  "atr": 0.0056,
+  "atr_pips": 56,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.13303,
-  "ema200": 1.14803,
-  "rsi": 43.4,
-  "macd_line": -0.003808,
-  "macd_signal": -0.005226,
-  "macd_hist": 0.001418,
+  "ema50": 1.1325,
+  "ema200": 1.14863,
+  "rsi": 40.73,
+  "macd_line": -0.003716,
+  "macd_signal": -0.004926,
+  "macd_hist": 0.00121,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-18",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-10-20",
       "name": "Morning Star",
@@ -41,13 +35,6 @@ window.PRICES_DATA_EURUSD = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-16",
-      "open": 1.14634,
-      "high": 1.1477,
-      "low": 1.14313,
-      "close": 1.14431
-    },
     {
       "date": "2026-07-17",
       "open": 1.14437,
@@ -738,8 +725,15 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-10-22",
       "open": 1.12336,
       "high": 1.12551,
-      "low": 1.12163,
-      "close": 1.12181
+      "low": 1.11893,
+      "close": 1.12165
+    },
+    {
+      "date": "2026-10-23",
+      "open": 1.1217,
+      "high": 1.12275,
+      "low": 1.11856,
+      "close": 1.11967
     }
   ]
 };

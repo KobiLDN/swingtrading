@@ -1,21 +1,21 @@
 window.PRICES_DATA_OIL = {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-10-22T10:50:39Z",
-  "date": "2026-10-21",
-  "price": 159.8,
-  "atr": 4.93,
+  "generated": "2026-10-23T10:42:14Z",
+  "date": "2026-10-22",
+  "price": 162.51,
+  "atr": 4.87,
   "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 145.6,
-  "ema200": 122.51,
-  "rsi": 63.43,
-  "macd_line": 4.140769,
-  "macd_signal": 3.201762,
-  "macd_hist": 0.939008,
+  "ema50": 146.27,
+  "ema200": 122.81,
+  "rsi": 66.23,
+  "macd_line": 4.397266,
+  "macd_signal": 3.440863,
+  "macd_hist": 0.956403,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
@@ -24,18 +24,17 @@ window.PRICES_DATA_OIL = {
       "name": "Hanging Man",
       "signal": "BEARISH REVERSAL",
       "strength": 3
+    },
+    {
+      "date": "2026-10-22",
+      "name": "Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
-  "score": 3,
+  "score": 2,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-01",
-      "open": 135.65,
-      "high": 138.91,
-      "low": 133.02,
-      "close": 135.5
-    },
     {
       "date": "2026-06-02",
       "open": 135.07,
@@ -728,6 +727,13 @@ window.PRICES_DATA_OIL = {
       "high": 161.28,
       "low": 157.33,
       "close": 159.8
+    },
+    {
+      "date": "2026-10-22",
+      "open": 163.3,
+      "high": 163.77,
+      "low": 160.09,
+      "close": 162.51
     }
   ]
 };
