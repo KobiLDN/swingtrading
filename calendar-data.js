@@ -1,17 +1,113 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-10-23T10:42:15Z",
+  "generated": "2026-10-26T11:51:51Z",
   "events": [
     {
-      "date": "2026-10-21",
-      "time": "02:00",
+      "date": "2026-10-28",
+      "time": "08:30",
       "currency": "GBP",
-      "event": "CPI y/y",
+      "event": "Annual Budget Release",
       "impact": "high",
-      "forecast": "3.4%",
-      "previous": "3.1%",
+      "forecast": "",
+      "previous": "",
       "actual": "",
       "today": false,
-      "past": true
+      "past": false
+    },
+    {
+      "date": "2026-10-28",
+      "time": "14:00",
+      "currency": "USD",
+      "event": "Federal Funds Rate",
+      "impact": "high",
+      "forecast": "4.00%",
+      "previous": "4.00%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-28",
+      "time": "14:00",
+      "currency": "USD",
+      "event": "FOMC Statement",
+      "impact": "high",
+      "forecast": "",
+      "previous": "",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-28",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "FOMC Press Conference",
+      "impact": "high",
+      "forecast": "",
+      "previous": "",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-29",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Advance GDP q/q",
+      "impact": "high",
+      "forecast": "3.2%",
+      "previous": "1.5%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-29",
+      "time": "08:30",
+      "currency": "USD",
+      "event": "Core PCE Price Index m/m",
+      "impact": "high",
+      "forecast": "0.3%",
+      "previous": "0.2%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-29",
+      "time": "09:15",
+      "currency": "EUR",
+      "event": "Main Refinancing Rate",
+      "impact": "high",
+      "forecast": "2.65%",
+      "previous": "2.65%",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-29",
+      "time": "09:15",
+      "currency": "EUR",
+      "event": "Monetary Policy Statement",
+      "impact": "high",
+      "forecast": "",
+      "previous": "",
+      "actual": "",
+      "today": false,
+      "past": false
+    },
+    {
+      "date": "2026-10-29",
+      "time": "09:45",
+      "currency": "EUR",
+      "event": "ECB Press Conference",
+      "impact": "high",
+      "forecast": "",
+      "previous": "",
+      "actual": "",
+      "today": false,
+      "past": false
     }
   ]
 };

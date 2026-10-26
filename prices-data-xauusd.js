@@ -1,55 +1,27 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-10-23T10:42:12Z",
-  "date": "2026-10-23",
-  "price": 4022.25,
-  "atr": 53.46,
-  "atr_pips": 53,
+  "generated": "2026-10-26T11:51:49Z",
+  "date": "2026-10-26",
+  "price": 4017.05,
+  "atr": 47.33,
+  "atr_pips": 47,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4207.72,
-  "ema200": 4344.45,
-  "rsi": 30.89,
-  "macd_line": -42.411108,
-  "macd_signal": -35.35781,
-  "macd_hist": -7.053298,
+  "ema50": 4183.7,
+  "ema200": 4338.23,
+  "rsi": 33.39,
+  "macd_line": -55.326059,
+  "macd_signal": -44.493704,
+  "macd_hist": -10.832355,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-10-19",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    }
-  ],
-  "score": 4,
+  "patterns": [],
+  "score": 1,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-17",
-      "open": 3972.95,
-      "high": 4024.22,
-      "low": 3959.69,
-      "close": 4017.6
-    },
-    {
-      "date": "2026-07-18",
-      "open": 4016.97,
-      "high": 4018.01,
-      "low": 4010.4,
-      "close": 4010.61
-    },
-    {
-      "date": "2026-07-19",
-      "open": 4010.53,
-      "high": 4010.77,
-      "low": 4009.94,
-      "close": 4010.61
-    },
     {
       "date": "2026-07-20",
       "open": 4003.71,
@@ -725,9 +697,30 @@ window.PRICES_DATA_XAUUSD = {
     {
       "date": "2026-10-23",
       "open": 4026.45,
-      "high": 4032.26,
-      "low": 3987.72,
-      "close": 4022.25
+      "high": 4034.68,
+      "low": 3975.83,
+      "close": 4000.88
+    },
+    {
+      "date": "2026-10-24",
+      "open": 4000.71,
+      "high": 4000.71,
+      "low": 3992.81,
+      "close": 3993.7
+    },
+    {
+      "date": "2026-10-25",
+      "open": 3993.62,
+      "high": 3993.93,
+      "low": 3993.51,
+      "close": 3993.81
+    },
+    {
+      "date": "2026-10-26",
+      "open": 3993.57,
+      "high": 4022.2,
+      "low": 3977.58,
+      "close": 4017.05
     }
   ]
 };

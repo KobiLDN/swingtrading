@@ -1,38 +1,32 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-10-23T10:42:11Z",
-  "date": "2026-10-23",
-  "price": 1.33779,
-  "atr": 0.00597,
-  "atr_pips": 60,
+  "generated": "2026-10-26T11:51:48Z",
+  "date": "2026-10-26",
+  "price": 1.33519,
+  "atr": 0.00547,
+  "atr_pips": 55,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33355,
-  "ema200": 1.33952,
-  "rsi": 59.11,
-  "macd_line": 0.001968,
-  "macd_signal": -0.000222,
-  "macd_hist": 0.00219,
+  "ema50": 1.33391,
+  "ema200": 1.34026,
+  "rsi": 54.42,
+  "macd_line": 0.002222,
+  "macd_signal": 0.000973,
+  "macd_hist": 0.00125,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-10-19",
+      "date": "2026-10-23",
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
     },
     {
-      "date": "2026-10-20",
-      "name": "Morning Star",
-      "signal": "STRONG BULLISH REVERSAL",
-      "strength": 5
-    },
-    {
-      "date": "2026-10-23",
+      "date": "2026-10-26",
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
@@ -41,27 +35,6 @@
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-17",
-      "open": 1.34799,
-      "high": 1.34845,
-      "low": 1.34245,
-      "close": 1.34523
-    },
-    {
-      "date": "2026-07-18",
-      "open": 1.34528,
-      "high": 1.34544,
-      "low": 1.34469,
-      "close": 1.34507
-    },
-    {
-      "date": "2026-07-19",
-      "open": 1.34505,
-      "high": 1.34646,
-      "low": 1.34358,
-      "close": 1.34514
-    },
     {
       "date": "2026-07-20",
       "open": 1.34512,
@@ -738,8 +711,29 @@
       "date": "2026-10-23",
       "open": 1.33987,
       "high": 1.3409,
-      "low": 1.33708,
-      "close": 1.33779
+      "low": 1.33617,
+      "close": 1.33724
+    },
+    {
+      "date": "2026-10-24",
+      "open": 1.33725,
+      "high": 1.33811,
+      "low": 1.3362,
+      "close": 1.33745
+    },
+    {
+      "date": "2026-10-25",
+      "open": 1.33745,
+      "high": 1.33874,
+      "low": 1.3367,
+      "close": 1.33813
+    },
+    {
+      "date": "2026-10-26",
+      "open": 1.33809,
+      "high": 1.33959,
+      "low": 1.33423,
+      "close": 1.33519
     }
   ]
 }

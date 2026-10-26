@@ -1,30 +1,24 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-10-23T10:42:12Z",
-  "date": "2026-10-22",
-  "price": 763.96,
-  "atr": 7.37,
+  "generated": "2026-10-26T11:51:49Z",
+  "date": "2026-10-23",
+  "price": 759.97,
+  "atr": 7.22,
   "atr_pips": 7,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 766.07,
-  "ema200": 737.29,
-  "rsi": 45.17,
-  "macd_line": 0.469061,
-  "macd_signal": 1.536569,
-  "macd_hist": -1.067508,
+  "ema50": 765.83,
+  "ema200": 737.51,
+  "rsi": 42.09,
+  "macd_line": -0.349078,
+  "macd_signal": 1.159439,
+  "macd_hist": -1.508517,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-16",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    },
     {
       "date": "2026-10-19",
       "name": "Inverted Hammer",
@@ -48,18 +42,17 @@ window.PRICES_DATA_SPX = {
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-02",
-      "open": 757.03,
-      "high": 760.4,
-      "low": 756.75,
-      "close": 759.57
-    },
     {
       "date": "2026-06-03",
       "open": 758.15,
@@ -752,6 +745,13 @@ window.PRICES_DATA_SPX = {
       "high": 767.71,
       "low": 761.17,
       "close": 763.96
+    },
+    {
+      "date": "2026-10-23",
+      "open": 759.9,
+      "high": 763.47,
+      "low": 758.68,
+      "close": 759.97
     }
   ]
 };
