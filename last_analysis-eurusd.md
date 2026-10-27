@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-10-22
-**Generated:** 2026-10-22T11:41:06Z
+**Date:** 2026-10-27
+**Generated:** 2026-10-27T12:02:18Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 1.118, 1.115, 1.11 |
-| **Resistance** | 1.127, 1.133, 1.14 |
+| **Decision** | SELL |
+| **Confidence** | MEDIUM |
+| **Entry** | 1.11489 |
+| **Stop Loss** | 1.12000 |
+| **Target 1** | 1.10980 |
+| **Target 2** | 1.10470 |
+| **Risk/Reward** | 1:2.0 |
+| **Score** | 5/10 confirmed |
+| **Support** | 1.11, 1.105, 1.1 |
+| **Resistance** | 1.12, 1.1304, 1.1478 |
 
 ---
 
 ## Analysis
 
-The price at 1.12181 is well below both the EMA50 (1.13303) and EMA200 (1.14803), confirming the strong downtrend indicated by the trend label. However, the recent candlestick sequence of Evening Star, Morning Star, and Evening Star reflects indecision and potential reversal attempts, which conflicts with the persistent bearish momentum. No clear chart patterns like triangles or flags are evident from the given data, but the alternating reversal signals suggest a possible consolidation phase near the current level.
+Price is trading well below both the EMA50 and EMA200, and the EMA50 is below the EMA200, confirming a strong bearish structure. The latest bearish engulfing candlestick reinforces the downtrend, suggesting that the most recent upward correction has been rejected by sellers. No clear triangle, flag, or double top/bottom can be inferred from the available data; the main visible pattern is the bearish engulfing.
 
-The RSI at 43.4 is neutral but below 50, aligning with the downtrend. In contrast, the MACD shows a bullish crossover (line above signal) with a positive histogram, indicating a divergence from the price downtrend. This mixed signal reduces conviction: the RSI supports selling, while the MACD hints at a potential bounce. The signal score of 5/10 reflects this ambiguity, offering no clear edge for either direction.
+RSI at 36.09 is neutral rather than oversold, leaving room for further downside before the market becomes stretched. MACD is bullish with the line above its signal line and a positive histogram, which reflects some short-term upward momentum. This is the main conflicting element, but it can be interpreted as a bearish-market pullback rather than a reversal signal.
 
-Given the conflicting signals and the lack of a decisive price pattern, the best course is to wait for confirmation. A short entry would risk a counter-trend rally from the MACD bullishness, while a long entry would fight the strong downtrend. Key resistance lies at 1.1270 (near the ATR-based upper range) and the EMA50 at 1.1330. Support is seen at 1.1180 (recent swing low) and 1.1150, with further downside toward 1.1100.
+The cleanest swing setup is a short at the current market price with a stop above the 1.1200 psychological resistance and targets below nearby support at 1.1100 and 1.1050. The trade offers approximately 1:2 risk-reward to the second target. Given the strong downtrend and bearish price action, but offset by the MACD bullish signal and neutral RSI, the original 5/10 signal score is confirmed.
 
 ---
 
 ## Invalidation
 
-This wait setup is invalidated if price breaks and closes above the EMA50 (1.1330) or below the 1.1150 support, as either would resolve the current indecision and provide a clearer directional bias.
+A decisive daily close above 1.12000 would cancel this bearish setup and require exiting the short.
 
 ---
 

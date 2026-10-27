@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-23T11:33:28Z",
+  "generated": "2026-10-27T12:04:52Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Holds 101.60 as EUR/USD, GBP/USD Coil",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000808.html?.tsrc=rss",
+        "time_published": "2026-10-26 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: five central bank decisions loom as DXY holds 101.60 support, EUR/USD defends 1.1189 and GBP/USD stays capped at 1.3407."
+      },
+      {
+        "title": "US Dollar Price Forecast: AI Rout Hits Rate Edge, DXY Holds 101.50 as EUR/USD, GBP/USD Coil",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ai-070000807.html?.tsrc=rss",
+        "time_published": "2026-10-23 07:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: an AI-driven Treasury rally trims Fed hike bets as DXY holds 101.50, EUR/USD coils near 1.12 and GBP/USD stalls below 1.3407."
+      },
       {
         "title": "US Dollar Price Forecast: Dollar Pauses Before Central Bank Week as UK Inflation Firms Hike Bets, DXY Tests 101.51",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-073000676.html?.tsrc=rss",
@@ -43,24 +57,24 @@ window.NEWS_DATA = {
         "time_published": "2026-10-15 08:11",
         "source": "Finance",
         "summary": "DXY rebounds from 101.93 as Treasury yields retreat despite hot U.S. CPI, while EUR/USD targets 1.1237 and GBP/USD tests 1.3281 resistance."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Tests 101.93, Can EUR/USD and GBP/USD Break Higher?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-053712286.html?.tsrc=rss",
-        "time_published": "2026-10-14 05:37",
-        "source": "Finance",
-        "summary": "DXY slips below its rising trendline ahead of U.S. CPI, while EUR/USD eyes a breakout above 1.1233 and GBP/USD targets 1.3284 amid Fed and BoE policy uncertainty."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 102.61, Can EUR/USD and GBP/USD Break Higher?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-070645491.html?.tsrc=rss",
-        "time_published": "2026-10-13 07:06",
-        "source": "Finance",
-        "summary": "DXY holds above 102.10 ahead of U.S. CPI as EUR/USD struggles below 1.1218 and GBP/USD eyes a triangle breakout near 1.3284 amid Fed policy uncertainty."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Holds 101.60 as EUR/USD, GBP/USD Coil",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000808.html?.tsrc=rss",
+        "time_published": "2026-10-26 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: five central bank decisions loom as DXY holds 101.60 support, EUR/USD defends 1.1189 and GBP/USD stays capped at 1.3407."
+      },
+      {
+        "title": "US Dollar Price Forecast: AI Rout Hits Rate Edge, DXY Holds 101.50 as EUR/USD, GBP/USD Coil",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ai-070000807.html?.tsrc=rss",
+        "time_published": "2026-10-23 07:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: an AI-driven Treasury rally trims Fed hike bets as DXY holds 101.50, EUR/USD coils near 1.12 and GBP/USD stalls below 1.3407."
+      },
+      {
         "title": "US Dollar Price Forecast: Dollar Pauses Before Central Bank Week as UK Inflation Firms Hike Bets, DXY Tests 101.51",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-073000676.html?.tsrc=rss",
         "time_published": "2026-10-22 07:30",
@@ -101,24 +115,24 @@ window.NEWS_DATA = {
         "time_published": "2026-10-15 08:11",
         "source": "Finance",
         "summary": "DXY rebounds from 101.93 as Treasury yields retreat despite hot U.S. CPI, while EUR/USD targets 1.1237 and GBP/USD tests 1.3281 resistance."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Tests 101.93, Can EUR/USD and GBP/USD Break Higher?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-053712286.html?.tsrc=rss",
-        "time_published": "2026-10-14 05:37",
-        "source": "Finance",
-        "summary": "DXY slips below its rising trendline ahead of U.S. CPI, while EUR/USD eyes a breakout above 1.1233 and GBP/USD targets 1.3284 amid Fed and BoE policy uncertainty."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 102.61, Can EUR/USD and GBP/USD Break Higher?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-070645491.html?.tsrc=rss",
-        "time_published": "2026-10-13 07:06",
-        "source": "Finance",
-        "summary": "DXY holds above 102.10 ahead of U.S. CPI as EUR/USD struggles below 1.1218 and GBP/USD eyes a triangle breakout near 1.3284 amid Fed policy uncertainty."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Gold Just Fell Below $4,000 After Its Worst Week in Five Months",
+        "url": "https://247wallst.com/investing/2026/10/24/gold-just-fell-below-4000-after-its-worst-week-in-five-months/?.tsrc=rss",
+        "time_published": "2026-10-24 12:27",
+        "source": "247wallst",
+        "summary": "Gold cracked a key psychological level for the second time this year as margin calls, soaring oil prices, and rising rate-hike odds turned the classic safe haven into a liability. Now two events in the next week will decide whether buyers can hold the line."
+      },
+      {
+        "title": "Gold Is Sliding Back Toward $4,000 as the Haven Trade Breaks",
+        "url": "https://247wallst.com/investing/2026/10/23/gold-is-sliding-back-toward-4000-as-the-haven-trade-breaks/?.tsrc=rss",
+        "time_published": "2026-10-23 13:22",
+        "source": "247wallst",
+        "summary": "Stocks sold off, Treasuries rallied, and gold collapsed anyway, breaking the rule that bullion rises when markets panic. Something shifted in how traders are pricing fear, and the Fed decision on October 28 could make it permanent."
+      },
       {
         "title": "Gold Lost $100 an Ounce in Hours After the Inflation Report",
         "url": "https://247wallst.com/investing/2026/10/15/gold-lost-100-an-ounce-in-hours-after-the-inflation-report/?.tsrc=rss",
@@ -160,81 +174,74 @@ window.NEWS_DATA = {
         "time_published": "2026-09-14 15:41",
         "source": "247wallst",
         "summary": "The last time silver went on a historic run, miners burned through cash and spent years digging out from debt. Something very different is happening this cycle, and the balance sheets tell a story the stock prices have barely started to reflect."
-      },
-      {
-        "title": "The Best-Performing Commodity ETFs of 2026: Oil and Broad Baskets Lead the Pack",
-        "url": "http://www.etf.com/sections/news/best-performing-commodity-etfs-2026-oil-and-broad-baskets-lead-pack?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-09-02 23:26",
-        "source": "Etf",
-        "summary": "Commodities have been one of 2026\u2019s strongest asset classes, but the leadership is not where the precious-metals headlines pointed. Crude oil has roughly doubled year to date, broad commodity baskets are up more than 40%, and gold, silver and uranium funds have spent the year consolidating after ear"
-      },
-      {
-        "title": "GLD, IBIT and Other ETFs to Play Debasement Trade",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/gld-ibit-other-etfs-play-122900313.html?.tsrc=rss",
-        "time_published": "2026-08-26 12:29",
-        "source": "Finance",
-        "summary": "The dollar's weakness and rising debasement concerns are fueling demand for gold, Bitcoin and other hard assets. Here are five ETFs to watch."
       }
     ],
     "spx": [
       {
-        "title": "Nasdaq 100 Clocks Worst Day In Four Months As Investors Grow Weary Of Capex, Elevated Debt \u2014 META, SPCX, BE, MRNA In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-clocks-worst-day-in-four-months/cZxwY21RBDl?.tsrc=rss",
-        "time_published": "2026-10-22 23:44",
+        "title": "S&P 500, Nasdaq, Dow Begin Week Higher As Anthropic IPO Filing Rekindles AI Enthusiasm \u2014 MSFT, AAPL, CART, VZ In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-begin-week-higher-as-anthropic-ipo-filing-rekindles-ai-enthusiasm-msft-aapl-cart-vz-in-focus/cZU3LuaRBz7?.tsrc=rss",
+        "time_published": "2026-10-26 22:35",
         "source": "Stocktwits",
-        "summary": "Meta\u2019s plan to boost capex reignited investor concerns as more tech firms look to raise debt to fund AI growth."
+        "summary": "Investors now look forward to quarterly earnings from Microsoft, Amazon, and Alphabet due this week."
       },
       {
-        "title": "SoFi Is Now Down 44% in 2026: Did SOFI Stock Just Find a Bottom?",
-        "url": "https://247wallst.com/investing/2026/10/22/sofi-is-now-down-44-in-2026-did-sofi-stock-just-find-a-bottom/?.tsrc=rss",
-        "time_published": "2026-10-22 18:31",
+        "title": "Here\u2019s the 1 Indicator I\u2019m Watching to See if the S&P 500 Is About to Enter a Correction\u2026 or Come Crashing Down",
+        "url": "https://www.barchart.com/story/news/8460635/heres-the-1-indicator-im-watching-to-see-if-the-s-p-500-is-about-to-enter-a-correction-or-come-crashing-down?.tsrc=rss",
+        "time_published": "2026-10-26 20:02",
+        "source": "Barchart",
+        "summary": "I think this broad market is two things at the same time. 1) The most dangerous market I\u2019ve seen in 40 years in the profession. And, 2) the most opportunistic"
+      },
+      {
+        "title": "Is Crowdstrike\u2019s Rally a Sign of a Sustainable Shift Toward Increased AI Cybersecurity?",
+        "url": "https://247wallst.com/investing/2026/10/27/is-crowdstrikes-rally-a-sign-of-a-sustainable-shift-toward-increased-ai-cybersecurity/?.tsrc=rss",
+        "time_published": "2026-10-27 11:15",
         "source": "247wallst",
-        "summary": "SoFi Technologies has cratered while rival fintechs barely flinched, and a bold new crypto-linked product may be either the catalyst that stops the bleeding or a distraction from deeper trouble heading into a critical earnings report."
-      },
-      {
-        "title": "AMD Has a High Floor, High Volatility Trajectory Through the End of 2026",
-        "url": "https://247wallst.com/investing/2026/10/23/amd-has-a-high-floor-high-volatility-trajectory-through-the-end-of-2026/?.tsrc=rss",
-        "time_published": "2026-10-23 11:15",
-        "source": "247wallst",
-        "summary": "AMD has booked gigawatts of AI accelerator commitments and posted a 50% revenue jump, yet the stock shed nearly 19% in a single month. Whether the next earnings report confirms a historic ramp or exposes a valuation built on promises will decide everything."
-      },
-      {
-        "title": "'Big Short' Investor Michael Burry Bumps Up Substack Subscription Price, Flags 4 'Busted' Bear-Market Havens",
-        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-bumps-up-substack-subscription-price-4-busted-bear-market-havens/cZxyIwoRBxR?.tsrc=rss",
-        "time_published": "2026-10-23 07:16",
-        "source": "Stocktwits",
-        "summary": "Burry\u2019s Substack annual revenue potential could reach $232.2 million, more than double July\u2019s estimate."
+        "summary": "CrowdStrike just posted its best quarter ever and the stock surged nearly 15% in a single week, but at 189 times forward earnings, the next earnings report could either justify the AI cybersecurity boom or expose a valuation that ran too far, too fast."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62551350/stock-market-will-sp-500-open-up-or-down-today-64?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-23 06:36",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62609196/stock-market-will-sp-500-open-up-or-down-today-66?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-27 06:04",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are leaning slightly lower early Friday as Wall Street navigates geopolitical stalemates, soaring oil prices, and fresh regulatory scrutiny on prediction markets. The Polymarket crowd, a Polygon (CRYPTO: POL) based prediction platform, was nearly evenly split for..."
+        "summary": "U.S. stock futures are trading mixed to slightly higher early Tuesday as investors juggle a flood of corporate earnings, the start of a critical Federal Reserve policy meeting, and blockbuster IPO news from AI giant Anthropic. The Polymarket traders, a..."
       },
       {
-        "title": "Costco Turned $1,000 Into $8,018 in Ten Years While the S&P 500 Delivered $3,564",
-        "url": "https://247wallst.com/investing/2026/10/22/costco-turned-1000-into-8018-in-ten-years-while-the-sp-500-delivered-3564/?.tsrc=rss",
-        "time_published": "2026-10-22 19:45",
-        "source": "247wallst",
-        "summary": "Costco's membership model looks deceptively simple, yet patient shareholders who held through years of premium valuations and wild price swings discovered something the broader market consistently failed to match. The numbers tell a story worth understanding before the next decade begins."
+        "title": "Michael Burry Says Anthropic\u2019s IPO Filing Changes Nothing About His AI Bear Case \u2014 Flags Financial Risks Beyond The Tech",
+        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-anthropic-ipo-filing-ai-bear-case-financial-risks-beyond-tech/cZUIx7dRBzZ?.tsrc=rss",
+        "time_published": "2026-10-27 05:15",
+        "source": "Stocktwits",
+        "summary": "Burry said the prospectus misses developer-market changes and the pullback in tokenmaxxing."
       },
       {
-        "title": "GE Vernova Slumps 11% as Meta\u2019s Spending Outlook Stokes AI Financing Worries; Vertiv Holdings Drops 7%, Eaton Slides 6%",
-        "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/?.tsrc=rss",
-        "time_published": "2026-10-22 18:39",
+        "title": "What If You Had Put $1,000 Into Bitcoin, Ethereum, XRP and Solana 5 Years Ago?",
+        "url": "https://247wallst.com/investing/cryptocurrency/2026/10/26/what-if-you-had-put-1000-into-bitcoin-ethereum-xrp-and-solana-5-years-ago/?.tsrc=rss",
+        "time_published": "2026-10-26 21:30",
         "source": "247wallst",
-        "summary": "Meta's latest earnings call left a key question unanswered about how the next wave of AI infrastructure gets paid for, and power-equipment suppliers are taking the hit while investors wait for an answer."
+        "summary": "Buying crypto at the peak of a massive rally sounds like a disaster waiting to happen, but the results across Bitcoin, Ethereum, XRP, and Solana over the past five years tell a far more complicated story than you might expect."
       },
       {
-        "title": "Bloom Energy Sinks 9% as Pre-Earnings Rally Reverses; FuelCell Drops 6%, Plug Power Falls 3%",
-        "url": "https://247wallst.com/investing/2026/10/22/bloom-energy-sinks-9-as-pre-earnings-rally-reverses-fuelcell-drops-6-plug-power-falls-3/?.tsrc=rss",
-        "time_published": "2026-10-22 17:07",
+        "title": "BUFR Holders Left $62,250 on the Table on a $300,000 Position While Chasing Calm",
+        "url": "https://247wallst.com/investing/etf/2026/10/26/bufr-holders-left-62250-on-the-table-on-a-300000-position-while-chasing-calm/?.tsrc=rss",
+        "time_published": "2026-10-26 20:33",
         "source": "247wallst",
-        "summary": "A pre-earnings rally in fuel cell stocks is unwinding fast, and the steepness of each company's drop reveals exactly how exposed it is to the AI data center trade that drove the run in the first place."
+        "summary": "Retirees who picked a buffer ETF to sleep soundly through market chaos got exactly the protection they paid for, and that calm carried a hidden price tag almost no one ever calculates."
+      },
+      {
+        "title": "Intuitive Machines Just Dropped 30% in a Month. Is It Time to Sell?",
+        "url": "https://247wallst.com/investing/2026/10/26/intuitive-machines-just-dropped-30-in-a-month-is-it-time-to-sell/?.tsrc=rss",
+        "time_published": "2026-10-26 18:51",
+        "source": "247wallst",
+        "summary": "Intuitive Machines stock has cratered while the broader space sector barely flinched, and the reasons behind that gap reveal a company walking a very fine line between a transformational growth story and a concentration risk that could unravel fast."
       }
     ],
     "oil": [
+      {
+        "title": "USO Jumps To Over 11-Year High As Brent Tops $116, WTI Crosses $100 Amid Escalating Middle East Tensions",
+        "url": "https://stocktwits.com/news-articles/markets/equity/uso-jumps-to-over-11-year-high-as-brent-tops-116-wti-crosses-100-amid-escalating-middle-east-tensions/cZxylsKRBxt?.tsrc=rss",
+        "time_published": "2026-10-23 15:58",
+        "source": "Stocktwits",
+        "summary": "Brent crude futures reached a six-month high on Friday as attacks on Saudi Arabia and concerns over further Middle East escalation fueled fears of oil supply disruptions."
+      },
       {
         "title": "Energy ETFs: How to Play the Sector's Surge",
         "url": "https://finance.yahoo.com/energy/articles/energy-etfs-play-sectors-surge-180900131.html?.tsrc=rss",
@@ -257,39 +264,32 @@ window.NEWS_DATA = {
         "summary": "Capital Economics commodities economist Hamad Hussain warned that escalating attacks on ships could trigger a renewed fall in oil supply and continued price rises."
       },
       {
-        "title": "Sector Update: Energy Stocks Advance Pre-Bell Thursday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-pre-132555231.html?.tsrc=rss",
-        "time_published": "2026-10-22 13:25",
-        "source": "Finance",
-        "summary": "Energy stocks were advancing premarket Thursday, with the State Street Energy Select Sector SPDR ETF"
+        "title": "America\u2019s Emergency Oil Reserve Is at a 1982 Low, and Gas Is Costlier Than Under Biden",
+        "url": "https://247wallst.com/investing/2026/10/27/americas-emergency-oil-reserve-is-at-a-1982-low-and-gas-is-costlier-than-under-biden/?.tsrc=rss",
+        "time_published": "2026-10-27 11:45",
+        "source": "247wallst",
+        "summary": "America's emergency oil cushion is draining at a pace not seen since the early 1980s, and drivers are quietly crossing a threshold that carries serious political consequences for the White House heading into the midterms."
       },
       {
-        "title": "Sector Update: Energy Stocks Lean Lower Premarket Wednesday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lean-lower-132621890.html?.tsrc=rss",
-        "time_published": "2026-10-21 13:26",
+        "title": "Sector Update: Energy Stocks Fall Premarket Monday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-132735348.html?.tsrc=rss",
+        "time_published": "2026-10-26 13:27",
         "source": "Finance",
-        "summary": "Energy stocks were leaning lower premarket Wednesday, with the State Street Energy Select Sector SPD"
+        "summary": "Energy stocks were falling premarket Monday, with the State Street Energy Select Sector SPDR ETF (XL"
       },
       {
-        "title": "Sector Update: Energy Stocks Edge Higher Premarket Tuesday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-132507446.html?.tsrc=rss",
-        "time_published": "2026-10-20 13:25",
-        "source": "Finance",
-        "summary": "Energy stocks were edging higher premarket Tuesday, with the State Street Energy Select Sector SPDR"
+        "title": "Brent Crude Jumped 4% to $113. Trump Is Throwing $150 Million at Refiners",
+        "url": "https://247wallst.com/investing/2026/10/23/brent-crude-jumped-4-to-113-trump-is-throwing-150-million-at-refiners/?.tsrc=rss",
+        "time_published": "2026-10-23 15:15",
+        "source": "247wallst",
+        "summary": "Washington is handing refiners $150 million to expand fuel supply at the same moment those same refiners are posting the biggest margins in their history. The tension between a record-profit industry and a government trying to lower pump prices before November is only getting stranger."
       },
       {
-        "title": "Exchange-Traded Funds Higher as US Equities Rise After Midday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-us-172542006.html?.tsrc=rss",
-        "time_published": "2026-10-19 17:25",
+        "title": "Sector Update: Energy Stocks Rise Premarket Friday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-premarket-132537831.html?.tsrc=rss",
+        "time_published": "2026-10-23 13:25",
         "source": "Finance",
-        "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV rose. Actively traded I"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Advance Premarket Friday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-132307205.html?.tsrc=rss",
-        "time_published": "2026-10-16 13:23",
-        "source": "Finance",
-        "summary": "Energy stocks were advancing premarket Friday, with the State Street Energy Select Sector SPDR ETF ("
+        "summary": "Energy stocks were rising premarket Friday, with the State Street Energy Select Sector SPDR ETF (XLE"
       }
     ]
   }
