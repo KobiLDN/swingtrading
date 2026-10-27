@@ -1,21 +1,21 @@
 window.PRICES_DATA_OIL = {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-10-26T11:51:50Z",
-  "date": "2026-10-23",
-  "price": 169.53,
-  "atr": 5.05,
+  "generated": "2026-10-27T11:15:37Z",
+  "date": "2026-10-26",
+  "price": 166.23,
+  "atr": 5.07,
   "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 147.18,
-  "ema200": 123.65,
-  "rsi": 72.19,
-  "macd_line": 5.108114,
-  "macd_signal": 3.774312,
-  "macd_hist": 1.333801,
+  "ema50": 147.93,
+  "ema200": 124.11,
+  "rsi": 66.27,
+  "macd_line": 5.343586,
+  "macd_signal": 4.088167,
+  "macd_hist": 1.255419,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
@@ -30,18 +30,17 @@ window.PRICES_DATA_OIL = {
       "name": "Hammer",
       "signal": "BULLISH REVERSAL",
       "strength": 3
+    },
+    {
+      "date": "2026-10-26",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 4,
+  "score": 3,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-03",
-      "open": 139.46,
-      "high": 141.42,
-      "low": 138.39,
-      "close": 140.86
-    },
     {
       "date": "2026-06-04",
       "open": 136.67,
@@ -734,6 +733,13 @@ window.PRICES_DATA_OIL = {
       "high": 169.96,
       "low": 166.04,
       "close": 169.53
+    },
+    {
+      "date": "2026-10-26",
+      "open": 166.16,
+      "high": 168.68,
+      "low": 164.14,
+      "close": 166.23
     }
   ]
 };

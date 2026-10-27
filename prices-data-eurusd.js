@@ -1,30 +1,24 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-26T11:51:48Z",
-  "date": "2026-10-26",
-  "price": 1.11972,
-  "atr": 0.00505,
-  "atr_pips": 50,
+  "generated": "2026-10-27T11:15:35Z",
+  "date": "2026-10-27",
+  "price": 1.11489,
+  "atr": 0.00513,
+  "atr_pips": 51,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.13115,
-  "ema200": 1.14864,
-  "rsi": 41.79,
-  "macd_line": -0.003149,
-  "macd_signal": -0.004129,
-  "macd_hist": 0.000981,
+  "ema50": 1.13044,
+  "ema200": 1.14778,
+  "rsi": 36.09,
+  "macd_line": -0.003533,
+  "macd_signal": -0.004035,
+  "macd_hist": 0.000502,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-22",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-10-26",
       "name": "Bearish Engulfing",
@@ -35,13 +29,6 @@ window.PRICES_DATA_EURUSD = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-20",
-      "open": 1.14319,
-      "high": 1.14496,
-      "low": 1.14033,
-      "close": 1.14146
-    },
     {
       "date": "2026-07-21",
       "open": 1.14144,
@@ -572,14 +559,14 @@ window.PRICES_DATA_EURUSD = {
       "open": 1.1255,
       "high": 1.1262,
       "low": 1.12514,
-      "close": 1.12578
+      "close": 1.1258
     },
     {
       "date": "2026-10-04",
       "open": 1.1255,
       "high": 1.1262,
       "low": 1.12514,
-      "close": 1.1258
+      "close": 1.12578
     },
     {
       "date": "2026-10-05",
@@ -732,8 +719,15 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-10-26",
       "open": 1.12244,
       "high": 1.12308,
-      "low": 1.1193,
-      "close": 1.11972
+      "low": 1.11747,
+      "close": 1.1178
+    },
+    {
+      "date": "2026-10-27",
+      "open": 1.11785,
+      "high": 1.11793,
+      "low": 1.11346,
+      "close": 1.11489
     }
   ]
 };
