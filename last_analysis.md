@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-10-27
-**Generated:** 2026-10-27T12:01:38Z
+**Date:** 2026-10-28
+**Generated:** 2026-10-28T12:41:55Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,28 +12,30 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.33183 |
-| **Stop Loss** | 1.33780 |
-| **Target 1** | 1.32600 |
-| **Target 2** | 1.32000 |
-| **Risk/Reward** | 1:1.98 |
-| **Score** | 5/10 confirmed |
-| **Support** | 1.33, 1.326, 1.32 |
-| **Resistance** | 1.3338, 1.3396, 1.345 |
+| **Entry** | 1.32889 |
+| **Stop Loss** | 1.33550 |
+| **Target 1** | 1.32000 |
+| **Target 2** | 1.31500 |
+| **Risk/Reward** | 1.35 |
+| **Score** | 5/10 |
+| **Support** | 1.325, 1.32, 1.315 |
+| **Resistance** | 1.3336, 1.3407, 1.345 |
 
 ---
 
 ## Analysis
 
-Price action confirms the underlying bearish EMA trend: GBP/USD is trading below both the EMA50 (1.33381) and EMA200 (1.33958), and the pair remains in a strong downtrend. The two Evening Star patterns in the last five candles suggest the latest bounce was rejected by sellers, aligning with the broader downtrend rather than signalling a reversal higher.
+The daily chart confirms a strong downtrend, with price trading well below both the 50-period EMA (1.33361) and 200-period EMA (1.34073). The Evening Star candlestick pattern observed over the last five sessions reinforces bearish momentum, suggesting that a recent short-term bounce has likely exhausted. Despite the MACD showing a bullish crossover (line above signal) with a positive histogram, this signal is not yet supported by price action, as the RSI remains neutral at 45.49 with no divergence. In a persistent downtrend, such MACD signals often represent temporary corrections rather than a trend reversal, especially when overlaid with a bearish reversal pattern.
 
-No definitive triangle or flag can
+No clear additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data, but the price structure implies a series of lower highs and lower lows consistent with the downtrend. Key resistance lies at the 50 EMA (1.3336) and the 200 EMA (1.3407), while immediate support is near the round number 1.3250, followed by 1.3200 and 1.3150. The RSI and MACD are in disagreement with the trend—the MACD hints at bullish momentum while the RSI is neutral—but the dominant downtrend and bearish candlestick pattern tilt the bias toward further downside.
+
+The single best trade setup is a sell at the current price of 1.32889, with a stop-loss placed above the recent swing high near the 50 EMA (1.33550). This provides a risk of approximately 66 pips. The first target is set at 1.32000 (a psychological support and potential prior low), yielding a reward of 89 pips and a risk-reward ratio of 1.35. The second target at 1.31500 extends the reward to 139 pips. The overall signal score remains 5/10 due to conflicting MACD signals, but the weight of the trend and pattern supports a short position.
 
 ---
 
 ## Invalidation
 
-N/A
+This setup is invalidated if price breaks and closes above the 50 EMA (1.3336), as that would signal a potential trend shift or stronger corrective move.
 
 ---
 

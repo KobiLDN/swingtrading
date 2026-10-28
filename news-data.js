@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-27T12:04:52Z",
+  "generated": "2026-10-28T12:45:51Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Eyes 102.43 as EUR/USD Breaks Lower",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000582.html?.tsrc=rss",
+        "time_published": "2026-10-27 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY eyes 102.43 before Warsh\u2019s Fed decision as EUR/USD breaks below its triangle and GBP/USD slips under 1.3356 into the Budget."
+      },
       {
         "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Holds 101.60 as EUR/USD, GBP/USD Coil",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000808.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-10-16 08:21",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY tests 101.80 after Warsh avoids an October preview, while EUR/USD eyes 1.1277 and GBP/USD tests 1.3322 resistance."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 102.40, Can EUR/USD and GBP/USD Break Resistance?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081105442.html?.tsrc=rss",
-        "time_published": "2026-10-15 08:11",
-        "source": "Finance",
-        "summary": "DXY rebounds from 101.93 as Treasury yields retreat despite hot U.S. CPI, while EUR/USD targets 1.1237 and GBP/USD tests 1.3281 resistance."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Eyes 102.43 as EUR/USD Breaks Lower",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000582.html?.tsrc=rss",
+        "time_published": "2026-10-27 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY eyes 102.43 before Warsh\u2019s Fed decision as EUR/USD breaks below its triangle and GBP/USD slips under 1.3356 into the Budget."
+      },
+      {
         "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Holds 101.60 as EUR/USD, GBP/USD Coil",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000808.html?.tsrc=rss",
         "time_published": "2026-10-26 07:30",
@@ -108,17 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-10-16 08:21",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY tests 101.80 after Warsh avoids an October preview, while EUR/USD eyes 1.1277 and GBP/USD tests 1.3322 resistance."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 102.40, Can EUR/USD and GBP/USD Break Resistance?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-081105442.html?.tsrc=rss",
-        "time_published": "2026-10-15 08:11",
-        "source": "Finance",
-        "summary": "DXY rebounds from 101.93 as Treasury yields retreat despite hot U.S. CPI, while EUR/USD targets 1.1237 and GBP/USD tests 1.3281 resistance."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "SPDR Gold Shares vs. iShares Silver Trust: Looking for an Inflation Hedge? One Could Have the Edge",
+        "url": "https://www.fool.com/coverage/etfs/2026/10/28/spdr-gold-shares-vs-ishares-silver-trust-looking-for-an-inflation-hedge-one-could-have-the-edge/?.tsrc=rss",
+        "time_published": "2026-10-28 09:20",
+        "source": "Fool",
+        "summary": "Gold and silver have long attracted investors seeking protection against economic uncertainty, but these two popular ETFs offer different opportunities for those looking to own precious metals."
+      },
       {
         "title": "Gold Just Fell Below $4,000 After Its Worst Week in Five Months",
         "url": "https://247wallst.com/investing/2026/10/24/gold-just-fell-below-4000-after-its-worst-week-in-five-months/?.tsrc=rss",
@@ -167,71 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-09-22 17:03",
         "source": "247wallst",
         "summary": "Washington just handed silver a designation that lithium and cobalt already carry, and the fallout for stock investors is more complicated than the headlines suggest. Knowing what the label actually triggers changes how much of your portfolio belongs anywhere near this trade."
-      },
-      {
-        "title": "Silver Miners Are Sitting on Record Cash Hoard \u2014 More Than Double the 2011 Rally",
-        "url": "https://247wallst.com/investing/2026/09/14/silver-miners-are-sitting-on-record-cash-hoard-more-than-double-the-2011-rally/?.tsrc=rss",
-        "time_published": "2026-09-14 15:41",
-        "source": "247wallst",
-        "summary": "The last time silver went on a historic run, miners burned through cash and spent years digging out from debt. Something very different is happening this cycle, and the balance sheets tell a story the stock prices have barely started to reflect."
       }
     ],
     "spx": [
       {
-        "title": "S&P 500, Nasdaq, Dow Begin Week Higher As Anthropic IPO Filing Rekindles AI Enthusiasm \u2014 MSFT, AAPL, CART, VZ In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-begin-week-higher-as-anthropic-ipo-filing-rekindles-ai-enthusiasm-msft-aapl-cart-vz-in-focus/cZU3LuaRBz7?.tsrc=rss",
-        "time_published": "2026-10-26 22:35",
-        "source": "Stocktwits",
-        "summary": "Investors now look forward to quarterly earnings from Microsoft, Amazon, and Alphabet due this week."
+        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday as Investors Assess Corporate Earnings",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131350822.html?.tsrc=rss",
+        "time_published": "2026-10-27 13:13",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad"
       },
       {
-        "title": "Here\u2019s the 1 Indicator I\u2019m Watching to See if the S&P 500 Is About to Enter a Correction\u2026 or Come Crashing Down",
-        "url": "https://www.barchart.com/story/news/8460635/heres-the-1-indicator-im-watching-to-see-if-the-s-p-500-is-about-to-enter-a-correction-or-come-crashing-down?.tsrc=rss",
-        "time_published": "2026-10-26 20:02",
-        "source": "Barchart",
-        "summary": "I think this broad market is two things at the same time. 1) The most dangerous market I\u2019ve seen in 40 years in the profession. And, 2) the most opportunistic"
-      },
-      {
-        "title": "Is Crowdstrike\u2019s Rally a Sign of a Sustainable Shift Toward Increased AI Cybersecurity?",
-        "url": "https://247wallst.com/investing/2026/10/27/is-crowdstrikes-rally-a-sign-of-a-sustainable-shift-toward-increased-ai-cybersecurity/?.tsrc=rss",
-        "time_published": "2026-10-27 11:15",
+        "title": "Tesla Bears Are Falling Off But Not Because Tesla\u2019s Improving",
+        "url": "https://247wallst.com/investing/2026/10/28/tesla-bears-are-falling-off-but-not-because-teslas-improving/?.tsrc=rss",
+        "time_published": "2026-10-28 11:15",
         "source": "247wallst",
-        "summary": "CrowdStrike just posted its best quarter ever and the stock surged nearly 15% in a single week, but at 189 times forward earnings, the next earnings report could either justify the AI cybersecurity boom or expose a valuation that ran too far, too fast."
+        "summary": "Tesla short sellers are retreating, but the reason has nothing to do with the company fixing its collapsing margins or surging profits. A single rumor reshuffled the entire bearish case overnight, and now the stock sits exactly at Wall Street's consensus target with nowhere obvious to go."
+      },
+      {
+        "title": "Trump Faces His Second Midterm as President Next Week. If The Historical Pattern Holds It Will Kick Off The Best Market Year Of His Second Term.",
+        "url": "https://247wallst.com/investing/2026/10/28/trump-faces-his-second-midterm-as-president-next-week-if-the-historical-pattern-holds-it-will-kick-off-the-best-market-year-of-his-second-term/?.tsrc=rss",
+        "time_published": "2026-10-28 08:26",
+        "source": "247wallst",
+        "summary": "History says the year after a midterm is the S&P 500's strongest of the presidential cycle, but several forces lurking in today's market could finally snap that unbeaten streak."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62609196/stock-market-will-sp-500-open-up-or-down-today-66?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-27 06:04",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62643298/stock-market-will-sp-500-open-up-or-down-today-67?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-28 05:36",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are trading mixed to slightly higher early Tuesday as investors juggle a flood of corporate earnings, the start of a critical Federal Reserve policy meeting, and blockbuster IPO news from AI giant Anthropic. The Polymarket traders, a..."
+        "summary": "U.S. stock futures are trading mixed early Wednesday as Wall Street braces for a monumental session featuring the Federal Reserve\u2019s latest interest rate decision, blockbuster earnings from Microsoft Corp. (NASDAQ:MSFT) and Alphabet Inc. (NASDAQ:GOOG) (NASDAQ:GOOGL), and skyrocketing costs from the.."
       },
       {
-        "title": "Michael Burry Says Anthropic\u2019s IPO Filing Changes Nothing About His AI Bear Case \u2014 Flags Financial Risks Beyond The Tech",
-        "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-anthropic-ipo-filing-ai-bear-case-financial-risks-beyond-tech/cZUIx7dRBzZ?.tsrc=rss",
-        "time_published": "2026-10-27 05:15",
+        "title": "S&P 500, Nasdaq Jump On Chipmaker Strength As Investors Eye October Fed Decision \u2014 ORCL, HOOD, JBLU, RIVN, SMCI  In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-jump-on-chipmaker-strength-as-investors-eye-october-fed-decision/cZUe8u8RB6G?.tsrc=rss",
+        "time_published": "2026-10-27 23:45",
         "source": "Stocktwits",
-        "summary": "Burry said the prospectus misses developer-market changes and the pullback in tokenmaxxing."
+        "summary": "The Federal Reserve\u2019s October monetary policy meeting announcement is due on Wednesday."
       },
       {
-        "title": "What If You Had Put $1,000 Into Bitcoin, Ethereum, XRP and Solana 5 Years Ago?",
-        "url": "https://247wallst.com/investing/cryptocurrency/2026/10/26/what-if-you-had-put-1000-into-bitcoin-ethereum-xrp-and-solana-5-years-ago/?.tsrc=rss",
-        "time_published": "2026-10-26 21:30",
+        "title": "Archer Aviation Is Still Down 43% in 2026: Did ACHR Stock Just Find a Bottom?",
+        "url": "https://247wallst.com/investing/2026/10/27/archer-aviation-is-still-down-43-in-2026-did-achr-stock-just-find-a-bottom/?.tsrc=rss",
+        "time_published": "2026-10-27 18:36",
         "source": "247wallst",
-        "summary": "Buying crypto at the peak of a massive rally sounds like a disaster waiting to happen, but the results across Bitcoin, Ethereum, XRP, and Solana over the past five years tell a far more complicated story than you might expect."
+        "summary": "Archer Aviation is bouncing hard while rivals Joby and EHang sink deeper into 2026 losses, but a pending acquisition, widening net losses, and an unfinished FAA certification process all pull in different directions. Whether today's rally signals a real turning point or a false floor depends on mile"
       },
       {
-        "title": "BUFR Holders Left $62,250 on the Table on a $300,000 Position While Chasing Calm",
-        "url": "https://247wallst.com/investing/etf/2026/10/26/bufr-holders-left-62250-on-the-table-on-a-300000-position-while-chasing-calm/?.tsrc=rss",
-        "time_published": "2026-10-26 20:33",
+        "title": "Applied Digital Jumps 10% as Data Center Stocks Rebound; Riot Climbs 7%, Core Scientific Gains 4%",
+        "url": "https://247wallst.com/investing/2026/10/27/applied-digital-jumps-10-as-data-center-stocks-rebound-riot-climbs-7-core-scientific-gains-4/?.tsrc=rss",
+        "time_published": "2026-10-27 18:02",
         "source": "247wallst",
-        "summary": "Retirees who picked a buffer ETF to sleep soundly through market chaos got exactly the protection they paid for, and that calm carried a hidden price tag almost no one ever calculates."
+        "summary": "Applied Digital's top executives started buying shares after a steep selloff, and now the stock is surging back alongside Riot and Core Scientific. Whether that insider conviction holds up against a heavy debt load and a critical construction deadline is the real question."
       },
       {
-        "title": "Intuitive Machines Just Dropped 30% in a Month. Is It Time to Sell?",
-        "url": "https://247wallst.com/investing/2026/10/26/intuitive-machines-just-dropped-30-in-a-month-is-it-time-to-sell/?.tsrc=rss",
-        "time_published": "2026-10-26 18:51",
+        "title": "UPS Rises 5% as Q3 Beat Lifts Full-Year Outlook; FedEx Inches Higher",
+        "url": "https://247wallst.com/investing/2026/10/27/ups-rises-5-as-q3-beat-lifts-full-year-outlook-fedex-inches-higher/?.tsrc=rss",
+        "time_published": "2026-10-27 17:57",
         "source": "247wallst",
-        "summary": "Intuitive Machines stock has cratered while the broader space sector barely flinched, and the reasons behind that gap reveal a company walking a very fine line between a transformational growth story and a concentration risk that could unravel fast."
+        "summary": "UPS just handed investors a beat-and-raise quarter heading into the holiday peak, but a profit stumble in one key segment and months of headwinds from its largest customer cut could complicate the celebration."
       }
     ],
     "oil": [

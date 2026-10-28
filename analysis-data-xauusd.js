@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-10-27T12:02:50Z",
+  "generated": "2026-10-28T12:43:30Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "3/10 confirmed",
-  "analysis": "Price at 4012.99 is trading below both EMA50 (4176.87) and EMA200 (4334.95), with the EMA50 below the EMA200. This confirms a strong downtrend, and price action remains aligned with the bearish EMA structure. The recent doji candles indicate a loss of selling momentum near the psychological 4000 area, but there is no confirmed reversal pattern yet. No clear triangle, flag, or double top/bottom can be inferred from the pre-calculated data; the main structural feature is price pressing against the 4000 support zone.\n\nRSI at 32.66 is neutral-bearish but not oversold, and there is no bullish divergence. This does not provide a strong counter-trend signal. MACD remains bearish with the line below signal and a negative histogram, which agrees with the downtrend. However, the confluence is only moderately bearish because price is not at a fresh breakdown level; it is sitting on support. The low signal score of 3/10 reinforces that this is not a high-probability trade location.\n\nThe best setup right now is to wait for a decisive daily close below 4000 before looking to sell, or to sell a pullback into 4050\u20134100 if bearish price action forms there. Buying at 4000 is premature because the trend is still strongly down and there is no bullish reversal confirmation. Risk is elevated because ATR(14) is 47 points, meaning normal daily swings are large and any stop needs room to avoid being triggered by noise.",
-  "invalidation": "A daily close above 4100, especially above the EMA50 at 4176.87, with improving RSI and MACD momentum would invalidate the bearish continuation outlook.",
+  "score": "1/10",
+  "analysis": "The daily chart confirms a strong downtrend with price at 4047.46, well below both the EMA50 (4173.65) and EMA200 (4331.38). The gap between price and the moving averages indicates persistent bearish momentum, and the MACD remains bearish with the line below the signal and a negative histogram. The RSI at 39.73 is neutral, not yet oversold, leaving room for further downside before a potential reversal. No candlestick patterns or divergences are present, which means there is no immediate reversal signal to challenge the prevailing trend.\n\nKey support levels near current price include the psychological 4000 round number, followed by 3950 and 3900. Resistance lies at 4100 (a recent minor high), then the EMA50 at 4173.65, and finally the EMA200 at 4331.38. The ATR of 49.38 points suggests that daily moves of about 50 points are normal, so any breakout or breakdown could be swift. However, the extremely low signal score of 1/10 reflects a lack of confluence among indicators and no high-probability entry trigger.\n\nGiven the strong downtrend but neutral RSI and the absence of a clear pullback or pattern, entering a sell now carries elevated risk of a counter-trend bounce, especially near the 4000 support zone. The MACD bearishness aligns with the trend, but the RSI is not confirming oversold extremes that would suggest exhaustion. Without a structured setup (e.g., a retest of resistance, a bear flag, or a momentum confirmation), the risk-reward is unfavorable. Waiting for a better entry\u2014such as a minor rally to the EMA50 or a breakdown below 4000 with volume\u2014would provide a clearer edge.",
+  "invalidation": "This setup is invalidated if price breaks decisively above the EMA50 (4173.65) or if the RSI forms a bullish divergence and climbs above 50.",
   "support_levels": [
     4000.0,
     3950.0,
     3900.0
   ],
   "resistance_levels": [
-    4050.0,
     4100.0,
-    4176.87
+    4173.65,
+    4331.38
   ]
 };
