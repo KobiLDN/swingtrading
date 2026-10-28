@@ -1,21 +1,21 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-27T11:15:35Z",
-  "date": "2026-10-27",
-  "price": 1.11489,
-  "atr": 0.00513,
-  "atr_pips": 51,
+  "generated": "2026-10-28T11:49:21Z",
+  "date": "2026-10-28",
+  "price": 1.11309,
+  "atr": 0.00495,
+  "atr_pips": 49,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.13044,
-  "ema200": 1.14778,
-  "rsi": 36.09,
-  "macd_line": -0.003533,
-  "macd_signal": -0.004035,
-  "macd_hist": 0.000502,
+  "ema50": 1.12971,
+  "ema200": 1.14839,
+  "rsi": 34.25,
+  "macd_line": -0.003896,
+  "macd_signal": -0.004023,
+  "macd_hist": 0.000127,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -24,18 +24,17 @@
       "name": "Bearish Engulfing",
       "signal": "STRONG BEARISH",
       "strength": 4
+    },
+    {
+      "date": "2026-10-28",
+      "name": "Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-21",
-      "open": 1.14144,
-      "high": 1.1429,
-      "low": 1.13976,
-      "close": 1.13979
-    },
     {
       "date": "2026-07-22",
       "open": 1.13981,
@@ -559,14 +558,14 @@
       "open": 1.1255,
       "high": 1.1262,
       "low": 1.12514,
-      "close": 1.1258
+      "close": 1.12578
     },
     {
       "date": "2026-10-04",
       "open": 1.1255,
       "high": 1.1262,
       "low": 1.12514,
-      "close": 1.12578
+      "close": 1.1258
     },
     {
       "date": "2026-10-05",
@@ -726,8 +725,15 @@
       "date": "2026-10-27",
       "open": 1.11785,
       "high": 1.11793,
-      "low": 1.11346,
-      "close": 1.11489
+      "low": 1.11329,
+      "close": 1.11362
+    },
+    {
+      "date": "2026-10-28",
+      "open": 1.11364,
+      "high": 1.11369,
+      "low": 1.11127,
+      "close": 1.11309
     }
   ]
 }

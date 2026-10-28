@@ -1,30 +1,24 @@
 window.PRICES_DATA_OIL = {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-10-27T11:15:37Z",
-  "date": "2026-10-26",
-  "price": 166.23,
-  "atr": 5.07,
+  "generated": "2026-10-28T11:49:23Z",
+  "date": "2026-10-27",
+  "price": 163.88,
+  "atr": 5.0,
   "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 147.93,
-  "ema200": 124.11,
-  "rsi": 66.27,
-  "macd_line": 5.343586,
-  "macd_signal": 4.088167,
-  "macd_hist": 1.255419,
+  "ema50": 148.55,
+  "ema200": 124.62,
+  "rsi": 62.35,
+  "macd_line": 5.279713,
+  "macd_signal": 4.326476,
+  "macd_hist": 0.953237,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-20",
-      "name": "Hanging Man",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
-    },
     {
       "date": "2026-10-22",
       "name": "Hammer",
@@ -36,18 +30,17 @@ window.PRICES_DATA_OIL = {
       "name": "Doji",
       "signal": "INDECISION",
       "strength": 2
+    },
+    {
+      "date": "2026-10-27",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 3,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-04",
-      "open": 136.67,
-      "high": 137.05,
-      "low": 135.01,
-      "close": 136.74
-    },
     {
       "date": "2026-06-05",
       "open": 135.14,
@@ -740,6 +733,13 @@ window.PRICES_DATA_OIL = {
       "high": 168.68,
       "low": 164.14,
       "close": 166.23
+    },
+    {
+      "date": "2026-10-27",
+      "open": 165.68,
+      "high": 166.73,
+      "low": 162.69,
+      "close": 163.88
     }
   ]
 };
