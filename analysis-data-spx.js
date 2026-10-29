@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-10-27T12:03:44Z",
+  "generated": "2026-10-29T12:53:02Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-10-26",
+  "date": "2026-10-28",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_SPX = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The trend is NEUTRAL as price sits just below the EMA50 (765.82) while well above the EMA200 (738.4), creating a range-bound condition. The candlestick sequence shows conflicting signals \u2014 a Morning Star (bullish) appears as the most recent pattern, but it is preceded by an Evening Star and a Doji, indicating indecision and a potential false reversal. The MACD remains bearish with the histogram negative and the line below the signal, aligning against a bullish breakout. Meanwhile, the RSI at 47.32 is neutral, offering no directional bias. The signal score of 5/10 reflects this mixed technical picture.\n\nNo clear chart patterns such as triangles or double tops/bottoms are inferable from the given data alone; however, the price is oscillating around the EMA50, forming a potential consolidation zone. Key support is near the ATR-derived level at 758.1, while resistance lies at the EMA50 itself (765.8). A break above 765.8 could target 773.0 (recent swing high from the Evening Star), while a break below 758.1 would open a path toward 750.0 and eventually the EMA200 at 738.4. The RSI and MACD are not in confluence \u2014 the RSI is neutral while MACD is bearish \u2014 reinforcing the lack of a clear trend.\n\nGiven the conflicting signals and the neutral score, the best trade setup is to wait for a decisive breakout or a more convincing pattern confirmation. A bullish entry would require a daily close above 766 with increasing volume, while a bearish entry would need a close below 758. The current risk/reward is undefined due to the tight range and mixed indicators, so patience is warranted.",
-  "invalidation": "A decisive close above 766 would invalidate the neutral stance and turn bullish, while a close below 758 would signal further downside and break the consolidation.",
+  "analysis": "The daily chart shows price at 772.31, firmly above both the 50-day EMA (766.22) and the 200-day EMA (739.01), confirming the strong uptrend. However, recent candlestick patterns present a conflicting picture: an Evening Star signaled a potential bearish reversal, followed by a Doji (indecision), and then a Morning Star (bullish reversal). This sequence suggests a tug-of-war between buyers and sellers near current levels, with no clear directional conviction.\n\nThe MACD remains bearish (line below signal) with a negative histogram, indicating downside momentum is still present despite the price being in an uptrend. The RSI at 53.33 is neutral and shows no divergence, offering no edge. The signal score of 5/10 accurately reflects this lack of confluence: trend is bullish, but momentum and recent price action are mixed. The price is also trading near the 50-day EMA, a key dynamic support, which could act as a launchpad for a bounce or a break that signals trend weakness.\n\nGiven the conflicting signals, the prudent course is to wait for clearer confirmation. A breakout above the recent swing high near 780 (implied by the Evening Star pattern) or a decisive hold above the 50-day EMA with improving MACD would favor a long entry. Conversely, a breakdown below the 50-day EMA with accelerating bearish MACD would open a short opportunity. Currently, the risk/reward is undefined because the direction is uncertain, and the ATR of 7 points suggests meaningful moves but no clear edge.",
+  "invalidation": "A decisive close below the 50-day EMA at 766.22 would invalidate the bullish trend context, while a break above 780 with increasing volume would cancel the bearish MACD signal and confirm renewed upward momentum.",
   "support_levels": [
-    758.1,
-    750.0,
-    738.4
+    766.22,
+    760.0,
+    739.01
   ],
   "resistance_levels": [
-    765.8,
-    773.0,
-    780.0
+    775.0,
+    780.0,
+    785.0
   ]
 };

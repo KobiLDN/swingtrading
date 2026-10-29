@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-28T12:45:51Z",
+  "generated": "2026-10-29T12:54:35Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Fed Holds, DXY Eyes 102.59 as EUR/USD and GBP/USD Rebound",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073829755.html?.tsrc=rss",
+        "time_published": "2026-10-29 07:38",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY holds 102.03 after the Fed pause, while EUR/USD faces 1.1158 and GBP/USD eyes 1.3356 ahead of US data and the ECB decision."
+      },
+      {
+        "title": "US Dollar Price Forecast: Fed Decision Looms, Can DXY Break 102.59 as EUR/USD and GBP/USD Slide?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082428893.html?.tsrc=rss",
+        "time_published": "2026-10-28 08:24",
+        "source": "Finance",
+        "summary": "US dollar price forecast: Fed decision and UK Budget take focus as DXY eyes 102.59, EUR/USD tests 1.1113 support and GBP/USD slips to 1.3281."
+      },
       {
         "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Eyes 102.43 as EUR/USD Breaks Lower",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000582.html?.tsrc=rss",
@@ -43,24 +57,31 @@ window.NEWS_DATA = {
         "time_published": "2026-10-20 07:24",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY tests 101.76 as December hike odds hit 94%, EUR/USD faces 1.1270 on French debt risk, and GBP/USD tests 1.3353 after UK jobs data."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Fade, DXY Tests 102.18 as EUR/USD, GBP/USD Slip",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082744655.html?.tsrc=rss",
-        "time_published": "2026-10-19 08:27",
-        "source": "Finance",
-        "summary": "US dollar price forecast: October hike odds drop to about 15% as DXY tests 102.18, EUR/USD slips on French fiscal risk, and GBP/USD faces 1.3353 resistance."
-      },
-      {
-        "title": "US Dollar Price Forecast: Warsh Holds Fire, DXY Tests 101.80 as EUR/USD, GBP/USD Gain",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-082128574.html?.tsrc=rss",
-        "time_published": "2026-10-16 08:21",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY tests 101.80 after Warsh avoids an October preview, while EUR/USD eyes 1.1277 and GBP/USD tests 1.3322 resistance."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Fed Holds, DXY Eyes 102.59 as EUR/USD and GBP/USD Rebound",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073829755.html?.tsrc=rss",
+        "time_published": "2026-10-29 07:38",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY holds 102.03 after the Fed pause, while EUR/USD faces 1.1158 and GBP/USD eyes 1.3356 ahead of US data and the ECB decision."
+      },
+      {
+        "title": "Why the ECB Rate Hike Cycle Is Not Over",
+        "url": "https://finance.yahoo.com/economy/policy/articles/why-ecb-rate-hike-cycle-175025103.html?.tsrc=rss",
+        "time_published": "2026-10-28 17:50",
+        "source": "Finance",
+        "summary": "The Iran war, persistent energy inflation and expected second-round inflation effects underscore anticipated further tightening. The challenge for the ECB is to contain inflation without triggering any sovereign debt crisis."
+      },
+      {
+        "title": "US Dollar Price Forecast: Fed Decision Looms, Can DXY Break 102.59 as EUR/USD and GBP/USD Slide?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082428893.html?.tsrc=rss",
+        "time_published": "2026-10-28 08:24",
+        "source": "Finance",
+        "summary": "US dollar price forecast: Fed decision and UK Budget take focus as DXY eyes 102.59, EUR/USD tests 1.1113 support and GBP/USD slips to 1.3281."
+      },
+      {
         "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Eyes 102.43 as EUR/USD Breaks Lower",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000582.html?.tsrc=rss",
         "time_published": "2026-10-27 07:30",
@@ -94,27 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-21 07:30",
         "source": "Finance",
         "summary": "US dollar price forecast: AI doubts weigh on DXY near 101.81, EUR/USD faces French risk below 1.1241, and UK CPI at 3.5% backs GBP/USD above 1.3353."
-      },
-      {
-        "title": "US Dollar Price Forecast: UK Jobs Surprise, DXY Tests 101.76 as EUR/USD, GBP/USD Firm",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-uk-072421507.html?.tsrc=rss",
-        "time_published": "2026-10-20 07:24",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY tests 101.76 as December hike odds hit 94%, EUR/USD faces 1.1270 on French debt risk, and GBP/USD tests 1.3353 after UK jobs data."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Hike Bets Fade, DXY Tests 102.18 as EUR/USD, GBP/USD Slip",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082744655.html?.tsrc=rss",
-        "time_published": "2026-10-19 08:27",
-        "source": "Finance",
-        "summary": "US dollar price forecast: October hike odds drop to about 15% as DXY tests 102.18, EUR/USD slips on French fiscal risk, and GBP/USD faces 1.3353 resistance."
-      },
-      {
-        "title": "US Dollar Price Forecast: Warsh Holds Fire, DXY Tests 101.80 as EUR/USD, GBP/USD Gain",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-warsh-082128574.html?.tsrc=rss",
-        "time_published": "2026-10-16 08:21",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY tests 101.80 after Warsh avoids an October preview, while EUR/USD eyes 1.1277 and GBP/USD tests 1.3322 resistance."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday as Investors Assess Corporate Earnings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131350822.html?.tsrc=rss",
-        "time_published": "2026-10-27 13:13",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad"
+        "title": "American Households Own More of the Stock Market Than at Any Time Since the Dot-Com Era",
+        "url": "https://247wallst.com/investing/2026/10/28/american-households-own-more-of-the-stock-market-than-at-any-time-since-the-dot-com-era/?.tsrc=rss",
+        "time_published": "2026-10-28 18:03",
+        "source": "247wallst",
+        "summary": "Household stock ownership just hit a level not seen since the late 1990s, and the last time Americans held this much of the market, a historic crash followed. Here is what the Federal Reserve's latest data reveal about crowding risk and what it means for retirement savers holding SPY or VTI."
       },
       {
-        "title": "Tesla Bears Are Falling Off But Not Because Tesla\u2019s Improving",
-        "url": "https://247wallst.com/investing/2026/10/28/tesla-bears-are-falling-off-but-not-because-teslas-improving/?.tsrc=rss",
-        "time_published": "2026-10-28 11:15",
+        "title": "Wall Street\u2019s Borrowing Binge Is Slowing, and BofA Says That Can Signal a Top",
+        "url": "https://247wallst.com/investing/2026/10/28/wall-streets-borrowing-binge-is-slowing-and-bofa-says-that-can-signal-a-top/?.tsrc=rss",
+        "time_published": "2026-10-28 15:11",
         "source": "247wallst",
-        "summary": "Tesla short sellers are retreating, but the reason has nothing to do with the company fixing its collapsing margins or surging profits. A single rumor reshuffled the entire bearish case overnight, and now the stock sits exactly at Wall Street's consensus target with nowhere obvious to go."
+        "summary": "Bank of America's top technical strategist flagged a pattern that preceded every major market peak since 2000, and it is showing up again right now in the data investors use least."
       },
       {
-        "title": "Trump Faces His Second Midterm as President Next Week. If The Historical Pattern Holds It Will Kick Off The Best Market Year Of His Second Term.",
-        "url": "https://247wallst.com/investing/2026/10/28/trump-faces-his-second-midterm-as-president-next-week-if-the-historical-pattern-holds-it-will-kick-off-the-best-market-year-of-his-second-term/?.tsrc=rss",
-        "time_published": "2026-10-28 08:26",
+        "title": "Now We Know What The Gigawatt Supercycle Actually Means for GE Vernova",
+        "url": "https://247wallst.com/investing/2026/10/29/now-we-know-what-the-gigawatt-supercycle-actually-means-for-ge-vernova/?.tsrc=rss",
+        "time_published": "2026-10-29 11:15",
         "source": "247wallst",
-        "summary": "History says the year after a midterm is the S&P 500's strongest of the presidential cycle, but several forces lurking in today's market could finally snap that unbeaten streak."
+        "summary": "GE Vernova just posted record backlog and raised its cash guidance by billions, yet the stock keeps falling. What the market is missing about the gigawatt supercycle could determine whether this pullback is a warning or a window."
+      },
+      {
+        "title": "The Cloud Titans: Microsoft\u2019s Copilot Backlog Challenges Amazon\u2019s Data Center Re-Acceleration",
+        "url": "https://247wallst.com/investing/2026/10/29/the-cloud-titans-microsofts-copilot-backlog-challenges-amazons-data-center-re-acceleration/?.tsrc=rss",
+        "time_published": "2026-10-29 11:15",
+        "source": "247wallst",
+        "summary": "Azure is accelerating, Copilot adoption is surging, and Microsoft's commercial backlog sits at $677 billion, yet the stock trails the S&P 500 by a wide margin. Something has to give, and the answer hinges on whether a $170 billion spending bet pays off before investors lose patience."
+      },
+      {
+        "title": "Suze Orman on a Shaky Market: \u201cMarkets Are Not Made in 20 Days\u201d",
+        "url": "https://247wallst.com/investing/2026/10/29/suze-orman-on-a-shaky-market-markets-are-not-made-in-20-days/?.tsrc=rss",
+        "time_published": "2026-10-29 10:47",
+        "source": "247wallst",
+        "summary": "Suze Orman looked at the same shaky index numbers her listeners were panicking over and reached a conclusion most of them missed completely. Her framework for retirees challenges the most common instincts people act on during a rough stretch in the market."
       },
       {
         "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62643298/stock-market-will-sp-500-open-up-or-down-today-67?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-28 05:36",
+        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62682843/stock-market-will-sp-500-open-up-or-down-today-68?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+        "time_published": "2026-10-29 06:04",
         "source": "Benzinga",
-        "summary": "U.S. stock futures are trading mixed early Wednesday as Wall Street braces for a monumental session featuring the Federal Reserve\u2019s latest interest rate decision, blockbuster earnings from Microsoft Corp. (NASDAQ:MSFT) and Alphabet Inc. (NASDAQ:GOOG) (NASDAQ:GOOGL), and skyrocketing costs from the.."
+        "summary": "U.S. stock futures are mixed early Thursday as Wall Street navigates a tech-led pullback, critical PCE inflation data, and retreating oil prices amid renewed diplomatic hopes in the Middle East. Thursday follows the Federal Reserve decision to hold the benchmark..."
       },
       {
-        "title": "S&P 500, Nasdaq Jump On Chipmaker Strength As Investors Eye October Fed Decision \u2014 ORCL, HOOD, JBLU, RIVN, SMCI  In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-jump-on-chipmaker-strength-as-investors-eye-october-fed-decision/cZUe8u8RB6G?.tsrc=rss",
-        "time_published": "2026-10-27 23:45",
+        "title": "S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries \u2014  GOOGL, MSFT, ORCL, NVDA, MRVL In Focus",
+        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-dip-as-weaker-than-expected-alphabet-earnings-reignite-ai-spending-worries-googl-msft-orcl-nvda-mrvl-in-focus/cZUQ2gwR9Gq?.tsrc=rss",
+        "time_published": "2026-10-29 00:10",
         "source": "Stocktwits",
-        "summary": "The Federal Reserve\u2019s October monetary policy meeting announcement is due on Wednesday."
+        "summary": "The Federal Reserve left interest rates unchanged in its October policy meeting."
       },
       {
-        "title": "Archer Aviation Is Still Down 43% in 2026: Did ACHR Stock Just Find a Bottom?",
-        "url": "https://247wallst.com/investing/2026/10/27/archer-aviation-is-still-down-43-in-2026-did-achr-stock-just-find-a-bottom/?.tsrc=rss",
-        "time_published": "2026-10-27 18:36",
+        "title": "If You Invested $1,000 in NRG Energy 10 Years Ago, Even This Year\u2019s Sell-Off Wouldn\u2019t Erase Your Gains",
+        "url": "https://247wallst.com/investing/2026/10/28/if-you-invested-1000-in-nrg-energy-10-years-ago-even-this-years-sell-off-wouldnt-erase-your-gains/?.tsrc=rss",
+        "time_published": "2026-10-28 18:47",
         "source": "247wallst",
-        "summary": "Archer Aviation is bouncing hard while rivals Joby and EHang sink deeper into 2026 losses, but a pending acquisition, widening net losses, and an unfinished FAA certification process all pull in different directions. Whether today's rally signals a real turning point or a false floor depends on mile"
-      },
-      {
-        "title": "Applied Digital Jumps 10% as Data Center Stocks Rebound; Riot Climbs 7%, Core Scientific Gains 4%",
-        "url": "https://247wallst.com/investing/2026/10/27/applied-digital-jumps-10-as-data-center-stocks-rebound-riot-climbs-7-core-scientific-gains-4/?.tsrc=rss",
-        "time_published": "2026-10-27 18:02",
-        "source": "247wallst",
-        "summary": "Applied Digital's top executives started buying shares after a steep selloff, and now the stock is surging back alongside Riot and Core Scientific. Whether that insider conviction holds up against a heavy debt load and a critical construction deadline is the real question."
-      },
-      {
-        "title": "UPS Rises 5% as Q3 Beat Lifts Full-Year Outlook; FedEx Inches Higher",
-        "url": "https://247wallst.com/investing/2026/10/27/ups-rises-5-as-q3-beat-lifts-full-year-outlook-fedex-inches-higher/?.tsrc=rss",
-        "time_published": "2026-10-27 17:57",
-        "source": "247wallst",
-        "summary": "UPS just handed investors a beat-and-raise quarter heading into the holiday peak, but a profit stumble in one key segment and months of headwinds from its largest customer cut could complicate the celebration."
+        "summary": "NRG Energy shed its coal-heavy past, swallowed a smart home company, and doubled its power fleet, yet 2026 has been brutal to shareholders. The question now is whether a single massive data center bet can rescue the year or hand the bears their third straight win."
       }
     ],
     "oil": [
@@ -264,6 +264,13 @@ window.NEWS_DATA = {
         "summary": "Capital Economics commodities economist Hamad Hussain warned that escalating attacks on ships could trigger a renewed fall in oil supply and continued price rises."
       },
       {
+        "title": "Trump\u2019s Energy Secretary Says More Russian Diesel Is Coming to America",
+        "url": "https://247wallst.com/investing/2026/10/28/trumps-energy-secretary-says-more-russian-diesel-is-coming-to-america/?.tsrc=rss",
+        "time_published": "2026-10-28 12:52",
+        "source": "247wallst",
+        "summary": "Energy Secretary Chris Wright opened the door to more Russian diesel flowing into American ports, and refiner stocks dropped hard the same afternoon. Whether those barrels can actually move the needle on diesel prices is a very different question."
+      },
+      {
         "title": "America\u2019s Emergency Oil Reserve Is at a 1982 Low, and Gas Is Costlier Than Under Biden",
         "url": "https://247wallst.com/investing/2026/10/27/americas-emergency-oil-reserve-is-at-a-1982-low-and-gas-is-costlier-than-under-biden/?.tsrc=rss",
         "time_published": "2026-10-27 11:45",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-23 15:15",
         "source": "247wallst",
         "summary": "Washington is handing refiners $150 million to expand fuel supply at the same moment those same refiners are posting the biggest margins in their history. The tension between a record-profit industry and a government trying to lower pump prices before November is only getting stranger."
-      },
-      {
-        "title": "Sector Update: Energy Stocks Rise Premarket Friday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-premarket-132537831.html?.tsrc=rss",
-        "time_published": "2026-10-23 13:25",
-        "source": "Finance",
-        "summary": "Energy stocks were rising premarket Friday, with the State Street Energy Select Sector SPDR ETF (XLE"
       }
     ]
   }

@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-10-28
-**Generated:** 2026-10-28T12:41:55Z
+**Date:** 2026-10-29
+**Generated:** 2026-10-29T12:51:43Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,30 +12,32 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.32889 |
-| **Stop Loss** | 1.33550 |
-| **Target 1** | 1.32000 |
-| **Target 2** | 1.31500 |
-| **Risk/Reward** | 1.35 |
-| **Score** | 5/10 |
-| **Support** | 1.325, 1.32, 1.315 |
-| **Resistance** | 1.3336, 1.3407, 1.345 |
+| **Entry** | 1.3337 |
+| **Stop Loss** | 1.3390 |
+| **Target 1** | 1.3270 |
+| **Target 2** | 1.3200 |
+| **Risk/Reward** | 1.26 (to T1) / 2.58 (to T2) |
+| **Score** | 6/10 |
+| **Support** | 1.327, 1.32, 1.31 |
+| **Resistance** | 1.3337, 1.34, 1.3415 |
 
 ---
 
 ## Analysis
 
-The daily chart confirms a strong downtrend, with price trading well below both the 50-period EMA (1.33361) and 200-period EMA (1.34073). The Evening Star candlestick pattern observed over the last five sessions reinforces bearish momentum, suggesting that a recent short-term bounce has likely exhausted. Despite the MACD showing a bullish crossover (line above signal) with a positive histogram, this signal is not yet supported by price action, as the RSI remains neutral at 45.49 with no divergence. In a persistent downtrend, such MACD signals often represent temporary corrections rather than a trend reversal, especially when overlaid with a bearish reversal pattern.
+The daily trend is strongly bearish, with price trading below both the EMA50 (1.33371) and EMA200 (1.3415). Price action broadly confirms the EMA trend, although the recent bounce toward the EMA50 suggests a counter-trend pullback rather than a fresh breakdown. The presence of an Evening Star and a Doji within the last five candles indicates that the bounce is stalling, increasing the likelihood of a lower high and resumption of the downtrend.
 
-No clear additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data, but the price structure implies a series of lower highs and lower lows consistent with the downtrend. Key resistance lies at the 50 EMA (1.3336) and the 200 EMA (1.3407), while immediate support is near the round number 1.3250, followed by 1.3200 and 1.3150. The RSI and MACD are in disagreement with the trend—the MACD hints at bullish momentum while the RSI is neutral—but the dominant downtrend and bearish candlestick pattern tilt the bias toward further downside.
+No clear triangle, flag, or double top/bottom can be confirmed from the provided data alone. However, the price structure is consistent with a bearish pullback into the EMA50 resistance zone, and the candlestick patterns imply a potential reversal lower from that area. The nearest resistance is the EMA50 at 1.3337, followed by the 1.3400 handle and the EMA200 at 1.3415. Immediate support sits near 1.3270, then 1.3200 and 1.3100.
 
-The single best trade setup is a sell at the current price of 1.32889, with a stop-loss placed above the recent swing high near the 50 EMA (1.33550). This provides a risk of approximately 66 pips. The first target is set at 1.32000 (a psychological support and potential prior low), yielding a reward of 89 pips and a risk-reward ratio of 1.35. The second target at 1.31500 extends the reward to 139 pips. The overall signal score remains 5/10 due to conflicting MACD signals, but the weight of the trend and pattern supports a short position.
+RSI at 50.31 is neutral, meaning there is no oversold condition preventing further downside. MACD is bullish with the line above the signal and a positive histogram, but this is best interpreted as a short-term corrective bounce within a larger downtrend. The bearish candlestick signals and strong EMA trend take precedence over the lagging MACD reading. Therefore, the confluence favours a sell on a bounce into the EMA50 rather than chasing price at current levels.
+
+The best setup is a limit sell at 1.3337, near the EMA50 resistance, with a stop above the recent swing high / 1.3390 to limit risk. The first target is 1.3270, near the recent support area, and the second target is 1.3200, a psychological and structural level. This provides a reasonable risk-reward ratio while aligning with the dominant downtrend.
 
 ---
 
 ## Invalidation
 
-This setup is invalidated if price breaks and closes above the 50 EMA (1.3336), as that would signal a potential trend shift or stronger corrective move.
+A daily close above 1.3415, especially above the EMA200, would invalidate the bearish setup and signal a stronger trend reversal.
 
 ---
 
