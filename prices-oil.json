@@ -1,21 +1,21 @@
 {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-10-28T11:49:23Z",
-  "date": "2026-10-27",
-  "price": 163.88,
-  "atr": 5.0,
+  "generated": "2026-10-29T11:57:33Z",
+  "date": "2026-10-28",
+  "price": 166.57,
+  "atr": 5.04,
   "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 148.55,
-  "ema200": 124.62,
-  "rsi": 62.35,
-  "macd_line": 5.279713,
-  "macd_signal": 4.326476,
-  "macd_hist": 0.953237,
+  "ema50": 149.26,
+  "ema200": 125.29,
+  "rsi": 64.91,
+  "macd_line": 5.384089,
+  "macd_signal": 4.537998,
+  "macd_hist": 0.846091,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
@@ -36,18 +36,17 @@
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-10-28",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-05",
-      "open": 135.14,
-      "high": 135.2,
-      "low": 132.24,
-      "close": 133.02
-    },
     {
       "date": "2026-06-08",
       "open": 134.95,
@@ -740,6 +739,13 @@
       "high": 166.73,
       "low": 162.69,
       "close": 163.88
+    },
+    {
+      "date": "2026-10-28",
+      "open": 166.55,
+      "high": 169.4,
+      "low": 166.34,
+      "close": 166.57
     }
   ]
 }

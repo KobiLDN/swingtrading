@@ -1,21 +1,21 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-10-28T11:49:22Z",
-  "date": "2026-10-27",
-  "price": 769.66,
-  "atr": 7.16,
+  "generated": "2026-10-29T11:57:31Z",
+  "date": "2026-10-28",
+  "price": 772.31,
+  "atr": 6.95,
   "atr_pips": 7,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 765.97,
-  "ema200": 738.86,
-  "rsi": 51.1,
-  "macd_line": -0.368359,
-  "macd_signal": 0.579517,
-  "macd_hist": -0.947876,
+  "ema50": 766.22,
+  "ema200": 739.01,
+  "rsi": 53.33,
+  "macd_line": -0.006282,
+  "macd_signal": 0.462358,
+  "macd_hist": -0.468639,
   "trend": "STRONG UPTREND",
   "divergence": "None",
   "patterns": [
@@ -41,13 +41,6 @@ window.PRICES_DATA_SPX = {
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-05",
-      "open": 752.31,
-      "high": 752.82,
-      "low": 735.53,
-      "close": 737.55
-    },
     {
       "date": "2026-06-08",
       "open": 743.36,
@@ -740,6 +733,13 @@ window.PRICES_DATA_SPX = {
       "high": 771.14,
       "low": 765.21,
       "close": 769.66
+    },
+    {
+      "date": "2026-10-28",
+      "open": 771.43,
+      "high": 773.36,
+      "low": 769.24,
+      "close": 772.31
     }
   ]
 };

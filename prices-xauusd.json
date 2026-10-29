@@ -1,34 +1,40 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-10-28T11:49:21Z",
-  "date": "2026-10-28",
-  "price": 4047.46,
-  "atr": 49.38,
-  "atr_pips": 49,
+  "generated": "2026-10-29T11:57:31Z",
+  "date": "2026-10-29",
+  "price": 4021.98,
+  "atr": 50.61,
+  "atr_pips": 51,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4173.65,
-  "ema200": 4331.38,
-  "rsi": 39.73,
-  "macd_line": -49.699561,
-  "macd_signal": -46.767379,
-  "macd_hist": -2.932182,
+  "ema50": 4168.6,
+  "ema200": 4341.99,
+  "rsi": 37.3,
+  "macd_line": -47.988832,
+  "macd_signal": -46.721337,
+  "macd_hist": -1.267495,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [],
-  "score": 1,
-  "verdict": "NO TRADE",
-  "candles": [
+  "patterns": [
     {
-      "date": "2026-07-22",
-      "open": 4075.82,
-      "high": 4166.42,
-      "low": 4074.62,
-      "close": 4130.54
+      "date": "2026-10-28",
+      "name": "Hanging Man",
+      "signal": "BEARISH REVERSAL",
+      "strength": 3
     },
+    {
+      "date": "2026-10-29",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
+    }
+  ],
+  "score": 5,
+  "verdict": "WATCH",
+  "candles": [
     {
       "date": "2026-07-23",
       "open": 4132.35,
@@ -718,9 +724,16 @@
     {
       "date": "2026-10-28",
       "open": 4061.98,
-      "high": 4070.17,
+      "high": 4070.81,
       "low": 4028.01,
-      "close": 4047.46
+      "close": 4070.21
+    },
+    {
+      "date": "2026-10-29",
+      "open": 4068.99,
+      "high": 4081.97,
+      "low": 4015.9,
+      "close": 4021.98
     }
   ]
 }
