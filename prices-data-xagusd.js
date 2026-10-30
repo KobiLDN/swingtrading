@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-10-29T11:57:32Z",
-  "date": "2026-10-28",
-  "price": 49.06,
-  "atr": 1.44,
+  "generated": "2026-10-30T11:51:24Z",
+  "date": "2026-10-29",
+  "price": 47.28,
+  "atr": 1.49,
   "atr_pips": 1,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 54.67,
-  "ema200": 62.55,
-  "rsi": 33.57,
-  "macd_line": -2.048106,
-  "macd_signal": -1.813072,
-  "macd_hist": -0.235034,
+  "ema50": 54.38,
+  "ema200": 63.21,
+  "rsi": 29.08,
+  "macd_line": -2.168516,
+  "macd_signal": -1.884162,
+  "macd_hist": -0.284354,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-22",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-10-28",
       "name": "Hanging Man",
@@ -32,16 +26,9 @@ window.PRICES_DATA_XAGUSD = {
       "strength": 3
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-08",
-      "open": 62.03,
-      "high": 62.3,
-      "low": 61.24,
-      "close": 61.58
-    },
     {
       "date": "2026-06-09",
       "open": 61.82,
@@ -734,6 +721,13 @@ window.PRICES_DATA_XAGUSD = {
       "high": 49.08,
       "low": 48.12,
       "close": 49.06
+    },
+    {
+      "date": "2026-10-29",
+      "open": 47.23,
+      "high": 47.63,
+      "low": 46.92,
+      "close": 47.28
     }
   ]
 };
