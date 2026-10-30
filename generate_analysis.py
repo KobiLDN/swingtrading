@@ -167,24 +167,33 @@ def call_openrouter(prompt):
         "model": MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.3,
-        "max_tokens":  6000,
-        "reasoning":   {"max_tokens": 2000},
+        "max_tokens":  2500,
+        # v4-flash is a reasoning model; providers ignore reasoning.max_tokens and
+        # can spend the whole budget thinking (content=None, finish_reason=length).
+        # The output is a fixed template, so switch reasoning off.
+        "reasoning":   {"enabled": False},
     }
 
     print(f"Calling OpenRouter ({MODEL}) for {SYMBOL} ...")
-    resp = requests.post(OPENROUTER_URL, headers=headers, json=body, timeout=120)
-    if not resp.ok:
-        print(f"  HTTP {resp.status_code}: {resp.text[:500]}")
-        resp.raise_for_status()
-    data = resp.json()
+    data = None
+    for attempt in (1, 2):
+        resp = requests.post(OPENROUTER_URL, headers=headers, json=body, timeout=120)
+        if not resp.ok:
+            print(f"  HTTP {resp.status_code}: {resp.text[:500]}")
+            resp.raise_for_status()
+        data = resp.json()
 
-    if 'error' in data:
-        raise ValueError(f"OpenRouter error: {data['error']}")
+        if 'error' in data:
+            raise ValueError(f"OpenRouter error: {data['error']}")
 
-    content = data['choices'][0]['message']['content']
-    if not content:
-        raise ValueError(f"OpenRouter returned empty content. Full response: {data}")
-    return content
+        content = data['choices'][0]['message']['content']
+        if content:
+            return content
+        print(f"  Empty content on attempt {attempt} "
+              f"(finish_reason={data['choices'][0].get('finish_reason')}, "
+              f"provider={data.get('provider')})")
+
+    raise ValueError(f"OpenRouter returned empty content twice. Last response: {data}")
 
 
 # ── Parse response ─────────────────────────────────────────────────────────────
