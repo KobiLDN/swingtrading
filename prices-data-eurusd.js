@@ -1,32 +1,50 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-10-30T11:51:23Z",
-  "date": "2026-10-30",
-  "price": 1.11953,
-  "atr": 0.00537,
-  "atr_pips": 54,
+  "generated": "2026-11-02T14:11:39Z",
+  "date": "2026-11-02",
+  "price": 1.12141,
+  "atr": 0.00641,
+  "atr_pips": 64,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.12919,
-  "ema200": 1.14854,
-  "rsi": 45.28,
-  "macd_line": -0.003453,
-  "macd_signal": -0.003975,
-  "macd_hist": 0.000523,
+  "ema50": 1.12782,
+  "ema200": 1.14718,
+  "rsi": 49.86,
+  "macd_line": -0.002924,
+  "macd_signal": -0.003657,
+  "macd_hist": 0.000733,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-10-26",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
+      "date": "2026-10-29",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-11-01",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-11-02",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
       "strength": 4
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-11-02",
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
@@ -35,27 +53,6 @@ window.PRICES_DATA_EURUSD = {
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-23",
-      "open": 1.14126,
-      "high": 1.14363,
-      "low": 1.13645,
-      "close": 1.13779
-    },
-    {
-      "date": "2026-07-24",
-      "open": 1.13778,
-      "high": 1.14,
-      "low": 1.13654,
-      "close": 1.13723
-    },
-    {
-      "date": "2026-07-25",
-      "open": 1.13722,
-      "high": 1.1379,
-      "low": 1.13701,
-      "close": 1.13742
-    },
     {
       "date": "2026-07-26",
       "open": 1.13742,
@@ -732,8 +729,29 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-10-30",
       "open": 1.11622,
       "high": 1.12149,
-      "low": 1.11604,
-      "close": 1.11953
+      "low": 1.11366,
+      "close": 1.11674
+    },
+    {
+      "date": "2026-10-31",
+      "open": 1.11662,
+      "high": 1.1227,
+      "low": 1.11207,
+      "close": 1.11616
+    },
+    {
+      "date": "2026-11-01",
+      "open": 1.11617,
+      "high": 1.12474,
+      "low": 1.11395,
+      "close": 1.11602
+    },
+    {
+      "date": "2026-11-02",
+      "open": 1.11598,
+      "high": 1.12397,
+      "low": 1.11543,
+      "close": 1.12141
     }
   ]
 };

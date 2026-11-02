@@ -1,32 +1,38 @@
 {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-10-30T11:51:22Z",
-  "date": "2026-10-30",
-  "price": 1.34292,
-  "atr": 0.00593,
-  "atr_pips": 59,
+  "generated": "2026-11-02T14:11:39Z",
+  "date": "2026-11-02",
+  "price": 1.34134,
+  "atr": 0.00614,
+  "atr_pips": 61,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33443,
-  "ema200": 1.34172,
-  "rsi": 62.73,
-  "macd_line": 0.00214,
-  "macd_signal": 0.001369,
-  "macd_hist": 0.000772,
+  "ema50": 1.33492,
+  "ema200": 1.34098,
+  "rsi": 61.38,
+  "macd_line": 0.002408,
+  "macd_signal": 0.00176,
+  "macd_hist": 0.000649,
   "trend": "BULLISH BIAS",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-10-26",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
+      "date": "2026-10-29",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-11-01",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-11-02",
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
@@ -35,27 +41,6 @@
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-23",
-      "open": 1.3376,
-      "high": 1.33937,
-      "low": 1.33003,
-      "close": 1.3315
-    },
-    {
-      "date": "2026-07-24",
-      "open": 1.3315,
-      "high": 1.3349,
-      "low": 1.33065,
-      "close": 1.33245
-    },
-    {
-      "date": "2026-07-25",
-      "open": 1.33231,
-      "high": 1.33257,
-      "low": 1.33177,
-      "close": 1.33237
-    },
     {
       "date": "2026-07-26",
       "open": 1.33234,
@@ -733,7 +718,28 @@
       "open": 1.33654,
       "high": 1.34344,
       "low": 1.33652,
-      "close": 1.34292
+      "close": 1.3395
+    },
+    {
+      "date": "2026-10-31",
+      "open": 1.33937,
+      "high": 1.34011,
+      "low": 1.33202,
+      "close": 1.33888
+    },
+    {
+      "date": "2026-11-01",
+      "open": 1.33889,
+      "high": 1.34098,
+      "low": 1.33502,
+      "close": 1.33895
+    },
+    {
+      "date": "2026-11-02",
+      "open": 1.33893,
+      "high": 1.34483,
+      "low": 1.33792,
+      "close": 1.34134
     }
   ]
 }

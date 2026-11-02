@@ -1,47 +1,40 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-10-30T11:51:24Z",
-  "date": "2026-10-29",
-  "price": 769.36,
-  "atr": 6.86,
-  "atr_pips": 7,
+  "generated": "2026-11-02T14:11:41Z",
+  "date": "2026-10-30",
+  "price": 755.72,
+  "atr": 7.72,
+  "atr_pips": 8,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 766.34,
-  "ema200": 738.85,
-  "rsi": 50.57,
-  "macd_line": 0.042141,
-  "macd_signal": 0.378315,
-  "macd_hist": -0.336174,
-  "trend": "STRONG UPTREND",
+  "ema50": 765.92,
+  "ema200": 739.27,
+  "rsi": 40.2,
+  "macd_line": -1.008495,
+  "macd_signal": 0.100952,
+  "macd_hist": -1.109448,
+  "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-23",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-10-26",
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-10-30",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 5,
-  "verdict": "WATCH",
+  "score": 4,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-09",
-      "open": 743.63,
-      "high": 746.9,
-      "low": 722.59,
-      "close": 737.05
-    },
     {
       "date": "2026-06-10",
       "open": 733.39,
@@ -734,6 +727,13 @@ window.PRICES_DATA_SPX = {
       "high": 770.76,
       "low": 766.62,
       "close": 769.36
+    },
+    {
+      "date": "2026-10-30",
+      "open": 761.38,
+      "high": 761.46,
+      "low": 750.36,
+      "close": 755.72
     }
   ]
 };
