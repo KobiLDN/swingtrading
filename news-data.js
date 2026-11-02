@@ -1,7 +1,21 @@
 window.NEWS_DATA = {
-  "generated": "2026-10-29T12:54:35Z",
+  "generated": "2026-11-02T15:38:35Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Holds 101.54 Ahead of US Midterms as EUR/USD and GBP/USD Rise",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-072239357.html?.tsrc=rss",
+        "time_published": "2026-11-02 07:22",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY holds 101.54 ahead of Tuesday\u2019s midterms, while EUR/USD eyes resistance at 1.1215 and GBP/USD tests the path toward 1.3434."
+      },
+      {
+        "title": "US Dollar Price Forecast: AI Jitters Weigh, DXY Eyes 101.54 as EUR/USD, GBP/USD Rebound",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ai-080054036.html?.tsrc=rss",
+        "time_published": "2026-10-30 08:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: AI jitters weigh on yields as DXY eyes 101.54 support, EUR/USD faces 1.1215 resistance and GBP/USD tests the 1.3419 zone."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Holds, DXY Eyes 102.59 as EUR/USD and GBP/USD Rebound",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073829755.html?.tsrc=rss",
@@ -43,23 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-10-22 07:30",
         "source": "Finance",
         "summary": "US dollar price forecast: the dollar pauses before next week\u2019s central bank meetings as DXY tests 101.51, EUR/USD eyes 1.1270 and GBP/USD tests 1.3408."
-      },
-      {
-        "title": "US Dollar Price Forecast: UK CPI Hits 3.5%, DXY Eyes 102.01 as EUR/USD, GBP/USD Split",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-uk-073000818.html?.tsrc=rss",
-        "time_published": "2026-10-21 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: AI doubts weigh on DXY near 101.81, EUR/USD faces French risk below 1.1241, and UK CPI at 3.5% backs GBP/USD above 1.3353."
-      },
-      {
-        "title": "US Dollar Price Forecast: UK Jobs Surprise, DXY Tests 101.76 as EUR/USD, GBP/USD Firm",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-uk-072421507.html?.tsrc=rss",
-        "time_published": "2026-10-20 07:24",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY tests 101.76 as December hike odds hit 94%, EUR/USD faces 1.1270 on French debt risk, and GBP/USD tests 1.3353 after UK jobs data."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Holds 101.54 Ahead of US Midterms as EUR/USD and GBP/USD Rise",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-072239357.html?.tsrc=rss",
+        "time_published": "2026-11-02 07:22",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY holds 101.54 ahead of Tuesday\u2019s midterms, while EUR/USD eyes resistance at 1.1215 and GBP/USD tests the path toward 1.3434."
+      },
+      {
+        "title": "US Dollar Price Forecast: AI Jitters Weigh, DXY Eyes 101.54 as EUR/USD, GBP/USD Rebound",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ai-080054036.html?.tsrc=rss",
+        "time_published": "2026-10-30 08:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: AI jitters weigh on yields as DXY eyes 101.54 support, EUR/USD faces 1.1215 resistance and GBP/USD tests the 1.3419 zone."
+      },
       {
         "title": "US Dollar Price Forecast: Fed Holds, DXY Eyes 102.59 as EUR/USD and GBP/USD Rebound",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073829755.html?.tsrc=rss",
@@ -101,30 +115,30 @@ window.NEWS_DATA = {
         "time_published": "2026-10-23 07:00",
         "source": "Finance",
         "summary": "US dollar price forecast: an AI-driven Treasury rally trims Fed hike bets as DXY holds 101.50, EUR/USD coils near 1.12 and GBP/USD stalls below 1.3407."
-      },
-      {
-        "title": "US Dollar Price Forecast: Dollar Pauses Before Central Bank Week as UK Inflation Firms Hike Bets, DXY Tests 101.51",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-073000676.html?.tsrc=rss",
-        "time_published": "2026-10-22 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: the dollar pauses before next week\u2019s central bank meetings as DXY tests 101.51, EUR/USD eyes 1.1270 and GBP/USD tests 1.3408."
-      },
-      {
-        "title": "US Dollar Price Forecast: UK CPI Hits 3.5%, DXY Eyes 102.01 as EUR/USD, GBP/USD Split",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-uk-073000818.html?.tsrc=rss",
-        "time_published": "2026-10-21 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: AI doubts weigh on DXY near 101.81, EUR/USD faces French risk below 1.1241, and UK CPI at 3.5% backs GBP/USD above 1.3353."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "Silver Has Lost More Than Half Its Value Since January",
+        "url": "https://247wallst.com/investing/2026/10/30/silver-has-lost-more-than-half-its-value-since-january/?.tsrc=rss",
+        "time_published": "2026-10-30 13:48",
+        "source": "247wallst",
+        "summary": "Silver has shed more than half its value from a record set just nine months ago, and the forces behind the collapse show no sign of reversing. Two signals now stand between a fragile floor and a deeper breakdown."
+      },
       {
         "title": "SPDR Gold Shares vs. iShares Silver Trust: Looking for an Inflation Hedge? One Could Have the Edge",
         "url": "https://www.fool.com/coverage/etfs/2026/10/28/spdr-gold-shares-vs-ishares-silver-trust-looking-for-an-inflation-hedge-one-could-have-the-edge/?.tsrc=rss",
         "time_published": "2026-10-28 09:20",
         "source": "Fool",
         "summary": "Gold and silver have long attracted investors seeking protection against economic uncertainty, but these two popular ETFs offer different opportunities for those looking to own precious metals."
+      },
+      {
+        "title": "Gold, Silver In Spotlight After GLD Hits 52-Week Low, SLV Sinks To 11-Month Low \u2013 Peter Brandt Sees Signs Of A Potential Bottom",
+        "url": "https://stocktwits.com/news-articles/markets/equity/gold-silver-in-spotlight-after-gld-hits-52-week-low/cZUh6rfR9TD?.tsrc=rss",
+        "time_published": "2026-10-30 17:10",
+        "source": "Stocktwits",
+        "summary": "Spot gold was down 3% while spot silver dropped below $50 an ounce for the first time since November 2025."
       },
       {
         "title": "Gold Just Fell Below $4,000 After Its Worst Week in Five Months",
@@ -160,78 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-09-23 19:32",
         "source": "Etf",
         "summary": "In August, investors poured roughly $18 billion into gold ETFs, the second-largest monthly inflow in history, driving global holdings to an all-time record. North American buying alone exploded from a sleepy $71 million in July to $7.7 billion in August, a 108-fold surge. Then, weeks later, the Fede"
-      },
-      {
-        "title": "Gold Defied the Fed\u2019s Rate Hike\u2014These 3 Plays Stand Out",
-        "url": "https://www.marketbeat.com/articles/gold-defied-the-feds-rate-hikethese-3-plays-stand-out/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-        "time_published": "2026-09-23 16:45",
-        "source": "Marketbeat",
-        "summary": "Gold rebounded after briefly dipping on the Fed's rate hike, as central bank buying persists. Newmont, Wheaton Precious Metals, and iShares Silver Trust offer distinct ways to invest in the trend."
-      },
-      {
-        "title": "Silver Made America\u2019s Critical Minerals List. This ETF Is the Easiest Way In",
-        "url": "https://247wallst.com/investing/etf/2026/09/22/silver-made-americas-critical-minerals-list-this-etf-is-the-easiest-way-in/?.tsrc=rss",
-        "time_published": "2026-09-22 17:03",
-        "source": "247wallst",
-        "summary": "Washington just handed silver a designation that lithium and cobalt already carry, and the fallout for stock investors is more complicated than the headlines suggest. Knowing what the label actually triggers changes how much of your portfolio belongs anywhere near this trade."
       }
     ],
     "spx": [
       {
-        "title": "American Households Own More of the Stock Market Than at Any Time Since the Dot-Com Era",
-        "url": "https://247wallst.com/investing/2026/10/28/american-households-own-more-of-the-stock-market-than-at-any-time-since-the-dot-com-era/?.tsrc=rss",
-        "time_published": "2026-10-28 18:03",
-        "source": "247wallst",
-        "summary": "Household stock ownership just hit a level not seen since the late 1990s, and the last time Americans held this much of the market, a historic crash followed. Here is what the Federal Reserve's latest data reveal about crowding risk and what it means for retirement savers holding SPY or VTI."
+        "title": "SPDR S&P 500 ETF (SPY) Sells NVIDIA and Apple on Oct. 29",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412869.html?.tsrc=rss",
+        "time_published": "2026-11-02 11:04",
+        "source": "Finance",
+        "summary": "The $796.87 billion fund sold $2.02 billion of stock and bought nothing on Thursday, Oct. 29."
       },
       {
-        "title": "Wall Street\u2019s Borrowing Binge Is Slowing, and BofA Says That Can Signal a Top",
-        "url": "https://247wallst.com/investing/2026/10/28/wall-streets-borrowing-binge-is-slowing-and-bofa-says-that-can-signal-a-top/?.tsrc=rss",
-        "time_published": "2026-10-28 15:11",
-        "source": "247wallst",
-        "summary": "Bank of America's top technical strategist flagged a pattern that preceded every major market peak since 2000, and it is showing up again right now in the data investors use least."
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Busy Corporate Earnings Week",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140145920.html?.tsrc=rss",
+        "time_published": "2026-11-02 14:01",
+        "source": "Finance",
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4%, and the actively tra"
       },
       {
-        "title": "Now We Know What The Gigawatt Supercycle Actually Means for GE Vernova",
-        "url": "https://247wallst.com/investing/2026/10/29/now-we-know-what-the-gigawatt-supercycle-actually-means-for-ge-vernova/?.tsrc=rss",
-        "time_published": "2026-10-29 11:15",
-        "source": "247wallst",
-        "summary": "GE Vernova just posted record backlog and raised its cash guidance by billions, yet the stock keeps falling. What the market is missing about the gigawatt supercycle could determine whether this pullback is a warning or a window."
+        "title": "Applied Materials (AMAT) Sees $77.8 Million in Net ETF Selling on Oct. 29",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-sees-77-110338307.html?.tsrc=rss",
+        "time_published": "2026-11-02 11:03",
+        "source": "Finance",
+        "summary": "ETFs sold $77.8 million in Applied Materials stock on Oct. 29, with 45 funds buying and 28 selling."
       },
       {
-        "title": "The Cloud Titans: Microsoft\u2019s Copilot Backlog Challenges Amazon\u2019s Data Center Re-Acceleration",
-        "url": "https://247wallst.com/investing/2026/10/29/the-cloud-titans-microsofts-copilot-backlog-challenges-amazons-data-center-re-acceleration/?.tsrc=rss",
-        "time_published": "2026-10-29 11:15",
-        "source": "247wallst",
-        "summary": "Azure is accelerating, Copilot adoption is surging, and Microsoft's commercial backlog sits at $677 billion, yet the stock trails the S&P 500 by a wide margin. Something has to give, and the answer hinges on whether a $170 billion spending bet pays off before investors lose patience."
+        "title": "ETFs Are Net Sellers of Meta Platforms (META) on Thursday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-meta-platforms-110258590.html?.tsrc=rss",
+        "time_published": "2026-11-02 11:02",
+        "source": "Finance",
+        "summary": "ETFs sold a net $116.9 million of Meta Platforms stock last Thursday."
       },
       {
-        "title": "Suze Orman on a Shaky Market: \u201cMarkets Are Not Made in 20 Days\u201d",
-        "url": "https://247wallst.com/investing/2026/10/29/suze-orman-on-a-shaky-market-markets-are-not-made-in-20-days/?.tsrc=rss",
-        "time_published": "2026-10-29 10:47",
-        "source": "247wallst",
-        "summary": "Suze Orman looked at the same shaky index numbers her listeners were panicking over and reached a conclusion most of them missed completely. Her framework for retirees challenges the most common instincts people act on during a rough stretch in the market."
+        "title": "ETFs Are Net Sellers of Micron Technology (MU) on Oct. 29",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-micron-technology-110239391.html?.tsrc=rss",
+        "time_published": "2026-11-02 11:02",
+        "source": "Finance",
+        "summary": "ETFs sold $175.9 million of Micron Technology on Thursday, with more funds trading the other way in smaller amounts."
       },
       {
-        "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62682843/stock-market-will-sp-500-open-up-or-down-today-68?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-        "time_published": "2026-10-29 06:04",
-        "source": "Benzinga",
-        "summary": "U.S. stock futures are mixed early Thursday as Wall Street navigates a tech-led pullback, critical PCE inflation data, and retreating oil prices amid renewed diplomatic hopes in the Middle East. Thursday follows the Federal Reserve decision to hold the benchmark..."
+        "title": "ETF Activity: QQQ Leads $2.24 Billion Exit on Oct. 29",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-qqq-leads-2-110011871.html?.tsrc=rss",
+        "time_published": "2026-11-02 11:00",
+        "source": "Finance",
+        "summary": "Tech-heavy funds and broad-market ETFs drove a net outflow day while financials and energy attracted fresh money."
       },
       {
-        "title": "S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries \u2014  GOOGL, MSFT, ORCL, NVDA, MRVL In Focus",
-        "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-dip-as-weaker-than-expected-alphabet-earnings-reignite-ai-spending-worries-googl-msft-orcl-nvda-mrvl-in-focus/cZUQ2gwR9Gq?.tsrc=rss",
-        "time_published": "2026-10-29 00:10",
+        "title": "Stocktwits Pharma Pulse: Biotech Beats The Broader Market \u2014 Novo, Pfizer And Moderna Earnings Up Next",
+        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-pharma-pulse-biotech-beats-market-novo-pfizer-moderna-earnings/cNG9jx6R92W?.tsrc=rss",
+        "time_published": "2026-11-02 03:52",
         "source": "Stocktwits",
-        "summary": "The Federal Reserve left interest rates unchanged in its October policy meeting."
+        "summary": "Moderna will report on Friday, while the SITC meeting will bring fresh cancer-treatment findings from Immunocore and Candel."
       },
       {
-        "title": "If You Invested $1,000 in NRG Energy 10 Years Ago, Even This Year\u2019s Sell-Off Wouldn\u2019t Erase Your Gains",
-        "url": "https://247wallst.com/investing/2026/10/28/if-you-invested-1000-in-nrg-energy-10-years-ago-even-this-years-sell-off-wouldnt-erase-your-gains/?.tsrc=rss",
-        "time_published": "2026-10-28 18:47",
+        "title": "Housing and Food Now Take Nearly Half of What Americans Spend, the Most in 15 Years",
+        "url": "https://247wallst.com/investing/2026/10/31/housing-and-food-now-take-nearly-half-of-what-americans-spend-the-most-in-15-years/?.tsrc=rss",
+        "time_published": "2026-10-31 15:26",
         "source": "247wallst",
-        "summary": "NRG Energy shed its coal-heavy past, swallowed a smart home company, and doubled its power fleet, yet 2026 has been brutal to shareholders. The question now is whether a single massive data center bet can rescue the year or hand the bears their third straight win."
+        "summary": "American households are squeezing more of their paychecks into rent and groceries than they have in over a decade, and the pressure is already reshaping where investors park their money and where shoppers spend theirs."
       }
     ],
     "oil": [
@@ -264,6 +264,20 @@ window.NEWS_DATA = {
         "summary": "Capital Economics commodities economist Hamad Hussain warned that escalating attacks on ships could trigger a renewed fall in oil supply and continued price rises."
       },
       {
+        "title": "Sector Update: Energy Stocks Fall Premarket Monday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-142720676.html?.tsrc=rss",
+        "time_published": "2026-11-02 14:27",
+        "source": "Finance",
+        "summary": "Energy stocks were falling premarket Monday, with the State Street Energy Select Sector SPDR ETF (XL"
+      },
+      {
+        "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday Friday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-172229310.html?.tsrc=rss",
+        "time_published": "2026-10-30 17:22",
+        "source": "Finance",
+        "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV fell. Actively traded I"
+      },
+      {
         "title": "Trump\u2019s Energy Secretary Says More Russian Diesel Is Coming to America",
         "url": "https://247wallst.com/investing/2026/10/28/trumps-energy-secretary-says-more-russian-diesel-is-coming-to-america/?.tsrc=rss",
         "time_published": "2026-10-28 12:52",
@@ -276,20 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-27 11:45",
         "source": "247wallst",
         "summary": "America's emergency oil cushion is draining at a pace not seen since the early 1980s, and drivers are quietly crossing a threshold that carries serious political consequences for the White House heading into the midterms."
-      },
-      {
-        "title": "Sector Update: Energy Stocks Fall Premarket Monday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-132735348.html?.tsrc=rss",
-        "time_published": "2026-10-26 13:27",
-        "source": "Finance",
-        "summary": "Energy stocks were falling premarket Monday, with the State Street Energy Select Sector SPDR ETF (XL"
-      },
-      {
-        "title": "Brent Crude Jumped 4% to $113. Trump Is Throwing $150 Million at Refiners",
-        "url": "https://247wallst.com/investing/2026/10/23/brent-crude-jumped-4-to-113-trump-is-throwing-150-million-at-refiners/?.tsrc=rss",
-        "time_published": "2026-10-23 15:15",
-        "source": "247wallst",
-        "summary": "Washington is handing refiners $150 million to expand fuel supply at the same moment those same refiners are posting the biggest margins in their history. The tension between a record-profit industry and a government trying to lower pump prices before November is only getting stranger."
       }
     ]
   }
