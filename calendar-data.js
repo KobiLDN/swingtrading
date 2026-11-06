@@ -1,5 +1,5 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-11-05T13:42:34Z",
+  "generated": "2026-11-06T13:26:34Z",
   "events": [
     {
       "date": "2026-11-03",
@@ -22,8 +22,8 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-11-05",
@@ -34,8 +34,8 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-11-05",
@@ -46,8 +46,8 @@ window.CALENDAR_DATA = {
       "forecast": "7-0-2",
       "previous": "3-0-6",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-11-05",
@@ -58,8 +58,8 @@ window.CALENDAR_DATA = {
       "forecast": "4.00%",
       "previous": "3.75%",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-11-05",
@@ -70,8 +70,8 @@ window.CALENDAR_DATA = {
       "forecast": "",
       "previous": "",
       "actual": "",
-      "today": true,
-      "past": false
+      "today": false,
+      "past": true
     },
     {
       "date": "2026-11-06",
@@ -82,7 +82,7 @@ window.CALENDAR_DATA = {
       "forecast": "0.3%",
       "previous": "0.1%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -94,7 +94,7 @@ window.CALENDAR_DATA = {
       "forecast": "65K",
       "previous": "29K",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     },
     {
@@ -106,7 +106,7 @@ window.CALENDAR_DATA = {
       "forecast": "4.2%",
       "previous": "4.2%",
       "actual": "",
-      "today": false,
+      "today": true,
       "past": false
     }
   ]

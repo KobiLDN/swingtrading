@@ -1,30 +1,24 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-11-05T13:42:31Z",
-  "date": "2026-11-05",
-  "price": 1.12188,
-  "atr": 0.00628,
-  "atr_pips": 63,
+  "generated": "2026-11-06T13:26:32Z",
+  "date": "2026-11-06",
+  "price": 1.11647,
+  "atr": 0.00645,
+  "atr_pips": 64,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.127,
-  "ema200": 1.14671,
-  "rsi": 51.1,
-  "macd_line": -0.001819,
-  "macd_signal": -0.002964,
-  "macd_hist": 0.001145,
+  "ema50": 1.1266,
+  "ema200": 1.14582,
+  "rsi": 42.18,
+  "macd_line": -0.001876,
+  "macd_signal": -0.00274,
+  "macd_hist": 0.000863,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-11-01",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-11-02",
       "name": "Bullish Engulfing",
@@ -39,21 +33,26 @@ window.PRICES_DATA_EURUSD = {
     },
     {
       "date": "2026-11-05",
-      "name": "Shooting Star",
-      "signal": "BEARISH REVERSAL",
-      "strength": 3
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Bearish Engulfing",
+      "signal": "STRONG BEARISH",
+      "strength": 4
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-29",
-      "open": 1.13866,
-      "high": 1.14705,
-      "low": 1.13753,
-      "close": 1.1467
-    },
     {
       "date": "2026-07-30",
       "open": 1.14677,
@@ -744,8 +743,15 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-11-05",
       "open": 1.12229,
       "high": 1.12683,
-      "low": 1.1216,
-      "close": 1.12188
+      "low": 1.1204,
+      "close": 1.12239
+    },
+    {
+      "date": "2026-11-06",
+      "open": 1.12245,
+      "high": 1.12347,
+      "low": 1.11593,
+      "close": 1.11647
     }
   ]
 };
