@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-11-02T15:36:55Z",
+  "generated": "2026-11-06T14:08:51Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-11-02",
-  "decision": "BUY",
+  "date": "2026-11-06",
+  "decision": "WAIT",
   "confidence": "MEDIUM",
-  "entry": "1.34134",
-  "stop_loss": "1.3395",
-  "target_1": "1.3475",
-  "target_2": "1.3500",
-  "risk_reward": "3.35:1",
-  "score": "4/10",
-  "analysis": "The price action confirms the bullish bias, as the current price of 1.34134 sits firmly above the EMA 200 (1.34098), using it as immediate support. However, the EMA 50 (1.33492) remains below the EMA 200, indicating that while the long-term trend is supportive, the short-term momentum has not fully established a mature uptrend. This creates a specific \"bounce off the long-term average\" setup rather than a runaway trend, which is a classic swing trading opportunity. The price hugging the EMA 200 suggests a high-probability bounce point is in play.\n\nThe confluence of supporting indicators is strong. The candlestick sequence (Morning Star, Doji, Morning Star) is exceptionally bullish, showing a powerful reversal, a pause for indecision, and then another surge of buying pressure. The MACD is bullish with a positive histogram, confirming the momentum. The RSI at 61.38 is neutral, leaving significant room for upside without being overbought. Despite this strong confluence, the low signal score (4/10) is respected; it correctly reflects the lagging EMA 50 structure and the developing nature of the trend, which prevents a \"HIGH\" confidence rating despite the favorable immediate setup.\n\nThe best trade setup is a buy at the current price, capitalizing on the bounce off the EMA 200. The stop loss is placed tightly below this key support level at 1.3395 to limit risk if the bounce fails. The first target is set at the ATR extension of 1.3475, with a secondary target at the psychological barrier of 1.3500. This provides a highly favorable risk/reward ratio of 3.35:1. The trade is a calculated swing entry within a developing bullish structure, justified by the exceptional candlestick pattern and MACD alignment.",
-  "invalidation": "A daily close below the EMA 200 support at 1.34098, or a break below the 1.3395 stop loss, would invalidate this bullish bounce setup.",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "5/10",
+  "analysis": "The price at 1.33947 sits between the EMA50 (1.33615) and EMA200 (1.34094), confirming a neutral trend. Price is above the short-term EMA but below the long-term EMA, indicating that neither bulls nor bears have full control. The recent candlestick patterns\u2014Morning Star followed by Shooting Star and Evening Star\u2014reflect indecision and sharp reversals, further supporting a range-bound environment. Without a clear directional bias from the EMAs or price action, aggressive entries are unjustified.\n\nThe RSI (54.11) is neutral with no divergence, while the MACD shows a bullish line crossing and a positive histogram. This mild bullish momentum is contradicted by the neutral RSI and the price rejection at the EMA200. The MACD signal lacks strong histogram growth (+0.000570), suggesting the bullish pressure is weak. Thus, the indicators do not converge on a confident directional move, reinforcing the 5/10 signal score.\n\nThe nearest support is the EMA50 at 1.33615, which aligns with the lower end of recent consolidation. Below that, a psychological level near 1.33400 and the 1.33000 handle provide additional safety. On the upside, the EMA200 at 1.34094 acts as immediate resistance, followed by 1.34500 and 1.35000. The current price is sandwiched between these levels, offering no clear entry zone for a swing trade with a favorable risk/reward.\n\nGiven the lack of trend confirmation, conflicting candlestick signals, and only moderate confluence from the MACD, the prudent course is to wait for a decisive breakout or a clearer pattern. The ATR of 63 pips indicates moderate volatility, but without a high-probability setup, entering now would be speculative. Monitoring how price reacts at the EMA boundaries will provide better opportunities.",
+  "invalidation": "A decisive close above 1.34200 (clearing EMA200) or below 1.33400 (breaking EMA50) would shift the bias and potentially generate a trade setup.",
   "support_levels": [
-    1.34098,
-    1.33492,
+    1.33615,
+    1.334,
     1.33
   ],
   "resistance_levels": [
-    1.3475,
-    1.35,
-    1.355
+    1.34094,
+    1.345,
+    1.35
   ]
 };

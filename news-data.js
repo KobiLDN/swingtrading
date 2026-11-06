@@ -1,7 +1,35 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-02T15:38:35Z",
+  "generated": "2026-11-06T14:09:57Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 102.08 as EUR/USD, GBP/USD Await US NFP",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-065835858.html?.tsrc=rss",
+        "time_published": "2026-11-06 06:58",
+        "source": "Finance",
+        "summary": "US dollar price forecast: US NFP tests Fed expectations as DXY eyes 102.08, EUR/USD watches 1.11755 support and GBP/USD tests its 1.3406 pivot."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 101.10 as GBP/USD Tests 1.3500 Ahead of BoE",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073005429.html?.tsrc=rss",
+        "time_published": "2026-11-05 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY trades near 101.260 ahead of US jobs data, while EUR/USD tests 1.12696 and GBP/USD faces 1.3503 before the BoE decision."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 101.180 as EUR/USD, GBP/USD Rise on Election Results",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073016125.html?.tsrc=rss",
+        "time_published": "2026-11-04 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: Democrats\u2019 congressional win puts DXY support at 101.180 in focus as EUR/USD eyes 1.12696 and GBP/USD tests 1.3479 before the BoE."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Holds 101.54 as EUR/USD and GBP/USD Face US Midterms",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073031876.html?.tsrc=rss",
+        "time_published": "2026-11-03 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY trades near 101.74 as Americans vote. EUR/USD faces resistance at 1.1223, while GBP/USD tests 1.3435 ahead of the BoE decision."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Holds 101.54 Ahead of US Midterms as EUR/USD and GBP/USD Rise",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-072239357.html?.tsrc=rss",
@@ -29,37 +57,37 @@ window.NEWS_DATA = {
         "time_published": "2026-10-28 08:24",
         "source": "Finance",
         "summary": "US dollar price forecast: Fed decision and UK Budget take focus as DXY eyes 102.59, EUR/USD tests 1.1113 support and GBP/USD slips to 1.3281."
-      },
-      {
-        "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Eyes 102.43 as EUR/USD Breaks Lower",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000582.html?.tsrc=rss",
-        "time_published": "2026-10-27 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY eyes 102.43 before Warsh\u2019s Fed decision as EUR/USD breaks below its triangle and GBP/USD slips under 1.3356 into the Budget."
-      },
-      {
-        "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Holds 101.60 as EUR/USD, GBP/USD Coil",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000808.html?.tsrc=rss",
-        "time_published": "2026-10-26 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: five central bank decisions loom as DXY holds 101.60 support, EUR/USD defends 1.1189 and GBP/USD stays capped at 1.3407."
-      },
-      {
-        "title": "US Dollar Price Forecast: AI Rout Hits Rate Edge, DXY Holds 101.50 as EUR/USD, GBP/USD Coil",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ai-070000807.html?.tsrc=rss",
-        "time_published": "2026-10-23 07:00",
-        "source": "Finance",
-        "summary": "US dollar price forecast: an AI-driven Treasury rally trims Fed hike bets as DXY holds 101.50, EUR/USD coils near 1.12 and GBP/USD stalls below 1.3407."
-      },
-      {
-        "title": "US Dollar Price Forecast: Dollar Pauses Before Central Bank Week as UK Inflation Firms Hike Bets, DXY Tests 101.51",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-073000676.html?.tsrc=rss",
-        "time_published": "2026-10-22 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: the dollar pauses before next week\u2019s central bank meetings as DXY tests 101.51, EUR/USD eyes 1.1270 and GBP/USD tests 1.3408."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 102.08 as EUR/USD, GBP/USD Await US NFP",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-065835858.html?.tsrc=rss",
+        "time_published": "2026-11-06 06:58",
+        "source": "Finance",
+        "summary": "US dollar price forecast: US NFP tests Fed expectations as DXY eyes 102.08, EUR/USD watches 1.11755 support and GBP/USD tests its 1.3406 pivot."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 101.10 as GBP/USD Tests 1.3500 Ahead of BoE",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073005429.html?.tsrc=rss",
+        "time_published": "2026-11-05 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY trades near 101.260 ahead of US jobs data, while EUR/USD tests 1.12696 and GBP/USD faces 1.3503 before the BoE decision."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Eyes 101.180 as EUR/USD, GBP/USD Rise on Election Results",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073016125.html?.tsrc=rss",
+        "time_published": "2026-11-04 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: Democrats\u2019 congressional win puts DXY support at 101.180 in focus as EUR/USD eyes 1.12696 and GBP/USD tests 1.3479 before the BoE."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Holds 101.54 as EUR/USD and GBP/USD Face US Midterms",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073031876.html?.tsrc=rss",
+        "time_published": "2026-11-03 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY trades near 101.74 as Americans vote. EUR/USD faces resistance at 1.1223, while GBP/USD tests 1.3435 ahead of the BoE decision."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Holds 101.54 Ahead of US Midterms as EUR/USD and GBP/USD Rise",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-072239357.html?.tsrc=rss",
@@ -87,34 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-28 17:50",
         "source": "Finance",
         "summary": "The Iran war, persistent energy inflation and expected second-round inflation effects underscore anticipated further tightening. The challenge for the ECB is to contain inflation without triggering any sovereign debt crisis."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Decision Looms, Can DXY Break 102.59 as EUR/USD and GBP/USD Slide?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-082428893.html?.tsrc=rss",
-        "time_published": "2026-10-28 08:24",
-        "source": "Finance",
-        "summary": "US dollar price forecast: Fed decision and UK Budget take focus as DXY eyes 102.59, EUR/USD tests 1.1113 support and GBP/USD slips to 1.3281."
-      },
-      {
-        "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Eyes 102.43 as EUR/USD Breaks Lower",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000582.html?.tsrc=rss",
-        "time_published": "2026-10-27 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY eyes 102.43 before Warsh\u2019s Fed decision as EUR/USD breaks below its triangle and GBP/USD slips under 1.3356 into the Budget."
-      },
-      {
-        "title": "US Dollar Price Forecast: Five Central Banks Loom, DXY Holds 101.60 as EUR/USD, GBP/USD Coil",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-five-073000808.html?.tsrc=rss",
-        "time_published": "2026-10-26 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: five central bank decisions loom as DXY holds 101.60 support, EUR/USD defends 1.1189 and GBP/USD stays capped at 1.3407."
-      },
-      {
-        "title": "US Dollar Price Forecast: AI Rout Hits Rate Edge, DXY Holds 101.50 as EUR/USD, GBP/USD Coil",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ai-070000807.html?.tsrc=rss",
-        "time_published": "2026-10-23 07:00",
-        "source": "Finance",
-        "summary": "US dollar price forecast: an AI-driven Treasury rally trims Fed hike bets as DXY holds 101.50, EUR/USD coils near 1.12 and GBP/USD stalls below 1.3407."
       }
     ],
     "xauusd": [],
@@ -139,6 +139,13 @@ window.NEWS_DATA = {
         "time_published": "2026-10-30 17:10",
         "source": "Stocktwits",
         "summary": "Spot gold was down 3% while spot silver dropped below $50 an ounce for the first time since November 2025."
+      },
+      {
+        "title": "SLV Crashes To Near 52-Week Lows, GLD Falls Pre-Market \u2013 World Gold Council Cuts 2026 Gold Investment Forecast By Half",
+        "url": "https://stocktwits.com/news-articles/markets/equity/slv-crashes-to-near-52-week-lows-gld-falls-pre-market-world-gold-council-cuts-2026-gold-investment-forecast-by-half/cNGXTZMR95V?.tsrc=rss",
+        "time_published": "2026-11-03 11:41",
+        "source": "Stocktwits",
+        "summary": "Gold futures for January 2027 fell on Tuesday; analysts highlighted $4,000 as the key level to watch for the precious metal."
       },
       {
         "title": "Gold Just Fell Below $4,000 After Its Worst Week in Five Months",
@@ -167,74 +174,74 @@ window.NEWS_DATA = {
         "time_published": "2026-09-30 11:36",
         "source": "247wallst",
         "summary": "Silver just recorded one of its worst stretches in decades, and the forces behind the selloff are still building pressure. Understanding what broke the metals trade could be the difference between catching a bounce and holding through another leg down."
-      },
-      {
-        "title": "Gold ETFs Just Had Their 2nd-Biggest Month Ever",
-        "url": "http://www.etf.com/sections/news/gold-etfs-just-had-their-2nd-biggest-month-ever?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-        "time_published": "2026-09-23 19:32",
-        "source": "Etf",
-        "summary": "In August, investors poured roughly $18 billion into gold ETFs, the second-largest monthly inflow in history, driving global holdings to an all-time record. North American buying alone exploded from a sleepy $71 million in July to $7.7 billion in August, a 108-fold surge. Then, weeks later, the Fede"
       }
     ],
     "spx": [
       {
-        "title": "SPDR S&P 500 ETF (SPY) Sells NVIDIA and Apple on Oct. 29",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412869.html?.tsrc=rss",
-        "time_published": "2026-11-02 11:04",
+        "title": "What SPDR S&P 500 ETF (SPY) Sold: Apple Leads on Wednesday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412129.html?.tsrc=rss",
+        "time_published": "2026-11-06 11:04",
         "source": "Finance",
-        "summary": "The $796.87 billion fund sold $2.02 billion of stock and bought nothing on Thursday, Oct. 29."
+        "summary": "The $818.54 billion fund sold $5.39 billion more than it bought, cutting 499 positions and adding to just one."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Busy Corporate Earnings Week",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140145920.html?.tsrc=rss",
-        "time_published": "2026-11-02 14:01",
+        "title": "ETFs Are Net Sellers of Williams (WMB) on Nov. 4",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-williams-wmb-110344609.html?.tsrc=rss",
+        "time_published": "2026-11-06 11:03",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4%, and the actively tra"
+        "summary": "ETFs sold $18.1 million of Williams stock on Wednesday, Nov. 4."
       },
       {
-        "title": "Applied Materials (AMAT) Sees $77.8 Million in Net ETF Selling on Oct. 29",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-sees-77-110338307.html?.tsrc=rss",
-        "time_published": "2026-11-02 11:03",
+        "title": "ETFs Are Net Sellers of General Dynamics (GD) on Nov. 4",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-general-dynamics-110337384.html?.tsrc=rss",
+        "time_published": "2026-11-06 11:03",
         "source": "Finance",
-        "summary": "ETFs sold $77.8 million in Applied Materials stock on Oct. 29, with 45 funds buying and 28 selling."
+        "summary": "ETFs sold $19.5 million of General Dynamics (GD) on Wednesday, Nov. 4."
       },
       {
-        "title": "ETFs Are Net Sellers of Meta Platforms (META) on Thursday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-meta-platforms-110258590.html?.tsrc=rss",
-        "time_published": "2026-11-02 11:02",
+        "title": "ETFs Are Net Sellers of Marathon Petroleum (MPC) on Wednesday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-marathon-petroleum-110332611.html?.tsrc=rss",
+        "time_published": "2026-11-06 11:03",
         "source": "Finance",
-        "summary": "ETFs sold a net $116.9 million of Meta Platforms stock last Thursday."
+        "summary": "ETFs sold $20.1 million of Marathon Petroleum on Wednesday, with 45 buying and 15 selling."
       },
       {
-        "title": "ETFs Are Net Sellers of Micron Technology (MU) on Oct. 29",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-micron-technology-110239391.html?.tsrc=rss",
-        "time_published": "2026-11-02 11:02",
+        "title": "ETFs Are Net Sellers of ConocoPhillips (COP) on Nov. 4",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-conocophillips-cop-110328169.html?.tsrc=rss",
+        "time_published": "2026-11-06 11:03",
         "source": "Finance",
-        "summary": "ETFs sold $175.9 million of Micron Technology on Thursday, with more funds trading the other way in smaller amounts."
+        "summary": "ConocoPhillips saw $22.9 million in net ETF selling on Nov. 4."
       },
       {
-        "title": "ETF Activity: QQQ Leads $2.24 Billion Exit on Oct. 29",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-qqq-leads-2-110011871.html?.tsrc=rss",
-        "time_published": "2026-11-02 11:00",
+        "title": "ETFs Are Net Sellers of ServiceNow (NOW) on Wednesday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-servicenow-now-110318563.html?.tsrc=rss",
+        "time_published": "2026-11-06 11:03",
         "source": "Finance",
-        "summary": "Tech-heavy funds and broad-market ETFs drove a net outflow day while financials and energy attracted fresh money."
+        "summary": "ETFs sold a net $29.5 million of ServiceNow on Wednesday."
       },
       {
-        "title": "Stocktwits Pharma Pulse: Biotech Beats The Broader Market \u2014 Novo, Pfizer And Moderna Earnings Up Next",
-        "url": "https://stocktwits.com/news-articles/markets/equity/stocktwits-pharma-pulse-biotech-beats-market-novo-pfizer-moderna-earnings/cNG9jx6R92W?.tsrc=rss",
-        "time_published": "2026-11-02 03:52",
-        "source": "Stocktwits",
-        "summary": "Moderna will report on Friday, while the SITC meeting will bring fresh cancer-treatment findings from Immunocore and Candel."
+        "title": "RTX (RTX) Sees $39.0 Million in Net ETF Selling on Nov. 4",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/rtx-rtx-sees-39-0-110308281.html?.tsrc=rss",
+        "time_published": "2026-11-06 11:03",
+        "source": "Finance",
+        "summary": "ETFs sold $39.0 million of RTX Corporation stock on Wednesday, Nov. 4."
       },
       {
-        "title": "Housing and Food Now Take Nearly Half of What Americans Spend, the Most in 15 Years",
-        "url": "https://247wallst.com/investing/2026/10/31/housing-and-food-now-take-nearly-half-of-what-americans-spend-the-most-in-15-years/?.tsrc=rss",
-        "time_published": "2026-10-31 15:26",
-        "source": "247wallst",
-        "summary": "American households are squeezing more of their paychecks into rent and groceries than they have in over a decade, and the pressure is already reshaping where investors park their money and where shoppers spend theirs."
+        "title": "ETFs Are Net Sellers of General Electric (GE) on Nov. 4",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-general-electric-110256456.html?.tsrc=rss",
+        "time_published": "2026-11-06 11:02",
+        "source": "Finance",
+        "summary": "ETFs sold $48.7 million of General Electric on Wednesday, with more funds trading the other way in smaller amounts."
       }
     ],
     "oil": [
+      {
+        "title": "Sector Update: Energy Stocks Decline Premarket Wednesday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-142506383.html?.tsrc=rss",
+        "time_published": "2026-11-04 14:25",
+        "source": "Finance",
+        "summary": "Energy stocks were declining premarket Wednesday, with the State Street Energy Select Sector SPDR ET"
+      },
       {
         "title": "USO Jumps To Over 11-Year High As Brent Tops $116, WTI Crosses $100 Amid Escalating Middle East Tensions",
         "url": "https://stocktwits.com/news-articles/markets/equity/uso-jumps-to-over-11-year-high-as-brent-tops-116-wti-crosses-100-amid-escalating-middle-east-tensions/cZxylsKRBxt?.tsrc=rss",
@@ -264,32 +271,25 @@ window.NEWS_DATA = {
         "summary": "Capital Economics commodities economist Hamad Hussain warned that escalating attacks on ships could trigger a renewed fall in oil supply and continued price rises."
       },
       {
-        "title": "Sector Update: Energy Stocks Fall Premarket Monday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-premarket-142720676.html?.tsrc=rss",
-        "time_published": "2026-11-02 14:27",
-        "source": "Finance",
-        "summary": "Energy stocks were falling premarket Monday, with the State Street Energy Select Sector SPDR ETF (XL"
-      },
-      {
-        "title": "Exchange-Traded Funds Lower as US Equities Decline After Midday Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-172229310.html?.tsrc=rss",
-        "time_published": "2026-10-30 17:22",
-        "source": "Finance",
-        "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV fell. Actively traded I"
-      },
-      {
-        "title": "Trump\u2019s Energy Secretary Says More Russian Diesel Is Coming to America",
-        "url": "https://247wallst.com/investing/2026/10/28/trumps-energy-secretary-says-more-russian-diesel-is-coming-to-america/?.tsrc=rss",
-        "time_published": "2026-10-28 12:52",
+        "title": "Physical Oil Just Went From a Bidding War to a Fire Sale",
+        "url": "https://247wallst.com/investing/2026/11/04/physical-oil-just-went-from-a-bidding-war-to-a-fire-sale/?.tsrc=rss",
+        "time_published": "2026-11-04 16:04",
         "source": "247wallst",
-        "summary": "Energy Secretary Chris Wright opened the door to more Russian diesel flowing into American ports, and refiner stocks dropped hard the same afternoon. Whether those barrels can actually move the needle on diesel prices is a very different question."
+        "summary": "Refiners who were fighting over every available barrel a month ago are now turning down offers and leaving Nigerian cargoes unsold, yet futures keep pricing in a war that the physical market seems to be moving past."
       },
       {
-        "title": "America\u2019s Emergency Oil Reserve Is at a 1982 Low, and Gas Is Costlier Than Under Biden",
-        "url": "https://247wallst.com/investing/2026/10/27/americas-emergency-oil-reserve-is-at-a-1982-low-and-gas-is-costlier-than-under-biden/?.tsrc=rss",
-        "time_published": "2026-10-27 11:45",
+        "title": "The U.S. Has Been Striking Iran as Trump Talks Up a Deal",
+        "url": "https://247wallst.com/investing/2026/11/03/the-u-s-has-been-striking-iran-as-trump-talks-up-a-deal/?.tsrc=rss",
+        "time_published": "2026-11-03 17:47",
         "source": "247wallst",
-        "summary": "America's emergency oil cushion is draining at a pace not seen since the early 1980s, and drivers are quietly crossing a threshold that carries serious political consequences for the White House heading into the midterms."
+        "summary": "Trump posted that oil was crashing because Iran wants peace, then US officials said American jets had just struck Iranian territory. The two stories cannot both be true, and oil traders are now betting on which one to believe."
+      },
+      {
+        "title": "OPEC+ Holds Output Steady, Maintains 2M BPD Cuts: ETFs in Focus",
+        "url": "https://finance.yahoo.com/energy/articles/opec-holds-output-steady-maintains-152300233.html?.tsrc=rss",
+        "time_published": "2026-11-03 15:23",
+        "source": "Finance",
+        "summary": "OPEC+ holds December oil output steady amid Iran war disruptions, keeping crude prices elevated. Explore four energy ETFs poised to benefit."
       }
     ]
   }

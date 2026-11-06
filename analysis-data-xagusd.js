@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-10-27T12:04:28Z",
+  "generated": "2026-11-06T14:09:31Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-10-26",
-  "decision": "WAIT",
-  "confidence": "LOW",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "4/10 confirmed",
-  "analysis": "The price at 48.66 sits well below both the EMA50 (55.13) and EMA200 (61.97), confirming a strong downtrend. The MACD remains bearish with a negative histogram, and the RSI at 31.25 is neutral but approaching oversold territory\u2014neither confirming an immediate reversal nor a continuation. The mixed candlestick patterns over the last five sessions (Hanging Man, Morning Star, Evening Star) reflect indecision and conflicting signals, typical of a market searching for direction near potential support.\n\nNo clear chart patterns such as triangles, flags, or double tops/bottoms are evident from the given data. Key support near 48.00 (round number) and 47.50 (prior swing low) offers a possible floor, while resistance at 49.00 (former support turned resistance) and 50.00 (psychological level) cap any bounce. The overall technical picture lacks confluence: RSI is neutral, MACD is bearish, but the candlestick mix warns of a potential reversal. With a signal score of only 4/10, the risk-reward is not favorable for initiating a position.\n\nGiven the strong downtrend but proximity to oversold levels and conflicting patterns, the prudent approach is to wait for a clearer signal\u2014either a breakdown below 47.50 to confirm continuation or a decisive close above 50.00 to suggest a reversal. Attempting to trade here would be akin to catching a falling knife, with the ATR of 1.53 indicating high daily volatility that could trigger stop-losses prematurely.",
-  "invalidation": "A daily close above 50.00 or below 47.00 would resolve the current indecision, with the former invalidating the bearish bias and the latter confirming further downside.",
+  "date": "2026-11-05",
+  "decision": "SELL",
+  "confidence": "MEDIUM",
+  "entry": "46.93",
+  "stop_loss": "48.55",
+  "target_1": "45.31",
+  "target_2": "44.69",
+  "risk_reward": "1:1 (T1), 1.38:1 (T2)",
+  "score": "5/10",
+  "analysis": "The price action strongly confirms the EMA trend, with SLV trading well below both the 50-period (52.84) and 200-period (62.71) EMAs, establishing a clear downtrend. The Evening Star candlestick pattern observed in the last five candles adds a bearish reversal signal, suggesting that the recent minor bounce has exhausted and selling pressure is resuming. No additional chart patterns like triangles or flags are evident, but the persistent lower highs and lower lows typical of a downtrend are intact.\n\nRSI at 37.42 is neutral but leaning toward oversold territory, leaving room for further downside before reaching extreme levels. The MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend. There is no divergence, so the bearish momentum is consistent. The confluence of trend, candlestick pattern, and momentum indicators supports a short bias, though the moderate signal score (5/10) reflects the lack of oversold confirmation and the distance from key moving averages.\n\nKey support near current price is derived from the ATR: 45.31 (one ATR below) and 44.69 (two ATRs below). Resistance levels are 48.55 (one ATR above) and 50.17 (two ATRs above), with the 50 EMA at 52.84 acting as a stronger barrier. The trade setup is a short entry at 46.93 with a stop at 48.55, targeting 45.31 and 44.69. The risk-reward ratio is acceptable for the first target and improves for the second, but the overall confidence is medium due to the possibility of a mean-reversion bounce given the large gap from the EMAs.",
+  "invalidation": "This bearish setup is invalidated if price closes above 48.55 (the recent swing high and one ATR above current price), as that would break the short-term downtrend structure and suggest a potential reversal.",
   "support_levels": [
-    48.0,
-    47.5,
-    46.5
+    45.31,
+    44.69,
+    43.07
   ],
   "resistance_levels": [
-    49.0,
-    50.0,
-    51.5
+    48.55,
+    50.17,
+    52.84
   ]
 };

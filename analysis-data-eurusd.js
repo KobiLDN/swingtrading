@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-11-02T15:37:18Z",
+  "generated": "2026-11-06T14:09:04Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-11-02",
-  "decision": "BUY",
+  "date": "2026-11-06",
+  "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "1.12141",
-  "stop_loss": "1.11800",
-  "target_1": "1.12782",
-  "target_2": "1.13500",
-  "risk_reward": "1.88",
-  "score": "7/10",
-  "analysis": "The price at 1.12141 sits decisively below both the EMA 50 (1.12782) and EMA 200 (1.14718), strictly confirming the overarching \"STRONG DOWNTREND\" label. However, the recent candlestick sequence is the most critical data point here. The formation of a Morning Star, followed by Dojis, a Bullish Engulfing, and finally another Morning Star is a textbook bottoming-out pattern. This suggests the selling pressure has been exhausted and buyers are now aggressively absorbing supply, forming a potential local bottom or a bullish flag pattern within the larger downtrend.\n\nThe RSI at a neutral 49.86 shows no explicit divergence, but its neutrality in the face of a \"STRONG DOWNTREND\" is itself a subtle bullish divergence, indicating the downtrend lacks momentum. The MACD provides the strongest confluence for a buy setup: it is clearly bullish with the MACD line above the signal line and a positive histogram (+0.000733). This directly contradicts the higher timeframe trend label on a shorter-term momentum basis, signaling that momentum is actively shifting from bearish to bullish.\n\nThe optimal trade is to buy the current bounce. Entry is at the current market price of 1.12141. The stop loss is placed at 1.11800, just below the likely low of the Morning Star pattern and respecting the ATR of 64 pips. The primary target is the EMA 50 at 1.12782, a logical magnet for price offering a clean 64-pip gain. The secondary target is 1.13500, aiming for a full retracement of the recent drop. The risk/reward ratio of 1.88 is favorable for a swing trade. The main risk is the strength of the higher timeframe downtrend, which could resume if the bounce fails to hold above 1.11800.\n\nThe given signal score of 4/10 is revised to 7/10. The system likely over-indexed on the \"STRONG DOWNTREND\" label, but the confluence of the extremely rare bullish candlestick patterns (double Morning Star + Bullish Engulfing) and the bullish MACD crossover creates a high-probability swing trade setup that cannot be ignored. The risk is well-managed by the tight stop loss.",
-  "invalidation": "This setup is invalidated if price breaks and closes below the 1.11800 support level, specifically if it takes out the low of the recent Morning Star candle, confirming the downtrend has resumed and the bounce has failed.",
+  "entry": "1.1165",
+  "stop_loss": "1.1230",
+  "target_1": "1.1100",
+  "target_2": "1.1050",
+  "risk_reward": "1.83",
+  "score": "5/10",
+  "analysis": "The price action strongly confirms the EMA trend: price is well below both the EMA50 (1.1266) and EMA200 (1.14582), and the trend is labelled STRONG DOWNTREND. The bearish candlestick patterns in the last two candles (Bearish Engulfing followed by Evening Star) reinforce downside continuation after a brief bullish correction. No clear chart patterns like flags or triangles are evident, but the recent price swing from the low near 1.1125 to the high around 1.1220 followed by a quick reversal can be interpreted as a bear flag or a failed breakout higher, adding weight to a short bias.\n\nThe RSI at 42.18 in neutral territory does not indicate overbought or oversold extremes, leaving room for further downside. Meanwhile, the MACD shows a bullish crossover (line above signal) with a positive histogram, which seems counter to the strong downtrend. This divergence suggests short-term buying pressure, but given the prevailing bearish momentum and negative candlestick patterns, the MACD signal is likely a corrective bounce that is already stalling. The confluence favours the trend over the oscillator's early bullish signal, especially as the Evening Star highlights rejection of higher prices.\n\nThe single best trade is a sell near current price with a stop above the recent swing high (1.1220) to allow for false breaks. The first target is the psychological support at 1.1100, followed by 1.1050. The ATR of 64 pips implies moderate volatility, and the planned stop loss of 65 pips respects that while offering a risk/reward just under 1.9. However, the conflicting MACD and neutral RSI keep confidence at medium; a stronger sell would require a break below 1.1125 with volume.\n\nRisk assessment: The primary risk is a sudden reversal driven by the bullish MACD crossover, which could propel price back toward the EMA50 at 1.1266. Additionally, the mixed candlestick sequence (bullish then bearish) warns of indecision. A tight stop is essential to limit loss if the bounce resumes. The signal score remains 5/10 because the strong trend is partially offset by oscillators that are not yet aligned for a sustained move down.",
+  "invalidation": "A daily close above 1.1230 would invalidate the short setup, suggesting the bullish momentum from the MACD is gaining traction and could target the EMA50.",
   "support_levels": [
-    1.12,
-    1.118,
-    1.115
+    1.11,
+    1.105,
+    1.1
   ],
   "resistance_levels": [
-    1.12782,
-    1.135,
-    1.14718
+    1.122,
+    1.1266,
+    1.13
   ]
 };

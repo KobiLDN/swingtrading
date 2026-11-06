@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-10-29T12:54:34Z",
+  "generated": "2026-11-06T14:09:56Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-10-28",
+  "date": "2026-11-05",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The daily chart shows a strong uptrend with price well above both the EMA50 (149.26) and EMA200 (125.29), confirming bullish momentum. However, the recent candlestick sequence (Hammer, Doji, Evening Star, Doji) introduces significant indecision. The Evening Star is a bearish reversal pattern, and its presence within the last five candles suggests potential exhaustion of the immediate buying pressure. Price action is not clearly confirming the EMA trend at the micro level, as it has stalled near 166.57 without making a higher high after the prior push.\n\nNo clear chart patterns like triangles or flags are evident from the given data, but the series of Dojis and the Evening Star imply a consolidation or minor top formation. Key support sits near 162.00 (one ATR below current price) and then 160.00 (a psychological round number). Resistance is likely at 170.00, a round number and potential prior high, followed by 175.00 and 180.00. The ATR of 5.04 reinforces these levels as actionable.\n\nRSI at 64.91 is neutral, not overbought, while MACD remains bullish (line above signal, positive histogram). This technical confluence supports the broader uptrend but does not confirm an immediate entry. The RSI divergence is absent, so the trend is intact. However, the candlestick pattern creates a bearish near-term bias, conflicting with the momentum indicators. The signal score of 5/10 reflects this balanced tension, making a clear buy or sell setup unreliable at current price.\n\nGiven the conflicting signals, the prudent course is to wait for either a confirmed breakout above 170.00 (which would invalidate the reversal pattern) or a pullback toward support near 162.00, where a long entry with a tight stop would offer a more favorable risk/reward. A short sell is not advisable against the strong uptrend and bullish EMAs.",
-  "invalidation": "A decisive close above 170.00 with strong volume would invalidate the bearish candlestick concern and signal continuation of the uptrend, prompting a buy setup instead.",
+  "score": "4/10",
+  "analysis": "The trend is classified as NEUTRAL because price (148.21) is below the EMA50 (150.92) yet well above the EMA200 (126.94). This mixed alignment shows short\u2011term bearish pressure within a longer\u2011term bullish structure, weakening directional conviction. The bearish candlestick patterns (Shooting Star, Evening Star) and a declining MACD histogram (\u22122.306) suggest downside momentum near term, but the RSI at 42.03 is neutral and shows no divergence, so momentum is not extreme.  \n\nNo clear chart patterns (triangles, flags, etc.) are identifiable from the given data, but the recent two\u2011candle reversal suggests a potential near\u2011term top. Key resistance is the EMA50 at 150.92, while nearby support lies at 145.00 (psychological round number) followed by 142.00 and 140.00. With an ATR of 5.8, volatility is high, making stop\u2011loss placement risky without a confirmed breakout.  \n\nThe bearish MACD and candlestick signals align on the short side, but the lack of a decisive trend and the price\u2019s proximity to support (145) create a poor risk\u2011reward profile for an immediate short entry. A sell from here would offer roughly 3.2 points to the first support versus a potential 4\u2011point stop above resistance, yielding a reward\u2011to\u2011risk ratio below 1:1. Moreover, the long\u2011term uptrend (EMA200) may provide a floor, increasing the chance of a false breakdown.  \n\nGiven the low signal score (4/10) and unfavorable entry conditions, the best course is to wait for a more compelling setup. A retest of the EMA50 resistance (near 151) would offer a better short entry with a tighter stop above 153, or a break below 145 could be shorted with a target toward 140 for a cleaner risk\u2011reward.",
+  "invalidation": "A daily close above the EMA50 (150.92) would negate the short\u2011term bearish bias and likely lead to a re\u2011test of higher resistance levels, invalidating any pending short setup.",
   "support_levels": [
-    162.0,
-    160.0,
-    155.0
+    145.0,
+    142.0,
+    140.0
   ],
   "resistance_levels": [
-    170.0,
-    175.0,
-    180.0
+    150.92,
+    153.0,
+    155.0
   ]
 };
