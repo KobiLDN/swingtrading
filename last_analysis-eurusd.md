@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-11-06
-**Generated:** 2026-11-06T14:09:04Z
+**Date:** 2026-11-09
+**Generated:** 2026-11-09T16:02:59Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -12,32 +12,30 @@
 |-------|-------|
 | **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.1165 |
-| **Stop Loss** | 1.1230 |
-| **Target 1** | 1.1100 |
-| **Target 2** | 1.1050 |
-| **Risk/Reward** | 1.83 |
-| **Score** | 5/10 |
-| **Support** | 1.11, 1.105, 1.1 |
-| **Resistance** | 1.122, 1.1266, 1.13 |
+| **Entry** | 1.1196 |
+| **Stop Loss** | 1.1260 |
+| **Target 1** | 1.1135 |
+| **Target 2** | 1.1075 |
+| **Risk/Reward** | 1:1.9 (target 2) |
+| **Score** | 4/10 |
+| **Support** | 1.115, 1.11, 1.105 |
+| **Resistance** | 1.1253, 1.13, 1.1446 |
 
 ---
 
 ## Analysis
 
-The price action strongly confirms the EMA trend: price is well below both the EMA50 (1.1266) and EMA200 (1.14582), and the trend is labelled STRONG DOWNTREND. The bearish candlestick patterns in the last two candles (Bearish Engulfing followed by Evening Star) reinforce downside continuation after a brief bullish correction. No clear chart patterns like flags or triangles are evident, but the recent price swing from the low near 1.1125 to the high around 1.1220 followed by a quick reversal can be interpreted as a bear flag or a failed breakout higher, adding weight to a short bias.
+The price at 1.11958 is firmly below both the 50‑ and 200‑period EMAs (1.1253 and 1.14459), confirming the strong downtrend indicated by the trend label. Recent candlestick patterns – a Doji, followed by a Bearish Engulfing and an Evening Star – reinforce bearish momentum, showing that sellers regained control after a brief indecision. No additional chart patterns (triangles, flags, double tops/bottoms) are immediately apparent, but the bearish candlestick cluster itself acts as a clear continuation signal.  
 
-The RSI at 42.18 in neutral territory does not indicate overbought or oversold extremes, leaving room for further downside. Meanwhile, the MACD shows a bullish crossover (line above signal) with a positive histogram, which seems counter to the strong downtrend. This divergence suggests short-term buying pressure, but given the prevailing bearish momentum and negative candlestick patterns, the MACD signal is likely a corrective bounce that is already stalling. The confluence favours the trend over the oscillator's early bullish signal, especially as the Evening Star highlights rejection of higher prices.
+Key resistance is the EMA50 at 1.1253, with further resistance at 1.1300 (round number) and the EMA200 at 1.1446. Immediate support lies near 1.1150 (psychological level and ATR‑based projection), followed by 1.1100 and 1.1050. The RSI at 49.55 is neutral, offering no oversold/overbought confirmation, while the MACD shows a bullish crossover (line above signal) with a positive histogram – a divergence that typically suggests weakening downside momentum. However, the bearish candlestick patterns outweigh this early MACD signal, indicating that any potential bounce is likely to be shallow and short‑lived.  
 
-The single best trade is a sell near current price with a stop above the recent swing high (1.1220) to allow for false breaks. The first target is the psychological support at 1.1100, followed by 1.1050. The ATR of 64 pips implies moderate volatility, and the planned stop loss of 65 pips respects that while offering a risk/reward just under 1.9. However, the conflicting MACD and neutral RSI keep confidence at medium; a stronger sell would require a break below 1.1125 with volume.
-
-Risk assessment: The primary risk is a sudden reversal driven by the bullish MACD crossover, which could propel price back toward the EMA50 at 1.1266. Additionally, the mixed candlestick sequence (bullish then bearish) warns of indecision. A tight stop is essential to limit loss if the bounce resumes. The signal score remains 5/10 because the strong trend is partially offset by oscillators that are not yet aligned for a sustained move down.
+The best trade setup is a sell at the current price, capitalising on the strong downtrend and the recent bearish candle cluster. A stop above the EMA50 (1.1260) protects against an unexpected reversal, while targets are set at 1.1135 (1 ATR below) and 1.1075 (2 ATRs below). The risk‑reward ratio to the second target is favourable, but the overall signal score remains low (4/10) due to the conflicting MACD and neutral RSI. Risk is elevated because of this divergence and the potential for a short‑covering bounce; therefore, position sizing should be conservative.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.1230 would invalidate the short setup, suggesting the bullish momentum from the MACD is gaining traction and could target the EMA50.
+A daily close above the EMA50 at 1.1253 would invalidate this bearish setup, signalling a possible trend reversal or prolonged consolidation.
 
 ---
 
