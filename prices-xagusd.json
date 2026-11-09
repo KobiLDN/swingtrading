@@ -1,48 +1,27 @@
 {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-11-06T13:26:33Z",
-  "date": "2026-11-05",
-  "price": 46.93,
-  "atr": 1.62,
-  "atr_pips": 2,
+  "generated": "2026-11-09T14:41:09Z",
+  "date": "2026-11-09",
+  "price": 47.59,
+  "atr": 1.5,
+  "atr_pips": 1,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 52.84,
-  "ema200": 62.71,
-  "rsi": 37.42,
-  "macd_line": -2.46169,
-  "macd_signal": -2.328667,
-  "macd_hist": -0.133024,
+  "ema50": 52.41,
+  "ema200": 63.92,
+  "rsi": 40.54,
+  "macd_line": -2.188192,
+  "macd_signal": -2.304847,
+  "macd_hist": 0.116655,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-10-30",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    }
-  ],
-  "score": 5,
-  "verdict": "WATCH",
+  "patterns": [],
+  "score": 1,
+  "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-06-16",
-      "open": 63.7,
-      "high": 63.85,
-      "low": 62.76,
-      "close": 63.39
-    },
-    {
-      "date": "2026-06-17",
-      "open": 63.54,
-      "high": 64.69,
-      "low": 60.39,
-      "close": 60.61
-    },
     {
       "date": "2026-06-18",
       "open": 60.74,
@@ -728,6 +707,20 @@
       "high": 47.96,
       "low": 46.54,
       "close": 46.93
+    },
+    {
+      "date": "2026-11-06",
+      "open": 46.37,
+      "high": 47.13,
+      "low": 46.34,
+      "close": 46.87
+    },
+    {
+      "date": "2026-11-09",
+      "open": 47.51,
+      "high": 47.59,
+      "low": 47.37,
+      "close": 47.59
     }
   ]
 }

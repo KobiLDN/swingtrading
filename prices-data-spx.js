@@ -1,30 +1,24 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-11-06T13:26:33Z",
-  "date": "2026-11-05",
-  "price": 733.0,
-  "atr": 10.6,
-  "atr_pips": 11,
+  "generated": "2026-11-09T14:41:09Z",
+  "date": "2026-11-09",
+  "price": 744.94,
+  "atr": 10.45,
+  "atr_pips": 10,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 763.76,
-  "ema200": 739.34,
-  "rsi": 33.5,
-  "macd_line": -4.530291,
-  "macd_signal": -1.796204,
-  "macd_hist": -2.734087,
-  "trend": "BEARISH BIAS",
+  "ema50": 761.95,
+  "ema200": 739.86,
+  "rsi": 41.52,
+  "macd_line": -6.448339,
+  "macd_signal": -3.411432,
+  "macd_hist": -3.036908,
+  "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-10-30",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-11-04",
       "name": "Inverted Hammer",
@@ -42,25 +36,17 @@ window.PRICES_DATA_SPX = {
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-11-06",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-16",
-      "open": 754.55,
-      "high": 755.44,
-      "low": 749.88,
-      "close": 750.33
-    },
-    {
-      "date": "2026-06-17",
-      "open": 751.29,
-      "high": 752.15,
-      "low": 739.22,
-      "close": 740.96
-    },
     {
       "date": "2026-06-18",
       "open": 747.76,
@@ -746,6 +732,20 @@ window.PRICES_DATA_SPX = {
       "high": 765.97,
       "low": 732.71,
       "close": 733.0
+    },
+    {
+      "date": "2026-11-06",
+      "open": 734.82,
+      "high": 742.21,
+      "low": 734.58,
+      "close": 735.29
+    },
+    {
+      "date": "2026-11-09",
+      "open": 741.98,
+      "high": 745.06,
+      "low": 741.18,
+      "close": 744.94
     }
   ]
 };
