@@ -1,21 +1,21 @@
 {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-11-09T14:41:09Z",
+  "generated": "2026-11-10T13:57:18Z",
   "date": "2026-11-09",
-  "price": 744.94,
-  "atr": 10.45,
-  "atr_pips": 10,
+  "price": 752.69,
+  "atr": 11.19,
+  "atr_pips": 11,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 761.95,
-  "ema200": 739.86,
-  "rsi": 41.52,
-  "macd_line": -6.448339,
-  "macd_signal": -3.411432,
-  "macd_hist": -3.036908,
+  "ema50": 762.26,
+  "ema200": 739.94,
+  "rsi": 45.81,
+  "macd_line": -5.830106,
+  "macd_signal": -3.287785,
+  "macd_hist": -2.542321,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
@@ -42,6 +42,12 @@
       "name": "Inverted Hammer",
       "signal": "BULLISH REVERSAL",
       "strength": 3
+    },
+    {
+      "date": "2026-11-09",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 5,
@@ -742,10 +748,10 @@
     },
     {
       "date": "2026-11-09",
-      "open": 741.98,
-      "high": 745.06,
-      "low": 741.18,
-      "close": 744.94
+      "open": 741.95,
+      "high": 755.42,
+      "low": 741.03,
+      "close": 752.69
     }
   ]
 }
