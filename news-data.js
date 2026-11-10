@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-09T16:04:38Z",
+  "generated": "2026-11-10T14:50:34Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Slips Below 101.73 Ahead of CPI; Can EUR/USD Break 1.1268?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-083257351.html?.tsrc=rss",
+        "time_published": "2026-11-10 08:32",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY slips below 101.73 ahead of US CPI, while EUR/USD holds above its 1.1216 pivot and GBP/USD stays above 1.3429 after a BoE hike."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Faces 102.26 as EUR/USD and GBP/USD Await US CPI",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073011814.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-10-30 08:00",
         "source": "Finance",
         "summary": "US dollar price forecast: AI jitters weigh on yields as DXY eyes 101.54 support, EUR/USD faces 1.1215 resistance and GBP/USD tests the 1.3419 zone."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Holds, DXY Eyes 102.59 as EUR/USD and GBP/USD Rebound",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073829755.html?.tsrc=rss",
-        "time_published": "2026-10-29 07:38",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY holds 102.03 after the Fed pause, while EUR/USD faces 1.1158 and GBP/USD eyes 1.3356 ahead of US data and the ECB decision."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: DXY Slips Below 101.73 Ahead of CPI; Can EUR/USD Break 1.1268?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-083257351.html?.tsrc=rss",
+        "time_published": "2026-11-10 08:32",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY slips below 101.73 ahead of US CPI, while EUR/USD holds above its 1.1216 pivot and GBP/USD stays above 1.3429 after a BoE hike."
+      },
+      {
         "title": "US Dollar Price Forecast: DXY Faces 102.26 as EUR/USD and GBP/USD Await US CPI",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073011814.html?.tsrc=rss",
         "time_published": "2026-11-09 07:30",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-10-30 08:00",
         "source": "Finance",
         "summary": "US dollar price forecast: AI jitters weigh on yields as DXY eyes 101.54 support, EUR/USD faces 1.1215 resistance and GBP/USD tests the 1.3419 zone."
-      },
-      {
-        "title": "US Dollar Price Forecast: Fed Holds, DXY Eyes 102.59 as EUR/USD and GBP/USD Rebound",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073829755.html?.tsrc=rss",
-        "time_published": "2026-10-29 07:38",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY holds 102.03 after the Fed pause, while EUR/USD faces 1.1158 and GBP/USD eyes 1.3356 ahead of US data and the ECB decision."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid Global Market Recovery",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141309144.html?.tsrc=rss",
-        "time_published": "2026-11-09 14:13",
+        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid October Consumer Inflation Report",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141241479.html?.tsrc=rss",
+        "time_published": "2026-11-10 14:12",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1% and the actively traded"
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, while the actively t"
       },
       {
-        "title": "SPDR S&P 500 ETF (SPY) Sells $182.9 Million of Apple on Nov. 5",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110431430.html?.tsrc=rss",
-        "time_published": "2026-11-09 11:04",
+        "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Nvidia on Nov. 6",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412540.html?.tsrc=rss",
+        "time_published": "2026-11-10 11:04",
         "source": "Finance",
-        "summary": "The fund sold $2.31 billion across all 503 holdings and bought nothing, trimming every position in its portfolio."
+        "summary": "The $791.88 billion fund sold $4.19 billion of stock and bought nothing, cutting all 503 positions."
       },
       {
-        "title": "ETF Activity: SPY Leads $2.31 Billion Outflow on Nov. 5",
-        "url": "https://finance.yahoo.com/markets/options/articles/etf-activity-spy-leads-2-110012931.html?.tsrc=rss",
-        "time_published": "2026-11-09 11:00",
+        "title": "ETF Activity: SPY Leads $4.19 Billion Outflow on Nov. 6",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-spy-leads-4-110011320.html?.tsrc=rss",
+        "time_published": "2026-11-10 11:00",
         "source": "Finance",
-        "summary": "Broad-market funds bled assets while equal-weight and leveraged Nasdaq products drew fresh money."
+        "summary": "Large-cap index funds split sharply as semiconductor and small-cap ETFs also bled assets."
       },
       {
-        "title": "Citigroup\u2019s Jane Fraser Says Hedge Funds Drove the Sell-Off. Here\u2019s Why She Doesn\u2019t Expect It to Get Worse",
-        "url": "https://247wallst.com/investing/2026/11/09/citigroups-jane-fraser-says-hedge-funds-drove-the-sell-off-heres-why-she-doesnt-expect-it-to-get-worse/?.tsrc=rss",
-        "time_published": "2026-11-09 14:17",
-        "source": "247wallst",
-        "summary": "The VIX nearly doubled in a day, yet one of Wall Street's biggest bankers says the real culprit sits inside hedge fund risk models. What does she see in her client flows that makes her call the panic a forced reset?"
+        "title": "Jensen Huang's Reported Affair With Suspected Chinese Spy Pushes Nvidia Stock to Most Oversold Level Since 2019",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huangs-reported-affair-suspected-114505663.html?.tsrc=rss",
+        "time_published": "2026-11-10 11:45",
+        "source": "Finance",
+        "summary": "On Monday the stock market went one way and its biggest company went the other. Wall Street bought chipmakers, AI hardware and Big Tech. It sold Nvidia Corp.. Shares of the AI chip leader fell as much as about 7%..."
       },
       {
-        "title": "ETFs Are Net Sellers of American Express (AXP) on Nov. 5",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-american-express-110412394.html?.tsrc=rss",
-        "time_published": "2026-11-09 11:04",
+        "title": "ETFs Are Net Sellers of Teradyne (TER) on Nov. 6",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-teradyne-ter-110332108.html?.tsrc=rss",
+        "time_published": "2026-11-10 11:03",
         "source": "Finance",
-        "summary": "ETFs sold a net $60.8 million of American Express on Thursday, with 33 funds buying and 17 selling."
+        "summary": "ETFs sold a net $93.9 million of Teradyne (TER) on Nov. 6."
       },
       {
-        "title": "ETFs Are Net Sellers of NextEra Energy (NEE) on Thursday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-nextera-energy-110357659.html?.tsrc=rss",
-        "time_published": "2026-11-09 11:03",
+        "title": "ETFs Are Net Sellers of Applied Materials (AMAT) on Friday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-applied-materials-110246005.html?.tsrc=rss",
+        "time_published": "2026-11-10 11:02",
         "source": "Finance",
-        "summary": "ETFs sold $65.7 million in NextEra Energy shares on Nov. 5."
+        "summary": "ETFs sold $200.2 million of Applied Materials stock last Friday."
       },
       {
-        "title": "ETFs Are Net Sellers of Alphabet (GOOG) on Nov. 5",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-alphabet-goog-110350264.html?.tsrc=rss",
-        "time_published": "2026-11-09 11:03",
+        "title": "NVIDIA (NVDA) Sees $275.6 Million in Net ETF Selling on Nov. 6",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-sees-275-6-110219903.html?.tsrc=rss",
+        "time_published": "2026-11-10 11:02",
         "source": "Finance",
-        "summary": "ETFs sold $67.7 million of Alphabet (GOOG) on Thursday, with 14 sellers against 47 buyers."
+        "summary": "ETFs sold $275.6 million in NVIDIA stock on Friday, Nov. 6, with 69 buyers against 30 sellers."
       },
       {
-        "title": "ETFs Are Net Sellers of Johnson & Johnson (JNJ) on Nov. 5",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-johnson-johnson-110343852.html?.tsrc=rss",
-        "time_published": "2026-11-09 11:03",
+        "title": "ETFs Are Net Sellers of Advanced Micro Devices (AMD) on Nov. 6",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-advanced-micro-110215329.html?.tsrc=rss",
+        "time_published": "2026-11-10 11:02",
         "source": "Finance",
-        "summary": "ETFs sold a net $68.4 million of Johnson & Johnson stock on Nov. 5."
+        "summary": "ETFs sold a net $304.1 million of AMD on Friday, with 57 buyers against 25 sellers."
       }
     ],
     "oil": [
@@ -264,11 +264,11 @@ window.NEWS_DATA = {
         "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV rose. Actively traded I"
       },
       {
-        "title": "USO, UCO Gain Premarket As Brent Crude Hits 5-Month High \u2014 Middle East Shipping Attacks Fuel Supply Fears",
-        "url": "https://stocktwits.com/news-articles/markets/equity/uso-uso-gain-premarket-as-brent-crude-hits-5-month-high-middle-east-shipping-attacks-fuel-supply-fears/cZxqAqxRBum?.tsrc=rss",
-        "time_published": "2026-10-20 10:35",
-        "source": "Stocktwits",
-        "summary": "Capital Economics commodities economist Hamad Hussain warned that escalating attacks on ships could trigger a renewed fall in oil supply and continued price rises."
+        "title": "Sector Update: Energy Stocks Fall Pre-Bell Tuesday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-141948947.html?.tsrc=rss",
+        "time_published": "2026-11-10 14:19",
+        "source": "Finance",
+        "summary": "Energy stocks were falling pre-bell Tuesday, with the State Street Energy Select Sector SPDR ETF (XL"
       },
       {
         "title": "Sector Update: Energy Stocks Decline Premarket Monday",

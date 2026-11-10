@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-11-09T16:02:02Z",
+  "generated": "2026-11-10T14:45:28Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "decision": "SELL",
   "confidence": "LOW",
-  "entry": "1.34172",
-  "stop_loss": "1.34600",
-  "target_1": "1.33612",
+  "entry": "1.33972",
+  "stop_loss": "1.34210",
+  "target_1": "1.33635",
   "target_2": "1.33000",
-  "risk_reward": "1:1.3",
-  "score": "5/10",
-  "analysis": "The price sits at 1.34172, marginally above the EMA200 (1.34109) and well above the EMA50 (1.33612), giving a nominal bullish bias. However, the last five candles include a Shooting Star, Evening Star, and Bearish Engulfing \u2013 all strong bearish reversal patterns. This price action contradicts the EMA-based trend and suggests a potential top is forming, especially after a prolonged move higher. The proximity to the EMA200 also makes this a critical test; a break below would confirm the reversal.\n\nNo clear triangle, flag, or double top/bottom is evident, but the cluster of bearish candlesticks itself forms a short-term topping pattern. Key support directly below is the EMA200 at 1.34109, followed by the EMA50 at 1.33612 and the round number 1.33000. Resistance above is the recent swing high near 1.34500, then 1.35000 and 1.35500. The RSI at 56.83 is neutral, not overbought, so there is room for further downside. The MACD is bearish (line below signal, negative histogram), aligning with the candlestick signals and pointing to weakening momentum.\n\nThe confluence of bearish candlesticks and bearish MACD outweighs the still-bullish EMA alignment, especially since price is barely above the EMA200. The best trade setup is a short entry at current price, with a stop above the recent high (1.34500 area) to protect against a false breakout. The first target is the EMA50 (1.33612), offering a 1:1.3 risk-reward, and the second target is 1.33000. Confidence is low because the overall trend bias remains bullish until price decisively breaks below the EMA200, and the RSI is not yet oversold. The signal score of 5/10 reflects this ambiguity.",
-  "invalidation": "A daily close above 1.34500 would invalidate the bearish setup and likely resume the uptrend toward 1.3500+.",
+  "risk_reward": "1:1.47 (T1) / 1:4.22 (T2)",
+  "score": "4/10",
+  "analysis": "Price is trapped between the EMA50 (1.33635) and EMA200 (1.34108), which defines a neutral trend zone. Despite the neutral label, bearish candlestick patterns (Evening Star, Bearish Engulfing) have formed near the EMA200 resistance, suggesting sellers are stepping in. The MACD is bearish with the histogram printing negative values, confirming fading upside momentum. The RSI at 53.36 is neutral and provides no clear divergence, but it does not contradict the bearish candle signals.\n\nThe nearest support is the EMA50 at 1.33635, a dynamic level that has held recent dips. A break below this level would open the path toward 1.3300, a psychological and prior swing low area. On the upside, the EMA200 at 1.34108 is immediate resistance, followed by 1.3450 (recent swing high zone). The confluence of bearish candles, MACD negativity, and proximity to resistance creates a low-conviction short opportunity, but the neutral RSI and price still above the EMA50 warrant caution.\n\nThe best trade setup is a short at the current price with a tight stop above the EMA200 to limit risk. The target aligns with the EMA50 support and then the 1.3300 level. The risk-reward is attractive for target 2, but the low signal score (4/10) reflects mixed underlying momentum and the risk of a false breakdown. A wait-and-see approach for a clearer break below the EMA50 would be safer, but the immediate bearish candle formation favors a small, disciplined short.",
+  "invalidation": "A daily close above 1.34210 (above EMA200 and recent swing high) would negate the bearish setup and signal a potential trend shift upward.",
   "support_levels": [
-    1.34109,
-    1.33612,
-    1.33
+    1.33635,
+    1.33,
+    1.325
   ],
   "resistance_levels": [
+    1.34108,
     1.345,
-    1.35,
-    1.355
+    1.35
   ]
 };
