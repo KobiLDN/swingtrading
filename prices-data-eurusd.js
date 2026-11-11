@@ -1,47 +1,27 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-11-10T13:57:17Z",
-  "date": "2026-11-10",
-  "price": 1.11886,
-  "atr": 0.00632,
-  "atr_pips": 63,
+  "generated": "2026-11-11T13:12:02Z",
+  "date": "2026-11-11",
+  "price": 1.11276,
+  "atr": 0.00641,
+  "atr_pips": 64,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.12516,
-  "ema200": 1.1444,
-  "rsi": 48.38,
-  "macd_line": -0.001631,
-  "macd_signal": -0.002302,
-  "macd_hist": 0.000671,
+  "ema50": 1.12459,
+  "ema200": 1.14374,
+  "rsi": 41.21,
+  "macd_line": -0.00207,
+  "macd_signal": -0.002282,
+  "macd_hist": 0.000213,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-11-06",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    },
-    {
-      "date": "2026-11-06",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    }
-  ],
-  "score": 4,
+  "patterns": [],
+  "score": 1,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-08-03",
-      "open": 1.15451,
-      "high": 1.15593,
-      "low": 1.15018,
-      "close": 1.15085
-    },
     {
       "date": "2026-08-04",
       "open": 1.15088,
@@ -732,8 +712,15 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-11-10",
       "open": 1.12239,
       "high": 1.12513,
-      "low": 1.11798,
-      "close": 1.11886
+      "low": 1.1146,
+      "close": 1.11675
+    },
+    {
+      "date": "2026-11-11",
+      "open": 1.11673,
+      "high": 1.11703,
+      "low": 1.11266,
+      "close": 1.11276
     }
   ]
 };

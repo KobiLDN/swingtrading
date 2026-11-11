@@ -1,30 +1,24 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-11-10T13:57:16Z",
-  "date": "2026-11-10",
-  "price": 1.33972,
-  "atr": 0.00631,
-  "atr_pips": 63,
+  "generated": "2026-11-11T13:12:01Z",
+  "date": "2026-11-11",
+  "price": 1.3308,
+  "atr": 0.007,
+  "atr_pips": 70,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33635,
-  "ema200": 1.34108,
-  "rsi": 53.36,
-  "macd_line": 0.00201,
-  "macd_signal": 0.002208,
-  "macd_hist": -0.000198,
-  "trend": "NEUTRAL",
+  "ema50": 1.33596,
+  "ema200": 1.34071,
+  "rsi": 44.14,
+  "macd_line": 0.000911,
+  "macd_signal": 0.001889,
+  "macd_hist": -0.000977,
+  "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-11-06",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
-    },
     {
       "date": "2026-11-08",
       "name": "Bearish Engulfing",
@@ -35,13 +29,6 @@ window.PRICES_DATA = {
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-08-03",
-      "open": 1.34828,
-      "high": 1.35065,
-      "low": 1.34183,
-      "close": 1.34339
-    },
     {
       "date": "2026-08-04",
       "open": 1.34334,
@@ -732,8 +719,15 @@ window.PRICES_DATA = {
       "date": "2026-11-10",
       "open": 1.34406,
       "high": 1.34604,
-      "low": 1.33914,
-      "close": 1.33972
+      "low": 1.33135,
+      "close": 1.33501
+    },
+    {
+      "date": "2026-11-11",
+      "open": 1.33497,
+      "high": 1.3395,
+      "low": 1.33077,
+      "close": 1.3308
     }
   ]
 };
