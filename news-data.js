@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-10T14:50:34Z",
+  "generated": "2026-11-11T14:06:26Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Hot CPI Lifts DXY Above 102.20, Can It Break 102.50?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hot-073000993.html?.tsrc=rss",
+        "time_published": "2026-11-11 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: hot CPI lifts DXY above its 102.21 pivot as Fed hike odds jump, while EUR/USD slips below 1.1170 and GBP/USD breaks its trendline."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Slips Below 101.73 Ahead of CPI; Can EUR/USD Break 1.1268?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-083257351.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-11-02 07:22",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY holds 101.54 ahead of Tuesday\u2019s midterms, while EUR/USD eyes resistance at 1.1215 and GBP/USD tests the path toward 1.3434."
-      },
-      {
-        "title": "US Dollar Price Forecast: AI Jitters Weigh, DXY Eyes 101.54 as EUR/USD, GBP/USD Rebound",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ai-080054036.html?.tsrc=rss",
-        "time_published": "2026-10-30 08:00",
-        "source": "Finance",
-        "summary": "US dollar price forecast: AI jitters weigh on yields as DXY eyes 101.54 support, EUR/USD faces 1.1215 resistance and GBP/USD tests the 1.3419 zone."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: Hot CPI Lifts DXY Above 102.20, Can It Break 102.50?",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hot-073000993.html?.tsrc=rss",
+        "time_published": "2026-11-11 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: hot CPI lifts DXY above its 102.21 pivot as Fed hike odds jump, while EUR/USD slips below 1.1170 and GBP/USD breaks its trendline."
+      },
+      {
         "title": "US Dollar Price Forecast: DXY Slips Below 101.73 Ahead of CPI; Can EUR/USD Break 1.1268?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-083257351.html?.tsrc=rss",
         "time_published": "2026-11-10 08:32",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-02 07:22",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY holds 101.54 ahead of Tuesday\u2019s midterms, while EUR/USD eyes resistance at 1.1215 and GBP/USD tests the path toward 1.3434."
-      },
-      {
-        "title": "US Dollar Price Forecast: AI Jitters Weigh, DXY Eyes 101.54 as EUR/USD, GBP/USD Rebound",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-ai-080054036.html?.tsrc=rss",
-        "time_published": "2026-10-30 08:00",
-        "source": "Finance",
-        "summary": "US dollar price forecast: AI jitters weigh on yields as DXY eyes 101.54 support, EUR/USD faces 1.1215 resistance and GBP/USD tests the 1.3419 zone."
       }
     ],
     "xauusd": [],
@@ -139,6 +139,13 @@ window.NEWS_DATA = {
         "time_published": "2026-10-30 17:10",
         "source": "Stocktwits",
         "summary": "Spot gold was down 3% while spot silver dropped below $50 an ounce for the first time since November 2025."
+      },
+      {
+        "title": "Could Silver Skyrocket Before the End of 2026?",
+        "url": "https://www.fool.com/investing/2026/11/10/could-silver-skyrocket-before-the-end-of-2026/?.tsrc=rss",
+        "time_published": "2026-11-10 15:05",
+        "source": "Fool",
+        "summary": "The upcoming Fed meeting could play a big role in determining what happens to the price of silver before the end of the year."
       },
       {
         "title": "SLV Crashes To Near 52-Week Lows, GLD Falls Pre-Market \u2013 World Gold Council Cuts 2026 Gold Investment Forecast By Half",
@@ -167,71 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-10-15 17:10",
         "source": "247wallst",
         "summary": "Gold is supposed to surge when inflation runs hot, but on the day a surprise CPI report rattled markets, the metal cratered instead. The reason traces back to a single number the Federal Reserve is watching very closely."
-      },
-      {
-        "title": "Silver Has Now Lost Nearly Half Its Value. Here\u2019s What Broke the Metals Trade",
-        "url": "https://247wallst.com/investing/2026/09/30/silver-has-now-lost-nearly-half-its-value-heres-what-broke-the-metals-trade/?.tsrc=rss",
-        "time_published": "2026-09-30 11:36",
-        "source": "247wallst",
-        "summary": "Silver just recorded one of its worst stretches in decades, and the forces behind the selloff are still building pressure. Understanding what broke the metals trade could be the difference between catching a bounce and holding through another leg down."
       }
     ],
     "spx": [
       {
-        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid October Consumer Inflation Report",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141241479.html?.tsrc=rss",
-        "time_published": "2026-11-10 14:12",
+        "title": "SPDR S&P 500 ETF (SPY) Adds Apple and Nvidia on Monday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110306154.html?.tsrc=rss",
+        "time_published": "2026-11-11 11:03",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.1%, while the actively t"
+        "summary": "The fund bought $4.32 billion of stock and sold nothing, lifting all 503 positions."
       },
       {
-        "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Nvidia on Nov. 6",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110412540.html?.tsrc=rss",
-        "time_published": "2026-11-10 11:04",
+        "title": "ETF Activity: SPY Leads With $4.32 Billion Inflow on Monday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-spy-leads-4-110011779.html?.tsrc=rss",
+        "time_published": "2026-11-11 11:00",
         "source": "Finance",
-        "summary": "The $791.88 billion fund sold $4.19 billion of stock and bought nothing, cutting all 503 positions."
+        "summary": "Broad-market and semiconductor funds drew the day's largest estimated inflows while small-cap value and health care funds slipped."
       },
       {
-        "title": "ETF Activity: SPY Leads $4.19 Billion Outflow on Nov. 6",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etf-activity-spy-leads-4-110011320.html?.tsrc=rss",
-        "time_published": "2026-11-10 11:00",
-        "source": "Finance",
-        "summary": "Large-cap index funds split sharply as semiconductor and small-cap ETFs also bled assets."
+        "title": "SPY Is Still a Unit Investment Trust. Here\u2019s Why That Quirk Matters (and When It Doesn\u2019t)",
+        "url": "https://247wallst.com/investing/etf/2026/11/10/spy-is-still-a-unit-investment-trust-heres-why-that-quirk-matters-and-when-it-doesnt/?.tsrc=rss",
+        "time_published": "2026-11-11 01:33",
+        "source": "247wallst",
+        "summary": "The first U.S. ETF still runs on a 1993 legal blueprint, and its biggest rival just abandoned that setup. Is the old wrapper quietly costing SPY investors, or does something else decide the question?"
       },
       {
-        "title": "Jensen Huang's Reported Affair With Suspected Chinese Spy Pushes Nvidia Stock to Most Oversold Level Since 2019",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huangs-reported-affair-suspected-114505663.html?.tsrc=rss",
-        "time_published": "2026-11-10 11:45",
+        "title": "ETFs Bought $602.5 Million of Microsoft (MSFT) on Nov. 9",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-602-5-million-110106137.html?.tsrc=rss",
+        "time_published": "2026-11-11 11:01",
         "source": "Finance",
-        "summary": "On Monday the stock market went one way and its biggest company went the other. Wall Street bought chipmakers, AI hardware and Big Tech. It sold Nvidia Corp.. Shares of the AI chip leader fell as much as about 7%..."
+        "summary": "Fifty-four ETFs added Microsoft shares while 23 trimmed positions on Monday."
       },
       {
-        "title": "ETFs Are Net Sellers of Teradyne (TER) on Nov. 6",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-teradyne-ter-110332108.html?.tsrc=rss",
-        "time_published": "2026-11-10 11:03",
+        "title": "57 ETFs Add to NVIDIA (NVDA) Holdings on Nov. 9",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/57-etfs-add-nvidia-nvda-110038439.html?.tsrc=rss",
+        "time_published": "2026-11-11 11:00",
         "source": "Finance",
-        "summary": "ETFs sold a net $93.9 million of Teradyne (TER) on Nov. 6."
+        "summary": "ETFs bought $1.05 billion in NVIDIA stock on Monday, with 57 buyers against 25 sellers."
       },
       {
-        "title": "ETFs Are Net Sellers of Applied Materials (AMAT) on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-applied-materials-110246005.html?.tsrc=rss",
-        "time_published": "2026-11-10 11:02",
-        "source": "Finance",
-        "summary": "ETFs sold $200.2 million of Applied Materials stock last Friday."
+        "title": "Cathie Wood Is Buying Nvidia Again, Adding 90,443 Shares During the Huang Selloff",
+        "url": "https://247wallst.com/investing/2026/11/10/cathie-wood-is-buying-nvidia-again-adding-90443-shares-during-the-huang-selloff/?.tsrc=rss",
+        "time_published": "2026-11-10 16:38",
+        "source": "247wallst",
+        "summary": "While Nvidia's board launched an investigation into its CEO and the stock sank to a seven-month low, Cathie Wood quietly kept buying. Her funds sold other AI names to pay for it, and one price level could prove her wrong."
       },
       {
-        "title": "NVIDIA (NVDA) Sees $275.6 Million in Net ETF Selling on Nov. 6",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-sees-275-6-110219903.html?.tsrc=rss",
-        "time_published": "2026-11-10 11:02",
+        "title": "AMD sees $709 million reversal as major ETFs pile in",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/amd-sees-709-million-reversal-115710107.html?.tsrc=rss",
+        "time_published": "2026-11-11 11:57",
         "source": "Finance",
-        "summary": "ETFs sold $275.6 million in NVIDIA stock on Friday, Nov. 6, with 69 buyers against 30 sellers."
+        "summary": "Exchange-traded funds increased their holdings in the semiconductor company Nov. 9, reversing the previous session's selling."
       },
       {
-        "title": "ETFs Are Net Sellers of Advanced Micro Devices (AMD) on Nov. 6",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-advanced-micro-110215329.html?.tsrc=rss",
-        "time_published": "2026-11-10 11:02",
+        "title": "Micron draws $554 million in ETF buying after steep selloff",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-draws-554-million-etf-114345334.html?.tsrc=rss",
+        "time_published": "2026-11-11 11:43",
         "source": "Finance",
-        "summary": "ETFs sold a net $304.1 million of AMD on Friday, with 57 buyers against 25 sellers."
+        "summary": "Major exchange-traded funds increased their Micron holdings Nov. 9, reversing two sessions of net selling."
       }
     ],
     "oil": [
@@ -264,6 +264,13 @@ window.NEWS_DATA = {
         "summary": "Broad Market Indicators Broad-market exchange-traded funds IWM and IVV rose. Actively traded I"
       },
       {
+        "title": "Oil Prices Just Fell to Their Lowest Since August as Trump Says the Iran War Is \u2018Effectively Over\u2019",
+        "url": "https://247wallst.com/investing/2026/11/10/oil-prices-just-fell-to-their-lowest-since-august-as-trump-says-the-iran-war-is-effectively-over/?.tsrc=rss",
+        "time_published": "2026-11-10 18:34",
+        "source": "247wallst",
+        "summary": "Futures sank on words alone, with no signed deal and Iran denying any talks exist. Why did one oil fund crater while Exxon and Chevron barely flinched, and what number could reverse the slide?"
+      },
+      {
         "title": "Sector Update: Energy Stocks Fall Pre-Bell Tuesday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-141948947.html?.tsrc=rss",
         "time_published": "2026-11-10 14:19",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-04 16:04",
         "source": "247wallst",
         "summary": "Refiners who were fighting over every available barrel a month ago are now turning down offers and leaving Nigerian cargoes unsold, yet futures keep pricing in a war that the physical market seems to be moving past."
-      },
-      {
-        "title": "The U.S. Has Been Striking Iran as Trump Talks Up a Deal",
-        "url": "https://247wallst.com/investing/2026/11/03/the-u-s-has-been-striking-iran-as-trump-talks-up-a-deal/?.tsrc=rss",
-        "time_published": "2026-11-03 17:47",
-        "source": "247wallst",
-        "summary": "Trump posted that oil was crashing because Iran wants peace, then US officials said American jets had just struck Iranian territory. The two stories cannot both be true, and oil traders are now betting on which one to believe."
       }
     ]
   }

@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-11-10T14:45:42Z",
+  "generated": "2026-11-11T14:04:01Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-11-10",
-  "decision": "SELL",
+  "date": "2026-11-11",
+  "decision": "WAIT",
   "confidence": "LOW",
-  "entry": "1.11886",
-  "stop_loss": "1.12516",
-  "target_1": "1.11200",
-  "target_2": "1.10500",
-  "risk_reward": "1:1.09 (approx.)",
-  "score": "4/10 confirmed",
-  "analysis": "The strong downtrend is confirmed by price trading well below both the EMA50 (1.12516) and EMA200 (1.1444). The recent bearish candlestick patterns\u2014Bearish Engulfing and Evening Star\u2014occurring after a minor bounce suggest that the downtrend is resuming. These patterns align with the trend direction, increasing the likelihood of further downside. No additional chart patterns (triangles, flags, double tops/bottoms) are immediately evident, but the price is hugging the lower end of its recent range, which could imply a continuation pattern.\n\nRSI at 48.38 is neutral, offering no strong overbought or oversold signal, but it is below the 50 midpoint, leaning slightly bearish. The MACD, however, is showing a bullish crossover with a positive histogram, which introduces a conflicting signal. This bullish momentum could indicate a temporary relief rally within the downtrend, but the bearish candlestick patterns suggest that such a rally has already failed. Thus, the MACD divergence is not confirmed by price action, and the overall bias remains bearish.\n\nKey support levels below current price are the psychological round numbers at 1.1150 and 1.1100, followed by 1.1050. Resistance is defined by the EMA50 at 1.12516, then 1.1300, and finally the EMA200 at 1.1444. A sell entry at 1.11886 with a stop just above the EMA50 (1.12516) offers a reasonable risk of about 63 pips. The first target at 1.11200 captures a move to the nearest support, while the second target at 1.10500 extends into a deeper support zone. The risk-reward ratio is marginally above 1:1, but given the low confidence, a tighter stop or smaller position size is advisable.",
-  "invalidation": "This setup is invalidated if price breaks and closes above the EMA50 resistance at 1.12516, as that would signal a potential trend reversal or stronger corrective bounce.",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
+  "score": "1/10",
+  "analysis": "Price at 1.11276 trades well below both the EMA50 (1.12459) and EMA200 (1.14374), confirming the strong downtrend indicated. The gap between price and the 50-period average is over 100 pips, reflecting persistent bearish momentum. No candlestick patterns or chart structures (flags, triangles, etc.) are evident from the last five candles, so the trend is purely momentum-driven with no clear reversal pattern.  \n\nThe RSI at 41.21 is neutral, not oversold, meaning there is still room for further downside before a potential exhaustion. Meanwhile, the MACD shows a bullish crossover (line above signal) with a positive histogram, which is a divergence of sorts\u2014momentum oscillators hint at decelerating selling pressure. However, this early bullish signal lacks confirmation from price action, which remains below key moving averages and has not yet formed a higher low. The low signal score (1/10) reflects this mixed picture: the trend is strongly bearish, but the MACD warns of a possible bounce.  \n\nGiven the absence of a clear setup (no pattern, no divergence, neutral RSI), the prudent approach is to wait. A swing trade would require either a confirmed oversold bounce (e.g., RSI below 30 with bullish divergence) or a breakdown below a clear support level for continuation. The current price zone near 1.1100 is a psychological support that could attract buyers temporarily, but the trend is too dominant to justify a counter-trend buy. Conversely, selling into a downtrend at these levels carries poor risk/reward because the MACD suggests the selling momentum is fading.",
+  "invalidation": "A close above the EMA50 (1.12459) would invalidate the strong downtrend and shift the bias toward a potential reversal, while a breakdown below 1.1100 with high volume would confirm further downside.",
   "support_levels": [
-    1.115,
     1.11,
-    1.105
+    1.1,
+    1.09
   ],
   "resistance_levels": [
-    1.1252,
+    1.12459,
     1.13,
-    1.1444
+    1.14374
   ]
 };

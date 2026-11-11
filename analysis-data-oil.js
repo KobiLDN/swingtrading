@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-11-10T14:50:33Z",
+  "generated": "2026-11-11T14:06:25Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-11-09",
-  "decision": "SELL",
+  "date": "2026-11-10",
+  "decision": "WAIT",
   "confidence": "LOW",
-  "entry": "141.50",
-  "stop_loss": "148.00",
-  "target_1": "135.00",
-  "target_2": "127.53",
-  "risk_reward": "1:2.15",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
   "score": "2/10",
-  "analysis": "Price action firmly confirms the short-term bearish EMA 50 trend, trading at 142.66 against the 150.5 EMA. The overall NEUTRAL trend designation stems from the price remaining above the rising EMA 200 at 127.53. The consecutive Doji candles over the last two sessions signal a clear pause in the sell-off, forming a potential bear flag consolidation pattern. No bullish reversal patterns are present, suggesting this is a period of indecision before a likely continuation lower.\n\nThere is strong bearish confluence between the RSI and MACD. The RSI at 37.5 sits firmly in bearish territory, while the MACD is below its signal line with a deeply negative histogram (-2.89). The absence of any RSI divergence removes a key bullish warning. Key resistance is the EMA 50 at 150.5 and the psychological 145.00 level. Immediate support is the 140.00 round number, with the EMA 200 at 127.53 acting as the major long-term floor.\n\nThe single best trade setup is a short position on a breakdown. Given the 2/10 signal score, buying is not an option. The ideal entry is a break below the Doji consolidation low near 141.50, targeting a move towards the EMA 200. The high ATR of 5.82 necessitates a wide stop above the recent swing high at 148.00, but the potential reward from a move to the EMA 200 offers a favorable risk/reward profile. The Dojis present a risk of a short-term bounce, but the dominant momentum is bearish.\n\nThe technical evidence overwhelmingly favors a bearish bias in the short to medium term. While the long-term EMA 200 provides a structural floor, the momentum indicators and price position relative to the EMA 50 suggest the path of least resistance is lower. A disciplined short trade with a wide stop is the most logical professional action.",
-  "invalidation": "A daily close above the EMA 50 (150.5) would invalidate the bearish thesis and shift the trend back to bullish.",
+  "analysis": "The price of 141.45 sits below the EMA50 (150.15) but well above the EMA200 (127.97), confirming a neutral trend on the daily chart. The price action does not confirm a clear directional bias\u2014recent doji candlesticks indicate indecision and a potential consolidation phase rather than a strong continuation or reversal. The bearish MACD (line below signal, negative histogram) aligns with the short-term weakness, while the RSI at 36.57 is neutral but trending lower, not yet oversold. There is no bullish divergence to suggest an imminent reversal.  \n\nNo additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data; the two dojis in the last five candles are the only notable formations. Key support levels near current price are round numbers and prior swing lows: 140.00 (psychological), 137.00 (recent minor support), and 135.00 (next logical zone). Resistance is seen at 145.00 (short-term ceiling), followed by the EMA50 at 150.15, and then 152.00 (prior resistance). The signal score of 2/10 reflects very weak confluence\u2014the bearish MACD and below-EMA50 price are offset by the neutral RSI and lack of momentum confirmation.  \n\nThe single best trade setup right now is to wait. Neither a buy nor a sell setup has sufficient evidence to justify a risk-adjusted entry. A short trade would require confirmation of a breakdown below 140.00 with increasing bearish momentum (e.g., RSI below 30 or MACD histogram accelerating lower). A long trade would need a clear reversal pattern (e.g., bullish engulfing) and a push above 145.00, ideally with RSI crossing above 40. Given the neutral trend and low signal score, the prudent action is to remain on the sidelines until a higher-probability setup emerges.  \n\nRisk assessment: The current environment is unfavorable for swing trading USO. The ATR of 5.71 indicates moderate volatility, but the lack of trend direction and conflicting indicators (neutral RSI vs. bearish MACD) increase the risk of false signals. A premature entry could lead to whipsaws. The best risk management is to avoid trading until price clearly respects a key support or resistance level with accompanying volume and indicator confirmation.",
+  "invalidation": "A decisive break above 145.00 (with price closing above that level) would shift the short-term bias to bullish, while a breakdown below 140.00 with a daily close would confirm a bearish continuation, invalidating the wait decision and potentially setting up a sell trade.",
   "support_levels": [
     140.0,
-    135.0,
-    127.53
+    137.0,
+    135.0
   ],
   "resistance_levels": [
     145.0,
-    150.5,
-    155.0
+    150.15,
+    152.0
   ]
 };
