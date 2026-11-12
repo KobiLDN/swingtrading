@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-11-11T14:04:01Z",
+  "generated": "2026-11-12T15:02:25Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-11-11",
-  "decision": "WAIT",
+  "date": "2026-11-12",
+  "decision": "SELL",
   "confidence": "LOW",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "1/10",
-  "analysis": "Price at 1.11276 trades well below both the EMA50 (1.12459) and EMA200 (1.14374), confirming the strong downtrend indicated. The gap between price and the 50-period average is over 100 pips, reflecting persistent bearish momentum. No candlestick patterns or chart structures (flags, triangles, etc.) are evident from the last five candles, so the trend is purely momentum-driven with no clear reversal pattern.  \n\nThe RSI at 41.21 is neutral, not oversold, meaning there is still room for further downside before a potential exhaustion. Meanwhile, the MACD shows a bullish crossover (line above signal) with a positive histogram, which is a divergence of sorts\u2014momentum oscillators hint at decelerating selling pressure. However, this early bullish signal lacks confirmation from price action, which remains below key moving averages and has not yet formed a higher low. The low signal score (1/10) reflects this mixed picture: the trend is strongly bearish, but the MACD warns of a possible bounce.  \n\nGiven the absence of a clear setup (no pattern, no divergence, neutral RSI), the prudent approach is to wait. A swing trade would require either a confirmed oversold bounce (e.g., RSI below 30 with bullish divergence) or a breakdown below a clear support level for continuation. The current price zone near 1.1100 is a psychological support that could attract buyers temporarily, but the trend is too dominant to justify a counter-trend buy. Conversely, selling into a downtrend at these levels carries poor risk/reward because the MACD suggests the selling momentum is fading.",
-  "invalidation": "A close above the EMA50 (1.12459) would invalidate the strong downtrend and shift the bias toward a potential reversal, while a breakdown below 1.1100 with high volume would confirm further downside.",
+  "entry": "1.10927",
+  "stop_loss": "1.11577",
+  "target_1": "1.10277",
+  "target_2": "1.09627",
+  "risk_reward": "1:1",
+  "score": "2/10",
+  "analysis": "The price action confirms the strong downtrend as the current price of 1.10927 is well below both the EMA 50 (1.12386) and EMA 200 (1.14367), with the EMAs sloping downward to reinforce bearish momentum. The Doji pattern on the last five candles suggests indecision and potential consolidation, which could be a bearish flag if the downtrend resumes, but it also raises caution for a possible reversal. No other chart patterns like triangles or double tops/bottoms are evident from the given data.\n\nThe RSI at 37.92 is neutral but below 50, indicating a bearish bias, while the MACD is bearish with the line below the signal and a negative histogram. Both indicators align with the downtrend, but the RSI is not oversold, implying that momentum may be slowing. The lack of RSI divergence further supports the current trend without strong reversal signals.\n\nGiven the strong downtrend, a sell trade is the most viable setup. Entry at 1.10927 with a stop loss at 1.11577 (65 pips above, based on ATR) limits risk, while target 1 at 1.10277 (65 pips below) offers a 1:1 risk-reward ratio, and target 2 at 1.09627 (130 pips below) provides a 1:2 ratio. However, the low signal score of 2/10 and the Doji pattern indicate high uncertainty, making this a low-confidence trade.\n\nRisk assessment is high due to the weak signal score and potential for a reversal from the Doji pattern. The neutral RSI also suggests that the downtrend may not be aggressive, so this setup requires careful monitoring. A wait-and-see approach might be preferable if the Doji leads to a bullish breakout.",
+  "invalidation": "This setup would be invalidated if the price breaks above the stop loss at 1.11577 or forms a bullish candlestick pattern that signals a trend reversal.",
   "support_levels": [
-    1.11,
+    1.10277,
     1.1,
-    1.09
+    1.095
   ],
   "resistance_levels": [
-    1.12459,
-    1.13,
-    1.14374
+    1.11577,
+    1.12386,
+    1.14367
   ]
 };
