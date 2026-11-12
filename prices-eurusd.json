@@ -1,34 +1,34 @@
 {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-11-11T13:12:02Z",
-  "date": "2026-11-11",
-  "price": 1.11276,
-  "atr": 0.00641,
-  "atr_pips": 64,
+  "generated": "2026-11-12T14:14:36Z",
+  "date": "2026-11-12",
+  "price": 1.10927,
+  "atr": 0.0065,
+  "atr_pips": 65,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.12459,
-  "ema200": 1.14374,
-  "rsi": 41.21,
-  "macd_line": -0.00207,
-  "macd_signal": -0.002282,
-  "macd_hist": 0.000213,
+  "ema50": 1.12386,
+  "ema200": 1.14367,
+  "rsi": 37.92,
+  "macd_line": -0.002748,
+  "macd_signal": -0.002419,
+  "macd_hist": -0.000329,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [],
-  "score": 1,
+  "patterns": [
+    {
+      "date": "2026-11-12",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    }
+  ],
+  "score": 2,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-08-04",
-      "open": 1.15088,
-      "high": 1.15344,
-      "low": 1.1503,
-      "close": 1.15332
-    },
     {
       "date": "2026-08-05",
       "open": 1.15331,
@@ -719,8 +719,15 @@
       "date": "2026-11-11",
       "open": 1.11673,
       "high": 1.11703,
-      "low": 1.11266,
-      "close": 1.11276
+      "low": 1.10832,
+      "close": 1.10933
+    },
+    {
+      "date": "2026-11-12",
+      "open": 1.10931,
+      "high": 1.11032,
+      "low": 1.10667,
+      "close": 1.10927
     }
   ]
 }

@@ -1,21 +1,21 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-11-11T13:12:01Z",
-  "date": "2026-11-11",
-  "price": 1.3308,
-  "atr": 0.007,
-  "atr_pips": 70,
+  "generated": "2026-11-12T14:14:35Z",
+  "date": "2026-11-12",
+  "price": 1.32652,
+  "atr": 0.00708,
+  "atr_pips": 71,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33596,
-  "ema200": 1.34071,
-  "rsi": 44.14,
-  "macd_line": 0.000911,
-  "macd_signal": 0.001889,
-  "macd_hist": -0.000977,
+  "ema50": 1.33548,
+  "ema200": 1.34082,
+  "rsi": 40.55,
+  "macd_line": -0.00018,
+  "macd_signal": 0.001439,
+  "macd_hist": -0.001619,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -29,13 +29,6 @@ window.PRICES_DATA = {
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-08-04",
-      "open": 1.34334,
-      "high": 1.34566,
-      "low": 1.34198,
-      "close": 1.34542
-    },
     {
       "date": "2026-08-05",
       "open": 1.34536,
@@ -726,8 +719,15 @@ window.PRICES_DATA = {
       "date": "2026-11-11",
       "open": 1.33497,
       "high": 1.3395,
-      "low": 1.33077,
-      "close": 1.3308
+      "low": 1.32672,
+      "close": 1.328
+    },
+    {
+      "date": "2026-11-12",
+      "open": 1.32798,
+      "high": 1.32927,
+      "low": 1.32495,
+      "close": 1.32652
     }
   ]
 };
