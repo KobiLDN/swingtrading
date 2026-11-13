@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-11-11
-**Generated:** 2026-11-12T15:03:30Z
+**Date:** 2026-11-12
+**Generated:** 2026-11-13T14:29:31Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
-| **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
+| **Decision** | SELL |
+| **Confidence** | MEDIUM |
+| **Entry** | 146.07 |
+| **Stop Loss** | 149.66 |
+| **Target 1** | 140.52 |
+| **Target 2** | 134.97 |
+| **Risk/Reward** | 1:1.5 |
 | **Score** | 3/10 |
-| **Support** | 140.0, 138.0, 135.0 |
-| **Resistance** | 145.0, 149.81, 152.0 |
+| **Support** | 140.52, 134.97, 128.75 |
+| **Resistance** | 149.66, 155.0 |
 
 ---
 
 ## Analysis
 
-The current price of 141.47 sits below the EMA50 (149.81) but well above the EMA200 (128.23), creating a neutral trend classification. The EMA50 is acting as overhead resistance while the EMA200 provides long-term support, but price is not decisively moving toward either level. The two consecutive Doji candlesticks reflect market indecision, with neither bulls nor bears able to establish control. The low signal score of 3/10 reinforces the absence of a high-confidence setup.
+The price action confirms a bearish divergence from the EMA trend. While the EMA 50 (149.66) sits above the EMA 200 (128.75), indicating a longer-term bullish structure, the current price of 146.07 has decisively broken below the 50 EMA. This places the market in a "NEUTRAL" trend zone, but the momentum is clearly bearish. The consecutive Doji candles signal a pause in the selling, but the MACD histogram is deeply negative (-2.59), and the MACD lines are in a bearish configuration (line below signal). The RSI at 42.87 confirms the loss of bullish momentum without yet reaching oversold conditions, suggesting room for the downtrend to continue.
 
-RSI at 36.6 is in neutral territory, not yet oversold, and shows no divergence. MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downward bias from the EMA50 crossover. However, there is no strong bearish momentum—the histogram is not accelerating, and RSI is not confirming extreme selling pressure. The lack of a clear chart pattern (no triangles, flags, or double tops/bottoms) further supports waiting for a more defined structure.
+The confluence of RSI and MACD strongly agrees with a bearish bias. The RSI is below the 50 midline, and the MACD is actively diverging lower. There are no bullish divergences or hidden patterns to suggest an imminent reversal. The chart pattern is one of a failed support at the 50 EMA, turning it into a resistance level. The ATR of 5.55 provides a clear volatility-based target.
 
-Key support near 140.00 (psychological round number) and 138.00 (prior reaction zone) could provide a bounce area, while resistance at 145.00 and the EMA50 at 149.81 are the nearest upside barriers. The ATR of 5.59 indicates a typical daily range, but without a catalyst or pattern breakout, the risk/reward is unclear. The neutral-to-bearish bias is insufficient to justify an entry; the setup lacks confirmation from both price action and momentum indicators.
+The best trade setup is a short-term sell from the current price, targeting the next volatility-based support level. The risk is manageable if the stop loss is placed strictly above the old resistance (EMA 50). The risk/reward is favorable, but the overall confidence is capped at MEDIUM due to the "NEUTRAL" trend designation and the wide gap between the EMAs, which could lead to a sharp bounce if buying pressure returns.
 
 ---
 
 ## Invalidation
 
-A decisive close above the EMA50 (149.81) or a breakdown below the 140.00 support with increased volume would create a clearer directional bias, canceling the current wait stance.
+A strong bullish engulfing candle or a daily close above the 149.66 EMA 50 level would completely invalidate this bearish setup.
 
 ---
 

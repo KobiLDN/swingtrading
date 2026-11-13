@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-12T15:03:31Z",
+  "generated": "2026-11-13T14:29:32Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Holds 102.88 as EUR/USD Tests 1.1056, GBP/USD Eyes 1.3200",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073156998.html?.tsrc=rss",
+        "time_published": "2026-11-13 07:31",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY heads for its best week since September on Fed hike bets, while EUR/USD tests 1.1056 and GBP/USD slips into its 1.3243 pivot zone."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Eyes 103.15 at 19-Month High as EUR/USD, GBP/USD Slide",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-075128128.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-11-04 07:30",
         "source": "Finance",
         "summary": "US dollar price forecast: Democrats\u2019 congressional win puts DXY support at 101.180 in focus as EUR/USD eyes 1.12696 and GBP/USD tests 1.3479 before the BoE."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds 101.54 as EUR/USD and GBP/USD Face US Midterms",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073031876.html?.tsrc=rss",
-        "time_published": "2026-11-03 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY trades near 101.74 as Americans vote. EUR/USD faces resistance at 1.1223, while GBP/USD tests 1.3435 ahead of the BoE decision."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: DXY Holds 102.88 as EUR/USD Tests 1.1056, GBP/USD Eyes 1.3200",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073156998.html?.tsrc=rss",
+        "time_published": "2026-11-13 07:31",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY heads for its best week since September on Fed hike bets, while EUR/USD tests 1.1056 and GBP/USD slips into its 1.3243 pivot zone."
+      },
+      {
         "title": "US Dollar Price Forecast: DXY Eyes 103.15 at 19-Month High as EUR/USD, GBP/USD Slide",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-075128128.html?.tsrc=rss",
         "time_published": "2026-11-12 07:51",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-04 07:30",
         "source": "Finance",
         "summary": "US dollar price forecast: Democrats\u2019 congressional win puts DXY support at 101.180 in focus as EUR/USD eyes 1.12696 and GBP/USD tests 1.3479 before the BoE."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds 101.54 as EUR/USD and GBP/USD Face US Midterms",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073031876.html?.tsrc=rss",
-        "time_published": "2026-11-03 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY trades near 101.74 as Americans vote. EUR/USD faces resistance at 1.1223, while GBP/USD tests 1.3435 ahead of the BoE decision."
       }
     ],
     "xauusd": [],
@@ -148,6 +148,20 @@ window.NEWS_DATA = {
         "summary": "Spot gold was down 3% while spot silver dropped below $50 an ounce for the first time since November 2025."
       },
       {
+        "title": "Silver ETF vs. Silver Miners ETF: Which Has Held Up Better This Year?",
+        "url": "https://www.fool.com/investing/2026/11/12/silver-etf-vs-silver-miners-etf-which-has-held-up/?.tsrc=rss",
+        "time_published": "2026-11-12 19:20",
+        "source": "Fool",
+        "summary": "The Global X Silver Miners ETF is thumping the iShares Silver Trust, and that condition could persist even if the commodity's price rebounds."
+      },
+      {
+        "title": "What $10,000 in Silver on Jan. 1 Is Worth Today",
+        "url": "https://www.fool.com/investing/2026/11/12/what-10000-in-silver-on-jan-1-is-worth-today/?.tsrc=rss",
+        "time_published": "2026-11-12 16:35",
+        "source": "Fool",
+        "summary": "Silver prices have pulled back nearly 30% in 2026."
+      },
+      {
         "title": "Could Silver Skyrocket Before the End of 2026?",
         "url": "https://www.fool.com/investing/2026/11/10/could-silver-skyrocket-before-the-end-of-2026/?.tsrc=rss",
         "time_published": "2026-11-10 15:05",
@@ -160,78 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-11-03 11:41",
         "source": "Stocktwits",
         "summary": "Gold futures for January 2027 fell on Tuesday; analysts highlighted $4,000 as the key level to watch for the precious metal."
-      },
-      {
-        "title": "Gold Just Fell Below $4,000 After Its Worst Week in Five Months",
-        "url": "https://247wallst.com/investing/2026/10/24/gold-just-fell-below-4000-after-its-worst-week-in-five-months/?.tsrc=rss",
-        "time_published": "2026-10-24 12:27",
-        "source": "247wallst",
-        "summary": "Gold cracked a key psychological level for the second time this year as margin calls, soaring oil prices, and rising rate-hike odds turned the classic safe haven into a liability. Now two events in the next week will decide whether buyers can hold the line."
-      },
-      {
-        "title": "Gold Is Sliding Back Toward $4,000 as the Haven Trade Breaks",
-        "url": "https://247wallst.com/investing/2026/10/23/gold-is-sliding-back-toward-4000-as-the-haven-trade-breaks/?.tsrc=rss",
-        "time_published": "2026-10-23 13:22",
-        "source": "247wallst",
-        "summary": "Stocks sold off, Treasuries rallied, and gold collapsed anyway, breaking the rule that bullion rises when markets panic. Something shifted in how traders are pricing fear, and the Fed decision on October 28 could make it permanent."
       }
     ],
     "spx": [
       {
-        "title": "What SPDR S&P 500 ETF (SPY) Bought: Apple Leads on Nov. 10",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110413896.html?.tsrc=rss",
-        "time_published": "2026-11-12 11:04",
+        "title": "SPDR S&P 500 ETF (SPY) Buys $335.9 Million More Apple on Nov. 11",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110304063.html?.tsrc=rss",
+        "time_published": "2026-11-13 11:03",
         "source": "Finance",
-        "summary": "The fund bought $1.96 billion more than it sold, with Apple's $153.4 million increase the largest."
+        "summary": "The fund added $4.25 billion in gross purchases and sold nothing, increasing 502 positions."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Nvidia Leadership Uncertainty",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140846632.html?.tsrc=rss",
-        "time_published": "2026-11-12 14:08",
+        "title": "ETFs Bought $107.9 Million of Visa (V) on Nov. 11",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-107-9-million-110141909.html?.tsrc=rss",
+        "time_published": "2026-11-13 11:01",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.7% and the actively tr"
+        "summary": "ETFs bought $107.9 million of Visa (V) on Wednesday, Nov. 11."
       },
       {
-        "title": "ETFs Bought $83.8 Million of Alphabet (GOOG) on Nov. 10",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-83-8-million-110149451.html?.tsrc=rss",
-        "time_published": "2026-11-12 11:01",
+        "title": "ETF Activity: SPY Leads With $4.25 Billion Inflow on Nov. 11",
+        "url": "https://finance.yahoo.com/markets/options/articles/etf-activity-spy-leads-4-110011821.html?.tsrc=rss",
+        "time_published": "2026-11-13 11:00",
         "source": "Finance",
-        "summary": "ETFs added $83.8 million of Alphabet (GOOG) on Tuesday, Nov. 10, with 35 funds buying and 18 selling."
+        "summary": "Large-cap funds pulled in fresh money while QQQ and IVV saw estimated outflows."
       },
       {
-        "title": "ETFs Bought $88.9 Million of Costco (COST) on Nov. 10",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-88-9-million-110145691.html?.tsrc=rss",
-        "time_published": "2026-11-12 11:01",
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Producer Inflation Trails Forecasts",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141316665.html?.tsrc=rss",
+        "time_published": "2026-11-13 14:13",
         "source": "Finance",
-        "summary": "Invesco QQQ led the buying as 38 ETFs added shares and 14 sold."
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad"
       },
       {
-        "title": "ETFs Are Buying Tesla (TSLA) on Nov. 10",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-tesla-tsla-nov-110053409.html?.tsrc=rss",
-        "time_published": "2026-11-12 11:00",
-        "source": "Finance",
-        "summary": "ETFs bought $131.1 million of Tesla stock on balance Tuesday."
+        "title": "$1 Million In SCHD Five Years Ago: What Is It Worth Now?",
+        "url": "https://www.trefis.com/stock/schd/articles/624814/1-million-in-schd-five-years-ago-what-is-it-worth-now/2026-11-13?.tsrc=rss",
+        "time_published": "2026-11-13 12:12",
+        "source": "Trefis",
+        "summary": "This week the headlines were loud: a chip giant's CEO, an IPO, a hot inflation print. Before the weekend, with coffee and your brokerage statement, a quieter question is worth five minutes. Suppose you had put $1 million into SCHD, the Schwab dividend fund, in November 2021 and reinvested every divi"
       },
       {
-        "title": "Seagate\u2019s Legitimacy as a Play on AI Hardware Demand is About To Be Tested",
-        "url": "https://247wallst.com/investing/2026/11/12/seagates-legitimacy-as-a-play-on-ai-hardware-demand-is-about-to-be-tested/?.tsrc=rss",
-        "time_published": "2026-11-12 12:15",
-        "source": "247wallst",
-        "summary": "Seagate beat earnings for the sixth straight quarter, yet its shares sank 20% within a week and still trade at a bargain multiple. What are investors seeing in those hard drives that Wall Street's bulls are missing?"
+        "title": "Tesla (TSLA) Sees $76.2 Million in Net ETF Buying on Wednesday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-sees-76-2-110209047.html?.tsrc=rss",
+        "time_published": "2026-11-13 11:02",
+        "source": "Finance",
+        "summary": "ETFs bought $76.2 million of Tesla stock on Wednesday, Nov. 11, as 42 funds added shares and 11 trimmed."
       },
       {
-        "title": "ETFs Are Net Sellers of Dominion (D) on Nov. 10",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-dominion-d-110247142.html?.tsrc=rss",
-        "time_published": "2026-11-12 11:02",
+        "title": "42 ETFs Add to Alphabet (GOOG) on Wednesday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/42-etfs-add-alphabet-goog-110203456.html?.tsrc=rss",
+        "time_published": "2026-11-13 11:02",
         "source": "Finance",
-        "summary": "ETFs sold a net $27.3 million of Dominion on Tuesday, with 25 funds buying and 13 selling."
+        "summary": "ETFs bought $78.6 million of Alphabet (GOOG) shares, with 42 buyers against 12 sellers."
       },
       {
-        "title": "45 ETFs Add to Amgen (AMGN) Holdings on Tuesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/45-etfs-add-amgen-amgn-110201664.html?.tsrc=rss",
-        "time_published": "2026-11-12 11:02",
+        "title": "55 ETFs Add to Meta Platforms (META) on Nov. 11",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/55-etfs-add-meta-platforms-110147447.html?.tsrc=rss",
+        "time_published": "2026-11-13 11:01",
         "source": "Finance",
-        "summary": "ETFs bought a net $66.8 million of Amgen stock on Tuesday, Nov. 10."
+        "summary": "ETFs bought $102.4 million of Meta Platforms stock in Wednesday's session."
       }
     ],
     "oil": [
@@ -257,6 +257,20 @@ window.NEWS_DATA = {
         "summary": "Brent crude futures reached a six-month high on Friday as attacks on Saudi Arabia and concerns over further Middle East escalation fueled fears of oil supply disruptions."
       },
       {
+        "title": "SolarEdge Slides 5% as Rising Yields Weigh on Solar Stocks; Sunrun Drops 4%, Enphase Falls 3%",
+        "url": "https://247wallst.com/investing/2026/11/12/solaredge-slides-5-as-rising-yields-weigh-on-solar-stocks-sunrun-drops-4-enphase-falls-3/?.tsrc=rss",
+        "time_published": "2026-11-12 18:57",
+        "source": "247wallst",
+        "summary": "A blowout earnings beat sounded like good news for SolarEdge, yet its stock is sliding with the whole solar sector. The culprit sits in the bond market, and some solar names feel it far more than others."
+      },
+      {
+        "title": "The Treasury Secretary Is Now Living on a Military Base After Iranian Threats",
+        "url": "https://247wallst.com/investing/2026/11/12/the-treasury-secretary-is-now-living-on-a-military-base-after-iranian-threats/?.tsrc=rss",
+        "time_published": "2026-11-12 17:23",
+        "source": "247wallst",
+        "summary": "Markets barely flinched when news broke that a cabinet secretary had moved onto a military base. Yet the quiet in oil and long bonds may hide a bigger risk for anyone holding USO or TLT, and a few scheduled events could expose it."
+      },
+      {
         "title": "Sector Update: Energy Stocks Rise Pre-Bell Thursday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-rise-pre-142639076.html?.tsrc=rss",
         "time_published": "2026-11-12 14:26",
@@ -276,20 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-10 14:19",
         "source": "Finance",
         "summary": "Energy stocks were falling pre-bell Tuesday, with the State Street Energy Select Sector SPDR ETF (XL"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Decline Premarket Monday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-142516412.html?.tsrc=rss",
-        "time_published": "2026-11-09 14:25",
-        "source": "Finance",
-        "summary": "Energy stocks were declining premarket Monday, with the State Street Energy Select Sector SPDR ETF ("
-      },
-      {
-        "title": "Physical Oil Just Went From a Bidding War to a Fire Sale",
-        "url": "https://247wallst.com/investing/2026/11/04/physical-oil-just-went-from-a-bidding-war-to-a-fire-sale/?.tsrc=rss",
-        "time_published": "2026-11-04 16:04",
-        "source": "247wallst",
-        "summary": "Refiners who were fighting over every available barrel a month ago are now turning down offers and leaving Nigerian cargoes unsold, yet futures keep pricing in a war that the physical market seems to be moving past."
       }
     ]
   }

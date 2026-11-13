@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-11-11
-**Generated:** 2026-11-12T15:02:54Z
+**Date:** 2026-11-12
+**Generated:** 2026-11-13T14:29:02Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,26 +18,26 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 5/10 |
-| **Support** | 750.0, 740.59, 730.0 |
-| **Resistance** | 761.7, 770.0, 780.0 |
+| **Support** | 750.0, 740.57, 730.0 |
+| **Resistance** | 761.52, 770.0, 780.0 |
 
 ---
 
 ## Analysis
 
-Price action does not confirm a clear trend. The price (759.81) sits just below the 50‑day EMA (761.7) and well above the 200‑day EMA (740.59), placing the market in a neutral zone. The EMA crossover is not triggered, and the RSI at 49.86 is perfectly flat, indicating no momentum bias. The MACD is bearish (line below signal) with a declining histogram, but this bearish signal is not supported by a strong downward price move, suggesting only mild selling pressure.  
+The overall trend is neutral with price (757.12) sitting below the EMA50 (761.52) but above the EMA200 (740.57). The EMA50 remains above the EMA200, indicating a longer-term bullish structure, but the short-term momentum has shifted bearish as price has broken below the faster moving average. The RSI at 48.5 is neutral, offering no directional bias, while the MACD is bearish (line below signal and negative histogram), confirming the short-term selling pressure.  
 
-The candlestick sequence over the last five days—Evening Star, Inverted Hammer, Morning Star—reflects indecision and whipsaw action. The Evening Star initially signaled a bearish reversal, followed by an Inverted Hammer (possible bottoming pattern) and then a Morning Star (bullish reversal). This conflicting sequence prevents any reliable directional bias. No clear chart patterns like flags, triangles, or double tops/bottoms are discernible from the data provided.  
+The presence of a Morning Star candlestick pattern within the last five candles is a bullish reversal signal, suggesting potential buying interest after a decline. However, this pattern is contradicted by the MACD bearishness and the fact that price has yet to reclaim the EMA50. The inverted hammer that preceded the Morning Star adds ambiguity—it could indicate a failed breakout or a consolidation phase. Without price confirmation (e.g., a close above 761.52), the pattern lacks reliability.  
 
-Key support lies at the round number 750 and the 200‑day EMA at 740.59, while resistance is nearby at the 50‑day EMA (761.7) and the psychological 770 level. Without a decisive break above 762 or below 750, the market is likely to remain range‑bound. The RSI and MACD show no confluence with a clear trend—RSI is neutral, MACD is bearish, and price is sandwiched between EMAs—so no high‑confidence trade setup exists.  
+Key support lies at the EMA200 (740.57) and the psychological 750 level. Resistance is clear at the EMA50 (761.52), followed by the 770 area. The current risk/reward is unattractive because the price is sandwiched between these levels, with no clear catalyst to break the range. The signal score of 5/10 reflects the mixed technical evidence—bullish candlesticks versus bearish momentum indicators.  
 
-Risk assessment is unfavorable due to low directional conviction and mixed signals. The signal score of 5/10 accurately reflects the lack of edge. The best course is to wait for either a confirmed breakout above 762 with strong volume and RSI > 55, or a breakdown below 750 with accelerating bearish momentum, before entering a trade.
+Given the conflicting signals and the lack of a decisive trend, the prudent action is to wait for either a breakout above EMA50 (confirming bullish resumption) or a breakdown below EMA200 (signaling a trend reversal). Attempting a trade now would require fighting against the MACD bearishness or trusting an unconfirmed reversal pattern, which carries elevated risk.
 
 ---
 
 ## Invalidation
 
-This wait‑and‑see setup is invalidated only by a decisive daily close above 762 (triggering a bullish bias) or below 750 (triggering a bearish bias) with corresponding volume and momentum confirmation.
+A decisive break above EMA50 (761.52) or below EMA200 (740.57) would provide a clearer directional signal, invalidating the current neutral wait stance.
 
 ---
 
