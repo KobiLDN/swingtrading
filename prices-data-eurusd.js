@@ -1,41 +1,27 @@
 window.PRICES_DATA_EURUSD = {
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "generated": "2026-11-12T14:14:36Z",
-  "date": "2026-11-12",
-  "price": 1.10927,
-  "atr": 0.0065,
-  "atr_pips": 65,
+  "generated": "2026-11-13T13:38:06Z",
+  "date": "2026-11-13",
+  "price": 1.10675,
+  "atr": 0.00637,
+  "atr_pips": 64,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.12386,
-  "ema200": 1.14367,
-  "rsi": 37.92,
-  "macd_line": -0.002748,
-  "macd_signal": -0.002419,
-  "macd_hist": -0.000329,
+  "ema50": 1.12305,
+  "ema200": 1.14316,
+  "rsi": 36.58,
+  "macd_line": -0.003463,
+  "macd_signal": -0.002675,
+  "macd_hist": -0.000788,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-11-12",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    }
-  ],
-  "score": 2,
+  "patterns": [],
+  "score": 0,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-08-05",
-      "open": 1.15331,
-      "high": 1.15597,
-      "low": 1.15262,
-      "close": 1.15542
-    },
     {
       "date": "2026-08-06",
       "open": 1.15539,
@@ -726,8 +712,15 @@ window.PRICES_DATA_EURUSD = {
       "date": "2026-11-12",
       "open": 1.10931,
       "high": 1.11032,
-      "low": 1.10667,
-      "close": 1.10927
+      "low": 1.10459,
+      "close": 1.10556
+    },
+    {
+      "date": "2026-11-13",
+      "open": 1.10553,
+      "high": 1.10732,
+      "low": 1.10446,
+      "close": 1.10675
     }
   ]
 };

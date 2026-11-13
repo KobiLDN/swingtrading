@@ -1,41 +1,27 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-11-12T14:14:35Z",
-  "date": "2026-11-12",
-  "price": 1.32652,
-  "atr": 0.00708,
-  "atr_pips": 71,
+  "generated": "2026-11-13T13:38:05Z",
+  "date": "2026-11-13",
+  "price": 1.32489,
+  "atr": 0.00697,
+  "atr_pips": 70,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33548,
-  "ema200": 1.34082,
-  "rsi": 40.55,
-  "macd_line": -0.00018,
-  "macd_signal": 0.001439,
-  "macd_hist": -0.001619,
+  "ema50": 1.33496,
+  "ema200": 1.34042,
+  "rsi": 39.88,
+  "macd_line": -0.001165,
+  "macd_signal": 0.000882,
+  "macd_hist": -0.002047,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-11-08",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
-    }
-  ],
-  "score": 4,
+  "patterns": [],
+  "score": 0,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-08-05",
-      "open": 1.34536,
-      "high": 1.34864,
-      "low": 1.34447,
-      "close": 1.34688
-    },
     {
       "date": "2026-08-06",
       "open": 1.34685,
@@ -726,8 +712,15 @@ window.PRICES_DATA_GBPUSD = {
       "date": "2026-11-12",
       "open": 1.32798,
       "high": 1.32927,
-      "low": 1.32495,
-      "close": 1.32652
+      "low": 1.32224,
+      "close": 1.32363
+    },
+    {
+      "date": "2026-11-13",
+      "open": 1.32357,
+      "high": 1.32492,
+      "low": 1.32184,
+      "close": 1.32489
     }
   ]
 };
