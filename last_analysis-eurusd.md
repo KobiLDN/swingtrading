@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-11-13
-**Generated:** 2026-11-13T14:28:27Z
+**Date:** 2026-11-16
+**Generated:** 2026-11-16T15:34:11Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | WAIT |
 | **Confidence** | LOW |
-| **Entry** | 1.10675 |
-| **Stop Loss** | 1.11315 (70 pips above entry, using ATR as guide) |
-| **Target 1** | 1.10000 |
-| **Target 2** | 1.09500 |
-| **Risk/Reward** | 1.00 (Target 1) / 1.68 (Target 2) |
-| **Score** | 0/10 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 3/10 confirmed |
 | **Support** | 1.1, 1.095, 1.09 |
-| **Resistance** | 1.11, 1.115 |
+| **Resistance** | 1.105, 1.11, 1.12052 |
 
 ---
 
 ## Analysis
 
-The price action clearly confirms the EMA trend: price is well below both the 50-period (1.12305) and 200-period (1.14316) EMAs, establishing a strong downtrend. No bullish candlestick patterns or divergences have emerged to counter this momentum. The absence of any detectable chart patterns (triangles, flags, etc.) suggests the move is purely trend-driven rather than a consolidation breakout.
+The daily chart confirms a strong downtrend with price (1.10152) trading well below both the 50-period EMA (1.12052) and 200-period EMA (1.14199). The EMA alignment and sustained bearish MACD (line below signal, histogram negative) reinforce the dominant direction. However, the recent Doji candlestick signals indecision and a potential pause in the sell-off, which reduces immediate conviction. No additional chart patterns (triangles, flags, or reversals) are evident from the given data, but the Doji could foreshadow a short-term bounce or consolidation.  
 
-RSI at 36.58 is in neutral territory but below 50, aligning with the bearish bias. MACD remains bearish with the line below the signal line and a negative histogram, providing confluence with the downtrend. Neither indicator shows signs of exhaustion or reversal, so the path of least resistance remains lower. However, the signal score of 0/10 reflects a lack of high-probability entry triggers—the move may already be extended relative to recent lows, and RSI is not oversold.
+RSI at 31.5 is neutral but approaching oversold territory (30), while MACD remains firmly bearish. There is no bullish or bearish divergence, so the momentum indicators agree with the trend, yet the lack of extreme RSI readings leaves room for further downside. The ATR of 56 pips suggests typical daily volatility, but the low signal score (3/10) reflects the conflicting presence of a Doji in an otherwise clear downtrend.  
 
-Key support near 1.1000 (psychological round number) is the first target, followed by 1.0950 and 1.0900. Resistance lies at 1.1100 (prior minor swing low), then 1.1150, and the critical EMA50 at 1.1230. A short trade at current price offers a reasonable risk-to-reward if a stop is placed above the nearest resistance cluster (1.1100–1.1130). Given the strong trend but neutral RSI and low signal score, confidence is low. A more conservative approach would be to wait for a pullback to resistance before entering, but the immediate setup still favors a sell.
+Key support lies at the psychological 1.1000 level, followed by 1.0950 and 1.0900. Immediate resistance is at 1.1050 (recent minor swing high), then 1.1100, with stronger resistance at the 50 EMA (1.12052). The best trade setup would be a sell on a retracement toward 1.1050–1.1060, but the current proximity to support and the Doji make entry risky. A wait-and-see approach is prudent until price either confirms continuation below 1.1000 or shows a clear rejection at resistance.
 
 ---
 
 ## Invalidation
 
-A daily close above 1.1100 would weaken the bearish case, while a break above the EMA50 at 1.1230 would cancel this setup entirely.
+N/A
 
 ---
 

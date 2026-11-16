@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-11-13
-**Generated:** 2026-11-13T14:28:16Z
+**Date:** 2026-11-16
+**Generated:** 2026-11-16T15:33:58Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 0/10 confirmed |
-| **Support** | 1.318, 1.315, 1.31 |
-| **Resistance** | 1.3319, 1.335, 1.3404 |
+| **Score** | 5/10 |
+| **Support** | 1.317, 1.31, 1.3 |
+| **Resistance** | 1.325, 1.3332, 1.3406 |
 
 ---
 
 ## Analysis
 
-The price at 1.32489 is well below both the 50-period EMA (1.33496) and 200-period EMA (1.34042), confirming the strong downtrend indicated by the trend label. The MACD remains bearish with the histogram negative, reinforcing the downward momentum. However, the RSI at 39.88 is neutral and not oversold, leaving room for further declines but also suggesting no extreme selling pressure that would guarantee a continuation. No candlestick patterns or divergences are present to provide an immediate trigger.  
+The overall trend remains strongly bearish, with price trading well below both the 50-period (1.33324) and 200-period (1.34057) EMAs. The price action confirms this downtrend, as each rally has been met with lower highs. However, the last five candles show a Doji followed by a Bullish Engulfing pattern, which typically signals a potential short-term reversal or at least a pause in the selling pressure. This creates a conflict between the dominant trend and the immediate candlestick formation.
 
-Key support levels near current price are derived from the ATR and round numbers: 1.3180 (one ATR below), 1.3150, and 1.3100. Resistance levels are 1.3319 (one ATR above), the 50 EMA at 1.3350, and the 200 EMA at 1.3404. The risk/reward for a short entry at current price is unattractive because a stop-loss above the 50 EMA (~1.3360) would require 111 pips of risk, while the nearest support target (1.3180) offers only 69 pips. A more distant target at 1.3100 yields a 1.34:1 ratio, which is marginal but not compelling given the lack of a confirming signal.  
+The RSI at 35.78 is neutral but leans slightly toward oversold territory, while the MACD remains bearish with the line below the signal and a negative histogram. There is no RSI divergence, so the momentum indicators align with the downtrend. The bullish engulfing pattern lacks confirmation from oscillators, reducing its reliability. No additional chart patterns (triangles, flags, etc.) are evident from the given data.
 
-The combination of a neutral RSI, bearish but not extreme MACD, and the absence of a price pattern makes this a low-conviction setup. The pre-calculated signal score of 0/10 accurately reflects the lack of actionable confluence. As a swing trader, waiting for a pullback to a resistance level or a clear breakdown with volume would provide a better risk/reward opportunity.
+Key support is near the recent swing low around 1.3170, with further support at 1.3100 and the psychological 1.3000 level. Resistance lies at 1.3250 (recent minor high), then the 50 EMA at 1.3332, and finally the 200 EMA at 1.3406. Given the strong downtrend and the potential for a bounce from the bullish engulfing, the risk/reward is unclear. A sell entry would require a rally to a resistance level, while a buy entry would need a confirmed break above the 50 EMA. Both setups carry high uncertainty.
 
 ---
 
 ## Invalidation
 
-This wait setup is invalidated if price rallies above the 50 EMA (1.3350) or forms a bullish reversal candlestick pattern on the daily chart.
+This setup is invalidated if price breaks below the 1.3170 support level, confirming the downtrend continuation and negating the bullish candlestick signal.
 
 ---
 

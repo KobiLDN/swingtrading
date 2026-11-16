@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-13T14:29:32Z",
+  "generated": "2026-11-16T15:34:44Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Holds 103.23 as EUR/USD Slides Toward 1.1010, GBP/USD Tests 1.3201",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073000661.html?.tsrc=rss",
+        "time_published": "2026-11-16 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY holds near a 19-month high above 103.23 as Fed hike odds stay firm, while EUR/USD nears 1.1010 and GBP/USD tests 1.3201."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Holds 102.88 as EUR/USD Tests 1.1056, GBP/USD Eyes 1.3200",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073156998.html?.tsrc=rss",
@@ -50,17 +57,17 @@ window.NEWS_DATA = {
         "time_published": "2026-11-05 07:30",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY trades near 101.260 ahead of US jobs data, while EUR/USD tests 1.12696 and GBP/USD faces 1.3503 before the BoE decision."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 101.180 as EUR/USD, GBP/USD Rise on Election Results",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073016125.html?.tsrc=rss",
-        "time_published": "2026-11-04 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: Democrats\u2019 congressional win puts DXY support at 101.180 in focus as EUR/USD eyes 1.12696 and GBP/USD tests 1.3479 before the BoE."
       }
     ],
     "eurusd": [
       {
+        "title": "US Dollar Price Forecast: DXY Holds 103.23 as EUR/USD Slides Toward 1.1010, GBP/USD Tests 1.3201",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073000661.html?.tsrc=rss",
+        "time_published": "2026-11-16 07:30",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY holds near a 19-month high above 103.23 as Fed hike odds stay firm, while EUR/USD nears 1.1010 and GBP/USD tests 1.3201."
+      },
+      {
         "title": "US Dollar Price Forecast: DXY Holds 102.88 as EUR/USD Tests 1.1056, GBP/USD Eyes 1.3200",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073156998.html?.tsrc=rss",
         "time_published": "2026-11-13 07:31",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-05 07:30",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY trades near 101.260 ahead of US jobs data, while EUR/USD tests 1.12696 and GBP/USD faces 1.3503 before the BoE decision."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 101.180 as EUR/USD, GBP/USD Rise on Election Results",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073016125.html?.tsrc=rss",
-        "time_published": "2026-11-04 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: Democrats\u2019 congressional win puts DXY support at 101.180 in focus as EUR/USD eyes 1.12696 and GBP/USD tests 1.3479 before the BoE."
       }
     ],
     "xauusd": [],
@@ -148,6 +148,13 @@ window.NEWS_DATA = {
         "summary": "Spot gold was down 3% while spot silver dropped below $50 an ounce for the first time since November 2025."
       },
       {
+        "title": "SLV\u2019s $149,842 Gain on a $300,000 Sale Could Be Taxed as a Collectible, Not a Stock",
+        "url": "https://247wallst.com/investing/etf/2026/11/15/slvs-149842-gain-on-a-300000-sale-could-be-taxed-as-a-collectible-not-a-stock/?.tsrc=rss",
+        "time_published": "2026-11-16 01:38",
+        "source": "247wallst",
+        "summary": "SLV trades like any stock fund, but the IRS sees something closer to a vault full of silver bars. That quirk can reshape the bill on a retiree's withdrawal, and the account holding the shares matters more than most investors realize."
+      },
+      {
         "title": "Silver ETF vs. Silver Miners ETF: Which Has Held Up Better This Year?",
         "url": "https://www.fool.com/investing/2026/11/12/silver-etf-vs-silver-miners-etf-which-has-held-up/?.tsrc=rss",
         "time_published": "2026-11-12 19:20",
@@ -167,74 +174,74 @@ window.NEWS_DATA = {
         "time_published": "2026-11-10 15:05",
         "source": "Fool",
         "summary": "The upcoming Fed meeting could play a big role in determining what happens to the price of silver before the end of the year."
-      },
-      {
-        "title": "SLV Crashes To Near 52-Week Lows, GLD Falls Pre-Market \u2013 World Gold Council Cuts 2026 Gold Investment Forecast By Half",
-        "url": "https://stocktwits.com/news-articles/markets/equity/slv-crashes-to-near-52-week-lows-gld-falls-pre-market-world-gold-council-cuts-2026-gold-investment-forecast-by-half/cNGXTZMR95V?.tsrc=rss",
-        "time_published": "2026-11-03 11:41",
-        "source": "Stocktwits",
-        "summary": "Gold futures for January 2027 fell on Tuesday; analysts highlighted $4,000 as the key level to watch for the precious metal."
       }
     ],
     "spx": [
       {
-        "title": "SPDR S&P 500 ETF (SPY) Buys $335.9 Million More Apple on Nov. 11",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110304063.html?.tsrc=rss",
-        "time_published": "2026-11-13 11:03",
+        "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Nvidia on Thursday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110358769.html?.tsrc=rss",
+        "time_published": "2026-11-16 11:03",
         "source": "Finance",
-        "summary": "The fund added $4.25 billion in gross purchases and sold nothing, increasing 502 positions."
+        "summary": "The fund sold $6.12 billion of stock and bought nothing, cutting all 503 positions."
       },
       {
-        "title": "ETFs Bought $107.9 Million of Visa (V) on Nov. 11",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-107-9-million-110141909.html?.tsrc=rss",
-        "time_published": "2026-11-13 11:01",
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Weakness in AI-Linked Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141346501.html?.tsrc=rss",
+        "time_published": "2026-11-16 14:13",
         "source": "Finance",
-        "summary": "ETFs bought $107.9 million of Visa (V) on Wednesday, Nov. 11."
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t"
       },
       {
-        "title": "ETF Activity: SPY Leads With $4.25 Billion Inflow on Nov. 11",
-        "url": "https://finance.yahoo.com/markets/options/articles/etf-activity-spy-leads-4-110011821.html?.tsrc=rss",
-        "time_published": "2026-11-13 11:00",
+        "title": "ETFs Are Net Sellers of Deere (DE) on Nov. 12",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-deere-nov-110339768.html?.tsrc=rss",
+        "time_published": "2026-11-16 11:03",
         "source": "Finance",
-        "summary": "Large-cap funds pulled in fresh money while QQQ and IVV saw estimated outflows."
+        "summary": "ETFs sold a net $51.2 million of Deere on Thursday, with more funds trading the other way."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Producer Inflation Trails Forecasts",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141316665.html?.tsrc=rss",
-        "time_published": "2026-11-13 14:13",
+        "title": "ETFs Are Net Sellers of Analog Devices (ADI) on Thursday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-analog-devices-110319947.html?.tsrc=rss",
+        "time_published": "2026-11-16 11:03",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.4% and the actively trad"
+        "summary": "ETFs sold a net $61.5 million of Analog Devices (ADI) on Nov. 12."
       },
       {
-        "title": "$1 Million In SCHD Five Years Ago: What Is It Worth Now?",
-        "url": "https://www.trefis.com/stock/schd/articles/624814/1-million-in-schd-five-years-ago-what-is-it-worth-now/2026-11-13?.tsrc=rss",
-        "time_published": "2026-11-13 12:12",
-        "source": "Trefis",
-        "summary": "This week the headlines were loud: a chip giant's CEO, an IPO, a hot inflation print. Before the weekend, with coffee and your brokerage statement, a quieter question is worth five minutes. Suppose you had put $1 million into SCHD, the Schwab dividend fund, in November 2021 and reinvested every divi"
+        "title": "ETFs Are Net Sellers of AbbVie (ABBV) on Nov. 12",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-abbvie-abbv-110313792.html?.tsrc=rss",
+        "time_published": "2026-11-16 11:03",
+        "source": "Finance",
+        "summary": "ETFs sold a net $62.0 million of AbbVie on Thursday, with 40 funds buying and 16 selling."
       },
       {
-        "title": "Tesla (TSLA) Sees $76.2 Million in Net ETF Buying on Wednesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-sees-76-2-110209047.html?.tsrc=rss",
-        "time_published": "2026-11-13 11:02",
+        "title": "ETFs Are Net Sellers of Accenture (ACN) on Nov. 12",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-accenture-acn-110237195.html?.tsrc=rss",
+        "time_published": "2026-11-16 11:02",
         "source": "Finance",
-        "summary": "ETFs bought $76.2 million of Tesla stock on Wednesday, Nov. 11, as 42 funds added shares and 11 trimmed."
+        "summary": "ETFs sold a net $113.8 million of Accenture on Thursday, with 34 funds buying and 14 selling."
       },
       {
-        "title": "42 ETFs Add to Alphabet (GOOG) on Wednesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/42-etfs-add-alphabet-goog-110203456.html?.tsrc=rss",
-        "time_published": "2026-11-13 11:02",
+        "title": "ETFs Are Net Sellers of NVIDIA (NVDA) on Nov. 12",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-nvidia-nvda-110221004.html?.tsrc=rss",
+        "time_published": "2026-11-16 11:02",
         "source": "Finance",
-        "summary": "ETFs bought $78.6 million of Alphabet (GOOG) shares, with 42 buyers against 12 sellers."
+        "summary": "NVIDIA saw $287.5 million in net ETF selling on Nov. 12, with 20 funds selling and 66 buying."
       },
       {
-        "title": "55 ETFs Add to Meta Platforms (META) on Nov. 11",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/55-etfs-add-meta-platforms-110147447.html?.tsrc=rss",
-        "time_published": "2026-11-13 11:01",
+        "title": "ETFs Are Net Sellers of Eli Lilly (LLY) on Nov. 12",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-eli-lilly-110217898.html?.tsrc=rss",
+        "time_published": "2026-11-16 11:02",
         "source": "Finance",
-        "summary": "ETFs bought $102.4 million of Meta Platforms stock in Wednesday's session."
+        "summary": "Eli Lilly (LLY) drew $300.9 million in net ETF selling Thursday."
       }
     ],
     "oil": [
+      {
+        "title": "Sector Update: Energy Stocks Advance Premarket Friday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-142520549.html?.tsrc=rss",
+        "time_published": "2026-11-13 14:25",
+        "source": "Finance",
+        "summary": "Energy stocks were advancing premarket Friday, with the State Street Energy Select Sector SPDR ETF ("
+      },
       {
         "title": "Sector Update: Energy Stocks Edge Higher Pre-Bell Wednesday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-142600570.html?.tsrc=rss",
@@ -257,6 +264,13 @@ window.NEWS_DATA = {
         "summary": "Brent crude futures reached a six-month high on Friday as attacks on Saudi Arabia and concerns over further Middle East escalation fueled fears of oil supply disruptions."
       },
       {
+        "title": "Sector Update: Energy Stocks Decline Premarket Monday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-142547112.html?.tsrc=rss",
+        "time_published": "2026-11-16 14:25",
+        "source": "Finance",
+        "summary": "Energy stocks were declining premarket Monday, with the State Street Energy Select Sector SPDR ETF ("
+      },
+      {
         "title": "SolarEdge Slides 5% as Rising Yields Weigh on Solar Stocks; Sunrun Drops 4%, Enphase Falls 3%",
         "url": "https://247wallst.com/investing/2026/11/12/solaredge-slides-5-as-rising-yields-weigh-on-solar-stocks-sunrun-drops-4-enphase-falls-3/?.tsrc=rss",
         "time_published": "2026-11-12 18:57",
@@ -276,20 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-12 14:26",
         "source": "Finance",
         "summary": "Energy stocks were rising pre-bell Thursday, with the State Street Energy Select Sector SPDR ETF (XL"
-      },
-      {
-        "title": "Oil Prices Just Fell to Their Lowest Since August as Trump Says the Iran War Is \u2018Effectively Over\u2019",
-        "url": "https://247wallst.com/investing/2026/11/10/oil-prices-just-fell-to-their-lowest-since-august-as-trump-says-the-iran-war-is-effectively-over/?.tsrc=rss",
-        "time_published": "2026-11-10 18:34",
-        "source": "247wallst",
-        "summary": "Futures sank on words alone, with no signed deal and Iran denying any talks exist. Why did one oil fund crater while Exxon and Chevron barely flinched, and what number could reverse the slide?"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Fall Pre-Bell Tuesday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-141948947.html?.tsrc=rss",
-        "time_published": "2026-11-10 14:19",
-        "source": "Finance",
-        "summary": "Energy stocks were falling pre-bell Tuesday, with the State Street Energy Select Sector SPDR ETF (XL"
       }
     ]
   }
