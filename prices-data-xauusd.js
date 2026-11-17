@@ -1,21 +1,21 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-11-16T14:17:12Z",
-  "date": "2026-11-16",
-  "price": 3864.51,
-  "atr": 65.9,
-  "atr_pips": 66,
+  "generated": "2026-11-17T15:09:28Z",
+  "date": "2026-11-17",
+  "price": 3858.49,
+  "atr": 64.72,
+  "atr_pips": 65,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4066.94,
-  "ema200": 4368.79,
-  "rsi": 36.57,
-  "macd_line": -52.689337,
-  "macd_signal": -41.182769,
-  "macd_hist": -11.506568,
+  "ema50": 4058.77,
+  "ema200": 4366.82,
+  "rsi": 36.14,
+  "macd_line": -55.603617,
+  "macd_signal": -44.06795,
+  "macd_hist": -11.535667,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -36,18 +36,17 @@ window.PRICES_DATA_XAUUSD = {
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-11-17",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-14",
-      "open": 4006.0,
-      "high": 4100.75,
-      "low": 3984.45,
-      "close": 4055.53
-    },
     {
       "date": "2026-07-15",
       "open": 4055.47,
@@ -739,7 +738,14 @@ window.PRICES_DATA_XAUUSD = {
       "open": 3880.43,
       "high": 3901.18,
       "low": 3833.62,
-      "close": 3864.51
+      "close": 3864.44
+    },
+    {
+      "date": "2026-11-17",
+      "open": 3864.36,
+      "high": 3886.42,
+      "low": 3837.09,
+      "close": 3858.49
     }
   ]
 };
