@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-11-16T15:34:37Z",
+  "generated": "2026-11-17T15:54:02Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-11-13",
-  "decision": "WAIT",
+  "date": "2026-11-17",
+  "decision": "SELL",
   "confidence": "LOW",
-  "entry": "N/A",
-  "stop_loss": "N/A",
-  "target_1": "N/A",
-  "target_2": "N/A",
-  "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The price at 44.13 remains entrenched in a strong downtrend, trading well below both the EMA50 (51.41) and EMA200 (60.08). The trend-following indicators are bearish, and the signal score of 4/10 reflects low confidence in a reversal. However, RSI(14) at 32.36 shows bullish divergence, and MACD has turned positive with the line above the signal and a rising histogram. This divergence suggests selling pressure may be exhausting, but without a confirmed candlestick pattern or price action breakout, the setup lacks conviction.\n\nNo additional chart patterns are evident from the data. The nearest support is the recent low near 43.50, with further support at the ATR-based level of 42.60. Resistance is seen at 44.50 (prior swing high), followed by 45.00 and 45.66 (current ATR upper band). The conflicting signals between the bearish trend and bullish momentum oscillators create a high-risk environment. A prudent approach is to wait for either a confirmed breakout above resistance or a clear reversal pattern before entering.\n\nThe RSI and MACD do not fully agree with the trend; they hint at a potential bottoming process, but the trend is still dominant. The best trade setup currently is no trade, as the risk of a continued downtrend outweighs the speculative bounce opportunity. A higher confidence long would require price to hold above 43.50 and close above 44.50, or a bullish candlestick pattern to emerge.",
-  "invalidation": "A decisive break below 43.00 would cancel any bullish divergence consideration and confirm the continuation of the strong downtrend.",
+  "entry": "43.03",
+  "stop_loss": "44.55",
+  "target_1": "41.51",
+  "target_2": "40.00",
+  "risk_reward": "1:1 (target 1) / 1:2 (target 2)",
+  "score": "0/10",
+  "analysis": "Price at $43.03 sits far below both the 50 EMA ($50.74) and 200 EMA ($59.95), confirming a strong downtrend. The ATR(14) of $1.52 indicates above-average daily volatility, consistent with trending conditions. No bullish candlestick patterns or RSI divergence are present to suggest a reversal, and the MACD remains bearish with a negative histogram. The RSI at 31.77 is in neutral territory but trending lower, leaving room for further downside before reaching oversold levels (<30).  \n\nInferred chart patterns are absent, but the persistent price rejection from the EMAs and the absence of any consolidation or support formation point to a continued decline. Key resistance nearest to price is the ATR-based level at $44.55 (current price + 1 ATR), which also aligns with a potential prior swing high if one existed. Support levels are projected using ATR multiples below price: $41.51 (-1 ATR), $40.00 (round number and psychological support), and $38.50 (-3 ATR). The confluence of bearish indicators\u2014trend, MACD, and RSI not yet oversold\u2014suggests the path of least resistance is lower.  \n\nThe best trade setup is a short entry at the current price, as the trend is unambiguous and there is no counter-signal. A stop loss above the nearest resistance ($44.55) limits risk to one ATR. The first target at $41.51 offers a 1:1 risk/reward, while the second at $40.00 improves the ratio to 1:2. Given the lack of a confirmed candlestick pattern (score 0/10), confidence is low, but the technical alignment supports a bearish bias. Traders should be cautious of a sudden bounce if the RSI dips below 30, but until then, the downtrend remains intact.",
+  "invalidation": "A daily close above $44.55 would break the immediate resistance and suggest the downtrend is stalling, invalidating this short setup.",
   "support_levels": [
-    43.5,
-    42.6,
-    41.0
+    41.51,
+    40.0,
+    38.5
   ],
   "resistance_levels": [
-    44.5,
-    45.0,
-    45.66
+    44.55,
+    46.07,
+    50.74
   ]
 };

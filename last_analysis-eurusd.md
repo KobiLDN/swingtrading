@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-11-16
-**Generated:** 2026-11-16T15:34:11Z
+**Date:** 2026-11-17
+**Generated:** 2026-11-17T15:53:16Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 3/10 confirmed |
-| **Support** | 1.1, 1.095, 1.09 |
-| **Resistance** | 1.105, 1.11, 1.12052 |
+| **Score** | 4/10 |
+| **Support** | 1.095, 1.09, 1.085 |
+| **Resistance** | 1.105, 1.11, 1.1196 |
 
 ---
 
 ## Analysis
 
-The daily chart confirms a strong downtrend with price (1.10152) trading well below both the 50-period EMA (1.12052) and 200-period EMA (1.14199). The EMA alignment and sustained bearish MACD (line below signal, histogram negative) reinforce the dominant direction. However, the recent Doji candlestick signals indecision and a potential pause in the sell-off, which reduces immediate conviction. No additional chart patterns (triangles, flags, or reversals) are evident from the given data, but the Doji could foreshadow a short-term bounce or consolidation.  
+The daily chart shows a strong downtrend with price at 1.09907, well below both the EMA50 (1.11963) and EMA200 (1.1416). This confirms the bearish bias, and no bullish reversal pattern has emerged. The recent Doji candle suggests indecision, but it appears after a prolonged decline and does not yet signal a trend change. Without a clear breakout or reversal pattern (e.g., double bottom, bullish engulfing), the path of least resistance remains downward.  
 
-RSI at 31.5 is neutral but approaching oversold territory (30), while MACD remains firmly bearish. There is no bullish or bearish divergence, so the momentum indicators agree with the trend, yet the lack of extreme RSI readings leaves room for further downside. The ATR of 56 pips suggests typical daily volatility, but the low signal score (3/10) reflects the conflicting presence of a Doji in an otherwise clear downtrend.  
+The RSI at 29.43 is oversold, which often hints at a potential bounce, but there is no bullish divergence to support a reversal. The MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend. This lack of confluence between oversold RSI and bearish MACD creates a conflicting signal, reducing confidence in any immediate trade. The signal score of 4/10 reflects this uncertainty.  
 
-Key support lies at the psychological 1.1000 level, followed by 1.0950 and 1.0900. Immediate resistance is at 1.1050 (recent minor swing high), then 1.1100, with stronger resistance at the 50 EMA (1.12052). The best trade setup would be a sell on a retracement toward 1.1050–1.1060, but the current proximity to support and the Doji make entry risky. A wait-and-see approach is prudent until price either confirms continuation below 1.1000 or shows a clear rejection at resistance.
+Key support levels near current price are the psychological 1.0950 and 1.0900 round numbers, with further support at 1.0850. Resistance lies at 1.1050 (recent minor swing high), then 1.1100, and the EMA50 at 1.1196. Given the strong downtrend and oversold RSI, the most prudent approach is to wait for a clearer setup—either a confirmed breakdown below 1.0950 to sell, or a bullish reversal pattern with RSI divergence to buy.
 
 ---
 
 ## Invalidation
 
-N/A
+A decisive close above the EMA50 (1.1196) would invalidate the downtrend and shift the bias to neutral or bullish.
 
 ---
 
