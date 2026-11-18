@@ -1,30 +1,24 @@
 window.PRICES_DATA_XAUUSD = {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-11-17T15:09:28Z",
-  "date": "2026-11-17",
-  "price": 3858.49,
-  "atr": 64.72,
-  "atr_pips": 65,
+  "generated": "2026-11-18T14:47:18Z",
+  "date": "2026-11-18",
+  "price": 3773.23,
+  "atr": 68.76,
+  "atr_pips": 69,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4058.77,
-  "ema200": 4366.82,
-  "rsi": 36.14,
-  "macd_line": -55.603617,
-  "macd_signal": -44.06795,
-  "macd_hist": -11.535667,
+  "ema50": 4047.14,
+  "ema200": 4362.98,
+  "rsi": 30.68,
+  "macd_line": -64.769585,
+  "macd_signal": -48.35745,
+  "macd_hist": -16.412135,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-11-13",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
-    },
     {
       "date": "2026-11-15",
       "name": "Bullish Engulfing",
@@ -47,13 +41,6 @@ window.PRICES_DATA_XAUUSD = {
   "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-15",
-      "open": 4055.47,
-      "high": 4080.83,
-      "low": 4017.3,
-      "close": 4062.06
-    },
     {
       "date": "2026-07-16",
       "open": 4058.8,
@@ -743,9 +730,16 @@ window.PRICES_DATA_XAUUSD = {
     {
       "date": "2026-11-17",
       "open": 3864.36,
-      "high": 3886.42,
+      "high": 3891.96,
       "low": 3837.09,
-      "close": 3858.49
+      "close": 3846.8
+    },
+    {
+      "date": "2026-11-18",
+      "open": 3846.91,
+      "high": 3858.4,
+      "low": 3742.26,
+      "close": 3773.23
     }
   ]
 };
