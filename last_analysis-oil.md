@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-11-17
-**Generated:** 2026-11-17T15:54:10Z
+**Date:** 2026-11-18
+**Generated:** 2026-11-18T15:32:40Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | BUY |
 | **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 140.0, 137.0, 128.94 |
-| **Resistance** | 145.0, 148.87, 150.0 |
+| **Entry** | 138.03 |
+| **Stop Loss** | 132.95 |
+| **Target 1** | 143.19 |
+| **Target 2** | 148.36 |
+| **Risk/Reward** | 2.03 |
+| **Score** | 4/10 confirmed |
+| **Support** | 132.95, 129.06, 124.0 |
+| **Resistance** | 143.19, 148.36, 153.44 |
 
 ---
 
 ## Analysis
 
-The overall trend is labelled neutral, but price action is currently below the 50-period EMA (148.87) while remaining above the 200-period EMA (128.94). This creates a mixed picture: the long-term structure still leans bullish (EMA200 slope), but short‑term momentum is weak as price fails to reclaim the faster moving average. No clear chart patterns (triangles, flags, double tops/bottoms) are present from the last five candles, so we rely on oscillator signals and divergence for clues.
+The EMA structure confirms a neutral trend with a bearish intermediate bias. Price at 138.03 is firmly trapped in the "dead zone" between the falling 50 EMA (148.36) acting as dynamic resistance and the rising 200 EMA (129.06) acting as dynamic support. The price action confirms this consolidation; it is not trending strongly in either direction but is coiling within the wedge. The distance to the 200 EMA (8.97 pts) is tighter than the distance to the 50 EMA (10.33 pts), placing the price slightly closer to the long-term support level.
 
-RSI(14) at 40.51 sits in neutral territory but is close to the oversold threshold, and a bullish RSI divergence has been detected — this is a leading indication that selling pressure may be exhausting and a reversal could be forming. In contrast, the MACD remains bearish (line below signal) with a negative histogram, confirming that downside momentum is still in control. The divergence and MACD are thus in conflict; one suggests a potential bottom, the other warns that the trend hasn’t turned yet. The overall signal score of 4/10 reflects this lack of clear confluence.
+No candlestick patterns were detected, but the RSI divergence is the dominant chart pattern. The RSI at 35.62 is neutral but flashing a bullish divergence, suggesting that underlying momentum is shifting upward even as price lingers near the bottom of the range. The MACD is bearish (line below signal, histogram negative), creating a direct conflict with the RSI divergence. In swing trading, the RSI divergence is a leading indicator of a trend shift, while the MACD is a lagging indicator confirming current momentum. This confluence favors a buy setup with strict risk management, betting on the divergence playing out over the next several bars.
 
-Given the contradictory signals and the neutral trend label, the prudent action is to wait for further confirmation. A decisive move above the 50 EMA (148.87) would align with the bullish divergence and open a long opportunity, while a break below the 200 EMA (128.94) would shift the long-term trend bearish and favor shorts. Until price resolves this indecision, entering a trade carries elevated risk, especially with an ATR of 5.26 points that can produce sharp moves against an unconfirmed position.
+The best trade setup is a buy at current levels targeting a mean reversion to the 50 EMA. The risk/reward is favorable (2.03:1) if the 200 EMA holds as support. The stop loss is placed 1 ATR below entry to protect against the bearish MACD momentum overwhelming the RSI divergence. Risk is assessed as high due to the conflicting signals, the neutral trend label, and the low signal score, but the RSI divergence provides the specific edge required for a swing entry.
 
 ---
 
 ## Invalidation
 
-If price breaks and closes below the 140.00 psychological support, the bullish divergence loses credibility and the bearish MACD would dominate, cancelling any potential long setup.
+A close below the 200 EMA (129.06) or a failure of the RSI divergence to materialize (price making a fresh lower low without RSI confirming a higher low) would cancel this setup.
 
 ---
 

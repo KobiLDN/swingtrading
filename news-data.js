@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-17T15:54:11Z",
+  "generated": "2026-11-18T15:32:41Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Tests 103.74 Near 19-Month High as EUR/USD, GBP/USD Slip",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073235414.html?.tsrc=rss",
+        "time_published": "2026-11-18 07:32",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY tests 103.74 near a 19-month high as Fed officials back more hikes, EUR/USD slips below 1.1000 and GBP/USD holds 1.3174."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Eases From 19-Month High, Can EUR/USD Hold 1.1000 and GBP/USD 1.3174?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073122110.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-11-09 07:30",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY trades below 102.26 ahead of US CPI. EUR/USD tests its 1.11632 pivot while GBP/USD holds above 1.3373 after a trendline bounce."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 102.08 as EUR/USD, GBP/USD Await US NFP",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-065835858.html?.tsrc=rss",
-        "time_published": "2026-11-06 06:58",
-        "source": "Finance",
-        "summary": "US dollar price forecast: US NFP tests Fed expectations as DXY eyes 102.08, EUR/USD watches 1.11755 support and GBP/USD tests its 1.3406 pivot."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Tests 103.74 Near 19-Month High as EUR/USD, GBP/USD Slip",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073235414.html?.tsrc=rss",
+        "time_published": "2026-11-18 07:32",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY tests 103.74 near a 19-month high as Fed officials back more hikes, EUR/USD slips below 1.1000 and GBP/USD holds 1.3174."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Eases From 19-Month High, Can EUR/USD Hold 1.1000 and GBP/USD 1.3174?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073122110.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-10 08:32",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY slips below 101.73 ahead of US CPI, while EUR/USD holds above its 1.1216 pivot and GBP/USD stays above 1.3429 after a BoE hike."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Faces 102.26 as EUR/USD and GBP/USD Await US CPI",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073011814.html?.tsrc=rss",
-        "time_published": "2026-11-09 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY trades below 102.26 ahead of US CPI. EUR/USD tests its 1.11632 pivot while GBP/USD holds above 1.3373 after a trendline bounce."
       }
     ],
     "xauusd": [],
@@ -155,6 +155,13 @@ window.NEWS_DATA = {
         "summary": "Spot gold was down 3% while spot silver dropped below $50 an ounce for the first time since November 2025."
       },
       {
+        "title": "GLD, SLV Sink To Near 14-Month Lows \u2013 But This Commodities Expert Sees A \u2018Relative Bright Spot\u2019",
+        "url": "https://stocktwits.com/news-articles/markets/equity/gld-slv-sink-to-near-14-month-lows-gold-silver-prices/cNbXzasR9LJ?.tsrc=rss",
+        "time_published": "2026-11-18 10:46",
+        "source": "Stocktwits",
+        "summary": "Gold futures for December 2026 deliveries were down to $3,773.80 per ounce, while silver futures expiring in December declined to $45.68 per ounce."
+      },
+      {
         "title": "SLV\u2019s $149,842 Gain on a $300,000 Sale Could Be Taxed as a Collectible, Not a Stock",
         "url": "https://247wallst.com/investing/etf/2026/11/15/slvs-149842-gain-on-a-300000-sale-could-be-taxed-as-a-collectible-not-a-stock/?.tsrc=rss",
         "time_published": "2026-11-16 01:38",
@@ -167,71 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-11-12 19:20",
         "source": "Fool",
         "summary": "The Global X Silver Miners ETF is thumping the iShares Silver Trust, and that condition could persist even if the commodity's price rebounds."
-      },
-      {
-        "title": "What $10,000 in Silver on Jan. 1 Is Worth Today",
-        "url": "https://www.fool.com/investing/2026/11/12/what-10000-in-silver-on-jan-1-is-worth-today/?.tsrc=rss",
-        "time_published": "2026-11-12 16:35",
-        "source": "Fool",
-        "summary": "Silver prices have pulled back nearly 30% in 2026."
       }
     ],
     "spx": [
       {
-        "title": "The Overlooked JPMorgan ETF That Owns Nearly 300 of the Market\u2019s Strongest Stocks for 0.12%",
-        "url": "https://247wallst.com/investing/etf/2026/11/17/the-overlooked-jpmorgan-etf-that-owns-nearly-300-of-the-markets-strongest-stocks-for-0-12/?.tsrc=rss",
-        "time_published": "2026-11-17 12:37",
+        "title": "HDGE Has Lost More Than 90% Since 2011. It Also Gained 29% in One Quarter While the Market Sank",
+        "url": "https://247wallst.com/investing/etf/2026/11/18/hdge-has-lost-more-than-90-since-2011-it-also-gained-29-in-one-quarter-while-the-market-sank/?.tsrc=rss",
+        "time_published": "2026-11-18 12:37",
         "source": "247wallst",
-        "summary": "A much smaller rival to the popular MTUM momentum fund has quietly beaten it over one and five years, yet few investors have heard of it. Before you switch, check the trade-offs hiding behind the lower fee."
+        "summary": "One lesser-known ETF was built to profit when your retirement portfolio bleeds, yet it has wiped out nearly all of its value over time. Before you treat it as crash insurance, find out what the protection really costs."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday as Investors Await Nvidia Earnings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html?.tsrc=rss",
-        "time_published": "2026-11-17 14:16",
+        "title": "What SPDR S&P 500 ETF Trust (SPY) Bought: Apple Leads on Monday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110404302.html?.tsrc=rss",
+        "time_published": "2026-11-18 11:04",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr"
+        "summary": "The fund bought $6.73 billion in gross trades and added $6.72 billion net, with Apple's $541.4 million purchase the largest."
       },
       {
-        "title": "ETFs Are Buying Chevron (CVX) on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-chevron-cvx-friday-110158202.html?.tsrc=rss",
-        "time_published": "2026-11-17 11:01",
-        "source": "Finance",
-        "summary": "ETFs bought $105.5 million of Chevron (CVX) on Friday, Nov. 13."
-      },
-      {
-        "title": "ETFs Bought $111.9 Million of Cisco (CSCO) on Nov. 13",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-111-9-million-110152347.html?.tsrc=rss",
-        "time_published": "2026-11-17 11:01",
-        "source": "Finance",
-        "summary": "ETFs bought $111.9 million of Cisco on Friday, with 55 funds buying and 21 selling."
-      },
-      {
-        "title": "Cathie Wood and Jim Cramer Agree on These 10 Stocks: Latest 13F",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132819758.html?.tsrc=rss",
-        "time_published": "2026-11-17 13:28",
-        "source": "Finance",
-        "summary": "Jim Cramer and Cathie Wood are two of the most closely followed voices on Wall Street, and we regularly cover the stocks they like. Once a Wall Street darling, Cathie Wood has struggled to replicate her success from the pandemic days as shifting market dynamics have weighed on her disruptive innovat"
-      },
-      {
-        "title": "Cathie Wood and Jim Cramer Agree on These 5 Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132403111.html?.tsrc=rss",
-        "time_published": "2026-11-17 13:24",
-        "source": "Finance",
-        "summary": "Jim Cramer and Cathie Wood are two of the most closely followed voices on Wall Street, and we regularly cover the stocks they like. Once a Wall Street darling, Cathie Wood has struggled to replicate her success from the pandemic days as shifting market dynamics have weighed on her disruptive innovat"
-      },
-      {
-        "title": "How Much Does a 70-Year-Old Couple Give Up Leaving a $300,000 Annuity Before the Surrender Period Ends?",
-        "url": "https://247wallst.com/personal-finance/2026/11/17/how-much-does-a-70-year-old-couple-give-up-leaving-a-300000-annuity-before-the-surrender-period-ends/?.tsrc=rss",
-        "time_published": "2026-11-17 13:02",
+        "title": "Apple Is the Only Magnificent Seven Stock Near a Record",
+        "url": "https://247wallst.com/investing/2026/11/18/apple-is-the-only-magnificent-seven-stock-near-a-record/?.tsrc=rss",
+        "time_published": "2026-11-18 12:22",
         "source": "247wallst",
-        "summary": "Leaving a seven-year annuity early comes with a bill that shrinks every year you wait. Before a retired couple signs the surrender papers, three overlooked moves and one tax trap could change what walking away really costs."
+        "summary": "While the S&P 500 stumbled through a fourth straight loss, one megacap barely flinched and left its six peers far behind. Its premium price, a memory cost squeeze, and a Fed minutes release could test whether this refuge holds."
       },
       {
-        "title": "Palantir (PLTR) Sees $117.4 Million in Net ETF Buying on Nov. 13",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-pltr-sees-117-4-110149586.html?.tsrc=rss",
-        "time_published": "2026-11-17 11:01",
+        "title": "48 ETFs Add to Lilly (LLY) Holdings on Nov. 16",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/48-etfs-add-lilly-lly-110214274.html?.tsrc=rss",
+        "time_published": "2026-11-18 11:02",
         "source": "Finance",
-        "summary": "ETFs bought $117.4 million in Palantir stock on Friday, Nov. 13."
+        "summary": "ETFs bought $141.8 million of Eli Lilly (LLY) shares on Monday."
+      },
+      {
+        "title": "27 ETFs Add to TransDigm (TDG) Holdings on Nov. 16",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/27-etfs-add-transdigm-tdg-110208087.html?.tsrc=rss",
+        "time_published": "2026-11-18 11:02",
+        "source": "Finance",
+        "summary": "ETFs bought $157.1 million in TransDigm (TDG) shares on Monday, Nov. 16."
+      },
+      {
+        "title": "Synopsys (SNPS) Sees $160.1 Million in Net ETF Buying on Nov. 16",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/synopsys-snps-sees-160-1-110203545.html?.tsrc=rss",
+        "time_published": "2026-11-18 11:02",
+        "source": "Finance",
+        "summary": "ETFs bought $160.1 million of Synopsys stock on Monday, with 34 funds adding shares and 8 trimming positions."
+      },
+      {
+        "title": "52 ETFs Add to Kla-Tencor (KLAC) Holdings on Nov. 16",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/52-etfs-add-kla-tencor-110158218.html?.tsrc=rss",
+        "time_published": "2026-11-18 11:01",
+        "source": "Finance",
+        "summary": "ETFs bought a net $161.7 million of Kla-Tencor (KLAC) stock on Monday."
+      },
+      {
+        "title": "ETFs Are Buying Rollins (ROL) on Monday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-rollins-rol-monday-110151033.html?.tsrc=rss",
+        "time_published": "2026-11-18 11:01",
+        "source": "Finance",
+        "summary": "ETFs bought $162.1 million of Rollins stock on Monday."
       }
     ],
     "oil": [

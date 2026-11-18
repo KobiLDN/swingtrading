@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-11-17
-**Generated:** 2026-11-17T15:53:41Z
+**Date:** 2026-11-18
+**Generated:** 2026-11-18T15:31:36Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 3845.00 |
-| **Stop Loss** | 3930.00 |
-| **Target 1** | 3800.00 |
-| **Target 2** | 3750.00 |
-| **Risk/Reward** | 1:1.12 |
+| **Confidence** | LOW |
+| **Entry** | 3773.23 |
+| **Stop Loss** | 3820.00 |
+| **Target 1** | 3700.00 |
+| **Target 2** | 3600.00 |
+| **Risk/Reward** | 1.55 |
 | **Score** | 4/10 |
-| **Support** | 3800.0, 3750.0, 3700.0 |
-| **Resistance** | 3900.0, 3950.0, 4058.77 |
+| **Support** | 3700.0, 3630.0, 3600.0 |
+| **Resistance** | 3800.0, 3850.0, 3900.0 |
 
 ---
 
 ## Analysis
 
-The daily chart confirms a strong downtrend, with price trading significantly below the bearish-aligned EMA 50 (4058.77) and EMA 200 (4366.82). The recent candlestick sequence—Inverted Hammer, Bullish Engulfing, Morning Star, followed by an Evening Star—depicts a volatile but ultimately failed bullish correction. This price action strongly suggests the formation of a bear flag continuation pattern, where the bounce was rejected, and selling pressure is resuming.
+The daily chart shows a strong downtrend with price well below both the EMA50 (4047) and EMA200 (4362). This is a clean trend confirmation — price action is respecting the bearish alignment and has made consistent lower lows. However, the last five candles include a Bullish Engulfing and a Morning Star, suggesting a potential reversal attempt, but this was immediately negated by an Evening Star, indicating rejection at higher levels. The net pattern is a failed rally, which often leads to a continuation of the downtrend.
 
-The RSI at 36.14 is in bearish territory, though not yet oversold, leaving room for further downside. The MACD remains firmly bearish with the line below the signal line and a negative histogram, confirming the dominant downward momentum. Key resistance is layered at the 3900 round number and the recent swing high near 3950, with the EMA 50 at 4058 acting as the major bearish ceiling. Immediate support lies at the 3800 psychological level, followed by 3750 and 3700.
+RSI at 30.68 is near oversold territory but not yet below 30, so there is still room for further downside before a meaningful oversold bounce. The MACD remains bearish with the line below the signal line and a negative histogram, agreeing with the trend. No divergence is present, so no conflicting signals. The confluence of trend-following indicators (EMAs, MACD) supports a short bias, while the candlestick noise reduces confidence. The signal score of 4/10 reflects this weak bullish attempt within a dominant downtrend.
 
-The highest-probability setup is a short position targeting a continuation of the downtrend. The ideal entry is on a break below the recent consolidation low near 3845, confirming the bear flag breakdown. The stop loss should be placed above the Evening Star high at 3930 to allow for volatility. The risk/reward is favorable for Target 2 at 3750. However, the conflicting candlestick signals and low signal score (4/10) demand strict risk management and a smaller position size.
+The best trade setup is to sell at current levels, as the failed bounce from the Morning Star/Evening Star combination suggests sellers are resuming control. The nearest resistance is the round 3800 level, where the Evening Star high likely sits. A stop above 3820 provides a buffer against a false breakout. Targets are set at the next psychological supports: 3700 (round number) and 3600 (a prior swing low area). The risk-reward ratio of 1.55 is acceptable for a swing trade, especially given the strong trend backdrop.
 
 ---
 
 ## Invalidation
 
-A daily close above the 3930 resistance level (recent swing high) would invalidate the bearish breakdown and suggest a potential trend reversal or deeper correction.
+N/A
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-11-17
-**Generated:** 2026-11-17T15:53:16Z
+**Date:** 2026-11-18
+**Generated:** 2026-11-18T15:31:21Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
+| **Score** | 4/10 confirmed |
 | **Support** | 1.095, 1.09, 1.085 |
-| **Resistance** | 1.105, 1.11, 1.1196 |
+| **Resistance** | 1.1, 1.105, 1.11 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a strong downtrend with price at 1.09907, well below both the EMA50 (1.11963) and EMA200 (1.1416). This confirms the bearish bias, and no bullish reversal pattern has emerged. The recent Doji candle suggests indecision, but it appears after a prolonged decline and does not yet signal a trend change. Without a clear breakout or reversal pattern (e.g., double bottom, bullish engulfing), the path of least resistance remains downward.  
+The daily chart shows a strong downtrend with price well below both the 50- and 200-period EMAs (1.11886 and 1.14131). The RSI at 28.96 is in oversold territory, but there is no bullish divergence to suggest an imminent reversal. The MACD remains bearish with the line below the signal line and a negative histogram, confirming the dominant downward momentum. The recent Doji candlestick indicates indecision, which could either precede a pause or a continuation of the trend.  
 
-The RSI at 29.43 is oversold, which often hints at a potential bounce, but there is no bullish divergence to support a reversal. The MACD remains bearish with the line below the signal line and a negative histogram, aligning with the downtrend. This lack of confluence between oversold RSI and bearish MACD creates a conflicting signal, reducing confidence in any immediate trade. The signal score of 4/10 reflects this uncertainty.  
+Given the lack of a clear reversal signal (no divergence, no bullish pattern), the oversold condition alone is insufficient to justify a counter-trend long. A short trade would be against the oversold RSI and risks a snap-back rally. The signal score of 4/10 reflects the weak confluence between the strong trend and the extreme RSI reading. Until price shows a clear reversal pattern (e.g., a bullish engulfing or a break above a short-term resistance) or the RSI recovers from oversold without a new low, the prudent action is to wait for a higher-probability setup.  
 
-Key support levels near current price are the psychological 1.0950 and 1.0900 round numbers, with further support at 1.0850. Resistance lies at 1.1050 (recent minor swing high), then 1.1100, and the EMA50 at 1.1196. Given the strong downtrend and oversold RSI, the most prudent approach is to wait for a clearer setup—either a confirmed breakdown below 1.0950 to sell, or a bullish reversal pattern with RSI divergence to buy.
+Key support levels near current price are 1.0950 (recent swing low), 1.0900 (psychological round number), and 1.0850 (prior support zone). Resistance lies at 1.1000 (psychological barrier), 1.1050 (minor pivot), and 1.1100 (near the 10-day moving average). The ATR of 57 pips suggests daily volatility is moderate, so any trade would need a stop-loss of at least 1 ATR to avoid noise.
 
 ---
 
 ## Invalidation
 
-A decisive close above the EMA50 (1.1196) would invalidate the downtrend and shift the bias to neutral or bullish.
+A close above 1.1050 would invalidate the immediate downtrend pressure and suggest a potential reversal, while a break below 1.0900 would confirm continued bearish momentum.
 
 ---
 

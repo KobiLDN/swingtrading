@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-11-17T15:53:52Z",
+  "generated": "2026-11-18T15:31:57Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "737.61",
-  "stop_loss": "742.00",
-  "target_1": "727.00",
-  "target_2": "720.00",
-  "risk_reward": "2.4",
+  "entry": "730.59",
+  "stop_loss": "741.60",
+  "target_1": "720.00",
+  "target_2": "709.00",
+  "risk_reward": "1:1 (T1) / 1:1.96 (T2)",
   "score": "4/10",
-  "analysis": "Price action confirms the bearish EMA trend. The current price of 737.61 is below both the EMA50 (759.51) and the EMA200 (740.06), the latter acting as immediate overhead resistance. The evening star candlestick pattern over the last five sessions reinforces a bearish reversal, suggesting the recent minor bounce has exhausted and selling pressure is resuming. The ATR of 10.8 points implies sufficient volatility for a swing move of 20\u201330 points, aligning with the proposed targets.  \n\nThe bearish MACD configuration (line below signal, negative histogram) and the RSI at 39.46 (neutral but below 50) are in agreement with the downtrend. There is no bullish divergence to counter the momentum. The combination of a bearish EMA stack, a bearish reversal pattern, and supportive oscillators creates a coherent short-side opportunity, though the low signal score (4/10) tempers conviction. Key support levels below are round numbers and prior swing lows near 730 and 720, while resistance steps up at the EMA200, then 750 and the EMA50.  \n\nThe trade setup targets a retracement toward the next major support zone. The stop loss is placed just above the EMA200 to allow for minor noise while invalidating the bearish thesis if price reclaims that level. The risk-to-reward ratio for the first target is approximately 1:2.4, which is acceptable for a swing trade. However, given the proximity of price to the EMA200 and the moderate signal score, position sizing should be conservative.",
-  "invalidation": "A daily close above 742.00 (above the EMA200) would cancel the bearish setup and likely shift the short-term bias to neutral or bullish.",
+  "analysis": "Price action confirms the bearish EMA trend \u2013 SPY trades well below both the 50-period (758.18) and 200-period (739.46) EMAs, with the 200 EMA acting as overhead resistance. The Evening Star candlestick pattern over the last five sessions reinforces a bearish reversal from a minor bounce, suggesting sellers have regained control. No clear triangles, flags, or double tops/bottoms are evident, but the persistent failure near the 200 EMA indicates a series of lower highs consistent with a downtrend.  \n\nRSI at 36.75 is neutral but leaning bearish (below 50), and the MACD is below its signal line with a negative histogram. Both indicators align with the prevailing downtrend, though the RSI is not yet oversold, leaving room for further downside. The bearish MACD histogram acceleration (-2.13) adds weight to the sell bias. The confluence of price below key EMAs, a bearish candlestick pattern, and momentum indicators supports a short trade.  \n\nThe single best setup is a sell at current price with a stop above the 200 EMA (739.46) plus a small buffer to avoid noise, using the ATR (11.04) to set a logical stop at 741.60. The first target is the round number 720.00 (roughly 1 ATR below), and the second target is 709.00 (2 ATRs below). The risk/reward is approximately 1:1 on the first target, which is acceptable given the bearish structure, but the low signal score (4/10) tempers conviction. A more conservative approach would wait for a retest of the 739.46 resistance before entering, but current momentum favors immediate entry.  \n\nRisk assessment: The primary risk is a sharp short-covering bounce if broader market sentiment shifts or if price reclaims the 200 EMA. The stop-loss at 741.60 provides a clear invalidation point with a defined loss of ~11 points. Volume and broader market context (not provided) could amplify downside, but the lack of oversold RSI suggests the downtrend may still have legs.",
+  "invalidation": "N/A",
   "support_levels": [
     730.0,
     720.0,
     710.0
   ],
   "resistance_levels": [
-    740.06,
-    750.0,
-    759.51
+    739.46,
+    740.0,
+    750.0
   ]
 };
