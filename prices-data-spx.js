@@ -1,21 +1,21 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-11-18T14:47:18Z",
-  "date": "2026-11-18",
-  "price": 730.59,
-  "atr": 11.04,
+  "generated": "2026-11-19T14:54:27Z",
+  "date": "2026-11-19",
+  "price": 737.29,
+  "atr": 11.17,
   "atr_pips": 11,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 758.18,
-  "ema200": 739.46,
-  "rsi": 36.75,
-  "macd_line": -7.341732,
-  "macd_signal": -5.212816,
-  "macd_hist": -2.128916,
+  "ema50": 757.34,
+  "ema200": 738.28,
+  "rsi": 41.22,
+  "macd_line": -7.576342,
+  "macd_signal": -5.690496,
+  "macd_hist": -1.885846,
   "trend": "BEARISH BIAS",
   "divergence": "None",
   "patterns": [
@@ -24,18 +24,17 @@ window.PRICES_DATA_SPX = {
       "name": "Evening Star",
       "signal": "STRONG BEARISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-11-19",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
     }
   ],
-  "score": 4,
-  "verdict": "NO TRADE",
+  "score": 5,
+  "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-06-30",
-      "open": 741.29,
-      "high": 748.02,
-      "low": 740.89,
-      "close": 746.77
-    },
     {
       "date": "2026-07-01",
       "open": 745.0,
@@ -724,10 +723,17 @@ window.PRICES_DATA_SPX = {
     },
     {
       "date": "2026-11-18",
-      "open": 733.41,
-      "high": 735.01,
-      "low": 730.17,
-      "close": 730.59
+      "open": 733.37,
+      "high": 735.06,
+      "low": 726.8,
+      "close": 730.2
+    },
+    {
+      "date": "2026-11-19",
+      "open": 737.46,
+      "high": 739.87,
+      "low": 735.47,
+      "close": 737.29
     }
   ]
 };
