@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_SPX = {
-  "generated": "2026-11-18T15:31:57Z",
+  "generated": "2026-11-19T15:39:45Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SPY",
   "slug": "spx",
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "decision": "SELL",
   "confidence": "MEDIUM",
-  "entry": "730.59",
-  "stop_loss": "741.60",
-  "target_1": "720.00",
-  "target_2": "709.00",
-  "risk_reward": "1:1 (T1) / 1:1.96 (T2)",
-  "score": "4/10",
-  "analysis": "Price action confirms the bearish EMA trend \u2013 SPY trades well below both the 50-period (758.18) and 200-period (739.46) EMAs, with the 200 EMA acting as overhead resistance. The Evening Star candlestick pattern over the last five sessions reinforces a bearish reversal from a minor bounce, suggesting sellers have regained control. No clear triangles, flags, or double tops/bottoms are evident, but the persistent failure near the 200 EMA indicates a series of lower highs consistent with a downtrend.  \n\nRSI at 36.75 is neutral but leaning bearish (below 50), and the MACD is below its signal line with a negative histogram. Both indicators align with the prevailing downtrend, though the RSI is not yet oversold, leaving room for further downside. The bearish MACD histogram acceleration (-2.13) adds weight to the sell bias. The confluence of price below key EMAs, a bearish candlestick pattern, and momentum indicators supports a short trade.  \n\nThe single best setup is a sell at current price with a stop above the 200 EMA (739.46) plus a small buffer to avoid noise, using the ATR (11.04) to set a logical stop at 741.60. The first target is the round number 720.00 (roughly 1 ATR below), and the second target is 709.00 (2 ATRs below). The risk/reward is approximately 1:1 on the first target, which is acceptable given the bearish structure, but the low signal score (4/10) tempers conviction. A more conservative approach would wait for a retest of the 739.46 resistance before entering, but current momentum favors immediate entry.  \n\nRisk assessment: The primary risk is a sharp short-covering bounce if broader market sentiment shifts or if price reclaims the 200 EMA. The stop-loss at 741.60 provides a clear invalidation point with a defined loss of ~11 points. Volume and broader market context (not provided) could amplify downside, but the lack of oversold RSI suggests the downtrend may still have legs.",
-  "invalidation": "N/A",
+  "entry": "737.29",
+  "stop_loss": "739.50",
+  "target_1": "730.00",
+  "target_2": "720.00",
+  "risk_reward": "3.3 (to T1)",
+  "score": "5/10",
+  "analysis": "The price at 737.29 sits below both the EMA50 (757.34) and the EMA200 (738.28), confirming the bearish bias indicated by the trend label. The Evening Star candlestick pattern, followed by a Doji, suggests a bearish reversal after a prior uptrend, with the Doji reflecting indecision that could lead to further downside. The MACD remains bearish with the histogram negative, and the RSI at 41.22 is neutral but below 50, aligning with the bearish momentum. No divergence is present, so the current move is consistent with the trend.\n\nKey support levels are identified near 730 (psychological round number), 726 (one ATR below current price), and 715 (two ATRs below). Resistance is tight above at the EMA200 (738.28), then 745 (prior swing area), and the EMA50 (757.34). The proximity of price to the EMA200 creates a potential short opportunity on a failure to reclaim that level. The ATR of 11.17 points provides a reasonable risk buffer for a stop loss just above the EMA200.\n\nThe best trade setup is a short entry at current price, targeting a move toward the 730 support. The risk-reward ratio to the first target is favorable at 3.3:1, given a stop loss of 2.21 points above entry. However, the neutral RSI and the Doji pattern introduce uncertainty, warranting a medium confidence level. The signal score of 5/10 reflects the mixed signals\u2014bearish trend and MACD versus neutral RSI and potential for a bounce near the EMA200.",
+  "invalidation": "A daily close above 739.50 (above the EMA200 and the Doji high) would cancel the bearish setup and suggest a reversal.",
   "support_levels": [
     730.0,
-    720.0,
-    710.0
+    726.0,
+    715.0
   ],
   "resistance_levels": [
-    739.46,
-    740.0,
-    750.0
+    738.28,
+    745.0,
+    757.34
   ]
 };

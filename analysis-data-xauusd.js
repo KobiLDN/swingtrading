@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_XAUUSD = {
-  "generated": "2026-11-18T15:31:36Z",
+  "generated": "2026-11-19T15:39:30Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "decision": "SELL",
   "confidence": "LOW",
-  "entry": "3773.23",
-  "stop_loss": "3820.00",
-  "target_1": "3700.00",
-  "target_2": "3600.00",
-  "risk_reward": "1.55",
-  "score": "4/10",
-  "analysis": "The daily chart shows a strong downtrend with price well below both the EMA50 (4047) and EMA200 (4362). This is a clean trend confirmation \u2014 price action is respecting the bearish alignment and has made consistent lower lows. However, the last five candles include a Bullish Engulfing and a Morning Star, suggesting a potential reversal attempt, but this was immediately negated by an Evening Star, indicating rejection at higher levels. The net pattern is a failed rally, which often leads to a continuation of the downtrend.\n\nRSI at 30.68 is near oversold territory but not yet below 30, so there is still room for further downside before a meaningful oversold bounce. The MACD remains bearish with the line below the signal line and a negative histogram, agreeing with the trend. No divergence is present, so no conflicting signals. The confluence of trend-following indicators (EMAs, MACD) supports a short bias, while the candlestick noise reduces confidence. The signal score of 4/10 reflects this weak bullish attempt within a dominant downtrend.\n\nThe best trade setup is to sell at current levels, as the failed bounce from the Morning Star/Evening Star combination suggests sellers are resuming control. The nearest resistance is the round 3800 level, where the Evening Star high likely sits. A stop above 3820 provides a buffer against a false breakout. Targets are set at the next psychological supports: 3700 (round number) and 3600 (a prior swing low area). The risk-reward ratio of 1.55 is acceptable for a swing trade, especially given the strong trend backdrop.",
-  "invalidation": "N/A",
+  "entry": "3705.74",
+  "stop_loss": "3765.00",
+  "target_1": "3635.00",
+  "target_2": "3565.00",
+  "risk_reward": "1:1.17",
+  "score": "6/10",
+  "analysis": "The daily chart confirms a strong downtrend with price well below both the EMA50 (4031.92) and EMA200 (4368.22). The bearish MACD (line below signal, negative histogram) aligns with this trend, while the RSI at 27.31 is oversold but shows no bullish divergence. The oversold condition alone does not constitute a reversal signal in a persistent downtrend; it often precedes a brief consolidation or a minor bounce before the trend resumes. The candlestick patterns are mixed: a Bullish Engulfing and Morning Star suggest a potential reversal, but the subsequent Evening Star indicates that the bounce failed, reinforcing the bearish momentum.  \n\nNo clear chart patterns such as triangles, flags, or double tops/bottoms are evident from the given data. The nearest support is likely around 3650 (a prior swing low) and 3600 (psychological round number), while resistance sits near 3750 (recent high of the failed bounce) and 3800. The price is currently testing the lower end of this range, making a short entry attractive if the downtrend continues. The RSI and MACD both agree with the bearish trend, despite the oversold RSI, as the MACD remains firmly negative and the histogram is still declining.  \n\nThe best trade setup is a sell at current price with a stop above the recent swing high near 3765. This allows for a measured risk of about 60 points. The first target at 3635 captures a typical ATR move (70 points) and aligns with the next support zone. The second target at 3565 extends the move to 140 points, offering a favorable risk-reward if the downtrend accelerates. The signal score of 6/10 reflects the strong trend but is tempered by the oversold RSI and mixed candlestick signals, which introduce uncertainty.  \n\nRisk assessment: The primary risk is a sharp reversal due to the oversold RSI and the presence of bullish candlestick patterns. ATR of 70 points indicates high volatility, so position sizing must be conservative. The trade relies on the continuation of the established downtrend; any sustained move above 3765 would suggest a stronger bounce and invalidate the short thesis.",
+  "invalidation": "A daily close above 3765.00 would cancel this short setup, indicating that the bounce has gained enough momentum to challenge the downtrend.",
   "support_levels": [
-    3700.0,
-    3630.0,
-    3600.0
+    3650.0,
+    3600.0,
+    3550.0
   ],
   "resistance_levels": [
+    3750.0,
     3800.0,
-    3850.0,
-    3900.0
+    3850.0
   ]
 };

@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-18T15:32:41Z",
+  "generated": "2026-11-19T15:40:25Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Holds 103.76 as Fed Minutes Back Hikes, EUR/USD and GBP/USD Stay Weak",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-074500491.html?.tsrc=rss",
+        "time_published": "2026-11-19 07:45",
+        "source": "Finance",
+        "summary": "US dollar price forecast: Fed minutes back more hikes as DXY holds 103.76, EUR/USD stays below 1.0982 and GBP/USD sits under its 1.3154 pivot."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Tests 103.74 Near 19-Month High as EUR/USD, GBP/USD Slip",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073235414.html?.tsrc=rss",
@@ -50,16 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-11-10 08:32",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY slips below 101.73 ahead of US CPI, while EUR/USD holds above its 1.1216 pivot and GBP/USD stays above 1.3429 after a BoE hike."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Faces 102.26 as EUR/USD and GBP/USD Await US CPI",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073011814.html?.tsrc=rss",
-        "time_published": "2026-11-09 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY trades below 102.26 ahead of US CPI. EUR/USD tests its 1.11632 pivot while GBP/USD holds above 1.3373 after a trendline bounce."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Holds 103.76 as Fed Minutes Back Hikes, EUR/USD and GBP/USD Stay Weak",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-074500491.html?.tsrc=rss",
+        "time_published": "2026-11-19 07:45",
+        "source": "Finance",
+        "summary": "US dollar price forecast: Fed minutes back more hikes as DXY holds 103.76, EUR/USD stays below 1.0982 and GBP/USD sits under its 1.3154 pivot."
+      },
+      {
+        "title": "What\u2019s Driving the Dollar\u2019s Biggest Rally Since 2024",
+        "url": "https://finance.yahoo.com/m/c053bf92-320a-352a-bc04-6690ac97e80f/what%E2%80%99s-driving-the-dollar%E2%80%99s.html?.tsrc=rss",
+        "time_published": "2026-11-18 20:04",
+        "source": "Finance",
+        "summary": "Much of the greenback\u2019s strength can be chalked up to the Federal Reserve\u2019s actions, but not all of it."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Tests 103.74 Near 19-Month High as EUR/USD, GBP/USD Slip",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073235414.html?.tsrc=rss",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-12 07:51",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY hits a 19-month high above its 102.83 pivot on Fed hike bets, while EUR/USD breaks below 1.1098 and GBP/USD slips under 1.3279."
-      },
-      {
-        "title": "US Dollar Price Forecast: Hot CPI Lifts DXY Above 102.20, Can It Break 102.50?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hot-073000993.html?.tsrc=rss",
-        "time_published": "2026-11-11 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: hot CPI lifts DXY above its 102.21 pivot as Fed hike odds jump, while EUR/USD slips below 1.1170 and GBP/USD breaks its trendline."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Slips Below 101.73 Ahead of CPI; Can EUR/USD Break 1.1268?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-083257351.html?.tsrc=rss",
-        "time_published": "2026-11-10 08:32",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY slips below 101.73 ahead of US CPI, while EUR/USD holds above its 1.1216 pivot and GBP/USD stays above 1.3429 after a BoE hike."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "HDGE Has Lost More Than 90% Since 2011. It Also Gained 29% in One Quarter While the Market Sank",
-        "url": "https://247wallst.com/investing/etf/2026/11/18/hdge-has-lost-more-than-90-since-2011-it-also-gained-29-in-one-quarter-while-the-market-sank/?.tsrc=rss",
-        "time_published": "2026-11-18 12:37",
+        "title": "Peter Lynch Made \u201cGrowth at a Reasonable Price\u201d Famous. SPGP Runs the S&P 500 Through That Filter and Keeps 75 Stocks",
+        "url": "https://247wallst.com/investing/etf/2026/11/19/peter-lynch-made-growth-at-a-reasonable-price-famous-spgp-runs-the-sp-500-through-that-filter-and-keeps-75-stocks/?.tsrc=rss",
+        "time_published": "2026-11-19 15:13",
         "source": "247wallst",
-        "summary": "One lesser-known ETF was built to profit when your retirement portfolio bleeds, yet it has wiped out nearly all of its value over time. Before you treat it as crash insurance, find out what the protection really costs."
+        "summary": "Your S&P 500 index fund buys everything, expensive or not. One lesser-known ETF filters the index down to 75 stocks, and its top holdings look nothing like the mega-cap names you expect. Before you consider it, check what it trades away."
       },
       {
-        "title": "What SPDR S&P 500 ETF Trust (SPY) Bought: Apple Leads on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110404302.html?.tsrc=rss",
-        "time_published": "2026-11-18 11:04",
+        "title": "Wall Street Subdued So Far in Q4: What Lies Ahead?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-subdued-far-q4-120000528.html?.tsrc=rss",
+        "time_published": "2026-11-19 12:00",
         "source": "Finance",
-        "summary": "The fund bought $6.73 billion in gross trades and added $6.72 billion net, with Apple's $541.4 million purchase the largest."
+        "summary": "S&P 500 ETFs struggle so far in Q4, but strong spending, earnings growth and post-midterm trends offer hope for a rebound."
       },
       {
-        "title": "Apple Is the Only Magnificent Seven Stock Near a Record",
-        "url": "https://247wallst.com/investing/2026/11/18/apple-is-the-only-magnificent-seven-stock-near-a-record/?.tsrc=rss",
-        "time_published": "2026-11-18 12:22",
-        "source": "247wallst",
-        "summary": "While the S&P 500 stumbled through a fourth straight loss, one megacap barely flinched and left its six peers far behind. Its premium price, a memory cost squeeze, and a Fed minutes release could test whether this refuge holds."
-      },
-      {
-        "title": "48 ETFs Add to Lilly (LLY) Holdings on Nov. 16",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/48-etfs-add-lilly-lly-110214274.html?.tsrc=rss",
-        "time_published": "2026-11-18 11:02",
+        "title": "SPDR S&P 500 ETF (SPY) Adds Apple and Nvidia on Nov. 17",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110414065.html?.tsrc=rss",
+        "time_published": "2026-11-19 11:04",
         "source": "Finance",
-        "summary": "ETFs bought $141.8 million of Eli Lilly (LLY) shares on Monday."
+        "summary": "The fund bought $1.35 billion of stock and sold nothing, lifting all 503 of its positions."
       },
       {
-        "title": "27 ETFs Add to TransDigm (TDG) Holdings on Nov. 16",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/27-etfs-add-transdigm-tdg-110208087.html?.tsrc=rss",
-        "time_published": "2026-11-18 11:02",
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Ahead of Anthropic Stock Market Debut",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141450756.html?.tsrc=rss",
+        "time_published": "2026-11-19 14:14",
         "source": "Finance",
-        "summary": "ETFs bought $157.1 million in TransDigm (TDG) shares on Monday, Nov. 16."
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1% and the actively traded"
       },
       {
-        "title": "Synopsys (SNPS) Sees $160.1 Million in Net ETF Buying on Nov. 16",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/synopsys-snps-sees-160-1-110203545.html?.tsrc=rss",
-        "time_published": "2026-11-18 11:02",
+        "title": "Five Straight Losses, One Divergence: Where the Major Indexes Stand Now",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/five-straight-losses-one-divergence-130000760.html?.tsrc=rss",
+        "time_published": "2026-11-19 13:00",
         "source": "Finance",
-        "summary": "ETFs bought $160.1 million of Synopsys stock on Monday, with 34 funds adding shares and 8 trimming positions."
+        "summary": "Canada News Group News Commentary - Wall Street heads into Thursday's session with the S&P 500 on its longest losing streak since June. The benchmark fell 16.90 points, or 0.23%, on Wednesday to 7,323.63, its fifth straight decline, according to CNBC, while the Nasdaq Composite rose 101.50 points, o"
       },
       {
-        "title": "52 ETFs Add to Kla-Tencor (KLAC) Holdings on Nov. 16",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/52-etfs-add-kla-tencor-110158218.html?.tsrc=rss",
-        "time_published": "2026-11-18 11:01",
+        "title": "ETFs Are Buying Bank of America (BAC) on Tuesday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-bank-america-bac-110214667.html?.tsrc=rss",
+        "time_published": "2026-11-19 11:02",
         "source": "Finance",
-        "summary": "ETFs bought a net $161.7 million of Kla-Tencor (KLAC) stock on Monday."
+        "summary": "ETFs bought $32.2 million of Bank of America stock on Tuesday, Nov. 17."
       },
       {
-        "title": "ETFs Are Buying Rollins (ROL) on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-rollins-rol-monday-110151033.html?.tsrc=rss",
-        "time_published": "2026-11-18 11:01",
+        "title": "ETFs Bought $33.8 Million of Caterpillar (CAT) on Nov. 17",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-33-8-million-110211105.html?.tsrc=rss",
+        "time_published": "2026-11-19 11:02",
         "source": "Finance",
-        "summary": "ETFs bought $162.1 million of Rollins stock on Monday."
+        "summary": "Forty ETFs bought Caterpillar shares against 14 sellers in Tuesday's session."
+      },
+      {
+        "title": "ETFs Are Buying ExxonMobil (XOM) on Nov. 17",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-exxonmobil-xom-nov-110201088.html?.tsrc=rss",
+        "time_published": "2026-11-19 11:02",
+        "source": "Finance",
+        "summary": "ETFs bought $41.8 million of ExxonMobil stock on Tuesday."
       }
     ],
     "oil": [
@@ -271,6 +271,13 @@ window.NEWS_DATA = {
         "summary": "Energy stocks were declining premarket Wednesday, with the State Street Energy Select Sector SPDR ET"
       },
       {
+        "title": "Sector Update: Energy Stocks Mixed in Early Thursday Trading",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-early-143651830.html?.tsrc=rss",
+        "time_published": "2026-11-19 14:36",
+        "source": "Finance",
+        "summary": "Energy stocks were mixed in early trading on Thursday, with the State Street Energy Select Sector SP"
+      },
+      {
         "title": "Sector Update: Energy Stocks Decline Premarket Monday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-142547112.html?.tsrc=rss",
         "time_published": "2026-11-16 14:25",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-12 18:57",
         "source": "247wallst",
         "summary": "A blowout earnings beat sounded like good news for SolarEdge, yet its stock is sliding with the whole solar sector. The culprit sits in the bond market, and some solar names feel it far more than others."
-      },
-      {
-        "title": "The Treasury Secretary Is Now Living on a Military Base After Iranian Threats",
-        "url": "https://247wallst.com/investing/2026/11/12/the-treasury-secretary-is-now-living-on-a-military-base-after-iranian-threats/?.tsrc=rss",
-        "time_published": "2026-11-12 17:23",
-        "source": "247wallst",
-        "summary": "Markets barely flinched when news broke that a cabinet secretary had moved onto a military base. Yet the quiet in oil and long bonds may hide a bigger risk for anyone holding USO or TLT, and a few scheduled events could expose it."
       }
     ]
   }

@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-11-18
-**Generated:** 2026-11-18T15:32:40Z
+**Date:** 2026-11-19
+**Generated:** 2026-11-19T15:40:24Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,34 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | BUY |
+| **Decision** | WAIT |
 | **Confidence** | LOW |
-| **Entry** | 138.03 |
-| **Stop Loss** | 132.95 |
-| **Target 1** | 143.19 |
-| **Target 2** | 148.36 |
-| **Risk/Reward** | 2.03 |
-| **Score** | 4/10 confirmed |
-| **Support** | 132.95, 129.06, 124.0 |
-| **Resistance** | 143.19, 148.36, 153.44 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 1/10 |
+| **Support** | 135.0, 130.0, 128.99 |
+| **Resistance** | 140.0, 145.0, 147.93 |
 
 ---
 
 ## Analysis
 
-The EMA structure confirms a neutral trend with a bearish intermediate bias. Price at 138.03 is firmly trapped in the "dead zone" between the falling 50 EMA (148.36) acting as dynamic resistance and the rising 200 EMA (129.06) acting as dynamic support. The price action confirms this consolidation; it is not trending strongly in either direction but is coiling within the wedge. The distance to the 200 EMA (8.97 pts) is tighter than the distance to the 50 EMA (10.33 pts), placing the price slightly closer to the long-term support level.
+The daily chart for USO shows price at 139.26, which is below the 50-day EMA (147.93) but above the 200-day EMA (128.99). This places the market in a neutral-to-bearish zone, as the shorter-term average acts as overhead resistance while the longer-term average provides a distant floor. The trend label is NEUTRAL, and the signal score of 1/10 reflects a lack of clear directional conviction from the pre-calculated indicators.  
 
-No candlestick patterns were detected, but the RSI divergence is the dominant chart pattern. The RSI at 35.62 is neutral but flashing a bullish divergence, suggesting that underlying momentum is shifting upward even as price lingers near the bottom of the range. The MACD is bearish (line below signal, histogram negative), creating a direct conflict with the RSI divergence. In swing trading, the RSI divergence is a leading indicator of a trend shift, while the MACD is a lagging indicator confirming current momentum. This confluence favors a buy setup with strict risk management, betting on the divergence playing out over the next several bars.
+The MACD is bearish with the line below the signal line and a negative histogram, confirming downward momentum. However, the RSI at 38.78 is neutral (not oversold) and shows no divergence, so there is no extreme reading to anticipate a reversal. No candlestick patterns or chart formations (triangles, flags, double tops/bottoms) are present, leaving the price action without a clear structural edge.  
 
-The best trade setup is a buy at current levels targeting a mean reversion to the 50 EMA. The risk/reward is favorable (2.03:1) if the 200 EMA holds as support. The stop loss is placed 1 ATR below entry to protect against the bearish MACD momentum overwhelming the RSI divergence. Risk is assessed as high due to the conflicting signals, the neutral trend label, and the low signal score, but the RSI divergence provides the specific edge required for a swing entry.
+Key support levels near current price are the round number 135.00, followed by 130.00 and the 200-day EMA at 128.99. Resistance lies at 140.00 (psychological), then 145.00, and finally the 50-day EMA at 147.93. Given the bearish MACD but neutral RSI and the wide gap between EMAs, the risk/reward for any trade is poor. A short entry would require a rally into resistance, while a long entry would need a confirmed bounce off support—neither condition is met now.  
+
+The low signal score (1/10) and lack of confluence between indicators and price action strongly suggest waiting for a clearer setup. The best course is to remain on the sidelines until either a decisive break above the 50-day EMA (turning bullish) or a breakdown below the 200-day EMA (turning strongly bearish) occurs, or until a high-probability pattern emerges with supporting momentum.
 
 ---
 
 ## Invalidation
 
-A close below the 200 EMA (129.06) or a failure of the RSI divergence to materialize (price making a fresh lower low without RSI confirming a higher low) would cancel this setup.
+This wait-and-see stance would be invalidated if price breaks and closes above the 50-day EMA (147.93) or below the 200-day EMA (128.99), creating a new directional bias.
 
 ---
 
