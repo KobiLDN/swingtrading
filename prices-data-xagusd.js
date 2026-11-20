@@ -1,41 +1,27 @@
 window.PRICES_DATA_XAGUSD = {
   "symbol": "SLV",
   "slug": "xagusd",
-  "generated": "2026-11-19T14:54:27Z",
-  "date": "2026-11-19",
-  "price": 40.88,
-  "atr": 1.49,
-  "atr_pips": 1,
+  "generated": "2026-11-20T14:35:14Z",
+  "date": "2026-11-20",
+  "price": 38.05,
+  "atr": 1.58,
+  "atr_pips": 2,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 49.96,
-  "ema200": 58.17,
-  "rsi": 27.02,
-  "macd_line": -2.71051,
-  "macd_signal": -2.384808,
-  "macd_hist": -0.325703,
+  "ema50": 49.45,
+  "ema200": 58.43,
+  "rsi": 21.83,
+  "macd_line": -3.070601,
+  "macd_signal": -2.537794,
+  "macd_hist": -0.532807,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
-  "patterns": [
-    {
-      "date": "2026-11-19",
-      "name": "Inverted Hammer",
-      "signal": "BULLISH REVERSAL",
-      "strength": 3
-    }
-  ],
-  "score": 4,
+  "patterns": [],
+  "score": 2,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-01",
-      "open": 53.33,
-      "high": 55.16,
-      "low": 53.23,
-      "close": 53.58
-    },
     {
       "date": "2026-07-02",
       "open": 55.11,
@@ -724,10 +710,17 @@ window.PRICES_DATA_XAGUSD = {
     },
     {
       "date": "2026-11-19",
-      "open": 40.8,
-      "high": 41.09,
-      "low": 40.8,
-      "close": 40.88
+      "open": 40.79,
+      "high": 41.1,
+      "low": 39.59,
+      "close": 39.64
+    },
+    {
+      "date": "2026-11-20",
+      "open": 37.97,
+      "high": 38.16,
+      "low": 37.94,
+      "close": 38.05
     }
   ]
 };
