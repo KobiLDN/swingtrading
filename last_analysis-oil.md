@@ -1,7 +1,7 @@
 # Last AI Analysis — USO
 
-**Date:** 2026-11-19
-**Generated:** 2026-11-19T15:40:24Z
+**Date:** 2026-11-20
+**Generated:** 2026-11-20T15:21:11Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -18,26 +18,22 @@
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
 | **Score** | 1/10 |
-| **Support** | 135.0, 130.0, 128.99 |
-| **Resistance** | 140.0, 145.0, 147.93 |
+| **Support** | 131.0, 129.08, 127.0 |
+| **Resistance** | 140.87, 147.42, 150.0 |
 
 ---
 
 ## Analysis
 
-The daily chart for USO shows price at 139.26, which is below the 50-day EMA (147.93) but above the 200-day EMA (128.99). This places the market in a neutral-to-bearish zone, as the shorter-term average acts as overhead resistance while the longer-term average provides a distant floor. The trend label is NEUTRAL, and the signal score of 1/10 reflects a lack of clear directional conviction from the pre-calculated indicators.  
+The current price of 135.93 sits between the EMA50 (147.42) and EMA200 (129.08), placing USO in a neutral trend zone. Price action does not confirm a clear directional bias — the price is below the shorter-term EMA50, indicating recent bearish pressure, yet remains above the longer-term EMA200, which still supports a broader bullish structure. The RSI at 35.2 is in neutral territory but approaching oversold, suggesting potential for a bounce, while the MACD remains bearish with the line below the signal line and a negative histogram. There is no RSI divergence or candlestick pattern to provide additional confirmation. The overall signal score of 1/10 reflects very weak technical alignment, with no confluence between indicators.
 
-The MACD is bearish with the line below the signal line and a negative histogram, confirming downward momentum. However, the RSI at 38.78 is neutral (not oversold) and shows no divergence, so there is no extreme reading to anticipate a reversal. No candlestick patterns or chart formations (triangles, flags, double tops/bottoms) are present, leaving the price action without a clear structural edge.  
-
-Key support levels near current price are the round number 135.00, followed by 130.00 and the 200-day EMA at 128.99. Resistance lies at 140.00 (psychological), then 145.00, and finally the 50-day EMA at 147.93. Given the bearish MACD but neutral RSI and the wide gap between EMAs, the risk/reward for any trade is poor. A short entry would require a rally into resistance, while a long entry would need a confirmed bounce off support—neither condition is met now.  
-
-The low signal score (1/10) and lack of confluence between indicators and price action strongly suggest waiting for a clearer setup. The best course is to remain on the sidelines until either a decisive break above the 50-day EMA (turning bullish) or a breakdown below the 200-day EMA (turning strongly bearish) occurs, or until a high-probability pattern emerges with supporting momentum.
+No clear chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. The nearest support is the EMA200 at 129.08, with an intermediate level near 131.00 (current price minus one ATR). Resistance is first at 140.87 (price plus one ATR), then the EMA50 at 147.42. Given the lack of a dominant trend, conflicting signals (low RSI vs. bearish MACD), and the extremely low score, no reliable trade setup exists. The best course is to wait for either a decisive break above the EMA50 (bullish) or a breakdown below the EMA200 (bearish) with corresponding momentum confirmation.
 
 ---
 
 ## Invalidation
 
-This wait-and-see stance would be invalidated if price breaks and closes above the 50-day EMA (147.93) or below the 200-day EMA (128.99), creating a new directional bias.
+A move above the EMA50 (147.42) with RSI crossing above 50 would invalidate the neutral/bearish bias, while a breakdown below the EMA200 (129.08) with accelerating MACD histogram would confirm a bearish shift.
 
 ---
 

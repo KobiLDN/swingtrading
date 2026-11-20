@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-11-19
-**Generated:** 2026-11-19T15:39:11Z
+**Date:** 2026-11-20
+**Generated:** 2026-11-20T15:19:37Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,33 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 3/10 |
+| **Score** | 5/10 confirmed |
 | **Support** | 1.095, 1.09, 1.085 |
-| **Resistance** | 1.105, 1.11, 1.118 |
+| **Resistance** | 1.1, 1.105, 1.1172 |
 
 ---
 
 ## Analysis
 
-The daily chart confirms a strong downtrend with price (1.09902) trading well below both the EMA50 (1.11802) and EMA200 (1.14032). The bearish MACD (line below signal, negative histogram) aligns with this trend, and the RSI at 32.71, while neutral, still has room to fall before reaching oversold territory (<30). No bullish divergence is present, reinforcing the bearish momentum. However, the appearance of a Doji within the last five candles signals indecision and a potential pause in the sell-off, which reduces immediate conviction for a continuation trade.
+The daily price of 1.09889 sits well below both the EMA50 (1.11721) and EMA200 (1.13992), confirming the strong downtrend indicated by the trend label. Price action consistently respects lower highs and lower lows, with no sustained bounce above the 50-period moving average. The recent candlestick patterns—an Inverted Hammer followed by a Morning Star—suggest a potential short-term reversal, but these are not yet confirmed by a close above resistance or a shift in momentum indicators. The overall trend remains bearish, and the price is still far from the EMAs, meaning any bounce is likely to be a counter-trend move within the larger downtrend.  
 
-Key support levels near current price are the round numbers 1.0950 and 1.0900, with further support at 1.0850. On the upside, resistance is clustered at 1.1050 (recent swing high), 1.1100 (psychological level), and the EMA50 at 1.1180. The lack of a clear breakout or retest of a significant level, combined with the low signal score (3/10), suggests that entering a trade now carries elevated risk. The Doji could either mark a temporary consolidation before further declines or precede a short-term bounce, making the risk-reward profile unattractive without additional confirmation.
+No clear chart patterns such as triangles, flags, or double tops/bottoms are discernible from the given data. The price is near a potential support zone around 1.0950 (prior swing low area) and the psychological 1.0900 level, while resistance is clustered at 1.1000 (round number), 1.1050 (recent minor highs), and the EMA50 at 1.1172. The proximity to support makes short-selling risky, while the strong downtrend discourages aggressive buying.  
 
-Given the strong downtrend, a sell setup would be ideal if price retraces toward a resistance level (e.g., 1.1050) or breaks decisively below the Doji’s low (around 1.0980). However, with no such trigger present, waiting for a clearer entry point—such as a bearish continuation pattern or a bounce to a defined resistance—is the most prudent course. The RSI is not yet oversold, so further downside is possible, but the Doji warns against chasing the move.
+RSI at 32.68 is neutral but near oversold territory, indicating weakening downside momentum but not an extreme condition. The MACD remains bearish with the line below the signal and a negative histogram, aligning with the downtrend. However, the histogram is flat to slightly rising, hinting at possible deceleration of bearish pressure. No RSI divergence is present, so the bearish MACD and trend dominate the technical picture.  
+
+The single best trade setup right now is to wait for further confirmation. A bullish reversal would require a daily close above 1.1000 (first resistance) and ideally a break of the EMA50. A bearish continuation setup would be viable only if price fails to hold above 1.0950 and breaks lower, but the current candlestick patterns reduce the probability of an immediate breakdown. The conflicting signals—strong downtrend versus nascent reversal patterns—result in a 5/10 signal score, and entering a trade now would carry elevated uncertainty.
 
 ---
 
 ## Invalidation
 
-A daily close above the EMA50 (1.1180) or a bullish reversal pattern (e.g., hammer, engulfing) would invalidate the bearish bias and suggest a trend change.
+A daily close below 1.0950 would invalidate any bullish reversal potential and reassert the downtrend, while a close above 1.1050 would invalidate the bearish continuation scenario and suggest a larger bounce.
 
 ---
 

@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
-**Date:** 2026-11-19
-**Generated:** 2026-11-19T15:40:03Z
+**Date:** 2026-11-20
+**Generated:** 2026-11-20T15:21:02Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 40.0, 39.39, 38.5 |
-| **Resistance** | 42.37, 43.5, 44.5 |
+| **Score** | 2/10 |
+| **Support** | 37.0, 36.0, 35.0 |
+| **Resistance** | 39.5, 40.5, 42.0 |
 
 ---
 
 ## Analysis
 
-The daily chart for SLV shows a strong downtrend with price well below both the 50‑period (49.96) and 200‑period (58.17) EMAs. The bearish MACD (line below signal, negative histogram) aligns with this trend, while the RSI at 27.02 is in oversold territory – a classic condition that often precedes a bounce but does not confirm a reversal without additional bullish signals. The inverted hammer candlestick printed on the most recent candle hints at potential buying interest after a decline, but its effectiveness is low in a persistent downtrend unless followed by a bullish confirmation candle.  
+The price at 38.05 sits far below both the EMA50 (49.45) and EMA200 (58.43), confirming a strong downtrend. No additional chart patterns such as flags or double bottoms are evident from the last five candles, and no candlestick reversal patterns have been detected. The trend is unequivocally bearish, and price action aligns with the EMA structure.
 
-No clear chart patterns (triangles, flags, double tops/bottoms) can be inferred from the provided data. The nearest support levels are the round number 40.00, the ATR‑based downside target of 39.39 (40.88 – 1.49), and the next psychological level at 38.50. On the upside, immediate resistance sits at 42.37 (current price + 1 ATR), followed by 43.50 and 44.50 – these are derived from previous reaction highs and the ATR range, as the far‑away EMAs are not actionable near‑term targets.  
+RSI at 21.83 is deeply oversold, but without any bullish divergence, this alone is not a reliable buy signal. The MACD remains bearish with the line below the signal line and a negative histogram, indicating continued downside momentum. There is no confluence between RSI oversold and a bullish MACD turn; instead, both indicators agree with the prevailing downtrend. The signal score of 2/10 reflects very weak bullish conviction.
 
-The RSI and MACD are both bearish, agreeing on the downtrend, but the oversold RSI introduces a divergence risk that is not yet confirmed (no explicit divergence). The inverted hammer is a tentative reversal signal, but it lacks volume and follow‑through. With a signal score of only 4/10, the risk/reward of entering a counter‑trend long is unfavorable, while selling into oversold conditions carries the risk of a snap rally. Therefore, the prudent approach is to wait for either a confirmed bullish reversal (e.g., a close above the inverted hammer’s high) or a clear breakdown below 40.00 to reinforce the downtrend.
+Given the absence of a reversal catalyst—no divergence, no candlestick pattern, and no support test with a bounce—the prudent action is to wait. A trade setup would require either a bullish divergence on RSI, a MACD crossover, or a clear support-level bounce with confirmation. Until then, the risk of further decline remains high, especially in a strong downtrend where oversold conditions can persist.
 
 ---
 
 ## Invalidation
 
-A daily close above 42.37 (the ATR‑based resistance) would invalidate the wait stance and suggest a potential short‑term bullish reversal, while a close below 39.39 would confirm continued downside and open a sell‑trigger.
+A break below the nearest support near 37.00 would confirm continued downside and invalidate any potential reversal setup, while a sustained move above 40.00 could signal a short-term bounce worth monitoring.
 
 ---
 

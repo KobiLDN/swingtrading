@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-11-19
-**Generated:** 2026-11-19T15:39:45Z
+**Date:** 2026-11-20
+**Generated:** 2026-11-20T15:20:55Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 737.29 |
-| **Stop Loss** | 739.50 |
-| **Target 1** | 730.00 |
-| **Target 2** | 720.00 |
-| **Risk/Reward** | 3.3 (to T1) |
-| **Score** | 5/10 |
-| **Support** | 730.0, 726.0, 715.0 |
-| **Resistance** | 738.28, 745.0, 757.34 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 0/10 |
+| **Support** | 700.0, 690.0, 680.0 |
+| **Resistance** | 720.0, 730.0, 739.57 |
 
 ---
 
 ## Analysis
 
-The price at 737.29 sits below both the EMA50 (757.34) and the EMA200 (738.28), confirming the bearish bias indicated by the trend label. The Evening Star candlestick pattern, followed by a Doji, suggests a bearish reversal after a prior uptrend, with the Doji reflecting indecision that could lead to further downside. The MACD remains bearish with the histogram negative, and the RSI at 41.22 is neutral but below 50, aligning with the bearish momentum. No divergence is present, so the current move is consistent with the trend.
+The trend is firmly bearish with price at 712.23, well below both the EMA50 (754.77) and EMA200 (739.57). This confirms the bearish bias indicated by the moving averages. No candlestick patterns or chart structures (triangles, flags, double tops/bottoms) are present in the last five candles, and the signal score of 0/10 suggests a lack of clear, actionable patterns. The current price is approximately 27 points below the nearest significant resistance (200 EMA) and about 12 points above the round-number support at 700, creating a narrow range relative to the ATR of 11.64.
 
-Key support levels are identified near 730 (psychological round number), 726 (one ATR below current price), and 715 (two ATRs below). Resistance is tight above at the EMA200 (738.28), then 745 (prior swing area), and the EMA50 (757.34). The proximity of price to the EMA200 creates a potential short opportunity on a failure to reclaim that level. The ATR of 11.17 points provides a reasonable risk buffer for a stop loss just above the EMA200.
+RSI at 30.45 is neutral but approaches the oversold threshold, while the MACD remains bearish with the line below the signal and a negative histogram. These indicators align with the prevailing downtrend but do not offer a strong confluence for an immediate trade. The absence of RSI divergence and the bearish MACD histogram indicate momentum is still to the downside, yet the low RSI hints at potential exhaustion. Without a confirmed oversold condition or a bullish reversal pattern, entering a short position carries high risk of a mean-reversion bounce, while a long position lacks confirmation.
 
-The best trade setup is a short entry at current price, targeting a move toward the 730 support. The risk-reward ratio to the first target is favorable at 3.3:1, given a stop loss of 2.21 points above entry. However, the neutral RSI and the Doji pattern introduce uncertainty, warranting a medium confidence level. The signal score of 5/10 reflects the mixed signals—bearish trend and MACD versus neutral RSI and potential for a bounce near the EMA200.
+Given the low signal score and the proximity to support, the most prudent action is to wait for either a breakdown below 700 with increasing volume or a bullish reversal confirmation (e.g., a bullish candlestick pattern or RSI divergence) before taking a trade. The current setup lacks the risk/reward clarity required for a swing trade.
 
 ---
 
 ## Invalidation
 
-A daily close above 739.50 (above the EMA200 and the Doji high) would cancel the bearish setup and suggest a reversal.
+A decisive close above the EMA200 at 739.57 would invalidate the bearish bias and shift the outlook to neutral or bullish.
 
 ---
 
