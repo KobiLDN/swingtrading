@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-11-20T15:19:37Z",
+  "generated": "2026-11-23T17:56:59Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10 confirmed",
-  "analysis": "The daily price of 1.09889 sits well below both the EMA50 (1.11721) and EMA200 (1.13992), confirming the strong downtrend indicated by the trend label. Price action consistently respects lower highs and lower lows, with no sustained bounce above the 50-period moving average. The recent candlestick patterns\u2014an Inverted Hammer followed by a Morning Star\u2014suggest a potential short-term reversal, but these are not yet confirmed by a close above resistance or a shift in momentum indicators. The overall trend remains bearish, and the price is still far from the EMAs, meaning any bounce is likely to be a counter-trend move within the larger downtrend.  \n\nNo clear chart patterns such as triangles, flags, or double tops/bottoms are discernible from the given data. The price is near a potential support zone around 1.0950 (prior swing low area) and the psychological 1.0900 level, while resistance is clustered at 1.1000 (round number), 1.1050 (recent minor highs), and the EMA50 at 1.1172. The proximity to support makes short-selling risky, while the strong downtrend discourages aggressive buying.  \n\nRSI at 32.68 is neutral but near oversold territory, indicating weakening downside momentum but not an extreme condition. The MACD remains bearish with the line below the signal and a negative histogram, aligning with the downtrend. However, the histogram is flat to slightly rising, hinting at possible deceleration of bearish pressure. No RSI divergence is present, so the bearish MACD and trend dominate the technical picture.  \n\nThe single best trade setup right now is to wait for further confirmation. A bullish reversal would require a daily close above 1.1000 (first resistance) and ideally a break of the EMA50. A bearish continuation setup would be viable only if price fails to hold above 1.0950 and breaks lower, but the current candlestick patterns reduce the probability of an immediate breakdown. The conflicting signals\u2014strong downtrend versus nascent reversal patterns\u2014result in a 5/10 signal score, and entering a trade now would carry elevated uncertainty.",
-  "invalidation": "A daily close below 1.0950 would invalidate any bullish reversal potential and reassert the downtrend, while a close above 1.1050 would invalidate the bearish continuation scenario and suggest a larger bounce.",
+  "score": "6/10",
+  "analysis": "The price at 1.08872 sits well below both the EMA50 (1.11453) and EMA200 (1.13977), confirming a strong downtrend. The ATR of 55 pips indicates moderate daily volatility, but the persistent bearish alignment of EMAs leaves no doubt about the prevailing trend direction. However, the RSI at 22.67 is deeply oversold, and the last five candles include a Bullish Engulfing pattern alongside an Inverted Hammer\u2014both classic reversal signals. The presence of an Evening Star earlier in the sequence adds confusion, but the most recent bullish engulfing suggests a potential short-term bounce.\n\nNo clear chart patterns like triangles or flags are evident from the given data, but the price is approaching a psychological support zone near 1.0850\u20131.0800. The MACD remains bearish with the line below the signal line and a negative histogram, which aligns with the downtrend. The RSI oversold condition does not constitute a divergence, so it alone is insufficient to call a trend reversal. The confluence of bearish MACD and oversold RSI creates a classic tug-of-war: the trend says sell, but momentum exhaustion says buy.\n\nGiven the mixed signals and a moderate signal score of 6/10, the most prudent action is to wait for clearer confirmation. A buy would require a decisive close above the Bullish Engulfing high (likely near 1.0900\u20131.0920) and a subsequent RSI recovery above 30. A sell would be better after a bounce to the EMA50 or a lower high near 1.1000, but that is not imminent. The risk of entering now is high because the oversold condition could trigger a sharp rally, while the downtrend could resume without warning.",
+  "invalidation": "A break below the recent swing low near 1.0850 would confirm continued downside and invalidate any bullish reversal thesis, while a sustained move above 1.1000 would shift the bias toward a short-term bounce.",
   "support_levels": [
-    1.095,
-    1.09,
-    1.085
+    1.085,
+    1.08,
+    1.075
   ],
   "resistance_levels": [
+    1.09,
     1.1,
-    1.105,
-    1.1172
+    1.1145
   ]
 };

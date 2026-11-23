@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_XAGUSD = {
-  "generated": "2026-11-20T15:21:02Z",
+  "generated": "2026-11-23T17:57:43Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "SLV",
   "slug": "xagusd",
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_XAGUSD = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "2/10",
-  "analysis": "The price at 38.05 sits far below both the EMA50 (49.45) and EMA200 (58.43), confirming a strong downtrend. No additional chart patterns such as flags or double bottoms are evident from the last five candles, and no candlestick reversal patterns have been detected. The trend is unequivocally bearish, and price action aligns with the EMA structure.\n\nRSI at 21.83 is deeply oversold, but without any bullish divergence, this alone is not a reliable buy signal. The MACD remains bearish with the line below the signal line and a negative histogram, indicating continued downside momentum. There is no confluence between RSI oversold and a bullish MACD turn; instead, both indicators agree with the prevailing downtrend. The signal score of 2/10 reflects very weak bullish conviction.\n\nGiven the absence of a reversal catalyst\u2014no divergence, no candlestick pattern, and no support test with a bounce\u2014the prudent action is to wait. A trade setup would require either a bullish divergence on RSI, a MACD crossover, or a clear support-level bounce with confirmation. Until then, the risk of further decline remains high, especially in a strong downtrend where oversold conditions can persist.",
-  "invalidation": "A break below the nearest support near 37.00 would confirm continued downside and invalidate any potential reversal setup, while a sustained move above 40.00 could signal a short-term bounce worth monitoring.",
+  "score": "1/10",
+  "analysis": "The daily chart confirms a strong downtrend with price at 39.25, far below both the EMA50 (49.01) and EMA200 (59.02). The EMA structure is bearish, and price action consistently respects lower highs and lower lows, reinforcing the trend. No candlestick patterns or chart formations (flags, triangles, double tops/bottoms) are present to suggest an imminent reversal or continuation pattern. The nearest support is likely the prior swing low near 38.50, followed by the psychological 37.00 level and the 35.00 zone from earlier in the year. Resistance is clustered around 40.00 (recent minor high), then 41.50 and 43.00 (prior breakdown levels).\n\nRSI at 30.56 is neutral but hovering near the oversold threshold (30). While this could hint at exhaustion, the MACD remains bearish with the line below the signal line and a negative histogram (-0.525), confirming downside momentum. There is no RSI divergence to suggest a weakening trend. The confluence of indicators aligns with the downtrend, but the extremely low signal score (1/10) reflects a lack of clear entry triggers. The risk of a short position is elevated because price is already near potential support and oversold conditions could spark a bounce, while buying against a strong downtrend is unsupported.\n\nGiven the absence of a defined setup, the best course is to wait. A short entry would require a confirmed breakdown below 38.50 with increasing volume, or a rally to a resistance level (e.g., 40.00) that holds and reverses. A long entry would need a bullish reversal pattern (e.g., double bottom, bullish engulfing) combined with RSI moving above 40 and MACD crossing. Until such signals appear, the risk/reward is unfavorable.",
+  "invalidation": "N/A",
   "support_levels": [
+    38.5,
     37.0,
-    36.0,
     35.0
   ],
   "resistance_levels": [
-    39.5,
-    40.5,
-    42.0
+    40.0,
+    41.5,
+    43.0
   ]
 };

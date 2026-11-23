@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-20T15:21:12Z",
+  "generated": "2026-11-23T17:57:58Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Eases Below 103.98 as Half-Point Fed Bets Fade, EUR/USD and GBP/USD Steady",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-070000208.html?.tsrc=rss",
+        "time_published": "2026-11-23 07:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY eases below its 103.98 pivot as a half-point Fed hike is priced out, while EUR/USD holds 1.0953 and GBP/USD tests 1.3126."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Heads for Fourth Weekly Gain as EUR/USD, GBP/USD Slide, Can 103.70 Hold?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-070000608.html?.tsrc=rss",
@@ -50,16 +57,23 @@ window.NEWS_DATA = {
         "time_published": "2026-11-12 07:51",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY hits a 19-month high above its 102.83 pivot on Fed hike bets, while EUR/USD breaks below 1.1098 and GBP/USD slips under 1.3279."
-      },
-      {
-        "title": "US Dollar Price Forecast: Hot CPI Lifts DXY Above 102.20, Can It Break 102.50?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-hot-073000993.html?.tsrc=rss",
-        "time_published": "2026-11-11 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: hot CPI lifts DXY above its 102.21 pivot as Fed hike odds jump, while EUR/USD slips below 1.1170 and GBP/USD breaks its trendline."
       }
     ],
     "eurusd": [
+      {
+        "title": "EUR/USD Weekly Forecast: Euro Stays Down Bad as Fed Hike Bets Put 1.0955 Support in Focus",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-weekly-forecast-euro-080453514.html?.tsrc=rss",
+        "time_published": "2026-11-23 08:04",
+        "source": "Finance",
+        "summary": "EUR/USD weekly forecast: the euro trades near 1.1003 after holding 1.0955 support, and the bias stays bearish below 1.1138 as Fed hike bets support the dollar."
+      },
+      {
+        "title": "US Dollar Price Forecast: DXY Eases Below 103.98 as Half-Point Fed Bets Fade, EUR/USD and GBP/USD Steady",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-070000208.html?.tsrc=rss",
+        "time_published": "2026-11-23 07:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY eases below its 103.98 pivot as a half-point Fed hike is priced out, while EUR/USD holds 1.0953 and GBP/USD tests 1.3126."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Heads for Fourth Weekly Gain as EUR/USD, GBP/USD Slide, Can 103.70 Hold?",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-070000608.html?.tsrc=rss",
@@ -101,20 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-17 07:31",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY eases from a 19-month high near 103.69 as EUR/USD holds 1.1000 and GBP/USD defends 1.3174 after UK unemployment falls."
-      },
-      {
-        "title": "EUR/USD Weekly Forecast: Dollar Strength Pushes Euro to a One-Year Low as 1.0952 Comes Into Focus",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-weekly-forecast-dollar-115705918.html?.tsrc=rss",
-        "time_published": "2026-11-16 11:57",
-        "source": "Finance",
-        "summary": "EUR/USD weekly forecast: the euro trades near 1.1017, a one-year low, as Fed hike bets build, and the bias stays bearish below 1.1257 with 1.0952 in focus."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds 103.23 as EUR/USD Slides Toward 1.1010, GBP/USD Tests 1.3201",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073000661.html?.tsrc=rss",
-        "time_published": "2026-11-16 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY holds near a 19-month high above 103.23 as Fed hike odds stay firm, while EUR/USD nears 1.1010 and GBP/USD tests 1.3201."
       }
     ],
     "xauusd": [],
@@ -178,63 +178,70 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "SPDR S&P 500 ETF (SPY) Sells Apple and Microsoft on Nov. 18",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110339564.html?.tsrc=rss",
-        "time_published": "2026-11-20 11:03",
+        "title": "Why stocks are having their wildest Monday morning since 2008",
+        "url": "https://finance.yahoo.com/markets/article/why-stocks-are-having-their-wildest-monday-morning-since-2008-153100381.html?.tsrc=rss",
+        "time_published": "2026-11-23 15:31",
         "source": "Finance",
-        "summary": "The fund sold $11.62 billion of stock and bought nothing, cutting 502 positions while adding none."
+        "summary": "The Nasdaq-100 ETF is opening with its biggest jump on record after a brutal week for AI stocks."
       },
       {
-        "title": "ETFs Are Net Sellers of Broadcom (AVGO) on Nov. 18",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-broadcom-avgo-110250063.html?.tsrc=rss",
-        "time_published": "2026-11-20 11:02",
+        "title": "What SPDR S&P 500 ETF Trust (SPY) Sold: Apple Leads on Nov. 19",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110402082.html?.tsrc=rss",
+        "time_published": "2026-11-23 11:04",
         "source": "Finance",
-        "summary": "ETFs sold a net $188.4 million of Broadcom (AVGO) on Nov. 18."
+        "summary": "The $756.38 billion fund sold $1.53 billion of stock, cutting 502 positions and adding none."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Fall Pre-Bell Friday Amid Continued AI Stock Selloff",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140012643.html?.tsrc=rss",
-        "time_published": "2026-11-20 14:00",
+        "title": "ETF Activity: SPY Leads $1.53 Billion Outflow on Nov. 19",
+        "url": "https://finance.yahoo.com/markets/options/articles/etf-activity-spy-leads-1-110011746.html?.tsrc=rss",
+        "time_published": "2026-11-23 11:00",
         "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.9% and the actively tr"
+        "summary": "Large-cap index funds pulled back while dividend and low-volatility products attracted fresh money."
       },
       {
-        "title": "ETFs Are Net Sellers of Johnson & Johnson (JNJ) on Wednesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-johnson-johnson-110303332.html?.tsrc=rss",
-        "time_published": "2026-11-20 11:03",
-        "source": "Finance",
-        "summary": "ETFs sold a net $144.2 million of Johnson & Johnson on Wednesday, Nov. 18."
+        "title": "Nvidia Is About 5% of a $500,000 S&P 500 Fund. On Monday Morning It Delivered About a Third of the Fund\u2019s $23,900 Gain",
+        "url": "https://247wallst.com/investing/2026/11/23/nvidia-is-about-5-of-a-500000-sp-500-fund-on-monday-morning-it-delivered-about-a-third-of-the-funds-23900-gain/?.tsrc=rss",
+        "time_published": "2026-11-23 15:03",
+        "source": "247wallst",
+        "summary": "Nvidia is about 5.1% of an S&P 500 index fund. On a $500,000 fund, its Monday jump added about $7,900 of a $23,900 gain."
       },
       {
-        "title": "ETFs Are Net Sellers of JPMorgan Chase (JPM) on Nov. 18",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-jpmorgan-chase-110300552.html?.tsrc=rss",
-        "time_published": "2026-11-20 11:03",
-        "source": "Finance",
-        "summary": "ETFs sold a net $151.2 million of JPMorgan Chase on Wednesday, Nov. 18."
+        "title": "How Risky Is ServiceNow Stock In A Falling Market?",
+        "url": "https://www.trefis.com/stock/now/articles/627538/how-risky-is-servicenow-stock-in-a-falling-market/2026-11-22?.tsrc=rss",
+        "time_published": "2026-11-23 11:18",
+        "source": "Trefis",
+        "summary": "For questions about this article or underlying research, email help@trefis.com."
       },
       {
-        "title": "ETFs Are Net Sellers of Chevron (CVX) on Nov. 18",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-chevron-cvx-110244445.html?.tsrc=rss",
-        "time_published": "2026-11-20 11:02",
+        "title": "ETFs Are Net Sellers of Visa (V) on Thursday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-visa-v-110300948.html?.tsrc=rss",
+        "time_published": "2026-11-23 11:03",
         "source": "Finance",
-        "summary": "ETFs sold $197.3 million of Chevron stock on Nov. 18."
+        "summary": "ETFs sold $52.6 million of Visa stock on Thursday, with 43 buyers against 19 sellers."
       },
       {
-        "title": "ETFs Are Net Sellers of Alphabet (GOOGL) on Nov. 18",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-alphabet-googl-110228712.html?.tsrc=rss",
-        "time_published": "2026-11-20 11:02",
+        "title": "ETFs Are Net Sellers of Alphabet (GOOGL) on Nov. 19",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-alphabet-googl-110256389.html?.tsrc=rss",
+        "time_published": "2026-11-23 11:02",
         "source": "Finance",
-        "summary": "ETFs sold a net $243.5 million of Alphabet (GOOGL) shares on Nov. 18."
+        "summary": "Alphabet (GOOGL) saw $76.4 million in net ETF selling on Thursday."
       },
       {
-        "title": "ETFs Are Net Sellers of Eli Lilly (LLY) on Nov. 18",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-eli-lilly-110221691.html?.tsrc=rss",
-        "time_published": "2026-11-20 11:02",
+        "title": "ETFs Are Net Sellers of Amazon (AMZN) on Nov. 19",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-amazon-amzn-110244511.html?.tsrc=rss",
+        "time_published": "2026-11-23 11:02",
         "source": "Finance",
-        "summary": "ETFs sold $252.2 million of Eli Lilly (LLY) on Wednesday, with 39 buying and 20 selling."
+        "summary": "ETFs sold $89.6 million of Amazon (AMZN) on Thursday, with 58 buying and 20 selling."
       }
     ],
     "oil": [
+      {
+        "title": "Sector Update: Energy Stocks Decline Pre-Bell Monday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-pre-142515698.html?.tsrc=rss",
+        "time_published": "2026-11-23 14:25",
+        "source": "Finance",
+        "summary": "Energy stocks were declining pre-bell Monday, with the State Street Energy Select Sector SPDR ETF (X"
+      },
       {
         "title": "Sector Update: Energy Stocks Advance Premarket Tuesday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-142445991.html?.tsrc=rss",
@@ -283,13 +290,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-16 14:25",
         "source": "Finance",
         "summary": "Energy stocks were declining premarket Monday, with the State Street Energy Select Sector SPDR ETF ("
-      },
-      {
-        "title": "SolarEdge Slides 5% as Rising Yields Weigh on Solar Stocks; Sunrun Drops 4%, Enphase Falls 3%",
-        "url": "https://247wallst.com/investing/2026/11/12/solaredge-slides-5-as-rising-yields-weigh-on-solar-stocks-sunrun-drops-4-enphase-falls-3/?.tsrc=rss",
-        "time_published": "2026-11-12 18:57",
-        "source": "247wallst",
-        "summary": "A blowout earnings beat sounded like good news for SolarEdge, yet its stock is sliding with the whole solar sector. The culprit sits in the bond market, and some solar names feel it far more than others."
       }
     ]
   }

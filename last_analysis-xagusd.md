@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
-**Date:** 2026-11-20
-**Generated:** 2026-11-20T15:21:02Z
+**Date:** 2026-11-23
+**Generated:** 2026-11-23T17:57:43Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 2/10 |
-| **Support** | 37.0, 36.0, 35.0 |
-| **Resistance** | 39.5, 40.5, 42.0 |
+| **Score** | 1/10 |
+| **Support** | 38.5, 37.0, 35.0 |
+| **Resistance** | 40.0, 41.5, 43.0 |
 
 ---
 
 ## Analysis
 
-The price at 38.05 sits far below both the EMA50 (49.45) and EMA200 (58.43), confirming a strong downtrend. No additional chart patterns such as flags or double bottoms are evident from the last five candles, and no candlestick reversal patterns have been detected. The trend is unequivocally bearish, and price action aligns with the EMA structure.
+The daily chart confirms a strong downtrend with price at 39.25, far below both the EMA50 (49.01) and EMA200 (59.02). The EMA structure is bearish, and price action consistently respects lower highs and lower lows, reinforcing the trend. No candlestick patterns or chart formations (flags, triangles, double tops/bottoms) are present to suggest an imminent reversal or continuation pattern. The nearest support is likely the prior swing low near 38.50, followed by the psychological 37.00 level and the 35.00 zone from earlier in the year. Resistance is clustered around 40.00 (recent minor high), then 41.50 and 43.00 (prior breakdown levels).
 
-RSI at 21.83 is deeply oversold, but without any bullish divergence, this alone is not a reliable buy signal. The MACD remains bearish with the line below the signal line and a negative histogram, indicating continued downside momentum. There is no confluence between RSI oversold and a bullish MACD turn; instead, both indicators agree with the prevailing downtrend. The signal score of 2/10 reflects very weak bullish conviction.
+RSI at 30.56 is neutral but hovering near the oversold threshold (30). While this could hint at exhaustion, the MACD remains bearish with the line below the signal line and a negative histogram (-0.525), confirming downside momentum. There is no RSI divergence to suggest a weakening trend. The confluence of indicators aligns with the downtrend, but the extremely low signal score (1/10) reflects a lack of clear entry triggers. The risk of a short position is elevated because price is already near potential support and oversold conditions could spark a bounce, while buying against a strong downtrend is unsupported.
 
-Given the absence of a reversal catalyst—no divergence, no candlestick pattern, and no support test with a bounce—the prudent action is to wait. A trade setup would require either a bullish divergence on RSI, a MACD crossover, or a clear support-level bounce with confirmation. Until then, the risk of further decline remains high, especially in a strong downtrend where oversold conditions can persist.
+Given the absence of a defined setup, the best course is to wait. A short entry would require a confirmed breakdown below 38.50 with increasing volume, or a rally to a resistance level (e.g., 40.00) that holds and reverses. A long entry would need a bullish reversal pattern (e.g., double bottom, bullish engulfing) combined with RSI moving above 40 and MACD crossing. Until such signals appear, the risk/reward is unfavorable.
 
 ---
 
 ## Invalidation
 
-A break below the nearest support near 37.00 would confirm continued downside and invalidate any potential reversal setup, while a sustained move above 40.00 could signal a short-term bounce worth monitoring.
+N/A
 
 ---
 

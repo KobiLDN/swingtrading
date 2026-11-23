@@ -1,7 +1,7 @@
 # Last AI Analysis — GBP/USD
 
-**Date:** 2026-11-20
-**Generated:** 2026-11-20T15:19:17Z
+**Date:** 2026-11-23
+**Generated:** 2026-11-23T17:56:52Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | WAIT |
 | **Confidence** | MEDIUM |
-| **Entry** | 1.31171 |
-| **Stop Loss** | 1.3180 |
-| **Target 1** | 1.3050 |
-| **Target 2** | 1.3000 |
-| **Risk/Reward** | 1:1.5 |
-| **Score** | 5/10 |
-| **Support** | 1.31, 1.305, 1.3 |
-| **Resistance** | 1.315, 1.32, 1.325 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 6/10 |
+| **Support** | 1.3, 1.295, 1.29 |
+| **Resistance** | 1.307, 1.31, 1.315 |
 
 ---
 
 ## Analysis
 
-The price action at 1.31171 is deeply entrenched below both the EMA 50 (1.33037) and EMA 200 (1.33904), fully confirming the "STRONG DOWNTREND" designation. The bearish EMA stack aligns perfectly with the sequence of lower lows. The presence of both Bullish and Bearish Engulfing patterns in the last five candles suggests a volatile consolidation phase, likely forming a bear flag or pennant pattern within the downtrend. This type of consolidation typically resolves with a continuation lower, which supports the bearish bias despite the short-term noise.
+The daily chart confirms a strong downtrend with price well below both the EMA50 (1.32754) and EMA200 (1.33926). The bearish MACD (line below signal, negative histogram) aligns with this trend, and the recent Evening Star candlestick pattern (preceded by Dojis and an Inverted Hammer) suggests continued selling pressure rather than a reversal. However, the RSI at 24.57 is deeply oversold, which historically can precede a short-term bounce or consolidation. No bullish divergence is present, so the oversold condition alone does not invalidate the downtrend but does raise the risk of a snap-back rally.
 
-The MACD is firmly bearish with a negative histogram, strongly confluent with the downtrend. However, the RSI at 32.61 is neutral, hovering just above the oversold threshold. This divergence—a strong price trend against a neutral momentum oscillator—is a cautionary signal that prevents a high-conviction trade. The 5/10 signal score accurately reflects this balance. Key resistance levels are the round numbers and EMAs above, while immediate support lies at the psychological 1.3100 level, followed by 1.3050 and 1.3000.
+No clear chart patterns like triangles or flags are evident from the given data. The price is hovering near the psychological 1.3000 support level, which may act as a temporary floor. The nearest resistance is the 1.3070 area (likely the high of the Inverted Hammer candle) and the round 1.3100 level. Given the strong trend, a sell entry would ideally be placed after a minor pullback to one of these resistance zones, rather than chasing the current low. The RSI and MACD are not in confluence for a buy signal, and the bearish candlestick pattern reinforces the downtrend, but the oversold RSI argues against aggressive shorting at current levels.
 
-The single best setup is a SELL in the direction of the dominant trend. The entry is the current market price. The stop loss is placed just above the recent consolidation zone to avoid being stopped out by a minor squeeze. Targets are set at the next major support levels. The risk is medium; the primary threat is a sharp mean-reversion rally given the stretched distance from the EMAs and the neutral RSI. The 5/10 score is confirmed, as the structural alignment of price and EMAs provides a solid foundation, but the mixed candlestick patterns and neutral RSI demand tempered expectations.
+The single best trade setup is to wait for a bounce toward 1.3070–1.3100 and then initiate a short position with a stop above 1.3150. This approach improves the risk/reward ratio and avoids entering during an oversold condition that could trigger a sharp corrective move. The current signal score of 6/10 reflects a moderately bearish bias but with caution due to the oversold RSI and proximity to support.
 
 ---
 
 ## Invalidation
 
-A daily close above the 1.3180 resistance level or a sustained RSI recovery above 40 would invalidate this bearish setup.
+N/A
 
 ---
 

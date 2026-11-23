@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-11-20
-**Generated:** 2026-11-20T15:20:33Z
+**Date:** 2026-11-23
+**Generated:** 2026-11-23T17:57:15Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
-| **Confidence** | MEDIUM |
-| **Entry** | 3574.86 |
-| **Stop Loss** | 3650.00 |
-| **Target 1** | 3500.00 |
-| **Target 2** | 3400.00 |
-| **Risk/Reward** | 1:1 (T1), 2.33:1 (T2) |
-| **Score** | 6/10 |
-| **Support** | 3500.0, 3450.0, 3400.0 |
-| **Resistance** | 3650.0, 3700.0, 3750.0 |
+| **Decision** | WAIT |
+| **Confidence** | LOW |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 5/10 |
+| **Support** | 3600.0, 3550.0, 3500.0 |
+| **Resistance** | 3700.0, 3750.0, 3800.0 |
 
 ---
 
 ## Analysis
 
-Price action confirms the strong downtrend as XAU/USD trades well below both the 50-period (4012.55) and 200-period (4366.64) EMAs, with no signs of a reversal. The Evening Star pattern observed in the last five candles typically signals bearish continuation in an established downtrend, adding weight to the selling pressure. Although the RSI is deeply oversold at 22.08, no bullish divergence exists, and the MACD remains bearish with a negative histogram, indicating momentum is still to the downside. The confluence of trend-following indicators therefore supports a continuation of the current move.  
+The daily chart shows a strong downtrend, with price at 3657.41 well below both the EMA50 (3961.33) and EMA200 (4309.49). The bearish MACD (line below signal, negative histogram) and RSI at 35.59 (below 50) confirm the prevailing bearish momentum. Although a Bullish Engulfing pattern has formed within the last five candles, it appears as a potential counter-trend bounce within a dominant downtrend rather than a confirmed reversal. The signal score of 5/10 reflects this ambiguity—the pattern offers a glimmer of bullish hope, but the broader trend and momentum indicators remain firmly bearish.
 
-Key support levels near current price are the psychological 3500 round number, followed by 3450 and 3400, while resistance lies at the Evening Star high around 3650, then 3700 and 3750. The ATR of 78 points suggests recent volatility is moderate, making a stop at 3650 (approximately 1 ATR above entry) a reasonable buffer against a short-term squeeze.  
+No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. Key support levels are psychological and technical: 3600 (round number), 3550 (recent swing low area), and 3500 (major psychological support). Resistance lies at 3700 (near-term high), 3750, and 3800, with the EMA50 at 3961 acting as a significant overhead barrier. The RSI and MACD are in full agreement with the downtrend, offering no divergence or bullish confluence to support a long entry.
 
-The best trade setup is a sell at the current market price, targeting the first support at 3500 for a 1:1 risk-reward, and extending to 3400 for a 2.33:1 reward. Risk assessment acknowledges the oversold RSI could trigger a temporary bounce, but the strong downtrend and bearish candlestick pattern argue for continued downside. The overall signal score of 6/10 reflects a moderately favorable setup, with the trend as the primary driver.
+Given the strong downtrend, the best trade setup would be to wait for a clearer signal. A buy on the Bullish Engulfing would be highly speculative and risk being caught in a continuation of the downtrend. Conversely, a sell near resistance (e.g., 3700) could be considered, but the current price is already near support, making the risk/reward unattractive. Until price either breaks above a key resistance level (e.g., 3700) with momentum or shows a clear bearish rejection, the prudent course is to remain on the sidelines.
 
 ---
 
 ## Invalidation
 
-A daily close above the Evening Star high near 3650 would invalidate the bearish setup and suggest a potential trend reversal or significant bounce.
+A decisive close below 3600 would negate any bullish potential from the engulfing pattern and confirm the downtrend’s continuation.
 
 ---
 
