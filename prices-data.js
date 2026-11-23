@@ -1,61 +1,52 @@
 window.PRICES_DATA = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-11-20T14:35:13Z",
-  "date": "2026-11-20",
-  "price": 1.31171,
-  "atr": 0.00631,
-  "atr_pips": 63,
+  "generated": "2026-11-23T16:49:57Z",
+  "date": "2026-11-23",
+  "price": 1.30148,
+  "atr": 0.00624,
+  "atr_pips": 62,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.33037,
-  "ema200": 1.33904,
-  "rsi": 32.61,
-  "macd_line": -0.005799,
-  "macd_signal": -0.003389,
-  "macd_hist": -0.002409,
+  "ema50": 1.32754,
+  "ema200": 1.33926,
+  "rsi": 24.57,
+  "macd_line": -0.007572,
+  "macd_signal": -0.005202,
+  "macd_hist": -0.00237,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-11-17",
-      "name": "Bullish Engulfing",
-      "signal": "STRONG BULLISH",
-      "strength": 4
+      "date": "2026-11-20",
+      "name": "Inverted Hammer",
+      "signal": "BULLISH REVERSAL",
+      "strength": 3
     },
     {
-      "date": "2026-11-18",
-      "name": "Bearish Engulfing",
-      "signal": "STRONG BEARISH",
-      "strength": 4
+      "date": "2026-11-21",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-11-22",
+      "name": "Doji",
+      "signal": "INDECISION",
+      "strength": 2
+    },
+    {
+      "date": "2026-11-23",
+      "name": "Evening Star",
+      "signal": "STRONG BEARISH REVERSAL",
+      "strength": 5
     }
   ],
-  "score": 5,
+  "score": 6,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-08-13",
-      "open": 1.34952,
-      "high": 1.35126,
-      "low": 1.3475,
-      "close": 1.3487
-    },
-    {
-      "date": "2026-08-14",
-      "open": 1.34871,
-      "high": 1.35613,
-      "low": 1.34834,
-      "close": 1.35341
-    },
-    {
-      "date": "2026-08-15",
-      "open": 1.35337,
-      "high": 1.35422,
-      "low": 1.3524,
-      "close": 1.35334
-    },
     {
       "date": "2026-08-16",
       "open": 1.3533,
@@ -733,7 +724,28 @@ window.PRICES_DATA = {
       "open": 1.31003,
       "high": 1.31287,
       "low": 1.30798,
-      "close": 1.31171
+      "close": 1.30874
+    },
+    {
+      "date": "2026-11-21",
+      "open": 1.30874,
+      "high": 1.30974,
+      "low": 1.30757,
+      "close": 1.30875
+    },
+    {
+      "date": "2026-11-22",
+      "open": 1.30874,
+      "high": 1.30949,
+      "low": 1.30786,
+      "close": 1.30873
+    },
+    {
+      "date": "2026-11-23",
+      "open": 1.30868,
+      "high": 1.31457,
+      "low": 1.30129,
+      "close": 1.30148
     }
   ]
 };

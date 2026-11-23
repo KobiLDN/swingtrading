@@ -1,77 +1,29 @@
 window.CALENDAR_DATA = {
-  "generated": "2026-11-20T14:35:15Z",
+  "generated": "2026-11-23T16:50:00Z",
   "events": [
     {
-      "date": "2026-11-16",
-      "time": "12:00",
-      "currency": "USD",
-      "event": "Fed Chairman Warsh Speaks",
-      "impact": "high",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-11-17",
+      "date": "2026-11-25",
       "time": "08:30",
       "currency": "USD",
-      "event": "Core Retail Sales m/m",
+      "event": "Core PCE Price Index m/m",
       "impact": "high",
-      "forecast": "0.4%",
-      "previous": "0.9%",
+      "forecast": "0.3%",
+      "previous": "0.3%",
       "actual": "",
       "today": false,
-      "past": true
+      "past": false
     },
     {
-      "date": "2026-11-17",
+      "date": "2026-11-25",
       "time": "08:30",
       "currency": "USD",
-      "event": "Retail Sales m/m",
+      "event": "Prelim GDP q/q",
       "impact": "high",
-      "forecast": "0.1%",
-      "previous": "0.8%",
+      "forecast": "3.5%",
+      "previous": "3.4%",
       "actual": "",
       "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-11-18",
-      "time": "02:00",
-      "currency": "GBP",
-      "event": "CPI y/y",
-      "impact": "high",
-      "forecast": "3.6%",
-      "previous": "3.5%",
-      "actual": "",
-      "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-11-18",
-      "time": "10:00",
-      "currency": "GBP",
-      "event": "BOE Gov Bailey Speaks",
-      "impact": "high",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "today": false,
-      "past": true
-    },
-    {
-      "date": "2026-11-18",
-      "time": "14:00",
-      "currency": "USD",
-      "event": "FOMC Meeting Minutes",
-      "impact": "high",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "today": false,
-      "past": true
+      "past": false
     }
   ]
 };

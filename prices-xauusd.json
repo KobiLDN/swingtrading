@@ -1,55 +1,34 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-11-20T14:35:13Z",
-  "date": "2026-11-20",
-  "price": 3574.86,
-  "atr": 78.12,
+  "generated": "2026-11-23T16:49:58Z",
+  "date": "2026-11-23",
+  "price": 3657.41,
+  "atr": 77.72,
   "atr_pips": 78,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 4012.55,
-  "ema200": 4366.64,
-  "rsi": 22.08,
-  "macd_line": -98.839031,
-  "macd_signal": -64.344522,
-  "macd_hist": -34.494509,
+  "ema50": 3961.33,
+  "ema200": 4309.49,
+  "rsi": 35.59,
+  "macd_line": -123.800149,
+  "macd_signal": -93.539156,
+  "macd_hist": -30.260993,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
     {
-      "date": "2026-11-17",
-      "name": "Evening Star",
-      "signal": "STRONG BEARISH REVERSAL",
-      "strength": 5
+      "date": "2026-11-23",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
-  "score": 6,
+  "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-20",
-      "open": 4003.71,
-      "high": 4040.56,
-      "low": 3982.51,
-      "close": 4006.31
-    },
-    {
-      "date": "2026-07-21",
-      "open": 4010.3,
-      "high": 4087.0,
-      "low": 3999.48,
-      "close": 4077.92
-    },
-    {
-      "date": "2026-07-22",
-      "open": 4075.82,
-      "high": 4166.42,
-      "low": 4074.62,
-      "close": 4130.54
-    },
     {
       "date": "2026-07-23",
       "open": 4132.35,
@@ -726,8 +705,29 @@
       "date": "2026-11-20",
       "open": 3667.06,
       "high": 3673.23,
-      "low": 3515.19,
-      "close": 3574.86
+      "low": 3504.02,
+      "close": 3520.57
+    },
+    {
+      "date": "2026-11-21",
+      "open": 3521.12,
+      "high": 3537.82,
+      "low": 3503.98,
+      "close": 3536.2
+    },
+    {
+      "date": "2026-11-22",
+      "open": 3536.15,
+      "high": 3540.2,
+      "low": 3532.74,
+      "close": 3532.83
+    },
+    {
+      "date": "2026-11-23",
+      "open": 3532.8,
+      "high": 3689.08,
+      "low": 3521.75,
+      "close": 3657.41
     }
   ]
 }
