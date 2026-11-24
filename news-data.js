@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-23T17:57:58Z",
+  "generated": "2026-11-24T17:31:40Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Dollar Hits 19-Month High vs Euro, DXY Eyes 104.75 as EUR/USD, GBP/USD Fall",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-070000107.html?.tsrc=rss",
+        "time_published": "2026-11-24 07:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: hawkish Fed bets lift the dollar to a 19-month high against the euro as DXY eyes 104.75 and EUR/USD, GBP/USD stay below pivots."
+      },
       {
         "title": "US Dollar Price Forecast: DXY Eases Below 103.98 as Half-Point Fed Bets Fade, EUR/USD and GBP/USD Steady",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-070000208.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-11-13 07:31",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY heads for its best week since September on Fed hike bets, while EUR/USD tests 1.1056 and GBP/USD slips into its 1.3243 pivot zone."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eyes 103.15 at 19-Month High as EUR/USD, GBP/USD Slide",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-075128128.html?.tsrc=rss",
-        "time_published": "2026-11-12 07:51",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY hits a 19-month high above its 102.83 pivot on Fed hike bets, while EUR/USD breaks below 1.1098 and GBP/USD slips under 1.3279."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Dollar Hits 19-Month High vs Euro, DXY Eyes 104.75 as EUR/USD, GBP/USD Fall",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-070000107.html?.tsrc=rss",
+        "time_published": "2026-11-24 07:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: hawkish Fed bets lift the dollar to a 19-month high against the euro as DXY eyes 104.75 and EUR/USD, GBP/USD stay below pivots."
+      },
       {
         "title": "EUR/USD Weekly Forecast: Euro Stays Down Bad as Fed Hike Bets Put 1.0955 Support in Focus",
         "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-weekly-forecast-euro-080453514.html?.tsrc=rss",
@@ -108,17 +115,17 @@ window.NEWS_DATA = {
         "time_published": "2026-11-18 07:32",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY tests 103.74 near a 19-month high as Fed officials back more hikes, EUR/USD slips below 1.1000 and GBP/USD holds 1.3174."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eases From 19-Month High, Can EUR/USD Hold 1.1000 and GBP/USD 1.3174?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073122110.html?.tsrc=rss",
-        "time_published": "2026-11-17 07:31",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY eases from a 19-month high near 103.69 as EUR/USD holds 1.1000 and GBP/USD defends 1.3174 after UK unemployment falls."
       }
     ],
     "xauusd": [],
     "xagusd": [
+      {
+        "title": "The iShares Silver Trust Is Down 65% From Its High. Has It Become a Bargain Buy?",
+        "url": "https://www.fool.com/investing/2026/11/24/the-ishares-silver-trust-is-down-65-from-its-high-has-it-become-a-bargain-buy/?.tsrc=rss",
+        "time_published": "2026-11-24 16:59",
+        "source": "Fool",
+        "summary": "The price of silver has tanked for much of the year, and that's weighed down the iShares Silver Trust."
+      },
       {
         "title": "Is the iShares Silver Trust a Buy After Falling Nearly 60% From Its High?",
         "url": "https://www.fool.com/investing/2026/11/11/is-the-ishares-silver-trust-a-buy-after-falling-mo/?.tsrc=rss",
@@ -141,6 +148,13 @@ window.NEWS_DATA = {
         "summary": "Gold and silver have long attracted investors seeking protection against economic uncertainty, but these two popular ETFs offer different opportunities for those looking to own precious metals."
       },
       {
+        "title": "Is It Time To Buy Silver? This Put Strategy In Options Trading Counts On A Limited Decline",
+        "url": "https://finance.yahoo.com/m/c5c70838-878f-3f77-9d1c-fd3bba9e4da7/is-it-time-to-buy-silver%3F.html?.tsrc=rss",
+        "time_published": "2026-11-23 18:34",
+        "source": "Finance",
+        "summary": "Selling a put to buy silver at a discount may seem like a no-brainer, but it comes with trade-offs."
+      },
+      {
         "title": "Silver Crashes 61% From All-Time High: One Wall Street Bull Sees A Buy Signal, Another Critic Says Wait",
         "url": "https://stocktwits.com/news-articles/markets/equity/silver-crashes-61-from-all-time-high/cNbagFHR9gm?.tsrc=rss",
         "time_published": "2026-11-17 01:43",
@@ -160,78 +174,64 @@ window.NEWS_DATA = {
         "time_published": "2026-11-18 10:46",
         "source": "Stocktwits",
         "summary": "Gold futures for December 2026 deliveries were down to $3,773.80 per ounce, while silver futures expiring in December declined to $45.68 per ounce."
-      },
-      {
-        "title": "SLV\u2019s $149,842 Gain on a $300,000 Sale Could Be Taxed as a Collectible, Not a Stock",
-        "url": "https://247wallst.com/investing/etf/2026/11/15/slvs-149842-gain-on-a-300000-sale-could-be-taxed-as-a-collectible-not-a-stock/?.tsrc=rss",
-        "time_published": "2026-11-16 01:38",
-        "source": "247wallst",
-        "summary": "SLV trades like any stock fund, but the IRS sees something closer to a vault full of silver bars. That quirk can reshape the bill on a retiree's withdrawal, and the account holding the shares matters more than most investors realize."
-      },
-      {
-        "title": "Silver ETF vs. Silver Miners ETF: Which Has Held Up Better This Year?",
-        "url": "https://www.fool.com/investing/2026/11/12/silver-etf-vs-silver-miners-etf-which-has-held-up/?.tsrc=rss",
-        "time_published": "2026-11-12 19:20",
-        "source": "Fool",
-        "summary": "The Global X Silver Miners ETF is thumping the iShares Silver Trust, and that condition could persist even if the commodity's price rebounds."
       }
     ],
     "spx": [
       {
-        "title": "Why stocks are having their wildest Monday morning since 2008",
-        "url": "https://finance.yahoo.com/markets/article/why-stocks-are-having-their-wildest-monday-morning-since-2008-153100381.html?.tsrc=rss",
-        "time_published": "2026-11-23 15:31",
-        "source": "Finance",
-        "summary": "The Nasdaq-100 ETF is opening with its biggest jump on record after a brutal week for AI stocks."
-      },
-      {
-        "title": "What SPDR S&P 500 ETF Trust (SPY) Sold: Apple Leads on Nov. 19",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110402082.html?.tsrc=rss",
-        "time_published": "2026-11-23 11:04",
-        "source": "Finance",
-        "summary": "The $756.38 billion fund sold $1.53 billion of stock, cutting 502 positions and adding none."
-      },
-      {
-        "title": "ETF Activity: SPY Leads $1.53 Billion Outflow on Nov. 19",
-        "url": "https://finance.yahoo.com/markets/options/articles/etf-activity-spy-leads-1-110011746.html?.tsrc=rss",
-        "time_published": "2026-11-23 11:00",
-        "source": "Finance",
-        "summary": "Large-cap index funds pulled back while dividend and low-volatility products attracted fresh money."
-      },
-      {
-        "title": "Nvidia Is About 5% of a $500,000 S&P 500 Fund. On Monday Morning It Delivered About a Third of the Fund\u2019s $23,900 Gain",
-        "url": "https://247wallst.com/investing/2026/11/23/nvidia-is-about-5-of-a-500000-sp-500-fund-on-monday-morning-it-delivered-about-a-third-of-the-funds-23900-gain/?.tsrc=rss",
-        "time_published": "2026-11-23 15:03",
-        "source": "247wallst",
-        "summary": "Nvidia is about 5.1% of an S&P 500 index fund. On a $500,000 fund, its Monday jump added about $7,900 of a $23,900 gain."
-      },
-      {
-        "title": "How Risky Is ServiceNow Stock In A Falling Market?",
-        "url": "https://www.trefis.com/stock/now/articles/627538/how-risky-is-servicenow-stock-in-a-falling-market/2026-11-22?.tsrc=rss",
-        "time_published": "2026-11-23 11:18",
+        "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
+        "url": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
+        "time_published": "2026-11-24 13:03",
         "source": "Trefis",
-        "summary": "For questions about this article or underlying research, email help@trefis.com."
+        "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire."
       },
       {
-        "title": "ETFs Are Net Sellers of Visa (V) on Thursday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-visa-v-110300948.html?.tsrc=rss",
-        "time_published": "2026-11-23 11:03",
+        "title": "What SPDR S&P 500 ETF Trust (SPY) Bought: Apple Leads on Friday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110254690.html?.tsrc=rss",
+        "time_published": "2026-11-24 11:02",
         "source": "Finance",
-        "summary": "ETFs sold $52.6 million of Visa stock on Thursday, with 43 buyers against 19 sellers."
+        "summary": "The fund added $9.24 billion in net buys across 502 positions, with Apple's $817.4 million increase the largest."
       },
       {
-        "title": "ETFs Are Net Sellers of Alphabet (GOOGL) on Nov. 19",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-alphabet-googl-110256389.html?.tsrc=rss",
-        "time_published": "2026-11-23 11:02",
-        "source": "Finance",
-        "summary": "Alphabet (GOOGL) saw $76.4 million in net ETF selling on Thursday."
+        "title": "If Anthropic Does This It Could Reach $130 By Year End",
+        "url": "https://247wallst.com/investing/2026/11/24/if-anthropic-does-this-it-could-reach-130-by-year-end/?.tsrc=rss",
+        "time_published": "2026-11-24 15:45",
+        "source": "247wallst",
+        "summary": "Anthropic has traded for only three sessions and already sits below its first close, even as revenue explodes. Three things must go right in five weeks, and a tiny free float could decide whether the rebound arrives."
       },
       {
-        "title": "ETFs Are Net Sellers of Amazon (AMZN) on Nov. 19",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-amazon-amzn-110244511.html?.tsrc=rss",
-        "time_published": "2026-11-23 11:02",
+        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Investors Pull Back From AI-Related Stocks",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141922343.html?.tsrc=rss",
+        "time_published": "2026-11-24 14:19",
         "source": "Finance",
-        "summary": "ETFs sold $89.6 million of Amazon (AMZN) on Thursday, with 58 buying and 20 selling."
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 1.3% and the actively tr"
+      },
+      {
+        "title": "Here's Why Investors Should Go Defensive Now: ETFs in Focus",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-investors-defensive-now-134200178.html?.tsrc=rss",
+        "time_published": "2026-11-24 13:42",
+        "source": "Finance",
+        "summary": "Rising inflation, geopolitical tensions, AI uncertainty and mounting market pressures are clouding Wall Street's outlook. Explore three defensive ETFs that could offer relative stability."
+      },
+      {
+        "title": "ETFs Bought $120 Million of Mastercard (MA) on Friday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-120-million-mastercard-110212516.html?.tsrc=rss",
+        "time_published": "2026-11-24 11:02",
+        "source": "Finance",
+        "summary": "47 ETFs bought Mastercard shares versus 19 that sold, for a net inflow of $120 million."
+      },
+      {
+        "title": "Costco (COST) Sees $123.3 Million in Net ETF Buying on Friday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-sees-123-3-110206631.html?.tsrc=rss",
+        "time_published": "2026-11-24 11:02",
+        "source": "Finance",
+        "summary": "ETFs bought $123.3 million of Costco shares, with 47 funds buying and 18 selling."
+      },
+      {
+        "title": "ETFs Are Buying Walmart (WMT) on Nov. 20",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-walmart-wmt-nov-110151407.html?.tsrc=rss",
+        "time_published": "2026-11-24 11:01",
+        "source": "Finance",
+        "summary": "ETFs bought $162.2 million of Walmart stock on Friday."
       }
     ],
     "oil": [
@@ -278,18 +278,18 @@ window.NEWS_DATA = {
         "summary": "Energy stocks were declining premarket Wednesday, with the State Street Energy Select Sector SPDR ET"
       },
       {
+        "title": "Sector Update: Energy Stocks Edge Higher Pre-Bell Tuesday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-142401057.html?.tsrc=rss",
+        "time_published": "2026-11-24 14:24",
+        "source": "Finance",
+        "summary": "Energy stocks were edging higher pre-bell Tuesday, with the State Street Energy Select Sector SPDR E"
+      },
+      {
         "title": "Sector Update: Energy Stocks Mixed in Early Thursday Trading",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-early-143651830.html?.tsrc=rss",
         "time_published": "2026-11-19 14:36",
         "source": "Finance",
         "summary": "Energy stocks were mixed in early trading on Thursday, with the State Street Energy Select Sector SP"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Decline Premarket Monday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-premarket-142547112.html?.tsrc=rss",
-        "time_published": "2026-11-16 14:25",
-        "source": "Finance",
-        "summary": "Energy stocks were declining premarket Monday, with the State Street Energy Select Sector SPDR ETF ("
       }
     ]
   }

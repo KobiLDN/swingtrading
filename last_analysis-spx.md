@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-11-23
-**Generated:** 2026-11-23T17:57:24Z
+**Date:** 2026-11-24
+**Generated:** 2026-11-24T17:31:25Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | SELL |
 | **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 1/10 |
-| **Support** | 720.0, 706.41, 690.0 |
-| **Resistance** | 730.0, 739.62, 752.63 |
+| **Entry** | 713.28 |
+| **Stop Loss** | 722.00 |
+| **Target 1** | 700.00 |
+| **Target 2** | 690.00 |
+| **Risk/Reward** | 1.86 |
+| **Score** | 3/10 |
+| **Support** | 700.0, 690.0, 680.0 |
+| **Resistance** | 720.0, 730.0, 739.12 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a clear bearish bias with price (721.76) trading well below both the 50-period EMA (752.63) and the 200-period EMA (739.62). This confirms the EMA trend: price is below the shorter EMA, which itself is above the longer EMA (a “death cross” configuration), reinforcing downside momentum. No candlestick patterns or chart formations (triangles, flags, double tops/bottoms) are present in the last five candles, indicating a lack of immediate reversal signals or consolidation patterns. The price action is simply drifting lower within the prevailing downtrend.
+The daily chart shows a clear bearish bias with price trading well below both the 50-period (751.11) and 200-period (739.12) EMAs, confirming a sustained downtrend. The most recent candlestick is a Shooting Star, a bearish reversal pattern that suggests sellers are reasserting control after a minor bounce. The RSI at 38.94 is neutral but still below 50, indicating bearish momentum without being oversold, while the MACD remains below its signal line with a negative histogram, reinforcing the bearish outlook. There is no divergence, so the trend is consistent across indicators.  
 
-Key support levels near current price include the psychological round number at 720.00, followed by the ATR-based projection of 706.41 (current price minus one ATR), and then 690.00 as a deeper round-number support. On the upside, resistance is first encountered at 730.00 (a nearby round number), then the 200-period EMA at 739.62, and finally the 50-period EMA at 752.63. These levels are likely to act as barriers to any short-term bounces.
+No clear chart patterns like triangles or flags are evident from the given data, but the Shooting Star itself acts as a short-term reversal signal. Key support near the round number 700.00 is the nearest downside target, followed by 690.00 and 680.00. Resistance lies at 720.00 (potential recent swing high), then 730.00, and the 200-period EMA at 739.12, which is a major overhead barrier. The confluence of bearish EMAs, MACD, and the Shooting Star supports a short trade, but the low signal score (3/10) and proximity to potential support reduce confidence.  
 
-The RSI at 41.3 is neutral, not oversold, leaving room for further downside. The MACD is bearish with the line below the signal line and a negative histogram (-4.32), confirming the bearish momentum. There is no RSI divergence to suggest a weakening trend. Both indicators align with the bearish bias, but the lack of oversold conditions or a clear pattern reduces the probability of a high-conviction trade. The overall signal score of 1/10 reflects this weak setup.
-
-Given the absence of a clear entry trigger (no pattern, no divergence, no oversold condition) and the low signal score, the best course is to wait. A short entry would require a confirmed breakdown below the 720 support or a pullback to resistance with a bearish reversal candle. The risk of a snap-back rally is elevated because price is already far from the EMAs and the ATR is wide (15.35 points). Without a defined risk-reward setup, entering now would be speculative.
+Risk assessment: The ATR of 14.98 points suggests moderate daily volatility. A stop-loss at 722.00 (above the Shooting Star’s high and near 720 resistance) limits risk to about 8.72 points. The first target at 700.00 offers a 13.28-point gain, yielding a risk-reward ratio of 1.86. However, the overall weak signal score and the possibility of a bounce from the 700 support zone warrant caution.
 
 ---
 
 ## Invalidation
 
-A decisive close above the 200-period EMA at 739.62 would invalidate the bearish bias and shift the outlook to neutral or bullish.
+A daily close above 722.00 (the Shooting Star’s high) or a break above the 50-period EMA (751.11) would cancel the bearish setup and suggest a trend reversal.
 
 ---
 

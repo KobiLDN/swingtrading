@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-11-23T17:57:57Z",
+  "generated": "2026-11-24T17:31:39Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "4/10",
-  "analysis": "The current price of 133.47 sits between the EMA50 (147.01) and EMA200 (129.30), placing the overall trend in a neutral zone. Price action has recently formed a Bullish Engulfing and a Morning Star pattern over the last five candles, suggesting a potential reversal from the recent decline. However, these bullish signals are contradicted by the MACD, which remains bearish with the line below the signal line and a negative histogram, and by the RSI at 34.01, which is neutral but not yet oversold. The signal score of 4/10 reflects this mixed picture, indicating low conviction for a directional move.\n\nKey support levels are the EMA200 at 129.30 and the ATR-based lower bound near 128.24, while resistance is found at the ATR upper bound of 138.70 and the psychological 140.00 level, with the EMA50 at 147.01 acting as a stronger barrier. The lack of a clear trend, combined with conflicting indicators, makes it risky to enter a trade without further confirmation. The bullish candlestick patterns could lead to a short-term bounce, but the bearish MACD and neutral RSI suggest that any rally may be limited.\n\nGiven the low signal score and the absence of confluence between the candlestick patterns and the momentum indicators, the prudent approach is to wait for additional confirmation. A buy setup would require price to close above the 138.70 resistance or for the MACD to turn bullish, while a sell setup would need a decisive break below the EMA200 support. Until one of these conditions is met, the risk/reward profile remains unfavorable.",
-  "invalidation": "This wait-and-see stance is invalidated if price closes above 140.00 (confirming bullish momentum) or below 128.24 (breaking key support and turning the trend bearish).",
+  "score": "5/10",
+  "analysis": "The price action (133.84) sits between the EMA50 (146.49) and EMA200 (129.35), confirming the neutral trend designation. The bullish candlestick patterns (Bullish Engulfing and Morning Star) over the last five sessions suggest a potential reversal from the recent decline, but the broader trend remains unresolved. Without a clear break above the EMA50 or a sustained move below the EMA200, the market is in a consolidation phase, and the patterns alone do not provide enough directional conviction.\n\nThe RSI at 34.67 is neutral but approaching oversold territory, which could support a bounce, yet the MACD remains bearish with the line below the signal and a negative histogram. This divergence between the bullish candlestick signals and the bearish momentum indicators creates a low-confluence environment. The lack of RSI divergence further reduces the reliability of a reversal. As a swing trader, waiting for confirmation\u2014either a bullish MACD crossover or a price close above the 135.00 resistance\u2014is prudent before committing capital.\n\nKey support lies at the EMA200 (129.35) and the ATR-derived level near 128.73, while resistance is clustered at 135.00 (psychological round number), 140.00, and the EMA50 at 146.49. The current risk/reward is unfavorable for a long entry because the stop-loss would need to be placed below the recent swing low (likely near 128.73), resulting in a wide stop relative to the potential upside to the first resistance. A short trade is equally unattractive given the bullish candlestick patterns and proximity to the EMA200.\n\nGiven the mixed signals and the neutral trend, the best course is to remain on the sidelines. The signal score of 5/10 reflects the conflicting evidence\u2014bullish patterns versus bearish momentum\u2014and no clear edge exists at this moment. A higher-probability setup would require either a decisive break above 135.00 with increasing volume or a MACD bullish crossover to confirm the reversal.",
+  "invalidation": "A close below the EMA200 (129.35) would invalidate any bullish bias and confirm continued bearish momentum, while a break above 135.00 with strong volume would shift the bias to bullish and warrant a long entry.",
   "support_levels": [
-    129.3,
-    128.24,
+    129.35,
+    128.73,
     125.0
   ],
   "resistance_levels": [
-    138.7,
+    135.0,
     140.0,
-    147.01
+    146.49
   ]
 };

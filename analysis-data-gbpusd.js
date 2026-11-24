@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-11-23T17:56:52Z",
+  "generated": "2026-11-24T17:30:55Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "decision": "WAIT",
-  "confidence": "MEDIUM",
+  "confidence": "LOW",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "6/10",
-  "analysis": "The daily chart confirms a strong downtrend with price well below both the EMA50 (1.32754) and EMA200 (1.33926). The bearish MACD (line below signal, negative histogram) aligns with this trend, and the recent Evening Star candlestick pattern (preceded by Dojis and an Inverted Hammer) suggests continued selling pressure rather than a reversal. However, the RSI at 24.57 is deeply oversold, which historically can precede a short-term bounce or consolidation. No bullish divergence is present, so the oversold condition alone does not invalidate the downtrend but does raise the risk of a snap-back rally.\n\nNo clear chart patterns like triangles or flags are evident from the given data. The price is hovering near the psychological 1.3000 support level, which may act as a temporary floor. The nearest resistance is the 1.3070 area (likely the high of the Inverted Hammer candle) and the round 1.3100 level. Given the strong trend, a sell entry would ideally be placed after a minor pullback to one of these resistance zones, rather than chasing the current low. The RSI and MACD are not in confluence for a buy signal, and the bearish candlestick pattern reinforces the downtrend, but the oversold RSI argues against aggressive shorting at current levels.\n\nThe single best trade setup is to wait for a bounce toward 1.3070\u20131.3100 and then initiate a short position with a stop above 1.3150. This approach improves the risk/reward ratio and avoids entering during an oversold condition that could trigger a sharp corrective move. The current signal score of 6/10 reflects a moderately bearish bias but with caution due to the oversold RSI and proximity to support.",
-  "invalidation": "N/A",
+  "score": "5/10",
+  "analysis": "The price at 1.31131 is well below both the EMA50 (1.32698) and EMA200 (1.33901), confirming the strong downtrend indicated by the pre-calculated trend label. No bullish divergence on RSI or MACD exists, and the MACD remains bearish with a negative histogram. The RSI at 37.93 is neutral but still within bearish territory, not yet oversold, implying further downside potential remains open. However, the recent candlestick sequence introduces conflicting signals: an inverted hammer followed by two dojis, then an evening star (bearish), and finally a bullish engulfing pattern on the last candle. This could suggest a short-term squeeze or a potential bottoming process, but the overall trend momentum is strongly against a reversal.\n\nNo clear chart patterns such as triangles, flags, or double tops/bottoms can be inferred from the given data alone. The price is meandering without a distinct consolidation structure. Key support lies at the psychological 1.3100 level, followed by 1.3050 (recent swing low area) and 1.3000 (major round number). Resistance is found at 1.3200 (near-term overhead), then the EMA50 at 1.3270, and the EMA200 at 1.3390. The RSI and MACD both align with the downtrend, providing no contrarian confluence for a buy. The absence of RSI divergence and the neutral RSI reading further reduce the conviction for a reversal.\n\nGiven the 5/10 signal score, the conflicting candlestick patterns, and the lack of a clear entry trigger, the prudent action is to wait. A sell entry would require confirmation of a breakdown below 1.3100 or a failed retest of resistance, while a buy would need a sustained price move above the EMA50 or a clear reversal pattern with volume. As a swing trader, capital preservation is paramount until the noise resolves into a higher-probability setup.",
+  "invalidation": "This wait stance would be invalidated if price breaks decisively above the EMA50 at 1.32698, signaling a potential trend change, or if it breaks below 1.3000, confirming continued bearish momentum and offering a sell setup.",
   "support_levels": [
-    1.3,
-    1.295,
-    1.29
+    1.31,
+    1.305,
+    1.3
   ],
   "resistance_levels": [
-    1.307,
-    1.31,
-    1.315
+    1.32,
+    1.327,
+    1.339
   ]
 };

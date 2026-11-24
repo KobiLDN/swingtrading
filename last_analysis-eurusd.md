@@ -1,7 +1,7 @@
 # Last AI Analysis — EUR/USD
 
-**Date:** 2026-11-23
-**Generated:** 2026-11-23T17:56:59Z
+**Date:** 2026-11-24
+**Generated:** 2026-11-24T17:31:05Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -17,25 +17,25 @@
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 6/10 |
-| **Support** | 1.085, 1.08, 1.075 |
-| **Resistance** | 1.09, 1.1, 1.1145 |
+| **Score** | 5/10 |
+| **Support** | 1.09, 1.085, 1.08 |
+| **Resistance** | 1.1, 1.105, 1.11 |
 
 ---
 
 ## Analysis
 
-The price at 1.08872 sits well below both the EMA50 (1.11453) and EMA200 (1.13977), confirming a strong downtrend. The ATR of 55 pips indicates moderate daily volatility, but the persistent bearish alignment of EMAs leaves no doubt about the prevailing trend direction. However, the RSI at 22.67 is deeply oversold, and the last five candles include a Bullish Engulfing pattern alongside an Inverted Hammer—both classic reversal signals. The presence of an Evening Star earlier in the sequence adds confusion, but the most recent bullish engulfing suggests a potential short-term bounce.
+The daily chart shows a strong downtrend with price well below both the EMA50 (1.1139) and EMA200 (1.13939), confirming bearish momentum. The RSI at 36.88 is neutral but still in bearish territory, while the MACD remains bearish with the line below the signal and a negative histogram. These indicators align with the prevailing trend, suggesting continued downside pressure. However, the presence of both an Evening Star (bearish) and a Bullish Engulfing pattern within the last five candles introduces conflicting short-term signals. The Bullish Engulfing could indicate a potential bounce, but it has not yet been confirmed by follow-through price action above nearby resistance.
 
-No clear chart patterns like triangles or flags are evident from the given data, but the price is approaching a psychological support zone near 1.0850–1.0800. The MACD remains bearish with the line below the signal line and a negative histogram, which aligns with the downtrend. The RSI oversold condition does not constitute a divergence, so it alone is insufficient to call a trend reversal. The confluence of bearish MACD and oversold RSI creates a classic tug-of-war: the trend says sell, but momentum exhaustion says buy.
+No additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the given data. Key support levels near current price are psychological and technical: 1.0900 (round number and potential prior swing low), 1.0850 (next major support), and 1.0800 (deeper support). Resistance lies at 1.1000 (psychological barrier), 1.1050 (recent minor high), and 1.1100 (intermediate resistance before the EMA50). The ATR of 58 pips indicates moderate daily volatility, which supports a cautious approach.
 
-Given the mixed signals and a moderate signal score of 6/10, the most prudent action is to wait for clearer confirmation. A buy would require a decisive close above the Bullish Engulfing high (likely near 1.0900–1.0920) and a subsequent RSI recovery above 30. A sell would be better after a bounce to the EMA50 or a lower high near 1.1000, but that is not imminent. The risk of entering now is high because the oversold condition could trigger a sharp rally, while the downtrend could resume without warning.
+The RSI and MACD both agree with the bearish trend, but the Bullish Engulfing pattern introduces a divergence in short-term sentiment. Given the signal score of 5/10, the setup lacks clear confluence. A sell trade would require a confirmed bounce to resistance (e.g., 1.1000) with bearish reversal confirmation, while a buy trade would need a break above the EMA50, which is unlikely in a strong downtrend. The conflicting candlestick patterns and neutral RSI suggest waiting for clearer price action, such as a decisive break below 1.0900 or a failed rally at 1.1000, before committing to a trade.
 
 ---
 
 ## Invalidation
 
-A break below the recent swing low near 1.0850 would confirm continued downside and invalidate any bullish reversal thesis, while a sustained move above 1.1000 would shift the bias toward a short-term bounce.
+This wait setup is invalidated if price breaks and closes above 1.1050, signaling a potential trend reversal, or if it breaks below 1.0900 with strong momentum, confirming the downtrend continuation and offering a clearer sell entry.
 
 ---
 
