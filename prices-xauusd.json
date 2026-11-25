@@ -1,21 +1,21 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-11-24T16:42:11Z",
-  "date": "2026-11-24",
-  "price": 3567.37,
-  "atr": 80.77,
-  "atr_pips": 81,
+  "generated": "2026-11-25T16:27:19Z",
+  "date": "2026-11-25",
+  "price": 3459.7,
+  "atr": 86.1,
+  "atr_pips": 86,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 3945.39,
-  "ema200": 4314.65,
-  "rsi": 30.74,
-  "macd_line": -127.660033,
-  "macd_signal": -100.541846,
-  "macd_hist": -27.118187,
+  "ema50": 3925.91,
+  "ema200": 4301.76,
+  "rsi": 26.57,
+  "macd_line": -137.62835,
+  "macd_signal": -108.100949,
+  "macd_hist": -29.527401,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -26,16 +26,9 @@
       "strength": 4
     }
   ],
-  "score": 5,
+  "score": 6,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-24",
-      "open": 4047.65,
-      "high": 4082.45,
-      "low": 4021.56,
-      "close": 4053.17
-    },
     {
       "date": "2026-07-27",
       "open": 4092.62,
@@ -726,8 +719,15 @@
       "date": "2026-11-24",
       "open": 3642.62,
       "high": 3681.2,
-      "low": 3560.75,
-      "close": 3567.37
+      "low": 3554.04,
+      "close": 3556.26
+    },
+    {
+      "date": "2026-11-25",
+      "open": 3555.72,
+      "high": 3575.65,
+      "low": 3426.48,
+      "close": 3459.7
     }
   ]
 }

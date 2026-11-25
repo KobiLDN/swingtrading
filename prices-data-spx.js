@@ -1,41 +1,40 @@
 window.PRICES_DATA_SPX = {
   "symbol": "SPY",
   "slug": "spx",
-  "generated": "2026-11-24T16:42:11Z",
-  "date": "2026-11-24",
-  "price": 713.28,
-  "atr": 14.98,
-  "atr_pips": 15,
+  "generated": "2026-11-25T16:27:20Z",
+  "date": "2026-11-25",
+  "price": 700.93,
+  "atr": 15.57,
+  "atr_pips": 16,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 751.11,
-  "ema200": 739.12,
-  "rsi": 38.94,
-  "macd_line": -13.299989,
-  "macd_signal": -9.419639,
-  "macd_hist": -3.88035,
+  "ema50": 749.35,
+  "ema200": 738.77,
+  "rsi": 35.58,
+  "macd_line": -14.233954,
+  "macd_signal": -10.312302,
+  "macd_hist": -3.921651,
   "trend": "BEARISH BIAS",
   "divergence": "None",
   "patterns": [
     {
       "date": "2026-11-24",
-      "name": "Shooting Star",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
+    },
+    {
+      "date": "2026-11-25",
+      "name": "Hanging Man",
       "signal": "BEARISH REVERSAL",
       "strength": 3
     }
   ],
-  "score": 3,
+  "score": 4,
   "verdict": "NO TRADE",
   "candles": [
-    {
-      "date": "2026-07-07",
-      "open": 750.22,
-      "high": 750.96,
-      "low": 745.21,
-      "close": 747.71
-    },
     {
       "date": "2026-07-08",
       "open": 743.16,
@@ -724,10 +723,17 @@ window.PRICES_DATA_SPX = {
     },
     {
       "date": "2026-11-24",
-      "open": 715.28,
-      "high": 720.92,
-      "low": 712.16,
-      "close": 713.28
+      "open": 715.15,
+      "high": 720.93,
+      "low": 712.14,
+      "close": 718.78
+    },
+    {
+      "date": "2026-11-25",
+      "open": 703.13,
+      "high": 705.02,
+      "low": 695.52,
+      "close": 700.93
     }
   ]
 };

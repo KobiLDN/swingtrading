@@ -1,21 +1,21 @@
 window.PRICES_DATA_OIL = {
   "symbol": "USO",
   "slug": "oil",
-  "generated": "2026-11-24T16:42:13Z",
-  "date": "2026-11-24",
-  "price": 133.84,
-  "atr": 5.11,
+  "generated": "2026-11-25T16:27:21Z",
+  "date": "2026-11-25",
+  "price": 138.53,
+  "atr": 5.08,
   "atr_pips": 5,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 146.49,
-  "ema200": 129.35,
-  "rsi": 34.67,
-  "macd_line": -5.093849,
-  "macd_signal": -3.607608,
-  "macd_hist": -1.486242,
+  "ema50": 146.24,
+  "ema200": 129.57,
+  "rsi": 41.54,
+  "macd_line": -4.777397,
+  "macd_signal": -3.821272,
+  "macd_hist": -0.956125,
   "trend": "NEUTRAL",
   "divergence": "None",
   "patterns": [
@@ -30,18 +30,17 @@ window.PRICES_DATA_OIL = {
       "name": "Morning Star",
       "signal": "STRONG BULLISH REVERSAL",
       "strength": 5
+    },
+    {
+      "date": "2026-11-25",
+      "name": "Morning Star",
+      "signal": "STRONG BULLISH REVERSAL",
+      "strength": 5
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-07",
-      "open": 105.67,
-      "high": 109.84,
-      "low": 105.49,
-      "close": 108.92
-    },
     {
       "date": "2026-07-08",
       "open": 112.36,
@@ -730,10 +729,17 @@ window.PRICES_DATA_OIL = {
     },
     {
       "date": "2026-11-24",
-      "open": 135.2,
-      "high": 135.79,
-      "low": 132.3,
-      "close": 133.84
+      "open": 135.12,
+      "high": 136.56,
+      "low": 132.28,
+      "close": 135.43
+    },
+    {
+      "date": "2026-11-25",
+      "open": 137.71,
+      "high": 139.3,
+      "low": 137.45,
+      "close": 138.53
     }
   ]
 };
