@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA_GBPUSD = {
-  "generated": "2026-11-24T17:30:55Z",
+  "generated": "2026-11-25T17:04:56Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "decision": "WAIT",
-  "confidence": "LOW",
+  "confidence": "MEDIUM",
   "entry": "N/A",
   "stop_loss": "N/A",
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The price at 1.31131 is well below both the EMA50 (1.32698) and EMA200 (1.33901), confirming the strong downtrend indicated by the pre-calculated trend label. No bullish divergence on RSI or MACD exists, and the MACD remains bearish with a negative histogram. The RSI at 37.93 is neutral but still within bearish territory, not yet oversold, implying further downside potential remains open. However, the recent candlestick sequence introduces conflicting signals: an inverted hammer followed by two dojis, then an evening star (bearish), and finally a bullish engulfing pattern on the last candle. This could suggest a short-term squeeze or a potential bottoming process, but the overall trend momentum is strongly against a reversal.\n\nNo clear chart patterns such as triangles, flags, or double tops/bottoms can be inferred from the given data alone. The price is meandering without a distinct consolidation structure. Key support lies at the psychological 1.3100 level, followed by 1.3050 (recent swing low area) and 1.3000 (major round number). Resistance is found at 1.3200 (near-term overhead), then the EMA50 at 1.3270, and the EMA200 at 1.3390. The RSI and MACD both align with the downtrend, providing no contrarian confluence for a buy. The absence of RSI divergence and the neutral RSI reading further reduce the conviction for a reversal.\n\nGiven the 5/10 signal score, the conflicting candlestick patterns, and the lack of a clear entry trigger, the prudent action is to wait. A sell entry would require confirmation of a breakdown below 1.3100 or a failed retest of resistance, while a buy would need a sustained price move above the EMA50 or a clear reversal pattern with volume. As a swing trader, capital preservation is paramount until the noise resolves into a higher-probability setup.",
-  "invalidation": "This wait stance would be invalidated if price breaks decisively above the EMA50 at 1.32698, signaling a potential trend change, or if it breaks below 1.3000, confirming continued bearish momentum and offering a sell setup.",
+  "score": "5/10 confirmed",
+  "analysis": "The price at 1.30658 sits well below both the EMA50 (1.32619) and EMA200 (1.33781), confirming the strong downtrend indicated by the trend label. The bearish MACD (line below signal, negative histogram) and RSI at 34.51 (neutral but in bearish territory) align with the prevailing trend. No RSI divergence is present, so there is no hidden bullish momentum to challenge the downtrend. The candlestick sequence\u2014Doji, Doji, Evening Star, Bullish Engulfing\u2014shows a potential short-term reversal signal with the latest bullish engulfing, but this is a single pattern within a strong downtrend and lacks confirmation from other indicators.\n\nKey support levels near current price are the psychological 1.3000 round number, followed by 1.2950 (a prior reaction low) and 1.2900. Resistance levels are 1.3100 (round number and potential recent swing high), 1.3150 (a possible high from the Evening Star pattern), and the EMA50 at 1.3262. The ATR of 66 pips indicates moderate daily volatility, so any breakout or bounce should be measured against these levels.\n\nThe RSI and MACD both agree with the downtrend, offering no bullish confluence. The bullish engulfing candle is a counter-trend signal, but its reliability is low without oversold RSI or a bullish MACD crossover. The overall signal score of 5/10 reflects this neutral-to-bearish bias. A prudent swing trader would wait for a clearer setup\u2014either a retest of resistance to sell, or a confirmed break of support to add to shorts. Entering now risks being caught in a short-term bounce that lacks follow-through.",
+  "invalidation": "A decisive daily close above the EMA50 (1.3262) would invalidate the bearish bias and suggest a trend reversal, while a break below 1.3000 would confirm continued downside momentum.",
   "support_levels": [
-    1.31,
-    1.305,
-    1.3
+    1.3,
+    1.295,
+    1.29
   ],
   "resistance_levels": [
-    1.32,
-    1.327,
-    1.339
+    1.31,
+    1.315,
+    1.3262
   ]
 };

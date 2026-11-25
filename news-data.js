@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-24T17:31:40Z",
+  "generated": "2026-11-25T17:05:58Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Dollar Steadies Before PCE, DXY Holds 103.80 as EUR/USD, GBP/USD Stall Below Pivots",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-070000679.html?.tsrc=rss",
+        "time_published": "2026-11-25 07:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: the dollar steadies before PCE and GDP data as DXY holds 103.80, while EUR/USD and GBP/USD stay below their pivots."
+      },
       {
         "title": "US Dollar Price Forecast: Dollar Hits 19-Month High vs Euro, DXY Eyes 104.75 as EUR/USD, GBP/USD Fall",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-070000107.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-11-16 07:30",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY holds near a 19-month high above 103.23 as Fed hike odds stay firm, while EUR/USD nears 1.1010 and GBP/USD tests 1.3201."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds 102.88 as EUR/USD Tests 1.1056, GBP/USD Eyes 1.3200",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073156998.html?.tsrc=rss",
-        "time_published": "2026-11-13 07:31",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY heads for its best week since September on Fed hike bets, while EUR/USD tests 1.1056 and GBP/USD slips into its 1.3243 pivot zone."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Dollar Steadies Before PCE, DXY Holds 103.80 as EUR/USD, GBP/USD Stall Below Pivots",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-070000679.html?.tsrc=rss",
+        "time_published": "2026-11-25 07:00",
+        "source": "Finance",
+        "summary": "US dollar price forecast: the dollar steadies before PCE and GDP data as DXY holds 103.80, while EUR/USD and GBP/USD stay below their pivots."
+      },
       {
         "title": "US Dollar Price Forecast: Dollar Hits 19-Month High vs Euro, DXY Eyes 104.75 as EUR/USD, GBP/USD Fall",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-070000107.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-18 20:04",
         "source": "Finance",
         "summary": "Much of the greenback\u2019s strength can be chalked up to the Federal Reserve\u2019s actions, but not all of it."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Tests 103.74 Near 19-Month High as EUR/USD, GBP/USD Slip",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073235414.html?.tsrc=rss",
-        "time_published": "2026-11-18 07:32",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY tests 103.74 near a 19-month high as Fed officials back more hikes, EUR/USD slips below 1.1000 and GBP/USD holds 1.3174."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "Own Humana Stock? Its Profit Cushion Is The Thinnest",
-        "url": "https://www.trefis.com/stock/unh/articles/628256/own-humana-stock-its-profit-cushion-is-the-thinnest/2026-11-24?.tsrc=rss",
-        "time_published": "2026-11-24 13:03",
-        "source": "Trefis",
-        "summary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire."
-      },
-      {
-        "title": "What SPDR S&P 500 ETF Trust (SPY) Bought: Apple Leads on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-trust-110254690.html?.tsrc=rss",
-        "time_published": "2026-11-24 11:02",
+        "title": "SPDR S&P 500 ETF (SPY) Adds Apple and Nvidia on Monday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110402304.html?.tsrc=rss",
+        "time_published": "2026-11-25 11:04",
         "source": "Finance",
-        "summary": "The fund added $9.24 billion in net buys across 502 positions, with Apple's $817.4 million increase the largest."
+        "summary": "The fund bought $1.98 billion of stock and sold nothing, lifting all 503 positions."
       },
       {
-        "title": "If Anthropic Does This It Could Reach $130 By Year End",
-        "url": "https://247wallst.com/investing/2026/11/24/if-anthropic-does-this-it-could-reach-130-by-year-end/?.tsrc=rss",
-        "time_published": "2026-11-24 15:45",
+        "title": "Forget the P/E Ratio. DSTL Picks 100 Large Stocks by the Cash They Generate and the Debt They Don\u2019t Carry",
+        "url": "https://247wallst.com/investing/etf/2026/11/25/forget-the-p-e-ratio-dstl-picks-100-large-stocks-by-the-cash-they-generate-and-the-debt-they-dont-carry/?.tsrc=rss",
+        "time_published": "2026-11-25 11:03",
         "source": "247wallst",
-        "summary": "Anthropic has traded for only three sessions and already sits below its first close, even as revenue explodes. Three things must go right in five weeks, and a tiny free float could decide whether the rebound arrives."
+        "summary": "DSTL uses free cash flow and low debt to pick large-cap U.S. stocks. See how its holdings differ from SPY\u2019s and where it could fit in a retirement portfolio."
       },
       {
-        "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Investors Pull Back From AI-Related Stocks",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141922343.html?.tsrc=rss",
-        "time_published": "2026-11-24 14:19",
-        "source": "Finance",
-        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 1.3% and the actively tr"
+        "title": "Dow Craters Over 1000 Points, Nasdaq Slips 4% As AI Trade Unravels \u2013 Investors Digest PCE Inflation, Fresh Tariff Proposal",
+        "url": "https://stocktwits.com/news-articles/markets/equity/dow-craters-over-1000-points-nasdaq-slips-4-as-ai-trade-unravels-investors-digest-pce-inflation-fresh-tariff-proposal/cNbHjJvR9mj?.tsrc=rss",
+        "time_published": "2026-11-25 15:05",
+        "source": "Stocktwits",
+        "summary": "The hotter-than-expected core PCE inflation data strengthened expectations of another Fed rate hike in December."
       },
       {
-        "title": "Here's Why Investors Should Go Defensive Now: ETFs in Focus",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-why-investors-defensive-now-134200178.html?.tsrc=rss",
-        "time_published": "2026-11-24 13:42",
-        "source": "Finance",
-        "summary": "Rising inflation, geopolitical tensions, AI uncertainty and mounting market pressures are clouding Wall Street's outlook. Explore three defensive ETFs that could offer relative stability."
+        "title": "Is A 4.7% S&P Jump A Good Sign?",
+        "url": "https://www.trefis.com/stock/spy/articles/628687/is-a-4-7-s-p-jump-a-good-sign/2026-11-25?.tsrc=rss",
+        "time_published": "2026-11-25 11:02",
+        "source": "Trefis",
+        "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back."
       },
       {
-        "title": "ETFs Bought $120 Million of Mastercard (MA) on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-120-million-mastercard-110212516.html?.tsrc=rss",
-        "time_published": "2026-11-24 11:02",
+        "title": "ETFs Are Buying American International Group (AIG) on Monday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-american-international-group-110210871.html?.tsrc=rss",
+        "time_published": "2026-11-25 11:02",
         "source": "Finance",
-        "summary": "47 ETFs bought Mastercard shares versus 19 that sold, for a net inflow of $120 million."
+        "summary": "ETFs bought $66.4 million of AIG on Monday."
       },
       {
-        "title": "Costco (COST) Sees $123.3 Million in Net ETF Buying on Friday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-sees-123-3-110206631.html?.tsrc=rss",
-        "time_published": "2026-11-24 11:02",
+        "title": "ETFs Are Buying Extra Space Storage (EXR) on Nov. 23",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-extra-space-storage-110204240.html?.tsrc=rss",
+        "time_published": "2026-11-25 11:02",
         "source": "Finance",
-        "summary": "ETFs bought $123.3 million of Costco shares, with 47 funds buying and 18 selling."
+        "summary": "ETFs bought $67.9 million of Extra Space Storage on Monday, Nov. 23."
       },
       {
-        "title": "ETFs Are Buying Walmart (WMT) on Nov. 20",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-walmart-wmt-nov-110151407.html?.tsrc=rss",
-        "time_published": "2026-11-24 11:01",
-        "source": "Finance",
-        "summary": "ETFs bought $162.2 million of Walmart stock on Friday."
+        "title": "JPMorgan Says the Biggest Risk to Stocks in 2027 Is the Fed",
+        "url": "https://247wallst.com/investing/2026/11/25/jpmorgan-says-the-biggest-risk-to-stocks-in-2027-is-the-fed/?.tsrc=rss",
+        "time_published": "2026-11-25 16:27",
+        "source": "247wallst",
+        "summary": "JPMorgan's strategists see a path to a big 2027 rally, but one force could derail it, and the calendar already shows it coming. Can earnings outrun a central bank that refuses to blink?"
+      },
+      {
+        "title": "What Happens to a $900,000 401(k) by the End of 2027? $1,062,300 in Wall Street\u2019s Best Case, $824,900 in Its Worst",
+        "url": "https://247wallst.com/personal-finance/2026/11/25/what-happens-to-a-900000-401k-by-the-end-of-2027-1062300-in-wall-streets-best-case-824900-in-its-worst/?.tsrc=rss",
+        "time_published": "2026-11-25 15:45",
+        "source": "247wallst",
+        "summary": "Bank of America sees the S&P 500 climbing through 2027, yet one retiree's withdrawals could turn a rosy forecast into a lasting loss. The real damage may come from taxes, Medicare premiums, and the timing of the first sale."
       }
     ],
     "oil": [
@@ -278,18 +278,18 @@ window.NEWS_DATA = {
         "summary": "Energy stocks were declining premarket Wednesday, with the State Street Energy Select Sector SPDR ET"
       },
       {
+        "title": "Sector Update: Energy Stocks Lean Lower Pre-Bell Wednesday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lean-lower-142158117.html?.tsrc=rss",
+        "time_published": "2026-11-25 14:21",
+        "source": "Finance",
+        "summary": "Energy stocks were leaning lower pre-bell Wednesday, with the State Street Energy Select Sector SPDR"
+      },
+      {
         "title": "Sector Update: Energy Stocks Edge Higher Pre-Bell Tuesday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-edge-higher-142401057.html?.tsrc=rss",
         "time_published": "2026-11-24 14:24",
         "source": "Finance",
         "summary": "Energy stocks were edging higher pre-bell Tuesday, with the State Street Energy Select Sector SPDR E"
-      },
-      {
-        "title": "Sector Update: Energy Stocks Mixed in Early Thursday Trading",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-mixed-early-143651830.html?.tsrc=rss",
-        "time_published": "2026-11-19 14:36",
-        "source": "Finance",
-        "summary": "Energy stocks were mixed in early trading on Thursday, with the State Street Energy Select Sector SP"
       }
     ]
   }

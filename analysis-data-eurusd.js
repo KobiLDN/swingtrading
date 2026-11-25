@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-11-24T17:31:05Z",
+  "generated": "2026-11-25T17:05:04Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -12,8 +12,8 @@ window.ANALYSIS_DATA_EURUSD = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The daily chart shows a strong downtrend with price well below both the EMA50 (1.1139) and EMA200 (1.13939), confirming bearish momentum. The RSI at 36.88 is neutral but still in bearish territory, while the MACD remains bearish with the line below the signal and a negative histogram. These indicators align with the prevailing trend, suggesting continued downside pressure. However, the presence of both an Evening Star (bearish) and a Bullish Engulfing pattern within the last five candles introduces conflicting short-term signals. The Bullish Engulfing could indicate a potential bounce, but it has not yet been confirmed by follow-through price action above nearby resistance.\n\nNo additional chart patterns such as triangles, flags, or double tops/bottoms are evident from the given data. Key support levels near current price are psychological and technical: 1.0900 (round number and potential prior swing low), 1.0850 (next major support), and 1.0800 (deeper support). Resistance lies at 1.1000 (psychological barrier), 1.1050 (recent minor high), and 1.1100 (intermediate resistance before the EMA50). The ATR of 58 pips indicates moderate daily volatility, which supports a cautious approach.\n\nThe RSI and MACD both agree with the bearish trend, but the Bullish Engulfing pattern introduces a divergence in short-term sentiment. Given the signal score of 5/10, the setup lacks clear confluence. A sell trade would require a confirmed bounce to resistance (e.g., 1.1000) with bearish reversal confirmation, while a buy trade would need a break above the EMA50, which is unlikely in a strong downtrend. The conflicting candlestick patterns and neutral RSI suggest waiting for clearer price action, such as a decisive break below 1.0900 or a failed rally at 1.1000, before committing to a trade.",
-  "invalidation": "This wait setup is invalidated if price breaks and closes above 1.1050, signaling a potential trend reversal, or if it breaks below 1.0900 with strong momentum, confirming the downtrend continuation and offering a clearer sell entry.",
+  "analysis": "The daily chart shows a strong downtrend confirmed by price trading well below both the EMA50 (1.11313) and EMA200 (1.13879). The RSI at 34.39 is neutral but approaching oversold territory, while the MACD remains bearish with a negative histogram. The presence of both an Evening Star (bearish) and a Bullish Engulfing (bullish) pattern within the last five candles creates a conflicting short-term signal, suggesting indecision near current levels. The signal score of 5/10 reflects this ambiguity.\n\nGiven the strong downtrend, the path of least resistance remains lower, but the Bullish Engulfing pattern could trigger a temporary bounce toward resistance. Key support lies at the psychological 1.0900 level, followed by 1.0850 and 1.0800. Resistance is clustered at 1.1000 (round number), 1.1050 (prior swing low), and the EMA50 at 1.1131. Without a clear confirmation of either a continuation breakdown below 1.0900 or a decisive rejection at resistance, entering a trade now carries elevated risk of whipsaw.\n\nThe RSI and MACD both align with the bearish trend, but the RSI is not yet oversold, leaving room for further downside. However, the Bullish Engulfing pattern introduces counter-trend risk. A prudent approach is to wait for price to either break below 1.0900 with conviction (offering a sell entry with a tight stop) or to rally into the 1.1050\u20131.1131 resistance zone and show bearish rejection (providing a higher-probability sell setup). Until then, the risk/reward is unfavorable due to conflicting signals.",
+  "invalidation": "A daily close above the EMA50 (1.11313) would invalidate the bearish bias and suggest a potential trend reversal, making any sell setup void.",
   "support_levels": [
     1.09,
     1.085,
@@ -22,6 +22,6 @@ window.ANALYSIS_DATA_EURUSD = {
   "resistance_levels": [
     1.1,
     1.105,
-    1.11
+    1.1131
   ]
 };

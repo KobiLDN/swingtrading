@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-11-24
-**Generated:** 2026-11-24T17:31:25Z
+**Date:** 2026-11-25
+**Generated:** 2026-11-25T17:05:28Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | SELL |
+| **Decision** | WAIT |
 | **Confidence** | LOW |
-| **Entry** | 713.28 |
-| **Stop Loss** | 722.00 |
-| **Target 1** | 700.00 |
-| **Target 2** | 690.00 |
-| **Risk/Reward** | 1.86 |
-| **Score** | 3/10 |
+| **Entry** | N/A |
+| **Stop Loss** | N/A |
+| **Target 1** | N/A |
+| **Target 2** | N/A |
+| **Risk/Reward** | N/A |
+| **Score** | 4/10 |
 | **Support** | 700.0, 690.0, 680.0 |
-| **Resistance** | 720.0, 730.0, 739.12 |
+| **Resistance** | 720.0, 738.77, 749.35 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a clear bearish bias with price trading well below both the 50-period (751.11) and 200-period (739.12) EMAs, confirming a sustained downtrend. The most recent candlestick is a Shooting Star, a bearish reversal pattern that suggests sellers are reasserting control after a minor bounce. The RSI at 38.94 is neutral but still below 50, indicating bearish momentum without being oversold, while the MACD remains below its signal line with a negative histogram, reinforcing the bearish outlook. There is no divergence, so the trend is consistent across indicators.  
+The trend is clearly bearish with price at 700.93, well below both the 50-day EMA (749.35) and 200-day EMA (738.77). The EMA alignment confirms a strong downtrend, and the MACD remains bearish with a negative histogram, reinforcing the bearish momentum. However, the RSI at 35.58 is in neutral territory but approaching oversold, which could indicate waning selling pressure. The presence of a Morning Star candlestick pattern (bullish reversal) within the last five candles suggests a potential short-term bounce, but it is contradicted by a Hanging Man pattern (bearish reversal) in the same window, creating ambiguity.
 
-No clear chart patterns like triangles or flags are evident from the given data, but the Shooting Star itself acts as a short-term reversal signal. Key support near the round number 700.00 is the nearest downside target, followed by 690.00 and 680.00. Resistance lies at 720.00 (potential recent swing high), then 730.00, and the 200-period EMA at 739.12, which is a major overhead barrier. The confluence of bearish EMAs, MACD, and the Shooting Star supports a short trade, but the low signal score (3/10) and proximity to potential support reduce confidence.  
+No clear chart patterns like triangles or flags are evident from the given data, but the price is hovering near the psychological 700 support level. A break below 700 could accelerate selling toward 690 or 680, while a bounce might test resistance at 720 (recent swing high) and eventually the 200-day EMA near 738.77. The RSI and MACD do not agree with a bullish reversal—RSI is neutral, not oversold, and MACD is firmly bearish. The conflicting candlestick signals further reduce conviction.
 
-Risk assessment: The ATR of 14.98 points suggests moderate daily volatility. A stop-loss at 722.00 (above the Shooting Star’s high and near 720 resistance) limits risk to about 8.72 points. The first target at 700.00 offers a 13.28-point gain, yielding a risk-reward ratio of 1.86. However, the overall weak signal score and the possibility of a bounce from the 700 support zone warrant caution.
+Given the bearish trend, low signal score (4/10), and mixed technical cues, the prudent action is to wait for a clearer setup. A short entry would be premature near support, and a long entry lacks trend confirmation. The best trade would be to sell a rally into resistance (e.g., 720 or 738.77) if bearish momentum resumes, or to buy only if price breaks above the 200-day EMA with volume. Currently, the risk of whipsaw is high due to the conflicting patterns and neutral RSI.
 
 ---
 
 ## Invalidation
 
-A daily close above 722.00 (the Shooting Star’s high) or a break above the 50-period EMA (751.11) would cancel the bearish setup and suggest a trend reversal.
+This wait setup is invalidated if price breaks decisively above the 200-day EMA (738.77) with strong volume, or if a clear bearish breakdown below 690 occurs with increased selling pressure.
 
 ---
 
