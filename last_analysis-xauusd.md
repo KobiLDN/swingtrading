@@ -1,7 +1,7 @@
 # Last AI Analysis — XAU/USD
 
-**Date:** 2026-11-25
-**Generated:** 2026-11-25T17:05:20Z
+**Date:** 2026-11-26
+**Generated:** 2026-11-26T16:46:28Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,34 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | SELL |
 | **Confidence** | LOW |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 6/10 |
-| **Support** | 3400.0, 3350.0, 3300.0 |
-| **Resistance** | 3500.0, 3550.0, 3600.0 |
+| **Entry** | 3571.94 |
+| **Stop Loss** | 3655.00 |
+| **Target 1** | 3487.00 |
+| **Target 2** | 3403.00 |
+| **Risk/Reward** | 1:1 (T1), 1:2 (T2) |
+| **Score** | 5/10 |
+| **Support** | 3487.0, 3403.0, 3319.0 |
+| **Resistance** | 3655.0, 3739.0, 3823.0 |
 
 ---
 
 ## Analysis
 
-The daily chart confirms a strong downtrend with price trading far below both the EMA50 (3925.91) and EMA200 (4301.76). The bearish MACD (line below signal, negative histogram) aligns with this trend, while the RSI at 26.57 is deeply oversold. However, the absence of RSI divergence weakens the case for an immediate trend reversal. The Bullish Engulfing candlestick pattern observed in the last five candles introduces a potential short-term reversal signal, but it remains unconfirmed in the context of a persistent downtrend.  
+The daily chart confirms a strong downtrend with price well below both the EMA50 (3915.36) and EMA200 (4302.59). The EMA alignment (50 below 200) and the wide gap between price and the moving averages reinforce the bearish momentum. The recent two Bullish Engulfing patterns suggest a potential short-term bounce, but in the context of a powerful downtrend, such reversal signals often fail or lead only to minor retracements. No additional chart patterns like triangles or double tops are evident from the given data, but the price action is consistent with a persistent sell-off.
 
-No additional chart patterns (triangles, flags, double tops/bottoms) are evident from the given data. The nearest support levels are psychological round numbers at 3400, followed by 3350 and 3300. Resistance lies at 3500 (round number), then 3550 and 3600. The price is currently sandwiched between these levels, with the engulfing pattern suggesting a possible bounce toward 3500, but the overall trend strongly favors further downside.  
+RSI at 32.45 is neutral but near oversold territory, indicating that selling pressure remains dominant without being exhausted. The MACD is bearish with the line below the signal and a negative histogram, confirming the downtrend. There is no RSI divergence, so no early reversal signal from momentum. The confluence of RSI and MACD aligns with the bearish trend, though the RSI’s proximity to 30 suggests caution against aggressive shorting at current levels. The signal score of 5/10 reflects this mixed picture—strong trend but conflicting candlestick patterns.
 
-RSI and MACD are in disagreement: RSI oversold hints at a potential bounce, while MACD remains bearish. This lack of confluence, combined with the strong downtrend, makes any counter-trend trade highly risky. The signal score of 6/10 reflects this ambiguity—the bullish engulfing pattern provides some upside potential, but the dominant trend and bearish momentum argue against a buy. A sell at current levels is equally risky due to oversold conditions and the possibility of a short squeeze.  
-
-Therefore, the prudent action is to wait for clearer confirmation. A buy would require a decisive break above the engulfing candle’s high (likely near 3500) with increasing volume, while a sell would need a breakdown below the engulfing candle’s low (around 3440–3450) to invalidate the reversal signal. Until then, the risk/reward is unfavorable for either direction.
+The best trade setup is a sell at the current price, targeting a move back toward the first ATR-based support at 3487, with a secondary target at 3403. The stop loss is placed above the first ATR resistance at 3655, which also aligns with a potential resistance zone from the recent engulfing highs. The risk-reward ratio is 1:1 for the first target and 1:2 for the second, which is acceptable given the strong trend. However, confidence is low because the bullish engulfing patterns could trigger a larger bounce, and the RSI is not yet oversold enough to guarantee a continuation lower.
 
 ---
 
 ## Invalidation
 
-A break below the low of the Bullish Engulfing candle (approximately 3440–3450) would cancel any bullish reversal potential and confirm the continuation of the downtrend.
+This sell setup is invalidated if price closes above 3655 (first ATR resistance) or breaks above the EMA50 at 3915, signaling a potential trend reversal or significant retracement.
 
 ---
 

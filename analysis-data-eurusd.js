@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_EURUSD = {
-  "generated": "2026-11-25T17:05:04Z",
+  "generated": "2026-11-26T16:46:12Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "EUR/USD",
   "slug": "eurusd",
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "decision": "WAIT",
   "confidence": "LOW",
   "entry": "N/A",
@@ -12,16 +12,16 @@ window.ANALYSIS_DATA_EURUSD = {
   "target_2": "N/A",
   "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The daily chart shows a strong downtrend confirmed by price trading well below both the EMA50 (1.11313) and EMA200 (1.13879). The RSI at 34.39 is neutral but approaching oversold territory, while the MACD remains bearish with a negative histogram. The presence of both an Evening Star (bearish) and a Bullish Engulfing (bullish) pattern within the last five candles creates a conflicting short-term signal, suggesting indecision near current levels. The signal score of 5/10 reflects this ambiguity.\n\nGiven the strong downtrend, the path of least resistance remains lower, but the Bullish Engulfing pattern could trigger a temporary bounce toward resistance. Key support lies at the psychological 1.0900 level, followed by 1.0850 and 1.0800. Resistance is clustered at 1.1000 (round number), 1.1050 (prior swing low), and the EMA50 at 1.1131. Without a clear confirmation of either a continuation breakdown below 1.0900 or a decisive rejection at resistance, entering a trade now carries elevated risk of whipsaw.\n\nThe RSI and MACD both align with the bearish trend, but the RSI is not yet oversold, leaving room for further downside. However, the Bullish Engulfing pattern introduces counter-trend risk. A prudent approach is to wait for price to either break below 1.0900 with conviction (offering a sell entry with a tight stop) or to rally into the 1.1050\u20131.1131 resistance zone and show bearish rejection (providing a higher-probability sell setup). Until then, the risk/reward is unfavorable due to conflicting signals.",
-  "invalidation": "A daily close above the EMA50 (1.11313) would invalidate the bearish bias and suggest a potential trend reversal, making any sell setup void.",
+  "analysis": "The daily chart shows a strong downtrend confirmed by price trading well below both the 50-EMA (1.11264) and 200-EMA (1.13851). The RSI at 38.28 is neutral but still in bearish territory, indicating no oversold condition that would warrant a reversal. However, the MACD has turned bullish with the line above the signal line and a positive histogram, suggesting early momentum shift. Additionally, the last five candles include a Bullish Engulfing and a Hammer, classic reversal patterns that hint at potential buying interest near current levels.\n\nDespite these bullish signals, the overall trend remains firmly bearish, and the patterns have not yet broken any significant resistance. The nearest resistance is the psychological 1.1000 level, followed by the 50-EMA at 1.1126. Without a confirmed close above 1.1000 or a clear break of the downtrend line, the risk of a false reversal is high. The ATR of 56 pips indicates moderate volatility, but the lack of a clear support level below (only round numbers and potential prior lows) makes a long entry risky. Conversely, selling into a downtrend that is showing reversal signs could lead to a sharp squeeze.\n\nThe signal score of 5/10 reflects the balanced but conflicting evidence. The best course is to wait for either a confirmed breakout above 1.1000 (to go long) or a failure of the reversal patterns that leads to a new low (to go short). Patience is warranted until price action aligns more clearly with one side of the trade.",
+  "invalidation": "This wait-and-see stance is invalidated if price closes above 1.1000 with strong momentum, or if it breaks below 1.0900, confirming the downtrend continuation.",
   "support_levels": [
+    1.095,
     1.09,
-    1.085,
-    1.08
+    1.085
   ],
   "resistance_levels": [
     1.1,
     1.105,
-    1.1131
+    1.1126
   ]
 };

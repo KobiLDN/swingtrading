@@ -1,7 +1,7 @@
 # Last AI Analysis — SLV
 
 **Date:** 2026-11-25
-**Generated:** 2026-11-25T17:05:49Z
+**Generated:** 2026-11-26T16:46:56Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,33 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | HIGH |
+| **Confidence** | LOW |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 2/10 |
-| **Support** | 34.5, 33.0, 31.5 |
-| **Resistance** | 36.0, 37.5, 39.0 |
+| **Score** | 6/10 |
+| **Support** | 36.0, 35.5, 35.0 |
+| **Resistance** | 38.0, 39.0, 40.0 |
 
 ---
 
 ## Analysis
 
-Price action firmly confirms the strong downtrend indicated by the EMAs. The current price of 35.15 sits well below both the 50-period EMA (47.99) and the 200-period EMA (58.64), with no signs of a bullish reversal. The EMA50 has crossed decisively below the EMA200, reinforcing a long-term bearish structure. No candlestick patterns or chart formations (triangles, flags, double tops/bottoms) are present, so there is no immediate reversal signal to act upon.
+The price action strongly confirms the bearish EMA alignment, with SLV trading far below both the 50-period (48.07) and 200-period (58.65) EMAs, indicating a persistent downtrend. No candlestick reversal patterns have formed in the last five candles, and the MACD remains bearish with the line below the signal line and a negative histogram. This reinforces the dominant downward momentum despite the oversold RSI reading.  
 
-The RSI at 23.59 is deeply oversold, which often warns of a potential bounce, but the MACD remains bearish with the line below the signal and a declining histogram. There is no bullish RSI divergence to suggest underlying momentum shift. The combination of oversold conditions and bearish MACD indicates that while selling pressure may be exhausted in the near term, the trend is still strongly down. Without a confirmed reversal pattern or divergence, entering a long position is premature, and shorting at these lows carries high risk of a snapback.
+The RSI(14) at 27.04 is in oversold territory and shows a bullish divergence against recent price lows, suggesting that selling pressure may be exhausting. However, this divergence is not yet confirmed by price action or a MACD crossover. Without a clear reversal pattern or a shift in the MACD, the divergence alone is insufficient to justify a counter-trend entry. The signal score of 6/10 reflects this mixed outlook—moderate potential for a bounce but high risk from the entrenched downtrend.  
 
-Key support levels near current price are 34.50 (recent low), 33.00 (psychological/previous swing area), and 31.50 (next major demand zone). Resistance lies at 36.00 (round number and short-term pivot), 37.50 (prior minor support turned resistance), and 39.00 (gap fill or swing high). Given the signal score of 2/10, the probability of a profitable long trade is low. The best course is to wait for a clear setup—either a bounce to a resistance zone to sell short, or a bullish divergence/momentum shift before buying.
+Key support is seen near 36.00, a prior reaction low that could act as a floor. Below that, 35.50 and 35.00 are psychological and structural levels. Resistance lies at 38.00 (recent breakdown point turned resistance), followed by 39.00 and 40.00. The ATR(14) of 1.85 implies that a 2-point move is typical, so a breakout beyond these levels would be significant.  
+
+Given the lack of confluence between the oversold/bullish RSI and the bearish MACD/price structure, the prudent approach is to wait for a confirmed reversal signal. A long entry would require a bullish candlestick pattern (e.g., hammer or engulfing) plus a MACD histogram turn positive or a close above 38.00. A short entry is not advisable due to the extreme oversold condition and potential for a sharp snap-back.
 
 ---
 
 ## Invalidation
 
-If price rallies above the 36.00 resistance level with strong volume, the immediate oversold bounce could extend, but until then the downtrend remains intact and no trade is justified.
+A decisive break below 36.00 with high volume would invalidate any bullish divergence thesis and confirm continued downside toward the next support at 35.00.
 
 ---
 

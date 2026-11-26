@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
 **Date:** 2026-11-25
-**Generated:** 2026-11-25T17:05:28Z
+**Generated:** 2026-11-26T16:46:44Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -11,31 +11,31 @@
 | Field | Value |
 |-------|-------|
 | **Decision** | WAIT |
-| **Confidence** | LOW |
+| **Confidence** | MEDIUM |
 | **Entry** | N/A |
 | **Stop Loss** | N/A |
 | **Target 1** | N/A |
 | **Target 2** | N/A |
 | **Risk/Reward** | N/A |
-| **Score** | 4/10 |
-| **Support** | 700.0, 690.0, 680.0 |
-| **Resistance** | 720.0, 738.77, 749.35 |
+| **Score** | 5/10 |
+| **Support** | 700.0, 685.0, 670.0 |
+| **Resistance** | 730.0, 738.93, 749.97 |
 
 ---
 
 ## Analysis
 
-The trend is clearly bearish with price at 700.93, well below both the 50-day EMA (749.35) and 200-day EMA (738.77). The EMA alignment confirms a strong downtrend, and the MACD remains bearish with a negative histogram, reinforcing the bearish momentum. However, the RSI at 35.58 is in neutral territory but approaching oversold, which could indicate waning selling pressure. The presence of a Morning Star candlestick pattern (bullish reversal) within the last five candles suggests a potential short-term bounce, but it is contradicted by a Hanging Man pattern (bearish reversal) in the same window, creating ambiguity.
+The daily chart shows a clear bearish bias with price (716.7) trading well below both the 50-period EMA (749.97) and 200-period EMA (738.93). This EMA alignment confirms a sustained downtrend, and the MACD remains bearish with the histogram printing negative values (-2.915). The RSI at 39.83 is neutral but below 50, leaning bearish. Despite these bearish signals, a Morning Star candlestick pattern has formed over the last five candles, indicating a potential short-term reversal or at least a pause in selling pressure. The signal score of 5/10 reflects this conflict between the dominant trend and the bullish reversal pattern.
 
-No clear chart patterns like triangles or flags are evident from the given data, but the price is hovering near the psychological 700 support level. A break below 700 could accelerate selling toward 690 or 680, while a bounce might test resistance at 720 (recent swing high) and eventually the 200-day EMA near 738.77. The RSI and MACD do not agree with a bullish reversal—RSI is neutral, not oversold, and MACD is firmly bearish. The conflicting candlestick signals further reduce conviction.
+No additional chart patterns like triangles or flags are directly inferable from the given data, but the Morning Star itself suggests a possible bottoming attempt near current levels. Key support is likely around the psychological 700 mark, followed by 685 and 670 based on ATR-derived moves. Resistance is first at 730 (round number), then the 200-EMA at 738.93, and finally the 50-EMA at 749.97. The RSI and MACD are in agreement with the bearish trend, but the Morning Star introduces a contrarian signal that requires confirmation.
 
-Given the bearish trend, low signal score (4/10), and mixed technical cues, the prudent action is to wait for a clearer setup. A short entry would be premature near support, and a long entry lacks trend confirmation. The best trade would be to sell a rally into resistance (e.g., 720 or 738.77) if bearish momentum resumes, or to buy only if price breaks above the 200-day EMA with volume. Currently, the risk of whipsaw is high due to the conflicting patterns and neutral RSI.
+Given the strong bearish trend and the lack of oversold RSI (not below 30), the Morning Star alone is insufficient to justify a long entry. A sell setup would be premature without a bounce to a resistance level. The prudent approach is to wait for price action to resolve the conflict. A confirmed break above the Morning Star’s high (likely near 720–725) would strengthen the case for a short-term long, while a failure to hold above 700 would reinforce the downtrend. Until then, the risk/reward is unclear, and the best trade is no trade.
 
 ---
 
 ## Invalidation
 
-This wait setup is invalidated if price breaks decisively above the 200-day EMA (738.77) with strong volume, or if a clear bearish breakdown below 690 occurs with increased selling pressure.
+A break below the recent swing low near 700 would cancel any bullish reversal potential and confirm the continuation of the bearish trend.
 
 ---
 

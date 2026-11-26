@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-25T17:05:58Z",
+  "generated": "2026-11-26T16:47:09Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: Yields Slide, DXY Eyes 104.08 as EUR/USD, GBP/USD Stall",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-yields-065000519.html?.tsrc=rss",
+        "time_published": "2026-11-26 06:50",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY holds near 103.84 below 104.08 resistance as yields slide, EUR/USD stalls under 1.0999 and GBP/USD tests 1.3125."
+      },
       {
         "title": "US Dollar Price Forecast: Dollar Steadies Before PCE, DXY Holds 103.80 as EUR/USD, GBP/USD Stall Below Pivots",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-070000679.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-11-17 07:31",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY eases from a 19-month high near 103.69 as EUR/USD holds 1.1000 and GBP/USD defends 1.3174 after UK unemployment falls."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds 103.23 as EUR/USD Slides Toward 1.1010, GBP/USD Tests 1.3201",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073000661.html?.tsrc=rss",
-        "time_published": "2026-11-16 07:30",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY holds near a 19-month high above 103.23 as Fed hike odds stay firm, while EUR/USD nears 1.1010 and GBP/USD tests 1.3201."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: Yields Slide, DXY Eyes 104.08 as EUR/USD, GBP/USD Stall",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-yields-065000519.html?.tsrc=rss",
+        "time_published": "2026-11-26 06:50",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY holds near 103.84 below 104.08 resistance as yields slide, EUR/USD stalls under 1.0999 and GBP/USD tests 1.3125."
+      },
       {
         "title": "US Dollar Price Forecast: Dollar Steadies Before PCE, DXY Holds 103.80 as EUR/USD, GBP/USD Stall Below Pivots",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dollar-070000679.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-19 07:45",
         "source": "Finance",
         "summary": "US dollar price forecast: Fed minutes back more hikes as DXY holds 103.76, EUR/USD stays below 1.0982 and GBP/USD sits under its 1.3154 pivot."
-      },
-      {
-        "title": "What\u2019s Driving the Dollar\u2019s Biggest Rally Since 2024",
-        "url": "https://finance.yahoo.com/m/c053bf92-320a-352a-bc04-6690ac97e80f/what%E2%80%99s-driving-the-dollar%E2%80%99s.html?.tsrc=rss",
-        "time_published": "2026-11-18 20:04",
-        "source": "Finance",
-        "summary": "Much of the greenback\u2019s strength can be chalked up to the Federal Reserve\u2019s actions, but not all of it."
       }
     ],
     "xauusd": [],
@@ -178,60 +178,60 @@ window.NEWS_DATA = {
     ],
     "spx": [
       {
-        "title": "SPDR S&P 500 ETF (SPY) Adds Apple and Nvidia on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110402304.html?.tsrc=rss",
-        "time_published": "2026-11-25 11:04",
+        "title": "SPDR S&P 500 ETF (SPY) Sells $400.1 Million of Apple on Nov. 24",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110357521.html?.tsrc=rss",
+        "time_published": "2026-11-26 11:03",
         "source": "Finance",
-        "summary": "The fund bought $1.98 billion of stock and sold nothing, lifting all 503 positions."
+        "summary": "The $769.73 billion fund sold $4.80 billion across all 503 holdings, with no buys and no new positions."
       },
       {
-        "title": "Forget the P/E Ratio. DSTL Picks 100 Large Stocks by the Cash They Generate and the Debt They Don\u2019t Carry",
-        "url": "https://247wallst.com/investing/etf/2026/11/25/forget-the-p-e-ratio-dstl-picks-100-large-stocks-by-the-cash-they-generate-and-the-debt-they-dont-carry/?.tsrc=rss",
-        "time_published": "2026-11-25 11:03",
-        "source": "247wallst",
-        "summary": "DSTL uses free cash flow and low debt to pick large-cap U.S. stocks. See how its holdings differ from SPY\u2019s and where it could fit in a retirement portfolio."
-      },
-      {
-        "title": "Dow Craters Over 1000 Points, Nasdaq Slips 4% As AI Trade Unravels \u2013 Investors Digest PCE Inflation, Fresh Tariff Proposal",
-        "url": "https://stocktwits.com/news-articles/markets/equity/dow-craters-over-1000-points-nasdaq-slips-4-as-ai-trade-unravels-investors-digest-pce-inflation-fresh-tariff-proposal/cNbHjJvR9mj?.tsrc=rss",
-        "time_published": "2026-11-25 15:05",
-        "source": "Stocktwits",
-        "summary": "The hotter-than-expected core PCE inflation data strengthened expectations of another Fed rate hike in December."
-      },
-      {
-        "title": "Is A 4.7% S&P Jump A Good Sign?",
-        "url": "https://www.trefis.com/stock/spy/articles/628687/is-a-4-7-s-p-jump-a-good-sign/2026-11-25?.tsrc=rss",
-        "time_published": "2026-11-25 11:02",
+        "title": "Own Palo Alto Stock? Watch Its Deferred Revenue",
+        "url": "https://www.trefis.com/stock/panw/articles/629187/own-palo-alto-stock-watch-its-deferred-revenue/2026-11-26?.tsrc=rss",
+        "time_published": "2026-11-26 11:15",
         "source": "Trefis",
-        "summary": "Today's big story: Anthropic Below Its IPO Price: Do Giants Come Back."
+        "summary": "Palo Alto Networks closed at $356.14 on Wednesday, Nov 25, up 0.9%. The SPDR S&P 500 ETF fell 0.3% the same day. On Nov 18, after the market closed, the company reported results. It also said it plans to buy Applied Compute for $4.5 billion, paid in stock. The stock jumped 6.4% the next day. This ar"
       },
       {
-        "title": "ETFs Are Buying American International Group (AIG) on Monday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-american-international-group-110210871.html?.tsrc=rss",
-        "time_published": "2026-11-25 11:02",
+        "title": "ETFs Are Net Sellers of Thermo Fisher (TMO) on Nov. 24",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-thermo-fisher-110336584.html?.tsrc=rss",
+        "time_published": "2026-11-26 11:03",
         "source": "Finance",
-        "summary": "ETFs bought $66.4 million of AIG on Monday."
+        "summary": "ETFs sold a net $34.9 million of Thermo Fisher on Tuesday, with 46 funds buying and 10 selling."
       },
       {
-        "title": "ETFs Are Buying Extra Space Storage (EXR) on Nov. 23",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-extra-space-storage-110204240.html?.tsrc=rss",
-        "time_published": "2026-11-25 11:02",
+        "title": "ETFs Are Net Sellers of Intuitive Surgical (ISRG) on Nov. 24",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-intuitive-surgical-110334735.html?.tsrc=rss",
+        "time_published": "2026-11-26 11:03",
         "source": "Finance",
-        "summary": "ETFs bought $67.9 million of Extra Space Storage on Monday, Nov. 23."
+        "summary": "ETFs sold $38.8 million of Intuitive Surgical stock on Tuesday, with 36 funds buying and 14 selling."
       },
       {
-        "title": "JPMorgan Says the Biggest Risk to Stocks in 2027 Is the Fed",
-        "url": "https://247wallst.com/investing/2026/11/25/jpmorgan-says-the-biggest-risk-to-stocks-in-2027-is-the-fed/?.tsrc=rss",
-        "time_published": "2026-11-25 16:27",
-        "source": "247wallst",
-        "summary": "JPMorgan's strategists see a path to a big 2027 rally, but one force could derail it, and the calendar already shows it coming. Can earnings outrun a central bank that refuses to blink?"
+        "title": "ETFs Are Net Sellers of Medtronic (MDT) on Tuesday",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-medtronic-mdt-110331824.html?.tsrc=rss",
+        "time_published": "2026-11-26 11:03",
+        "source": "Finance",
+        "summary": "ETFs sold $39.4 million of Medtronic stock on Tuesday, with 44 funds buying and 13 selling."
       },
       {
-        "title": "What Happens to a $900,000 401(k) by the End of 2027? $1,062,300 in Wall Street\u2019s Best Case, $824,900 in Its Worst",
-        "url": "https://247wallst.com/personal-finance/2026/11/25/what-happens-to-a-900000-401k-by-the-end-of-2027-1062300-in-wall-streets-best-case-824900-in-its-worst/?.tsrc=rss",
-        "time_published": "2026-11-25 15:45",
-        "source": "247wallst",
-        "summary": "Bank of America sees the S&P 500 climbing through 2027, yet one retiree's withdrawals could turn a rosy forecast into a lasting loss. The real damage may come from taxes, Medicare premiums, and the timing of the first sale."
+        "title": "ETFs Are Net Sellers of Merck (MRK) on Nov. 24",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-merck-mrk-110325675.html?.tsrc=rss",
+        "time_published": "2026-11-26 11:03",
+        "source": "Finance",
+        "summary": "ETFs sold $40.2 million of Merck (MRK) in Tuesday's session."
+      },
+      {
+        "title": "ETFs Are Net Sellers of UnitedHealth (UNH) on Nov. 24",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-unitedhealth-unh-110321795.html?.tsrc=rss",
+        "time_published": "2026-11-26 11:03",
+        "source": "Finance",
+        "summary": "UnitedHealth (UNH) saw $42.2 million in net ETF selling on Tuesday, Nov. 24."
+      },
+      {
+        "title": "ETFs Are Net Sellers of General Electric (GE) on Nov. 24",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-general-electric-110314220.html?.tsrc=rss",
+        "time_published": "2026-11-26 11:03",
+        "source": "Finance",
+        "summary": "ETFs sold a net $46.7 million of General Electric (GE) on Tuesday."
       }
     ],
     "oil": [
