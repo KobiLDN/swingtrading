@@ -1,30 +1,24 @@
 window.PRICES_DATA_GBPUSD = {
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "generated": "2026-11-25T16:27:19Z",
-  "date": "2026-11-25",
-  "price": 1.30658,
-  "atr": 0.00658,
-  "atr_pips": 66,
+  "generated": "2026-11-26T16:00:13Z",
+  "date": "2026-11-26",
+  "price": 1.31103,
+  "atr": 0.00638,
+  "atr_pips": 64,
   "pip_label": "pips",
   "pip_mult": 10000,
   "pip_value": 0.0001,
   "decimals": 5,
-  "ema50": 1.32619,
-  "ema200": 1.33781,
-  "rsi": 34.51,
-  "macd_line": -0.007225,
-  "macd_signal": -0.005892,
-  "macd_hist": -0.001333,
+  "ema50": 1.32582,
+  "ema200": 1.33822,
+  "rsi": 38.07,
+  "macd_line": -0.006522,
+  "macd_signal": -0.005945,
+  "macd_hist": -0.000576,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
-    {
-      "date": "2026-11-21",
-      "name": "Doji",
-      "signal": "INDECISION",
-      "strength": 2
-    },
     {
       "date": "2026-11-22",
       "name": "Doji",
@@ -42,18 +36,17 @@ window.PRICES_DATA_GBPUSD = {
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-11-26",
+      "name": "Bearish Engulfing",
+      "signal": "STRONG BEARISH",
+      "strength": 4
     }
   ],
   "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-08-18",
-      "open": 1.35416,
-      "high": 1.35543,
-      "low": 1.35201,
-      "close": 1.35324
-    },
     {
       "date": "2026-08-19",
       "open": 1.35321,
@@ -743,9 +736,16 @@ window.PRICES_DATA_GBPUSD = {
     {
       "date": "2026-11-25",
       "open": 1.31175,
-      "high": 1.31209,
+      "high": 1.31305,
       "low": 1.30459,
-      "close": 1.30658
+      "close": 1.31227
+    },
+    {
+      "date": "2026-11-26",
+      "open": 1.31228,
+      "high": 1.31261,
+      "low": 1.30962,
+      "close": 1.31103
     }
   ]
 };

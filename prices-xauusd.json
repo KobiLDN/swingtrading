@@ -1,21 +1,21 @@
 {
   "symbol": "XAU/USD",
   "slug": "xauusd",
-  "generated": "2026-11-25T16:27:19Z",
-  "date": "2026-11-25",
-  "price": 3459.7,
-  "atr": 86.1,
-  "atr_pips": 86,
+  "generated": "2026-11-26T16:00:14Z",
+  "date": "2026-11-26",
+  "price": 3571.94,
+  "atr": 84.25,
+  "atr_pips": 84,
   "pip_label": "pts",
   "pip_mult": 1,
   "pip_value": 1.0,
   "decimals": 2,
-  "ema50": 3925.91,
-  "ema200": 4301.76,
-  "rsi": 26.57,
-  "macd_line": -137.62835,
-  "macd_signal": -108.100949,
-  "macd_hist": -29.527401,
+  "ema50": 3915.36,
+  "ema200": 4302.59,
+  "rsi": 32.45,
+  "macd_line": -128.813129,
+  "macd_signal": -111.122422,
+  "macd_hist": -17.690708,
   "trend": "STRONG DOWNTREND",
   "divergence": "None",
   "patterns": [
@@ -24,18 +24,17 @@
       "name": "Bullish Engulfing",
       "signal": "STRONG BULLISH",
       "strength": 4
+    },
+    {
+      "date": "2026-11-26",
+      "name": "Bullish Engulfing",
+      "signal": "STRONG BULLISH",
+      "strength": 4
     }
   ],
-  "score": 6,
+  "score": 5,
   "verdict": "WATCH",
   "candles": [
-    {
-      "date": "2026-07-27",
-      "open": 4092.62,
-      "high": 4116.29,
-      "low": 4065.17,
-      "close": 4076.65
-    },
     {
       "date": "2026-07-28",
       "open": 4076.66,
@@ -727,7 +726,14 @@
       "open": 3555.72,
       "high": 3575.65,
       "low": 3426.48,
-      "close": 3459.7
+      "close": 3547.53
+    },
+    {
+      "date": "2026-11-26",
+      "open": 3547.24,
+      "high": 3606.46,
+      "low": 3546.21,
+      "close": 3571.94
     }
   ]
 }
