@@ -1,27 +1,27 @@
 window.ANALYSIS_DATA = {
-  "generated": "2026-11-26T16:45:54Z",
+  "generated": "2026-11-27T16:31:01Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "GBP/USD",
   "slug": "gbpusd",
-  "date": "2026-11-26",
-  "decision": "SELL",
-  "confidence": "MEDIUM",
-  "entry": "1.31103",
-  "stop_loss": "1.31800",
-  "target_1": "1.30500",
-  "target_2": "1.29800",
-  "risk_reward": "1.88 (based on T2)",
+  "date": "2026-11-27",
+  "decision": "WAIT",
+  "confidence": "LOW",
+  "entry": "N/A",
+  "stop_loss": "N/A",
+  "target_1": "N/A",
+  "target_2": "N/A",
+  "risk_reward": "N/A",
   "score": "5/10",
-  "analysis": "The daily chart confirms a strong downtrend with price (1.31103) trading well below both the EMA50 (1.32582) and EMA200 (1.33822). The EMA alignment is bearish, and the price action has consistently respected these levels as resistance during recent rallies. The RSI at 38.07 is neutral but remains below 50, indicating bearish momentum without being oversold, leaving room for further downside. The MACD is bearish with the line below the signal line and a negative histogram, reinforcing the downtrend. No RSI divergence is present, so no early reversal signal exists.\n\nCandlestick patterns over the last five sessions show a mix of Doji, Evening Star, Bullish Engulfing, and Bearish Engulfing. The most recent pattern is a Bearish Engulfing, which aligns with the prevailing downtrend and suggests selling pressure has resumed after a brief consolidation. No clear chart patterns like triangles or double tops/bottoms are evident, but the price is forming a series of lower highs and lower lows, consistent with a trending market.\n\nKey support levels are psychological and technical: 1.3050 (round number and prior minor support), 1.3000 (major psychological level), and 1.2950 (next swing target). Resistance is clustered near 1.3200 (recent swing high), followed by the EMA50 at 1.3258 and the EMA200 at 1.3382. The confluence of bearish indicators\u2014trend, MACD, and the latest candlestick\u2014supports a sell setup. However, the neutral RSI and mixed candlestick history reduce conviction, hence a medium confidence level.\n\nThe best trade is a short entry at the current price, with a stop above the nearest resistance at 1.3180 (just above the recent high) to allow for normal volatility (ATR ~64 pips). Targets are set at 1.3050 (first support) and 1.2980 (2\u00d7 ATR extension). The risk-reward ratio to the second target is favorable at 1.88:1. The signal score remains 5/10 due to the lack of strong oversold or divergence signals, but the trend is clear enough to act.",
-  "invalidation": "N/A",
+  "analysis": "The daily chart of GBP/USD shows a strong downtrend, with price well below both the 50\u2011period EMA (1.3252) and 200\u2011period EMA (1.3370). The price action confirms the bearish EMA alignment, as each rally has been rejected and lower lows continue. However, the recent candlestick patterns are contradictory\u2014the Evening Star and Bearish Engulfing reinforce bearish momentum, while the Bullish Engulfing and Inverted Hammer hint at potential buying pressure near the lows. This indecision is reflected in the neutral RSI (37.19), which is not yet oversold but shows a slight bearish bias. The MACD remains bearish (line below signal, histogram negative), but the histogram value is small, suggesting fading momentum rather than a strong push lower.\n\nNo clear chart patterns such as triangles or flags are evident from the given data. The ATR of 62 pips implies moderate volatility, and the current price is hovering near the psychological 1.3100 support. A break below this level could open the door to 1.3040 (the nearest swing low) and then 1.3000. To the upside, resistance is clustered around 1.3150 (recent intraday high) and the declining 50\u2011EMA at 1.3252. The mixed signals\u2014especially the potential reversal candlesticks alongside a persistent downtrend\u2014create a low\u2011confidence environment. The signal score of 5/10 captures this uncertainty, and no clear advantage exists for either a buy or a sell at current price.\n\nGiven the conflicting evidence, the best course is to wait for a clearer setup. A high\u2011probability short would require a retracement toward a resistance level (e.g., 1.3150 or higher) with bearish confirmation, while a long would necessitate a bullish breakout above 1.3150 with rising RSI and MACD cross. Until then, the risk of a false breakout or a sudden reversal is elevated, making it prudent to remain on the sidelines.",
+  "invalidation": "This wait\u2011and\u2011see stance is invalidated if price breaks and closes above the 50\u2011EMA (1.3252) or if it collapses through 1.3000 with strong momentum, as either move would establish a clear directional bias.",
   "support_levels": [
-    1.305,
-    1.3,
-    1.295
+    1.31,
+    1.304,
+    1.3
   ],
   "resistance_levels": [
+    1.315,
     1.32,
-    1.3258,
-    1.3382
+    1.3252
   ]
 };

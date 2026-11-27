@@ -1,7 +1,14 @@
 window.NEWS_DATA = {
-  "generated": "2026-11-26T16:47:09Z",
+  "generated": "2026-11-27T16:32:26Z",
   "assets": {
     "gbpusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Slips Below 103.86 as EUR/USD, GBP/USD Weigh ECB, BoE",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-064317496.html?.tsrc=rss",
+        "time_published": "2026-11-27 06:43",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY slips below the 103.86 pivot before a near-certain Fed hike as EUR/USD eyes 1.0999 and GBP/USD tests the 1.3131 pivot."
+      },
       {
         "title": "US Dollar Price Forecast: Yields Slide, DXY Eyes 104.08 as EUR/USD, GBP/USD Stall",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-yields-065000519.html?.tsrc=rss",
@@ -50,16 +57,16 @@ window.NEWS_DATA = {
         "time_published": "2026-11-18 07:32",
         "source": "Finance",
         "summary": "US dollar price forecast: DXY tests 103.74 near a 19-month high as Fed officials back more hikes, EUR/USD slips below 1.1000 and GBP/USD holds 1.3174."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Eases From 19-Month High, Can EUR/USD Hold 1.1000 and GBP/USD 1.3174?",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073122110.html?.tsrc=rss",
-        "time_published": "2026-11-17 07:31",
-        "source": "Finance",
-        "summary": "US dollar price forecast: DXY eases from a 19-month high near 103.69 as EUR/USD holds 1.1000 and GBP/USD defends 1.3174 after UK unemployment falls."
       }
     ],
     "eurusd": [
+      {
+        "title": "US Dollar Price Forecast: DXY Slips Below 103.86 as EUR/USD, GBP/USD Weigh ECB, BoE",
+        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-064317496.html?.tsrc=rss",
+        "time_published": "2026-11-27 06:43",
+        "source": "Finance",
+        "summary": "US dollar price forecast: DXY slips below the 103.86 pivot before a near-certain Fed hike as EUR/USD eyes 1.0999 and GBP/USD tests the 1.3131 pivot."
+      },
       {
         "title": "US Dollar Price Forecast: Yields Slide, DXY Eyes 104.08 as EUR/USD, GBP/USD Stall",
         "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-yields-065000519.html?.tsrc=rss",
@@ -108,13 +115,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-19 16:55",
         "source": "Finance",
         "summary": "Bond investors with a hefty risk tolerance might want to invest in 10-year French bonds."
-      },
-      {
-        "title": "US Dollar Price Forecast: DXY Holds 103.76 as Fed Minutes Back Hikes, EUR/USD and GBP/USD Stay Weak",
-        "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-074500491.html?.tsrc=rss",
-        "time_published": "2026-11-19 07:45",
-        "source": "Finance",
-        "summary": "US dollar price forecast: Fed minutes back more hikes as DXY holds 103.76, EUR/USD stays below 1.0982 and GBP/USD sits under its 1.3154 pivot."
       }
     ],
     "xauusd": [],
@@ -169,72 +169,79 @@ window.NEWS_DATA = {
         "summary": "Spot gold was down 3% while spot silver dropped below $50 an ounce for the first time since November 2025."
       },
       {
-        "title": "GLD, SLV Sink To Near 14-Month Lows \u2013 But This Commodities Expert Sees A \u2018Relative Bright Spot\u2019",
-        "url": "https://stocktwits.com/news-articles/markets/equity/gld-slv-sink-to-near-14-month-lows-gold-silver-prices/cNbXzasR9LJ?.tsrc=rss",
-        "time_published": "2026-11-18 10:46",
-        "source": "Stocktwits",
-        "summary": "Gold futures for December 2026 deliveries were down to $3,773.80 per ounce, while silver futures expiring in December declined to $45.68 per ounce."
+        "title": "Silver Prices Exploded 8% Overnight While Wall Street Was Closed for Thanksgiving",
+        "url": "https://247wallst.com/investing/2026/11/27/silver-prices-exploded-8-overnight-while-wall-street-was-closed-for-thanksgiving/?.tsrc=rss",
+        "time_published": "2026-11-27 16:27",
+        "source": "247wallst",
+        "summary": "A thin holiday session sent silver sharply higher while SLV sat frozen on the sidelines. Before anyone calls a bottom, one earlier rally this week and a few stubborn numbers raise a harder question about what Friday's open will reveal."
       }
     ],
     "spx": [
       {
-        "title": "SPDR S&P 500 ETF (SPY) Sells $400.1 Million of Apple on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110357521.html?.tsrc=rss",
-        "time_published": "2026-11-26 11:03",
-        "source": "Finance",
-        "summary": "The $769.73 billion fund sold $4.80 billion across all 503 holdings, with no buys and no new positions."
+        "title": "SoFi\u2019s 500-Stock ETF Doesn\u2019t Weight Strictly by Size. SFY Tilts America\u2019s Biggest Companies Toward Growth",
+        "url": "https://247wallst.com/investing/etf/2026/11/27/sofis-500-stock-etf-doesnt-weight-strictly-by-size-sfy-tilts-americas-biggest-companies-toward-growth/?.tsrc=rss",
+        "time_published": "2026-11-27 15:32",
+        "source": "247wallst",
+        "summary": "Two funds each hold 500 of the largest US companies, yet one quietly bets on growth and charges less to own it. After a rough stretch for tech, the gap between them is getting hard to ignore."
       },
       {
-        "title": "Own Palo Alto Stock? Watch Its Deferred Revenue",
-        "url": "https://www.trefis.com/stock/panw/articles/629187/own-palo-alto-stock-watch-its-deferred-revenue/2026-11-26?.tsrc=rss",
-        "time_published": "2026-11-26 11:15",
-        "source": "Trefis",
-        "summary": "Palo Alto Networks closed at $356.14 on Wednesday, Nov 25, up 0.9%. The SPDR S&P 500 ETF fell 0.3% the same day. On Nov 18, after the market closed, the company reported results. It also said it plans to buy Applied Compute for $4.5 billion, paid in stock. The stock jumped 6.4% the next day. This ar"
+        "title": "Should State Street SPDR S&P 500 ETF Trust (SPY) Be on Your Investing Radar?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-p-500-102002352.html?.tsrc=rss",
+        "time_published": "2026-11-27 10:20",
+        "source": "Finance",
+        "summary": "Style Box ETF report for SPY"
       },
       {
-        "title": "ETFs Are Net Sellers of Thermo Fisher (TMO) on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-thermo-fisher-110336584.html?.tsrc=rss",
-        "time_published": "2026-11-26 11:03",
-        "source": "Finance",
-        "summary": "ETFs sold a net $34.9 million of Thermo Fisher on Tuesday, with 46 funds buying and 10 selling."
+        "title": "Dave Ramsey Is 66 and Owns Zero Bonds. Should Retirees Follow Him?",
+        "url": "https://247wallst.com/personal-finance/2026/11/26/dave-ramsey-is-66-and-owns-zero-bonds-should-retirees-follow-him/?.tsrc=rss",
+        "time_published": "2026-11-26 23:07",
+        "source": "247wallst",
+        "summary": "Dave Ramsey compares bonds to taking Xanax and says the data backs his all-stock portfolio. The numbers do favor him on growth, but one detail about his own finances shows why most retirees can't copy him safely."
       },
       {
-        "title": "ETFs Are Net Sellers of Intuitive Surgical (ISRG) on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-intuitive-surgical-110334735.html?.tsrc=rss",
-        "time_published": "2026-11-26 11:03",
+        "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Technology Stock Rebound",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140653942.html?.tsrc=rss",
+        "time_published": "2026-11-27 14:06",
         "source": "Finance",
-        "summary": "ETFs sold $38.8 million of Intuitive Surgical stock on Tuesday, with 36 funds buying and 14 selling."
+        "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 1.7%, and the actively tra"
       },
       {
-        "title": "ETFs Are Net Sellers of Medtronic (MDT) on Tuesday",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-medtronic-mdt-110331824.html?.tsrc=rss",
-        "time_published": "2026-11-26 11:03",
-        "source": "Finance",
-        "summary": "ETFs sold $39.4 million of Medtronic stock on Tuesday, with 44 funds buying and 13 selling."
+        "title": "JEPI Gets the Attention. JPMorgan\u2019s 0.12% Quality ETF Has Quietly Grown Past $9 Billion",
+        "url": "https://247wallst.com/investing/etf/2026/11/27/jepi-gets-the-attention-jpmorgans-0-12-quality-etf-has-quietly-grown-past-9-billion/?.tsrc=rss",
+        "time_published": "2026-11-27 13:03",
+        "source": "247wallst",
+        "summary": "JEPI hogs the spotlight with retirees, but its overlooked JPMorgan sibling holds Apple, Microsoft, and NVIDIA in a very different way than the S&P 500 does. Here is what it owns, where it stumbles, and who should skip it."
       },
       {
-        "title": "ETFs Are Net Sellers of Merck (MRK) on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-merck-mrk-110325675.html?.tsrc=rss",
-        "time_published": "2026-11-26 11:03",
-        "source": "Finance",
-        "summary": "ETFs sold $40.2 million of Merck (MRK) in Tuesday's session."
+        "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+        "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/?.tsrc=rss",
+        "time_published": "2026-11-27 15:03",
+        "source": "247wallst",
+        "summary": "Tech just endured a brutal November, and a half-day session leaves little time to prove the bounce is real. One signal could show whether the selloff is finally cooling, while tariffs and oil threaten to spoil the party."
       },
       {
-        "title": "ETFs Are Net Sellers of UnitedHealth (UNH) on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-unitedhealth-unh-110321795.html?.tsrc=rss",
-        "time_published": "2026-11-26 11:03",
-        "source": "Finance",
-        "summary": "UnitedHealth (UNH) saw $42.2 million in net ETF selling on Tuesday, Nov. 24."
+        "title": "The Nasdaq Needs Two Huge Days to Dodge Its Worst November Since 2008",
+        "url": "https://247wallst.com/investing/2026/11/27/the-nasdaq-needs-two-huge-days-to-dodge-its-worst-november-since-2008/?.tsrc=rss",
+        "time_published": "2026-11-27 14:52",
+        "source": "247wallst",
+        "summary": "With only two trading sessions left and a holiday rally brewing in futures, the Nasdaq faces a month it hasn't seen in nearly two decades. The real danger may lie in what's driving the selloff, and which popular ETF is most exposed."
       },
       {
-        "title": "ETFs Are Net Sellers of General Electric (GE) on Nov. 24",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-general-electric-110314220.html?.tsrc=rss",
-        "time_published": "2026-11-26 11:03",
+        "title": "Pre-Markets Up Ahead of Shortened Trading Session",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/pre-markets-ahead-shortened-trading-141400040.html?.tsrc=rss",
+        "time_published": "2026-11-27 14:14",
         "source": "Finance",
-        "summary": "ETFs sold a net $46.7 million of General Electric (GE) on Tuesday."
+        "summary": "This is the traditional day when retail shops are finally able to reach profitability for the year, thereby switching from red ink in their ledgers to black."
       }
     ],
     "oil": [
+      {
+        "title": "Sector Update: Energy Stocks Advance Premarket Friday",
+        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-142412429.html?.tsrc=rss",
+        "time_published": "2026-11-27 14:24",
+        "source": "Finance",
+        "summary": "Energy stocks were advancing premarket Friday, with the State Street Energy Select Sector SPDR ETF ("
+      },
       {
         "title": "Sector Update: Energy Stocks Decline Pre-Bell Monday",
         "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-pre-142515698.html?.tsrc=rss",
@@ -255,13 +262,6 @@ window.NEWS_DATA = {
         "time_published": "2026-11-16 14:40",
         "source": "Finance",
         "summary": "Oil prices retreat as supply surplus fears grow, creating potential opportunities for airline, transportation and consumer discretionary ETFs."
-      },
-      {
-        "title": "Sector Update: Energy Stocks Advance Premarket Friday",
-        "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-advance-premarket-142520549.html?.tsrc=rss",
-        "time_published": "2026-11-13 14:25",
-        "source": "Finance",
-        "summary": "Energy stocks were advancing premarket Friday, with the State Street Energy Select Sector SPDR ETF ("
       },
       {
         "title": "Sector Update: Energy Stocks Edge Higher Pre-Bell Wednesday",

@@ -1,9 +1,9 @@
 window.ANALYSIS_DATA_OIL = {
-  "generated": "2026-11-26T16:47:08Z",
+  "generated": "2026-11-27T16:32:25Z",
   "model": "deepseek/deepseek-v4-flash",
   "symbol": "USO",
   "slug": "oil",
-  "date": "2026-11-25",
+  "date": "2026-11-27",
   "decision": "WAIT",
   "confidence": "MEDIUM",
   "entry": "N/A",
@@ -11,17 +11,17 @@ window.ANALYSIS_DATA_OIL = {
   "target_1": "N/A",
   "target_2": "N/A",
   "risk_reward": "N/A",
-  "score": "5/10",
-  "analysis": "The trend is neutral as price (139.89) sits between the EMA50 (146.29) and EMA200 (129.59). The bullish candlestick patterns (Bullish Engulfing and two Morning Stars) suggest a potential short-term reversal, but the EMA structure does not confirm an uptrend. Price remains below the 50-day EMA, indicating that the broader bias is still bearish until a decisive break above that level occurs.  \n\nNo clear chart patterns like triangles or flags are evident from the given data, but the cluster of bullish reversal candles near a potential support zone (around 135-137) could hint at a double bottom if price holds. However, without additional price history, this remains speculative. Key support is the EMA200 at 129.59, with an intermediate level at 134.77 (1 ATR below current price). Resistance is the EMA50 at 146.29, with nearby levels at 145.01 (1 ATR above) and 150.13 (2 ATR above).  \n\nRSI at 43.3 is neutral, not oversold, and MACD remains bearish (line below signal, negative histogram). This divergence between price action (bullish candles) and momentum (bearish MACD) creates conflicting signals. The bullish patterns lack momentum confirmation, making a long entry risky. A short entry would counter the candlestick signals, which is also unfavorable.  \n\nThe single best trade setup is to wait for either a confirmed break above EMA50 (with MACD turning bullish) or a retest of EMA200 support with a bullish reversal. Currently, the risk/reward is unclear, and the 5/10 signal score reflects the mixed technical picture. Patience is advised until one side gains clear dominance.",
-  "invalidation": "If price breaks below the recent low near 135 (or the EMA200 at 129.59), the bullish candlestick patterns would be invalidated, and a bearish continuation would be favored.",
+  "score": "5/10 confirmed",
+  "analysis": "Price at 139.16 sits below the 50 EMA (146.01) but above the 200 EMA (129.34), creating a neutral trend classification. The MACD is bearish with the line below the signal line and a negative histogram, indicating persistent downside momentum. In contrast, the last five candles show three strong bullish reversal patterns (two Morning Stars and a Bullish Engulfing), which often signal a potential bottom or short-term bounce. However, the RSI at 42.56 is neutral and does not confirm oversold exhaustion, further diluting conviction.\n\nThe overall signal score of 5/10 reflects this conflicting evidence \u2014 price action is trying to reverse but momentum indicators have not yet turned. The nearest support is around 135.00 (psychological level just below the current ATR range) and the 200 EMA at 129.34 as major long-term support. On the upside, the 50 EMA at 146.01 is the first strong resistance, followed by 150.00 and 155.00. Without a catalyst (such as a MACD cross or a clear breakout above 140+), the setup lacks confluence.\n\nGiven the mixed signals and the absence of a clear entry trigger, the prudent course is to wait for either a bullish confirmation (e.g., price closing above 142 with rising volume) or a bearish breakdown below 135 that would validate the MACD\u2019s bearish lean. Entering now would rely solely on candlestick patterns, which are not sufficiently supported by the trend or momentum indicators.",
+  "invalidation": "A daily close below 135.00 would cancel the bullish reversal setup and reinforce the bearish MACD signal, likely leading to a test of the 200 EMA near 129.34.",
   "support_levels": [
-    134.77,
-    129.59,
-    124.47
+    135.0,
+    130.0,
+    129.34
   ],
   "resistance_levels": [
-    145.01,
-    146.29,
-    150.13
+    146.01,
+    150.0,
+    155.0
   ]
 };

@@ -1,7 +1,7 @@
 # Last AI Analysis — SPY
 
-**Date:** 2026-11-25
-**Generated:** 2026-11-26T16:46:44Z
+**Date:** 2026-11-27
+**Generated:** 2026-11-27T16:31:58Z
 **Model:** deepseek/deepseek-v4-flash
 
 ---
@@ -10,32 +10,32 @@
 
 | Field | Value |
 |-------|-------|
-| **Decision** | WAIT |
+| **Decision** | SELL |
 | **Confidence** | MEDIUM |
-| **Entry** | N/A |
-| **Stop Loss** | N/A |
-| **Target 1** | N/A |
-| **Target 2** | N/A |
-| **Risk/Reward** | N/A |
-| **Score** | 5/10 |
-| **Support** | 700.0, 685.0, 670.0 |
-| **Resistance** | 730.0, 738.93, 749.97 |
+| **Entry** | 725.77 |
+| **Stop Loss** | 738.00 |
+| **Target 1** | 710.00 |
+| **Target 2** | 695.00 |
+| **Risk/Reward** | 1:1.3 |
+| **Score** | 6/10 |
+| **Support** | 720.0, 710.0, 695.0 |
+| **Resistance** | 737.35, 749.01, 760.0 |
 
 ---
 
 ## Analysis
 
-The daily chart shows a clear bearish bias with price (716.7) trading well below both the 50-period EMA (749.97) and 200-period EMA (738.93). This EMA alignment confirms a sustained downtrend, and the MACD remains bearish with the histogram printing negative values (-2.915). The RSI at 39.83 is neutral but below 50, leaning bearish. Despite these bearish signals, a Morning Star candlestick pattern has formed over the last five candles, indicating a potential short-term reversal or at least a pause in selling pressure. The signal score of 5/10 reflects this conflict between the dominant trend and the bullish reversal pattern.
+The price at 725.77 is decisively below both the EMA 50 (749.01) and EMA 200 (737.35), strongly confirming the BEARISH BIAS. The EMAs are stacked in a bearish configuration (50 above 200), and the price is trading in the "basement" below them, which typically signals a healthy downtrend with dynamic resistance overhead. The ATR of 15.17 provides a clear volatility context, making a 15-point move a standard deviation event.
 
-No additional chart patterns like triangles or flags are directly inferable from the given data, but the Morning Star itself suggests a possible bottoming attempt near current levels. Key support is likely around the psychological 700 mark, followed by 685 and 670 based on ATR-derived moves. Resistance is first at 730 (round number), then the 200-EMA at 738.93, and finally the 50-EMA at 749.97. The RSI and MACD are in agreement with the bearish trend, but the Morning Star introduces a contrarian signal that requires confirmation.
+The candlestick sequence of a Morning Star followed by a Doji is the critical nuance here. The Morning Star suggests a sharp rejection of lower prices, but the subsequent Doji indicates that bounce has stalled into indecision. This forms a textbook bear flag continuation pattern. The market is coiling for the next move, and given the bearish MACD and EMA structure, the path of least resistance is to the downside. The RSI at 43.98 is neutral, not oversold, confirming there is plenty of room for the downtrend to resume without being technically exhausted.
 
-Given the strong bearish trend and the lack of oversold RSI (not below 30), the Morning Star alone is insufficient to justify a long entry. A sell setup would be premature without a bounce to a resistance level. The prudent approach is to wait for price action to resolve the conflict. A confirmed break above the Morning Star’s high (likely near 720–725) would strengthen the case for a short-term long, while a failure to hold above 700 would reinforce the downtrend. Until then, the risk/reward is unclear, and the best trade is no trade.
+The MACD is firmly bearish (line below signal, histogram at -1.706), which aligns perfectly with the bearish trend and the bear flag interpretation. The lack of RSI divergence confirms the MACD and price are in sync, with no hidden bullish momentum building beneath the surface. The confluence of the bearish MACD and the bear
 
 ---
 
 ## Invalidation
 
-A break below the recent swing low near 700 would cancel any bullish reversal potential and confirm the continuation of the bearish trend.
+N/A
 
 ---
 
